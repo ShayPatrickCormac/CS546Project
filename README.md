@@ -8,7 +8,7 @@
 5. Mingzhi Li (mingzhi2)
 
 
-## Github Address
+## Github Repository
 
 https://github.com/ShayPatrickCormac/CS546Project
 
@@ -37,6 +37,14 @@ The proposed solution includes data collection from trustworthy sources, updatin
 4. Database Ontology - Zijian Huang, Kaikai Yang
 5. Baseline model through IR approach - Zijian Huang, Kaikai Yang
 6. QA generation - Mingzhi Li, Ray Fang, Zijian Huang
+
+### Milestone 2 (To-do):
+
+1. Continue web scraping & dataset expansion - Yifan Jiang, Ray Fang
+2. QA generation for updated data - MIngzhi Li, Ray Fang
+3. QA system setup & fine-tuning - Zijian Huang, Kaikai Yang, MIngzhi Li
+4. QA system evaluation & refining - Yifan Jiang, Ray Fang, Kaikai Yang
+
 
 ## Data Sources
 
