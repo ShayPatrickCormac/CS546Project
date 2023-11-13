@@ -29,7 +29,7 @@ The proposed solution includes data collection from trustworthy sources, updatin
 
 ## Milestones
 
-### Milestone 1:
+### Milestone 1 (Midterm):
 
 1. Initial dataset retrieval & adaptation - Mingzhi Li, Ray Fang, Yifan Jiang
 2. Data expansion methodology - Yifan Jiang, Ray Fang
