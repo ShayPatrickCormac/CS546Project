@@ -1,0 +1,37 @@
+Overview
+    A quartz pillar[a] is a variant of the block of quartz, obtained through crafting.
+
+Obtaining
+  Breaking
+    Quartz pillars can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Quartz Pillar
+    Hardness,0.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,4
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Crafting
+    Ingredients,Crafting recipe
+    Block of Quartz,"[[None, None, None], [None, 'Block of Quartz', None], [None, 'Block of Quartz', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Block of Quartz,
+
+  Trading
+    Master-level mason villagers sell a quartz pillar for an emerald.
+
+Usage
+    Quartz pillars can be rotated sideways.
+
+  Crafting ingredient
+  Note Blocks
+    Quartz pillars can be placed under note blocks to produce "bass drum" sounds.
+

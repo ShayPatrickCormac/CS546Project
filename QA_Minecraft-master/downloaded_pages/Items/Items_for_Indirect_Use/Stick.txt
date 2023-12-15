@@ -1,0 +1,99 @@
+Overview
+    A stick is an item used for crafting many tools and items.
+
+Obtaining
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Stick,Any Planks,"[[None, None, None], [None, 'Oak Planks', None], [None, 'Oak Planks', None]]"
+    Stick,Bamboo,"[[None, None, None], [None, 'Bamboo', None], [None, 'Bamboo', None]]"
+
+  Fishing
+    Sticks can be obtained as a "junk" item while fishing.
+
+  Block loot
+    Dead bushes drop between 0–2 sticks when destroyed. All leaf types have a 2% chance to drop between 1-2 sticks when broken. Using a tool with Fortune increase these chances to 2.2%, 2.5%, and 3.3% for Fortune I, II, and III respectively.
+
+  Entity loot
+    Witches have a chance of dropping 0–6 sticks upon death. This is increased by 3 per level of Looting, for a chance of 0-15 sticks. Boats and boats with chests drop 2 sticks when falling from exactly 12, 13, 49, 51, 111, 114, 198, 202, 310, or 315 blocks.[1].
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Stick,Bonus chest,Chest,1–12,"67.3% { ""item"": ""Stick"", ""stacksize"": ""1–12"", ""chance"": 0.6731779510015179, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Desert well,Suspicious sand,1,"12.5% { ""item"": ""Stick"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    Village,Cartographer's chest,1–2,"26.3% { ""item"": ""Stick"", ""stacksize"": ""1–2"", ""chance"": 0.26288199999999995, ""structure"": ""Village"", ""container"": ""Cartographer's chest"" }"
+    Toolsmith's chest,1–3,"90% { ""item"": ""Stick"", ""stacksize"": ""1–3"", ""chance"": 0.8995994095410672, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Fletcher's chest,1–3,"55.8% { ""item"": ""Stick"", ""stacksize"": ""1–3"", ""chance"": 0.5583399765985125, ""structure"": ""Village"", ""container"": ""Fletcher's chest"" }"
+    Upcoming Java Edition
+    Stick,Trial Chambers,Entrance chest,2–5,"31% { ""item"": ""Stick"", ""stacksize"": ""2–5"", ""chance"": 0.3099815672153635, ""structure"": ""Trial Chambers"", ""container"": ""Entrance chest"" }"
+    Bedrock Edition
+    Stick,Bonus chest,Chest,1–12,"100% { ""item"": ""Stick"", ""stacksize"": ""1–12"", ""chance"": 1, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Desert well,Suspicious sand,1,"12.5% { ""item"": ""Stick"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    Village,Fletcher's chest,1–3,"55.8% { ""item"": ""Stick"", ""stacksize"": ""1–3"", ""chance"": 0.5583399765985125, ""structure"": ""Village"", ""container"": ""Fletcher's chest"" }"
+    Toolsmith's chest,1–3,"90% { ""item"": ""Stick"", ""stacksize"": ""1–3"", ""chance"": 0.8995994095410672, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Activator Rail,Iron Ingot + Stick + Redstone Torch,"[['Iron Ingot', '', 'Iron Ingot'], ['Iron Ingot', 'Redstone Torch', 'Iron Ingot'], ['Iron Ingot', '', 'Iron Ingot']]",
+    Armor Stand,Stick + Smooth Stone Slab,"[['', '', ''], [None, '', None], ['', 'Smooth Stone Slab', '']]",
+    Arrow,Flint + Stick + Feather,"[[None, 'Flint', None], [None, '', None], [None, 'Feather', None]]",
+    Axe,Any Planks + Stick,"[['Oak Planks', 'Oak Planks', None], ['Oak Planks', '', None], [None, '', None]]",The planks do not need to match.
+    Axe,Any Planks or Iron Ingot or Gold Ingot or Diamond + Stick,"[['Oak Planks', 'Oak Planks', None], ['Oak Planks', '', None], [None, '', None]]",
+    Banner,Matching Wool + Stick,"[['White Wool', 'White Wool', 'White Wool'], ['White Wool', 'White Wool', 'White Wool'], [None, '', None]]","Once the banner is crafted, its base color cannot be changed.‌ [ Java Edition only ]"
+    Bow,Stick + String,"[[None, '', 'String'], ['', None, 'String'], [None, '', 'String']]",
+    Brush,Feather + Copper Ingot + Stick,"[[None, 'Feather', None], [None, 'Copper Ingot', None], [None, '', None]]",
+    Campfire,Stick + Coal + Any Log or Stem or Any Stripped Log or Stem or Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, '', None], ['', 'Coal', ''], ['Oak Log', 'Oak Log', 'Oak Log']]",
+    Campfire,Stick + Charcoal + Any Log or Stem or Any Stripped Log or Stem or Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, '', None], ['', 'Charcoal', ''], ['Oak Log', 'Oak Log', 'Oak Log']]",
+    Crossbow,Stick + Iron Ingot + String + Tripwire Hook,"[['', 'Iron Ingot', ''], ['String', 'Tripwire Hook', 'String'], [None, '', None]]",
+    Diamond Pickaxe,Diamond + Stick,"[['Diamond', 'Diamond', 'Diamond'], [None, '', None], [None, '', None]]",
+    Fishing Rod,Stick + String,"[[None, None, ''], [None, '', 'String'], ['', None, 'String']]",
+    Golden Pickaxe,Gold Ingot + Stick,"[['Gold Ingot', 'Gold Ingot', 'Gold Ingot'], [None, '', None], [None, '', None]]",
+    Grindstone,Stick + Stone Slab + Any Planks,"[['', 'Stone Slab', ''], ['Oak Planks', None, 'Oak Planks'], [None, None, None]]","In Bedrock Edition, grindstone recipes built with crimson, warped, or mangrove planks can use a slab of almost any of the stone types including sandstone, quartz, and bricks."
+    Hoe,Any Planks or Iron Ingot or Gold Ingot or Diamond + Stick,"[['Oak Planks', 'Oak Planks', None], [None, '', None], [None, '', None]]",
+    Iron Pickaxe,Iron Ingot + Stick,"[['Iron Ingot', 'Iron Ingot', 'Iron Ingot'], [None, '', None], [None, '', None]]",
+    Item Frame,Stick + Leather,"[['', '', ''], ['', 'Leather', ''], ['', '', '']]",
+    Ladder,Stick,"[['', None, ''], ['', '', ''], ['', None, '']]",
+    Lever,Stick + Cobblestone,"[[None, None, None], [None, '', None], [None, 'Cobblestone', None]]",
+    Painting,Stick + Any Wool,"[['', '', ''], ['', 'White Wool', ''], ['', '', '']]",
+    Powered Rail,Gold Ingot + Stick + Redstone Dust,"[['Gold Ingot', None, 'Gold Ingot'], ['Gold Ingot', '', 'Gold Ingot'], ['Gold Ingot', 'Redstone Dust', 'Gold Ingot']]",
+    Rail,Iron Ingot + Stick,"[['Iron Ingot', None, 'Iron Ingot'], ['Iron Ingot', '', 'Iron Ingot'], ['Iron Ingot', None, 'Iron Ingot']]",
+    Redstone Torch,Redstone Dust + Stick,"[[None, None, None], [None, 'Redstone Dust', None], [None, '', None]]",
+    Shovel,Any Planks + Stick,"[[None, 'Oak Planks', None], [None, '', None], [None, '', None]]",The planks do not need to match.
+    Shovels,Any Planks or Iron Ingot or Gold Ingot or Diamond + Stick,"[[None, 'Oak Planks', None], [None, '', None], [None, '', None]]",
+    Sign,Matching Planks + Stick,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], ['Oak Planks', 'Oak Planks', 'Oak Planks'], [None, '', None]]",
+    Soul Campfire,Stick + Soul Soil + Any Log or Stem or Any Stripped Log or Stem or Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, '', None], ['', 'Soul Soil', ''], ['Oak Log', 'Oak Log', 'Oak Log']]",
+    Soul Campfire,Stick + Soul Sand + Any Log or Stem or Any Stripped Log or Stem or Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, '', None], ['', 'Soul Sand', ''], ['Oak Log', 'Oak Log', 'Oak Log']]",
+    Soul Torch,Coal or Charcoal + Stick + Soul Soil or Soul Sand,"[[None, 'Coal', None], [None, '', None], [None, 'Soul Soil', None]]",
+    Sparkler,Chloride + Magnesium + Stick,"[[None, 'Calcium Chloride', None], [None, 'Magnesium', None], [None, '', None]]",Calcium Chloride: Orange Cerium Chloride: Blue Mercuric Chloride: Red Potassium Chloride: Purple Tungsten Chloride: Green ‌ [ Bedrock Edition and Minecraft Education only ]
+    Stone Axe,Any stone-tier block + Stick,"[['Cobblestone', 'Cobblestone', None], ['Cobblestone', '', None], [None, '', None]]",Can use cobblestone and its other variants interchangeably.
+    Stone Hoe,Any stone-tier block + Stick,"[['Cobblestone', 'Cobblestone', None], [None, '', None], [None, '', None]]",Can use cobblestone and its other variants interchangeably.
+    Stone Pickaxe,Any stone-tier block + Stick,"[['Cobblestone', 'Cobblestone', 'Cobblestone'], [None, '', None], [None, '', None]]",Can use cobblestone and its other variants interchangeably.
+    Stone Shovel,Any stone-tier block + Stick,"[[None, 'Cobblestone', None], [None, '', None], [None, '', None]]",Can use any variant of cobblestone
+    Stone Sword,Any stone-tier block + Stick,"[[None, 'Cobblestone', None], [None, 'Cobblestone', None], [None, '', None]]",Can use cobblestone and its other variants interchangeably.
+    Swords,Any Planks or Iron Ingot or Gold Ingot or Diamond + Stick,"[[None, 'Oak Planks', None], [None, 'Oak Planks', None], [None, '', None]]",
+    Torch,Coal or Charcoal + Stick,"[[None, None, None], [None, 'Coal', None], [None, '', None]]",
+    Tripwire Hook,Iron Ingot + Stick + Any Planks,"[[None, 'Iron Ingot', None], [None, '', None], [None, 'Oak Planks', None]]",
+    Wood Fence Gate,Matching Planks + Stick,"[[None, None, None], ['', 'Oak Planks', ''], ['', 'Oak Planks', '']]",
+    Wood Fence,Matching Planks + Stick,"[[None, None, None], ['Oak Planks', '', 'Oak Planks'], ['Oak Planks', '', 'Oak Planks']]",
+    Wooden Pickaxe,Any Planks + Stick,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], [None, '', None], [None, '', None]]",
+
+  Fuel
+    When used as a furnace fuel, a stick smelts 0.5 items.
+
+  Trading
+    Novice-level fletcher villagers have a 2⁄3 chance to buy 32 sticks for an emerald in Java Edition, and they always offer the trade in Bedrock Edition.
+
+Video
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Stick,stick,Item,item.minecraft.stick
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Stick,stick,320,Item,item.stick.name
+

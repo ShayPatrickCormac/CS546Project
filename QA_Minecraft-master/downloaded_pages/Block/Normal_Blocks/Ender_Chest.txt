@@ -1,0 +1,41 @@
+Overview
+    Ender chests are a type of chest whose contents are exclusive to each player, and can be accessed from anywhere in the world.
+
+Obtaining
+  Breaking
+    Ender chests require a pickaxe to be mined. Otherwise, they drop nothing. Unless the pickaxe is enchanted with Silk Touch, the ender chest drops only 8 obsidian with no eyes of ender. Any pickaxe allows the ender chest to drop either itself or 8 obsidian, despite obsidian itself only being obtainable with a diamond or netherite pickaxe.[1]
+
+    Block,Ender Chest
+    Hardness,22.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,112.5
+    Wooden,16.9
+    Stone,8.45
+    Iron,5.65
+    Diamond,4.25
+    Netherite,3.75
+    Golden,2.85
+
+  Natural generation
+    Ender chests naturally generate alongside a chest in certain End city treasure rooms.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Obsidian + Eye of Ender,"[['Obsidian', 'Obsidian', 'Obsidian'], ['Obsidian', 'Eye of Ender', 'Obsidian'], ['Obsidian', 'Obsidian', 'Obsidian']]"
+
+Usage
+    Ender chests can be opened by pressing the use control. If a solid block is placed above an ender chest, it cannot be opened. Ender chests can be used like normal chests, except all ender chests in the world are interconnected, including in different dimensions. The ender chest's inventory is also separate for each player; consequently, items stored in an ender chest cannot be seen or taken by other players. Also, items stored inside of an ender chest retain even if the player dies. Even if every single ender chest is destroyed in the world, the items inside the ender chest are still secure, and can be retrieved by placing another ender chest. Because of this player-specific property, ender chests are extremely useful on multiplayer servers to secure player's most valuable items. Donkeys, mules, and llamas cannot be equipped with ender chests; they support only normal chests. Ender chests contain 27 slots for storage and can be placed next to other ender chests without joining; they cannot be combined into double chests. It is possible to greatly increase the space of an ender chest by pairing it with shulker boxes (i.e. filling the shulker boxes with desired items, then placing them inside the ender chest). Placing 27 shulker boxes in the ender chest will increase the storage space to 729 slots. Ender chests do not interact with hoppers, droppers, or comparators. Despite being comprised largely of obsidian, they are not immune to destruction by the ender dragon.[2]
+
+  Light source
+    Ender chests emit a light level of 7.
+
+  Note Blocks
+    Ender chests can be placed under note blocks to produce "bass drum" sounds.
+
+  Piglins
+    Piglins become hostile toward players who open or mine an ender chest.[3]
+
+  Piston interactivity
+    Ender chests cannot be pushed by pistons. They also cannot be pushed nor pulled by sticky pistons.
+

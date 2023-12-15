@@ -1,0 +1,201 @@
+Overview
+    An observer is a block that emits a quick redstone pulse from its back when the block or fluid directly in front of its "face" experiences a change.
+
+Obtaining
+  Breaking
+    An observer requires a pickaxe to be mined. When mined without a pickaxe, it drops nothing.
+
+    Block,Observer
+    Hardness,3
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,15
+    Wooden,2.25
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,0.4
+
+  Crafting
+    Ingredients,Crafting recipe
+    Cobblestone + Redstone Dust + Nether Quartz,"[['Cobblestone', 'Cobblestone', 'Cobblestone'], ['Redstone Dust', 'Redstone Dust', 'Nether Quartz'], ['Cobblestone', 'Cobblestone', 'Cobblestone']]"
+
+Usage
+    An observer is placed similarly to a piston. It observes the block that it is placed against. The texture of the detecting side is that of an observing face. As observers can detect the state of other observers, placing two adjacent observers, each watching the other, can make a fast and compact redstone clock. They send out a pulse.
+
+  Behavior
+    In Java Edition, an observer detects changes in its target's block states, or the breaking or placing of a block (i.e. changes in its block state, but not its block entity data). This means that changes like the age of crops can be detected because they are part of the block states. In Bedrock Edition, an observer acts as a block update detector and detects anything that causes a block update. The causes and propagation of block updates are different between Java Edition and Bedrock Edition. As a result, each can detect some kinds of changes that the other cannot. See the table below for a comparison. When it detects something, the observer emits a redstone pulse of strong power at level 15 for 2 game ticks (1 redstone tick). The pulse can power redstone dust, a redstone comparator, a redstone repeater, or any mechanism component located at its opposite end. In Java Edition, the pulse is emitted with a delay of 1 redstone tick. In Bedrock Edition, it is supposed to be delayed by 1 tick as well but is actually delayed 2 redstone ticks due to MCPE-15793, a bug causing redstone delays to be incorrect when components are activated by world changes (which, in the case of the observer in Bedrock Edition, is the only way it can be activated), as opposed to pure redstone components ticking. Its timing can also be incorrect due to MCPE-73342. It also counts as a block update when the observer itself is moved by a piston. When this happens, an observer emits a pulse after being pushed or pulled, but not beforehand. This enables them to be used in flying machines. Observers behave as both opaque and transparent blocks: they block light and allow mob spawning on top, but do not block opening chests below, do not cut off redstone wire, and cannot conduct redstone power. Because observers in Java Edition detect changes in the block state, and not block updates, they can detect a wider range of phenomena than a block update detector (BUD) circuit in Bedrock Edition can detect (as some block state changes don't cause block updates). Observers in Bedrock Edition do detect block updates but not block state changes, and so they detect the exact same things that any other BUD would detect in that edition.
+
+  Limitations
+    Change in block state,Detected in
+    Bedrock Edition,Java Edition
+    "A block or a fluid being placed or broken in any way; either directly by player , enderman , or ravager or through: Placing/breaking two-block-tall/wide blocks Snow golem or snowfall creating snow Snow melting Dispenser placing carved pumpkin , wither skull , or shulker box Creating/removing fluid using player or dispenser Placing scaffolding on top/side of another scaffolding Entities on fire touching powder snow , causing it to melt Block being broken by fluid, (sticky) piston , explosion , or opacity , [1] Inconsonant light level [2] [3] Flammable blocks getting burned up by fire or lava A falling block turn into a falling block entity and vice versa Cactus breaking by placing a solid block next to it Villager planting and destroying crops Zombie breaking doors Leaves decaying Chorus plant break due to their invaild placement [4] Using up a damaged anvil , causing the damaged anvil to break Eating all the cake Water touching a sponge , causing the area near the sponge to be removed and create a block update to the water Place the block into the replaceable block, replace a block by left-clicking and right-clicking at the same time; A wither rose block being planted after wither kills a mob if the ground is grass block , dirt , coarse dirt , moss block , mud , soul sand , soul soil ‌ [ JE only ] or netherrack Left-clicking the dragon egg , causing it to teleport and create a block update at the starting teleporting point and the teleporting destination of the dragon egg Boat and boat with chest breaking a lily pad Turtle laying turtle egg (s), trampling an eggs=1 turtle egg or turtle egg(s) hatching into baby turtle(s) Damaging a silverfish , causing a nearby infested block turn into silverfish and create a block update Frog laying frogspawn or frogspawn hatch into tadpole Thrown trident breaks pointed dripstone Sniffer egg hatch into snifflet The upper part of pitcher crop spawn when apply bone meal on the pitcher crop that have block state age is 2",Yes,Yes
+    Water being inserted to or removed from a block that can be waterlogged .,Yes,Yes
+    "A water (or lava , if lavaSourceConversion is set to true ‌ [ JE only ] ) source block being created by having 2 water source blocks unite to each other.",Yes,Yes
+    "Fire being ignited or extinguished in any way; either directly by player or through: A dispenser Fire spreading to flammable blocks next to lava or fire Fireball from a dispenser, a ghast or a blaze Lightning A bed or a respawn anchor exploding Place an end crystal on bedrock or obsidian in the End Being extinguished by fluid , splash water bottle , lingering water bottle or naturally",Yes,Yes
+    A fire is turned into a soul fire (but not vice versa).,Yes,Yes
+    "Fluid or powder snow being placed in or removed from a cauldron or the level of the water /lava/powder snow cauldron changing in any way, for example using bucket (empty, water, lava , powder snow), bottle , water bottle , rain , snowfall , pointed dripstone , burning entity on water/powder snow cauldron.",Yes,Yes
+    "A block being replaced by / setblock , / fill or / clone commands.",Yes,Yes
+    Change block state of block using debug stick .‌ [ Java Edition only ],N/A,No
+    A nether portal being created.,Yes,No [5]
+    A nether portal being destroyed.,No [6],Yes
+    An end portal being created.,No,No
+    An end portal being destroyed.,No,Yes
+    "The creation of an iron golem , a snow golem or a wither .",Yes,Yes
+    A (sticky) piston (head) extending or retracting.,Yes,Yes
+    A block being pushed or pulled by a (sticky) piston ; either directly or stuck to slime block or honey block moved by the piston. [7],Yes,Yes
+    A monster spawner block activating.,No,No
+    The mob spawn of a monster spawner being changed using a spawn egg .,No,No
+    "A chest , a trapped chest or an ender chest opening or closing.",No,No
+    A shulker box opening or closing.,No,Yes
+    A barrel opening or closing.,Yes,Yes
+    The inventory of a block that a comparator can measure as a container changing.,No,No
+    The crack stage of an anvil changing after use.,Yes,Yes
+    A snow layer being added into snow by player or by snowfall . [8],Yes,Yes
+    A beacon activating or deactivating.,Yes,No
+    A command block producing a success.,No,No
+    The unconditional/conditional stage of a command block changing.,Yes,Yes
+    The impulse/chain/repeat stage of a command block changing.,Yes,Yes
+    A piece of a cake or a cake with candles changing.,Yes,Yes
+    A hopper being activated or deactivated. (Turning the hopper on/off),Yes,Yes
+    Dry farmland changing between its six dry-looking hydration stages.,No,Yes
+    Farmland changing between dry and humid or vice versa.,Yes,Yes
+    A dispenser or a dropper activating or deactivating.,Yes,Yes
+    "A dispenser , dropper , piston or sticky piston changing quasi-connectivity state. [9] ‌ [ Java Edition only ]",N/A,Yes
+    A (deepslate) redstone ore block activating or deactivating.,Yes,Yes
+    Grass block or mycelium turning to dirt or nylium to netherrack after being spread using bone meal or grass block or mycelium decaying to dirt or nylium into netherrack.,Yes,Yes
+    Coarse dirt or rooted dirt converting into dirt through the use of a hoe .,Yes,Yes
+    "Grass block , dirt , or dirt path converting into farmland through the use of a hoe .",Yes,Yes
+    "Grass block , podzol , mycelium , dirt , coarse dirt , or rooted dirt converting into dirt path through the use of a shovel .",Yes,Yes
+    Farmland or dirt path converting into dirt.,Yes,Yes
+    Concrete powder converting into concrete through contact with water .,Yes,Yes
+    A sea pickle being added into a sea pickle.,Yes,Yes
+    A pink petal being added into a pink petal .,Yes,Yes
+    A turtle egg being added into a turtle egg.,Yes,Yes
+    A turtle egg being removed from a turtle egg by breaking or trampling.,Yes,Yes
+    The hatch block state of a turtle egg and a sniffer egg changing.,Yes,Yes
+    "A stone , cobblestone , deepslate or any stone brick variant block being turned into an infested block by silverfish .",Yes,Yes
+    A double slab being created by adding a slab into another slab.,Yes,Yes
+    Ice melting into water or water freezing into ice,Yes,Yes
+    Water freezing into frosted ice through the use of Frost Walker or frosted ice melting into water,Yes,Yes
+    Turn pumpkin into carved pumpkin using shears .,Yes,Yes
+    Turn logs / woods / stems / hyphae / block of bamboo into stripped logs /woods/stems/hyphae/ block of stripped bamboo using axes .,Yes,Yes
+    The stage of a sapling or bamboo changing.,Yes,Yes
+    "The age of mangrove propagules , bamboo , wheat , carrots , potatoes , beetroots , melon stem , pumpkin stem , nether wart , cocoa , sweet berry bush , chorus flower , cactus , sugar cane , kelp , weeping vines , twisting vines , cave vines , fire , frosted ice , torchflower crop , or pitcher crop changing.",Yes,Yes
+    A torchflower crop turning into a torchflower .,Yes,Yes
+    Fluid flowing into the empty space to or draining from a block. [10],Yes,Yes
+    "Fluid , light block , or composter level changing.",Yes,Yes
+    (Flowing) water turning into stone through contact with lava .,Yes,Yes
+    Flowing lava turning into cobblestone through contact with water.,Yes,Yes
+    Lava turning into obsidian through contact with water.,Yes,Yes
+    (Flowing) lava turning into basalt through contact with soul soil and blue ice .,Yes,Yes
+    Water turning into bubble column or vice versa.,Yes,Yes
+    Upward bubble column turning into whirlpool bubble column or vice versa.,Yes,Yes
+    An eye of ender being inserted into an end portal frame .,Yes,Yes
+    Player or villager sleeping/waking up in a bed .,Yes,Yes
+    "A grass block , a mycelium or a podzol block becoming snowy or not snowy.",Yes,Yes
+    Text in a sign or a hanging sign being edited.,Yes,No
+    A dye or glow being applied to a sign or a hanging sign or removed from it.,Yes,No
+    Waxing a sign or a hanging sign using a honeycomb .,Yes,No
+    The mode of a structure block or a comparator changing.,Yes,Yes
+    "A grass block , grass ‌ [ BE only ] or fern ‌ [ BE only ] being grazed by a sheep .",Yes,Yes
+    A carrot crop being eaten by a rabbit .,N/A [11],Yes
+    A button being pressed or returning to inactive state.,Yes,Yes
+    A pressure plate or the detector rail activating or returning to inactive state.,Yes,Yes
+    "The power of a weighted pressure plate , redstone wire , daylight detector or target changing.",Yes,Yes
+    A lever being flicked.,Yes,Yes
+    A redstone lamp or a redstone torch lighting up or turning off.,Yes,Yes
+    The mode of daylight detector being changed.,Yes,Yes
+    A TNT igniting.,Yes,Yes
+    Coral / coral block / coral fan converting into dead coral / coral block / coral fan .,Yes [12],Yes
+    A sponge turning into a wet sponge .,Yes,Yes
+    A wet sponge drying into a sponge in the Nether . [13],Yes,N/A
+    "A door being opened or closed by a player , a villager , a piglin , a piglin brute , a vindicator ‌ [ JE only ] , a wandering trader ‌ [ BE only ] or redstone .",Yes,Yes
+    A trapdoor being opened or closed by a player or redstone .,Yes,Yes
+    A fence gate being opened or closed by a player or redstone .,Yes,Yes
+    The in_wall block state of a fence gate changing.,Yes,Yes
+    "A furnace , a blast furnace or a smoker lighting up or turning off.",Yes,Yes
+    The distance of leaves or a scaffolding changing.,Yes,Yes
+    The bottom block state of a scaffolding changing.,Yes,Yes
+    A potion being moved in or out of a brewing stand .,Yes,Yes
+    Book and quill or written book being moved in or out of a lectern .,Yes,Yes
+    The note of a note block being changed.,No,Yes
+    A note block being left-clicked in Survival mode.,No,No
+    The instrument block state of a note block changing.,No,Yes
+    "A music disc being inserted to or removed from a jukebox by player , hopper , or minecart with hopper .",No,Yes
+    A redstone repeater locking or unlocking.,Yes,Yes
+    The delay of a redstone repeater being changed.,Yes,Yes
+    "A redstone repeater , a redstone comparator , an observer, a note block , a lectern , a lightning rod , an activator rail , a powered rail , a sculk sensor [n 1] , a calibrated sculk sensor [n 1] , a tripwire , or a tripwire hook activating or deactivating.",Yes,Yes
+    A tripwire or a tripwire hook attaching or detaching.,Yes,Yes
+    The disarmed ‌ [ JE only ] or disarmed_bit ‌ [ BE only ] block state of a tripwire changing. [14],N/A,N/A
+    Sculk shrieker starting shrieking.,No [15],Yes
+    Sculk shrieker stopping shrieking.,Yes,Yes
+    Sculk catalyst blooming or unblooming.,Yes,Yes
+    A dragon head or a piglin head activating or deactivating.,Yes,No
+    A conduit activating or deactivating. [16],N/A,N/A
+    "An item frame being placed or an item being added to, rotated in or removed from an item frame.",Yes,No
+    Something being teleported by an end gateway .,Yes,No
+    An item being inserted to or removed from a flower pot .,Yes,Yes
+    "The shape or rotation of walls , fences , iron bars , glass panes , stairs , tripwire , redstone , vines , mushroom blocks , mushroom stem , fire , all type of rails , glow lichen , sculk vein , pointed dripstone , or chorus plant changing.",Yes,Yes
+    The top block state of the walls changing.,Yes,Yes
+    A melon / pumpkin created from a melon stem/pumpkin stem.,Yes,Yes
+    The stem of a melon or pumpkin attaching or detaching.,Yes [17],Yes
+    Kelp / weeping vines / twisting vines / cave vines turning into a kelp / weeping vines / twisting vines / cave vines plant or vice versa.,No,Yes
+    The berries block state of the cave vines (plant) changing.,No,Yes
+    A campfire being lit or extinguished.,Yes,Yes
+    Food being cooked or popping out of a campfire.,Yes,No
+    A hay bale being placed or removed below a campfire.,No,Yes
+    Glowstone being added into a respawn anchor .,No,Yes
+    A respawn anchor being used.,No,Yes
+    A lodestone being used.,No,No
+    "Oxidation level of unwaxed copper or cut copper block, slab or stairs changing.",Yes,Yes
+    "A copper or cut copper block, slab or stairs being waxed or unwaxed.",Yes,Yes
+    Grass / fern / seagrass turning into tall grass / large fern / tall seagrass after bone meal is used on it.,Yes,Yes
+    "Cactus , sugar cane , bamboo , bamboo shoot , vines , weeping vines , twisting vines , kelp , cave vines , pointed dripstone or chorus flower growing.",No,Yes
+    Chorus flower growing or leaving a chorus plant behind and causing a block update to that.,Yes,Yes
+    An amethyst cluster growing.,Yes,Yes
+    A bamboo shoot turning into bamboo .,Yes,Yes
+    The leaves block state of bamboo changing.,Yes,Yes
+    Mushroom spreading.,No,Yes
+    flower 1-block-tall flowers spreading after bone meal is used on one.‌ [ Bedrock Edition only ],No,N/A
+    Glow lichen spreading after bone meal is used on one.,No,Yes
+    Moss blocks spreading after bone meal is used on one.,No,Yes
+    A big dripleaf increasing or decreasing its tilt.,Yes,Yes
+    A big dripleaf turning into a big dripleaf stem .,Yes,Yes
+    A big dripleaf growing after bone meal is used on it.,No,Yes
+    A small dripleaf turning into a big dripleaf after bone meal is used on it.,Yes,Yes
+    Hanging roots being created underneath rooted dirt after bone meal is used on it.,Yes,Yes
+    A hanging mangrove propagule being created underneath mangrove leaves after bone meal is used on it.,No,Yes
+    The number of sea pickle (s) changing after bone meal is used on a coral block .,Yes,Yes
+    A sea pickle being created after bone meal is used on a coral block .{{only,N/A [18],Yes
+    Using bone meal on pink petals that do not already have 4 petals.,Yes,Yes
+    A sapling or a propagule turning into a tree .,Yes,Yes
+    A mushroom turning into a huge mushroom after bone meal is used on it.,Yes,Yes
+    An azalea turning into a azalea tree after bone meal is used on it.,Yes,Yes
+    A fungi turning into a huge fungi after bone meal is used on it.,Yes,Yes
+    A grass block turning into dirt when a sapling grows into a tree on that grass block .,Yes,Yes
+    A grass block / dirt turning into podzol [19] when a 2×2 spruce sapling grows into a tree on that grass block / dirt .,Yes,Yes
+    A grass block / dirt or any other blocks turning into rooted dirt by when an azalea or a flowering azalea grows on that grass block / dirt .,Yes,Yes
+    Mud turning into muddy mangrove roots when a mangrove tree grows.,Yes,Yes
+    A block that has sculk_replaceable tag turning into sculk by sculk catalyst .,Yes,Yes
+    A sculk vein /Sculk veins being created by sculk catalyst.,Yes,Yes
+    The shape of sculk vein(s) changing by sculk catalyst.,Yes,Yes
+    A sculk sensor or a sculk shrieker being created by sculk catalyst.,Yes,Yes
+    A bell ringing.,Yes,No
+    A bee leaving a bee nest or a beehive .,Yes,Yes
+    A bee entering a bee nest or a beehive (thus increasing the honey level).,No,No
+    The honey being collected from a bee nest or a beehive using shears or a glass bottle .,Yes,Yes
+    A candle being added into a candle.,Yes,Yes
+    A candle being added into a cake .,Yes,Yes
+    A candle or candle cake being lit or extinguished.,Yes,Yes
+    Dirt / coarse dirt / rooted dirt turning into mud through the use of a water bottle .,Yes,Yes
+    Mud turning into clay through the use of pointed dripstone .,Yes,Yes
+    "A book being added or removed from a chiseled bookshelf by player , hopper , minecart with hopper , or dropper .",Yes,Yes
+    "A suspicious block becoming less dusted as the player uses a brush , or more dusted if the player stops using a brush.",Yes,Yes
+    A suspicious block turning into sand or gravel .,Yes,Yes
+    All other block / block state changes.,Yes,Yes
+
+  Note blocks
+    The observer can be placed under note blocks to produce bass drum sounds.
+

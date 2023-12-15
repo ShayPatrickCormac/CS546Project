@@ -1,0 +1,15 @@
+Overview
+    Cat farming is a way to gather cats to harvest experience orbs and string, collect pets, or gather sufficient numbers of cats for creeper farming. This method does not produce ocelots.
+
+Spawn platform
+    To spawn a new cat, the following criteria must be met: If all criteria are met and the player is standing on the red glass block in the center, then stray cats will appear on tiles as marked by green wool in the provided image every 1200 game ticks (1 minute in real life) until the population cap is reached. Per empirical testing in Java Edition 1.16.2 by ilmango in his video Peaceful Challenge #22: Most Efficient Automatic Overworld String Farm, the design is not balanced on north/south distance, but is balanced on east/west distance.
+
+Luring the cats
+    Cats will actively pursue and attempt to kill rabbits and baby turtles up to a distance of 15 blocks. They do not chase chickens. To lure the cats in to the capture point or killing chamber, placing a rabbit in a mine cart on top of an iron bar in the center of each spawning platform with trapdoors is enough to bait the cats. Picture provided.
+
+  Capture
+    If all that is wanted is to capture a small quantity of cats for taming, then the only requirement is that they are unable to get out of the collection chamber while the player can. Use of fence gates or doors at the bottom of a pit that is at least 2 blocks deep is sufficient for this. For more cat capture volume, a minecart trapping system is recommended so the captured cats are removed from the population cap.
+
+  Kill
+    With a population cap of 5 cats per 128 block radius, to continue to have new cats spawn, then the currently spawned cats must be killed within 1200 game ticks (1 minute in real life) in order to keep the population clear. Cats do not take fall damage, so available options are drowning, or the use of campfires or soul campfires. A lava blade is not recommended due to the loss of loot in the lava.
+

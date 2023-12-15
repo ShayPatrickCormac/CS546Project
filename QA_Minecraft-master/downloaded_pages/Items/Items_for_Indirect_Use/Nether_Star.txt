@@ -1,0 +1,51 @@
+Overview
+    A nether star is a rare item dropped by the wither that is used solely to craft beacons.
+
+Obtaining
+  Mob loot
+    Nether stars can be obtained only by defeating withers. One nether star is dropped each time; the dropped amount is not affected by the Looting enchantment. In Java Edition, nether stars are immune to explosions, and those dropped by withers take 10 minutes to despawn. In Bedrock Edition, nether star items never despawn, neither by time nor by explosions.
+
+Usage
+    Nether stars have the same animated glint as enchanted items and end crystals. A dropped nether star item cannot be destroyed by explosions. However, it can still be destroyed by a falling anvil,‌‌[Java Edition  only] fire, lava, cacti, or the void.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Beacon,Glass + Nether Star + Obsidian,"[['Glass', 'Glass', 'Glass'], ['Glass', '', 'Glass'], ['Obsidian', 'Obsidian', 'Obsidian']]"
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    the beginning?,the beginning?,"The Beginning? { ""anchor"": """", ""title"": ""The Beginning?"", ""icon"": """", ""title"": ""The Beginning?"", ""description"": ""Spawn the [[Wither]]
+ "", ""requirements"": "" Be within a 100.9×100.9×103.5 cuboid centered on the Wither when it is spawned.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Spawn the Wither,Be within a 100.9×100.9×103.5 cuboid centered on the Wither when it is spawned.,20G,Bronze
+    the beginning,the beginning,"The Beginning. { ""anchor"": """", ""title"": ""The Beginning."", ""icon"": """", ""title"": ""The Beginning."", ""description"": ""Kill the Wither
+ "", ""requirements"": ""Be within a 100.9×100.9×203.5 cuboid centered on the Wither when it drops the nether star.
+ "", ""gamerscore"": ""40G
+ "", ""trophytype"": ""Silver
+"", ""rewards"": """" }",Kill the Wither,Be within a 100.9×100.9×203.5 cuboid centered on the Wither when it drops the nether star.,40G,Silver
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Withering Heights,Summon the Wither,Spooky Scary Skeleton,Be within a 100.9×100.9×103.5 cuboid centered on the wither when it is spawned.,"nether/summon_wither {""anchor"": """", ""title"": ""Withering Heights"", ""icon"": ""Nether Star.gif
+"", ""icon-style"": ""plain"", ""title"": ""Withering Heights"", ""description"": ""Summon the Wither
+"", ""parent"": ""Spooky Scary Skeleton
+"", ""requirements"": ""Be within a 100.9×100.9×103.5 cuboid centered on the [[wither]] when it is spawned.
+"", ""resourcelocation"": ""nether/summon_wither
+"", ""rewards"": ""—
+"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Nether Star,nether_star,Item,item.minecraft.nether_star
+
+    Bedrock Edition:
+
+    Name,Identifier,Alias ID,Numeric ID,Form,Translation key
+    Nether Star,nether_star,netherstar,518,Item,item.netherStar.name
+
+Video

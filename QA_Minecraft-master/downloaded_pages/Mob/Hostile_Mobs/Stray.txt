@@ -1,0 +1,20 @@
+Overview
+    A stray is a variant of a skeleton that spawns in a few snow-covered biomes. They behave similarly to skeletons, except they fire tipped arrows of Slowness from their bows.
+
+Spawning
+    A stray may spawn directly under the sky in snowy plains, ice spikes or frozen rivers, replacing 80% of skeletons. Additionally, a stray may spawn in frozen oceans, deep frozen oceans or legacy frozen oceans in Bedrock Edition. Strays do not spawn naturally from monster spawners in Java Edition. In Bedrock Edition, 1% of spiders and cave spiders may spawn as a spider jockey with 80% chance to be a stray spider jockey or stray cave spider jockey. The stray has its own spawn egg in the creative inventory. When a skeleton is kept inside powder snow for 7 seconds (140 game ticks), it begins shaking. After another 15 seconds (300 game ticks) it becomes a stray. The stray appears with full health even if the previous skeleton did not. Items being held or worn by a skeleton when it becomes a stray remain unchanged.
+
+  Trial spawners
+    ‌In Java Edition 1.21 and Bedrock Edition 1.21.0‌[upcoming], strays have a chance to be selected as the "ranged" mob for trial spawners in trial chambers.
+
+Drops
+  On death
+    Item,Roll Chance,Quantity (Roll Chance)
+    Default,Looting I,Looting II,Looting III
+    ,Arrow,100%,0–2,0–3,0–4,0–5
+    ,Bone,100%,0–2,0–3,0–4,0–5
+    ,Arrow of Slowness,50%–93.75% [d 1],1 (50%),1 (75%),1 (87.5%),1 (93.75%)
+
+Behavior
+    Strays behave the same as normal skeletons but make noises with an echoing effect and shoot tipped arrows that inflict Slowness for 30 seconds on any target that they hit. In Bedrock Edition, strays that are underwater use a melee attack that inflicts Slowness. Strays don’t take damage from freezing in powder snow, but they are not immune to Slowness.
+

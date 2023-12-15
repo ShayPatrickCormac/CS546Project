@@ -1,0 +1,63 @@
+Overview
+    Pumpkin seeds are items obtained from pumpkins that can be used to grow pumpkin stems. Pumpkin stems are plants grown on farmland that, over time, grow pumpkins on dirt, mud and moss blocks adjacent to them.
+
+Obtaining
+  Breaking
+    When broken, a pumpkin stem drops 0–3 pumpkin seeds. The chance for pumpkin seeds to drop increases with the stem's age.
+
+    Resource location,Source,Default
+    Nothing,Pumpkin seeds
+    1,2,3
+    blocks/pumpkin_stem,Pumpkin stem age = 0,81.3%,17.42%,1.24%,0.03%
+    Pumpkin stem age = 1,65.1%,30.04%,4.62%,0.24%
+    Pumpkin stem age = 2,51.2%,38.4%,9.6%,0.8%
+    Pumpkin stem age = 3,39.44%,43.02%,15.64%,1.9%
+    Pumpkin stem age = 4,29.13%,44.44%,22.22%,3.7%
+    Pumpkin stem age = 5,21.6%,43.2%,28.8%,6.4%
+    Pumpkin stem age = 6,15.17%,39.82%,34.84%,10.16%
+    Pumpkin stem age = 7,10.16%,34.84%,39.82%,15.17%
+    blocks/attached_pumpkin_stem,Attached Pumpkin stem,10.16%,34.84%,39.82%,15.17%
+
+  Natural generation
+    Pumpkin stems generate naturally in stem farm rooms in woodland mansions. Pumpkin stems generate in taiga and snowy taiga‌[BE  only] village farms.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Pumpkin Seeds,Monster Room,Chest,2–4,"18.5% { ""item"": ""Pumpkin Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,2–4,"27.3% { ""item"": ""Pumpkin Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Village,Taiga house chest,1–5,"40.6% { ""item"": ""Pumpkin Seeds"", ""stacksize"": ""1–5"", ""chance"": 0.4058792240743314, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Woodland mansion,Chest,2–4,"18.5% { ""item"": ""Pumpkin Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Pumpkin Seeds,Monster Room,Chest,2–4,"18.5% { ""item"": ""Pumpkin Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,2–4,"27.3% { ""item"": ""Pumpkin Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bonus chest,Chest,1–2,"33.3% { ""item"": ""Pumpkin Seeds"", ""stacksize"": ""1–2"", ""chance"": 0.33333333333333337, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Village,Taiga house chest,1–5,"43.7% { ""item"": ""Pumpkin Seeds"", ""stacksize"": ""1–5"", ""chance"": 0.4373709452178328, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Woodland mansion,Chest,2–4,"18.5% { ""item"": ""Pumpkin Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Pumpkin,"[[None, None, None], [None, 'Pumpkin', None], [None, None, None]]"
+
+  Trading
+    Wandering traders sell pumpkin seeds for 1 emerald.
+
+  Post-generation
+    Shearing an uncarved pumpkin yields 4 pumpkin seeds in Java Edition or 1 unit of pumpkin seeds in Bedrock Edition.
+
+Usage
+  Farming
+    Pumpkin seeds can be planted only on farmland, as stems. Over time, a stem grows through several stages[needs testing] and, at its final growth stage, will produce pumpkins on any adjacent dirt, coarse dirt, rooted dirt, grass block, farmland, podzol, mycelium, moss block, mud or muddy mangrove roots. If a pumpkin is already occupying a spot adjacent to a stem it does not grow more pumpkins until the pumpkin is removed. A single stem can grow an unlimited number of pumpkins. Pumpkin stems need a minimum light level of 10 in the block above the stem to grow and give pumpkins. Pumpkin seeds are affected by bone meal only with respect to stem growth; bone meal does not help produce the actual pumpkins.
+
+  Breeding
+    Like other seeds, pumpkin seeds can be used to breed chickens, lead chickens around, and make baby chickens grow up faster by 10% of the remaining time.
+
+  Taming
+    Like other seeds, pumpkin seeds can be used to tame parrots.
+
+  Composting
+    Placing pumpkin seeds into a composter has a 30% chance of raising the compost level by 1.
+
+Pumpkin stem
+    A pumpkin stem is the block that is planted on farmland when pumpkin seeds are used on it. It starts underground, and rises up as the plant grows. The stem is colored green when young, and then yellow once fully grown. The stem curves once a pumpkin has grown from it. A fully-grown single stem connects to any pumpkin in an adjacent square, thus there are 5 possible appearances to a stem. If there are multiple pumpkins it can connect to, it favors the east, then west, north, and south. When the pumpkin is removed, the stem returns to its straight shape.
+

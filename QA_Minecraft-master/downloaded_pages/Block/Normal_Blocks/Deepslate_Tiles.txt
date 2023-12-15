@@ -1,0 +1,45 @@
+Overview
+    Deepslate tiles are a decorative variant of deepslate.
+
+Obtaining
+  Breaking
+    Deepslate tiles can be obtained only by mining it with a pickaxe. When mined using any other tool, it drops nothing. Mining deepslate tiles takes longer than mining deepslate.
+
+    Block,Deepslate Tiles
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+  Natural generation
+    Deepslate tiles generate naturally in ancient cities.‌
+
+  Crafting
+    Ingredients,Crafting recipe
+    Deepslate Bricks,"[[None, None, None], ['Deepslate Bricks', 'Deepslate Bricks', None], ['Deepslate Bricks', 'Deepslate Bricks', None]]"
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Deepslate Tile Slab,Deepslate Tiles,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Deepslate Tile Stairs,Deepslate Tiles,"[['', None, None], ['', '', None], ['', '', '']]"
+    Deepslate Tile Wall,Deepslate Tiles,"[[None, None, None], ['', '', ''], ['', '', '']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Deepslate Tile Slab,Deepslate Tiles,2
+    Deepslate Tile Stairs,Deepslate Tiles,
+    Deepslate Tile Wall,Deepslate Tiles,
+
+    Deepslate Tiles and its slab, stair and wall variants can also be obtained directly from stonecutting Deepslate Bricks or Cobbled Deepslate.
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Cracked Deepslate Tiles,Deepslate Tiles + Any fuel,0.1
+

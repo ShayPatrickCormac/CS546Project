@@ -1,0 +1,35 @@
+Overview
+    Honeycombs are items obtained by shearing full bee nests and beehives. They are used to craft beehives, candles and honeycomb blocks, and can be applied as wax to many copper blocks to prevent them from oxidizing over time, as well as to signs to prevent them from being edited.
+
+Obtaining
+  Harvesting
+    When a bee nest or beehive at honey_level 5 is sheared, it drops 3 honeycombs and angers any bees inside, causing them to attack. Having a lit campfire or lighting a fire underneath the nest or hive prevents the bees from becoming hostile. A dispenser with shears inside can be used to shear the nest without angering the bees. The honeycomb pops out as a dropped item.
+
+  Container loot
+    Item,Structure,Container,Quantity,Chance
+    Upcoming Java Edition
+    Honeycomb,Trial Chambers,Corridor chest,2–8,"10.2% { ""item"": ""Honeycomb"", ""stacksize"": ""2–8"", ""chance"": 0.101618311707246, ""structure"": ""Trial Chambers"", ""container"": ""Corridor chest"" }"
+    Entrance chest,2–8,"55.1% { ""item"": ""Honeycomb"", ""stacksize"": ""2–8"", ""chance"": 0.5508401920438958, ""structure"": ""Trial Chambers"", ""container"": ""Entrance chest"" }"
+
+Usage
+  Signs
+    Using a honeycomb on a sign or a hanging sign prevents the sign from being edited.
+
+  Waxing
+    Using a honeycomb on a block of copper changes the block into its waxed variant, preventing oxidation of the copper.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Beehive,Any Planks + Honeycomb,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], ['', '', ''], ['Oak Planks', 'Oak Planks', 'Oak Planks']]",
+    Candle,String + Honeycomb,"[[None, 'String', None], [None, '', None], [None, None, None]]",
+    Honeycomb Block,Honeycomb,"[['', '', None], ['', '', None], [None, None, None]]",
+    Waxed Block of Copper,Matching Unwaxed Block of Copper + Honeycomb,"[[None, None, None], ['Block of Copper', '', None], [None, None, None]]",
+    Waxed Chiseled Copper,Matching Unwaxed Chiseled Copper + Honeycomb,"[[None, None, None], ['Chiseled Copper', '', None], [None, None, None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Copper Bulb,Matching Unwaxed Copper Bulb + Honeycomb,"[[None, None, None], ['Copper Bulb', '', None], [None, None, None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Copper Door,Matching Unwaxed Copper Door + Honeycomb,"[[None, None, None], ['Copper Door', '', None], [None, None, None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Copper Grate,Matching Unwaxed Copper Grate + Honeycomb,"[[None, None, None], ['Copper Grate', '', None], [None, None, None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Copper Trapdoor,Matching Unwaxed Copper Trapdoor + Honeycomb,"[[None, None, None], ['Copper Trapdoor', '', None], [None, None, None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Cut Copper,Matching Unwaxed Cut Copper + Honeycomb,"[[None, None, None], ['Cut Copper', '', None], [None, None, None]]",
+    Waxed Cut Copper Slab,Matching Unwaxed Cut Copper Slab + Honeycomb,"[[None, None, None], ['Cut Copper Slab', '', None], [None, None, None]]",
+    Waxed Cut Copper Stairs,Matching Unwaxed Cut Copper Stairs + Honeycomb,"[[None, None, None], ['Cut Copper Stairs', '', None], [None, None, None]]",
+

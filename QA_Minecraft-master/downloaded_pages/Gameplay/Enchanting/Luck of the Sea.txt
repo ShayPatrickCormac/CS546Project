@@ -1,0 +1,26 @@
+Overview
+    Luck of the Sea is an enchantment to a fishing rod that increases luck while fishing.
+
+Usage
+    With the default loot tables, this enchantment increases the chance of "treasure" catches (by about 2% per level), while greatly lowering the chance of "junk" catches (by about 2% per level) and slightly lowering the chance of fish catches (by about 0.15% per level). Probabilities with default loot tables:
+
+    Category,Chance in category
+    Unenchanted,Luck of the Sea
+    I,II,III
+    Fish,85%,84.8%,84.7%,84.5%
+    Treasure,5%,7.1%,9.2%,11.3%
+    Junk,10%,8.1%,6.1%,4.2%
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Luck of the Sea,luck_of_the_sea,enchantment.minecraft.luck_of_the_sea
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Luck of the Sea,luck_of_the_sea,23,enchantment.lootBonusFishing
+
+Video

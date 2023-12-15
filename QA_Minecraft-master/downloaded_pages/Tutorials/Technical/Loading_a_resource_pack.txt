@@ -1,0 +1,12 @@
+Overview
+    These tutorials are meant to help you use resource packs in Minecraft. Resource packs allow players to customize textures, music, sounds, language files, end credits, splashes, and fonts but do not change the actual gameplay.
+
+Any platform
+Direct methods
+  Windows (Java Edition)
+  MacOS
+    To access ~/Library/ on a Mac running MacOS 10.7 and above, switch to Finder, open the 'Go' Menu, and while holding down ⌥ Option, select 'Library'
+
+  Linux
+    
+

@@ -1,0 +1,128 @@
+Overview
+    This tutorial shows how to create a data pack.
+
+Getting started
+    Data packs can be used to add or modify functions, loot tables, world structures, advancements, recipes, tags, dimensions, predicates and world generation.
+
+  What not to do
+    There are some things that you should not do while creating a data pack. Here is a list of things you should not do: Release Minecraft versions or modifications that allow players to play the game without having bought Minecraft., Release the decompiled source code of Minecraft in any way.
+
+Setting up your data pack
+    To create a data pack, start by navigating to the datapacks folder of your world. The location of the folder varies depending on your operating system and the type of world:
+
+  Finding the world directory
+    To create a datapack, you will need to find the datapack folder of your world. The location of the world folder depends on your operating system and the type of world: In Singleplayer:
+For Windows, it can be found in %APPDATA%\.minecraft\saves\(your world).
+For macOS, find your user folder, then navigate to Library/Application Support/Minecraft/saves/(your world)., For Windows, it can be found in %APPDATA%\.minecraft\saves\(your world)., For macOS, find your user folder, then navigate to Library/Application Support/Minecraft/saves/(your world). In Multiplayer:
+Find the root directory of your server (where server.properties is located), then navigate to world., Find the root directory of your server (where server.properties is located), then navigate to world. Once you are in the datapacks folder, create a folder with a name of your choice. It will be your data pack's name. Enter the data pack folder.
+
+  [Show/HidFolder structure
+  Creating a pack.mcmeta file
+    To create this file, right click within your data pack folder and create a new text document. Name this file pack.mcmeta. Note: Ensure the file extension is .mcmeta and not .txt when you rename it! In other words, remove your old file extension. You may be warned that changing a file name extension could make the file unusable. However, this actually indicates that you have renamed the pack.mcmeta file correctly. Open pack.mcmeta in your text editor and paste or type the following: Be sure to type the code exactly as shown above. Missing or extra quotation marks, colons, or brackets can prevent your data pack from working correctly. In resource pack format 16 and newer, there is an optional supported_formats line that can be added. supported_formats describes a range for pack formats that the pack supports.
+Examples: 18, [18,19], {"min_inclusive": 18, "max_inclusive": 22}
+If supported_formats is present, it must contain the value declared in pack_format.
+Since this information is ignored by older versions of the game, they will always see a "normal", single-version pack, without any extended compatibility.
+The entire line would look something like "supported_formats": {"min_inclusive": 18, "max_inclusive": 22},., Examples: 18, [18,19], {"min_inclusive": 18, "max_inclusive": 22}, If supported_formats is present, it must contain the value declared in pack_format., Since this information is ignored by older versions of the game, they will always see a "normal", single-version pack, without any extended compatibility., The entire line would look something like "supported_formats": {"min_inclusive": 18, "max_inclusive": 22},. The value of "pack_format" tells Minecraft which version of the game your data pack is compatible with. The following list shows which versions each value is currently associated with:
+
+    Value,Versions,Releases,Significant/Notable Changes
+    4,17w48a – 19w46b,1.13 – 1.14.4,Added the initial pack format version of 4.
+    5,1.15-pre1 – 1.16.2-pre3,1.15 – 1.16.1,—
+    6,1.16.2-rc1 – 1.16.5,1.16.2 – 1.16.5,—
+    7,20w46a – 1.17.1,1.17 – 1.17.1,"The / replaceitem command was replaced with / item . Rolls, set_damage , and possibly other parameters in loot tables now require a valid type field when using min-max for numbers. score conditions' entity parameter was replaced with target ."
+    8,21w37a – 22w07a,1.18 – 1.18.1,"Loot tables now require a type field. Removed length limits for scoreboards, score holders and team names. The lava_pool_stone_replaceables block tag was renamed to lava_pool_stone_cannot_replace ."
+    9,1.18.2-pre1 – 1.18.2,1.18.2,"The / locate command now takes a configured structure as its first parameter rather than a structure type, so many grouped structures now require you to locate a structure type tag. E.g. / locate village is now / locate #village ."
+    10,22w11a – 1.19.3,1.19 – 1.19.3,"Data pack can have a filter section in pack.mcmeta now. Renamed the feature field in location predicates to structure . In 22w19a, / locatebiome was merged with / locate and the syntax for / locate was changed, but the pack format was not updated."
+    11,23w03a – 23w05a,—,only_allows_snow_and_gold_rabbits biome tag was renamed to spawns_gold_rabbits . Out-of-bound arguments in translate formats are no longer silently ignored.
+    12,23w06a – 1.19.4,1.19.4,"is_projectile , is_explosion , bypasses_armor , bypasses_invulnerability , bypasses_magic , is_fire , is_magic and is_lightning fields were removed from damage type predicates in favour of a tags field which is a list of damage type tags which the damage type belongs to."
+    13,23w12a – 23w14a,—,"NBT paths for lines of text, GlowingText , and Color on the front of signs are now at front_text.messages[<index>] , front_text.has_glowing_text , and front_text.color , respectively. The relevant tags for the backs of signs are in back_text"
+    14,23w16a – 23w17a,—,item_display items have been rotated 180 degrees around Y axis to better match transformation applied when rendering items on armor stand head and in item frames.
+    15,23w18a – 1.20.1,1.20 – 1.20.1,"All fields in placed_block , item_used_on_block , and allay_drop_item_on_block advancement triggers have been collapsed to a single location field. alternative predicate and loot table conditions were renamed to any_of ."
+    16,23w31a,—,entity_roar and entity_shake game events have been removed and replaced with the entity_action game event. Renamed belowName value in display slot argument in scoreboard command to below_name . Added macro functions.
+    17,23w32a – 23w35a,—,"Changed mob effect storage on items, entities and block entities. Effects now use resource locations in NBT instead of numeric ids and many tag names relating to effects have been renamed to use snake_case ."
+    18,1.20.2-pre1 – 1.20.2,1.20.2,"Removed / execute if function and / return run functionality (with promise to reintroduce after 1.20.2). Numerical data types are written in macros without their suffixes. Very large and very small float and double values are no longer written in standard scientific notation; they are written as their decimal expansion up to 15 decimal places, so some small values are rounded to zero."
+    19,23w40a,—,"null and [] are no longer valid JSON chat component representations, and errors in fields color , clickEvent , hoverEvent , hoverEvent[action=show_entity].contents.name and hoverEvent[action=show_item].contents.tag are no longer silently ignored."
+    20,23w41a,—,"/ function no longer always has a result. maxCommandChainLength gamerule now counts function invocations and different / execute stages as different ""commands"". Commands run using the command line interface of a server are now subject to the aforementioned gamerule."
+    21,23w42a,—,Added white_smoke particle definition. Renamed field Fuse to fuse on TNT entity.
+    22,23w43a – 23w43b,—,Renamed field Trident to item on trident entity.
+    23,23w44a,—,"/ return run now propagates fails, and fails if the returned command has no valid result. When a function tag is executed as part of / return run , / execute if function , or / execute unless function the first / return in all functions now returns."
+    24,23w45a,—,Added breezes and trial spawners .
+    25,23w46a –,—,Add display names and number formatting features for scoreboards .
+
+    The text following "description" can be any string or a raw JSON text. It will show up when you hover over your data pack in the output from /datapack list and in the data pack UI when creating a world. In pack.mcmeta, it is possible to use the § symbol (see Minecraft Formatting codes) in the description of pack.mcmeta and the data pack name.
+
+  Testing your pack
+    Once you have created your pack.mcmeta, try testing it out in-game! Open the world or, if you are already in the world, type /reload, then type /datapack list. It should list two entries. One of the two should appear as [file/(your data pack's name) (world)], where your data pack's folder name goes at (your data pack's name). When you hover over your data pack's entry, you should see the description of your data pack as you have written in  description of your pack.mcmeta. When your pack shows up, you are ready to move on. If you don't see your pack in the list, make sure your pack.mcmeta file is correct and saved. Look for any missing curly brackets {}, commas ,, colons :, quotation marks "", or square brackets []. Remember that for each open brace, quotation, or square bracket, you must have a closing bracket, quotation, or square brackets. If you still don't see your pack, make sure it's in the right folder.
+
+Adding content to your pack
+  Naming
+    Make a folder called data in your data pack folder, where you have placed the pack.mcmeta file in. In this data folder you have to create one or more folders which will act as your namespaces. Entries in data packs have resource locations in a fashion of namespace:path. The corresponding file would be located at data/namespace/(data_type)/path.(suffix). Note that / characters in the path will be translated into directory separators. A few examples: an item tag of ID dummy:foo_proof/bar would be located at data/dummy/tags/item/foo_proof/bar.json, a function of ID foo:handler/bar_call would be located at data/foo/functions/handler/bar_call.mcfunction Namespaces, paths and other folder and file names in the data pack should only contain the following symbols: 0123456789 Numbers, abcdefghijklmnopqrstuvwxyz Lowercase letters, _ Underscore, - Hyphen/minus, / Forward Slash/Directory separator (Can't be used in namespace), . Period The preferred naming convention is lower_case_with_underscores, called lower snake case. Most objects in the game use namespaced resource locations to prevent potential content conflicts or unintentional overrides. For example, if two data packs add two new minigame mechanisms to Minecraft and both have a function named start. Without namespaces, these two functions would clash and the minigames would be broken. But if they have different namespaces of minigame_one and minigame_two, the functions would become minigame_one:start and minigame_two:start, which no longer conflict. Most of the time when Minecraft requires an ID, such as for /function, you should provide the namespace in addition to the path. If you don't specify the namespace, it will fallback to minecraft. Make sure to always use your own namespace for anything new that you add, and only use other namespaces if you're explicitly overriding something else, or, in the case of tags, appending to something else. For example, Minecraft uses the minecraft namespace, which means that this namespace should only be used when the data pack needs to overwrite existing Minecraft data or to add its entries to vanilla tags.
+
+  Functions
+    Functions are a set of commands that can be run in order. To add functions, first create a folder named functions inside the namespace folder. Then, create a file named (function_name).mcfunction in this folder or in any of its subfolders. This will be your function file. Your function will be named in the game as (namespace):(name) or (namespace):(subfolder1)/(subfolder2)/.../(name) when the function file is located in a subfolder.
+
+  Loot tables
+    Loot tables will tell Minecraft what should be dropped when a mob dies or what should be generated inside containers, like chests, when opened for the first time, they can also be called by the /loot command. To add loot tables, first create a folder named loot_tables inside the namespace folder. Then, create a file named (loot_table_name).json in this folder or in any of its subfolders. This will be your loot table file. Your loot table will be named in the game as (namespace):(name) or (namespace):(subfolder1)/(subfolder2)/.../(name) if the file is located in a subfolder. All the vanilla loot tables are in the minecraft namespace. Here is an example of a cow's loot table, it can be used as a reference: To learn what each tag means, see Loot tables. There is also a list of vanilla loot tables on that page.
+
+  Structures
+    Structures can be used with structure blocks and jigsaw blocks and/or can overwrite how certain vanilla structures look in Minecraft. It is saved in an NBT format. You can create an NBT file by using a structure block or by exporting a build using a third party program such as MCEdit. To add structures to a data pack, first create a folder named structures inside the namespace folder. Then, put your structure file in this folder or in any of its subfolders. Your structure will be named in the game as (namespace):(name) or (namespace):(subfolder1)/(subfolder2)/.../(name) if the file is located in a subfolder.
+
+  World generation
+    Custom world generation allows your pack to change how the world generates. This is particularly useful in conjunction with custom worlds. To change world generation, first create a folder named worldgen inside the namespace folder. Then, put your noise_settings file in this folder or in any of its subfolders. Your changes will be named in the game as (namespace):(name) or (namespace):(subfolder1)/(subfolder2)/.../(name) if the file is located in a subfolder.
+
+  Advancements
+    Advancements can be completed by players and give various rewards. To add advancements, first create a folder named advancements inside the namespace folder. Then, create a file named (advancement_name).json (You can't put spaces in the file name. Use lowercase letters in the file name). in this folder or in any of its subfolders. This will be your advancement file. Your advancement will be named in the game as (namespace):(name) or (namespace):(subfolder1)/(subfolder2)/.../(name) if the file is located in a subfolder.
+
+  Recipes
+    Recipes are used to let players craft items. To add recipes, first create a folder named recipes inside the namespace folder. Then, create a file named (recipe_name).json in this folder or in any of its subfolders. This will be your recipe file. Your recipe will be named in the game as (namespace):(name) or (namespace):(subfolder1)/(subfolder2)/.../(name) if the file is located in a subfolder. The first common type of crafting is shaped crafting. This is a rough example of a shaped crafting recipe, as specified by the crafting_shaped type. pattern is a list used to specify the shape of the crafting recipe. It contains a maximum of 3 strings, each string standing for one row in the crafting grid. These strings then contain a maximum of 3 single characters next to each other, each character standing for one spot in the crafting grid. You don't need all 3 strings, nor do you need to have 3 characters in each string. But each string should contain the same amount of characters. You can use spaces to indicate empty spots. key is a compound used to specify what item should be used for which character in pattern. This can either be specified using item followed by an item ID or tag followed by an item data pack tag. The result compound speaks for itself, it specified what the resulting item should be. count is used to specify how many of the item should be given. This is the original recipe for a piston (can be used as a reference): There's another common type of recipes, a shapeless recipe. The list with multiple items allows alternatives for the given slot such as Oak Plank and Birch Plank. As specified by the crafting_shapeless type, this is a recipe without a pattern. The ingredients can be put in the crafting grid in any shape or form. In the example, there's a list inside the ingredients compound. This means any of the items in this list can be used. This is the original recipe for Fire Charge (can be used as a reference): It is also possible to create new smelting recipes. This is a rough example of a smelting recipe. "ingredient" is used to specify the item you are going to smelt. "result" is going to specify the result. In "experience", you are able to choose the amount of xp gained for smelting, and in "cookingtime" the amount of time that it will take for the item to smelt, which in this case is 10 seconds (200 ticks = 10 seconds). This is the default smelting recipe for a diamond ore:
+
+  Tags
+    Tags are used to group blocks, items, entities, or functions together. Additionally, the minecraft:tick function tag is used to run functions every tick and the minecraft:load function tag is used to run functions every time the world is (re)loaded. To add tags, first create a folder named tags inside the namespace folder. Inside this folder, create folders named blocks, items and functions. Then, create a file named (tag_name).json in one of these folders or in any of their subfolders. This will be your tag file. Your tag will be named in the game as (namespace):(name) or (namespace):(subfolder1)/(subfolder2)/.../(name) if the file is located in a subfolder.
+
+  Predicates
+    Predicates are technical JSON files that represent the conditions for loot tables, /execute if predicate command, or predicate target selector argument. To add predicates, first create a folder named predicates inside the namespace folder. Then, create a file named (predicate_name).json (You can't put spaces in the file name. Use lowercase letters in the file name). in this folder or in any of its subfolders. This will be your predicate file. Your predicate will be named in the game as (namespace):(name) or (namespace):(subfolder1)/(subfolder2)/.../(name) if the file is located in a subfolder.
+
+  Dimensions
+    Dimensions are JSON file used to specify all the dimensions a world contains. To add dimensions, first create a folder named dimension inside the namespace folder. Then, create a file named (dimension_name).json (You can't put spaces in the file name. Use lowercase letters in the file name). in this folder. This will be your dimension file. Custom dimensions can be accessed in game using /execute in (namespace):(dimension_name)
+
+Utilities
+    Many utilities have been created in order to make programming data packs easier. This is a reference list for utilities such as transpilers or syntax highlighting plugins. Please exercise caution when installing third-party programs onto your computer, as they are not actively monitored and may contain malware.
+
+    Name,Hosting,Description,Link
+    Minecraft Script,GitHub,A language based on JavaScript that can be compiled into a working data pack using a Node.js compiler.,https://mcscript.stevertus.com/
+    Minity,GitHub,Another scripting language that compiles into data packs using a Node.js compiler.,https://github.com/minity-script/minity
+    TMS Transpiler,GitHub,A python tool that can assemble indented mcfunction code into valid files. Great if you don't want to learn a new language.,https://github.com/davidkowalk/advanced_minecraft_scripting
+    ObjD,Pub,A dart framework for creating data packs to minimize the repetitive work to be done.,https://objd.stevertus.com/
+
+    Another option is to use a visual interface to create the framework or the content for your project.
+
+    Name,Hosting,Description,Link
+    Datapack Creator,Planet Minecraft,An IDE for creating data packs with some useful tools,https://www.planetminecraft.com/mod/datapack-creator-ide/
+    NBTData Pack Generator,nbt-data.com,An online generator for a raw data pack framework without any functions.,https://www.nbt-data.com/datapack-generator
+    Recipe Generator,thedestruc7i0n.ca,An Online Generator to generate the JSON files required for crafting.,https://crafting.thedestruc7i0n.ca/
+    Minecraft Tools Recipe Generator,minecraft.tools,An Online Generator to generate the JSON files required for crafting.,https://minecraft.tools/en/custom-crafting.php
+    Minecraft Recipe Generator,recipegeneratorminecraft.com,An Online Generator to create data packs for custom recipes.,https://recipegeneratorminecraft.com
+    Misode's Data Pack Generator,GitHub,JSON Generator for Minecraft Data Packs,https://misode.github.io/
+    MCStacker for MC 1.19,mcstacker.net/,A collection of command generators.,https://mcstacker.net/
+    Origin Creator,GitHub,A fully featured webtool for creating data packs.,https://www.mathgeniuszach.com/apps/origin-creator/
+    MCreator,mcreator.net,"A easy-to-use, fully featured graphical tool for creating data packs.",https://mcreator.net/
+    MCDatapacker,Github,An offline program to create and edit data packs,https://github.com/IoeCmcomc/MCDatapacker
+
+    If you use a code editor, you may want to format your data pack files with syntax highlighting. Depending on your text editor extra steps may have to be taken to install it in your environment.
+
+    IDE/Editor,Description,Link
+    Visual Studio Code Sublime Text,Language grammars and syntax highlighting for mcfunction files.,https://github.com/Arcensoth/language-mcfunction
+    Notepad++,Syntax highlighting.,https://pastebin.com/hbMiJ3YV
+    Visual Studio Code,Heavy language features for JSON and mcfunction files.,https://marketplace.visualstudio.com/items?itemName=SPGoding.datapack-language-server
+
+    
+
+See also
+    Data packs, Resource packs, Tutorials/Installing a data pack
+
+    v t e Data packs
+    Components,Advancements Functions Item modifiers Loot tables Predicates Recipes Tags World generation Dimensions Dimension types World presets Noise settings Noise Density functions Surface rules Biomes Carvers Configured features Placed features Structures Structure sets Template pools Processor lists Structure templates,World generation,Dimensions Dimension types World presets Noise settings Noise Density functions Surface rules Biomes Carvers Configured features Placed features Structures Structure sets Template pools Processor lists Structure templates,Structures,Structure sets Template pools Processor lists Structure templates
+    World generation,Dimensions Dimension types World presets Noise settings Noise Density functions Surface rules Biomes Carvers Configured features Placed features Structures Structure sets Template pools Processor lists Structure templates,Structures,Structure sets Template pools Processor lists Structure templates
+    Structures,Structure sets Template pools Processor lists Structure templates
+    Data packs,Caves & Cliffs Prototype Data Pack
+    Tutorials,Installing a data pack Creating a data pack
+

@@ -1,0 +1,40 @@
+Overview
+    Deepslate is a stone type found deep underground in the Overworld that functions similarly to regular stone, but is significantly more difficult to break (usually two times or a little less longer time to break than stone)
+
+Obtaining
+  Breaking
+    Deepslate can only be obtained by mining it using a pickaxe with the Silk Touch enchantment, otherwise it drops cobbled deepslate. If broken with any other tool, it drops nothing. The breaking time for deepslate is twice the time for stone.
+
+    Block,Deepslate
+    Hardness,3
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,15
+    Wooden,2.25
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,0.4
+
+  Natural generation
+    Deepslate makes up the majority of the solid blocks generated below Y=0 in the Overworld. Stone is gradually replaced from Y=8 to Y=0 until it is completely replaced by deepslate. Deepslate also generates in ancient cities.
+
+  Chest loot
+    On ancient_city/city_center/city_center_2, they generate a furnace with 24 deepslate inside of it.
+
+  Smelting
+    Deepslate can be smelted from cobbled deepslate.
+
+    Ingredients,Smelting recipe
+    Cobbled Deepslate + Any fuel,0.1
+
+  Post-generation
+    If a world generated before Caves & Cliffs: Part II is loaded after the update, the bedrock layer between Y=0 and Y=4 is replaced with deepslate.
+
+Usage
+    Deepslate can be placed in three orientations, similarly to logs. Silverfish can enter and hide in deepslate, creating an infested block.
+
+  Note blocks
+    Deepslate can be placed under note blocks to produce the "bass drum" sound.
+

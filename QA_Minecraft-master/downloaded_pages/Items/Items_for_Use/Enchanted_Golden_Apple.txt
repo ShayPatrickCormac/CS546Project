@@ -1,0 +1,38 @@
+Overview
+    An enchanted golden apple (in Java Edition) or enchanted apple (in Bedrock Edition), also colloquially referred to as a Notch apple, is a rare, uncraftable variant of the golden apple that grants much more powerful effects when consumed.
+
+Obtaining
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Enchanted Golden Apple,Monster Room,Chest,1,"3.1% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.030688500601003144, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,1,"1.4% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.014084507042253502, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1–2,"8.4% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": ""1–2"", ""chance"": 0.08380019513094861, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bastion remnant,Treasure chest,1,"6.5% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.0651961591220851, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Desert temple,Chest,1,"2.6% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.025615413920233476, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Ruined portal,Chest,1,"1.5% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.014974764874937763, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Woodland mansion,Chest,1,"3.1% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.031166697503998697, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Upcoming Java Edition
+    Enchanted Golden Apple,Trial Chambers,Reward chest,1,"5.4% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.05356048084147247, ""structure"": ""Trial Chambers"", ""container"": ""Reward chest"" }"
+    Bedrock Edition
+    Enchanted Golden Apple,Monster Room,Chest,1,"3.1% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.030688500601003144, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,1,"1.4% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.014084507042253502, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1–2,"8.4% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": ""1–2"", ""chance"": 0.08380019513094861, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bastion remnant,Treasure chest,1,"6.5% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.0651961591220851, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Desert temple,Chest,1,"2.6% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.025615413920233476, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Ruined portal,Chest,1,"1.5% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.014974764874937763, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Woodland mansion,Chest,1,"3.1% { ""item"": ""Enchanted Golden Apple"", ""stacksize"": 1, ""chance"": 0.030688500601003144, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+Usage
+    To eat an enchanted golden apple, press and hold use while it is selected in the hotbar. It restores 4 () points of hunger and 9.6 saturation. The enchanted golden apple provides:
+
+  Horses
+    Enchanted golden apples can be used for improving the chances of taming a horse by 10%, for breeding and leading horses, and for speeding up the growth of baby horses by 4 minutes.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Banner Pattern Thing,Paper + Enchanted Golden Apple,"[[None, None, None], ['Paper', '', None], [None, None, None]]"
+
+  Piglins
+    Piglins are attracted to enchanted golden apples and run toward any enchanted golden apples on the ground, and inspect it for 6 to 8 seconds before putting it in their inventory. However, piglins do not eat enchanted golden apples (or any food).
+

@@ -1,0 +1,54 @@
+Overview
+    Polished deepslate is the stone-like polished version of deepslate.
+
+Obtaining
+  Breaking
+    Polished deepslate can be obtained only by mining it with a pickaxe. When mined using any other tool, it drops nothing.
+
+    Block,Polished Deepslate
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+  Natural generation
+    Polished deepslate generate naturally in ancient cities.‌
+
+  Crafting
+    Ingredients,Crafting recipe
+    Cobbled Deepslate,"[[None, None, None], ['Cobbled Deepslate', 'Cobbled Deepslate', None], ['Cobbled Deepslate', 'Cobbled Deepslate', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Cobbled Deepslate,
+
+Usage
+    Using a stonecutter instead of a crafting table can produce all the derivative deepslate blocks directly. All of the blocks below, including polished deepslate, can also be obtained directly from cobbled deepslate.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Deepslate Bricks,Polished Deepslate,"[[None, None, None], ['', '', None], ['', '', None]]"
+    Polished Deepslate Slab,Polished Deepslate,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Polished Deepslate Stairs,Polished Deepslate,"[['', None, None], ['', '', None], ['', '', '']]"
+    Polished Deepslate Wall,Polished Deepslate,"[[None, None, None], ['', '', ''], ['', '', '']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Deepslate Slab,Polished Deepslate,2
+    Polished Deepslate Stairs,Polished Deepslate,
+    Polished Deepslate Wall,Polished Deepslate,
+    Deepslate Bricks,Polished Deepslate,
+    Deepslate Brick Slab,Polished Deepslate,2
+    Deepslate Brick Stairs,Polished Deepslate,
+    Deepslate Brick Wall,Polished Deepslate,
+    Deepslate Tiles,Polished Deepslate,
+    Deepslate Tile Slab,Polished Deepslate,2
+    Deepslate Tile Stairs,Polished Deepslate,
+    Deepslate Tile Wall,Polished Deepslate,
+

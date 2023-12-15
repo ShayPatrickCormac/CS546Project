@@ -1,0 +1,44 @@
+Overview
+    Piercing is an enchantment applied to a crossbow that causes arrows to pierce through entities.
+
+Usage
+    Arrows shot from a Piercing crossbow can pass through the number of entities equal to the enchantment level (for a total of level + 1 entities damaged). The shot arrows can still be retrieved after piercing a mob, allowing for infinite use of all arrow types, including spectral arrows and tipped arrows. Piercing ignores shields even when they are blocking. Arrows do not change direction upon piercing a mob, meaning they hit only mobs in the line of flight. Piercing has no effect on firework rockets fired from a crossbow. If commands are used to increase the enchantment level beyond 127, the piercing effect stops working and hits only one mob instead.
+
+Incompatibilities
+    Piercing and Multishot are mutually exclusive. However, if combined using commands, both enchantments function as normal, with the two arrows added by the Multishot enchantment getting the effect as well.
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Enchanter,Enchant an item at an Enchanting Table,Diamonds!,"Insert an item in an enchanting table , then apply an enchantment.","story/enchant_item {""anchor"": """", ""title"": ""Enchanter"", ""icon"": ""Enchanted Book.gif
+"", ""icon-style"": ""plain"", ""title"": ""Enchanter"", ""description"": ""Enchant an item at an Enchanting Table
+"", ""parent"": ""Diamonds!
+"", ""requirements"": ""Insert an item in an [[enchanting table]], then apply an enchantment.
+"", ""resourcelocation"": ""story/enchant_item
+"", ""rewards"": """" }"
+    ,"Two Birds, One Arrow",Kill two Phantoms with a piercing Arrow,Ol' Betsy,Use a crossbow enchanted with Piercing to kill two phantoms with a single arrow shot.,"adventure/two_birds_one_arrow {""anchor"": """", ""title"": ""Two Birds, One Arrow"", ""icon"": ""Crossbow
+"", ""icon-style"": ""fancy"", ""title"": ""Two Birds, One Arrow"", ""description"": ""Kill two Phantoms with a piercing Arrow
+"", ""parent"": ""Ol' Betsy
+"", ""requirements"": ""Use a [[crossbow]] enchanted with [[Piercing]] to kill two [[phantom]]s with a single arrow shot.
+"", ""resourcelocation"": ""adventure/two_birds_one_arrow
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-72"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>65 [[experience]]
+"" }"
+    ,Arbalistic,Kill five unique mobs with one crossbow shot,Ol' Betsy,"This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.","adventure/arbalistic {""anchor"": """", ""title"": ""Arbalistic"", ""icon"": ""Crossbow
+"", ""icon-style"": ""fancy"", ""title"": ""Arbalistic"", ""description"": ""Kill five unique [[mob]]s with one [[crossbow]] shot 
+"", ""parent"": ""Ol' Betsy
+"", ""requirements"": ""''This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.''
+"", ""resourcelocation"": ""adventure/arbalistic
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>85 [[experience]]
+"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Piercing,piercing,enchantment.minecraft.piercing
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Piercing,piercing,34,enchantment.crossbowPiercing
+

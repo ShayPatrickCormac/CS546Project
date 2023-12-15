@@ -1,0 +1,22 @@
+Overview
+    A redstone lamp is a solid block that produces light while it is recieving redstone power.
+
+Obtaining
+  Breaking
+    A redstone lamp can be mined with any tool[1] or by hand, dropping itself as an item.
+
+    Block,Redstone Lamp
+    Hardness,0.3
+    Breaking time (secs)
+    Default,0.45
+
+  Natural generation
+    Redstone lamps generate naturally in ancient cities.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Redstone Dust + Glowstone,"[[None, 'Redstone Dust', None], ['Redstone Dust', 'Glowstone', 'Redstone Dust'], [None, 'Redstone Dust', None]]"
+
+Usage
+    A redstone lamp can be used to produce switchable light. Redstone lamps are redstone mechanisms and can be activated by: A redstone lamp activates instantly, but takes 2 redstone ticks to turn off (4 game ticks, or 0.2 seconds barring lag). An active redstone lamp produces block light 15. An inactive redstone lamp produces no light. A redstone lamp acts like an opaque block; it blocks sky light, mobs suffocate in it, and it conducts redstone power. It also allows mobs to spawn on them while it is unlit.
+

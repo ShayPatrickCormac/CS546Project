@@ -1,0 +1,42 @@
+Overview
+    A lush cave is a temperate Overworld cave biome that has a unique fauna and flora and is found underground below azalea trees.
+
+Description
+    Lush caves generate underground at any altitude. They favor generating underneath biomes with high humidity values, which makes them most commonly found beneath dark forests, jungles, old growth taigas, wooded badlands, and taigas at temperatures of -0.450 and below, but may also generate under birch forests, taigas at temperatures of -0.150 to -0.450, and snowy taigas. Dark forests, old growth taigas, bamboo jungles, wooded badlands, and taigas at temperatures of -0.450 and below, in particular, are almost guaranteed to have lush caves generate below them, but when the dark forest, old growth taiga, bamboo jungle, wooded badlands, or taiga at temperatures of -0.450 and below generated far inland, dripstone caves may generate under the dark forest, old growth taiga, bamboo jungle, or wooded badlands instead. It is not possible for lush caves to generate beneath forests and grassland biomes like plains and savanna as they are not humid enough. Regular forests are the only forested biome where lush caves don’t generate at all, and deserts are the only non-forested biome where lush caves can generate. Lush caves can sometimes generate beneath oceans and deserts, and are the only one of the three underground biomes capable of generating beneath oceans. Azalea trees generate on any empty space above a lush cave, with roots consisting of rooted dirt and hanging roots that generate down until reaching the lush cave. This is most common at the surface, but they can sometimes generate inside caves if there is enough room. Underground, moss and ores cover the floors and ceilings, along with moss carpets, grass and azalea bushes on the floors. On the ceiling, vines and cave vines with glow berries grow down and light up the caves, and spore blossoms grow from the ceiling and drip water particles. Dripleaf plants grow up from shallow lakes lined with clay, which sometimes generate dry. Water can also generate here in the form of springs. Players cannot spawn in a lush caves biome during the world generation. Bats, glow squid, tropical fish, and axolotls are the only passive mobs that spawn, with the latter being exclusive to the biome. While hostile mobs can spawn throughout the biome, many areas have a light level greater than 0 due to the pervasive glow berries. Most hostile mobs are therefore found in large caverns more than 10 blocks high and near borders with other cave biomes. Lush caves contain copious amount of clay, around a couple of thousand blocks. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 515,4
+    Skeleton,100 ⁄ 515,4
+    Slime [note 1],100 ⁄ 515,4
+    Spider,100 ⁄ 515,4
+    Zombie,95 ⁄ 515,4
+    Enderman,10 ⁄ 515,1–4
+    Witch,5 ⁄ 515,1
+    Zombie Villager,5 ⁄ 515,1
+    Water ambient category
+    Tropical Fish,1,8
+    Underground water creature category
+    Glow Squid,1,4–6
+    Axolotl category
+    Axolotl,1,4–6
+    Ambient category
+    Bat,1,8
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 495,1
+    Slime [note 1],100 ⁄ 495,1
+    Spider,100 ⁄ 495,1
+    Zombie,95 ⁄ 495,2–4
+    Skeleton,80 ⁄ 495,1–2
+    Enderman,10 ⁄ 495,1–2
+    Witch,5 ⁄ 495,1
+    Zombie Villager,5 ⁄ 495,2–4
+    Creature category
+    Glow Squid,1,2–4
+    Water creature category
+    Tropical Fish [note 2],75 ⁄ 110,3–5
+    Tropical Fish [note 2],25 ⁄ 110,1–3
+    Axolotl,10 ⁄ 110,4–6
+

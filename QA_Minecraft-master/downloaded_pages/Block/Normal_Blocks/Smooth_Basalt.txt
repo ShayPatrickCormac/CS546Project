@@ -1,0 +1,29 @@
+Overview
+    Smooth basalt is an ornamental rock smelted from basalt or found as part of amethyst geodes and ancient cities.
+
+Obtaining
+  Breaking
+    Smooth basalt drops as an item if mined by any pickaxe. If mined by any other tool, it drops nothing.
+
+    Block,Smooth Basalt
+    Hardness,1.25
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,6.25
+    Wooden,0.95
+    Stone,0.5
+    Iron,0.35
+    Diamond,0.25
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Smooth basalt generates naturally as a part of the outer layer of amethyst geodes. Smooth basalt also generates in ancient cities.
+
+  Smelting
+    Ingredients,Smelting recipe
+    Basalt + Any fuel,0.1
+
+Usage
+    Smooth basalt is a decorative block, and is not currently used for any crafting or smelting recipes.
+

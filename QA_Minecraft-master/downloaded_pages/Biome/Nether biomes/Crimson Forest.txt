@@ -1,0 +1,22 @@
+Overview
+    The crimson forest is a forested biome in the Nether.
+
+Description
+    The crimson forest is dense and has a crimson color scheme. The forest's fog is dark red and blazing particles are seen floating. The forest floor is mostly covered with crimson nylium, with some netherrack and nether wart blocks generating on the surface as well. The vegetation of the biome includes fungi, crimson roots, huge crimson fungi and weeping vines. These vines hang from the large fungi and nether wart blocks from the ceiling. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Zombified piglin,1 ⁄ 15,2–4
+    Hoglin,9 ⁄ 15,3–4
+    Piglin,5 ⁄ 15,3–4
+    Creature category
+    Strider,1,1–2
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Zombified piglin,1 ⁄ 6,2–4
+    Piglin,5 ⁄ 6,2–4
+    Creature category
+    Strider,20 ⁄ 40,2–4
+    Hoglin [note 1],20 ⁄ 40,4
+

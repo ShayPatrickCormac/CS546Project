@@ -1,0 +1,19 @@
+Overview
+    Cave spiders are small variants of the spider that inflict Poison with their attacks. They are exclusively spawned by monster spawners found in mineshafts.
+
+Spawning
+    Cave spiders spawn from monster spawners in mineshafts at a light level of 0. These monster spawners are surrounded by cobwebs in corridors. ‌In Java Edition 1.21 and Bedrock Edition 1.21.0‌[upcoming], cave spiders have a chance to be selected as the "small melee" mob for trial spawners in trial chambers.
+
+Drops
+  On death
+    Item,Roll Chance,Quantity (Roll Chance)
+    Default,Looting I,Looting II,Looting III
+    ,String,100%,0–2,0–3,0–4,0–5
+    ,Spider Eye,33.33%–66.67% [d 1],1 (33.33%),1–2 (50%),1–3 (60%),1–4 (66.67%)
+
+Behavior
+    Cave spiders inherit their behavior from spiders: They have some distinctions from regular spiders: Being arthropods, they are weak against weapons with the Bane of Arthropods enchantment.
+
+  Poison
+    On Normal or Hard, cave spiders inflict Poison upon attacking.[1] On Normal difficulty, the Poison lasts for 7 seconds and causes 6 damage. On Hard difficulty, it lasts for 15 seconds and causes 12 × 6. Poison damage is not taken when the player's health is at 1.
+

@@ -1,0 +1,19 @@
+Overview
+    A honey bottle is a consumable drink item obtainable by using a glass bottle on a full beehive.  Honey bottles remove poison when drunk and can be used to craft honey blocks and sugar.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Glass Bottle + Honey Block,"[[None, None, None], ['Glass Bottle', 'Glass Bottle', 'Honey Block'], ['Glass Bottle', 'Glass Bottle', None]]"
+
+  Harvesting
+    A honey bottle can be obtained by using a glass bottle on either a beehive or bee nest with a honey level of 5. Doing this angers any bees inside, causing them to attack the player, unless there is a campfire or another block on fire beneath the nest or hive. A dispenser with glass bottles can be used to collect the honey without angering the bees. The honey bottle appears as an item in the dispenser's inventory. If the dispenser is full, the honey bottle is shot out.
+
+Usage
+    To drink a honey bottle, press and hold use while it is selected in the hotbar. Drinking one restores 6 () hunger and 1.2 hunger saturation. Consuming the item also has the benefit of removing any poison effect applied to the player. Unlike drinking milk, other applied effects are not removed upon drinking a honey bottle. Honey bottles can be drunk even with a full hunger bar. Drinking a honey bottle takes 25% longer than eating other food - 2 seconds - and has a unique sound.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Honey Block,Honey Bottle,"[['', '', None], ['', '', None], [None, None, None]]",Empty bottles remain in the crafting grid after crafting the honey block.
+    Sugar,Honey Bottle,"[[None, None, None], [None, '', None], [None, None, None]]",
+

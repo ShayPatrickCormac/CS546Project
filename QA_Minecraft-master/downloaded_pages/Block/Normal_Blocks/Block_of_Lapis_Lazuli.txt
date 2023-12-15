@@ -1,0 +1,33 @@
+Overview
+    A block of lapis lazuli is a storage block equivalent to nine pieces of lapis lazuli.
+
+Obtaining
+  Breaking
+    Blocks of lapis lazuli can be mined using a stone pickaxe or higher.
+
+    Block,Block of Lapis Lazuli
+    Hardness,3
+    Tool,stone pickaxe
+    Breaking time (sec) [A]
+    Default,15
+    Wooden,7.5
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,1.25
+
+  Natural generation
+    Blocks of lapis lazuli generate as the center of "illager statues" in woodland mansions.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Lapis Lazuli,"[['Lapis Lazuli', 'Lapis Lazuli', 'Lapis Lazuli'], ['Lapis Lazuli', 'Lapis Lazuli', 'Lapis Lazuli'], ['Lapis Lazuli', 'Lapis Lazuli', 'Lapis Lazuli']]"
+
+Usage
+    Blocks of lapis lazuli can be used as a form of storage for lapis lazuli.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Lapis Lazuli,Block of Lapis Lazuli,"[[None, None, None], [None, '', None], [None, None, None]]"
+

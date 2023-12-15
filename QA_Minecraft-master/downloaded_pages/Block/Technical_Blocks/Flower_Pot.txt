@@ -1,0 +1,31 @@
+Overview
+    A flower pot is a decorative block that can contain flowers, bamboo, saplings, cacti, mushrooms, fungi, and other reasonably small plants.
+
+Obtaining
+  Breaking
+    Flower pots can be mined instantly using any tool or without a tool. A flower pot drops itself as an item (any plant or mushroom in it separately) when pushed by a piston or washed away with water.
+
+    Block,Flower Pot
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+
+  Natural generation
+    Flower pots naturally generate in witch huts where they contain a red mushroom, the basement of igloos where they contain a cactus, and in woodland mansions, where they contain birch saplings, dark oak saplings, dandelions, poppies, blue orchids, alliums, azure bluets, red and white tulips, and oxeye daisies. Flower pots containing a dandelion can be found in some plains and savanna village houses. Flower pots containing a cactus or a dead bush can be found in some desert village houses. Flower pots containing a spruce sapling can be found in taiga village mason houses. Flower pots containing a poppy can be found in taiga village churches. Lava can flow into the space of a flower pot, destroying it.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Flower Pot,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Flower Pot"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Village,Mason's chest,1,"20.8% { ""item"": ""Flower Pot"", ""stacksize"": 1, ""chance"": 0.20842461344544605, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+    Bedrock Edition
+    Flower Pot,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Flower Pot"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Village,Mason's chest,1,"20.8% { ""item"": ""Flower Pot"", ""stacksize"": 1, ""chance"": 0.20842461344544605, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Brick,"[[None, None, None], ['Brick', None, 'Brick'], [None, 'Brick', None]]"
+
+Usage
+    A flower pot can be used to hold mushrooms, fungi, and various plants. Plants that can be placed in a pot include any one block high flowers, saplings, ferns, dead bushes, cacti, bamboo, azaleas, mangrove propagule, warped roots and crimson roots. Plants can be removed by using the interact button. In Java Edition, flower pots can be placed on any block, or over air.[1] In Bedrock Edition, they must be placed on top of a full-block top surface, or the top of a fence, stone wall, or hopper. They cannot be placed on slabs and stairs unless those blocks are upside-down. Pots may also be placed on an upward facing trapdoor. If the trapdoor is opened, the pot will break. Flower pots are 3⁄8 of a block high and can be stepped on. It is not possible to walk from the top of a flower pot onto a full sized block without jumping. It is possible to jump from a flower pot onto a fence. The plant or fungus can be removed from the flower pot by pressing the use control. This places the item directly back into the player's inventory.[2] They can be used to display cacti and wither roses without inheriting their damaging properties.[3][4] Potted warped fungus can be used to repel hoglins.
+

@@ -1,0 +1,39 @@
+Overview
+    Soul soil is a block found abundantly in soul sand valleys. Unlike soul sand it does not slow down players or mobs that walk on it.
+
+Obtaining
+  Breaking
+    Soul soil drops as an item when broken with any tool or by hand, but a shovel is the fastest way to break it. A soul campfire, when broken without using a Silk Touch tool, drops a block of soul soil. Since soul campfires can be crafted with renewable soul sand, this makes soul soil renewable as well.[1]
+
+    Block,Soul Soil
+    Hardness,0.5
+    Tool,Shovel
+    Breaking time (sec) [A]
+    Default,0.75
+    Wooden,0.4
+    Stone,0.2
+    Iron,0.15
+    Diamond,0.1
+    Netherite,0.1
+    Golden,0.1
+
+  Natural generation
+    Soul soil generates naturally in the soul sand valley biome.
+
+Usage
+    Unlike soul sand, soul soil does not slow mobs down, does not create bubble columns and does not allow items to fall through into a hopper.
+
+  Fire
+    Fire lit on soul soil becomes soul fire.
+
+  Withers
+    4 blocks of soul soil (or soul sand) are used in the construction of a wither.
+
+  Basalt
+    Lava on top of soul soil and directly adjacent to blue ice turns into basalt.  Re-producing basalt this way can comprise a "basalt generator."
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Soul Campfire,Stick + Soul Soil + Any Log or Stem or Any Stripped Log or Stem or Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, 'Stick', None], ['Stick', '', 'Stick'], ['Oak Log', 'Oak Log', 'Oak Log']]"
+    Soul Torch,Coal + Stick + Soul Soil,"[[None, 'Coal', None], [None, 'Stick', None], [None, '', None]]"
+

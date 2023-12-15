@@ -1,0 +1,14 @@
+Overview
+    Cleaving is an enchantment applied to an axe that increases the axe's damage and shield disabling.
+
+Usage
+    Cleaving adds 1 + 1 × level [note 1] of damage and 0.5 seconds (10 game ticks) of shield stunning per level[note 2], for a maximum enchantment level of 3.
+
+Incompatibilities
+    Cleaving, Sharpness, Bane of Arthropods, and Smite are mutually exclusive. If two or more are combined by using commands, the effect of the enchants can stack.[needs testing]
+
+Data values
+  ID
+    Name,Identifier,Translation key
+    Cleaving,cleaving,enchantment.minecraft.cleaving
+

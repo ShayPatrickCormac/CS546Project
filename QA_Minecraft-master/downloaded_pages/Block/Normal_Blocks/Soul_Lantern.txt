@@ -1,0 +1,35 @@
+Overview
+    Soul lanterns are blocks that emit light. They are a variant of the lantern crafted from soul torches.
+
+Obtaining
+  Breaking
+    When broken with a pickaxe, a lantern drops itself. When broken without a pickaxe, it drops nothing. A lantern always drops if its supporting block is removed.
+
+    Block,Soul Lantern
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+  Natural generation
+    Soul lanterns can generate in ancient cities.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Nugget + Soul Torch,"[['Iron Nugget', 'Iron Nugget', 'Iron Nugget'], ['Iron Nugget', 'Soul Torch', 'Iron Nugget'], ['Iron Nugget', 'Iron Nugget', 'Iron Nugget']]"
+
+Usage
+    Soul lanterns can be placed on the top or bottom surfaces of most solid blocks, although some require sneaking. More information can be found at Opacity/Placement. When placed below a block the soul lantern appears to hang. They connect to chains seamlessly. Soul lanterns can be placed (if a support platform is presented) or hanging (if a ceiling block is presented). The type of the block (solid, opaque, transparent, etc... given the block has top/bottom solid surface) does not affect the ability to hang of a soul lantern, similar to torches. Press use on the targeted block or a block adjacent to the air block the soul lantern is going to occupy to place it. If the latter is used and both the support/ceiling block is presented: If the object the soul lantern is placed on receive a block update that does not support the placement of the soul lantern, it is removed and drop as an item (e.g: soul lantern on a trapdoor and the trapdoor is flipped).
+
+  Light
+    The soul lantern emits a light level of 10. Due to their lower light level, soul lanterns do not melt snow or ice.
+
+  Piglins
+    Soul lanterns repel piglins.
+

@@ -1,0 +1,42 @@
+Overview
+    Mud bricks are a block obtained by crafting 4 packed mud.
+
+Obtaining
+  Breaking
+    Mud Bricks can be obtained by mining it with any pickaxe. When mined using any other tool, it drops nothing.
+
+    Block,Mud Bricks
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Mud bricks can be found in trail ruins.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Packed Mud,"[[None, None, None], ['Packed Mud', 'Packed Mud', None], ['Packed Mud', 'Packed Mud', None]]"
+
+Usage
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Mud Brick Slab,Mud Bricks,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Mud Brick Stairs,Mud Bricks,"[['', None, None], ['', '', None], ['', '', '']]"
+    Mud Brick Wall,Mud Bricks,"[[None, None, None], ['', '', ''], ['', '', '']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Mud Brick Slab,Mud Bricks,2
+    Mud Brick Stairs,Mud Bricks,
+    Mud Brick Wall,Mud Bricks,
+
+  Note Blocks
+    Mud Bricks can be placed under note blocks to produce "bass drum" sounds.
+

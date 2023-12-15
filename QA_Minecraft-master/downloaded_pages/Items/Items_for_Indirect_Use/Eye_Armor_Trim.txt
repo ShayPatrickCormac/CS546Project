@@ -1,0 +1,54 @@
+Overview
+    Eye armor trim is a type of smithing template used in smithing tables to add a trim to armor. It is consumed when used, but can be duplicated using an existing template, end stone, and diamonds.
+
+Obtaining
+    This item is found in strongholds. Once obtained, it can be duplicated using the crafting recipe below.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Diamond + Eye Armor Trim + End Stone,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', 'End Stone', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Eye Armor Trim Smithing Template,Stronghold,Altar chest,1,"10% { ""item"": ""Eye Armor Trim Smithing Template"", ""stacksize"": 1, ""chance"": 0.09999999999999998, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Library chest,1,"100% { ""item"": ""Eye Armor Trim Smithing Template"", ""stacksize"": 1, ""chance"": 1, ""structure"": ""Stronghold"", ""container"": ""Library chest"" }"
+    Bedrock Edition
+    Eye Armor Trim Smithing Template,Stronghold,Altar chest,1,"10% { ""item"": ""Eye Armor Trim Smithing Template"", ""stacksize"": 1, ""chance"": 0.09999999999999998, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Library chest,1,"100% { ""item"": ""Eye Armor Trim Smithing Template"", ""stacksize"": 1, ""chance"": 1, ""structure"": ""Stronghold"", ""container"": ""Library chest"" }"
+
+Usage
+    It is an ingredient in its own recipe, making it simple to craft more after the initial item is found.
+
+  Crafting ingredient
+    Ingredients,Crafting recipe
+    Diamond + Eye Armor Trim + End Stone,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', 'End Stone', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+
+  Smithing ingredient
+    Using the smithing table, the eye armor trim can be applied to any armor piece, using any trim material
+
+    Ingredients,Smithing recipe
+    Eye Armor Trim + Any Armor Piece + Any Trim material,Upgrade Gear
+
+Data values
+  ID
+    Java Edition:
+
+    Smithing Template,Identifier,Form,Translation key
+    Eye Armor Trim,eye_armor_trim_smithing_template,Item,item.minecraft.eye_armor_trim_smithing_template
+
+    Bedrock Edition:
+
+    Smithing Template,Identifier,Numeric ID,Form,Translation key
+    Eye Armor Trim,eye_armor_trim_smithing_template,686,Item,item.smithing_template.name trim_pattern.eye.name
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Crafting a New Look,Craft a trimmed armor at a Smithing Table,Adventure,—,"adventure/trim_with_any_armor_pattern {""anchor"": """", ""title"": ""Crafting a New Look"", ""icon"": ""Dune Armor Trim Smithing Template
+"", ""icon-style"": ""plain"", ""title"": ""Crafting a New Look"", ""description"": ""Craft a trimmed armor at a [[Smithing Table]]
+"", ""parent"": ""Adventure
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""adventure/trim_with_any_armor_pattern
+"", ""rewards"": ""—
+"" }"
+

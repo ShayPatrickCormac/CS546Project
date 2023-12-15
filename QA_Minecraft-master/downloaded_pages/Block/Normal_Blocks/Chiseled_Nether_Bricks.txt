@@ -1,0 +1,33 @@
+Overview
+    Chiseled nether bricks are a decorative variant of nether bricks, crafted from nether brick slabs.
+
+Obtaining
+  Breaking
+    Chiseled nether bricks can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+    Block,Chiseled Nether Bricks
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Crafting
+    Ingredients,Crafting recipe
+    Nether Brick Slab,"[[None, None, None], [None, 'Nether Brick Slab', None], [None, 'Nether Brick Slab', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Nether Bricks,
+
+Usage
+    Chiseled nether bricks are non-flammable and immune to ghast fireballs, making them a suitable shelter material for the Nether.
+
+  Note Blocks
+    Chiseled nether bricks can be placed under note blocks to produce "bass drum" sounds.
+

@@ -1,0 +1,23 @@
+Overview
+    Cooked chicken is a food item that can be eaten by the player.
+
+Obtaining
+  Mob loot
+    When a chicken dies while on fire, it drops one cooked chicken. The maximum is increased by 1 per level of Looting, for a maximum of 1–4 cooked chicken with Looting III.
+
+  Cooking
+    Raw chicken can be cooked in a furnace, smoker, or campfire. Each piece of cooked chicken removed from a furnace output slot gives 0.35 experience (22.4 experience per stack).
+
+    Ingredients,Smelting recipe
+    Raw Chicken + Any fuel,0.35
+
+  Trading
+    In Java Edition, apprentice-level butcher villagers have a 2⁄3 chance to sell 8 cooked chicken for an emerald. Butcher villagers may give cooked chicken to players with the Hero of the Village effect.‌[Java Edition  only] In Bedrock Edition, apprentice-level butcher villagers have a 25% chance to sell 8 cooked chicken for an emerald as part of their trades.
+
+Usage
+  Food
+    To eat cooked chicken, press and hold use while it is selected in the hotbar. Eating one restores 6 () hunger and 7.2 hunger saturation.
+
+  Wolves
+    Cooked chicken can be used to breed and heal tamed wolves, lead them around, and make baby tamed wolves grow up faster by 10% of the remaining time.
+

@@ -1,0 +1,58 @@
+Overview
+    Melon seeds are items obtained from melon slices that can be used to grow melon stems. Melon stems are plants grown on farmland that, over time, grow melons on dirt, mud and moss blocks adjacent to them.
+
+Obtaining
+  Breaking
+    When broken, a melon stem drops 0–3 melon seeds. The chance for melon seeds to drop increases with the stem's age.
+
+    Resource location,Source,Default
+    Nothing,Melon seeds
+    1,2,3
+    blocks/melon_stem,Melon stem age = 0,81.3%,17.42%,1.24%,0.03%
+    Melon stem age = 1,65.1%,30.04%,4.62%,0.24%
+    Melon stem age = 2,51.2%,38.4%,9.6%,0.8%
+    Melon stem age = 3,39.44%,43.02%,15.64%,1.9%
+    Melon stem age = 4,29.13%,44.44%,22.22%,3.7%
+    Melon stem age = 5,21.6%,43.2%,28.8%,6.4%
+    Melon stem age = 6,15.17%,39.82%,34.84%,10.16%
+    Melon stem age = 7,10.16%,34.84%,39.82%,15.17%
+    blocks/attached_melon_stem,Attached Melon stem,10.16%,34.84%,39.82%,15.17%
+
+  Natural generation
+    Melon stems generate naturally in stem farm rooms inside woodland mansions. Melon stems generate in 20% of the farm plots in savanna villages, and 10% of the farm plots in desert villages.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Melon Seeds,Monster Room,Chest,2–4,"18.5% { ""item"": ""Melon Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,2–4,"27.3% { ""item"": ""Melon Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Woodland mansion,Chest,2–4,"18.5% { ""item"": ""Melon Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Melon Seeds,Monster Room,Chest,2–4,"18.5% { ""item"": ""Melon Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,2–4,"27.3% { ""item"": ""Melon Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bonus chest,Chest,1–2,"33.3% { ""item"": ""Melon Seeds"", ""stacksize"": ""1–2"", ""chance"": 0.33333333333333337, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Woodland mansion,Chest,2–4,"18.5% { ""item"": ""Melon Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Melon Slice,"[[None, None, None], [None, 'Melon Slice', None], [None, None, None]]"
+
+  Trading
+    Wandering traders sell melon seeds for 1 emerald.
+
+Usage
+  Farming
+    Melon seeds can be planted only on farmland, as stems. Over time, a stem grows through several stages[needs testing] and, at its final growth stage, will produce melons on any adjacent dirt, coarse dirt, rooted dirt, grass block, farmland, podzol, mycelium, moss block, mud or muddy mangrove roots. If a melon is already occupying a spot adjacent to a stem it does not grow more melons until the melons is removed. A single stem can grow an unlimited number of melons. Melon stems need a minimum light level of 10 in the block above the stem to grow and give melons. Melon seeds are affected by bone meal only with respect to stem growth; bone meal does not help produce the actual melons.
+
+  Breeding
+    Like other seeds, melon seeds can be used to breed chickens, lead chickens around, and make baby chickens grow up faster by 10% of the remaining time.
+
+  Taming
+    Like other seeds, melon seeds can be used to tame parrots.
+
+  Composting
+    Placing melon seeds into a composter has a 30% chance of raising the compost level by 1.
+
+Melon Stem
+    A melon stem is the block that is planted on farmland when melon seeds are used on it. It starts underground, and rises up as the plant grows. The stem is colored green when young, and then yellow once fully grown. The stem curves once a melon has grown from it. A fully-grown single stem connects to any melon in an adjacent square, thus there are 5 possible appearances to a stem. If there are multiple melons it can connect to, it favors the east, then west, north, and south. When the melon is removed, the stem returns to its straight shape.
+

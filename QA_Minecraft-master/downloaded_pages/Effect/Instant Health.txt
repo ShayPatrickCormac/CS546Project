@@ -1,0 +1,37 @@
+Overview
+    Instant Health is an instant status effect that increases health for living mobs and damages the undead.
+
+Effect
+    Instantly heals 2 × 2level (3 × 2level‌[upcoming: JE Combat Tests]).
+Undead mobs (including the wither) are damaged as if with Instant Damage, instead. When applied using a lingering potion, the entity is healed every second. Levels 30–32 (amplifiers 29–31) provide no healing. Levels outside the range 1–32 (corresponding to amplifiers 0–31) are used modulo 32, making level 33 the same as level 1, etc.
+
+Causes
+    Cause,Potency,Heals,Harms Undead,Length,Notes
+    Potion of Healing,I,4,,Instant,Witch es drink this potion when damaged.
+    Potion of Healing II,II,8,,Instant,Two of these potions can be found on a brewing stand in end ships .
+    Splash Potion of Healing,I,4,6,Instant,Witch es throw one of these two during raids .
+    Splash Potion of Healing II,II,8,12 × 6,Instant
+    Lingering Potion of Healing,I,2 per second 10 total,3 per second 15 × 7.5 total,0:05,
+    Lingering Potion of Healing II,II,4 per second 20 × 10 total,6 per second 30 × 15 total,0:05,
+    Arrow of Healing,I,4,6,Instant,
+    Arrow of Healing II,II,8,12 × 6,Instant,
+
+Brewing
+    Potion,"Reagent, Base",Extended,Enhanced,Effects
+    Potion of Healing,input:Glistering Melon Slice | output:Awkward Potion,-,Potion of Healing,Instant Health Restores 4 per potion. Enhanced: Instant Health II Restores 8 per potion.
+
+Immune mobs
+    Only the ender dragon is immune. However, undead mobs are harmed by this effect.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Instant Health,instant_health,6,effect.minecraft.instant_health
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Instant Health,instant_health,6,potion.heal
+

@@ -1,0 +1,32 @@
+Overview
+    Quartz bricks is the brick variant of the block of quartz, obtained through crafting.
+
+Obtaining
+  Breaking
+    Quartz bricks can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Quartz Bricks
+    Hardness,0.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,4
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Crafting
+    Ingredients,Crafting recipe
+    Block of Quartz,"[[None, None, None], ['Block of Quartz', 'Block of Quartz', None], ['Block of Quartz', 'Block of Quartz', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Block of Quartz,
+
+Usage
+  Crafting
+  Note Blocks
+    Quartz bricks can be placed under note blocks to produce "bass drum" sounds.
+

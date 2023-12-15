@@ -1,0 +1,44 @@
+Overview
+    A skeleton skull is a block modeled after the head of a skeleton.
+
+Obtaining
+  Breaking
+    A skeleton skull can be mined using any item,[1] and drops itself when broken.
+
+    Block,Skeleton Skull
+    Hardness,1
+    Breaking time (secs)
+    Default,1.5
+
+    If a head is pushed by a piston or comes in contact with water or lava, it breaks off as an item. When destroyed by an explosion, the skeleton skull always drops as an item.
+
+  Natural generation
+    Skeleton skulls can generate in ancient cities, which sometimes generate in the deep dark.
+
+  Mob loot
+    Skeleton heads are always dropped by a skeleton if it dies due to a charged creeper's explosion. In Bedrock Edition, if multiple mobs are killed by the same charged creeper, all of them drop their heads, however in Java Edition only one mob selected at random drops its head.[2]
+
+Usage
+  Decoration
+    A skeleton skull can be oriented in 16 different directions on top of a block, and 4 directions on the sides of blocks, similar to signs. They can be placed on top of, or beside each other by shift clicking.
+
+  Wearing
+    The player can wear skeleton skulls, similarly to pumpkins or helmets. This overlays the second layer of the player's skin. Wearing a skeleton skull reduces the detection range for skeletons. This is similar to (and stacks with) the reductions in detection range from sneaking and from the Invisibility status effect. In Bedrock Edition, wearing a skeleton skull makes the player invisible to other players on a locator map.
+
+  Dispensers
+    A dispenser can equip a skeleton skull on a player, mob, or armor stand with an empty helmet slot, within the block the dispenser is facing.
+
+  Crafting ingredient
+    Ingredients,Crafting recipe
+    Skeleton skull + Gunpowder + Any Dye,"[[None, None, None], ['Gunpowder', '', None], [None, 'White Dye', None]]"
+
+  Enchantments
+    Skeleton skulls can receive the following enchantments, but only through an anvil.
+
+    Name,Max Level,Method
+    Curse of Binding,I,
+    Curse of Vanishing,I,
+
+  Note blocks
+    Placing a skeleton skull above a note block causes the note block to play the skeleton's ambient sound when activated. The block below the note block does not affect the mob sound it creates.
+

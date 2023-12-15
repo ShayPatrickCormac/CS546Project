@@ -1,0 +1,33 @@
+Overview
+    A lever is a non-solid block that can provide switchable redstone power.
+
+Obtaining
+  Breaking
+    A lever can be mined using any tool, or without a tool, and always drops itself as an item.
+
+    Block,Lever
+    Hardness,0.5
+    Breaking time (secs)
+    Default,0.75
+
+    A lever is also removed and drops as an item if:
+
+  Natural generation
+    Three levers are generated naturally in each jungle temple. They also generate in woodland mansions and ancient cities.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Stick + Cobblestone,"[[None, None, None], [None, 'Stick', None], [None, 'Cobblestone', None]]"
+
+Usage
+    A lever can be used as a player-switchable redstone power source.
+
+  Placement
+    A lever can be attached to the top, side, or bottom of any full solid opaque block (stone, dirt, blocks of gold, etc.), or to the top of an upside-down slab or upside-down stairs (but not to the bottom of a right-side-up slab or stairs). When placed on the top or bottom of a block, the lever orients itself in-line with the placing player. In Bedrock Edition, it can additionally be placed on the top of a fence, stone wall or hopper, and can be placed underwater. When placed on the side of blocks, down is on and up is off. On the top or bottom of blocks, off is north or west, on is south or east.
+
+  Activation
+    To activate or deactivate a lever, use the "Use Item/Place Block" control (right-click, by default). A lever can be turned on and off as fast as it can be clicked. Mobs cannot turn a lever on or off.
+
+  Behavior
+    While active, a lever:
+

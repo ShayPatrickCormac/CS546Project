@@ -1,0 +1,44 @@
+Overview
+    Mossy cobblestone is a variant of cobblestone with moss on it. It is mainly used for crafting or as building block.
+
+Obtaining
+  Breaking
+    Mossy cobblestone can be mined using a pickaxe, in which case it drops itself. If mined without a pickaxe, then the mining is slower and it drops nothing.
+
+    Block,Mossy Cobblestone
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Mossy cobblestone occurs naturally in dungeons, jungle temples, pillager outposts, underwater ruins, and plains, taiga, snowy taiga, and zombie villages. It can also be found in the form of forest rocks in the old growth taiga biome.
+
+  Crafting
+    Name,Ingredients,Crafting recipe,Description
+    Mossy Cobblestone,Cobblestone + Vines,"[[None, None, None], ['Cobblestone', 'Vines', None], [None, None, None]]",
+    Mossy Cobblestone,Cobblestone + Moss Block,"[[None, None, None], ['Cobblestone', 'Moss Block', None], [None, None, None]]",
+
+Usage
+    Mossy cobblestone can be used as a basic building block, as it is blast resistant and fairly common.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Mossy Cobblestone Slab,Mossy Cobblestone,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Mossy Cobblestone Stairs,Mossy Cobblestone,"[['', None, None], ['', '', None], ['', '', '']]"
+    Mossy Cobblestone Wall,Mossy Cobblestone,"[[None, None, None], ['', '', ''], ['', '', '']]"
+    Wild Armor Trim Smithing Template,Diamond + Wild Armor Trim + Mossy Cobblestone,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', '', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Mossy Cobblestone,2
+
+  Note Blocks
+    Mossy cobblestone can be placed under note blocks to produce "bass drum" sounds.
+

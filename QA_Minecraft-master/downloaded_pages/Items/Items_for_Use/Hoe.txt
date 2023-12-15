@@ -1,0 +1,100 @@
+Overview
+    A hoe is a tool used to harvest certain plant-based or organic blocks more quickly, as well as to till most types of dirt into farmland and convert coarse dirt and rooted dirt to regular dirt.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Any Planks or Iron Ingot or Gold Ingot or Diamond + Stick,"[['Oak Planks', 'Oak Planks', None], [None, 'Stick', None], [None, 'Stick', None]]",
+    Any stone-tier block + Stick,"[['Cobblestone', 'Cobblestone', None], [None, 'Stick', None], [None, 'Stick', None]]",Can use cobblestone and its other variants interchangeably.
+    Damaged Matching Hoe,"[[None, None, None], ['Wooden Hoe', 'Wooden Hoe', None], [None, None, None]]","The durability of the two hoes is added together, plus an extra 5% durability."
+
+  Upgrading
+    Like other diamond tools, a diamond hoe can be upgraded to a netherite hoe, increasing its durability and slightly increasing its mining speed, as well as granting resistance to fire and lava when dropped as an item.
+
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Hoe + Netherite Ingot,Upgrade Gear
+
+  Repairing
+    Ingredients,Grinding recipe,Description
+    2x Damaged Wooden Hoe or 2x Damaged Stone Hoe or 2x Damaged Iron Hoe or 2x Damaged Golden Hoe or 2x Damaged Diamond Hoe or 2x Damaged Netherite Hoe,,"The durability of the two hoes is added together, plus an extra 5% durability."
+
+    A hoe can be repaired in an anvil by adding units of the tiers' repair material (or the same hoe of that tier), with each repair material restoring 25% of the hoe's maximum durability, rounded down. It also keeps the hoe's enchantments.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Wooden Hoe,Cold Ocean ruins,Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Wooden Hoe"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Warm ruins suspicious sand,1,"13.3% { ""item"": ""Wooden Hoe"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Trail ruins,Suspicious gravel,1,"4.4% { ""item"": ""Wooden Hoe"", ""stacksize"": 1, ""chance"": 0.0444444444444444, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Diamond Hoe,Woodland mansion,Chest,1,"21.8% { ""item"": ""Diamond Hoe"", ""stacksize"": 1, ""chance"": 0.21816964893772306, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Enchanted Golden Hoe [A],Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Hoe"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Damaged Enchanted Diamond Hoe [B] [C],Ancient City,Chest,1,"16.1% { ""item"": ""Damaged Enchanted Diamond Hoe"", ""stacksize"": 1, ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Wooden Hoe,Cold Ocean ruins,Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Wooden Hoe"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Warm ruins suspicious sand,1,"13.3% { ""item"": ""Wooden Hoe"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Trail ruins,Suspicious gravel,1,"4.3% { ""item"": ""Wooden Hoe"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Diamond Hoe,Woodland mansion,Chest,1,"21.5% { ""item"": ""Diamond Hoe"", ""stacksize"": 1, ""chance"": 0.21505443965101612, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Enchanted Golden Hoe [A],Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Hoe"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Damaged Enchanted Diamond Hoe [B] [C],Ancient City,Chest,1,"16.1% { ""item"": ""Damaged Enchanted Diamond Hoe"", ""stacksize"": 1, ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+
+  Trading
+    Novice-level toolsmith villagers have a chance to sell a stone hoe for one emerald, and journeyman-level toolsmiths have a chance to sell a diamond hoe for 4 emeralds. In Bedrock Edition, these are 25% chances, and in Java Edition, these are 40% chances.
+
+  Villager gifts
+    Toolsmith villagers occasionally throw stone hoes at players with the Hero of the Village status effect.‌[Java Edition  only]
+
+Usage
+  Harvesting
+    Hoes are used to harvest certain plant-based or organic blocks more quickly. Breaking one of these blocks takes 1 durability.
+
+    Block,Breaking time (sec) [A]
+    Default,Wooden,Stone,Iron,Diamond,Netherite,Golden
+    Sculk Catalyst,4.5,2.25,1.15,0.75,0.6,0.5,0.4
+    Sculk Shrieker,4.5,2.25,1.15,0.75,0.6,0.5,0.4
+    Sculk Sensor,2.25,1.15,0.6,0.4,0.3,0.25,0.2
+    Calibrated Sculk Sensor,2.25,1.15,0.6,0.4,0.3,0.25,0.2
+    Nether Wart Block Warped Wart Block,1.5,0.75,0.4,0.25,0.2,0.2,0.15
+    Shroomlight,1.5,0.75,0.4,0.25,0.2,0.2,0.15
+    Hay Bale,0.75,0.4,0.2,0.15,0.1,0.1,0.1
+    Target,0.75,0.4,0.2,0.15,0.1,0.1,0.1
+    Dried Kelp Block,0.75,0.4,0.2,0.15,0.1,0.1,0.1
+    Sponge Wet Sponge,0.9,0.45,0.25,0.15,0.15,0.1,0.1
+    Leaves,0.3,0.15,0.1,0.05,0.05,0.05,0.05
+    Sculk,0.3,0.15,0.1,0.05,0.05,0.05,0.05
+    Sculk Vein,0.3,0.15,0.1,0.05,0.05,0.05,0.05
+    Moss Block,0.15,0.1,0.05,0.05,0.05,0.05,0.05
+
+    Breaking any other block takes 0 durability if the block breaks instantly when broken by hand, or 1 otherwise.
+
+  Tilling
+    Hoes are used to turn dirt, grass blocks, and dirt paths into farmland. To till, press use on a grass or dirt block while holding a hoe. This does not work on mycelium or podzol,[1] nor does it work if there are other blocks on top of the targeted blocks, including snow layers or torches. However, mycelium and podzol can be first converted to dirt paths with a shovel, then tilled into farmland with a hoe. Hoes can be used to convert coarse dirt into regular dirt by pressing use on the coarse dirt. Similar to tilling dirt, the space above the coarse dirt must be empty for it to be tilled. Hoes can also be used on rooted dirt, which turns it into normal dirt, and yields a hanging roots item. Tilling is effectively instantaneous, regardless of material, and uses 1 durability. Breaking blocks with a hoe uses 0 or 1 durability, depending on the block. Hoes are unable to work on blocks with a plant on top, even if that plant could normally be placed on top of farmland without reverting it to dirt.[2]
+
+  Weapon
+    Hoes may be used as a weapon, although they deal only 1 damage in Java Edition. In Bedrock Edition, hoes can do as much as a pickaxe in terms of damage. Hoes use 1 durability when used as a weapon. In Java Edition, hoes have an attack speed modifier depending on the material: wood and gold have a modifier of -3 (refill in 1s), stone has a modifier of -2 (refill in 0.5s), iron has a modifier of -1 (refill in 0.33s), and diamond and netherite have a modifier of 0 (refill in 0.25s).
+
+    Attack damage,Attack speed,Damage/Second (DPS)
+    1,1,2,3,4,1,2,3,4
+
+    Hoes always attack instantly in Bedrock Edition.
+
+  Enchantments
+    A hoe can receive the following enchantments:
+
+    Name,Description,Max Level,Method,Weight
+    Efficiency,Increases the mining speed.,V,,10
+    Fortune [note 1],Increases the amount of drops when mining.,III,,2
+    Silk Touch [note 1],Causes blocks to drop themselves when mined.,I,,1
+    Unbreaking,Grants a chance to negate durability consumption.,III,,5
+    Mending,Repairs the hoe when obtaining experience .,I,,2
+    Curse of Vanishing,"The hoe vanishes on death, not dropping as an item.",I,,1
+
+  Fuel
+    Wooden hoes can be used as a fuel in furnaces, smelting 1 item per hoe.
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Iron Nugget or Gold Nugget,Iron Hoe or Golden Hoe + Any fuel,0.1
+
+  Piglins
+    Piglins are attracted to golden hoes and run toward any golden hoes on the ground, and inspect them for 6 to 8 seconds before putting them in their inventory.
+

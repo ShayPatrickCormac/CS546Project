@@ -1,0 +1,29 @@
+Overview
+    A recovery compass is an item used to point to the location of the player's last death.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Echo Shard + Compass,"[['Echo Shard', 'Echo Shard', 'Echo Shard'], ['Echo Shard', 'Compass', 'Echo Shard'], ['Echo Shard', 'Echo Shard', 'Echo Shard']]"
+
+Usage
+    When held by a player, the recovery compass will point towards the spot where they previously died. The recovery compass will only work when it is held by a player who has previously died and is in the same dimension as their last death. Otherwise, it will spin around randomly. Like other items, the recovery compass itself will still drop when a player dies and the keepInventory game rule is not enabled. This item is useless on Hardcore mode, as once the player dies, the player cannot respawn.
+
+  Enchantments
+    A recovery compass can receive the following enchantments:
+
+    Name,Max Level,Method
+    Curse of Vanishing ‌ [ BE only ],I,
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Recovery Compass,recovery_compass,Item,item.minecraft.recovery_compass
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Recovery Compass,recovery_compass,654,Item,item.recovery_compass.name
+

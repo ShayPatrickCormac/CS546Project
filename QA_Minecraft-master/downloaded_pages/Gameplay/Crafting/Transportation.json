@@ -1,0 +1,300 @@
+[
+    {
+        "names": [
+            "Powered Rail"
+        ],
+        "ingredients": [
+            "Gold Ingot",
+            "Stick",
+            "Redstone Dust"
+        ],
+        "sample pattern": [
+            [
+                "Gold Ingot",
+                null,
+                "Gold Ingot"
+            ],
+            [
+                "Gold Ingot",
+                "Stick",
+                "Gold Ingot"
+            ],
+            [
+                "Gold Ingot",
+                "Redstone Dust",
+                "Gold Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Rail"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                null,
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Stick",
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                null,
+                "Iron Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Minecart"
+        ],
+        "ingredients": [
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Iron Ingot",
+                null,
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Minecart with Furnace"
+        ],
+        "ingredients": [
+            "Furnace",
+            "Minecart"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Furnace",
+                "Minecart",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Minecart with Chest"
+        ],
+        "ingredients": [
+            "Chest",
+            "Minecart"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Chest",
+                "Minecart",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Detector Rail"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Stone Pressure Plate",
+            "Redstone Dust"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                null,
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Stone Pressure Plate",
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Redstone Dust",
+                "Iron Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Minecart with Hopper"
+        ],
+        "ingredients": [
+            "Hopper",
+            "Minecart"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Hopper",
+                "Minecart",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Minecart with TNT"
+        ],
+        "ingredients": [
+            "TNT",
+            "Minecart"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "TNT",
+                "Minecart",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Activator Rail"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Stick",
+            "Redstone Torch"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                "Stick",
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Redstone Torch",
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Stick",
+                "Iron Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Boat"
+        ],
+        "ingredients": [
+            "Overworld Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                null,
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Boat with Chest"
+        ],
+        "ingredients": [
+            "Chest",
+            "Boat"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Chest",
+                "Oak Boat",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    }
+]

@@ -1,0 +1,6 @@
+Overview
+    This is an example of a possible Minecraft server rc.d startup script for FreeBSD.
+
+Installation
+    Use adduser to create a new user named minecraft. When asked to select the new user's home directory, use /srv/minecraft., Ensure that your /srv filesystem has enough free space (around ~100-200MB depending on your needs) - df -h will show how much space is available., Install Java if necessary. The port is available at /usr/ports/java/openjdk8., As root, run the following: If you have existing server configuration files, world files, etc., copy them into /srv/minecraft and give ownership to your minecraft user., Edit /etc/rc.conf.local (create if it doesn't exist) and add the following line: The server should now start on boot. To launch, check status, and shut down, use the following commands: Or:
+

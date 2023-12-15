@@ -1,0 +1,134 @@
+Overview
+    Helmets are a type of armor that covers the head of the player. There are seven types of helmets: leather cap, chainmail helmet, iron helmet, diamond helmet, gold helmet, netherite helmet, and turtle shell.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Leather or Gold Ingot or Iron Ingot or Diamond or Scute,"[[None, None, None], ['Leather', 'Leather', 'Leather'], ['Leather', None, 'Leather']]",
+    Damaged matching helmet,"[[None, None, None], ['Leather Cap', 'Leather Cap', None], [None, None, None]]","The durability of the two helmets is added together, plus an extra 5% durability."
+
+  Upgrading
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Helmet + Netherite Ingot,Upgrade Gear
+
+  Repairing
+    Ingredients,Grinding recipe,Description
+    2x Damaged Leather Cap or 2x Damaged Chainmail Helmet or 2x Damaged Iron Helmet or 2x Damaged Golden Helmet or 2x Damaged Diamond Helmet or 2x Damaged Netherite Helmet or 2x Damaged Turtle Shell,,"The durability of the two helmets are added together, plus an extra 5% durability."
+
+    Helmets can be repaired in an anvil by adding units of the armor material's repair material, with each repair material restoring 25% of the helmet's maximum durability, rounded down.
+
+  Natural generation
+    Two armor stands are found in each taiga village outdoor armory, one of them equipped with an iron helmet.
+
+  Chest loot
+    In Bedrock Edition, a sealed room in woodland mansions can appear that has a chest sometimes containing an Efficiency I leather cap.[1]
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Leather Cap,Village,Tanner's chest,1,"31.8% { ""item"": ""Leather Cap"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Enchanted Leather Cap [A],Shipwreck,Supply chest,1,"20.8% { ""item"": ""Enchanted Leather Cap"", ""stacksize"": 1, ""chance"": 0.20778331426627006, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Iron Helmet,Stronghold,Altar chest,1,"12% { ""item"": ""Iron Helmet"", ""stacksize"": 1, ""chance"": 0.12006249999999996, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Armorer's chest,1,"31.8% { ""item"": ""Iron Helmet"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Armorer's chest"" }"
+    Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Helmet"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Helmet [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Helmet"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Golden Helmet,Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Golden Helmet"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Underwater ruins,Small ruins chest,1,"8.3% { ""item"": ""Golden Helmet"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Big ruins chest,1,"4.3% { ""item"": ""Golden Helmet"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Enchanted Golden Helmet [A],Bastion remnant,Bridge chest,1,"11.2% { ""item"": ""Enchanted Golden Helmet"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Helmet"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Diamond Helmet,Bastion remnant,Treasure chest,1,"15.8% { ""item"": ""Diamond Helmet"", ""stacksize"": 1, ""chance"": 0.15757887517146774, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Enchanted Diamond Helmet [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Helmet"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Damaged Enchanted Diamond Helmet [A] [C],Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Damaged Enchanted Diamond Helmet"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Bedrock Edition
+    Leather Cap,Village,Tanner's chest,1,"31.8% { ""item"": ""Leather Cap"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Enchanted Leather Cap [A],Shipwreck,Supply chest,1,"20.8% { ""item"": ""Enchanted Leather Cap"", ""stacksize"": 1, ""chance"": 0.20778331426627006, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Chainmail Helmet,Buried treasure,Chest,1,"57.2% { ""item"": ""Chainmail Helmet"", ""stacksize"": 1, ""chance"": 0.5722759899564946, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Iron Helmet,Stronghold,Altar chest,1,"11.6% { ""item"": ""Iron Helmet"", ""stacksize"": 1, ""chance"": 0.11648616558453506, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Armorer's chest,1,"31.8% { ""item"": ""Iron Helmet"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Armorer's chest"" }"
+    Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Helmet"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Helmet [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Helmet"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Golden Helmet,Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Golden Helmet"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Underwater ruins,Small ruins chest,1,"8.3% { ""item"": ""Golden Helmet"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Big ruins chest,1,"4.3% { ""item"": ""Golden Helmet"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Enchanted Golden Helmet [A],Bastion remnant,Bridge chest,1,"11.2% { ""item"": ""Enchanted Golden Helmet"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Helmet"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Diamond Helmet,Bastion remnant,Treasure chest,1,"15.8% { ""item"": ""Diamond Helmet"", ""stacksize"": 1, ""chance"": 0.15757887517146774, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Enchanted Diamond Helmet [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Helmet"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Damaged Enchanted Diamond Helmet [A] [C],Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Damaged Enchanted Diamond Helmet"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+
+  Mob loot
+    If a zombie, husk, stray or skeleton is wearing armor, there is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop a helmet upon death. The dropped helmet is usually badly damaged, and may be enchanted with enchantment levels 5-19. In Bedrock Edition, vindicators and pillagers spawned in raids have a 8.3525% chance (10.28% on hard) to drop iron helmets. The dropped helmets are usually badly damaged, and have a 50% chance of being enchanted with a random enchantment.
+
+  Trading
+    In Java Edition, novice-level armorer villagers have a 40% chance to sell an iron helmet for 4 emeralds. Journeyman-level armorers have a 40% chance to sell a chainmail helmet for 1 emerald. Master-level armorers always sell an enchanted diamond helmet for 11-27 emeralds. Apprentice-level leatherworker villagers have a 2⁄3 chance to sell a leather cap[note 1] for 5 emeralds. Master-level leatherworker villagers offer the same trade. Armorer villagers may give the players with the Hero of the Village effect a chainmail helmet. In Bedrock Edition, novice-level armorer villagers have a 25% chance to sell iron helmet for 5 emeralds, 1⁄3 chance to sell chainmail helmet at journeyman-level for an emerald, and 50% chance to sell enchanted diamond helmet for 8 emeralds at master-level. Apprentice-level leatherworker villagers have a 50% chance to sell leather cap for 5 emeralds as part of their trades, and 50% chance to sell an enchanted leather cap for 5 emeralds at the master level.
+
+Usage
+    Helmets can be placed in the top armor slot of a player's inventory for activation.
+
+  Defense points
+    Defense points are each signified by half of a shirt of mail in the armor bar above the health bar. Each defense point reduces any damage dealt to the player that is absorbed by armor by 4%, increasing additively with the number of defense points. Different materials and combinations of armor provide different levels of defense. The following table shows the number of defense points added by helmets.
+
+    Material,
+    Leather,1 ( )
+    Golden,2 ( )
+    Chainmail
+    Iron
+    Turtle Shell
+    Diamond,3 ( )
+    Netherite
+
+  Knockback resistance
+    A netherite helmet provides 10% knockback resistance.
+
+  Durability
+    The following table shows the amount of damage each piece of armor can absorb before being destroyed. Any "hit" from a damage source that can be blocked by armor removes one point of durability from each piece of armor worn for every 4 of incoming damage (rounded down, but never below 1). Damage taken that armor doesn't protect (such as falling or drowning) does not damage the armor, even if it is enchanted to protect against that type of damage. The following chart displays how many hits helmets can endure. Netherite armor is not damaged by lava or fire when worn.
+
+    Material,Durability
+    Leather,55
+    Golden,77
+    Chainmail,165
+    Iron
+    Turtle Shell,275
+    Diamond,363
+    Netherite,407
+
+    Helmets may be repaired by using them along with some of their crafting material (leather, gold ingots, iron ingots, diamonds or netherite) in an anvil. Chainmail helmets may be repaired in this way with iron ingots. They may also be repaired by crafting them together with another helmet of like material.
+
+  Enchantments
+    A helmet can receive the following enchantments. Note that while iron and chainmail have the same durability, chainmail has a higher enchantability than iron or diamond.
+
+    Enchantment,Max Level,Notes
+    Fire Protection,IV,[note 1]
+    Projectile Protection,IV,[note 1]
+    Blast Protection,IV,[note 1]
+    Protection,IV,[note 1]
+    Unbreaking,III,
+    Respiration,III,
+    Aqua Affinity,I,
+    Thorns,III,[note 2]
+    Mending,I,[note 3]
+    Curse of Binding,I,[note 3]
+    Curse of Vanishing,I,[note 3]
+
+  Armor trimming
+    It is possible to upgrade armor with trims. This requires a smithing template, a helmet, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, or diamond). These trims have no effect on the gameplay or strength of the armor.
+
+    Ingredients,Smithing recipe
+    Any Armor Trim + Any Helmet + Any Ingot/Crystal,Upgrade Gear
+
+  Turtle shell effect
+    Equipping a  turtle shell provides the Water Breathing status effect, allowing the player to remain underwater for an additional 10 seconds. The time that this effect lasts does not begin to count down until the player dives underwater, then the 10 seconds are counted down. The effect immediately recharges after exposure to air.
+
+  Brewing ingredient
+    A turtle shell can also be used as a potion brewing ingredient.
+
+    Name,Ingredients,Brewing recipe
+    Potion of the Turtle Master,Turtle Shell + Awkward Potion,input:Turtle Shell | output:Potion of the Turtle Master; Potion of the Turtle Master; Potion of the Turtle Master
+
+  Smelting usage
+    Name,Ingredients,Smelting recipe
+    Iron Nugget or Gold Nugget,Iron Helmet or Chainmail Helmet or Golden Helmet + Any fuel,0.1
+
+  Piglins
+    Piglins are attracted to golden helmets and pick them up, examining them for 6 to 8 seconds. Piglins can wear other helmets but are not attracted to them. They prefer stronger helmets over weaker helmets, with one exception: They always prefer golden helmets, throwing out stronger helmets in favor of gold helmets. Enchanted helmets are preferred over unenchanted helmets.
+

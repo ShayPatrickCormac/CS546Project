@@ -1,0 +1,51 @@
+Overview
+    Gunpowder is an item that is used for explosion-related recipes, and as an ingredient in potions.
+
+Obtaining
+  Mob loot
+    Creepers can drop 0-2 pieces of gunpowder upon death. Looting can increase this by one per level, with a maximum of 5 gunpowder. Ghasts can drop 0-2 pieces of gunpowder upon death. Looting can increase this by one per level, with a maximum of 5 gunpowder. Witches can drop 0-6 pieces of gunpowder upon death. Looting can increase this by three per level, with a maximum of 15 gunpowder.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Gunpowder,Monster Room,Chest,1–8,"57.8% { ""item"": ""Gunpowder"", ""stacksize"": ""1–8"", ""chance"": 0.578125, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1–8,"59% { ""item"": ""Gunpowder"", ""stacksize"": ""1–8"", ""chance"": 0.5904, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Suspicious sand,1,"12.5% { ""item"": ""Gunpowder"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Shipwreck,Supply chest,1–5,"20.8% { ""item"": ""Gunpowder"", ""stacksize"": ""1–5"", ""chance"": 0.20778331426627006, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Woodland mansion,Chest,1–8,"57.8% { ""item"": ""Gunpowder"", ""stacksize"": ""1–8"", ""chance"": 0.578125, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Gunpowder,Monster Room,Chest,1–8,"57.8% { ""item"": ""Gunpowder"", ""stacksize"": ""1–8"", ""chance"": 0.578125, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1–8,"59% { ""item"": ""Gunpowder"", ""stacksize"": ""1–8"", ""chance"": 0.5904, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Suspicious sand,1,"12.5% { ""item"": ""Gunpowder"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Shipwreck,Supply chest,1–5,"20.8% { ""item"": ""Gunpowder"", ""stacksize"": ""1–5"", ""chance"": 0.20778331426627006, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Woodland mansion,Chest,1–8,"57.8% { ""item"": ""Gunpowder"", ""stacksize"": ""1–8"", ""chance"": 0.578125, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+  Trading
+    Wandering traders have 1⁄6 chance to sell gunpowder for an emerald.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Fire Charge,Blaze Powder + Coal or Charcoal + Gunpowder,"[[None, None, None], ['Blaze Powder', 'Coal', None], [None, '', None]]",
+    Firework Rocket,Paper + Gunpowder,"[[None, None, None], ['Paper', '', None], ['', '', None]]","When crafted this way (without a firework star), the rocket does not have explosion effects. The value of gunpowder affects the flight duration ."
+    Firework Rocket,Any Firework Star + Paper + Gunpowder,"[[None, None, None], ['Firework Star', 'Paper', ''], ['', '', None]]",Adding more gunpowder increases the duration of the rocket. Up to three gunpowder can be used. Up to five firework stars can also be used with three gunpowder. Up to seven firework stars can be used by using firework stars instead of additional gunpowder. All firework stars explode almost simultaneously when the rocket detonates.
+    Firework Star,Gunpowder + Matching Dye + Extra ingredients (optional),"[[None, None, None], ['', 'White Dye', 'Head'], ['Glowstone Dust', 'Diamond', None]]","Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    TNT,Gunpowder + Sand or Red Sand,"[['', 'Sand', ''], ['Sand', '', 'Sand'], ['', 'Sand', '']]",
+    White Firework Star or Blue Firework Star or Brown Firework Star or Black Firework Star,Gunpowder + Bone Meal or Lapis Lazuli or Cocoa Beans or Ink Sac + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['', 'Bone Meal', 'Head'], ['Glowstone Dust', 'Diamond', None]]","‌ [ Bedrock Edition and Minecraft Education only ] Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+
+  Brewing ingredient
+    Name,Ingredients,Brewing recipe
+    Splash Potion,Gunpowder + Any Potion,output:Splash Mundane Potion; Splash Potion of Healing; Splash Potion of Fire Resistance; Splash Potion of Harming; Splash Potion of Poison; Splash Potion of Regeneration; Splash Potion of Slowness; Splash Potion of Strength; Splash Potion of Swiftness; Splash Potion of Weakness; Splash Potion of Night Vision; Splash Potion of Invisibility; Splash Potion of Water Breathing; Splash Potion of Leaping
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Gunpowder,gunpowder,Item,item.minecraft.gunpowder
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Gunpowder,gunpowder,328,Item,item.gunpowder.name
+

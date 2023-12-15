@@ -1,0 +1,32 @@
+Overview
+    A bamboo mosaic is a decorative block crafted out of bamboo slabs.
+
+Obtaining
+  Breaking
+    Bamboo mosaics can be broken with any tool, but an axe is the quickest.
+
+    Block,Bamboo Mosaic
+    Hardness,2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,3
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Bamboo Slab,"[[None, 'Bamboo Slab', None], [None, 'Bamboo Slab', None], [None, None, None]]",
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Bamboo Mosaic Stairs,Bamboo Mosaic,"[['', None, None], ['', '', None], ['', '', '']]"
+    Bamboo Mosaic Slab,Bamboo Mosaic,"[[None, None, None], [None, None, None], ['', '', '']]"
+
+  Fuel
+    When used in a furnace as fuel, bamboo mosaics last 15 seconds (smelting up to 1.5 items).
+

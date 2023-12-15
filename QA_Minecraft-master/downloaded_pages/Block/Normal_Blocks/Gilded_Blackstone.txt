@@ -1,0 +1,41 @@
+Overview
+    Gilded blackstone is a variant of blackstone found exclusively in bastion remnants, that can drop itself or gold nuggets when mined.
+
+Obtaining
+  Breaking
+    Gilded blackstone requires a pickaxe to be mined, in which case it drops itself or gold nuggets. When mined without a pickaxe, it drops nothing. Gilded blackstone has a 10% chance to drop 2–5 gold nuggets when mined with any pickaxe. If it does not drop gold nuggets, it drops itself as a block. If a gilded blackstone is mined with a Silk Touch enchanted pickaxe, it always drops itself. As with the drop chance of flint from gravel, the Fortune enchantment does not increase the amount dropped, but increases the chance of gold nuggets dropping. Fortune I increases the chance for this drop to 14.29% (1⁄7), Fortune II increases it to 25%, and Fortune III guarantees the gold nugget drop.
+
+    Block,Gilded Blackstone
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Gilded blackstone generates as part of bastion remnants, replacing some of the blackstone in the structure; they can also be found beneath bastion chests.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Gilded Blackstone,Bastion remnant,Hoglin stable chest,2–5,"22.8% { ""item"": ""Gilded Blackstone"", ""stacksize"": ""2–5"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Treasure chest,5–15,"33.7% { ""item"": ""Gilded Blackstone"", ""stacksize"": ""5–15"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Generic chest,1–5,"44.1% { ""item"": ""Gilded Blackstone"", ""stacksize"": ""1–5"", ""chance"": 0.44077588319736705, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bridge chest,8–12,"11.2% { ""item"": ""Gilded Blackstone"", ""stacksize"": ""8–12"", ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Bedrock Edition
+    Gilded Blackstone,Bastion remnant,Hoglin stable chest,2–5,"22.8% { ""item"": ""Gilded Blackstone"", ""stacksize"": ""2–5"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Treasure chest,5–15,"33.7% { ""item"": ""Gilded Blackstone"", ""stacksize"": ""5–15"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Generic chest,1–5,"44.1% { ""item"": ""Gilded Blackstone"", ""stacksize"": ""1–5"", ""chance"": 0.44077588319736705, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bridge chest,8–12,"11.2% { ""item"": ""Gilded Blackstone"", ""stacksize"": ""8–12"", ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+
+Usage
+    Gilded blackstone is primarily used for decoration.
+
+  Piglins
+    Piglins are attracted to gilded blackstone and run toward any gilded blackstone on the ground, and inspect it for 6 to 8 seconds before putting it in their inventory. Piglins become hostile toward players that break gilded blackstone.
+

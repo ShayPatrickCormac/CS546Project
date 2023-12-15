@@ -1,0 +1,39 @@
+Overview
+    Chiseled bookshelves are blocks that can hold books, books and quills, written books, enchanted books and knowledge books.
+
+Obtaining
+  Breaking
+    Chiseled bookshelves can be destroyed with any tool, but an axe mines it the fastest. When broken, all contained books are dropped as items. The block itself drops only when broken using a tool enchanted with Silk Touch.[1]
+
+    Block,Chiseled bookshelf
+    Hardness,1.5
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,2.25
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Crafting
+    Ingredients,Crafting recipe
+    Any Planks + Any Wooden Slab,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], ['Oak Slab', 'Oak Slab', 'Oak Slab'], ['Oak Planks', 'Oak Planks', 'Oak Planks']]"
+
+Usage
+  Holding books
+    Chiseled bookshelves can hold up to six books, books and quills, written books, enchanted books, and/or knowledge books. There is no GUI; books are instead added into the bookshelf by using on a slot with a book. Doing so places a book in that slot. Using on an occupied slot removes the book from that slot. Chiseled bookshelves do not increase the power of enchanting tables.
+
+  Redstone signal
+    A redstone comparator sends a signal (1–6) indicating the last slot interacted with. When no slot has been interacted with yet, it outputs 0. An observer can detect when a book is added or removed from the bookshelf.
+
+  Hoppers, minecarts with hopper, and droppers
+    Hoppers and minecart with hoppers can insert and remove books from the bookshelf. As with any other container, items are taken from the first slot that has an item that can fit in the hopper and are inserted into the first empty slot. Droppers behave similarly when inserting books into the bookshelf. When a hopper that is not already 100% full fails to remove a book from a non-empty bookshelf because there is no room for the book in the hopper's inventory, that is still counted as an "interaction" with the slot. Thus, a hopper that cannot remove any of the books effectively sets the last-interacted slot to the last non-empty slot in the bookshelf.[2]
+
+  Fuel
+    Chiseled bookshelves can be used as fuel in furnaces to smelt 1.5 items.
+
+  Note Blocks
+    Chiseled bookshelves can be placed under note blocks to produce a "bass" sound.
+

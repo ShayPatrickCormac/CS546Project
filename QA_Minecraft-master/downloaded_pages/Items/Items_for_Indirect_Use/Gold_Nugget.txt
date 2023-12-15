@@ -1,0 +1,70 @@
+Overview
+    Gold nuggets are items used to make gold ingots and other various golden items. One gold nugget is effectively worth one-ninth of a gold ingot.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Gold Ingot,"[[None, None, None], [None, 'Gold Ingot', None], [None, None, None]]"
+
+  Smelting
+    Ingredients,Smelting recipe
+    Golden Sword or Any golden tools or Any golden armor or Golden Horse Armor + Any fuel,0.25
+
+  Mob loot
+    Zombified piglins, when killed, may drop 0-1 gold nuggets. When killed using a weapon enchanted with Looting, they may drop an additional gold nugget per level of Looting used, up to a maximum of 4.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Gold Nugget,Bastion remnant,Bridge chest,2–6,"47.9% { ""item"": ""Gold Nugget"", ""stacksize"": ""2–6"", ""chance"": 0.4794666666666667, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Generic chest,2–8,"24.4% { ""item"": ""Gold Nugget"", ""stacksize"": ""2–8"", ""chance"": 0.24372395924512447, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Hoglin stable chest,2–8,"22.8% { ""item"": ""Gold Nugget"", ""stacksize"": ""2–8"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Igloo,Chest,1–3,"55.3% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–3"", ""chance"": 0.5529977744943003, ""structure"": ""Igloo"", ""container"": ""Chest"" }"
+    Warm Ocean ruins,Warm ruins suspicious sand,1,"13.3% { ""item"": ""Gold Nugget"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Gold Nugget"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Ruined portal,Chest,4–24,"20.5% { ""item"": ""Gold Nugget"", ""stacksize"": ""4–24"", ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–10,"36.6% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–10"", ""chance"": 0.36634063720703125, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Gold Nugget"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Underwater ruins,Big ruins chest,1–3,"81% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–3"", ""chance"": 0.8100781882091176, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Village,Savanna house chest,1–3,"11.3% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–3"", ""chance"": 0.11323884996174782, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Plains house chest,1–3,"12.1% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–3"", ""chance"": 0.12068353467250137, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Bedrock Edition
+    Gold Nugget,Bastion remnant,Bridge chest,2–6,"47.9% { ""item"": ""Gold Nugget"", ""stacksize"": ""2–6"", ""chance"": 0.4794666666666667, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Generic chest,2–8,"24.4% { ""item"": ""Gold Nugget"", ""stacksize"": ""2–8"", ""chance"": 0.24372395924512447, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Hoglin stable chest,2–8,"22.8% { ""item"": ""Gold Nugget"", ""stacksize"": ""2–8"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Igloo,Chest,1–3,"55.3% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–3"", ""chance"": 0.5529977744943003, ""structure"": ""Igloo"", ""container"": ""Chest"" }"
+    Warm Ocean ruins,Warm ruins suspicious sand,1,"13.3% { ""item"": ""Gold Nugget"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Gold Nugget"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Ruined portal,Chest,4–24,"20.5% { ""item"": ""Gold Nugget"", ""stacksize"": ""4–24"", ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–10,"36.6% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–10"", ""chance"": 0.36634063720703125, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Gold Nugget"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Underwater ruins,Big ruins chest,1–3,"81% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–3"", ""chance"": 0.8100781882091176, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Village,Savanna house chest,1–3,"11.3% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–3"", ""chance"": 0.11323884996174782, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Plains house chest,1–3,"12.1% { ""item"": ""Gold Nugget"", ""stacksize"": ""1–3"", ""chance"": 0.12068353467250137, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+
+  Mining
+    Nether gold ore mined using a pickaxe drops 2-6 gold nuggets. If the pickaxe is enchanted with Fortune, it has a 33.3% chance to multiply the drops by 2, Fortune II has a 25% chance to multiply the drops by 2 or 3 and Fortune III has a 20% chance each to multiply the drops by 2, 3, or 4 for a maximum possible drop of 24 golden nuggets. The average drop rate for a Fortune III pickaxe is 8.8, while the drop rate for a Silk Touch pickaxe is a single ingot, or a flat rate of 9. It is slightly more efficient to mine with a Silk Touch pickaxe. Gilded blackstone mined using a pickaxe has a 10% chance to drop 2-5 gold nuggets. If the pickaxe is enchanted with Fortune I, the chance gold nuggets drop is increased 14.29%, Fortune II increases the drop chance to 25%, and Fortune III guarantees the drop.
+
+Usage
+    Gold nuggets can be used to craft a golden carrot or glistering melon for brewing. Also, gold nuggets can be combined with gunpowder and dye to create a firework star that bursts in a star-shaped explosion. Piglins instantly pick up any gold nuggets that are within 1 block of them. Unlike other gold-related items, they do not intentionally seek out gold nuggets to pick up and only pick them up if they walk near it. Unlike gold ingots, gold nuggets picked up are dropped upon the piglin's death.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Firework Star,Gunpowder + Matching Dye + Gold Nugget + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'White Dye', ''], ['Glowstone Dust', 'Diamond', None]]","Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Glistering Melon Slice,Gold Nugget + Melon Slice,"[['', '', ''], ['', 'Melon Slice', ''], ['', '', '']]",
+    Gold Ingot,Gold Nugget,"[['', '', ''], ['', '', ''], ['', '', '']]",
+    Golden Carrot,Gold Nugget + Carrot,"[['', '', ''], ['', 'Carrot', ''], ['', '', '']]",
+    White Firework Star or Blue Firework Star or Brown Firework Star or Black Firework Star,Gunpowder + Bone Meal or Lapis Lazuli or Cocoa Beans or Ink Sac + Gold Nugget + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'Bone Meal', ''], ['Glowstone Dust', 'Diamond', None]]","‌ [ Bedrock Edition and Minecraft Education only ] Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Gold Nugget,gold_nugget,Item,item.minecraft.gold_nugget
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Gold Nugget,gold_nugget,425,Item,item.gold_nugget.name
+

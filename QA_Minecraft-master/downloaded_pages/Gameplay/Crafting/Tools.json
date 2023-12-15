@@ -1,0 +1,910 @@
+[
+    {
+        "names": [
+            "Flint and Steel"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Flint"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Iron Ingot",
+                "Flint",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Flint and Steel"
+        ],
+        "ingredients": [
+            "Flint and Steel"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Flint and Steel",
+                "Flint and Steel",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two tools is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Shovels"
+        ],
+        "ingredients": [
+            "Planks",
+            "Iron Ingot",
+            "Gold Ingot",
+            "Diamond",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Oak Planks",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stone Shovel"
+        ],
+        "ingredients": [
+            "stone-tier block",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Cobblestone",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": "Can use any variant of cobblestone"
+    },
+    {
+        "names": [
+            "Shovel"
+        ],
+        "ingredients": [
+            "Shovel"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Wooden Shovel",
+                "Wooden Shovel",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two shovels is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Axe"
+        ],
+        "ingredients": [
+            "Planks",
+            "Iron Ingot",
+            "Gold Ingot",
+            "Diamond",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stone Axe"
+        ],
+        "ingredients": [
+            "stone-tier block",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Cobblestone",
+                "Cobblestone",
+                null
+            ],
+            [
+                "Cobblestone",
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": "Can use cobblestone and its other variants interchangeably."
+    },
+    {
+        "names": [
+            "Axe"
+        ],
+        "ingredients": [
+            "Axe"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Wooden Axe",
+                "Wooden Axe",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two axes is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Hoe"
+        ],
+        "ingredients": [
+            "Planks",
+            "Iron Ingot",
+            "Gold Ingot",
+            "Diamond",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stone Hoe"
+        ],
+        "ingredients": [
+            "stone-tier block",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Cobblestone",
+                "Cobblestone",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": "Can use cobblestone and its other variants interchangeably."
+    },
+    {
+        "names": [
+            "Hoe"
+        ],
+        "ingredients": [],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Wooden Hoe",
+                "Wooden Hoe",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two hoes is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Fishing Rod"
+        ],
+        "ingredients": [
+            "Stick",
+            "String"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                "Stick"
+            ],
+            [
+                null,
+                "Stick",
+                "String"
+            ],
+            [
+                "Stick",
+                null,
+                "String"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Fishing Rod"
+        ],
+        "ingredients": [
+            "Fishing Rod"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Fishing Rod",
+                "Fishing Rod",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two fishing rods is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Shears"
+        ],
+        "ingredients": [
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Iron Ingot",
+                null
+            ],
+            [
+                "Iron Ingot",
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Shears"
+        ],
+        "ingredients": [
+            "Shears"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Shears",
+                "Shears",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two shears is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Brush"
+        ],
+        "ingredients": [
+            "Feather",
+            "Copper Ingot",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Feather",
+                null
+            ],
+            [
+                null,
+                "Copper Ingot",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Brush"
+        ],
+        "ingredients": [
+            "Brush"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Brush",
+                "Brush",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two brushes is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Carrot on a Stick"
+        ],
+        "ingredients": [
+            "Fishing Rod",
+            "Fishing Rod",
+            "Carrot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Fishing Rod",
+                null
+            ],
+            [
+                null,
+                null,
+                "Carrot"
+            ]
+        ],
+        "description": "The fishing rod must be diagonally above the carrot to craft the carrot on a stick."
+    },
+    {
+        "names": [
+            "Carrot on a Stick"
+        ],
+        "ingredients": [
+            "Carrot on a Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Carrot on a Stick",
+                "Carrot on a Stick",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two carrots on sticks is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Warped Fungus on a Stick"
+        ],
+        "ingredients": [
+            "Fishing Rod",
+            "Fishing Rod",
+            "Warped Fungus"
+        ],
+        "sample pattern": [
+            [
+                "Fishing Rod",
+                null,
+                null
+            ],
+            [
+                null,
+                "Warped Fungus",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "Crafting from a damaged fishing rod is available only inBedrock Edition.Java Editionrequires a pristine fishing rod. The2×2 gridcan also be used for crafting instead of a crafting table."
+    },
+    {
+        "names": [
+            "Warped Fungus on a Stick"
+        ],
+        "ingredients": [
+            "Warped Fungus on a Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Damaged Warped Fungus on a Stick",
+                "Damaged Warped Fungus on a Stick",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two warped fungi on sticks is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Elytra"
+        ],
+        "ingredients": [
+            "Elytra"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Elytra",
+                "Elytra",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two pairs is added together, plus an extra 5% durability, but removes any enchantments."
+    },
+    {
+        "names": [
+            "Glow Stick"
+        ],
+        "ingredients": [
+            "Polyethylene",
+            "Hydrogen Peroxide",
+            "Dye",
+            "Luminol"
+        ],
+        "sample pattern": [
+            [
+                "Polyethylene",
+                "Hydrogen Peroxide",
+                "Polyethylene"
+            ],
+            [
+                "Polyethylene",
+                "White Dye",
+                "Polyethylene"
+            ],
+            [
+                "Polyethylene",
+                "Luminol",
+                "Polyethylene"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]light gray dye creates a glitched glow stick called item.glow_stick.silver.name.[verify]"
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Planks",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [],
+        "ingredients": [],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Wooden Pickaxe",
+                "Wooden Pickaxe",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two pickaxes is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "stone-tier block",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": "Can use cobblestone and its other variants interchangeably."
+    },
+    {
+        "names": [],
+        "ingredients": [],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Stone Pickaxe",
+                "Stone Pickaxe",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two pickaxes is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Iron Ingot",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [],
+        "ingredients": [],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Iron Pickaxe",
+                "Iron Pickaxe",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two pickaxes is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Gold Ingot",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Gold Ingot",
+                "Gold Ingot",
+                "Gold Ingot"
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [],
+        "ingredients": [],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Golden Pickaxe",
+                "Golden Pickaxe",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two pickaxes is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Diamond",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Diamond",
+                "Diamond",
+                "Diamond"
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [],
+        "ingredients": [],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Diamond Pickaxe",
+                "Diamond Pickaxe",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two pickaxes is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Axe"
+        ],
+        "ingredients": [
+            "Planks",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": "The planks do not need to match."
+    },
+    {
+        "names": [
+            "Axe"
+        ],
+        "ingredients": [],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Wooden Axe",
+                "Wooden Axe",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two axes is added together, plus an extra 5% durability."
+    }
+]

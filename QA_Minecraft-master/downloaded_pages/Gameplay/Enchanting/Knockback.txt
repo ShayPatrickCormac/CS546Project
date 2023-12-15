@@ -1,0 +1,19 @@
+Overview
+    Knockback is an enchantment to a sword that increases the sword's knockback.
+
+Usage
+    Any weapon enchanted with knockback upon hitting an entity creates an additional knockback-like effect, along with regular knockback. This knockback-like effect horizontally pushes the entity in the direction the player is looking, rather then directly away from the player. This horizontal push starts at 1.552 blocks and increases by 2.586 blocks with each level of knockback. Knockback also changes the amount entities are pushed vertically by a weapon swing from 0.8125 blocks to 1 block and unlike the horizontal push it also applies to entities damaged by sword's sweeping attack and takes neither the direction the player is looking at nor the player's position relative to the entity into account, it always pushes the entity along the Y coordinate. When using commands to increase the knockback value beyond two, the limit on the amount of knockback that a player can take is much less than the amount of knockback that any other entity can take. In Java Edition, players can hit armor stands back with a knockback enchantment, but not in Bedrock Edition. Sprinting while using the sword enchanted with knockback has the same effect as having a sword with 1 level higher knockback, while sprinting using a weapon without knockback enchantment has the same effect as having it enchanted with knockback I. As with regular knockback, entity isn't pushed at all if all the damage of an attack is negated by damage immunity. By default in Minecraft, if the attacking players are sprinting, they deal more knockback to the damaged ones. This is the reason of PvP movement-related actions like W-tapping (sprint reset). Damaged players start receiving less knockback while they are in the air. On a combat situation where two players are moving, the horizontal knockback received is multiplied by 0.6 (reduced by 40%) if the attacker send an attack packet and is moving forward. It does not stack. Sword enchanted with knockback wielded by a mob works as it would if player was wielding it.
+
+Resistant mobs
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Knockback,knockback,enchantment.minecraft.knockback
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Knockback,knockback,12,enchantment.knockback
+

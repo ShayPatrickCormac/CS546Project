@@ -1,0 +1,37 @@
+Overview
+    Loyalty is an enchantment applied to a trident, causing it to return to the owner once thrown.
+
+Behavior
+    The speed of returning depends on the level. When the player is traveling between dimensions, the trident attempts to return to the player but stays in the current dimension. For example, if a player throws a Loyalty-enchanted trident while in the Nether and goes to the Overworld before the trident returns, the trident stays in the Nether and does not despawn. As soon as the player returns to the Nether, the trident resumes returning to the player. A returning trident travels to its owner in a straight line, and can phase through all blocks and entities without hitting them. If the trident attempts to return to the player while their inventory is full, it starts circling around the player indefinitely, until an inventory slot is freed up. Multiple returning tridents can circle around a player simultaneously. If the player dies while the trident is returning, the trident then drops in item form and is susceptible to despawning.
+
+Usage
+    When a trident enchanted with Loyalty is thrown and comes into contact with any block or entity, it returns after a time interval to the player who threw it. Higher enchantments decrease the waiting time to return. In Java Edition, throwing a trident into the void effectively destroys the trident;[1] it never returns because there are no blocks or entities for it to hit.‌[until JE Edition Combat Tests] In Bedrock Edition, the trident returns after traveling around 15 blocks in the void. A Loyalty-enchanted trident does not return when thrown by a dispenser.‌[BE  only] If a Loyalty-enchanted trident is shot into the void by a dispenser, it does not despawn immediately like a normal trident would. If commands are used to increase the enchantment level beyond 127, Loyalty no longer functions.
+
+Incompatibilities
+    Loyalty and Riptide are mutually exclusive. If the two are combined via commands, Riptide still functions normally but the trident can no longer be thrown, unless underwater.
+
+Sounds
+    Java Edition:
+
+    Sounds
+    Sound,Subtitles,Source,Description,Resource location,Translation key,Volume,Pitch,Attenuation distance
+    ,Trident returns,Friendly Creatures,When a trident starts returning [sound 1],item .trident .return,subtitles .item .trident .return,8.0,varies [sound 2],"16 { ""pitch"": ""''varies'' '\""`UNIQ--ref-00000017-QINU`\""'"", ""subtitle"": ""Trident returns"", ""source"": ""Friendly Creatures"", ""id"": ""item.trident.return"", ""distance"": ""16"", ""desc"": ""When a trident starts returning '\""`UNIQ--ref-00000016-QINU`\""'"", ""sounds"": [ ""Trident return1.ogg"", ""Trident return2.ogg"", ""Trident return3.ogg"" ], ""volume"": ""8.0"", ""java"": ""1"", ""translationkey"": ""subtitles.item.trident.return"" }"
+
+    Bedrock Edition:
+
+    Sounds
+    Sound,Source,Description,Resource location,Volume,Pitch
+    ,Players,When a trident starts returning [sound 1],item .trident .return,8.0,"varies [sound 2] { ""sounds"": [ ""Trident return1.ogg"", ""Trident return2.ogg"", ""Trident return3.ogg"" ], ""source"": ""Players"", ""volume"": ""8.0"", ""id"": ""item.trident.return"", ""pitch"": ""''varies'' '\""`UNIQ--ref-0000001A-QINU`\""'"", ""bedrock"": ""1"", ""desc"": ""When a trident starts returning '\""`UNIQ--ref-00000019-QINU`\""'"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Loyalty,loyalty,enchantment.minecraft.loyalty
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Loyalty,loyalty,31,enchantment.tridentLoyalty
+

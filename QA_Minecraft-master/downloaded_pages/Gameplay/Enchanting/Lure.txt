@@ -1,0 +1,18 @@
+Overview
+    Lure is a fishing rod enchantment that decreases the wait time for a bite on the hook.
+
+Usage
+    Lure increases the rate of something biting the player's hook while fishing. Specifically, it decreases the wait time for something to appear by 5 seconds per level. See Fishing for more information. If commands are used to increase the enchantment level beyond 5, the wait timer does not start and fish do not bite.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Lure,lure,enchantment.minecraft.lure
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Lure,lure,24,enchantment.fishingSpeed
+

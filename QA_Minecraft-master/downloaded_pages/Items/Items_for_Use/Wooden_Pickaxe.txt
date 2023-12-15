@@ -1,0 +1,70 @@
+Overview
+    A wooden pickaxe has a mining level of 0 and is one of the first items the player can craft in Minecraft. A wooden pickaxe or higher is required to mine various commonly occurring natural blocks, such as stone.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Any Planks + Stick,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], [None, 'Stick', None], [None, 'Stick', None]]",
+    Damaged Wooden Pickaxes,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two pickaxes is added together, plus an extra 5% durability."
+
+  Repairing
+    Ingredients,Grinding recipe
+    Damaged Wooden Pickaxes,
+
+    Wooden pickaxes can be repaired in an anvil by adding wooden planks, with each plank restoring 25% of the pickaxe's maximum durability, rounded down.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Wooden Pickaxe,Bonus chest,Chest,1,"75% { ""item"": ""Wooden Pickaxe"", ""stacksize"": 1, ""chance"": 0.75, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Wooden Pickaxe,Bonus chest,Chest,1,"75% { ""item"": ""Wooden Pickaxe"", ""stacksize"": 1, ""chance"": 0.75, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+Usage
+  Mining
+    A wooden pickaxe is used to break stone and metal-based materials faster. Breaking a block with a wooden pickaxe consumes one use (one durability point). No durability is consumed for blocks that have a hardness value of 0, such as torches and flowers.
+
+  Weapon
+    All pickaxes have an attack speed modifier of -2.8, meaning they take about 0.83 seconds to recover. Wooden pickaxes do 2 damage per attack, or 2.4 damage per second. All pickaxes attack instantly, with wooden pickaxes doing 3 damage per attack.
+
+  Enchantments
+    A wooden pickaxe can receive the following enchantments:
+
+    Name,Description,Max Level,Method,Weight
+    Efficiency,Increases the mining speed.,V,,10
+    Fortune [note 1],Increases the amount of drops when mining.,III,,2
+    Silk Touch [note 1],Causes blocks to drop themselves when mined.,I,,1
+    Unbreaking,Grants a chance to negate durability consumption.,III,,5
+    Mending,Repairs the pickaxe when obtaining experience .,I,,2
+    Curse of Vanishing,"The pickaxe vanishes on death, not dropping as an item.",I,,1
+
+  Fuel
+    Wooden pickaxes can be used as a fuel in furnaces, smelting 1 item per wooden pickaxe.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Wooden Pickaxe,wooden_pickaxe,Item,item.minecraft.wooden_pickaxe
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Wooden Pickaxe,wooden_pickaxe,310,Item,item.wooden_pickaxe.name
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    time to mine,time to mine,"Time to Mine! { ""anchor"": """", ""title"": ""Time to Mine!"", ""icon"": """", ""title"": ""Time to Mine!"", ""description"": ""Use planks and sticks to make a pickaxe.
+ "", ""requirements"": ""Pick up any type of [[pickaxe]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""10G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Miner Headband"" headwear
+"" }",Use planks and sticks to make a pickaxe.,Pick up any type of pickaxe from a crafting table output.,10G,Bronze
+    moar tools,moar tools,"MOAR Tools { ""anchor"": """", ""title"": ""MOAR Tools"", ""icon"": """", ""title"": ""MOAR Tools"", ""description"": ""Construct one type of each tool.
+ "", ""requirements"": ""Construct one [[pickaxe]], one [[shovel]], one [[axe]], and one [[hoe]] with the same material.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Construct one type of each tool.,"Construct one pickaxe , one shovel , one axe , and one hoe with the same material.",15G,Bronze
+

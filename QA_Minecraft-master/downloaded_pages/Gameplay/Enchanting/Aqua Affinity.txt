@@ -1,0 +1,18 @@
+Overview
+    Aqua Affinity is a helmet enchantment that increases underwater mining speed.
+
+Usage
+    Usually when the player's head is underwater, mining blocks takes 5 times as long as mining while out of water. Wearing armor with Aqua Affinity causes this penalty to be ignored. All levels have the same effect. The related but distinct speed decrease for mining while floating also results in a 5 times decrease in mining speed. The penalty for floating is not affected by Aqua Affinity. Mining without Aqua Affinity while floating takes 25 times as long as mining while out of water.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Aqua Affinity,aqua_affinity,enchantment.minecraft.aqua_affinity
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Aqua Affinity,aqua_affinity,8,enchantment.waterWorker
+

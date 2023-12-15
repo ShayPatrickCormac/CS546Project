@@ -1,0 +1,30 @@
+Overview
+    Chiseled deepslate is the chiseled version of deepslate.
+
+Obtaining
+  Breaking
+    Chiseled deepslate can be obtained only by mining it with a pickaxe. When mined using any other tool, it drops nothing.
+
+    Block,Chiseled Deepslate
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+  Natural generation
+    Chiseled deepslate generate naturally in ancient cities.‌
+
+  Crafting
+    Ingredients,Crafting recipe
+    Cobbled Deepslate Slab,"[[None, None, None], [None, 'Cobbled Deepslate Slab', None], [None, 'Cobbled Deepslate Slab', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Cobbled Deepslate,
+

@@ -1,0 +1,36 @@
+Overview
+    A fire charge is an item that can be used as a single-use version of a flint and steel or shot as a small fireball from a dispenser. Small fireballs are incendiary projectiles fired by blazes and dispensers loaded with fire charges. They can set players and mobs on fire and create fires where they land.
+
+Obtaining
+    Despite firing small fireballs, blazes do not drop fire charges.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Fire Charge,Ruined portal,Chest,1,"46.4% { ""item"": ""Fire Charge"", ""stacksize"": 1, ""chance"": 0.46437576826185156, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Upcoming Java Edition
+    Fire Charge,Trial Chambers,Chamber dispenser,4–8,"20.7% { ""item"": ""Fire Charge"", ""stacksize"": ""4–8"", ""chance"": 0.2068965517241379, ""structure"": ""Trial Chambers"", ""container"": ""Chamber dispenser"" }"
+    Bedrock Edition
+    Fire Charge,Ruined portal,Chest,1,"46.4% { ""item"": ""Fire Charge"", ""stacksize"": 1, ""chance"": 0.46437576826185156, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Blaze Powder + Coal or Charcoal + Gunpowder,"[[None, None, None], ['Blaze Powder', 'Coal', None], [None, 'Gunpowder', None]]"
+
+  Bartering
+    Piglins may barter a single fire charge when given a gold ingot.
+
+Usage
+    Fire charges can be used as ammunition in dispensers or as a single-use substitute for a flint and steel.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Firework Star,Gunpowder + Matching Dye + Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'White Dye', ''], ['Glowstone Dust', 'Diamond', None]]","Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    White Firework Star or Blue Firework Star or Brown Firework Star or Black Firework Star,Gunpowder + Bone Meal or Lapis Lazuli or Cocoa Beans or Ink Sac + Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'Bone Meal', ''], ['Glowstone Dust', 'Diamond', None]]","‌ [ Bedrock Edition and Minecraft Education only ] Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+
+  Creating fire
+    When a fire charge is used, it instantly places a fire, similar to flint and steel. The fire charge is consumed in the process. It can prime TNT, light nether portals, campfires, candles, cakes with candles and creepers‌[Java Edition  only] like flint and steel.
+
+  Small fireballs
+    When a fire charge is fired from a dispenser, it shoots a small fireball. Blazes also shoot small fireballs in volleys of three at a time as their ranged attack. Small fireballs, both when fired by dispensers and blazes, fly in a straight line through the air. Blazes fire small fireballs in the direction of whatever it is attacking. Dispensers fire them in the direction it is pointing. In both cases there is a random offset in a small fireball's trajectory due to a 'cone' of spread, which can cause small fireballs to miss or hit something else.[needs testing] If a small fireball hits a block, fire is placed at that location if possible. It produces no explosive effect. Small fireballs can light campfires and nether portals and can prime minecarts with TNT.[needs testing] If it hits an entity that is not immune to fire and does not have the Fire Resistance effect, the entity takes 5 of projectile damage regardless of difficulty level. The target is set on fire for 5 seconds, which does an additional 4 fire damage over time; it can deal up to 9 damage from these combined effects. Small fireballs can be blocked with a shield, which protects from damage and burning. Unlike ghast fireballs, small fireballs cannot be deflected by being hit.
+

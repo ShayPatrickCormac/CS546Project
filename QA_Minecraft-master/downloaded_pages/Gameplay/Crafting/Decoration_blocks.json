@@ -1,0 +1,2630 @@
+[
+    {
+        "names": [
+            "Painting"
+        ],
+        "ingredients": [
+            "Stick",
+            "Wool"
+        ],
+        "sample pattern": [
+            [
+                "Stick",
+                "Stick",
+                "Stick"
+            ],
+            [
+                "Stick",
+                "White Wool",
+                "Stick"
+            ],
+            [
+                "Stick",
+                "Stick",
+                "Stick"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Ladder"
+        ],
+        "ingredients": [
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Stick",
+                null,
+                "Stick"
+            ],
+            [
+                "Stick",
+                "Stick",
+                "Stick"
+            ],
+            [
+                "Stick",
+                null,
+                "Stick"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Torch"
+        ],
+        "ingredients": [
+            "Coal",
+            "Charcoal",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Coal",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Crafting Table"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chest"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                null,
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Jukebox"
+        ],
+        "ingredients": [
+            "Planks",
+            "Diamond"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Diamond",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Snow"
+        ],
+        "ingredients": [
+            "Snow Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Snow Block",
+                "Snow Block",
+                "Snow Block"
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Wood Fence"
+        ],
+        "ingredients": [
+            "Planks",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                "Stick",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Stick",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "White Wool",
+            "Blue Wool",
+            "Brown Wool",
+            "Black Wool"
+        ],
+        "ingredients": [
+            "Wool",
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Wool",
+                "Bone Meal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Glass Pane"
+        ],
+        "ingredients": [
+            "Glass"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ],
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stained Glass Pane"
+        ],
+        "ingredients": [
+            "Stained Glass"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Stained Glass",
+                "White Stained Glass",
+                "White Stained Glass"
+            ],
+            [
+                "White Stained Glass",
+                "White Stained Glass",
+                "White Stained Glass"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stained Glass Pane"
+        ],
+        "ingredients": [
+            "Glass Pane",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                "Glass Pane",
+                "Glass Pane",
+                "Glass Pane"
+            ],
+            [
+                "Glass Pane",
+                "White Dye",
+                "Glass Pane"
+            ],
+            [
+                "Glass Pane",
+                "Glass Pane",
+                "Glass Pane"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "White Stained Glass Pane",
+            "Blue Stained Glass Pane",
+            "Brown Stained Glass Pane",
+            "Black Stained Glass Pane"
+        ],
+        "ingredients": [
+            "Glass Pane",
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                "Glass Pane",
+                "Glass Pane",
+                "Glass Pane"
+            ],
+            [
+                "Glass Pane",
+                "Bone Meal",
+                "Glass Pane"
+            ],
+            [
+                "Glass Pane",
+                "Glass Pane",
+                "Glass Pane"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Enchanting Table"
+        ],
+        "ingredients": [
+            "Book",
+            "Diamond",
+            "Obsidian"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Book",
+                null
+            ],
+            [
+                "Diamond",
+                "Obsidian",
+                "Diamond"
+            ],
+            [
+                "Obsidian",
+                "Obsidian",
+                "Obsidian"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "End Crystal"
+        ],
+        "ingredients": [
+            "Glass",
+            "Eye of Ender",
+            "Ghast Tear"
+        ],
+        "sample pattern": [
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ],
+            [
+                "Glass",
+                "Eye of Ender",
+                "Glass"
+            ],
+            [
+                "Glass",
+                "Ghast Tear",
+                "Glass"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Sign"
+        ],
+        "ingredients": [
+            "Planks",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Chain",
+            "Stripped Log",
+            "Block of Stripped Bamboo",
+            "Stripped Stem"
+        ],
+        "sample pattern": [
+            [
+                "Chain",
+                null,
+                "Chain"
+            ],
+            [
+                "Stripped Oak Log",
+                "Stripped Oak Log",
+                "Stripped Oak Log"
+            ],
+            [
+                "Stripped Oak Log",
+                "Stripped Oak Log",
+                "Stripped Oak Log"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "White Firework Star",
+            "Blue Firework Star",
+            "Brown Firework Star",
+            "Black Firework Star"
+        ],
+        "ingredients": [
+            "White Firework Star",
+            "Blue Firework Star",
+            "Brown Firework Star",
+            "Black Firework Star",
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Firework Star",
+                "Bone Meal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]Adds a \"fade to color\" effect to the firework star, overwriting any existing fades.Up to eight dyes can be added."
+    },
+    {
+        "names": [
+            "Iron Bars"
+        ],
+        "ingredients": [
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Ender Chest"
+        ],
+        "ingredients": [
+            "Obsidian",
+            "Eye of Ender"
+        ],
+        "sample pattern": [
+            [
+                "Obsidian",
+                "Obsidian",
+                "Obsidian"
+            ],
+            [
+                "Obsidian",
+                "Eye of Ender",
+                "Obsidian"
+            ],
+            [
+                "Obsidian",
+                "Obsidian",
+                "Obsidian"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Trapped Chest"
+        ],
+        "ingredients": [
+            "Tripwire Hook",
+            "Chest"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Tripwire Hook",
+                "Chest",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Furnace"
+        ],
+        "ingredients": [
+            "stone-tier block"
+        ],
+        "sample pattern": [
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ],
+            [
+                "Cobblestone",
+                null,
+                "Cobblestone"
+            ],
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ]
+        ],
+        "description": "Can use cobblestone and its other variants interchangeably."
+    },
+    {
+        "names": [
+            "Cobblestone Wall",
+            "Mossy Cobblestone Wall"
+        ],
+        "ingredients": [
+            "Cobblestone",
+            "Mossy Cobblestone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ],
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stone Brick Wall",
+            "Mossy Stone Brick Wall"
+        ],
+        "ingredients": [
+            "Stone Bricks",
+            "Mossy Stone Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Stone Bricks",
+                "Stone Bricks",
+                "Stone Bricks"
+            ],
+            [
+                "Stone Bricks",
+                "Stone Bricks",
+                "Stone Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Granite Wall"
+        ],
+        "ingredients": [
+            "Granite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Granite",
+                "Granite",
+                "Granite"
+            ],
+            [
+                "Granite",
+                "Granite",
+                "Granite"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Diorite Wall"
+        ],
+        "ingredients": [
+            "Diorite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Diorite",
+                "Diorite",
+                "Diorite"
+            ],
+            [
+                "Diorite",
+                "Diorite",
+                "Diorite"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Andesite Wall"
+        ],
+        "ingredients": [
+            "Andesite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Andesite",
+                "Andesite",
+                "Andesite"
+            ],
+            [
+                "Andesite",
+                "Andesite",
+                "Andesite"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cobbled Deepslate Wall",
+            "Polished Deepslate Wall",
+            "Deepslate Brick Wall",
+            "Deepslate Tile Wall"
+        ],
+        "ingredients": [
+            "Cobbled Deepslate",
+            "Polished Deepslate",
+            "Deepslate Bricks",
+            "Deepslate Tiles"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cobbled Deepslate",
+                "Cobbled Deepslate",
+                "Cobbled Deepslate"
+            ],
+            [
+                "Cobbled Deepslate",
+                "Cobbled Deepslate",
+                "Cobbled Deepslate"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Tuff Wall",
+            "Polished Tuff Wall",
+            "Tuff Brick Wall"
+        ],
+        "ingredients": [
+            "Tuff",
+            "Polished Tuff",
+            "Tuff Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Tuff",
+                "Tuff",
+                "Tuff"
+            ],
+            [
+                "Tuff",
+                "Tuff",
+                "Tuff"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Brick Wall"
+        ],
+        "ingredients": [
+            "Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Bricks",
+                "Bricks",
+                "Bricks"
+            ],
+            [
+                "Bricks",
+                "Bricks",
+                "Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mud Brick Wall"
+        ],
+        "ingredients": [
+            "Mud Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Sandstone Wall"
+        ],
+        "ingredients": [
+            "Sandstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Sandstone",
+                "Sandstone",
+                "Sandstone"
+            ],
+            [
+                "Sandstone",
+                "Sandstone",
+                "Sandstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Red Sandstone Wall"
+        ],
+        "ingredients": [
+            "Red Sandstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Red Sandstone",
+                "Red Sandstone",
+                "Red Sandstone"
+            ],
+            [
+                "Red Sandstone",
+                "Red Sandstone",
+                "Red Sandstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Prismarine Wall"
+        ],
+        "ingredients": [
+            "Prismarine"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Prismarine",
+                "Prismarine",
+                "Prismarine"
+            ],
+            [
+                "Prismarine",
+                "Prismarine",
+                "Prismarine"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Nether Brick Wall",
+            "Red Nether Brick Wall"
+        ],
+        "ingredients": [
+            "Nether Bricks",
+            "Red Nether Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Nether Bricks",
+                "Nether Bricks",
+                "Nether Bricks"
+            ],
+            [
+                "Nether Bricks",
+                "Nether Bricks",
+                "Nether Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Blackstone Wall",
+            "Polished Blackstone Wall",
+            "Polished Blackstone Brick Wall"
+        ],
+        "ingredients": [
+            "Blackstone",
+            "Polished Blackstone",
+            "Polished Blackstone Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blackstone",
+                "Blackstone",
+                "Blackstone"
+            ],
+            [
+                "Blackstone",
+                "Blackstone",
+                "Blackstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "End Stone Brick Wall"
+        ],
+        "ingredients": [
+            "End Stone Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "End Stone Bricks",
+                "End Stone Bricks",
+                "End Stone Bricks"
+            ],
+            [
+                "End Stone Bricks",
+                "End Stone Bricks",
+                "End Stone Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Item Frame"
+        ],
+        "ingredients": [
+            "Stick",
+            "Leather"
+        ],
+        "sample pattern": [
+            [
+                "Stick",
+                "Stick",
+                "Stick"
+            ],
+            [
+                "Stick",
+                "Leather",
+                "Stick"
+            ],
+            [
+                "Stick",
+                "Stick",
+                "Stick"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Glow Item Frame"
+        ],
+        "ingredients": [
+            "Glow Ink Sac",
+            "Item Frame"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Glow Ink Sac",
+                "Item Frame",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Flower Pot"
+        ],
+        "ingredients": [
+            "Brick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Brick",
+                null,
+                "Brick"
+            ],
+            [
+                null,
+                "Brick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stonecutter"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Stone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Iron Ingot",
+                null
+            ],
+            [
+                "Stone",
+                "Stone",
+                "Stone"
+            ]
+        ],
+        "description": "Can use stone only, no variants.‌[Java Editiononly]"
+    },
+    {
+        "names": [
+            "Stonecutter"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Stone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Iron Ingot",
+                null
+            ],
+            [
+                "Stone",
+                "Stone",
+                "Stone"
+            ]
+        ],
+        "description": "Can use stone and its three other variants interchangeably.‌[Bedrock Editiononly]"
+    },
+    {
+        "names": [
+            "Bed"
+        ],
+        "ingredients": [
+            "Wool",
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Wool",
+                "White Wool",
+                "White Wool"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": "The wool color must match. The planks can be different."
+    },
+    {
+        "names": [
+            "Bed"
+        ],
+        "ingredients": [
+            "Bed",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Bed",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "A bed of any color can be re-dyed using dyes."
+    },
+    {
+        "names": [
+            "White Bed"
+        ],
+        "ingredients": [
+            "Dyed Bed",
+            "Bleach"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Light Gray Bed",
+                "Bleach",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "This removes the color from the bed.‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "White Bed",
+            "Blue Bed",
+            "Brown Bed",
+            "Black Bed"
+        ],
+        "ingredients": [
+            "Bed",
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Bed",
+                "Bone Meal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "White Terracotta",
+            "Blue Terracotta",
+            "Brown Terracotta",
+            "Black Terracotta"
+        ],
+        "ingredients": [
+            "Terracotta",
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                "Terracotta",
+                "Terracotta",
+                "Terracotta"
+            ],
+            [
+                "Terracotta",
+                "Bone Meal",
+                "Terracotta"
+            ],
+            [
+                "Terracotta",
+                "Terracotta",
+                "Terracotta"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Anvil"
+        ],
+        "ingredients": [
+            "Block of Iron",
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Block of Iron",
+                "Block of Iron",
+                "Block of Iron"
+            ],
+            [
+                null,
+                "Iron Ingot",
+                null
+            ],
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Carpet"
+        ],
+        "ingredients": [
+            "Wool"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Wool",
+                "White Wool",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "White Carpet"
+        ],
+        "ingredients": [
+            "Dyed Carpet",
+            "Bleach"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Light Gray Carpet",
+                "Bleach",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Blue Carpet",
+            "Brown Carpet",
+            "Black Carpet"
+        ],
+        "ingredients": [
+            "White Carpet",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                "White Carpet",
+                "White Carpet",
+                "White Carpet"
+            ],
+            [
+                "White Carpet",
+                "Lapis Lazuli",
+                "White Carpet"
+            ],
+            [
+                "White Carpet",
+                "White Carpet",
+                "White Carpet"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Slime Block"
+        ],
+        "ingredients": [
+            "Slimeball"
+        ],
+        "sample pattern": [
+            [
+                "Slimeball",
+                "Slimeball",
+                "Slimeball"
+            ],
+            [
+                "Slimeball",
+                "Slimeball",
+                "Slimeball"
+            ],
+            [
+                "Slimeball",
+                "Slimeball",
+                "Slimeball"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "End Rod"
+        ],
+        "ingredients": [
+            "Blaze Rod",
+            "Popped Chorus Fruit"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Blaze Rod",
+                null
+            ],
+            [
+                null,
+                "Popped Chorus Fruit",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Armor Stand"
+        ],
+        "ingredients": [
+            "Stick",
+            "Smooth Stone Slab"
+        ],
+        "sample pattern": [
+            [
+                "Stick",
+                "Stick",
+                "Stick"
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                "Stick",
+                "Smooth Stone Slab",
+                "Stick"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Shulker Box"
+        ],
+        "ingredients": [
+            "Shulker Shell",
+            "Chest"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Shulker Shell",
+                null
+            ],
+            [
+                null,
+                "Chest",
+                null
+            ],
+            [
+                null,
+                "Shulker Shell",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Shulker Box"
+        ],
+        "ingredients": [
+            "Shulker Box",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Shulker Box",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The shulker box retains its contents. If it is renamed on ananvil, it also retains its name."
+    },
+    {
+        "names": [
+            "White Shulker Box",
+            "Blue Shulker Box",
+            "Brown Shulker Box",
+            "Black Shulker Box"
+        ],
+        "ingredients": [
+            "Shulker Box",
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Shulker Box",
+                "Bone Meal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Underwater Torch"
+        ],
+        "ingredients": [
+            "Magnesium",
+            "Torch"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Magnesium",
+                null
+            ],
+            [
+                null,
+                "Torch",
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Banner"
+        ],
+        "ingredients": [
+            "Wool",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                "White Wool",
+                "White Wool",
+                "White Wool"
+            ],
+            [
+                "White Wool",
+                "White Wool",
+                "White Wool"
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": "Once the banner is crafted, its base color cannot be changed.‌[Java Editiononly]"
+    },
+    {
+        "names": [
+            "White Banner"
+        ],
+        "ingredients": [
+            "Banner",
+            "Bleach"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Banner",
+                "Bleach",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "Bleach can be used to remove the color of a banner, resulting in a white banner. This includes removing patterns from a white banner.‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Banner"
+        ],
+        "ingredients": [
+            "Banner"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Banner",
+                "White Banner",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "Copies pattern; both banners must have the same base color, and the one having a pattern copied onto it must have no preexisting pattern."
+    },
+    {
+        "names": [
+            "Blue Torch",
+            "Red Torch",
+            "Purple Torch",
+            "Green Torch"
+        ],
+        "ingredients": [
+            "Cerium Chloride",
+            "Mercuric Chloride",
+            "Potassium Chloride",
+            "Tungsten Chloride",
+            "Torch"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Cerium Chloride",
+                null
+            ],
+            [
+                null,
+                "Torch",
+                null
+            ]
+        ],
+        "description": "Cerium Chloride: BlueMercuric Chloride: RedPotassium Chloride: PurpleTungsten Chloride: Green‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Hardened Glass Pane"
+        ],
+        "ingredients": [
+            "Aluminum Oxide",
+            "Glass Pane",
+            "Boron Trioxide"
+        ],
+        "sample pattern": [
+            [
+                "Aluminum Oxide",
+                "Aluminum Oxide",
+                "Aluminum Oxide"
+            ],
+            [
+                "Glass Pane",
+                "Glass Pane",
+                "Glass Pane"
+            ],
+            [
+                "Boron Trioxide",
+                "Boron Trioxide",
+                "Boron Trioxide"
+            ]
+        ],
+        "description": "A representation ofalumino-borosilicate glass.‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Aluminum Oxide",
+            "Stained Glass Pane",
+            "Boron Trioxide"
+        ],
+        "sample pattern": [
+            [
+                "Aluminum Oxide",
+                "Aluminum Oxide",
+                "Aluminum Oxide"
+            ],
+            [
+                "White Stained Glass Pane",
+                "White Stained Glass Pane",
+                "White Stained Glass Pane"
+            ],
+            [
+                "Boron Trioxide",
+                "Boron Trioxide",
+                "Boron Trioxide"
+            ]
+        ],
+        "description": "A representation ofalumino-borosilicate glass.‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Barrel"
+        ],
+        "ingredients": [
+            "Planks",
+            "Wooden Slab"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Slab",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                null,
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Oak Slab",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Grindstone"
+        ],
+        "ingredients": [
+            "Stick",
+            "Stone Slab",
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                "Stick",
+                "Stone Slab",
+                "Stick"
+            ],
+            [
+                "Oak Planks",
+                null,
+                "Oak Planks"
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "In Bedrock Edition, grindstone recipes built with crimson, warped, or mangrove planks can use a slab of almost any of the stone types including sandstone, quartz, and bricks."
+    },
+    {
+        "names": [
+            "Loom"
+        ],
+        "ingredients": [
+            "String",
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "String",
+                "String",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Smithing Table"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Campfire"
+        ],
+        "ingredients": [
+            "Stick",
+            "Coal",
+            "Log",
+            "Stem",
+            "Stripped Log",
+            "Stem",
+            "Wood",
+            "Hyphae",
+            "Stripped Wood",
+            "Hyphae"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                "Stick",
+                "Coal",
+                "Stick"
+            ],
+            [
+                "Oak Log",
+                "Oak Log",
+                "Oak Log"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Campfire"
+        ],
+        "ingredients": [
+            "Stick",
+            "Charcoal",
+            "Log",
+            "Stem",
+            "Stripped Log",
+            "Stem",
+            "Wood",
+            "Hyphae",
+            "Stripped Wood",
+            "Hyphae"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                "Stick",
+                "Charcoal",
+                "Stick"
+            ],
+            [
+                "Oak Log",
+                "Oak Log",
+                "Oak Log"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cartography Table"
+        ],
+        "ingredients": [
+            "Paper",
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                "Paper",
+                "Paper",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Lantern"
+        ],
+        "ingredients": [
+            "Iron Nugget",
+            "Torch"
+        ],
+        "sample pattern": [
+            [
+                "Iron Nugget",
+                "Iron Nugget",
+                "Iron Nugget"
+            ],
+            [
+                "Iron Nugget",
+                "Torch",
+                "Iron Nugget"
+            ],
+            [
+                "Iron Nugget",
+                "Iron Nugget",
+                "Iron Nugget"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Smoker"
+        ],
+        "ingredients": [
+            "Log",
+            "Stem",
+            "Stripped Log",
+            "Stem",
+            "Wood",
+            "Hyphae",
+            "Stripped Wood",
+            "Hyphae",
+            "Furnace"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Oak Log",
+                null
+            ],
+            [
+                "Oak Log",
+                "Furnace",
+                "Oak Log"
+            ],
+            [
+                null,
+                "Oak Log",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Blast Furnace"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Furnace",
+            "Smooth Stone"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Furnace",
+                "Iron Ingot"
+            ],
+            [
+                "Smooth Stone",
+                "Smooth Stone",
+                "Smooth Stone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Fletching Table"
+        ],
+        "ingredients": [
+            "Flint",
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                "Flint",
+                "Flint",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Honeycomb Block"
+        ],
+        "ingredients": [
+            "Honeycomb"
+        ],
+        "sample pattern": [
+            [
+                "Honeycomb",
+                "Honeycomb",
+                null
+            ],
+            [
+                "Honeycomb",
+                "Honeycomb",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Honey Block"
+        ],
+        "ingredients": [
+            "Honey Bottle"
+        ],
+        "sample pattern": [
+            [
+                "Honey Bottle",
+                "Honey Bottle",
+                null
+            ],
+            [
+                "Honey Bottle",
+                "Honey Bottle",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "Emptybottlesremain in the crafting grid aftercraftingthe honey block."
+    },
+    {
+        "names": [
+            "Respawn Anchor"
+        ],
+        "ingredients": [
+            "Crying Obsidian",
+            "Glowstone"
+        ],
+        "sample pattern": [
+            [
+                "Crying Obsidian",
+                "Crying Obsidian",
+                "Crying Obsidian"
+            ],
+            [
+                "Glowstone",
+                "Glowstone",
+                "Glowstone"
+            ],
+            [
+                "Crying Obsidian",
+                "Crying Obsidian",
+                "Crying Obsidian"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Lodestone"
+        ],
+        "ingredients": [
+            "Chiseled Stone Bricks",
+            "Netherite Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Chiseled Stone Bricks",
+                "Chiseled Stone Bricks",
+                "Chiseled Stone Bricks"
+            ],
+            [
+                "Chiseled Stone Bricks",
+                "Netherite Ingot",
+                "Chiseled Stone Bricks"
+            ],
+            [
+                "Chiseled Stone Bricks",
+                "Chiseled Stone Bricks",
+                "Chiseled Stone Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Beehive"
+        ],
+        "ingredients": [
+            "Planks",
+            "Honeycomb"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                "Honeycomb",
+                "Honeycomb",
+                "Honeycomb"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Decorated Pot"
+        ],
+        "ingredients": [
+            "Brick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Angler Pottery Sherd",
+                null
+            ],
+            [
+                "Angler Pottery Sherd",
+                null,
+                "Angler Pottery Sherd"
+            ],
+            [
+                null,
+                "Angler Pottery Sherd",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Candle"
+        ],
+        "ingredients": [
+            "String",
+            "Honeycomb"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "String",
+                null
+            ],
+            [
+                null,
+                "Honeycomb",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Dyed Candle"
+        ],
+        "ingredients": [
+            "Candle",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Candle",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Moss Carpet"
+        ],
+        "ingredients": [
+            "Moss Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Moss Block",
+                "Moss Block",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Packed Mud"
+        ],
+        "ingredients": [
+            "Mud",
+            "Wheat"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Mud",
+                "Wheat",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Muddy Mangrove Roots"
+        ],
+        "ingredients": [
+            "Mud",
+            "Mangrove Roots"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Mud",
+                "Mangrove Roots",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Decorated Pot"
+        ],
+        "ingredients": [
+            "Pottery Sherd",
+            "Brick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Angler Pottery Sherd",
+                null
+            ],
+            [
+                "Angler Pottery Sherd",
+                null,
+                "Angler Pottery Sherd"
+            ],
+            [
+                null,
+                "Angler Pottery Sherd",
+                null
+            ]
+        ],
+        "description": "It is possible to use any combination of bricks andpottery sherds."
+    },
+    {
+        "names": [
+            "Nether Brick Fence"
+        ],
+        "ingredients": [
+            "Nether Bricks",
+            "Nether Brick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Nether Bricks",
+                "Nether Brick",
+                "Nether Bricks"
+            ],
+            [
+                "Nether Bricks",
+                "Nether Brick",
+                "Nether Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Soul Torch"
+        ],
+        "ingredients": [
+            "Coal",
+            "Charcoal",
+            "Stick",
+            "Soul Soil",
+            "Soul Sand"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Coal",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Soul Soil",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Soul Lantern"
+        ],
+        "ingredients": [
+            "Iron Nugget",
+            "Soul Torch"
+        ],
+        "sample pattern": [
+            [
+                "Iron Nugget",
+                "Iron Nugget",
+                "Iron Nugget"
+            ],
+            [
+                "Iron Nugget",
+                "Soul Torch",
+                "Iron Nugget"
+            ],
+            [
+                "Iron Nugget",
+                "Iron Nugget",
+                "Iron Nugget"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Soul Campfire"
+        ],
+        "ingredients": [
+            "Stick",
+            "Soul Sand",
+            "Log",
+            "Stem",
+            "Stripped Log",
+            "Stem",
+            "Wood",
+            "Hyphae",
+            "Stripped Wood",
+            "Hyphae"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                "Stick",
+                "Soul Sand",
+                "Stick"
+            ],
+            [
+                "Oak Log",
+                "Oak Log",
+                "Oak Log"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Soul Campfire"
+        ],
+        "ingredients": [
+            "Stick",
+            "Soul Soil",
+            "Log",
+            "Stem",
+            "Stripped Log",
+            "Stem",
+            "Wood",
+            "Hyphae",
+            "Stripped Wood",
+            "Hyphae"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                "Stick",
+                "Soul Soil",
+                "Stick"
+            ],
+            [
+                "Oak Log",
+                "Oak Log",
+                "Oak Log"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "White Stained Glass",
+            "Blue Stained Glass",
+            "Brown Stained Glass",
+            "Black Stained Glass"
+        ],
+        "ingredients": [
+            "Glass",
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ],
+            [
+                "Glass",
+                "Bone Meal",
+                "Glass"
+            ],
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Granite Wall"
+        ],
+        "ingredients": [
+            "Granite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Granite",
+                "Granite",
+                "Granite"
+            ],
+            [
+                "Granite",
+                "Granite",
+                "Granite"
+            ]
+        ],
+        "description": ""
+    }
+]

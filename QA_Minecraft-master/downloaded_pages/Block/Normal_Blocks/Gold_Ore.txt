@@ -1,0 +1,33 @@
+Overview
+    Gold ore is a rare mineral block found underground. Deepslate gold ore is a variant of gold ore that can generate in deepslate and tuff.
+
+Obtaining
+  Breaking
+    Gold ore drops as raw gold if mined by an iron pickaxe or higher. If mined by any other tool, it drops nothing. Mining with a Silk Touch pickaxe drops itself. It is affected by Fortune enchantment, dropping 1–2, 1–3, or 1–4 raw gold respectively with Fortune I, II, and III.
+
+    Block,Gold Ore,Deepslate Gold Ore
+    Hardness,3,4.5
+    Tool,iron pickaxe,iron pickaxe
+    Breaking time (sec) [A]
+    Default,15,22.5
+    Wooden,7.5,11.25
+    Stone,3.75,5.65
+    Iron,0.75,1.15
+    Diamond,0.6,0.85
+    Netherite,0.5,0.75
+    Golden,1.25,1.9
+
+  Natural generation
+    Gold ore can generate in the Overworld in the form of ore features. Gold ore attempts to generate in two batches. The first batch generates 4 times per chunk in blobs of 0—13 blocks, from levels -64 to 32. It is most likely to be found around layer -16, becoming less common toward either end of the range. The second batch has a probability of 1/2 per chunks to generate in blobs of 0—13 blocks that generate uniformly between -64 and -48. There is also an extra batch of gold ore in badlands biome that generates 50 times per chunk in blobs of 0—13 blocks, from 32 to 256 uniformly. Gold ore is also less likely to be exposed to air: 50% of ore blocks from the first and second batch do not generate. The extra batch in badlands generate regardless of exposure to air. Gold ore can replace stone, andesite, diorite, granite, polished andesite‌‌[BE  only], polished diorite‌‌[BE  only], polished granite‌‌[BE  only], tuff‌[JE  only], and deepslate. Any gold ore that replaces tuff or deepslate becomes deepslate gold ore.
+
+Usage
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Gold Ingot,Gold Ore or Deepslate Gold Ore + Any fuel,1
+
+  Piglins
+    Piglins become hostile toward players who mine gold ore, even if the player is wearing golden armor. Piglins also run toward any gold ores on the ground, and inspect it for 6 to 8 seconds before putting it in their inventory.
+
+  Note Blocks
+    Gold ore can be placed under note blocks to produce "bass drum" sounds.
+

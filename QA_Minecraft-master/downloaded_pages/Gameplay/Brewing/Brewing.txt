@@ -1,0 +1,86 @@
+Overview
+    Brewing is the process of creating potions, splash potions, and lingering potions by adding various ingredients to water bottles in a brewing stand. In Minecraft Education, brewing can also create medicines.
+
+Brewing equipment
+    Name,Icon,Use
+    Brewing Stand,,Used to brew potions using ingredients and water bottles.
+    Cauldron,,"When placed, each cauldron can store one bucket of water and fill 3 glass bottles. It can hold water in the Nether without evaporating. In Bedrock Edition , it can hold potions."
+    Water,,A water source block can be used to fill infinite glass bottles.
+    Blaze Powder,,Fuels the brewing stand. Holds 20 charges.
+    Water Bottle,,"The starting base for all potions, made by filling a glass bottle from a cauldron or a water source block."
+
+Ingredients
+  Base ingredients and modifiers
+    Base ingredients are ingredients that can be added directly to a water bottle and are the starting point of all potions. Nether wart is the most fundamental of the base ingredients, as it is required to make the vast majority of potions. Modifiers are ingredients used to alter the properties of a potion or to change a potion effect into a different one. The fermented spider eye is unique in that it is the only modifier that can convert a water bottle directly into an effective potion.
+
+    Name,Icon,Result of adding to water bottle,Modifier effect
+    Nether Wart,,Awkward Potion,Allows the creation of more complex potions.
+    Redstone Dust,,Mundane Potion,Extends the duration of a potion.
+    Glowstone Dust,,Thick Potion,Enhances the level of a potion.
+    Fermented Spider Eye,,Potion of Weakness,Corrupts the potion effect (changes effect).
+    Gunpowder,,Splash Water Bottle,Turns a potion into a splash potion.
+    Dragon's Breath,,Lingering Water Bottle (from Splash Water Bottle),Turns a splash potion into a lingering potion.
+
+    Enhancement: Generally, upgrading a potion involves a trade-off between duration and potency. A potion with an enhanced effect has shorter duration, and a potion with extended duration cannot have an enhanced effect. However: Corrupting effect: A fermented spider eye changes a potion's base effect, often reversing it or producing a negative potion. Splash and lingering potions: Any potion can be turned into a splash potion, and subsequently, a lingering potion. Splash and lingering potions can be used best for affecting other entities.
+
+  Effect ingredients
+    Effect ingredients imbue an awkward potion with a particular effect but do not alter potion duration or intensity. When added directly to a water bottle, most of these ingredients produce a mundane potion. The exceptions to this are golden carrot, pufferfish, turtle shell, and phantom membrane, which cannot be added directly to a water bottle.
+
+    Name,Icon,Effect,Effect when corrupted
+    Sugar,,Speed,Slowness
+    Rabbit's Foot,,Jump Boost
+    Glistering Melon Slice,,Instant Health,Instant Damage
+    Spider Eye,,Poison
+    Pufferfish,,Water Breathing,None
+    Magma Cream,,Fire Resistance
+    Golden Carrot,,Night Vision,Invisibility
+    Blaze Powder,,Strength,Weakness
+    Ghast Tear,,Regeneration,None
+    Turtle Shell,,"Slowness , Resistance"
+    Phantom Membrane,,Slow Falling
+
+Brewing recipes
+  Base potions
+    Base potions are potions without effects, brewed by adding a single base ingredient to a water bottle. Of these, only the awkward potion can be imbued with an effect ingredient to produce a potion effect.
+
+    Potion,"Reagent, base",Precursor to
+    Awkward Potion,input:Nether Wart | output:Water Bottle,Effect potions
+    Mundane Potion,input:Redstone Dust; Sugar; Rabbit's Foot; Glistering Melon Slice; Spider Eye; Magma Cream; Blaze Powder; Ghast Tear | output:Water Bottle,None
+    Thick Potion,input:Glowstone Dust | output:Water Bottle,None
+
+  Effect potions
+    Effect potions are primarily created by adding an effect ingredient to an awkward potion, which is created by adding nether wart to a water bottle. Certain effects require a potion to be corrupted by a fermented spider eye. The potion of Weakness can additionally be created by simply adding a fermented spider eye to a water bottle — and it is the only potion that can be brewed without nether wart. Undead mobs react differently to effects than other mobs. They take damage from potions of Healing, gain health from potions of Harming, and are unaffected by potions of Poison and Regeneration.
+
+    Potion,"Reagent, base",Extended,Enhanced,Effects
+    Potion of Healing,input:Glistering Melon Slice | output:Awkward Potion,—,Potion of Healing,Instant Health : Restores health by 4 . Enhanced: Instant Health II: Restores health by 8 .
+    Potion of Fire Resistance ( 3:00),input:Magma Cream | output:Awkward Potion,Potion of Fire Resistance ( 8:00),—,"Fire Resistance : Gives immunity to damage from fire, lava, magma blocks, campfires, and blazes ' ranged attacks."
+    Potion of Regeneration ( 0:45),input:Ghast Tear | output:Awkward Potion,Potion of Regeneration ( 1:30),Potion of Regeneration ( 0:22),Regeneration : Restores health by every 2.5 seconds. Enhanced: Regeneration II: Restores health by every 1.2 seconds.
+    Potion of Strength ( 3:00),input:Blaze Powder | output:Awkward Potion,Potion of Strength ( 8:00),Potion of Strength ( 1:30),Strength : Increases player's melee attack damage by 3 . Enhanced: Strength II: Increases player's melee attack damage by 6 .
+    Potion of Swiftness ( 3:00),input:Sugar | output:Awkward Potion,Potion of Swiftness ( 8:00),Potion of Swiftness ( 1:30),"Speed : Increases movement speed, sprinting speed, and jumping length by 20%. Enhanced: Speed II: Increases movement speed, sprinting speed, and jumping length by 40%."
+    Potion of Night Vision ( 3:00),input:Golden Carrot | output:Awkward Potion,Potion of Night Vision ( 8:00),—,"Night Vision : Makes everything appear to be at the maximum light level, including underwater areas."
+    Potion of Invisibility ( 3:00),input:Fermented Spider Eye | output:Potion of Night Vision,Potion of Invisibility ( 8:00),—,Invisibility : Renders the player invisible. Equipped and wielded items are still visible.
+    Potion of Water Breathing ( 3:00),input:Pufferfish | output:Awkward Potion,Potion of Water Breathing ( 8:00),—,Water Breathing : Prevents the oxygen bar from depleting when underwater.
+    Potion of Leaping ( 3:00),input:Rabbit's Foot | output:Awkward Potion,Potion of Leaping ( 8:00),Potion of Leaping ( 1:30),Jump Boost : Increases jump height by 1 ⁄ 2 block. Enhanced: Jump Boost II: Increases jump height by 1 1 ⁄ 4 blocks.
+    Potion of Slow Falling ( 1:30),input:Phantom Membrane | output:Awkward Potion,Potion of Slow Falling ( 4:00),—,Slow Falling : Causes the player to fall at a slower rate and not take any damage when hitting the ground.
+
+    Potion,"Reagent, base(s)",Extended,Enhanced,Effects
+    Potion of Poison ( 0:45),input:Spider Eye | output:Awkward Potion,Potion of Poison ( 1:30),Potion of Poison ( 0:22),Poison : Depletes health by 1 every 1.25 seconds. Enhanced: Poison II: Depletes health by 1 every 0.4 seconds.
+    Potion of Weakness ( 1:30),input:Fermented Spider Eye | output:Water Bottle,Potion of Weakness ( 4:00),—,Weakness : Reduces player's melee attack damage by 4 .
+    Potion of Harming,input:Fermented Spider Eye | output:Potion of Healing; Potion of Poison,—,Potion of Harming,Instant Damage : Inflicts 6 damage. Enhanced: Instant Damage II: Inflicts 12 × 6 damage.
+    Potion of Slowness ( 1:30),input:Fermented Spider Eye | output:Potion of Swiftness; Potion of Leaping,Potion of Slowness ( 4:00),Potion of Slowness ( 0:20),Slowness : Slows the player to 85% speed. Enhanced: Slowness IV: Slows the player to 40% speed.
+
+    Potion,"Reagent, base",Extended,Enhanced,Effects
+    Potion of the Turtle Master ( 0:20),input:Turtle Shell | output:Awkward Potion,Potion of the Turtle Master ( 0:40),Potion of the Turtle Master ( 0:20),"Slowness IV, Resistance III: Slows the player by 60% speed and reduces incoming damage by 60%. Enhanced: Slowness VI, Resistance IV: Slows the player by 90% speed and reduces incoming damage by 80%."
+
+  Cures
+    Cures are brewed from awkward potions using different elements.‌[Bedrock Edition and Minecraft Education  only] Drinking these removes the specified bad effect. They cannot be modified into splash, lingering, extended, or enhanced versions.
+
+    Potion,"Reagent, base",Effect
+    Antidote,input:Silver | output:Awkward Potion,Cures Poison
+    Elixir,input:Cobalt | output:Awkward Potion,Cures Weakness
+    Eye Drops,input:Calcium | output:Awkward Potion,Cures Blindness
+    Tonic,input:Bismuth | output:Awkward Potion,Cures Nausea
+
+  Unbrewable potions
+    The potion of Luck‌[Java Edition  only] and the potion of Decay‌[Bedrock Edition  only] cannot be brewed, and can be obtained only through commands or the Creative inventory. Potions of Decay can be obtained from Witch Huts (BE only)
+

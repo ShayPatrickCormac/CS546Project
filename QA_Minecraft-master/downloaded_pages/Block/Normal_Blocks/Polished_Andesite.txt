@@ -1,0 +1,49 @@
+Overview
+    Polished andesite is the polished version of andesite.
+
+Obtaining
+  Breaking
+    Polished andesite can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Polished Andesite
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    One block of polished andesite can be found in igloo basements. Polished andesite can also be found in the "nature", "forge", and "large jail" rooms of woodland mansions.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Andesite,"[[None, None, None], ['Andesite', 'Andesite', None], ['Andesite', 'Andesite', None]]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Andesite,Andesite,
+
+  Trading
+    Journeyman-level mason villagers have a 2⁄7 chance to sell 4 polished andesite for one emerald as part of their trades.‌[Java Edition  only] Apprentice-level stone mason villagers have a 25% chance to sell 4 polished andesite for one emerald as part of their trades.‌[Bedrock Edition  only]
+
+Usage
+    Andesite is currently used only for decoration. It has the same blast resistance as stone, meaning it can be used as a substitute for stone when building.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Polished Andesite Slab,Polished Andesite,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Polished Andesite Stairs,Polished Andesite,"[['', None, None], ['', '', None], ['', '', '']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Andesite Slab,Polished Andesite,2
+    Polished Andesite Stairs,Polished Andesite,
+
+  Note Blocks
+    Polished andesite can be placed under note blocks to produce "bass drum" sounds.
+

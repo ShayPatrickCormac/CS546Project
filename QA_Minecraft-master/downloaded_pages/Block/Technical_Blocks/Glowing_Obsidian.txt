@@ -1,0 +1,24 @@
+Overview
+    Glowing obsidian is an unobtainable decorative block that emits light.
+
+Obtaining
+    Glowing obsidian drops itself only when mined with a diamond pickaxe or netherite pickaxe; otherwise, it drops nothing.
+
+    Block,Glowing Obsidian
+    Hardness,50
+    Tool,diamond pickaxe
+    Breaking time (sec) [A]
+    Default,250
+    Wooden,125
+    Stone,62.5
+    Iron,41.7
+    Diamond,9.4
+    Netherite,8.35
+    Golden,20.85
+
+Usage
+    Glowing Obsidian can be used for decoration, though add-ons or inventory editors are the only ways to obtain it.
+
+  Light
+    Glowing obsidian emits a light level of 12.
+

@@ -1,0 +1,56 @@
+Overview
+    Channeling is a trident enchantment that produces lightning when thrown at a mob or lightning rod while a thunderstorm is occurring.
+
+Obtaining
+    Channeling is available from enchantment tables, raid drops,‌[Bedrock Edition  only] books obtained by fishing, minecart chests, monster room chests, librarian villagers, and from chests found in Overworld non-village structures.
+
+Usage
+    Channeling summons a lightning bolt when a mob is hit by a thrown trident if there is currently a thunderstorm occurring. The mob must be exposed to the open sky for the enchantment to work. This enchantment allows the player to change creepers into charged creepers, villagers into witches, pigs into zombified piglins, and mooshrooms into their opposite color (red into brown and vice versa). In Java Edition, Channeling doesn't affect mobs in some circumstances[1][2][3]. A mob cannot be: in water, in lava, in powder snow, in a cobweb, on soul sand, on a honey block, on snow (if snow layer is 8), in a minecart or in a boat while being hit with this enchantment. Mobs in minecarts and boats can be struck only if passive. However, it should be noted that in the circumstances stated above, even though lightning cannot be summoned if the mob itself is hit by a Channeling trident, they are still affected by the lightning if it strikes nearby. For instance, if a Channeling trident hits an armor stand next to a creeper in water, the lightning is summoned as normal, and the creeper becomes charged from being in the affected radius of the lightning. Channeling tridents thrown at lightning rods always create lightning without the need for a mob.
+Lightning created with a Channeling trident cannot be redirected into a lightning rod. Lightning from a Channeling trident never spawns a skeleton trap horse. A drowned wielding a trident with Channeling cannot summon lightning.
+
+Incompatibilities
+    Channeling and Riptide are mutually exclusive. If combined using commands, Riptide supersedes Channeling.
+
+Sounds
+    Java Edition:
+
+    Sounds
+    Sound,Subtitles,Source,Description,Resource location,Translation key,Volume,Pitch,Attenuation distance
+    ,Trident thunder cracks,Weather,When a trident with Channeling strikes a lightning rod,item .trident .thunder,subtitles .item .trident .thunder,5.0,1.0,"16 { ""pitch"": ""1.0"", ""subtitle"": ""Trident thunder cracks"", ""source"": ""Weather"", ""id"": ""item.trident.thunder"", ""distance"": ""16"", ""desc"": ""When a trident with Channeling strikes a lightning rod"", ""sounds"": [ ""Trident thunder1.ogg"", ""Trident thunder2.ogg"" ], ""volume"": ""5.0"", ""java"": ""1"", ""translationkey"": ""subtitles.item.trident.thunder"" }"
+    Trident thunder cracks,Friendly Creatures,When a Channeling trident hits a mob,item .trident .thunder,subtitles .item .trident .thunder,5.0,1.0,"16 { ""pitch"": ""1.0"", ""subtitle"": ""Trident thunder cracks"", ""source"": ""Friendly Creatures"", ""id"": ""item.trident.thunder"", ""distance"": ""16"", ""desc"": ""When a Channeling trident hits a mob"", ""sounds"": [ ""Trident thunder1.ogg"", ""Trident thunder2.ogg"" ], ""volume"": ""5.0"", ""java"": ""1"", ""translationkey"": ""subtitles.item.trident.thunder"" }"
+
+    Bedrock Edition:
+
+    Sounds
+    Sound,Source,Description,Resource location,Volume,Pitch
+    ,Players,When a trident with Channeling strikes a mob [sound 1] [sound 2] ‌ [ upcoming: BE 1.20.30 ],item .trident .thunder,1.0 ‌ [ until BE 1.20.30 ] 1000.0 ‌ [ upcoming: BE 1.20.30 ],"1.0 { ""sounds"": [ ""Trident thunder1.ogg"", ""Trident thunder2.ogg"" ], ""source"": ""Players"", ""volume"": ""1.0<wbr>&zwnj;<sup class=\""noprint nowrap Inline-Template \"" title=\""\"">&#91;<i><span title=\""This statement does not apply to upcoming versions of Minecraft\"">until</span> [[Bedrock Edition 1.20.30|BE 1.20.30]]</i>&#93;</sup>[[Category:Upcoming]][[Category:Bedrock Edition upcoming tag]]<br>1000.0<wbr>&zwnj;<sup class=\""noprint nowrap Inline-Template \"" title=\""\"">&#91;<i><span title=\""This statement applies only to upcoming versions of Minecraft.\"">upcoming:</span> [[Bedrock Edition 1.20.30|BE 1.20.30]]</i>&#93;</sup>[[Category:Upcoming]][[Category:Bedrock Edition upcoming tag]]"", ""id"": ""item.trident.thunder"", ""pitch"": ""1.0"", ""bedrock"": ""1"", ""desc"": ""When a trident with Channeling strikes a mob<wbr>'\""`UNIQ--ref-00000508-QINU`\""'<wbr>'\""`UNIQ--ref-00000509-QINU`\""'<wbr>&zwnj;<sup class=\""noprint nowrap Inline-Template \"" title=\""\"">&#91;<i><span title=\""This statement applies only to upcoming versions of Minecraft.\"">upcoming:</span> [[Bedrock Edition 1.20.30|BE 1.20.30]]</i>&#93;</sup>[[Category:Upcoming]][[Category:Bedrock Edition upcoming tag]]"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Channeling,channeling,enchantment.minecraft.channeling
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Channeling,channeling,32,enchantment.tridentChanneling
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Surge Protector,Protect a Villager from an undesired shock without starting a fire,Adventure,"Be within 30 blocks of a lightning strike that doesn't set any blocks on fire, while an unharmed villager is within or up to six blocks above a 30×30×30 volume centered on the lightning strike.","adventure/lightning_rod_with_villager_no_fire {""anchor"": """", ""title"": ""Surge Protector"", ""icon"": ""Lightning Rod
+"", ""icon-style"": ""plain"", ""title"": ""Surge Protector"", ""description"": ""Protect a Villager from an undesired shock without starting a fire
+"", ""parent"": ""Adventure
+"", ""requirements"": ""Be within 30 blocks of a [[Thunderstorm#Lightning|lightning strike]] that doesn't set any blocks on fire, while an unharmed [[villager]] is within or up to six blocks above a 30×30×30 volume centered on the lightning strike.
+"", ""resourcelocation"": ""adventure/lightning_rod_with_villager_no_fire
+"", ""rewards"": ""—
+"" }"
+    ,Very Very Frightening,Strike a Villager with lightning,A Throwaway Joke,Hit a villager with lightning created by a trident with the Channeling enchantment.,"adventure/very_very_frightening {""anchor"": """", ""title"": ""Very Very Frightening"", ""icon"": ""Trident
+"", ""icon-style"": ""plain"", ""title"": ""Very Very Frightening"", ""description"": ""Strike a Villager with lightning
+"", ""parent"": ""A Throwaway Joke
+"", ""requirements"": ""Hit a [[villager]] with [[Thunderstorm#Lightning|lightning]] created by a [[trident]] with the [[Channeling]] enchantment.
+"", ""resourcelocation"": ""adventure/very_very_frightening
+"", ""rewards"": ""—
+"" }"
+

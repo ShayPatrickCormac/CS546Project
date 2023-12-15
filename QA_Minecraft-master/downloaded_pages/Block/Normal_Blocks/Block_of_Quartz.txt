@@ -1,0 +1,50 @@
+Overview
+    A block of quartz is a mineral block used for decoration. It can be turned into a chiseled quartz block, quartz pillar[a], quartz bricks, or smooth quartz.
+
+Obtaining
+  Breaking
+    Blocks of quartz can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Block of Quartz
+    Hardness,0.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,4
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Natural generation
+    Four quartz blocks generate naturally as part of each bridge bastion remnant.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Nether Quartz,"[[None, None, None], ['Nether Quartz', 'Nether Quartz', None], ['Nether Quartz', 'Nether Quartz', None]]"
+
+  Trading
+    Master-level mason villagers sell a quartz block for an emerald.
+
+Usage
+    Quartz blocks cannot be used to store nether quartz because they cannot be crafted back into it, unlike other ore blocks.[1]
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Quartz Bricks,Block of Quartz,"[[None, None, None], ['', '', None], ['', '', None]]"
+    Quartz Pillar,Block of Quartz,"[[None, None, None], [None, '', None], [None, '', None]]"
+    Quartz Slab,Block of Quartz,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Quartz Stairs,Block of Quartz,"[['', None, None], ['', '', None], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Block of Quartz,2
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Smooth Quartz Block,Block of Quartz + Any fuel,0.1
+
+  Note Blocks
+    Blocks of quartz can be placed under note blocks to produce "bass drum" sounds.
+

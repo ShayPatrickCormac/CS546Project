@@ -1,0 +1,36 @@
+Overview
+    Polished basalt is the polished version of basalt and can be found as part of ancient cities.
+
+Obtaining
+  Breaking
+    Polished basalt drops as an item if mined by any pickaxe. If mined by any other tool, it drops nothing.
+
+    Block,Polished Basalt
+    Hardness,1.25
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,6.25
+    Wooden,0.95
+    Stone,0.5
+    Iron,0.35
+    Diamond,0.25
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Polished basalt can be found naturally as part of bastion remnants Polished basalt also generates in ancient cities.
+
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Polished Basalt,Basalt,"[[None, None, None], ['Basalt', 'Basalt', None], ['Basalt', 'Basalt', None]]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Basalt,Basalt,
+
+Usage
+    Polished basalt points perpendicular to whatever block face they are placed on.
+
+  Note blocks
+    Polished basalt can be placed under note blocks to produce "bass drum" sound.
+

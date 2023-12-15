@@ -1,0 +1,596 @@
+[
+    {
+        "names": [
+            "Bow"
+        ],
+        "ingredients": [
+            "Stick",
+            "String"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Stick",
+                "String"
+            ],
+            [
+                "Stick",
+                null,
+                "String"
+            ],
+            [
+                null,
+                "Stick",
+                "String"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bow"
+        ],
+        "ingredients": [
+            "Bow"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Bow",
+                "Bow",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Boots"
+        ],
+        "ingredients": [
+            "Leather",
+            "Gold Ingot",
+            "Iron Ingot",
+            "Diamond"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Leather",
+                null,
+                "Leather"
+            ],
+            [
+                "Leather",
+                null,
+                "Leather"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Boots"
+        ],
+        "ingredients": [
+            "Boots"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Leather Boots",
+                "Leather Boots",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two boots is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Leather",
+            "Gold Ingot",
+            "Iron Ingot",
+            "Diamond"
+        ],
+        "sample pattern": [
+            [
+                "Leather",
+                "Leather",
+                "Leather"
+            ],
+            [
+                "Leather",
+                null,
+                "Leather"
+            ],
+            [
+                "Leather",
+                null,
+                "Leather"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [],
+        "ingredients": [],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Leather Pants",
+                "Leather Pants",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two leggings is added together, plus an extra 5% durability. Removes any enchantments."
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Leather",
+            "Gold Ingot",
+            "Iron Ingot",
+            "Diamond",
+            "Scute"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Leather",
+                "Leather",
+                "Leather"
+            ],
+            [
+                "Leather",
+                null,
+                "Leather"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Helmet"
+        ],
+        "ingredients": [],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Leather Cap",
+                "Leather Cap",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two helmets is added together, plus an extra 5% durability."
+    },
+    {
+        "names": [
+            "Chestplate"
+        ],
+        "ingredients": [
+            "Leather",
+            "Gold Ingot",
+            "Iron Ingot",
+            "Diamond"
+        ],
+        "sample pattern": [
+            [
+                "Leather",
+                null,
+                "Leather"
+            ],
+            [
+                "Leather",
+                "Leather",
+                "Leather"
+            ],
+            [
+                "Leather",
+                "Leather",
+                "Leather"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chestplate"
+        ],
+        "ingredients": [
+            "Chestplate"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Leather Tunic",
+                "Leather Tunic",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two chestplates is added together, making a fully healed chestplate. You can get 5% more durability while using a grindstone to fix."
+    },
+    {
+        "names": [
+            "Arrow"
+        ],
+        "ingredients": [
+            "Flint",
+            "Stick",
+            "Feather"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Flint",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Feather",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Spectral Arrow"
+        ],
+        "ingredients": [
+            "Glowstone Dust",
+            "Arrow"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Glowstone Dust",
+                null
+            ],
+            [
+                "Glowstone Dust",
+                "Arrow",
+                "Glowstone Dust"
+            ],
+            [
+                null,
+                "Glowstone Dust",
+                null
+            ]
+        ],
+        "description": "‌[Java Editiononly]"
+    },
+    {
+        "names": [
+            "Tipped Arrow"
+        ],
+        "ingredients": [
+            "Arrow",
+            "Lingering Potion"
+        ],
+        "sample pattern": [
+            [
+                "Arrow",
+                "Arrow",
+                "Arrow"
+            ],
+            [
+                "Arrow",
+                "Lingering Water Bottle",
+                "Arrow"
+            ],
+            [
+                "Arrow",
+                "Arrow",
+                "Arrow"
+            ]
+        ],
+        "description": "Arrows of Decay are exclusive toBedrock Editionunless obtained viacreativeorcommands. Arrows of luck are exclusive toJava Edition. A custom potion obtained viacommandscannot craft arrows with the potion's custom name, lore, or theCustomPotionColor."
+    },
+    {
+        "names": [
+            "Swords"
+        ],
+        "ingredients": [
+            "Planks",
+            "Iron Ingot",
+            "Gold Ingot",
+            "Diamond",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Oak Planks",
+                null
+            ],
+            [
+                null,
+                "Oak Planks",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "stone-tier block",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Cobblestone",
+                null
+            ],
+            [
+                null,
+                "Cobblestone",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": "Can use cobblestone and its other variants interchangeably."
+    },
+    {
+        "names": [
+            "Swords"
+        ],
+        "ingredients": [
+            "Swords"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Wooden Sword",
+                "Wooden Sword",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two swords is added together, plus an extra 5% of the tool type's total durability. Enchantments are removed unless combined on ananvil.Example:Two wooden swords, each with remaining durability of 20, combine into a wooden sword having 43 durability (20 + 20 + 5% of 60)."
+    },
+    {
+        "names": [
+            "Shield"
+        ],
+        "ingredients": [
+            "Planks",
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Iron Ingot",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                null,
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Shield"
+        ],
+        "ingredients": [
+            "Shield"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Shield",
+                "Shield",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two shields is added together, plus an extra 5% durability. The repaired shield has no pattern."
+    },
+    {
+        "names": [
+            "Shield",
+            "Ominous Shield"
+        ],
+        "ingredients": [
+            "Shield",
+            "Banner"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Shield",
+                "White Banner",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "Applies the banner pattern to the shield. The banner is consumed.The shield must have no preexisting patterns.Does not change existing durability or enchantments on the shield."
+    },
+    {
+        "names": [
+            "Shield",
+            "Ominous Shield"
+        ],
+        "ingredients": [
+            "Shield",
+            "Banner",
+            "Ominous Banner"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Shield",
+                "White Banner",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "Applies the banner pattern to the shield. The banner is consumed.The shield must have no pre-existing patterns.Does not change existing durability or enchantments on the shield."
+    },
+    {
+        "names": [
+            "Crossbow"
+        ],
+        "ingredients": [
+            "Stick",
+            "Iron Ingot",
+            "String",
+            "Tripwire Hook"
+        ],
+        "sample pattern": [
+            [
+                "Stick",
+                "Iron Ingot",
+                "Stick"
+            ],
+            [
+                "String",
+                "Tripwire Hook",
+                "String"
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Crossbow"
+        ],
+        "ingredients": [
+            "Crossbow",
+            "Arrow Loaded Crossbow",
+            "Firework Loaded Crossbow"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Crossbow",
+                "Crossbow",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "The durability of the two crossbows is added together, plus an extra 5% durability.‌ Any loaded ammunition is lost."
+    }
+]

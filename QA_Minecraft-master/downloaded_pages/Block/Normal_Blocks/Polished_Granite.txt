@@ -1,0 +1,49 @@
+Overview
+    Polished granite is a processed and polished decorative form of granite.
+
+Obtaining
+  Breaking
+    Polished granite can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Polished Granite
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural Generation
+    Polished granite generates in many ocean ruin variants.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Granite,"[[None, None, None], ['Granite', 'Granite', None], ['Granite', 'Granite', None]]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Granite,Granite,
+
+  Trading
+    Journeyman-level stone mason villagers have a 2⁄7 chance to sell 4 polished granite for one emerald as part of their trades.
+
+Usage
+    Polished granite is currently used only for decoration. It has the same blast resistance as stone, meaning it can be used as a substitute for stone when building.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Polished Granite Slab,Polished Granite,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Polished Granite Stairs,Polished Granite,"[['', None, None], ['', '', None], ['', '', '']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Granite Slab,Polished Granite,2
+    Polished Granite Stairs,Polished Granite,
+
+  Note Blocks
+    Polished granite can be placed under note blocks to produce "bass drum" sounds.
+

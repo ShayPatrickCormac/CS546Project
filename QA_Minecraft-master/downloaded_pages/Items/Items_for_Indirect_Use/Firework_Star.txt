@@ -1,0 +1,38 @@
+Overview
+    Firework stars are items used to determine the color, effect, and shape of firework rockets.
+
+Obtaining
+    In Survival mode, firework stars are obtainable only through crafting. In Creative mode, they can be found in the creative inventory.
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Gunpowder + Matching Dye + Extra ingredients (optional),"[[None, None, None], ['Gunpowder', 'White Dye', 'Head'], ['Glowstone Dust', 'Diamond', None]]","Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Matching Firework Star + Any Dye,"[[None, None, None], ['Firework Star', 'White Dye', None], [None, None, None]]","Adds a ""fade to color"" effect to the firework star, overwriting any existing fades. Up to eight dyes can be added."
+
+Usage
+    The only usage of firework stars is to create firework rockets.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Firework Rocket,Any Firework Star + Paper + Gunpowder,"[[None, None, None], ['Firework Star', 'Paper', ''], ['', 'Gunpowder', None]]",Adding more gunpowder increases the duration of the rocket. Up to three gunpowder can be used. Up to five firework stars can also be used with three gunpowder. Up to seven firework stars can be used by using firework stars instead of additional gunpowder. All firework stars explode almost simultaneously when the rocket detonates.
+
+Effects
+  Shape effects
+    A firework star can have only one shape effect.
+
+    Type,Ingredient,Effect,Sample Animation
+    0,None,Small Ball explosion (default),
+    1,Fire Charge,Large Ball explosion and heavy sound.,
+    2,Gold Nugget,Star-shaped explosion,
+    3,Head (any),Creeper-shaped (Creeper Face) explosion,
+    4,Feather,Burst explosion,
+
+  Additional effects
+    In addition to the shape effects, any combination of these additional effects may be added to a firework star.
+
+    Ingredient,Effect,Sample Animation
+    None,Default,
+    Glowstone Dust,Twinkle (Crackle effect and sounds after the explosion),
+    Diamond,Trail effect after the explosion,
+    Glowstone Dust Diamond,Twinkle + Trail effect after the explosion,
+

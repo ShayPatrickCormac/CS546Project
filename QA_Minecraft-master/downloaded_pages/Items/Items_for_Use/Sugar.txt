@@ -1,0 +1,56 @@
+Overview
+    Sugar is a food ingredient and brewing ingredient made from sugar canes.
+
+Obtaining
+  Mob loot
+    Witches have a chance of dropping 0–2 sugar upon death. This is increased by 1 per level of Looting, for a maximum of 0–5 sugar.
+
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Sugar,Sugar Cane,"[[None, None, None], [None, 'Sugar Cane', None], [None, None, None]]"
+    Sugar,Honey Bottle,"[[None, None, None], [None, 'Honey Bottle', None], [None, None, None]]"
+
+  Compound creation
+    Sugar can be created from its base elements, using the compound creator.‌[Bedrock Edition and Minecraft Education  only]
+
+    Name,Elements,Example recipe
+    Sugar,6 Carbon 12 Hydrogen 6 Oxygen,"[[None, None, None], ['Carbon', 'Hydrogen', 'Oxygen'], [None, None, None]]"
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Cake,Milk Bucket + Sugar + Egg + Wheat,"[['Milk Bucket', 'Milk Bucket', 'Milk Bucket'], ['', 'Egg', ''], ['Wheat', 'Wheat', 'Wheat']]",Empty buckets remain in the crafting grid after crafting the cake.
+    Fermented Spider Eye,Brown Mushroom + Sugar + Spider Eye,"[[None, None, None], ['Brown Mushroom', '', None], [None, 'Spider Eye', None]]",
+    Pumpkin Pie,Pumpkin + Sugar + Egg,"[[None, None, None], ['Pumpkin', '', None], [None, 'Egg', None]]",
+
+  Brewing ingredient
+    Name,Ingredients,Brewing recipe
+    Mundane Potion,Sugar + Water Bottle,output:Mundane Potion
+    Potion of Swiftness,Sugar + Awkward Potion,output:Potion of Swiftness
+
+  Horses
+    Sugar can be fed to horses to heal 1, speed growth by 30 seconds, and increase taming probability by 3%.
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    the lie,the lie,"The Lie { ""anchor"": """", ""title"": ""The Lie"", ""icon"": """", ""title"": ""The Lie"", ""description"": ""Bake a cake using: wheat, sugar, milk, and eggs.
+ "", ""requirements"": ""Pick up a [[cake]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Cake Apron"" outerwear
+"" }","Bake a cake using: wheat, sugar, milk, and eggs.",Pick up a cake from a crafting table output.,30G,Bronze
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Sugar,sugar,Item,item.minecraft.sugar
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Sugar,sugar,416,Item,item.sugar.name
+
+Video

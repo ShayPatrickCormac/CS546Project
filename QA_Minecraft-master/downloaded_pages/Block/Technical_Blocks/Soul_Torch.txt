@@ -1,0 +1,31 @@
+Overview
+    Soul torches are non-solid blocks that emit light. They are a variant of the torch crafted with the addition of soul soil or soul sand.
+
+Obtaining
+  Breaking
+    Soul torches can be broken instantly using anything, and drop themselves as an item. A soul torch is removed and drops itself as an item if:
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Soul Torch,Ancient City,Chest,1–15,"35.9% { ""item"": ""Soul Torch"", ""stacksize"": ""1–15"", ""chance"": 0.3585407680864854, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Soul Torch,Ancient City,Chest,1–15,"35.9% { ""item"": ""Soul Torch"", ""stacksize"": ""1–15"", ""chance"": 0.3585407680864854, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Coal or Charcoal + Stick + Soul Soil or Soul Sand,"[[None, 'Coal', None], [None, 'Stick', None], [None, 'Soul Soil', None]]"
+
+Usage
+    Soul torches can be placed on the top or the sides of most solid blocks, although some blocks require sneaking. Being non-solid, soul torches have no collision box. More information about placement can be found at Opacity/Placement. Gravity-affected blocks like sand and gravel will not start falling if the space immediately beneath is occupied by a soul torch. Falling blocks break if they fall onto a solid block with a soul torch above it. If there is an air block under the soul torch, the falling blocks fall through the soul torch onto the surface below.[1]
+
+  Light
+    Soul torches give off a light level of 10. Due to their lower light level, soul torches do not melt snow or ice.
+
+  Piglins
+    Soul torches repel piglins.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Soul Lantern,Iron Nugget + Soul Torch,"[['Iron Nugget', 'Iron Nugget', 'Iron Nugget'], ['Iron Nugget', '', 'Iron Nugget'], ['Iron Nugget', 'Iron Nugget', 'Iron Nugget']]"
+

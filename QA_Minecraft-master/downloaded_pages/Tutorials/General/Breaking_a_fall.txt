@@ -1,0 +1,23 @@
+Overview
+    Breaking a fall is essential to playing Minecraft, as falling is among one of the most common causes of death.
+
+Ways to Break a Fall
+  Block Clutch
+    This is the most well-known way to break a fall. The player must have a water bucket in their inventory and quickly place the water just before hitting the ground. Once on the ground safely, the player can then remove the water to use for a future time. Note however that using a water bucket on certain full blocks like leaves and mangrove roots will waterlog them instead of placing a water source on top of them, meaning that the player would still take damage. This method also doesn't work in the Nether where water immediately evaporates. This technique uses cobwebs to break a fall. Cobwebs can reset fall damage[1]; however, they have this disadvantage where they take longer to break without either shears, flowing water, or a sword to break them. This uses any solid block (except for hay bales and beds) to break a fall, though if this is performed at least twenty-five blocks higher than the surrounding terrain, it's practically useless. This clutch uses hay bales to at least lessen the damage. This uses ladders to break a fall. To perform this clutch, the player needs to find a block and place a ladder down on it. Then, they would need to get on the ladder, stopping fall damage. The player must be careful not to land on the ladder's top side. Landing on scaffolding while sneaking negates any fall damage. However, scaffolding can only be placed on solid blocks with a flat top surface; it can't be placed on blocks like leaves.
+
+    Block/Item,Advantages,Disadvantages
+    Water,It stops fall damage,"Doesn't work in the Nether ; putting water on leaves , mangrove roots or similar full blocks waterlogs them instead"
+    Cobweb,It stops fall damage,"It needs shears , flowing water , or a sword to break; otherwise, it will take longer"
+    Hay Bale,It dampens fall damage by 80%,"Hoe s are the fastest way to break it, so if you're in a manhunt and the hunters are gaining on you, this isn't the best option."
+    Ladder,It stops fall damage,Quite difficult to perform
+    Scaffolding,It stops fall damage,Requires a solid block with a flat top surface to place scaffolding on; the player must be sneaking
+
+  Elytra
+    If the player is wearing an elytra or has one in their inventory, they can break their fall by gliding safely to the ground.
+
+  Slow Falling Potion
+    If the fall is great enough, there may be sufficient time to drink a potion of Slow Falling before hitting the ground.
+
+  Boat Clutch
+    This involves placing a boat and entering it moments before the player hits the ground. If done correctly it can completely negate fall damage.
+

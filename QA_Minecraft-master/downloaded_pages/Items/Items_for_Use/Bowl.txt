@@ -1,0 +1,43 @@
+Overview
+    Bowls are containers that can hold certain foods.
+
+Obtaining
+  Mob loot
+    When a turtle is killed by a lightning bolt, it drops 1 bowl.[1][2]
+
+  Crafting
+    Ingredients,Crafting recipe
+    Any Planks,"[[None, None, None], ['Oak Planks', None, 'Oak Planks'], [None, 'Oak Planks', None]]"
+
+  Fishing
+    Bowls can be obtained as a "junk" item while fishing.
+
+  Eating
+    A bowl containing food becomes an empty bowl when the food is eaten.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Beetroot Soup,Beetroot + Bowl,"[['Beetroot', 'Beetroot', 'Beetroot'], ['Beetroot', 'Beetroot', 'Beetroot'], [None, '', None]]"
+    Mushroom Stew,Red Mushroom + Brown Mushroom + Bowl,"[[None, None, None], ['Red Mushroom', 'Brown Mushroom', None], [None, '', None]]"
+    Rabbit Stew,Cooked Rabbit + Carrot + Baked Potato + Any Mushroom + Bowl,"[[None, 'Cooked Rabbit', None], ['Carrot', 'Baked Potato', 'Red Mushroom'], [None, '', None]]"
+    Suspicious Stew,Red Mushroom + Brown Mushroom + Bowl + Any Flower,"[[None, None, None], ['Red Mushroom', 'Brown Mushroom', None], ['', 'Oxeye Daisy', None]]"
+
+  Mooshrooms
+    Using a bowl on a mooshroom turns the bowl into mushroom stew or suspicious stew. The stew can then be consumed immediately and the process repeated, making this an excellent way to quickly restore depleted hunger and saturation with almost no cost or effort.
+
+  Fuel
+    Bowls can be used as a fuel in furnaces, smelting 0.5 items per bowl in Java Edition, and 1 item per bowl in Bedrock Edition.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Bowl,bowl,Item,item.minecraft.bowl
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Bowl,bowl,321,Item,item.bowl.name
+

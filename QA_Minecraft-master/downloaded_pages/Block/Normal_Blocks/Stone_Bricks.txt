@@ -1,0 +1,67 @@
+Overview
+    Stone bricks are materials found in various structures. They come in three other variants, mossy stone bricks, cracked stone bricks, and chiseled stone bricks.
+
+Obtaining
+  Breaking
+    Stone bricks can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+    Block,Stone Bricks
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Infested blocks
+    Stone bricks can also be obtained by mining their respective infested blocks with Silk Touch.
+
+  Natural generation
+    Regular stone bricks generate as part of strongholds, making up most of the walls, ceilings, and floors. They can also generate as part of ocean ruins and ruined portals. Igloo basements are lined with stone bricks. Stone bricks can also spawn in trail ruins.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Stone Bricks,Village,Mason's chest,1,"37.7% { ""item"": ""Stone Bricks"", ""stacksize"": 1, ""chance"": 0.3771328842719901, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+    Bedrock Edition
+    Stone Bricks,Village,Mason's chest,1,"37.7% { ""item"": ""Stone Bricks"", ""stacksize"": 1, ""chance"": 0.3771328842719901, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Stone,"[[None, None, None], ['Stone', 'Stone', None], ['Stone', 'Stone', None]]",
+
+  Stonecutting
+    Ingredients,Cutting recipe,Description
+    Stone,,
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Cracked Stone Bricks,Stone Bricks + Any fuel,0.1
+
+Usage
+    As stone bricks offer no real advantage over stone or cobblestone, their main use is for decoration.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Mossy Stone Bricks,Stone Bricks + Moss Block,"[[None, None, None], ['', 'Moss Block', None], [None, None, None]]"
+    Mossy Stone Bricks,Stone Bricks + Vines,"[[None, None, None], ['', 'Vines', None], [None, None, None]]"
+    Stone Brick Slab,Stone Bricks,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Stone Brick Stairs,Stone Bricks,"[['', None, None], ['', '', None], ['', '', '']]"
+    Stone Brick Wall,Stone Bricks,"[[None, None, None], ['', '', ''], ['', '', '']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe,Description
+    Stone Brick Slab or Stone Brick Stairs or Stone Brick Wall,Stone Bricks,2,
+    Chiseled Stone Bricks,Stone Bricks,,‌ [ Java Edition only ] [1]
+    Mossy Stone Brick Slab or Mossy Stone Brick Stairs or Mossy Stone Brick Wall,Mossy Stone Bricks,2,
+
+  Note Blocks
+    Stone bricks can be placed under note blocks to produce "bass drum" sounds.
+
+  Silverfish
+    Silverfish have the ability to enter and hide in stone bricks, creating an infested block of the corresponding type.
+

@@ -1,0 +1,74 @@
+Overview
+    The snowy plains biomes are snow-covered flat biomes in the Overworld that usually generates near other snowy biomes.
+
+Description
+    Snowy plains are flatlands covered with snow layers, which are often stacked in Bedrock Edition. Aquifers and springs freeze over soon after generation due to the temperature if not exposed to light; thus, sugar cane that generates alongside water sources often uproot themselves shortly after. Lava lakes and lava springs that generate within the snowy plains biomes melt the snow layers around them. Polar bears, rabbits and strays spawn here; the latter is a variant of the skeleton that shoot arrows of Slowness. Snowy plains can border plains, snowy taigas, snowy beaches, snowy slopes, and groves. Regular snowy plains are often separated from ice spikes or snow taigas by frozen rivers. Survival in snowy plains biomes is quite difficult due to the sparseness of the biome and the lack of animals; only polar bears and rabbits may naturally spawn here, though cows, sheep, pigs and horses may spawn as part of villages. Infrequent spruce trees are the only natural source of wood in the regular snowy plains biome and maintaining water sources, for farming crops for example, can be tough due to water in this biome freezing into ice, if it is not protected by light or a roof. Strays often spawn in place of skeletons which can make dealing with hostile mobs even more difficult due to their Slowness arrows, and aggravating polar bears, or even coming near one if accompanied by cubs, can lead to fatal consequences if the player is unprepared. The ice spikes variety can be valuable to late-game players due to the occurrence of ice spikes that can be used for a base or as a source of packed ice blocks. As the snowy plains is a snow-covered biome, lightning never strikes in these biomes.
+
+Variants
+    There are two snowy plains biome variants.
+
+  Snowy Plains
+    Snowy plains are grasslands covered with snow layers. Spruce trees, tall grass, dandelions and poppies generate infrequently. The exposed grass and leaves take an aqua tone. Villages that generate in snowy plains are made of spruce wood, snow blocks, ice, blue ice and packed ice. Pillager outposts and igloos are also found. Igloos are difficult to spot in the plains due to the snow blocks camouflaging among the snow layers. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 515,4
+    Slime [note 1],100 ⁄ 515,4
+    Spider,100 ⁄ 515,4
+    Zombie,95 ⁄ 515,4
+    Stray,80 ⁄ 515,4
+    Skeleton,20 ⁄ 515,4
+    Enderman,10 ⁄ 515,1–4
+    Witch,5 ⁄ 515,1
+    Zombie Villager,5 ⁄ 515,1
+    Ambient category
+    Bat,1,8
+    Creature category
+    Rabbit,10 ⁄ 11,2–3
+    Polar Bear,1 ⁄ 11,1–2
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Slime [note 1],100 ⁄ 220,1
+    Stray,96 ⁄ 220,1–2
+    Skeleton,24 ⁄ 220,1–2
+    Creature category
+    Glow Squid,10 ⁄ 15,2–4
+    Rabbit,4 ⁄ 15,2–3
+    Polar Bear,1 ⁄ 15,1–2
+
+  Ice Spikes
+    This rarer variety ice spikes biome features large numbers of ice spikes and ice patches dotting across its landscape. Additionally, all grass blocks are replaced with snow blocks so that no trees nor other vegetations can generate. Snow layers still form atop the snow blocks, making them seem taller than they actually are. No buildings may generate in this biome. In Java Edition, the ice spikes biome uses the same mob spawning chances as the regular snowy plains.
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 535,1
+    Slime,100 ⁄ 535,1
+    Spider,100 ⁄ 535,1
+    Stray,96 ⁄ 535,1–2
+    Zombie,95 ⁄ 535,2–4
+    Skeleton,24 ⁄ 535,1–2
+    Enderman,10 ⁄ 535,1–2
+    Witch,5 ⁄ 535,1
+    Zombie Villager,5 ⁄ 535,2–4
+    Creature category
+    Glow Squid,10 ⁄ 15,2–4
+    Rabbit,4 ⁄ 15,2–3
+    Polar Bear,1 ⁄ 15,1–2
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Snowy plains,snowy_plains,biome.minecraft.snowy_plains
+    Ice spikes,ice_spikes,biome.minecraft.ice_spikes
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID
+    [No displayed name],ice_plains,12
+    [No displayed name],ice_plains_spikes,140
+

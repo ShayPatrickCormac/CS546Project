@@ -1,0 +1,94 @@
+Overview
+    A monster spawner is a type of spawner that can spawn mobs of the same type as the miniature spinning version visible within it. It cannot be obtained as an item in survival mode or moved by a piston, and drops experience orbs when broken.
+
+Obtaining
+    Monster spawners cannot be obtained in Survival, even with Silk Touch. A monster spawner can be obtained in Creative mode by taking it from Creative inventory, by using the /give command, or by using pick block. It is initially empty and inert, but can be configured to spawn a desired mob by using a spawn egg on the placed block. A /setblock, /clone or /fill command can also be used to obtain a monster spawner.
+
+  Breaking
+    If broken with a pickaxe, a monster spawner drops 15-43 experience. When mined with anything else, it drops nothing.
+
+    Block,Monster Spawner
+    Hardness,5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,3.75
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,0.65
+
+  Natural generation
+    Monster spawners can generate naturally in the following places: Monster room
+One in the center of the monster room spawning one of the following mobs with the indicated frequency: zombie (50%), skeleton (25%), or spider (25%).
+Mineshaft
+Any number of cave spider monster spawners, densely surrounded by cobwebs, scattered throughout.
+Woodland Mansions
+Optionally one spider monster spawner, densely surrounded by cobwebs, in a rarely generated secret room on the 2nd or 3rd floor. It is sometimes visible through the windows from outside.
+Stronghold
+One silverfish monster spawner in the end portal room.
+Nether fortress
+One or two blaze monster spawners on fenced platforms with full-block "stairs" leading up to them. Normally two are generated per fortress, but there can be fewer.
+Bastion remnant
+One magma cube monster spawner hanging from a chain underneath a bridge in treasure rooms.
+
+Usage
+    The monster spawner spawns mobs in an (at most) 9×3×9 volume (see § Mechanics) around it when the player is within 16 blocks. Suitable spawning locations for the block's mob type are provided in or around the spawning volume. The monster spawner attempts to spawn four mobs around it, then waits from 10 to 39.95 seconds before attempting to spawn more. In Peaceful difficulty, monster spawners still activate but do not spawn monsters in Bedrock Edition. In Java Edition, zombified piglins, magma cubes, and ghasts do not spawn at all and other hostile mobs disappear immediately after spawning. Monster spawners are transparent, but they behave like leaves in that they diffuse sky light coming from directly above. In Bedrock Edition, they have a hitbox slightly smaller than a full block, and therefore, one can walk on the edge of a supporting full block directly below the monster spawner.
+
+  Mechanics
+    A monster spawner activates when a player (that's not in Spectator mode) comes within a spherical radius of 16 blocks from the center point of the block; i.e. 15.5 blocks from the monster spawner itself. The player's presence is determined by coordinates at their foot level, meaning that a player standing exactly 15.5 blocks below the spawner won't activate it, even though their head is in range. In Java Edition an active monster spawner attempts to spawn mobs within a 4-block horizontal and 1-block vertical range; that is, in a 9×3×9 volume centered on the monster spawner. In Bedrock Edition, the horizontal spawning range is 4 blocks taxicab distance, creating spawning volume extending 4 blocks in each cardinal horizontal direction from the sides of the monster spawner; its horizontal cross-section is therefore diamond-shaped. Mobs can spawn anywhere in this range that is suitable, with mobs more likely to spawn closer to the monster spawner than farther away. While mobs are spawned at fractional x and z-coordinates (i.e. not aligned to blocks), they are spawned at an integer y-coordinate. Horizontally, a mob can spawn with its center point anywhere within range, but vertically, mobs spawn with their legs at either the same layer as the monster spawner block, one block above it, or one block below it.  (Note that when there are other blocks slightly intersecting the mob's hitbox, they can sometimes glitch further away - often up - but this does not make it a true spawning point.) The monster spawner attempts to spawn 4 mobs at randomly chosen points within the spawning volume, then waits anywhere from 200 to 799 ticks (10 to 39.95 seconds) before spawning again. As it waits, the mob model inside the block spins faster and faster. Except for the normal solid-block spawning requirement, all the remaining ones must be met (not in a solid block, correct light level, etc.), so the monster spawner often produces fewer than 4 mobs. When it does spawn, it emits a "poof", and more flame particles temporarily appear around it. If the monster spawner fails to spawn any mobs because it did not pick any suitable locations, it repeats this process every tick until it succeeds. It only starts the next wait cycle after successfully spawning at least one mob. If 6 or more mobs of the monster spawner's type have their hitbox intersecting a 9×9×9 volume centered on the monster spawner block in Java Edition or a 16×10×16 volume centered on the lower northwest corner of the monster spawner block in Bedrock Edition, the monster spawner "poofs" without creating any mobs and then waits for the next cycle. [needs testing in Bedrock Edition] This is checked before each of the four spawn attempts. The monster spawner performs a relaxed version of the ordinary spawning check: the general solid block requirement is removed, but the volume (hitbox of the mob) is kept along with some other checks according to mob specifics. As a result, for some types of mobs to spawn in the outer planes of the spawning volume, some planes outside the volume may also need to be free of solid blocks to conform with the mobs' height, width, or other rules governing their individual spawn volumes. Examples:
+
+    Mob type,Required Volume (Java),Required Volume (Bedrock) [ verify ],Vertical alignment
+    Pig [note 1],8.9×2.9×8.9,cauldron top; monster spawner; cauldron top,cauldron top,monster spawner,cauldron top
+    cauldron top
+    monster spawner
+    cauldron top
+    Cave Spider,8.7×2.5×8.7,cauldron top; monster spawner; cauldron top,cauldron top,monster spawner,cauldron top
+    cauldron top
+    monster spawner
+    cauldron top
+    Silverfish,8.4×2.3×8.4,cauldron top; monster spawner; cauldron top,cauldron top,monster spawner,cauldron top
+    cauldron top
+    monster spawner
+    cauldron top
+    Zombie,8.6×3.95×8.6,8.6×3.9×8.6,cauldron top; cauldron top; monster spawner; cauldron top,cauldron top,cauldron top,monster spawner,cauldron top
+    cauldron top
+    cauldron top
+    monster spawner
+    cauldron top
+    Skeleton,8.6×3.99×8.6,8.6×3.9×8.6,cauldron top; cauldron top; monster spawner; cauldron top,cauldron top,cauldron top,monster spawner,cauldron top
+    cauldron top
+    cauldron top
+    monster spawner
+    cauldron top
+    Blaze,8.6×3.8×8.6,8.5×3.8×8.5,cauldron top; cauldron top; monster spawner; cauldron top,cauldron top,cauldron top,monster spawner,cauldron top
+    cauldron top
+    cauldron top
+    monster spawner
+    cauldron top
+    Spider,9.4×2.9×9.4,cauldron top; monster spawner; cauldron top,cauldron top,monster spawner,cauldron top
+    cauldron top
+    monster spawner
+    cauldron top
+    Magma Cube,10.04×4.04×10.04,10.08×4.08×10.08,cauldron top; cauldron top; cauldron top; monster spawner; cauldron top,cauldron top,cauldron top,cauldron top,monster spawner,cauldron top
+    cauldron top
+    cauldron top
+    cauldron top
+    monster spawner
+    cauldron top
+
+    For all of the volumes listed in the table, the horizontal plane is centered on the center of the monster spawner block. While the spawning volume for pigs is 8.9×2.9×8.9, the requirement of grass blocks that are necessary for pigs to spawn reduces the actual volume in which they successfully spawn to 8.9×1.0×8.9. Other mobs can spawn in mid-air, ignoring general rules about spawning on solid ground. The spawn conditions do not include biomes for most mobs. As such, monster spawners can place mobs where they normally wouldn't generate. For example, a mooshroom monster spawner can operate in a plains biome as long as there are mycelium blocks within the spawn area because the mooshroom's spawning code checks only for mycelium. The reason mooshrooms are not actually spawned elsewhere is that the game does not normally try to spawn them in other biomes: only the mushroom field biome has mooshroom on the list of things to spawn.
+
+  Disabling
+    The way a monster spawner can be disabled depends on the entity it tries to spawn. For a monster spawner that generates mobs that spawn only in dark conditions (light level = 0), a torch placed on any side or top of the monster spawner is sufficient to disable it for the whole 9×3×9 volume. For a blaze or silverfish monster spawner, a light level of 12 is required to prevent spawning. This can be achieved by: A monster spawner is also disabled by filling the spawning volume with solid blocks. This is often used to disable magma cube monster spawners, as magma cubes can spawn in any light level. However, since all magma cubes require the space of a large magma cube in order to spawn, a clever placement of as little as 9 solid blocks a layer above the monster spawner (see right image) can completely disable it.
+
+  Custom monster spawners
+    In Java Edition, using commands, monster spawners can be customized: Detailed technical information about custom monster spawners can be found below. In Bedrock Edition, monster spawner customization can not be done in the base game (i.e. without addons/behavior packs).
+
+  Note blocks
+    Monster spawner can be placed under note blocks to produce "bass drum" sounds.
+
+  Piston interactivity
+    Monster spawners cannot be pushed by pistons. They also cannot be pushed nor pulled by sticky pistons.
+

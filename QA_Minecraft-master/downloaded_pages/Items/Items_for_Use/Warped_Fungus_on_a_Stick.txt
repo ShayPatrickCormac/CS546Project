@@ -1,0 +1,23 @@
+Overview
+    A warped fungus on a stick is an item that can be used to control saddled striders.
+
+Obtaining
+  Mob loot
+    A zombified piglin that spawns as a strider jockey holds a warped fungus on a stick instead of a golden sword, and has an 8.5%‌[JE  only] or 25%‌[BE  only] chance to drop it if killed by a player or tamed wolf, or upon death when angry. chance is increased by 1%‌[JE  only] or 5%‌[BE  only] per level of Looting, for a maximum of 11.5%‌[JE  only] or 40%‌[BE  only] with Looting III.
+
+  Crafting
+    Name,Ingredients,Crafting recipe,Description
+    Warped Fungus on a Stick,Fishing Rod or Damaged Fishing Rod + Warped Fungus,"[['Fishing Rod', None, None], [None, 'Warped Fungus', None], [None, None, None]]",Crafting from a damaged fishing rod is available only in Bedrock Edition . Java Edition requires a pristine fishing rod. The 2×2 grid can also be used for crafting instead of a crafting table.
+    Warped Fungus on a Stick,Damaged Warped Fungus on a Stick,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two warped fungi on sticks is added together, plus an extra 5% durability."
+
+Usage
+    Similar to how a carrot on a stick is used to control pigs, the players can use a warped fungus on a stick to control a strider. To do this, the player simply holds the item in one hand and any nearby striders within view is attracted toward the player. If mounted on a saddled strider, the strider moves in the direction the player is facing while holding the warped fungus on a stick. Right clicking with the item makes the strider go faster, but reduces the item's durability by 1 for every speed boost. If the item durability reaches 0, it turns into a fishing rod. Due to a strider's ability to walk on lava, this is a beneficial tool for using striders as a safe transport across the Nether's terrain, which is otherwise considered difficult to traverse.
+
+  Enchantments
+    A warped fungus on a stick can receive the following enchantments, but only through an anvil:
+
+    Name,Max Level,Method
+    Unbreaking,III,
+    Mending,I,
+    Curse of Vanishing,I,
+

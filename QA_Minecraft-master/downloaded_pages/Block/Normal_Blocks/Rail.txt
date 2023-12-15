@@ -1,0 +1,50 @@
+Overview
+    Rails are non-solid blocks that provide a path along which minecarts can travel.
+
+Obtaining
+  Breaking
+    Rails can be mined with anything, but pickaxes are the quickest.
+
+    Block,Rail
+    Hardness,0.7
+    Tool,Pickaxe
+    Breaking time (sec) [A]
+    Default,1.05
+    Wooden,0.55
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+    A rail also drops as an item when the block beneath it is removed, or a piston moves it into a space with no block below it, or when water flows across it.
+
+  Natural generation
+    Rails can be found naturally running along the floor in mineshafts, both in the center of tunnels and under loot chest minecarts, and in the "pumpkin ring room" of woodland mansions.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Rails,Mineshaft,Chest,4–8,"78.4% { ""item"": ""Rails"", ""stacksize"": ""4–8"", ""chance"": 0.784, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Rails,Mineshaft,Chest,4–8,"78.4% { ""item"": ""Rails"", ""stacksize"": ""4–8"", ""chance"": 0.784, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot + Stick,"[['Iron Ingot', None, 'Iron Ingot'], ['Iron Ingot', 'Stick', 'Iron Ingot'], ['Iron Ingot', None, 'Iron Ingot']]"
+
+Usage
+    A rail can be used as a minecart track and as a redstone component. A sequence of rails (including regular rails, activator rails, detector rails, and powered rails) is called a track.
+
+  Placement
+    To place a rail, use a rail item while pointing at a surface facing the space the rail should occupy. A rail can be placed on: Rails visually float 1⁄16 blocks above the ground, with an outline 2⁄16 blocks high. A rail cannot be attached to the side or bottom of any block, but attempting to make such an attachment may cause the rail to attach to the top of a block under the destination space. For example, if a fence is on the ground, attempting to attach a rail to the side of the fence causes the rail to be attached to the top of the ground next to the fence instead. More information regarding placement on transparent blocks can be found at Opacity/Placement. A placed rail configures itself to be straight or curved according to rail blocks around it. Existing tracks one block up and down are considered for adjacency in the same manner, and the new piece of track gets laid as a curve, but unless space is left for sloping track sections, minecarts can continue past the curve only on level or one-block-down corners. In one-block-up corners, the cart ends up buried in the ground. Some placement of rails produces track layouts that cause minecarts to collide and enter blocks. Existing sections of track may be re-oriented, become sloping, or even change into curved sections when the new rail is placed adjacent to it: Rails can be pushed and pulled by pistons. Pushing a rail upwards may cause adjacent rails to become slanted. Subsequently pulling the rail back down again will cause those newly-slanted rails to break because they are no longer supported on their upper end.
+
+  Redstone component
+    The intersection rail at a T-intersection may be made to change its direction of curvature by applying redstone power using a redstone torch, lever, or button. Separate tracks are laid adjacent, but at the next level, lower or higher can sometimes cause issues. However, normally they do not interact with the switched rail.
+
+  Minecart behavior
+    A minecart travels straight through a T-shaped intersection when entering from the "back of" the curved rail. It follows the curve when entering from either of the other two legs. A minecart passes straight through a 4-way intersection constructed to have no curved rail. When entering the 4-way from east or west a cart turns according to the south-east rule. At non-curve track intersections, minecarts always travel downhill if they can. This is known as the downhill rule and overrides the south-east rule. A block placed above the track at the downhill end of a ramp prevents minecarts from traveling down the slope, but not up. For a minecart to move down a diagonal tunnel, there must be clearance sufficient for a player to walk it. If a straight track piece leads to a curve block and isn't attached to the curve, a minecart runs over the gap and continues to go straight over the curve. This is not applicable to other types of rails. Notably, the minecart can exceed the normal 8 m/s speed limit while it jumps over the gap. For example, by placing intersections on every other block of a straight track, it is possible to travel (uncomfortably) at 10 m/s in a straight direction. As with straight T-intersections and 4-way intersections, the practice of making a minecart jump track can be used to make one-way entries onto a track. On curve intersections the behavior is more intuitive because the cart simply proceeds in the direction it is already going, allowing designs that don't rely on knowledge of the south-east rule. A minecart with no rider at full speed can climb 10 blocks on an unpowered track. This suggests that a powered track is needed at a height of only 10 blocks to keep a cart climbing. However, the cart slows so much that it can reach only another 5 blocks high with 2 lengths of powered track starting at 9 blocks high. The minimum number of powered rails to keep the cart climbing perpetually is 3 every 6 blocks. Carts with a rider, or minecarts with chests, have more momentum and so climb higher than carts that are unloaded. With a rider, a minecart can climb at least 24 blocks before needing powered rails to go higher. Also, to ascend from 0 to max speed, the player needs 7 powered rails.
+
+  Mob behavior
+    In Java Edition, most mobs avoid walking on rails,[1] but they ignore rails when they are already on them. Jumping mobs like slimes, frogs[2], and goats can jump onto rails, but frogs and goats do not walk onto rails. Aquatic creatures like guardians, tadpoles, and fish that flop around on land can flop onto rails. Parrots can land on rails and endermen can teleport onto rails, although they do not walk onto them. In pursuit of their targets, Zombies may push other mobs onto the rails in which case the mob on the rail will ignore rails as long as they are on them. The only mobs that freely walk onto rails are spiders, cave spiders, and wardens. In Bedrock Edition, rails don't affect mob pathfinding in any way.
+

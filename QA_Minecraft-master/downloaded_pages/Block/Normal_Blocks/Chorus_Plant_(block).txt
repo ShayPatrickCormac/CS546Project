@@ -1,0 +1,33 @@
+Overview
+    Chorus plants are blocks that naturally generate on the outer islands of the End. They can be grown using chorus flowers.
+
+Obtaining
+    The block form cannot be obtained in Survival mode, even with the Silk Touch enchantment; however, it is available in the Creative mode inventory.
+
+  Breaking
+    Chorus plants can be broken using any tool, but an axe is the quickest. Breaking one block of a chorus tree generally causes all chorus plants and flowers above to break due to lack of support. Upon breaking, a chorus plant drops 0–1 chorus fruit. This is not affected by Fortune.[1]
+
+    Block,Chorus Plant
+    Hardness,0.4
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,0.6
+    Wooden,0.3
+    Stone,0.15
+    Iron,0.1
+    Diamond,0.1
+    Netherite,0.1
+    Golden,0.05
+
+  Natural generation
+    Chorus plants make up most of the chorus trees that are naturally generated on the outer islands of the End. Chorus trees are typically 10–15 blocks in height, although a single plant can reach up to 22 blocks.
+
+  Post-generation
+    Chorus plants are generated as chorus flowers grow.
+
+Usage
+    Chorus plants can be broken to obtain chorus fruit.
+
+  Support
+    Chorus plant blocks break automatically (potentially dropping fruit), if the six surrounding blocks are not valid:
+

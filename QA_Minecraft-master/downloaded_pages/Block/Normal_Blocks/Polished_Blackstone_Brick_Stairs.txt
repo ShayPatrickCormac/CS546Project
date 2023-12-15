@@ -1,0 +1,36 @@
+Overview
+    The polished blackstone brick stairs are the polished blackstone bricks variant of stairs, crafted from polished blackstone bricks.
+
+Obtaining
+  Breaking
+    Polished blackstone brick stairs can be broken with wooden pickaxes or higher.
+
+    Block,Polished Blackstone Brick Stairs
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Polished blackstone brick stairs generate as part of bastion remnants and ruined portals in the Nether.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Polished Blackstone Bricks,"[['Polished Blackstone Bricks', None, None], ['Polished Blackstone Bricks', 'Polished Blackstone Bricks', None], ['Polished Blackstone Bricks', 'Polished Blackstone Bricks', 'Polished Blackstone Bricks']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Polished Blackstone Bricks,
+
+Usage
+    Polished blackstone brick stairs are a type of stairs, meaning they have the following common placement mechanics:
+
+  Note blocks
+    Polished blackstone brick stairs can be placed under note blocks to produce "bass drum" sounds.
+

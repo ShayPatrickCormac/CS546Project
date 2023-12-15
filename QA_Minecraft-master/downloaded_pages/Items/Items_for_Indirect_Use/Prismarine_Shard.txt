@@ -1,0 +1,28 @@
+Overview
+    A prismarine shard is an item obtained by defeating guardians or elder guardians. It can be used to craft various prismarine blocks as well as sea lanterns.
+
+Obtaining
+  Mob Loot
+    Prismarine shards are dropped upon the death of guardians and elder guardians. From these mobs, 0–2 shards are dropped each time. This can be increased to a maximum of 5 with the Looting enchantment.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Dark Prismarine,Prismarine Shard + Black Dye,"[['', '', ''], ['', 'Black Dye', ''], ['', '', '']]",
+    Dark Prismarine,Prismarine Shard + Ink Sac,"[['', '', ''], ['', 'Ink Sac', ''], ['', '', '']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Prismarine,Prismarine Shard,"[[None, None, None], ['', '', None], ['', '', None]]",
+    Prismarine Bricks,Prismarine Shard,"[['', '', ''], ['', '', ''], ['', '', '']]",
+    Sea Lantern,Prismarine Shard + Prismarine Crystals,"[['', 'Prismarine Crystals', ''], ['Prismarine Crystals', 'Prismarine Crystals', 'Prismarine Crystals'], ['', 'Prismarine Crystals', '']]",
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Prismarine Shard,prismarine_shard,Item,item.minecraft.prismarine_shard
+
+    Bedrock Edition:
+
+    Name,Identifier,Alias ID,Numeric ID,Form,Translation key
+    Prismarine Shard,prismarine_shard,prismarineshard,565,Item,item.prismarine_shard.name
+

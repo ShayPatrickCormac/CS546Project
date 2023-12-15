@@ -1,0 +1,1780 @@
+[
+    {
+        "names": [
+            "Bone Meal"
+        ],
+        "ingredients": [
+            "Bone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Bone",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bone Meal"
+        ],
+        "ingredients": [
+            "Bone Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Bone Block",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Lapis Lazuli"
+        ],
+        "ingredients": [
+            "Block of Lapis Lazuli"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Lapis Lazuli",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Magenta Dye"
+        ],
+        "ingredients": [
+            "Allium"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Allium",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Magenta Dye"
+        ],
+        "ingredients": [
+            "Lilac"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Lilac",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Magenta Dye"
+        ],
+        "ingredients": [
+            "Purple Dye",
+            "Pink Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Purple Dye",
+                "Pink Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Magenta Dye"
+        ],
+        "ingredients": [
+            "Blue Dye",
+            "Red Dye",
+            "Pink Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blue Dye",
+                "Red Dye",
+                null
+            ],
+            [
+                null,
+                "Pink Dye",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Magenta Dye"
+        ],
+        "ingredients": [
+            "Lapis Lazuli",
+            "Red Dye",
+            "Pink Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Lapis Lazuli",
+                "Red Dye",
+                null
+            ],
+            [
+                null,
+                "Pink Dye",
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Magenta Dye"
+        ],
+        "ingredients": [
+            "Blue Dye",
+            "Red Dye",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blue Dye",
+                "Red Dye",
+                null
+            ],
+            [
+                "Red Dye",
+                "White Dye",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Magenta Dye"
+        ],
+        "ingredients": [
+            "Lapis Lazuli",
+            "Blue Dye",
+            "Red Dye",
+            "Bone Meal",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Lapis Lazuli",
+                "Red Dye",
+                null
+            ],
+            [
+                "Red Dye",
+                "Bone Meal",
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Bowl"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                null,
+                "Oak Planks"
+            ],
+            [
+                null,
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stick"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Oak Planks",
+                null
+            ],
+            [
+                null,
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stick"
+        ],
+        "ingredients": [
+            "Bamboo"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Bamboo",
+                null
+            ],
+            [
+                null,
+                "Bamboo",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Wheat"
+        ],
+        "ingredients": [
+            "Hay Bale"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Hay Bale",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Leather"
+        ],
+        "ingredients": [
+            "Rabbit Hide"
+        ],
+        "sample pattern": [
+            [
+                "Rabbit Hide",
+                "Rabbit Hide",
+                null
+            ],
+            [
+                "Rabbit Hide",
+                "Rabbit Hide",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Sugar"
+        ],
+        "ingredients": [
+            "Sugar Cane"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Sugar Cane",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Sugar"
+        ],
+        "ingredients": [
+            "Honey Bottle"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Honey Bottle",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Iron Ingot"
+        ],
+        "ingredients": [
+            "Block of Iron"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Iron",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Iron Ingot"
+        ],
+        "ingredients": [
+            "Iron Nugget"
+        ],
+        "sample pattern": [
+            [
+                "Iron Nugget",
+                "Iron Nugget",
+                "Iron Nugget"
+            ],
+            [
+                "Iron Nugget",
+                "Iron Nugget",
+                "Iron Nugget"
+            ],
+            [
+                "Iron Nugget",
+                "Iron Nugget",
+                "Iron Nugget"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Gold Ingot"
+        ],
+        "ingredients": [
+            "Block of Gold"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Gold",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Gold Ingot"
+        ],
+        "ingredients": [
+            "Gold Nugget"
+        ],
+        "sample pattern": [
+            [
+                "Gold Nugget",
+                "Gold Nugget",
+                "Gold Nugget"
+            ],
+            [
+                "Gold Nugget",
+                "Gold Nugget",
+                "Gold Nugget"
+            ],
+            [
+                "Gold Nugget",
+                "Gold Nugget",
+                "Gold Nugget"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Coal"
+        ],
+        "ingredients": [
+            "Block of Coal"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Coal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Red Dye"
+        ],
+        "ingredients": [
+            "Poppy",
+            "Red Tulip",
+            "Beetroot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Poppy",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Red Dye"
+        ],
+        "ingredients": [
+            "Rose Bush"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Rose Bush",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Orange Dye"
+        ],
+        "ingredients": [
+            "Orange Tulip",
+            "Torchflower"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Orange Tulip",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Orange Dye"
+        ],
+        "ingredients": [
+            "Red Dye",
+            "Yellow Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Red Dye",
+                "Yellow Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cyan Dye"
+        ],
+        "ingredients": [
+            "Blue Dye",
+            "Green Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blue Dye",
+                "Green Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cyan Dye"
+        ],
+        "ingredients": [
+            "Lapis Lazuli",
+            "Green Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Lapis Lazuli",
+                "Green Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Cyan Dye"
+        ],
+        "ingredients": [
+            "Pitcher Plant"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Pitcher Plant",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Yellow Dye"
+        ],
+        "ingredients": [
+            "Dandelion"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Dandelion",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Yellow Dye"
+        ],
+        "ingredients": [
+            "Sunflower"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Sunflower",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pink Dye"
+        ],
+        "ingredients": [
+            "Pink Tulip"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Pink Tulip",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pink Dye"
+        ],
+        "ingredients": [
+            "Pink Petals"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Pink Petals",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pink Dye"
+        ],
+        "ingredients": [
+            "Peony"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Peony",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pink Dye"
+        ],
+        "ingredients": [
+            "Red Dye",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Red Dye",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pink Dye"
+        ],
+        "ingredients": [
+            "Red Dye",
+            "Bone Meal"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Red Dye",
+                "Bone Meal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Lime Dye"
+        ],
+        "ingredients": [
+            "Green Dye",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Green Dye",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Lime Dye"
+        ],
+        "ingredients": [
+            "Green Dye",
+            "Bone Meal"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Green Dye",
+                "Bone Meal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Gray Dye"
+        ],
+        "ingredients": [
+            "Black Dye",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Black Dye",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Gray Dye"
+        ],
+        "ingredients": [
+            "Ink Sac",
+            "Black Dye",
+            "Bone Meal",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Ink Sac",
+                "Bone Meal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Purple Dye"
+        ],
+        "ingredients": [
+            "Blue Dye",
+            "Red Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blue Dye",
+                "Red Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Purple Dye"
+        ],
+        "ingredients": [
+            "Lapis Lazuli",
+            "Red Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Lapis Lazuli",
+                "Red Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Light Gray Dye"
+        ],
+        "ingredients": [
+            "Azure Bluet",
+            "Oxeye Daisy",
+            "White Tulip"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Azure Bluet",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Light Gray Dye"
+        ],
+        "ingredients": [
+            "Black Dye",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Black Dye",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                "White Dye",
+                null
+            ]
+        ],
+        "description": "InBedrock Edition, the black and white dye can be replaced withink sacsandbone meal, respectively."
+    },
+    {
+        "names": [
+            "Light Gray Dye"
+        ],
+        "ingredients": [
+            "Gray Dye",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Gray Dye",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "InBedrock Edition, the white dye can be replaced withbone meal."
+    },
+    {
+        "names": [
+            "Light Blue Dye"
+        ],
+        "ingredients": [
+            "Blue Orchid"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Blue Orchid",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Light Blue Dye"
+        ],
+        "ingredients": [
+            "Blue Dye",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blue Dye",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Light Blue Dye"
+        ],
+        "ingredients": [
+            "Lapis Lazuli",
+            "Blue Dye",
+            "Bone Meal",
+            "White Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Lapis Lazuli",
+                "Bone Meal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Gold Nugget"
+        ],
+        "ingredients": [
+            "Gold Ingot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Gold Ingot",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pumpkin Seeds"
+        ],
+        "ingredients": [
+            "Pumpkin"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Pumpkin",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Melon Seeds"
+        ],
+        "ingredients": [
+            "Melon Slice"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Melon Slice",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Diamond"
+        ],
+        "ingredients": [
+            "Block of Diamond"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Diamond",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Emerald"
+        ],
+        "ingredients": [
+            "Block of Emerald"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Emerald",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Iron Nugget"
+        ],
+        "ingredients": [
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Iron Ingot",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Black Dye"
+        ],
+        "ingredients": [
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Ink Sac",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Black Dye"
+        ],
+        "ingredients": [
+            "Wither Rose"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Wither Rose",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Brown Dye"
+        ],
+        "ingredients": [
+            "Cocoa Beans"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Cocoa Beans",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Blue Dye"
+        ],
+        "ingredients": [
+            "Lapis Lazuli"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Lapis Lazuli",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Blue Dye"
+        ],
+        "ingredients": [
+            "Cornflower"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Cornflower",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "White Dye"
+        ],
+        "ingredients": [
+            "Bone Meal"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Bone Meal",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "White Dye"
+        ],
+        "ingredients": [
+            "Lily of the Valley"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Lily of the Valley",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Netherite Ingot"
+        ],
+        "ingredients": [
+            "Netherite Scrap",
+            "Gold Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Netherite Scrap",
+                "Netherite Scrap",
+                "Netherite Scrap"
+            ],
+            [
+                "Netherite Scrap",
+                "Gold Ingot",
+                "Gold Ingot"
+            ],
+            [
+                "Gold Ingot",
+                "Gold Ingot",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Netherite Ingot"
+        ],
+        "ingredients": [
+            "Block of Netherite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Netherite",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Raw Iron"
+        ],
+        "ingredients": [
+            "Block of Raw Iron"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Raw Iron",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Raw Copper"
+        ],
+        "ingredients": [
+            "Block of Raw Copper"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Raw Copper",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Raw Gold"
+        ],
+        "ingredients": [
+            "Block of Raw Gold"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Raw Gold",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pink Dye"
+        ],
+        "ingredients": [
+            "Pink Petals"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Pink Petals",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    }
+]

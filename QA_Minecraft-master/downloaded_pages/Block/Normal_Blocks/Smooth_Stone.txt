@@ -1,0 +1,45 @@
+Overview
+    Smooth stone is a variant of stone made by smelting regular stone.
+
+Obtaining
+  Breaking
+    Smooth stone requires a pickaxe to be mined, in which case it drops itself. When mined without a pickaxe, it drops nothing.
+
+    Block,Smooth Stone
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Smooth stone generates inside some houses in plains, savanna, and snowy plains villages in the Butcher's house in the form of slabs and blocks. They can also spawn in trail ruins.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Smooth Stone,Village,Mason's chest,1,"20.8% { ""item"": ""Smooth Stone"", ""stacksize"": 1, ""chance"": 0.20842461344544605, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+    Bedrock Edition
+    Smooth Stone,Village,Mason's chest,1,"20.8% { ""item"": ""Smooth Stone"", ""stacksize"": 1, ""chance"": 0.20842461344544605, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+
+  Smelting
+    Smooth stone can be smelted from stone.
+
+    Ingredients,Smelting recipe
+    Stone + Any fuel,0.1
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Blast Furnace,Iron Ingot + Furnace + Smooth Stone,"[['Iron Ingot', 'Iron Ingot', 'Iron Ingot'], ['Iron Ingot', 'Furnace', 'Iron Ingot'], ['', '', '']]"
+    Smooth Stone Slab,Smooth Stone,"[[None, None, None], [None, None, None], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Smooth Stone,2
+

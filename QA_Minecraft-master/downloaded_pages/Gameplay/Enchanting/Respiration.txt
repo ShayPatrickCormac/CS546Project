@@ -1,0 +1,18 @@
+Overview
+    Respiration is a helmet enchantment for extending breathing time underwater. It can be applied to other armor pieces using commands.
+
+Usage
+    Respiration extends underwater breathing time by +15 seconds per enchantment level in addition to the default time of 15 seconds. It also grants a chance of not taking drowning damage each second by level / (level + 1).  The maximum level that can be obtained without commands is level 3, resulting in a total time of 60 seconds underwater (including the base time without enchantments) before drowning begins. Wearing a turtle shell extends this time by an additional 10 seconds.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Respiration,respiration,enchantment.minecraft.respiration
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Respiration,respiration,6,enchantment.oxygen
+

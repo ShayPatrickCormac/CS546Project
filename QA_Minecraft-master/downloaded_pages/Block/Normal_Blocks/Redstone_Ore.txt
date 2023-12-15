@@ -1,0 +1,33 @@
+Overview
+    Redstone ore is the ore block from which redstone is obtained. Deepslate redstone ore is a variant of redstone ore that can generate in deepslate and tuff blobs.
+
+Obtaining
+  Breaking
+    Redstone ore must be mined with an iron pickaxe or higher to drop redstone dust. When mined, it drops 4–5 redstone dust. It is affected by the Fortune enchantment, dropping 4-6, 4-7, or 4-8 redstone respectively with Fortune I, II, and III (averaging at 6 redstone dust with Fortune level 3[1][2]). If mined with Silk Touch, it drops itself instead of redstone dust.
+
+    Block,Redstone Ore,Deepslate Redstone Ore
+    Hardness,3,4.5
+    Tool,iron pickaxe,iron pickaxe
+    Breaking time (sec) [A]
+    Default,15,22.5
+    Wooden,7.5,11.25
+    Stone,3.75,5.65
+    Iron,0.75,1.15
+    Diamond,0.6,0.85
+    Netherite,0.5,0.75
+    Golden,1.25,1.9
+
+  Natural generation
+    Redstone ore can generate in the Overworld in the form of ore blobs. Redstone ore generates in two batches per chunk. The first batch attempts to generate 4 times per chunk, in blobs of 0–10, evenly from levels -64 to 15. The second batch attempts to generate 8 times per chunk, in blobs of 0–10, from levels -63 to -32, being more common the lower the elevation. Redstone ore can replace stone, andesite, diorite, granite, polished andesite‌‌[BE  only], polished diorite‌‌[BE  only], polished granite‌‌[BE  only], tuff‌[JE  only], and deepslate. Any redstone ore that replaces tuff or deepslate becomes deepslate redstone ore.
+
+Usage
+  Light
+    Redstone ore produces the light level of 9 and emits bright red powered redstone particle when clicked, updated, or contacted by almost any entity (among some of the exceptions are a sneaking player, fired arrows, fired fire charges, shulkers, shulker bullets, and the ender dragon). This effect continues until the redstone ore block receives a random block tick (averaging 68.27 seconds). This effect does not actually produce redstone power, but the block changes can be detected with an observer or a block update detector. Subsequent clickings on a redstone ore block causes it to emit an extra burst of particles per click.
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Redstone Dust,Redstone Ore or Deepslate Redstone Ore + Any fuel,0.7
+
+  Note Blocks
+    Redstone ore can be placed under note blocks to produce "bass drum" sounds.
+

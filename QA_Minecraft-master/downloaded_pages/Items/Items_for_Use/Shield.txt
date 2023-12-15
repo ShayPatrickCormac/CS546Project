@@ -1,0 +1,40 @@
+Overview
+    A shield is an item used for protecting the player against attacks.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Any Planks + Iron Ingot,"[['Oak Planks', 'Iron Ingot', 'Oak Planks'], ['Oak Planks', 'Oak Planks', 'Oak Planks'], [None, 'Oak Planks', None]]"
+    Shield + Matching Banner,"[[None, None, None], ['', 'White Banner', None], [None, None, None]]"
+
+  Repairing
+    Ingredients,Crafting recipe,Description
+    Damaged Shield,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two shields is added together, plus an extra 5% durability. The repaired shield has no pattern."
+
+    Shields may also be repaired on an anvil by using planks or another shield. Shields repaired on anvils retain their pattern.
+
+  Trading
+    Journeyman-level armorer villagers have 1⁄3‌[BE  only]/2⁄5‌[JE  only] chance of selling a shield for 5 emeralds as their sixth trade.
+
+Usage
+    Despite using iron in its crafting recipe, it cannot be smelted into iron nuggets.[1]
+
+  Defense
+    Shields are used for blocking incoming attacks. Using‌[JE  only] or sneaking‌[BE  only] causes a player to slow to a sneaking pace, and after 5 game ticks (0.25 seconds)[2], attacks coming from in front of the player are blocked, dealing no damage. When the shield blocks an attack of 3 or stronger, it takes durability damage equal to the strength of the attack rounded up. Most blocked projectiles that carry status effects (such as shulker bullets‌[JE  only], flaming arrows, or tipped arrows) do not affect the blocker. Tridents & arrows can be deflected into other targets. Knockback from melee attacks and projectiles is prevented, while knockback from explosions, hoglin, and ravager attacks are significantly reduced. The shield directionally blocks all attacks coming from within the FOV of the direction the wielder is facing, providing a full hemisphere of coverage to them. If the wielder faces straight up, they are likely to miss their blocks.[3]‌[until JE 1.20.3] Mobs that deal continuous contact damage such as the slime, magma cube, and blaze rapidly drain the shield's durability for as long as the shielded player remains within the mob's hitbox.[4][5] Blockable attacks include: They cannot block:
+
+  Applying patterns
+    Shields can be decorated by applying a banner.
+
+    Ingredients,Crafting recipe,Description
+    Shield + Matching Banner,"[[None, None, None], ['', 'White Banner', None], [None, None, None]]",Applies the banner pattern to the shield. The banner is consumed. The shield must have no preexisting patterns. Does not change existing durability or enchantments on the shield.
+
+    Unlike with banners, shields cannot be repainted or washed in a cauldron. Shields have only half the resolution of banners, making patterns look slightly different. In the game files, the pattern textures can be found in a separate directory called entity/shield. In Java Edition, shields with patterns can also be obtained using the same commands as banners, except banner has to be replaced with shield.
+
+  Enchantments
+    A shield can receive the following enchantments, but only through an anvil:
+
+    Name,Max Level,Method
+    Unbreaking,III,
+    Mending,I,
+    Curse of Vanishing,I,
+

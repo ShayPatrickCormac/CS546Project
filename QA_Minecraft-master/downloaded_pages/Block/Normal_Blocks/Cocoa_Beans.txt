@@ -1,0 +1,65 @@
+Overview
+    Cocoa beans are items obtained from cocoa pods and are used to plant them, as well as to craft brown dye and cookies. Cocoa pods are bonemealable plants placed on jungle log sides that grow cocoa beans, and can be found naturally in jungles.
+
+Obtaining
+    In Java Edition, cocoa beans are only obtained through the natural generation of cocoa pods, while in Bedrock Edition, they can also be found in bonus chests, from fishing inside the jungle, bamboo jungle and sparse jungle biomes and during a trading with a wandering trader. Cocoa beans come from cocoa pods, which are found on the trunks of normal-sized naturally-generated jungle trees in jungle, bamboo jungles and sparse jungle temperate biomes. The block itself can be obtained by inventory editing or add-ons in Bedrock Edition.
+
+  Breaking
+    Cocoa pods can be mined with any item, but axes are the quickest. Fully grown cocoa pods drop 3 cocoa beans. Using a tool enchanted with Fortune does not increase the amount of cocoa beans dropped.
+
+    Block,Cocoa
+    Hardness,0.2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,0.3
+    Wooden,0.15
+    Stone,0.1
+    Iron,0.05
+    Diamond,0.05
+    Netherite,0.05
+    Golden,0.05
+    Sword,0.2
+
+  Chest Loot
+    From one to two cocoa beans can be found in 40% of bonus chests in Bedrock Edition.
+
+    Item,Structure,Container,Quantity,Chance
+    Bedrock Edition
+    Cocoa Beans,Bonus chest,Chest,1–2,"40% { ""item"": ""Cocoa Beans"", ""stacksize"": ""1–2"", ""chance"": 0.4, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+  Fishing
+    Cocoa beans can be obtained from fishing in a jungle in Bedrock Edition.
+
+  Trading
+    Wandering traders may sell 3 cocoa beans for an emerald during a trading in Bedrock Edition.
+
+Usage
+  Farming
+    Placing cocoa beans on the side of a jungle log plants a new cocoa pod. The log does not need to be attached to a tree. A cocoa pod can be placed on jungle logs, jungle wood, stripped jungle logs and stripped jungle wood. Cocoa has three stages of growth. During its first stage, the pod is small and green. In the second stage, the plant is bigger and colored tan. In its last stage, the pod is even larger and orange. The cocoa block has a 20% chance to grow a stage when receiving a random tick, giving it an average time of 5 minutes and 41 seconds per stage. When destroyed in the first two stages, the pod yields only one cocoa bean. When destroyed in the third stage, it gives 3 cocoa beans. Bone meal can be used to force the cocoa pod forward by one growth stage. Cocoa pods burst and drop their beans when struck by flowing water, pushed by a piston or if their log or wood are removed by any means.
+
+  Composting
+    Placing cocoa beans into a composter has a 65% chance of raising the compost level by 1. In Bedrock Edition, cocoa beans are accepted as a direct substitute of brown dye in many recipes.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Brown Balloon,Latex + Cocoa Beans + Helium + Lead,"[['Latex', '', 'Latex'], ['Latex', 'Helium', 'Latex'], ['Latex', 'Lead', 'Latex']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Brown Bed,Any Bed + Cocoa Beans,"[[None, None, None], ['White Bed', '', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Brown Carpet,White Carpet + Cocoa Beans,"[['White Carpet', 'White Carpet', 'White Carpet'], ['White Carpet', '', 'White Carpet'], ['White Carpet', 'White Carpet', 'White Carpet']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Brown Concrete Powder,Cocoa Beans + Sand + Gravel,"[['', 'Sand', 'Sand'], ['Sand', 'Sand', 'Gravel'], ['Gravel', 'Gravel', 'Gravel']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Brown Dye,Cocoa Beans,"[[None, None, None], [None, '', None], [None, None, None]]",
+    Brown Firework Star,Brown Firework Star + Cocoa Beans,"[[None, None, None], ['Firework Star', '', None], [None, None, None]]","‌ [ Bedrock Edition and Minecraft Education only ] Adds a ""fade to color"" effect to the firework star, overwriting any existing fades. Up to eight dyes can be added."
+    Brown Firework Star,Gunpowder + Cocoa Beans + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', '', 'Head'], ['Glowstone Dust', 'Diamond', None]]","‌ [ Bedrock Edition and Minecraft Education only ] Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Brown Glow Stick,Polyethylene + Hydrogen Peroxide + Cocoa Beans + Luminol,"[['Polyethylene', 'Hydrogen Peroxide', 'Polyethylene'], ['Polyethylene', '', 'Polyethylene'], ['Polyethylene', 'Luminol', 'Polyethylene']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Brown Shulker Box,Any Shulker Box + Cocoa Beans,"[[None, None, None], ['White Shulker Box', '', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Brown Stained Glass,Glass + Cocoa Beans,"[['Glass', 'Glass', 'Glass'], ['Glass', '', 'Glass'], ['Glass', 'Glass', 'Glass']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Brown Stained Glass Pane,Glass Pane + Cocoa Beans,"[['Glass Pane', 'Glass Pane', 'Glass Pane'], ['Glass Pane', '', 'Glass Pane'], ['Glass Pane', 'Glass Pane', 'Glass Pane']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Brown Terracotta,Terracotta + Cocoa Beans,"[['Terracotta', 'Terracotta', 'Terracotta'], ['Terracotta', '', 'Terracotta'], ['Terracotta', 'Terracotta', 'Terracotta']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Brown Wool,Any Wool + Cocoa Beans,"[[None, None, None], ['White Wool', '', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Cookie,Wheat + Cocoa Beans,"[[None, None, None], ['Wheat', '', 'Wheat'], [None, None, None]]",
+
+    In Bedrock Edition and Minecraft Education, cocoa beans can be: In Bedrock Edition, cocoa beans can be also used in banner patterns:
+
+    Name,Ingredients,Crafting recipe
+    Brown Banner pattern,Cocoa Beans + Banner,"[['', '', ''], ['', 'Banner', ''], ['', '', '']]"
+    Brown Banner image,Cocoa Beans + Banner + Vines or Bricks or Creeper Head or Wither Skeleton Skull or Oxeye Daisy or Enchanted Golden Apple,"[[None, None, None], ['Vines', '', None], [None, 'Banner', None]]"
+

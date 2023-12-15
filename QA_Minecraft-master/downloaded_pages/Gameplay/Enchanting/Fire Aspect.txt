@@ -1,0 +1,21 @@
+Overview
+    Fire Aspect is a sword enchantment that sets the target on fire.
+
+Usage
+    Fire Aspect adds 80 fire-ticks (4 seconds of burning) per level to the target. Because the first hit is caused by the item with this enchantment, the first second of fire damage is not recognized. Targets receive 3 and 7 damage with level I and II respectively. Formula to calculate the fire damage: fire damage in 1 = (level × 4) – 1 When a mob that normally drops raw meat is killed while it is burning, or if a mob is killed in one shot, even if it is in water, it drops cooked meat. However, enemies damaged through the sweep attack are unaffected by Fire Aspect.[1] For example, if a player swings their sword at a piglin, and two other piglins are damaged by the sweep attack, only the first piglin will be affected by Fire Aspect. In Bedrock Edition, using an item enchanted with Fire Aspect on an unlit candle or campfire lights it. Additionally, doing this on a Block of TNT causes the TNT to ignite.
+
+Immune mobs
+    Both Fire Aspect and Flame are nullified on all Nether exclusive mobs other than Piglins, Piglin Brutes, and Hoglins due to fire and lava immunity. The warden is also immune. Normal skeletons and endermen are not immune even in the Nether.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Fire Aspect,fire_aspect,enchantment.minecraft.fire_aspect
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Fire Aspect,fire_aspect,13,enchantment.fire
+

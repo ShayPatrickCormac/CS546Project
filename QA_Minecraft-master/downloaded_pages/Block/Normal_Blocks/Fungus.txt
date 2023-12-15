@@ -1,0 +1,48 @@
+Overview
+    A fungus is a mushroom-like block that generates in the Nether. There are two types of fungi: crimson and warped.
+
+Obtaining
+  Breaking
+    A fungus can be mined instantly and always drops itself. Mining a flower pot containing a fungus drops both items separately.
+
+    Block,Fungi
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+
+  Natural generation
+    Fungi naturally generate in the crimson and warped forest biomes, with each fungi most commonly generating in their respective biomes, and less frequently vice versa.
+
+  Mob loot
+    An enderman holding a fungus drops the fungus upon death.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Crimson Fungus,Bastion remnant,Hoglin stable chest,2–7,"22.8% { ""item"": ""Crimson Fungus"", ""stacksize"": ""2–7"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Bedrock Edition
+    Crimson Fungus,Bastion remnant,Hoglin stable chest,2–7,"22.8% { ""item"": ""Crimson Fungus"", ""stacksize"": ""2–7"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+
+  Post-generation
+    Applying bone meal to nylium causes fungi to appear nearby, similar to flowers on grass blocks. While fungi of both types and other Nether vegetation do generate this way, they are more likely to be the same type as the nylium.[1]
+
+Usage
+  Placement
+    Fungi may be placed on grass blocks, dirt, coarse dirt, podzol, farmland, rooted dirt, moss blocks, nylium, mycelium, soul soil, mud, and muddy mangrove roots. Attempting to place it on any other block fails. Fungi requires a solid block underneath it, and pops off and drops itself if it is no longer supported. Fungi can also be placed in flower pots.
+
+  Growth
+    When bone meal is used on a fungus that is planted on matching nylium, it has a 40% chance to grow into its tall equivalent (similar to saplings and mushrooms). Crimson and warped fungi grow into crimson and warped huge fungi, respectively. The stem, shroomlight, or nether wart block may replace certain blocks including slabs and torches.
+
+  Breeding
+    Crimson fungus can be used to breed hoglins and keep them from despawning, but it does not stop the hoglin from attacking the player. Warped fungus can be used to breed striders and lead them around if crafted as a warped fungus on a stick.
+
+  Hoglins
+    All hoglins, regardless of age, avoid and run up to 7 blocks away from warped fungus when it is placed on a block or inside of a flower pot. Held warped fungi and warped fungi on sticks do not have this effect.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Warped Fungus on a Stick,Fishing Rod or Damaged Fishing Rod + Warped Fungus,"[['Fishing Rod', None, None], [None, 'Warped Fungus', None], [None, None, None]]",Crafting from a damaged fishing rod is available only in Bedrock Edition . Java Edition requires a pristine fishing rod. The 2×2 grid can also be used for crafting instead of a crafting table.
+
+  Composting
+    Placing a fungus into a composter has a 65% chance of raising the compost level by 1.
+

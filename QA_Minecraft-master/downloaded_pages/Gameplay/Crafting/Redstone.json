@@ -1,0 +1,887 @@
+[
+    {
+        "names": [
+            "Lever"
+        ],
+        "ingredients": [
+            "Stick",
+            "Cobblestone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Cobblestone",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Redstone Torch"
+        ],
+        "ingredients": [
+            "Redstone Dust",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Redstone Dust",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Button"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Oak Planks",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Button"
+        ],
+        "ingredients": [
+            "Stone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Stone",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Button"
+        ],
+        "ingredients": [
+            "Polished Blackstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Polished Blackstone",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pressure Plate"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pressure Plate"
+        ],
+        "ingredients": [
+            "Stone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Stone",
+                "Stone",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pressure Plate"
+        ],
+        "ingredients": [
+            "Polished Blackstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Polished Blackstone",
+                "Polished Blackstone",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Redstone Dust"
+        ],
+        "ingredients": [
+            "Block of Redstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Redstone",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Note Block"
+        ],
+        "ingredients": [
+            "Planks",
+            "Redstone Dust"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Redstone Dust",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Fence Gate"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Stick",
+                "Oak Planks",
+                "Stick"
+            ],
+            [
+                "Stick",
+                "Oak Planks",
+                "Stick"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Redstone"
+        ],
+        "ingredients": [
+            "Redstone Dust"
+        ],
+        "sample pattern": [
+            [
+                "Redstone Dust",
+                "Redstone Dust",
+                "Redstone Dust"
+            ],
+            [
+                "Redstone Dust",
+                "Redstone Dust",
+                "Redstone Dust"
+            ],
+            [
+                "Redstone Dust",
+                "Redstone Dust",
+                "Redstone Dust"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Lectern"
+        ],
+        "ingredients": [
+            "Wooden Slab",
+            "Bookshelf"
+        ],
+        "sample pattern": [
+            [
+                "Oak Slab",
+                "Oak Slab",
+                "Oak Slab"
+            ],
+            [
+                null,
+                "Bookshelf",
+                null
+            ],
+            [
+                null,
+                "Oak Slab",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Tripwire Hook"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Stick",
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Iron Ingot",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ],
+            [
+                null,
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Dispenser"
+        ],
+        "ingredients": [
+            "Cobblestone",
+            "Bow",
+            "Redstone Dust"
+        ],
+        "sample pattern": [
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ],
+            [
+                "Cobblestone",
+                "Bow",
+                "Cobblestone"
+            ],
+            [
+                "Cobblestone",
+                "Redstone Dust",
+                "Cobblestone"
+            ]
+        ],
+        "description": "The bow can be of anydurability.Enchantmentson the bow do not affect the resulting dispenser."
+    },
+    {
+        "names": [
+            "Redstone Lamp"
+        ],
+        "ingredients": [
+            "Redstone Dust",
+            "Glowstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Redstone Dust",
+                null
+            ],
+            [
+                "Redstone Dust",
+                "Glowstone",
+                "Redstone Dust"
+            ],
+            [
+                null,
+                "Redstone Dust",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Daylight Detector"
+        ],
+        "ingredients": [
+            "Glass",
+            "Nether Quartz",
+            "Wooden Slab"
+        ],
+        "sample pattern": [
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ],
+            [
+                "Nether Quartz",
+                "Nether Quartz",
+                "Nether Quartz"
+            ],
+            [
+                "Oak Slab",
+                "Oak Slab",
+                "Oak Slab"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Dropper"
+        ],
+        "ingredients": [
+            "Cobblestone",
+            "Redstone Dust"
+        ],
+        "sample pattern": [
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ],
+            [
+                "Cobblestone",
+                null,
+                "Cobblestone"
+            ],
+            [
+                "Cobblestone",
+                "Redstone Dust",
+                "Cobblestone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Redstone Repeater"
+        ],
+        "ingredients": [
+            "Redstone Torch",
+            "Redstone Dust",
+            "Stone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Redstone Torch",
+                "Redstone Dust",
+                "Redstone Torch"
+            ],
+            [
+                "Stone",
+                "Stone",
+                "Stone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Hopper"
+        ],
+        "ingredients": [
+            "Iron Ingot",
+            "Chest"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                null,
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Chest",
+                "Iron Ingot"
+            ],
+            [
+                null,
+                "Iron Ingot",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Redstone Comparator"
+        ],
+        "ingredients": [
+            "Redstone Torch",
+            "Nether Quartz",
+            "Stone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Redstone Torch",
+                null
+            ],
+            [
+                "Redstone Torch",
+                "Nether Quartz",
+                "Redstone Torch"
+            ],
+            [
+                "Stone",
+                "Stone",
+                "Stone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "TNT"
+        ],
+        "ingredients": [
+            "Gunpowder",
+            "Sand",
+            "Red Sand"
+        ],
+        "sample pattern": [
+            [
+                "Gunpowder",
+                "Sand",
+                "Gunpowder"
+            ],
+            [
+                "Sand",
+                "Gunpowder",
+                "Sand"
+            ],
+            [
+                "Gunpowder",
+                "Sand",
+                "Gunpowder"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Piston"
+        ],
+        "ingredients": [
+            "Planks",
+            "Cobblestone",
+            "Iron Ingot",
+            "Redstone Dust"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                "Cobblestone",
+                "Iron Ingot",
+                "Cobblestone"
+            ],
+            [
+                "Cobblestone",
+                "Redstone Dust",
+                "Cobblestone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Sticky Piston"
+        ],
+        "ingredients": [
+            "Slimeball",
+            "Piston"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Slimeball",
+                null
+            ],
+            [
+                null,
+                "Piston",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Trapdoor"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Iron Trapdoor"
+        ],
+        "ingredients": [
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                null
+            ],
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Wood Door"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Heavy Weighted Pressure Plate"
+        ],
+        "ingredients": [
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Observer"
+        ],
+        "ingredients": [
+            "Cobblestone",
+            "Redstone Dust",
+            "Nether Quartz"
+        ],
+        "sample pattern": [
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ],
+            [
+                "Redstone Dust",
+                "Redstone Dust",
+                "Nether Quartz"
+            ],
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Light Weighted Pressure Plate"
+        ],
+        "ingredients": [
+            "Gold Ingot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Gold Ingot",
+                "Gold Ingot",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Target"
+        ],
+        "ingredients": [
+            "Redstone Dust",
+            "Hay Bale"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Redstone Dust",
+                null
+            ],
+            [
+                "Redstone Dust",
+                "Hay Bale",
+                "Redstone Dust"
+            ],
+            [
+                null,
+                "Redstone Dust",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Lightning Rod"
+        ],
+        "ingredients": [
+            "Copper Ingot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Copper Ingot",
+                null
+            ],
+            [
+                null,
+                "Copper Ingot",
+                null
+            ],
+            [
+                null,
+                "Copper Ingot",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Calibrated Sculk Sensor"
+        ],
+        "ingredients": [
+            "Amethyst Shard",
+            "Sculk Sensor"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Amethyst Shard",
+                null
+            ],
+            [
+                "Amethyst Shard",
+                "Sculk Sensor",
+                "Amethyst Shard"
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    }
+]

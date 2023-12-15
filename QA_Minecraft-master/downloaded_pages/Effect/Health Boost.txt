@@ -1,0 +1,21 @@
+Overview
+    Health Boost is an unused status effect that increases a player's (or mob's) maximum health.
+
+Effect
+    Adds 4 maximum health per level. Unlike Absorption, the added hearts are empty at first, but can be healed through the usual methods (such as natural regeneration and the Regeneration and Instant Health effects). Actual health may be above the base value after the effect ends and are not capped, unless the entity is healed. Extra hearts of a mounted mob can be seen while riding it. Re-application of the effect when it is still active empties the hearts added by this effect. When the effect ends, any extra health is lost.
+
+Immune mobs
+    Boss mobs are unaffected.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Health Boost,health_boost,21,effect.minecraft.health_boost
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Health Boost,health_boost,21,potion.healthBoost
+

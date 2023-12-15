@@ -1,0 +1,38 @@
+Overview
+    A brewing stand is a block used for brewing potions using bottles and suitable ingredients. It also serves as a cleric's job site block.
+
+Obtaining
+  Breaking
+    A brewing stand can be obtained using any pickaxe. If mined without a pickaxe, it drops nothing in Java Edition, while it drops itself in Bedrock Edition.
+
+    Block,Brewing Stand
+    Hardness,0.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,2.5
+    Wooden,0.4
+    Stone,0.2
+    Iron,0.15
+    Diamond,0.1
+    Netherite,0.1
+    Golden,0.1
+
+  Natural generation
+    Brewing stands generate in end ships. They have two Instant Health II potions in their holders. A brewing stand also generates in the basement of igloos with a splash potion of Weakness in it. Brewing stands can generate without potions in village churches.
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Blaze Rod + Any stone-tier block,"[[None, 'Blaze Rod', None], ['Cobblestone', 'Cobblestone', 'Cobblestone'], [None, None, None]]",Can use cobblestone and its other variants interchangeably.
+
+Usage
+    By default, the interface  of a brewing stand is labeled "Brewing Stand", but this name can be customized by naming it in an anvil before placing it. Brewing stands cannot be pushed by pistons in Java Edition.
+
+  Brewing
+    The main purpose of brewing stands is to allow for the brewing of potions. Its interface can be opened by pressing use on them. Brewing stands need blaze powder as fuel. Each piece brews 20 batches of potions, with each stage of brewing counting separately. Unlike furnaces, there is no time limit; fuel is consumed only when there are bottles and an ingredient to brew into it. Brewing stands interact with hoppers as follows: In Minecraft Education, elements can be combined in the brewing stand to make the medicine potions: antidote, elixir, eye drops, and tonic.
+
+  Changing profession
+    If a village has a brewing stand that has not been claimed by a villager, any villager who hasn't already picked a job site block in the village has a chance to change their profession into cleric.
+
+  Light source
+    Brewing stands emit a light level of 1.
+

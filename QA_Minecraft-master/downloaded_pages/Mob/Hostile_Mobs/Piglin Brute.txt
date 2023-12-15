@@ -1,0 +1,13 @@
+Overview
+    A piglin brute is a hostile and stronger variant of piglins that appears in all types of bastion remnants. Unlike piglins, they do not barter, retreat, or be diverted by gold, instead always charge at the player on sight with their golden axes.
+
+Spawning
+    A small number of piglin brutes spawn in bastion remnants only upon generation and in some rooms. They do not have a baby variant. Piglin brutes spawn with a golden axe, occasionally with enchantments. They never spawn with armor and do not equip armor from the ground, although they can still be equipped with armor via dispensers or commands.
+
+Drops
+Behavior
+    Piglin brutes attack players, wither skeletons, and withers within 16 blocks and are not distracted by golden items or blocks. They also attack any mob (except for goats) that attacks any piglin, or piglin brute, either by accident or purposefully. Examples include retaliation for attacks by snow golems and iron golems. Other mobs that accidentally shoot another piglin or another piglin brute causes the piglin brute to become hostile toward that mob. Piglin brutes, along with vindicators, deal a high amount of raw melee damage, inflicting 19.5 × 9.75 points of damage on Hard difficulty. The only stronger mobs are the iron golem, which deals up to 32.25 × 16.125 melee damage, and the warden, which deals up to 45 × 22.5 melee damage. Piglin brutes spawn in all difficulty settings. In Peaceful difficulty, piglin brutes despawn in Java Edition and become passive in Bedrock Edition. The detection range of piglin brutes is reduced to half of their normal range (17.5 blocks) when the player is wearing a piglin head. Behaviors shared by both piglins and piglin brutes: Behaviors specific to piglin brutes:
+
+  Zombification
+    When in the Overworld or the End, piglin brutes transform into zombified piglins after 15 seconds. Upon transformation, the spawned zombified piglin has the Nausea effect for 10 seconds. This Nausea effect is purely cosmetic. When turned into a zombified piglin, a piglin brute keeps its axe. Piglin brutes summoned in the Overworld with no AI do not zombify and do not pick up items.
+

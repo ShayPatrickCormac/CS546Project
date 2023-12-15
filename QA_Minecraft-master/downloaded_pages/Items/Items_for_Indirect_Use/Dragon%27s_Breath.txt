@@ -1,0 +1,16 @@
+Overview
+    The dragon's breath is a brewing item that is used solely to make lingering potions.
+
+Obtaining
+  Harvesting
+    The dragon's breath can be obtained by scooping up the ender dragon's breath attack or the purple effect clouds caused by dragon fireballs in an empty glass bottle.
+
+Usage
+  Brewing ingredient
+    Dragon's breath may be added to any splash potion to upgrade it to a lingering potion, which can be used to create a lasting area effect cloud, or to craft tipped arrows.
+
+    Name,Ingredients,Brewing recipe
+    Lingering Potion,Dragon's Breath + Any Splash Potion,output:Lingering Water Bottle; Awkward Lingering Potion; Thick Lingering Potion; Mundane Lingering Potion; Lingering Potion of Regeneration; Lingering Potion of Swiftness; Lingering Potion of Fire Resistance; Lingering Potion of Poison; Lingering Potion of Healing; Lingering Potion of Night Vision; Lingering Potion of Weakness; Lingering Potion of Strength; Lingering Potion of Slowness; Lingering Potion of Leaping; Lingering Potion of Harming; Lingering Potion of Water Breathing; Lingering Potion of Invisibility; Lingering Potion of Slow Falling; Lingering Potion of Luck; Lingering Potion of Decay; Lingering Potion of the Turtle Master
+
+    When put 2 or more dragon's breath in the brewing stand, after the brewing process, a glass bottle will drop as an entity. However, if put only 1 dragon's breath in the brewing stand, after the brewing process, the glass bottle is consumed and cannot be retrieved.[1]
+

@@ -1,0 +1,25 @@
+Overview
+    Calcite is a carbonate mineral, currently used as a decorative block.
+
+Obtaining
+  Breaking
+    Calcite drops as an item if mined by any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Calcite
+    Hardness,0.75
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,3.75
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Natural generation
+    Calcite generates naturally as part of the structure of amethyst geodes, between the smooth basalt and block of amethyst layers. It also generates in the stony peaks in strips.
+
+Usage
+    Calcite is currently used only for decoration.
+

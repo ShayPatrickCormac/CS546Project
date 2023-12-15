@@ -1,0 +1,34 @@
+Overview
+    A blackstone slab is the blackstone variant of slabs, crafted from blackstone.
+
+Obtaining
+  Breaking
+    Blackstone slabs can be broken with wooden pickaxes or higher.
+
+    Block,Blackstone Slab
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Blackstone slabs generate as part of bastion remnants.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Blackstone,"[[None, None, None], [None, None, None], ['Blackstone', 'Blackstone', 'Blackstone']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Blackstone,2
+
+Usage
+  Note blocks
+    Blackstone slabs can be placed under note blocks to produce "bass drum" sounds.
+

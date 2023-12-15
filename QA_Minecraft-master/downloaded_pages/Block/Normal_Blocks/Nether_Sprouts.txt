@@ -1,0 +1,25 @@
+Overview
+    Nether sprouts are a non-solid fungi block that generate in warped forests.
+
+Obtaining
+  Breaking
+    Nether sprouts can be mined instantly with any item. The block also breaks if the block below is removed, or if water flows into its space. The block only drops if broken with shears.
+
+    Block,Nether Sprouts
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+    Shears,0.05
+
+  Natural generation
+    Nether sprouts generate in warped forest biomes.
+
+  Post-generation
+    Applying bone meal to warped nylium creates nether sprouts on that block and surrounding nylium, along with both types of nether roots and fungi.
+
+Usage
+    Nether sprouts can be planted on the same blocks that fungi and nether roots can be placed on: nylium, soul soil, grass, podzol, mycelium, moss, dirt, coarse dirt, rooted dirt, and farmland. However, they cannot be planted in flower pots.
+
+  Composting
+    Placing nether sprouts into a composter has a 50% chance of raising the compost level by 1.
+

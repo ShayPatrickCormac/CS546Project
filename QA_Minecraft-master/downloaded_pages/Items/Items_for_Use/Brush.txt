@@ -1,0 +1,20 @@
+Overview
+    A brush is a tool used in archaeology to excavate suspicious blocks for different items.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Feather + Copper Ingot + Stick,"[[None, 'Feather', None], [None, 'Copper Ingot', None], [None, 'Stick', None]]",
+    Damaged Brush,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two brushes is added together, plus an extra 5% durability."
+
+Usage
+    Using the brush on any block displays a brushing animation, slowing down the player and creating breaking particles, but not actually damaging the block or brush. When continuously brushing a suspicious block, a random item slowly emerges from it until it drops out, and the block turns into regular sand or regular gravel, depleting 1 durability point on the brush. It takes 96 game ticks (4.8 seconds) to brush a single suspicious block.
+
+  Enchantments
+    A brush can receive the following enchantments:
+
+    Name,Description,Max Level,Method,Weight
+    Unbreaking,Grants a chance to negate durability consumption.,III,,5
+    Mending,Repairs the brush when obtaining experience .,I,,2
+    Curse of Vanishing,"The brush vanishes on death, not dropping as an item.",I,,1
+

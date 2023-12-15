@@ -1,0 +1,53 @@
+Overview
+    An evoker is a spell-casting illager that can be found in woodland mansions and raids, and is the only source of the totem of undying. It uses two spells to attack: one that summons armor-piercing fangs and one that summons vexes.
+
+Spawning
+  Woodland mansions
+    Evokers spawn during the generation of particular woodland mansion rooms. They do not respawn after their initial spawn. Evokers spawned with mansions do not naturally despawn (unless the world difficulty is switched to peaceful‌[JE  only]‌[upcoming: BE 1.20.50]). In Bedrock Edition, evokers can spawn in peaceful difficulty, and do not attack the player.‌[until BE 1.20.50]
+
+  Raids
+    Evokers can spawn during raids by themselves or riding ravagers. Evokers cannot spawn in raids on easy difficulty, because such raids have only three waves, while evokers appear in the fifth wave and above. Evokers spawn during raids starting at wave 5. Up to 5 evokers spawn on hard difficulty. During these events, they can be a raid captain. On hard difficulty, evokers can also spawn riding a ravager at wave 7. They may also rarely spawn as a raid captain. Up to 5 evokers spawn during raids, with 1 evoker spawning during waves 5 and 6, and 3 evokers spawning during wave 7. One of them rides a ravager during wave 7.
+
+Drops
+  On death
+    Item,Roll Chance,Quantity (Roll Chance)
+    Default,Looting I,Looting II,Looting III
+    ,Totem of Undying,100%,1,1,1,1
+    ,Emerald,100% [d 1],0–1,0–2,0–3,0–4
+    ,Illager Banner,100% [d 2],1,1,1,1
+
+Behavior
+    An evoker moves at the player's sprinting speed, crosses its arms and does not show its hands. An evoker visually does not sit down when sitting in a boat or minecart. If an evoker is riding a ravager, its legs appear to sink in the ravager's body. This happens only in Bedrock Edition, as evokers put their legs in front of them while sitting on any entity in Java Edition. Evokers attack players, adult villagers, iron golems, snow golems‌[BE  only] and wandering traders within 12 blocks by rising and waving both of their arms while looking at their target and summoning magical fangs or vexes, creating different colored particles for the different attacks. If the player is within a 10 block radius and the evoker is not in the middle of summoning an attack, the evoker flees from the player to avoid being attacked. Evokers are passive in Peaceful difficulty‌[BE  only]. They still attack any adult villagers, iron golems, wandering traders, or snow golems in the Peaceful difficulty. If an evoker is attacked, all nearby[needs testing] evokers become alerted and start attacking the player, even if they are behind walls. In Java Edition, the alerted evokers can attack the player from an infinite distance away, even if the player switches to Creative or Spectator mode[1]; this can be fixed by relogging the world, or by setting the game rule universalAnger to True[needs testing]. In Java Edition, an evoker is passive to other illagers even if it is harmed. Any evoker can search for and join a patrol if sufficiently near a patrol captain. In Java Edition, evokers and illusioners are faster without any effects during raids. In Java Edition, evokers are given 3 seconds of the Glowing effect if a bell is rung within 32 blocks of them. This applies to both evokers spawned in raids and evokers spawned in woodland mansions.
+
+  Fang attack
+    The evoker signals this attack by producing purple particles () and a low-pitched sound. A number of fangs rise out of the ground around the player, then snap shut and vanish. Players or mobs caught in the attack are dealt 6 damage, regardless of difficulty. This harm is not mitigated by armor but is mitigated by enchantments such as Protection. Any evoker-summoned fangs do not deal damage to any illagers, although fangs summoned or spawned by the player do. When a neutral or hostile mob is caught in the attack, the mob will attack the evoker. Fangs appear no lower than the feet of the lowest combatant and no higher than one block above the feet of the highest combatant. Fangs attempt to appear on the highest opaque block between those two extremes, but fail to spawn if they are obstructed by a solid block. In practice, this means that fangs cannot spawn inside deep pits or on top of high walls, but may, for example, go up a staircase if the target is at the top and the evoker at the bottom, or vice versa. Likewise, an evoker floating in a boat on water cannot summon fangs against a player swimming or floating in a boat because there are no opaque blocks from which the fangs can appear. The evoker typically summons 16 fangs in a straight line toward the target. However, if the target is within 3 blocks of the evoker, the evoker summons the fangs in two circles around itself: the smaller circle has 5 fangs and the larger has 8. The fangs do not seek the player, thus the player is able to dodge them. Summoning fangs resets the evoker's spell cooldown to two seconds and resets the cooldown for summoning fangs to five seconds.
+
+  Summoning vexes
+    The evoker signals this attack by producing white particles () for two seconds and a higher-pitched sound. Three vexes appear nearby. The evoker can summon vexes as long as there are fewer than eight vexes within 16 blocks centered on the evoker. This spell resets the evoker's spell cooldown to five seconds and resets the cooldown for summoning vexes to 17 seconds.
+
+  Combo attack
+    In Java Edition, evokers may summon two circle fangs while summoning vexes, without any cooldown. It usually happens when a player melee attacks an evoker while it is summoning vexes. The Minecraft Dungeons' evoker also feature this combo attack behavior.
+
+  Sheep color conversion spell
+    While the evoker is not engaged in combat and /gamerule mobGriefing is set to true, it changes the wool color of any blue sheep within 16 blocks from blue to red. The evoker signals this spell by producing orange particles () and making a "wololo" sound. This spell resets the evoker's spell cooldown to three seconds and resets the cooldown for the sheep color conversion spell to seven seconds. Evokers look at the sheep they are using the spell on while they are doing the spell until they finish the spell. In Bedrock Edition, evokers can still change a sheep's color when /gamerule mobGriefing is set to false.
+
+  Attack pattern data
+    
+
+    Type,Weight,Min activation range (Distance),Max activation range (Distance),num Entities spawned (Amount),Size,Summon cap,Summon cap Radius
+    Fangs Attack (Line),3,3.0,N/A,16 Fangs,20,N/A
+    Fangs Attack (Inside Circle),3,0.0,3.0,5 Fangs,1.5,N/A
+    Fangs Attack (Outside Circle),3,0.0,3.0,8 Fangs,2.5,N/A
+    Summoning Vexes,1,N/A,3 Vexes,1.0,8,16.0
+    Color conversion spell,3,0.0,16.0,N/A
+
+    Type,Base delay,Delay per summon,Cooldown time,Cast duration,Entity lifespan
+    Fangs Attack (Line),1.0,0.05,5.0,2.0,1.1
+    Fangs Attack (Inside Circle),1.0,0.0,5.0,2.0,1.1
+    Fangs Attack (Outside Circle),0.15,0.0,5.0,2.0,1.1
+    Summoning Vexes,2.0,N/A,17.0,5.0,N/A
+    Sheep color conversion spell,N/A,5.0,3.0,N/A
+
+Evoker fangs
+    Evoker fangs are the entities that evokers use to attack the player with their fang attack. Evoker fangs are not affected by the peaceful difficulty. The individual fangs in an evoker's fang attacks each have a delay. Before the delay is over, the fangs cannot be seen, although unlike truly invisible entities, fangs in warmup still have a visible debug hitbox. After the delay, the fangs expand into existence, snap shut, make critical hit particles and shrink out of sight again, dealing 6 magic damage to all mobs standing on the spot. Killing an evoker fang does not contribute to the Monster Hunter advancement or achievement.
+

@@ -1,0 +1,69 @@
+Overview
+    Ward armor trim is a type of smithing template found in ancient cities used in smithing tables to add a trim to armor. It is consumed when used, but can be duplicated using an existing template, cobbled deepslate, and diamonds.
+
+Obtaining
+    This item has a chance to be found in most chests inside of ancient cities, with the exception of the Ice Box chests. Once obtained, it can be duplicated using the crafting recipe below.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Diamond + Ward Armor Trim + Cobbled Deepslate,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', 'Cobbled Deepslate', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Ward Armor Trim Smithing Template,Ancient City,Chest,1,"5% { ""item"": ""Ward Armor Trim Smithing Template"", ""stacksize"": 1, ""chance"": 0.050000000000000044, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Ward Armor Trim Smithing Template,Ancient City,Chest,1,"5% { ""item"": ""Ward Armor Trim Smithing Template"", ""stacksize"": 1, ""chance"": 0.050000000000000044, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+
+Usage
+    It is an ingredient in its own recipe, making it simple to craft more after the initial item is found.
+
+  Crafting ingredient
+    Ingredients,Crafting recipe
+    Diamond + Ward Armor Trim + Cobbled Deepslate,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', 'Cobbled Deepslate', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+
+  Smithing ingredient
+    Using the smithing table, the ward armor trim can be applied to any armor piece, using any trim material
+
+    Ingredients,Smithing recipe
+    Ward Armor Trim + Any Armor Piece + Any Trim material,Upgrade Gear
+
+Data values
+  ID
+    Java Edition:
+
+    Smithing Template,Identifier,Form,Translation key
+    Ward Armor Trim,ward_armor_trim_smithing_template,Item,item.minecraft.ward_armor_trim_smithing_template
+
+    Bedrock Edition:
+
+    Smithing Template,Identifier,Numeric ID,Form,Translation key
+    Ward Armor Trim,ward_armor_trim_smithing_template,686,Item,item.smithing_template.name trim_pattern.ward.name
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    smithing with style,smithing with style,"Smithing with style { ""anchor"": """", ""title"": ""Smithing with style"", ""icon"": """", ""title"": ""Smithing with style"", ""description"": ""Apply these smithing templates at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Gold
+ "", ""rewards"": """"Blacksmith Gauntlets"" gloves
+"" }","Apply these smithing templates at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder",—,30G,Gold
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Crafting a New Look,Craft a trimmed armor at a Smithing Table,Adventure,—,"adventure/trim_with_any_armor_pattern {""anchor"": """", ""title"": ""Crafting a New Look"", ""icon"": ""Dune Armor Trim Smithing Template
+"", ""icon-style"": ""plain"", ""title"": ""Crafting a New Look"", ""description"": ""Craft a trimmed armor at a [[Smithing Table]]
+"", ""parent"": ""Adventure
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""adventure/trim_with_any_armor_pattern
+"", ""rewards"": ""—
+"" }"
+    ,Smithing with Style,"Apply these smithing templates at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder",Crafting a New Look,—,"adventure/trim_with_all_exclusive_armor_patterns {""anchor"": """", ""title"": ""Smithing with Style"", ""icon"": ""Silence Armor Trim Smithing Template
+"", ""icon-style"": ""fancy"", ""title"": ""Smithing with Style"", ""description"": ""Apply these [[smithing template]]s at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder
+"", ""parent"": ""Crafting a New Look
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""adventure/trim_with_all_exclusive_armor_patterns
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-306"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>150 [[experience]]
+"" }"
+

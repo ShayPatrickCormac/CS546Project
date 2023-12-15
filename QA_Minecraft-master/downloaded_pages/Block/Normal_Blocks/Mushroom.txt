@@ -1,0 +1,51 @@
+Overview
+    A mushroom is a variety of fungus that grows and spreads in dark areas. Mushrooms generate as red or brown in color, and small or huge in size.
+
+Obtaining
+  Breaking
+    Mushrooms can be instantly mined with any tool, including punching it. Mining a huge mushroom block drops up to 2 mushrooms of the same color. Fortune does not affect the drop rate of mushrooms in any form.[1] A mushroom also breaks instantly and drops as an item if:
+
+    Block,Mushrooms
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+
+  Natural generation
+    Mushrooms naturally generate in poorly lit areas (light level of 12 or less). If this condition is met, each chunk has 1⁄8 (12.5%) chance to generate red mushroom and 1⁄4 (25.0%) chance to generate brown mushroom, in the form of random patches.[2] Mushrooms also generate on surface in swamp, old growth taiga, mushroom fields biomes, and anywhere in the Nether. Unlike most plants, they seem to be able to generate on top of nearly any block types. In Java Edition, they are commonly found in patches on the bedrock ceiling of the Nether, and are the only blocks that can generate there. Witch huts have a flower pot with a red mushroom inside. Mushrooms are also supposed to generate inside "mushroom farm" rooms in woodland mansions, although in Java Edition they do not generate there due to a bug.[3] In Bedrock Edition, fallen oak, birch, spruce, and jungle trees have 0–2 mushroom generated on them.
+
+  Mob loot
+    Shearing a red or brown mooshroom drops 5 mushrooms of the corresponding color and turns it into a normal cow.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Bedrock Edition
+    Brown Mushroom,Bonus chest,Chest,1–2,"100% { ""item"": ""Brown Mushroom"", ""stacksize"": ""1–2"", ""chance"": 1, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+  Trading
+    Mushrooms can be bought from wandering trader for an emerald.
+
+Usage
+    Mushrooms can be planted and grown on blocks that have a full top surface in light levels below 13 and not directly underneath the sky. They cannot be planted on the top surfaces of slabs or stairs.[4] For more information, see Opacity/Placement. If planted on mycelium, podzol or nylium, they can stay planted in any light level, including be planted and remain under light from sky above. Both brown and red mushrooms grow at the same rate regardless of the light level.[5][6]
+
+  Huge mushrooms
+    When bone meal is applied to a mushroom, the mushroom has a chance to grow into a huge mushroom of the same color, provided that it is on a proper block (grass block, dirt, coarse dirt, rooted dirt or moss block at a light level of 12 or below; on podzol, mycelium or nylium at any light level) and has enough space (7×7×8).
+
+  Spread
+    When receiving a random tick, a mushroom has a chance of spreading to a nearby block (including even above and below diagonally) if there are fewer than five mushrooms of the same type in a 9×9×3 volume around the original mushroom.
+
+  Light source
+    Brown mushrooms emit a barely visible light level of 1.[7] However, they do not emit light in flower pots.[8]
+
+  Decoration
+    Either type of mushroom can be planted in a flower pot.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Fermented Spider Eye,Brown Mushroom + Sugar + Spider Eye,"[[None, None, None], ['Brown Mushroom', 'Sugar', None], [None, 'Spider Eye', None]]"
+    Mushroom Stew,Red Mushroom + Brown Mushroom + Bowl,"[[None, None, None], ['Red Mushroom', 'Brown Mushroom', None], [None, 'Bowl', None]]"
+    Rabbit Stew,Cooked Rabbit + Carrot + Baked Potato + Any Mushroom + Bowl,"[[None, 'Cooked Rabbit', None], ['Carrot', 'Baked Potato', 'Red Mushroom'], [None, 'Bowl', None]]"
+    Suspicious Stew,Red Mushroom + Brown Mushroom + Bowl + Any Flower,"[[None, None, None], ['Red Mushroom', 'Brown Mushroom', None], ['Bowl', 'Oxeye Daisy', None]]"
+
+  Composting
+    Placing a mushroom into a composter has a 65% chance of raising the compost level by 1.
+

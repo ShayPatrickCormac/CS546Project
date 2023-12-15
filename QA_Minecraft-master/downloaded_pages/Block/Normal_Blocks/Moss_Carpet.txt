@@ -1,0 +1,38 @@
+Overview
+    A moss carpet is a thin decorative variant of the moss block.
+
+Obtaining
+  Breaking
+    Moss carpets can be mined using any tool or without a tool, but a hoe is the quickest.
+
+    Block,Moss Carpet
+    Hardness,0.1
+    Tool,Hoe
+    Breaking time (sec) [A]
+    Default,0.15
+    Wooden,0.1
+    Stone,0.05
+    Iron,0.05
+    Diamond,0.05
+    Netherite,0.05
+    Golden,0.05
+
+  Natural generation
+    Moss carpets generate naturally in lush caves and mangrove swamps.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Moss Block,"[[None, None, None], [None, None, None], ['Moss Block', 'Moss Block', None]]"
+
+  Post-generation
+    Using bone meal on a moss block has a 25% chance to grow moss carpets. Mangrove propagules that grow into mangrove trees can generate moss carpets.
+
+Usage
+    Moss carpet has most of the properties of the standard carpet, except that it is not flammable, cannot be pushed by pistons, cannot be equipped on llamas, and does not occlude vibrations.
+
+  Composting
+    Placing a moss carpet into a composter has a 30% chance of raising the compost level by 1.
+
+  Piston interactivity
+    Moss carpets break when pushed by pistons. They cannot be pulled by sticky pistons.
+

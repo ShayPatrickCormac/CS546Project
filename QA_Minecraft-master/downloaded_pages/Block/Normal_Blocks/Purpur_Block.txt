@@ -1,0 +1,43 @@
+Overview
+    Purpur blocks are decorative blocks that are naturally generated in end cities and end ships.
+
+Obtaining
+  Breaking
+    Purpur blocks can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Purpur Block
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Purpur blocks can be found naturally as part of the structure of end cities and end ships.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Popped Chorus Fruit,"[[None, None, None], ['Popped Chorus Fruit', 'Popped Chorus Fruit', None], ['Popped Chorus Fruit', 'Popped Chorus Fruit', None]]"
+
+Usage
+    Purpur blocks are primarily decorative blocks, similar to other brick-type blocks. They can also be used to craft different variants of the block.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Purpur Slab,Purpur Block,"[[None, None, None], [None, None, None], ['', '', '']]",‌ [ Java Edition only ]
+    Purpur Slab,Purpur Block,"[[None, None, None], [None, None, None], ['', '', '']]",‌ [ Bedrock Edition only ]
+    Purpur Stairs,Purpur Block,"[['', None, None], ['', '', None], ['', '', '']]",
+    Spire Armor Trim Smithing Template,Diamond + Spire Armor Trim + Purpur Block,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', '', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]",
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Purpur Slab or Purpur Stairs or Purpur Pillar,Purpur Block,2
+
+  Note Blocks
+    Purpur blocks can be placed under note blocks to produce "bass drum" sound.
+

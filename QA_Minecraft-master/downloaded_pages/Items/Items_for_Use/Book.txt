@@ -1,0 +1,82 @@
+Overview
+    Books are items used in enchanting and crafting.
+
+Obtaining
+  Block loot
+    Three books are dropped when a bookshelf is mined without Silk Touch or destroyed by an explosion.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Book,Ancient City,Chest,3–10,"35.9% { ""item"": ""Book"", ""stacksize"": ""3–10"", ""chance"": 0.3585407680864854, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Shipwreck,Map chest,1–5,"34.5% { ""item"": ""Book"", ""stacksize"": ""1–5"", ""chance"": 0.34507581280069977, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+    Stronghold,Library chest,1–3,"89.2% { ""item"": ""Book"", ""stacksize"": ""1–3"", ""chance"": 0.8919829527458125, ""structure"": ""Stronghold"", ""container"": ""Library chest"" }"
+    Village,Plains house chest,1,"12.1% { ""item"": ""Book"", ""stacksize"": 1, ""chance"": 0.12068353467250137, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Desert house chest,1,"14.3% { ""item"": ""Book"", ""stacksize"": 1, ""chance"": 0.14254173828500694, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+    Bedrock Edition
+    Book,Ancient City,Chest,3–10,"35.9% { ""item"": ""Book"", ""stacksize"": ""3–10"", ""chance"": 0.3585407680864854, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Shipwreck,Map chest,1–5,"34.5% { ""item"": ""Book"", ""stacksize"": ""1–5"", ""chance"": 0.34507581280069977, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+    Stronghold,Library chest,1–3,"88.3% { ""item"": ""Book"", ""stacksize"": ""1–3"", ""chance"": 0.8829194743853341, ""structure"": ""Stronghold"", ""container"": ""Library chest"" }"
+    Village,Plains house chest,1,"12.1% { ""item"": ""Book"", ""stacksize"": 1, ""chance"": 0.12068353467250137, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Desert house chest,1,"14.3% { ""item"": ""Book"", ""stacksize"": 1, ""chance"": 0.14254173828500694, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Paper + Leather,"[[None, None, None], ['Paper', 'Paper', None], ['Paper', 'Leather', None]]"
+
+  Grindstones
+    Disenchanting an enchanted book at a grindstone yields a normal book and a small amount of experience.
+
+  Villager gifts
+    in Java Edition, librarian villagers throw books at players under the Hero of the Village effect.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Book and Quill,Book + Ink Sac + Feather,"[[None, None, None], ['', 'Ink Sac', None], [None, 'Feather', None]]"
+    Bookshelf,Any Planks + Book,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], ['', '', ''], ['Oak Planks', 'Oak Planks', 'Oak Planks']]"
+    Enchanting Table,Book + Diamond + Obsidian,"[[None, '', None], ['Diamond', 'Obsidian', 'Diamond'], ['Obsidian', 'Obsidian', 'Obsidian']]"
+
+  Chiseled bookshelf
+    Using the chiseled bookshelf while having a book in the main hand will put the book inside the chiseled bookshelf.
+
+  Enchanting
+    Books can be made into enchanted books by enchanting them on enchanting tables.
+
+  Trading
+    Librarian villagers can buy a single book as part of an enchanted book trade. Apprentice-level Librarian villagers have a 2⁄3 chance to buy 4 books for an emerald in Java Edition, and always offer the trade in Bedrock Edition.
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    enchanter,enchanter,"Enchanter { ""anchor"": """", ""title"": ""Enchanter"", ""icon"": """", ""title"": ""Enchanter"", ""description"": ""Construct an Enchantment Table.
+ "", ""requirements"": ""Pick up an [[enchantment table]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Enchanters Hat"" headwear
+"" }",Construct an Enchantment Table.,Pick up an enchantment table from a crafting table output.,20G,Bronze
+    librarian,librarian,"Librarian { ""anchor"": """", ""title"": ""Librarian"", ""icon"": """", ""title"": ""Librarian"", ""description"": ""Build some [[bookshelves]] to improve your [[enchantment table]].
+ "", ""requirements"": ""Pick up a bookshelf from a [[crafting table]] output.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Stack of Books"" headwear
+"" }",Build some bookshelves to improve your enchantment table .,Pick up a bookshelf from a crafting table output.,20G,Bronze
+
+    
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Enchanter,Enchant an item at an Enchanting Table,Diamonds!,"Insert an item in an enchanting table , then apply an enchantment.","story/enchant_item {""anchor"": """", ""title"": ""Enchanter"", ""icon"": ""Enchanted Book.gif
+"", ""icon-style"": ""plain"", ""title"": ""Enchanter"", ""description"": ""Enchant an item at an Enchanting Table
+"", ""parent"": ""Diamonds!
+"", ""requirements"": ""Insert an item in an [[enchanting table]], then apply an enchantment.
+"", ""resourcelocation"": ""story/enchant_item
+"", ""rewards"": """" }"
+    ,The Power of Books,Read the power signal of a Chiseled Bookshelf using a Comparator,Adventure,"Place a comparator on any side of a chiseled bookshelf , or the chiseled bookshelf against a comparator with the back of the comparator running into it.","adventure/read_power_of_chiseled_bookshelf {""anchor"": """", ""title"": ""The Power of Books"", ""icon"": ""Chiseled Bookshelf
+"", ""icon-style"": ""plain"", ""title"": ""The Power of Books"", ""description"": ""Read the power signal of a Chiseled Bookshelf using a Comparator
+"", ""parent"": ""Adventure
+"", ""requirements"": ""Place a [[comparator]] on any side of a [[chiseled bookshelf]], or the chiseled bookshelf against a comparator with the back of the comparator running into it.
+"", ""resourcelocation"": ""adventure/read_power_of_chiseled_bookshelf
+"", ""rewards"": ""—
+"" }"
+

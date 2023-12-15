@@ -1,0 +1,30 @@
+Overview
+    Mycelium is a particularly rare variant of dirt that is found naturally only in mushroom fields biomes. It has a particle effect that resembles tiny spores being released constantly from the surface.
+
+Obtaining
+  Breaking
+    Mycelium can be obtained by mining it using a tool with the Silk Touch enchantment. If mined with any other tool or by hand, it drops dirt. A shovel is the fastest tool to collect it.
+
+    Block,Mycelium
+    Hardness,0.6
+    Tool,Shovel
+    Breaking time (sec) [A]
+    Default,0.9
+    Wooden,0.45
+    Stone,0.25
+    Iron,0.15
+    Diamond,0.15
+    Netherite,0.1
+    Golden,0.1
+
+  Mob loot
+    Endermen can pick up mycelium blocks, and drop the block they are holding if killed.
+
+Usage
+  Spread
+    A mycelium block can spread to any dirt block within one space above, one sideways, or three down. The mycelium needs light level 9+ above it, while the dirt needs light level 4+ above it, and must not be covered by any light-impeding block or any opaque block. Mycelium reverts to dirt when covered by one of the light-impeding blocks above, and the light level at that block is below 4. The death and spread behaviors are checked when a random tick lands on the block. If there is a plant on a dirt block when mycelium spreads to it, the plant pops out and drops as an item.
+
+  Dirt path
+    Mycelium can be turned into a dirt path by using any type of shovel on it.
+
+  Effect on plants

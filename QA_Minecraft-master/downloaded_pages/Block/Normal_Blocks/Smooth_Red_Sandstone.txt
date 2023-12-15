@@ -1,0 +1,38 @@
+Overview
+    Smooth red sandstone is a variant of red sandstone, obtained by smelting.
+
+Obtaining
+  Breaking
+    Smooth red sandstone can be mined with any pickaxe. If mined without a pickaxe, the block drops nothing.
+
+    Block,Smooth Red Sandstone
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Smelting
+    Ingredients,Smelting recipe
+    Red Sandstone + Any fuel,0.1
+
+Usage
+    Unlike red sand, smooth red sandstone is never affected by gravity.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Smooth Red Sandstone Slab,Smooth Red Sandstone,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Smooth Red Sandstone Stairs,Smooth Red Sandstone,"[['', None, None], ['', '', None], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Smooth Red Sandstone,2
+
+  Note blocks
+    Smooth red sandstone can be placed under note blocks to produce "bass drum" sounds.
+

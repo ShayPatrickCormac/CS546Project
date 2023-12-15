@@ -1,0 +1,38 @@
+Overview
+    Ladders are solid blocks used for climbing walls either vertically or horizontally. They can be placed only on the sides of other blocks.
+
+Obtaining
+  Breaking
+    Ladders can be broken using any tool, but an axe is the quickest.
+
+    Block,Ladder
+    Hardness,0.4
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,0.6
+    Wooden,0.3
+    Stone,0.15
+    Iron,0.1
+    Diamond,0.1
+    Netherite,0.1
+    Golden,0.05
+
+  Natural generation
+    Ladders occur naturally in library rooms of strongholds and in intersection rooms with a wooden ceiling. Ladders can also be found in village structures such as plains and taiga temples and many small or medium houses, as well as in churches. They may also be found leading to the basements of igloos, in end ships on the pillar leading up to the crow's nest, and in rail rooms of woodland mansions. Ladders also generate in ancient cities and in trail ruins.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Stick,"[['Stick', None, 'Stick'], ['Stick', 'Stick', 'Stick'], ['Stick', None, 'Stick']]"
+
+Usage
+    Ladders provide a way to cushion a player's impact after a free fall. Upon entering a ladder's area of effect, the player's speed is reduced instantly to normal ladder descent speed and no damage is taken. Falling onto the narrow top surface of the ladder incurs falling damage as normal. Holding the sneak key while climbing a ladder causes the player to grab hold of the ladder and not fall off. While the player is holding on to a ladder, mining speed decreases. Any mob can climb a ladder in the same way a player does: by pushing against it. Mobs are not smart enough to use ladders deliberately — they do not remain on a ladder to get somewhere, but a ladder directly in their path lets them climb up.
+
+  Placement
+    Ladders can be placed on any full solid block face. Ladders displace lava blocks to create an air pocket and can be used instead of glass to let lava light shine through a ceiling. They also displace flowing water, but a ladder placed inside a water source block becomes waterlogged and does not create an air pocket.
+
+  Climbing
+    A ladder takes effect whenever the player's lower half is in the block occupied by a ladder. These effects are: Additionally:
+
+  Fuel
+    A ladder can be used as fuel in furnaces, smelting 1.5 items per ladder.‌[Java Edition  only]
+

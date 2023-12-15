@@ -1,0 +1,119 @@
+Overview
+    Cooked meat is one of the best food options in the game, with Golden Carrots being its only competitor.  Most forms of cooked meat can easily be obtained by killing animals and then cooking their raw variants in a Furnace or a Smoker.  Killing all available animals in a large area may temporarily provide the player with a decent supply of cooked meat.  However, due to how passive mob spawning works in Minecraft, it takes a while before more passive mobs spawn in its place, forcing the player to load in new chunks to spawn more animals. To prevent this issue, one can instead gather a small supply of livestock, breed them to create new livestock, and then kill a portion of the adults whenever the player needs more food.  Farming animals can also provide the player with several other useful items: leather, feathers, wool, eggs, rabbit hide/rabbit's foot.  A manual slaughter farm can also provide a modest amount of Experience, but this should not be the main focus of an animal farm as most hostile mob farms can produce experience points at a faster rate than animals can.
+
+Basic farming
+    To lead animals around, you need to wield the same food that you can breed them with or a lead if you have slimeballs. You can also obtain a lead from the wandering traders by trading with them or killing them. You may also take their llamas! Wandering trader llamas can be bred in Java Edition. Wheat for cows, mooshrooms, goats and sheep; carrots, beetroots, or potatoes for pigs; seeds of any type for chickens; and dandelions, carrots or golden carrots for rabbits. Once you've got them in the pen, start feeding them, after which they pair off and have babies. They also produce experience orbs. You can breed the same two only once in five minutes. You get one young for each two adult animals that you feed in your herd.  The babies take about 20 minutes to grow up and do not drop any items or experience on death, so don't kill too many adults too fast. You can breed adult animals only if you feed two of them at about the same time. They approach each other and begin to look like they are kissing. Chickens are a special case, because not only do they breed with any seeds, but they also lay eggs, and throwing eggs has a chance to produce chicks. This makes them easy to multiply in general, as not only can chickens produce eggs without being fed seeds, but the process can also be fully automated with the use of dispensers.  Collecting and throwing eggs increases the number of chickens you can slay. For sheep, you don’t have to kill them to get wool, just dye them and shear them. Shearing a sheep yields 1-3 blocks of wool instead of the usual 1 block you obtain from killing. This process can also be automated with dispensers.  However, sheep must eat grass in order to regrow their wool coat, meaning you need a fairly large pen with plenty grass blocks to recover their wool after shearing.  If your farm has an enormous amount of sheep, they turn all of the grass inside of the farm into dirt, so a few neighboring grass blocks should be placed outside of reach of your sheep so that the dirt inside of your pen can turn back into grass without running the risk of getting completely consumed by sheep. Breeding has a cooldown of five minutes, so you cannot breed the parents right after you already bred them.  Additionally, baby animals cannot breed — feeding a baby animal instead reduces the time it takes to grow up into an adult (with diminishing returns as more food is given). A building to house the animals (like a barn) is useful, especially to prevent nasty surprises in the form of Skeletons, Creepers, and other hostile Mobs from finding their way into your animal pen and creating a mess.  Make sure your barn is well-lit to prevent these mobs from spawning in hidden areas.
+
+  Cow crusher
+    There are limits to how many animals you can keep in a given pen.  In modern versions of Minecraft, if animals are packed too tightly (24 in a single block space), they begin dying from overcrowding. If there is a mix of adult and baby animals, the adults die first, which allows for construction of a "cow crusher" (popularized by the youtuber Wattles). This does work for pigs and sheep, but for various reasons (usually leather) cows are the usual inmates. Note:  In older versions of Minecraft, overcrowded animals could be pushed into the walls of the pen. If those were solid blocks, the animal would suffocate; if they were fences or transparent blocks, the animal could be pushed right through them.  In some versions, animals were prone to "phasing through walls" between a game save and restore.
+
+  Breeding tips
+    Feeding at twice the rate as you slay your mobs is enough to keep mobs at roughly their current population.  If you are hatching chickens from eggs, a batch of newly-hatched chickens take just about an hour to grow up and then replace the eggs used to hatch them. When breeding animals in a fenced-in pen and you have a large amount of them, it can be difficult to leave the pen without animals escaping.  Some ways to deal with this: Go to the opposite side of the pen as the door you intend to use, and pull out the appropriate food, to gather the animals there.  Then  switch items (putting the food away) and quickly run to the gate. Because they no longer follow you, the animals are not fast enough to get to the other side of the pen when you do. This gets more difficult with large crowds, so other methods can be necessary., If you put a carpet on top of one of the fences, neither the animals nor hostile mobs can jump on it, but you can., A double gate can provide an "airlock" to give you a chance to intercept any animals that follow you through the first gate., Escapees become "volunteers".
+
+Automated animal farming
+    Most of these farms include a killing mechanism, a cooking mechanism for the meat and an item collector, usually a hopper. The cooking mechanism and killing mechanism are often combined, in the form of lava or fire.
+
+  Lava blade for cows, pigs, and sheep
+    This design uses a sticky piston water gate to control the amount of animals to be cooked. They drop through a "lava blade", which enables their meat to be cooked efficiently. That this does not work on chickens and rabbits.
+
+  Simple and easy cooked meat farm
+    Function This is an easy farm to set up that requires only for the user to breed animals and press a button. It is reusable and has high efficiency.  All cooked meats and other drops are collected automatically, and can be easily piled into a chest for collection by the player later.  This farm works for cows, sheep and pigs. Construction Preparation Usage Then, you want to go in and kill off some of them, not all. If you kill off all of them, it is harder to breed them again.
+
+  Fully automatic chicken cooker
+    Function This machine is not resource expensive and can give you infinite amounts of cooked chicken without you having to do anything. Just build the machine and you won't be hungry for a long time. Construction Preparation Why it works The chickens in the room with the hopper floor start laying eggs when they grow up and the eggs get transported through the hoppers and into the dispenser, which shoots them onto the slab, causing some of the eggs to hatch. The baby chickens are not tall enough, even while standing on the slab, to get burnt by the lava that is directly above their heads. However, when they grow up, they are too tall and their heads go straight into the lava. The chickens die and drop cooked meat. All of the feathers and chicken that they dropped gets sucked up by the hopper under the slab and deposited into the chest below the hopper.
+
+  Poor man's beef farm
+    Function An easy and simple way to farm raw beef. This farm utilises water currents and fall damage to kill cows for beef. Cows can be bred within the farm itself, making the farm a renewable source for beef. Construction Preparation Usage
+
+  Steakatron 2000
+     Construction Preparation Usage If you ever need to lead some cattle away to elsewhere, leave the trapdoors open, hit the water button until a sufficient number have escaped.
+
+  Cruddly's Porkatron 3000
+     It greatly speeds up the production of raw porkchops and cooked porkchops by utilizing a gap made by a redstone repeater with a block above to separate the pigs and piglets. Construction Preparation Lead your pigs via the operator stairs and gate into the slaughterhouse using carrots, potatoes, or beetroots. Usage It is advisable to briefly note these instructions on signs next to the machine. Modification notes Adult pigs cannot fall through a single trapdoor. A single water source dispenser does not drown pigs in any block more than 1 square away. It is possible to use redstone dust to relocate all controls to the front of the machine or the operator gate area if so desired. It is also possible to use an inverter circuit to ensure the top gate and side gate are always in opposite states.
+
+  Simple one minute sheep farm
+    Video Function This machine is able to produce stacks of wool while being built in an effortless minute. Construction Collection system: These steps are illustrated below. 
+
+
+Dig 2×2 hole
+
+
+, 
+
+
+Dig out the side 4 blocks
+
+
+ Shearing system: These steps are illustrated below. 
+
+
+Place observer
+
+
+, 
+
+
+Blocks in front of observer
+
+
+, 
+
+
+Sheep holding cell
+
+
+ Usage Make sure the dispensers are well filled with shears and the machine automatically collects wool for you. Flick the lever to turn off Modification notes You can easily expand this design to add more dispensers by lengthening it on the side. You can also breed sheep inside this farm to give more opportunities to shear wool.
+
+  Falling auto-spawn trap
+    Video Resources You need: A light source, such as torches or glowstone, Trapdoors, Signs, Fences, A redstone loop, Dispensers, Hoppers, Water buckets, Stones, Chests Step 1  Choose any place and put fences here, the fenced area can be bigger, but it's recommended to be big.
+In this tutorial, the fenced area is small. Step 2  Make a 2×2 hole. It's recommended to be deep, but if it's smaller, read the optional part later. Step 3  Place a trapdoor and open it. Step 4  Place four hoppers. Step 5  Place four more hoppers and make a hole in the wall. Step 6  Place two dispensers at the front of the hopper, then place water and a double chest. Step 7  Make a redstone loop. Step 8  Close the hole in the wall, where the redstone loop is. Step 9  Close another hole in the wall. If you have a little hole or you want cooked steak, read the optional steps. Optional steps Place two signs. Then place lava.
+
+  Hoglin farming
+    Hoglins are a great source of food, but are typically hostile to players and can knock-off players to lava. Hoglins do have one weakness though, and that is warped fungus. Warped fungus repels hoglins and by making a platform for the hoglins to spawn, put the fungus near the edges with a fence on top to prevent the hoglins from getting stucked, a simple killing chamber filled with campfires or lava, a storage system and finally some trapdoors, a hoglin farm is finished. For starters, you can build Shulkercraft's design. It's a fairly simple build and even with its small size it can still produce 1700 porkchops per hour. If you want a better and faster farm though, build Somecallmetimm. This farm is easily expandable by adding more layers. Link is here: https://www.youtube.com/watch?v=r_txoXltWzs.
+
+Semi-automated farming
+  Sheep farm
+    This design can shear 100+ sheep in a minute. Construction First, you need to make a flowing water wheat farm, but with higher sides and about 12 blocks wide. Warning: If the gathering switch is turned on, ensure the harvesting/other water is off. If they are both on together, the sheep bounce over each other and escape. Remember, if one water is on, the other must be off. The procedure is as follows: Notes The solid blocks can be switched around to make different designs. The only important ones are the grass blocks in the center., This design has been tested with 100 sheep successfully but with that many problems arise. If some of your sheep are missing, they may have glitched through a wall or suffocated due to the maxEntityCramming gamerule., Max time between harvesting: Unknown, Max number of sheep possible: Unknown, Max number of water levels you can create: Theoretically infinite, If you would like it to be wider, you can mirror the design and have two water bodies joining together. However this is the widest combination because you have to be able to control the water. As you can now use shears in dispensers, fully automated wool farms designs are now available. 
+
+
+Layer 0
+
+
+, 
+
+
+Layer 1
+
+
+, 
+
+
+Layer 2
+
+
+, 
+
+
+Layer 3
+
+
+, 
+
+
+Layer 4, connects to the top of layer 3.
+
+
+, 
+
+
+Layer 5
+
+
+, 
+
+
+Overhead Blueprint.
+
+
+
+

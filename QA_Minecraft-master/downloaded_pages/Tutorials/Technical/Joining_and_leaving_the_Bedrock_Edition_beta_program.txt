@@ -1,0 +1,16 @@
+Overview
+    Bedrock Edition releases regular beta versions for users to test features that will be in an upcoming update. This tutorial will show you how to join and leave the beta program and give warnings about what betas may do to your world.
+
+Requirements
+    The beta program is only available on Windows, Xbox One and Android.
+
+Warnings
+    Beta versions are not fully tested and may contain bugs that crash the game or corrupt your world. It is recommended to regularly back up worlds when playing in the beta program or only play in new worlds.
+
+Joining
+  Windows 10/11 and Xbox One
+    You must own the digital version of Minecraft, not the disc version.
+
+  Android
+Leaving
+  Windows 10/11 and Xbox One

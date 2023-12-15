@@ -1,0 +1,28 @@
+Overview
+    Efficiency is an enchantment that increases the player's mining speed.
+
+Obtaining
+    Tools of any material except stone or diamond can receive up to Efficiency V through the enchanting table. Stone and diamond tools can only receive up to level IV through the enchanting table, but can be given Efficiency V by combining 2 items with Efficiency IV in an anvil. Diamond tools with Efficiency V can also be found in end city and bastion remnant chests.
+
+Usage
+    The proper tool for a block must be used in order to receive the speed benefit; the enchantment has no effect if the block is mined with the incorrect tool. See the article above for details on mining speed. Efficiency applied to an axe increases the chance that the axe may stun a shield, with the base chance being 25% and a 5% increase for each level of Efficiency.‌[Java Edition  only] This only applies when the player is not sprinting, since sprint attacks already guarantee a shield stun.
+
+    Level,Percentage increase
+    I,+25%
+    II,+30%
+    III,+35%
+    IV,+40%
+    V,+45%
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Efficiency,efficiency,enchantment.minecraft.efficiency
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Efficiency,efficiency,15,enchantment.digging
+

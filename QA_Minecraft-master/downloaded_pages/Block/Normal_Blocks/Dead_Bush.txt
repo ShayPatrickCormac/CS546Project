@@ -1,0 +1,32 @@
+Overview
+    Dead bushes are transparent blocks in the form of an aesthetic plant.
+
+Obtaining
+  Breaking
+    Dead bushes drop 0–2 sticks when broken without shears, or when the block below it is removed. When shears are used, a dead bush drops itself.
+
+    Block,Dead Bush
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+    Shears,0.05
+
+  Natural generation
+    Dead bushes generate on sand, red sand, podzol, dirt, coarse dirt and terracotta in deserts, badlands, and old growth taigas.
+Dead bushes generate twice as commonly in desert biomes as they do in old growth taigas, and 10 times more often in badlands than they do in deserts (ratio of 1:2:20 – taiga:desert:badlands). Dead bushes can also generate in swamp biomes. Dead bushes can be found inside flower pots inside some desert village houses.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Dead Bush,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Dead Bush"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Village,Desert house chest,1–3,"26.6% { ""item"": ""Dead Bush"", ""stacksize"": ""1–3"", ""chance"": 0.2662680947537841, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+    Bedrock Edition
+    Dead Bush,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Dead Bush"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Village,Desert house chest,1–3,"26.6% { ""item"": ""Dead Bush"", ""stacksize"": ""1–3"", ""chance"": 0.2662680947537841, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+
+Usage
+    Dead bushes can be used for aesthetic decoration, as a source of sticks and a fuel source. They can be placed on any kind of sand, terracotta, dirt, podzol and mud; they can also be placed on grass blocks, mycelium, and moss blocks. They can also be planted in flower pots. Dead bushes do not spread, and cannot be grown using bone meal. Unlike most plants, dead bushes cannot be composted.[1]
+
+  Smelting
+    Dead bushes can be used as fuel, smelting one item per dead bush.
+

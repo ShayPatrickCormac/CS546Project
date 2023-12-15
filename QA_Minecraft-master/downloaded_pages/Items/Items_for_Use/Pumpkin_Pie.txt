@@ -1,0 +1,25 @@
+Overview
+    Pumpkin pie is a food item that can be eaten by the player.
+
+Obtaining
+  Chest Loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Pumpkin Pie,Village,Taiga house chest,1,"9.7% { ""item"": ""Pumpkin Pie"", ""stacksize"": 1, ""chance"": 0.09723883474496142, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Bedrock Edition
+    Pumpkin Pie,Village,Taiga house chest,1,"10.7% { ""item"": ""Pumpkin Pie"", ""stacksize"": 1, ""chance"": 0.10665831307875395, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Pumpkin + Sugar + Egg,"[[None, None, None], ['Pumpkin', 'Sugar', None], [None, 'Egg', None]]"
+
+  Trading
+    Apprentice-level farmer villagers have a 50%‌[Bedrock Edition  only] or 2⁄3‌[Java Edition  only] chance to sell 4 pumpkin pies for an emerald as part of their trades. in Java Edition, farmer villagers throw pumpkin pies at players under the Hero of the Village effect.
+
+Usage
+  Food
+    To eat pumpkin pie, press and hold use while it is selected in the hotbar. Eating one restores 8 () hunger and 4.8 saturation.
+
+  Composting
+    Placing pumpkin pie into a composter raises the compost level by 1.
+

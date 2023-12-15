@@ -1,0 +1,4423 @@
+[
+    {
+        "names": [
+            "Wooden Slab"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bamboo Mosaic Slab"
+        ],
+        "ingredients": [
+            "Bamboo Mosaic"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Bamboo Mosaic",
+                "Bamboo Mosaic",
+                "Bamboo Mosaic"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stone Slab",
+            "Smooth Stone Slab"
+        ],
+        "ingredients": [
+            "Stone",
+            "Smooth Stone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Stone",
+                "Stone",
+                "Stone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cobblestone Slab",
+            "Mossy Cobblestone Slab"
+        ],
+        "ingredients": [
+            "Cobblestone",
+            "Mossy Cobblestone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stone Brick Slab",
+            "Mossy Stone Brick Slab"
+        ],
+        "ingredients": [
+            "Stone Bricks",
+            "Mossy Stone Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Stone Bricks",
+                "Stone Bricks",
+                "Stone Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Granite Slab",
+            "Polished Granite Slab"
+        ],
+        "ingredients": [
+            "Granite",
+            "Polished Granite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Granite",
+                "Granite",
+                "Granite"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Diorite Slab",
+            "Polished Diorite Slab"
+        ],
+        "ingredients": [
+            "Diorite",
+            "Polished Diorite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Diorite",
+                "Diorite",
+                "Diorite"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Andesite Slab",
+            "Polished Andesite Slab"
+        ],
+        "ingredients": [
+            "Andesite",
+            "Polished Andesite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Andesite",
+                "Andesite",
+                "Andesite"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cobbled Deepslate Slab",
+            "Polished Deepslate Slab",
+            "Deepslate Brick Slab",
+            "Deepslate Tile Slab"
+        ],
+        "ingredients": [
+            "Cobbled Deepslate",
+            "Polished Deepslate",
+            "Deepslate Bricks",
+            "Deepslate Tiles"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cobbled Deepslate",
+                "Cobbled Deepslate",
+                "Cobbled Deepslate"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Tuff Slab",
+            "Polished Tuff Slab",
+            "Tuff Brick Slab"
+        ],
+        "ingredients": [
+            "Tuff",
+            "Polished Tuff",
+            "Tuff Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Tuff",
+                "Tuff",
+                "Tuff"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Brick Slab"
+        ],
+        "ingredients": [
+            "Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Bricks",
+                "Bricks",
+                "Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mud Brick Slab"
+        ],
+        "ingredients": [
+            "Mud Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Sandstone Slab",
+            "Red Sandstone Slab"
+        ],
+        "ingredients": [
+            "Sandstone",
+            "Chiseled Sandstone",
+            "Red Sandstone",
+            "Chiseled Red Sandstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Sandstone",
+                "Sandstone",
+                "Sandstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Smooth Sandstone Slab",
+            "Cut Sandstone Slab"
+        ],
+        "ingredients": [
+            "Smooth Sandstone",
+            "Cut Sandstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Smooth Sandstone",
+                "Smooth Sandstone",
+                "Smooth Sandstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Smooth Red Sandstone Slab",
+            "Cut Red Sandstone Slab"
+        ],
+        "ingredients": [
+            "Smooth Red Sandstone",
+            "Cut Red Sandstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Smooth Red Sandstone",
+                "Smooth Red Sandstone",
+                "Smooth Red Sandstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Prismarine Slab",
+            "Prismarine Brick Slab",
+            "Dark Prismarine Slab"
+        ],
+        "ingredients": [
+            "Prismarine",
+            "Prismarine Bricks",
+            "Dark Prismarine"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Prismarine",
+                "Prismarine",
+                "Prismarine"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Nether Brick Slab",
+            "Red Nether Brick Slab"
+        ],
+        "ingredients": [
+            "Nether Bricks",
+            "Red Nether Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Nether Bricks",
+                "Nether Bricks",
+                "Nether Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Blackstone Slab",
+            "Polished Blackstone Slab",
+            "Polished Blackstone Brick Slab"
+        ],
+        "ingredients": [
+            "Blackstone",
+            "Polished Blackstone",
+            "Polished Blackstone Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blackstone",
+                "Blackstone",
+                "Blackstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "End Stone Brick Slab"
+        ],
+        "ingredients": [
+            "End Stone Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "End Stone Bricks",
+                "End Stone Bricks",
+                "End Stone Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Purpur Slab"
+        ],
+        "ingredients": [
+            "Purpur Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Purpur Block",
+                "Purpur Block",
+                "Purpur Block"
+            ]
+        ],
+        "description": "‌[Java Editiononly]"
+    },
+    {
+        "names": [
+            "Purpur Slab"
+        ],
+        "ingredients": [
+            "Purpur Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Purpur Block",
+                "Purpur Block",
+                "Purpur Block"
+            ]
+        ],
+        "description": "‌[Bedrock Editiononly]"
+    },
+    {
+        "names": [
+            "Quartz Slab"
+        ],
+        "ingredients": [
+            "Quartz Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Block of Quartz",
+                "Block of Quartz",
+                "Block of Quartz"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Smooth Quartz Slab"
+        ],
+        "ingredients": [
+            "Smooth Quartz Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Smooth Quartz Block",
+                "Smooth Quartz Block",
+                "Smooth Quartz Block"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cut Copper Slab"
+        ],
+        "ingredients": [
+            "Cut Copper"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cut Copper",
+                "Cut Copper",
+                "Cut Copper"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper Slab"
+        ],
+        "ingredients": [
+            "Waxed Cut Copper"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Waxed Cut Copper",
+                "Waxed Cut Copper",
+                "Waxed Cut Copper"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper Slab"
+        ],
+        "ingredients": [
+            "Cut Copper Slab",
+            "Honeycomb"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cut Copper Slab",
+                "Honeycomb",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bricks"
+        ],
+        "ingredients": [
+            "Brick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Brick",
+                "Brick",
+                null
+            ],
+            [
+                "Brick",
+                "Brick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Diamond"
+        ],
+        "ingredients": [
+            "Diamond"
+        ],
+        "sample pattern": [
+            [
+                "Diamond",
+                "Diamond",
+                "Diamond"
+            ],
+            [
+                "Diamond",
+                "Diamond",
+                "Diamond"
+            ],
+            [
+                "Diamond",
+                "Diamond",
+                "Diamond"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Iron"
+        ],
+        "ingredients": [
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Gold"
+        ],
+        "ingredients": [
+            "Gold Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Gold Ingot",
+                "Gold Ingot",
+                "Gold Ingot"
+            ],
+            [
+                "Gold Ingot",
+                "Gold Ingot",
+                "Gold Ingot"
+            ],
+            [
+                "Gold Ingot",
+                "Gold Ingot",
+                "Gold Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bookshelf"
+        ],
+        "ingredients": [
+            "Planks",
+            "Book"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ],
+            [
+                "Book",
+                "Book",
+                "Book"
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Snow Block"
+        ],
+        "ingredients": [
+            "Snowball"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Snowball",
+                "Snowball",
+                null
+            ],
+            [
+                "Snowball",
+                "Snowball",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Clay"
+        ],
+        "ingredients": [
+            "Clay Ball"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Clay Ball",
+                "Clay Ball",
+                null
+            ],
+            [
+                "Clay Ball",
+                "Clay Ball",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Wood Stairs"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bamboo Mosaic Stairs"
+        ],
+        "ingredients": [
+            "Bamboo Mosaic"
+        ],
+        "sample pattern": [
+            [
+                "Bamboo Mosaic",
+                null,
+                null
+            ],
+            [
+                "Bamboo Mosaic",
+                "Bamboo Mosaic",
+                null
+            ],
+            [
+                "Bamboo Mosaic",
+                "Bamboo Mosaic",
+                "Bamboo Mosaic"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stone Stairs"
+        ],
+        "ingredients": [
+            "Stone"
+        ],
+        "sample pattern": [
+            [
+                "Stone",
+                null,
+                null
+            ],
+            [
+                "Stone",
+                "Stone",
+                null
+            ],
+            [
+                "Stone",
+                "Stone",
+                "Stone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cobblestone Stairs",
+            "Mossy Cobblestone Stairs"
+        ],
+        "ingredients": [
+            "Cobblestone",
+            "Mossy Cobblestone"
+        ],
+        "sample pattern": [
+            [
+                "Cobblestone",
+                null,
+                null
+            ],
+            [
+                "Cobblestone",
+                "Cobblestone",
+                null
+            ],
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stone Brick Stairs",
+            "Mossy Stone Brick Stairs"
+        ],
+        "ingredients": [
+            "Stone Bricks",
+            "Mossy Stone Bricks"
+        ],
+        "sample pattern": [
+            [
+                "Stone Bricks",
+                null,
+                null
+            ],
+            [
+                "Stone Bricks",
+                "Stone Bricks",
+                null
+            ],
+            [
+                "Stone Bricks",
+                "Stone Bricks",
+                "Stone Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Granite Stairs",
+            "Polished Granite Stairs"
+        ],
+        "ingredients": [
+            "Granite",
+            "Polished Granite"
+        ],
+        "sample pattern": [
+            [
+                "Granite",
+                null,
+                null
+            ],
+            [
+                "Granite",
+                "Granite",
+                null
+            ],
+            [
+                "Granite",
+                "Granite",
+                "Granite"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Diorite Stairs",
+            "Polished Diorite Stairs"
+        ],
+        "ingredients": [
+            "Diorite",
+            "Polished Diorite"
+        ],
+        "sample pattern": [
+            [
+                "Diorite",
+                null,
+                null
+            ],
+            [
+                "Diorite",
+                "Diorite",
+                null
+            ],
+            [
+                "Diorite",
+                "Diorite",
+                "Diorite"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Andesite Stairs",
+            "Polished Andesite Stairs"
+        ],
+        "ingredients": [
+            "Andesite",
+            "Polished Andesite"
+        ],
+        "sample pattern": [
+            [
+                "Andesite",
+                null,
+                null
+            ],
+            [
+                "Andesite",
+                "Andesite",
+                null
+            ],
+            [
+                "Andesite",
+                "Andesite",
+                "Andesite"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cobbled Deepslate Stairs",
+            "Polished Deepslate Stairs",
+            "Deepslate Brick Stairs",
+            "Deepslate Tile Stairs"
+        ],
+        "ingredients": [
+            "Cobbled Deepslate",
+            "Polished Deepslate",
+            "Deepslate Bricks",
+            "Deepslate Tiles"
+        ],
+        "sample pattern": [
+            [
+                "Cobbled Deepslate",
+                null,
+                null
+            ],
+            [
+                "Cobbled Deepslate",
+                "Cobbled Deepslate",
+                null
+            ],
+            [
+                "Cobbled Deepslate",
+                "Cobbled Deepslate",
+                "Cobbled Deepslate"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Tuff Stairs",
+            "Polished Tuff Stairs",
+            "Tuff Brick Stairs"
+        ],
+        "ingredients": [
+            "Tuff",
+            "Polished Tuff",
+            "Tuff Bricks"
+        ],
+        "sample pattern": [
+            [
+                "Tuff",
+                null,
+                null
+            ],
+            [
+                "Tuff",
+                "Tuff",
+                null
+            ],
+            [
+                "Tuff",
+                "Tuff",
+                "Tuff"
+            ]
+        ],
+        "description": "‌[upcoming:JE 1.21&BE 1.21.0]"
+    },
+    {
+        "names": [
+            "Brick Stairs"
+        ],
+        "ingredients": [
+            "Bricks"
+        ],
+        "sample pattern": [
+            [
+                "Bricks",
+                null,
+                null
+            ],
+            [
+                "Bricks",
+                "Bricks",
+                null
+            ],
+            [
+                "Bricks",
+                "Bricks",
+                "Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mud Brick Stairs"
+        ],
+        "ingredients": [
+            "Mud Bricks"
+        ],
+        "sample pattern": [
+            [
+                "Mud Bricks",
+                null,
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Sandstone Stairs",
+            "Smooth Sandstone Stairs"
+        ],
+        "ingredients": [
+            "Sandstone",
+            "Smooth Sandstone"
+        ],
+        "sample pattern": [
+            [
+                "Sandstone",
+                null,
+                null
+            ],
+            [
+                "Sandstone",
+                "Sandstone",
+                null
+            ],
+            [
+                "Sandstone",
+                "Sandstone",
+                "Sandstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Red Sandstone Stairs",
+            "Smooth Red Sandstone Stairs"
+        ],
+        "ingredients": [
+            "Red Sandstone",
+            "Smooth Red Sandstone"
+        ],
+        "sample pattern": [
+            [
+                "Red Sandstone",
+                null,
+                null
+            ],
+            [
+                "Red Sandstone",
+                "Red Sandstone",
+                null
+            ],
+            [
+                "Red Sandstone",
+                "Red Sandstone",
+                "Red Sandstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Prismarine Stairs",
+            "Prismarine Brick Stairs",
+            "Dark Prismarine Stairs"
+        ],
+        "ingredients": [
+            "Prismarine",
+            "Prismarine Bricks",
+            "Dark Prismarine"
+        ],
+        "sample pattern": [
+            [
+                "Prismarine",
+                null,
+                null
+            ],
+            [
+                "Prismarine",
+                "Prismarine",
+                null
+            ],
+            [
+                "Prismarine",
+                "Prismarine",
+                "Prismarine"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Nether Brick Stairs",
+            "Red Nether Brick Stairs"
+        ],
+        "ingredients": [
+            "Nether Bricks",
+            "Red Nether Bricks"
+        ],
+        "sample pattern": [
+            [
+                "Nether Bricks",
+                null,
+                null
+            ],
+            [
+                "Nether Bricks",
+                "Nether Bricks",
+                null
+            ],
+            [
+                "Nether Bricks",
+                "Nether Bricks",
+                "Nether Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Blackstone Stairs",
+            "Polished Blackstone Stairs",
+            "Polished Blackstone Brick Stairs"
+        ],
+        "ingredients": [
+            "Blackstone",
+            "Polished Blackstone",
+            "Polished Blackstone Bricks"
+        ],
+        "sample pattern": [
+            [
+                "Blackstone",
+                null,
+                null
+            ],
+            [
+                "Blackstone",
+                "Blackstone",
+                null
+            ],
+            [
+                "Blackstone",
+                "Blackstone",
+                "Blackstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "End Stone Brick Stairs"
+        ],
+        "ingredients": [
+            "End Stone Bricks"
+        ],
+        "sample pattern": [
+            [
+                "End Stone Bricks",
+                null,
+                null
+            ],
+            [
+                "End Stone Bricks",
+                "End Stone Bricks",
+                null
+            ],
+            [
+                "End Stone Bricks",
+                "End Stone Bricks",
+                "End Stone Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Purpur Stairs"
+        ],
+        "ingredients": [
+            "Purpur Block"
+        ],
+        "sample pattern": [
+            [
+                "Purpur Block",
+                null,
+                null
+            ],
+            [
+                "Purpur Block",
+                "Purpur Block",
+                null
+            ],
+            [
+                "Purpur Block",
+                "Purpur Block",
+                "Purpur Block"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Quartz Stairs"
+        ],
+        "ingredients": [
+            "Quartz Block"
+        ],
+        "sample pattern": [
+            [
+                "Block of Quartz",
+                null,
+                null
+            ],
+            [
+                "Block of Quartz",
+                "Block of Quartz",
+                null
+            ],
+            [
+                "Block of Quartz",
+                "Block of Quartz",
+                "Block of Quartz"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Smooth Quartz Stairs"
+        ],
+        "ingredients": [
+            "Smooth Quartz Block"
+        ],
+        "sample pattern": [
+            [
+                "Smooth Quartz Block",
+                null,
+                null
+            ],
+            [
+                "Smooth Quartz Block",
+                "Smooth Quartz Block",
+                null
+            ],
+            [
+                "Smooth Quartz Block",
+                "Smooth Quartz Block",
+                "Smooth Quartz Block"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cut Copper Stairs"
+        ],
+        "ingredients": [
+            "Cut Copper"
+        ],
+        "sample pattern": [
+            [
+                "Cut Copper",
+                null,
+                null
+            ],
+            [
+                "Cut Copper",
+                "Cut Copper",
+                null
+            ],
+            [
+                "Cut Copper",
+                "Cut Copper",
+                "Cut Copper"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper Stairs"
+        ],
+        "ingredients": [
+            "Waxed Cut Copper"
+        ],
+        "sample pattern": [
+            [
+                "Waxed Cut Copper",
+                null,
+                null
+            ],
+            [
+                "Waxed Cut Copper",
+                "Waxed Cut Copper",
+                null
+            ],
+            [
+                "Waxed Cut Copper",
+                "Waxed Cut Copper",
+                "Waxed Cut Copper"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper Stairs"
+        ],
+        "ingredients": [
+            "Cut Copper Stairs",
+            "Honeycomb"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cut Copper Stairs",
+                "Honeycomb",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Jack o'Lantern"
+        ],
+        "ingredients": [
+            "Carved Pumpkin",
+            "Torch"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Carved Pumpkin",
+                null
+            ],
+            [
+                null,
+                "Torch",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mossy Cobblestone"
+        ],
+        "ingredients": [
+            "Cobblestone",
+            "Vines"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cobblestone",
+                "Vines",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mossy Cobblestone"
+        ],
+        "ingredients": [
+            "Cobblestone",
+            "Moss Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cobblestone",
+                "Moss Block",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Glowstone"
+        ],
+        "ingredients": [
+            "Glowstone Dust"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Glowstone Dust",
+                "Glowstone Dust",
+                null
+            ],
+            [
+                "Glowstone Dust",
+                "Glowstone Dust",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Lapis Lazuli"
+        ],
+        "ingredients": [
+            "Lapis Lazuli"
+        ],
+        "sample pattern": [
+            [
+                "Lapis Lazuli",
+                "Lapis Lazuli",
+                "Lapis Lazuli"
+            ],
+            [
+                "Lapis Lazuli",
+                "Lapis Lazuli",
+                "Lapis Lazuli"
+            ],
+            [
+                "Lapis Lazuli",
+                "Lapis Lazuli",
+                "Lapis Lazuli"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "White Wool"
+        ],
+        "ingredients": [
+            "String"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "String",
+                "String",
+                null
+            ],
+            [
+                "String",
+                "String",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Wool"
+        ],
+        "ingredients": [
+            "Wool",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Wool",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "White Wool"
+        ],
+        "ingredients": [
+            "Dyed Wool",
+            "Bleach"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Light Gray Wool",
+                "Bleach",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Sandstone"
+        ],
+        "ingredients": [
+            "Sand"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Sand",
+                "Sand",
+                null
+            ],
+            [
+                "Sand",
+                "Sand",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stone Bricks"
+        ],
+        "ingredients": [
+            "Stone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Stone",
+                "Stone",
+                null
+            ],
+            [
+                "Stone",
+                "Stone",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Nether Bricks"
+        ],
+        "ingredients": [
+            "Nether Brick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Nether Brick",
+                "Nether Brick",
+                null
+            ],
+            [
+                "Nether Brick",
+                "Nether Brick",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Melon"
+        ],
+        "ingredients": [
+            "Melon Slice"
+        ],
+        "sample pattern": [
+            [
+                "Melon Slice",
+                "Melon Slice",
+                "Melon Slice"
+            ],
+            [
+                "Melon Slice",
+                "Melon Slice",
+                "Melon Slice"
+            ],
+            [
+                "Melon Slice",
+                "Melon Slice",
+                "Melon Slice"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Emerald"
+        ],
+        "ingredients": [
+            "Emerald"
+        ],
+        "sample pattern": [
+            [
+                "Emerald",
+                "Emerald",
+                "Emerald"
+            ],
+            [
+                "Emerald",
+                "Emerald",
+                "Emerald"
+            ],
+            [
+                "Emerald",
+                "Emerald",
+                "Emerald"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Quartz"
+        ],
+        "ingredients": [
+            "Nether Quartz"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Nether Quartz",
+                "Nether Quartz",
+                null
+            ],
+            [
+                "Nether Quartz",
+                "Nether Quartz",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Hay Bale"
+        ],
+        "ingredients": [
+            "Wheat"
+        ],
+        "sample pattern": [
+            [
+                "Wheat",
+                "Wheat",
+                "Wheat"
+            ],
+            [
+                "Wheat",
+                "Wheat",
+                "Wheat"
+            ],
+            [
+                "Wheat",
+                "Wheat",
+                "Wheat"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Coal"
+        ],
+        "ingredients": [
+            "Coal"
+        ],
+        "sample pattern": [
+            [
+                "Coal",
+                "Coal",
+                "Coal"
+            ],
+            [
+                "Coal",
+                "Coal",
+                "Coal"
+            ],
+            [
+                "Coal",
+                "Coal",
+                "Coal"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Packed Ice"
+        ],
+        "ingredients": [
+            "Ice"
+        ],
+        "sample pattern": [
+            [
+                "Ice",
+                "Ice",
+                "Ice"
+            ],
+            [
+                "Ice",
+                "Ice",
+                "Ice"
+            ],
+            [
+                "Ice",
+                "Ice",
+                "Ice"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Diorite"
+        ],
+        "ingredients": [
+            "Cobblestone",
+            "Nether Quartz"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cobblestone",
+                "Nether Quartz",
+                null
+            ],
+            [
+                "Nether Quartz",
+                "Cobblestone",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Oak Planks",
+            "Spruce Planks",
+            "Birch Planks",
+            "Jungle Planks",
+            "Acacia Planks",
+            "Dark Oak Planks",
+            "Mangrove Planks",
+            "Cherry Planks"
+        ],
+        "ingredients": [
+            "Log",
+            "Stripped Log",
+            "Wood",
+            "Stripped Wood"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Oak Log",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bamboo Planks"
+        ],
+        "ingredients": [
+            "Block of Bamboo",
+            "Block of Stripped Bamboo"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Bamboo",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Stem",
+            "Stripped Stem",
+            "Hyphae",
+            "Stripped Hyphae"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Crimson Stem",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Dyed Terracotta"
+        ],
+        "ingredients": [
+            "Terracotta",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                "Terracotta",
+                "Terracotta",
+                "Terracotta"
+            ],
+            [
+                "Terracotta",
+                "White Dye",
+                "Terracotta"
+            ],
+            [
+                "Terracotta",
+                "Terracotta",
+                "Terracotta"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Carpet"
+        ],
+        "ingredients": [
+            "Carpet",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "White Carpet",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Sea Lantern"
+        ],
+        "ingredients": [
+            "Prismarine Shard",
+            "Prismarine Crystals"
+        ],
+        "sample pattern": [
+            [
+                "Prismarine Shard",
+                "Prismarine Crystals",
+                "Prismarine Shard"
+            ],
+            [
+                "Prismarine Crystals",
+                "Prismarine Crystals",
+                "Prismarine Crystals"
+            ],
+            [
+                "Prismarine Shard",
+                "Prismarine Crystals",
+                "Prismarine Shard"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Granite"
+        ],
+        "ingredients": [
+            "Diorite",
+            "Nether Quartz"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Diorite",
+                "Nether Quartz",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Coarse Dirt"
+        ],
+        "ingredients": [
+            "Dirt",
+            "Gravel"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Dirt",
+                "Gravel",
+                null
+            ],
+            [
+                "Gravel",
+                "Dirt",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Andesite"
+        ],
+        "ingredients": [
+            "Diorite",
+            "Cobblestone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Diorite",
+                "Cobblestone",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Prismarine"
+        ],
+        "ingredients": [
+            "Prismarine Shard"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Prismarine Shard",
+                "Prismarine Shard",
+                null
+            ],
+            [
+                "Prismarine Shard",
+                "Prismarine Shard",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Magma Block"
+        ],
+        "ingredients": [
+            "Magma Cream"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Magma Cream",
+                "Magma Cream",
+                null
+            ],
+            [
+                "Magma Cream",
+                "Magma Cream",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Nether Wart Block"
+        ],
+        "ingredients": [
+            "Nether Wart"
+        ],
+        "sample pattern": [
+            [
+                "Nether Wart",
+                "Nether Wart",
+                "Nether Wart"
+            ],
+            [
+                "Nether Wart",
+                "Nether Wart",
+                "Nether Wart"
+            ],
+            [
+                "Nether Wart",
+                "Nether Wart",
+                "Nether Wart"
+            ]
+        ],
+        "description": "The nether wart block cannot be crafted back into nether wart.[1][2][3]"
+    },
+    {
+        "names": [
+            "End Stone Bricks"
+        ],
+        "ingredients": [
+            "End Stone"
+        ],
+        "sample pattern": [
+            [
+                "End Stone",
+                "End Stone",
+                null
+            ],
+            [
+                "End Stone",
+                "End Stone",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Purpur Block"
+        ],
+        "ingredients": [
+            "Popped Chorus Fruit"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Popped Chorus Fruit",
+                "Popped Chorus Fruit",
+                null
+            ],
+            [
+                "Popped Chorus Fruit",
+                "Popped Chorus Fruit",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bone Block"
+        ],
+        "ingredients": [
+            "Bone Meal"
+        ],
+        "sample pattern": [
+            [
+                "Bone Meal",
+                "Bone Meal",
+                "Bone Meal"
+            ],
+            [
+                "Bone Meal",
+                "Bone Meal",
+                "Bone Meal"
+            ],
+            [
+                "Bone Meal",
+                "Bone Meal",
+                "Bone Meal"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Dried Kelp Block"
+        ],
+        "ingredients": [
+            "Dried Kelp"
+        ],
+        "sample pattern": [
+            [
+                "Dried Kelp",
+                "Dried Kelp",
+                "Dried Kelp"
+            ],
+            [
+                "Dried Kelp",
+                "Dried Kelp",
+                "Dried Kelp"
+            ],
+            [
+                "Dried Kelp",
+                "Dried Kelp",
+                "Dried Kelp"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Blue Ice"
+        ],
+        "ingredients": [
+            "Packed Ice"
+        ],
+        "sample pattern": [
+            [
+                "Packed Ice",
+                "Packed Ice",
+                "Packed Ice"
+            ],
+            [
+                "Packed Ice",
+                "Packed Ice",
+                "Packed Ice"
+            ],
+            [
+                "Packed Ice",
+                "Packed Ice",
+                "Packed Ice"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Hardened Glass"
+        ],
+        "ingredients": [
+            "Aluminum Oxide",
+            "Glass",
+            "Boron Trioxide"
+        ],
+        "sample pattern": [
+            [
+                "Aluminum Oxide",
+                "Aluminum Oxide",
+                "Aluminum Oxide"
+            ],
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ],
+            [
+                "Boron Trioxide",
+                "Boron Trioxide",
+                "Boron Trioxide"
+            ]
+        ],
+        "description": "A representation ofalumino-borosilicate glass.‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Aluminum Oxide",
+            "Stained Glass",
+            "Boron Trioxide"
+        ],
+        "sample pattern": [
+            [
+                "Aluminum Oxide",
+                "Aluminum Oxide",
+                "Aluminum Oxide"
+            ],
+            [
+                "White Stained Glass",
+                "White Stained Glass",
+                "White Stained Glass"
+            ],
+            [
+                "Boron Trioxide",
+                "Boron Trioxide",
+                "Boron Trioxide"
+            ]
+        ],
+        "description": "A representation ofalumino-borosilicate glass.‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Wood",
+            "Hyphae"
+        ],
+        "ingredients": [
+            "Log",
+            "Stem"
+        ],
+        "sample pattern": [
+            [
+                "Oak Log",
+                "Oak Log",
+                null
+            ],
+            [
+                "Oak Log",
+                "Oak Log",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stripped Wood",
+            "Stripped Hyphae"
+        ],
+        "ingredients": [
+            "Stripped Log",
+            "Stripped Stem"
+        ],
+        "sample pattern": [
+            [
+                "Stripped Oak Log",
+                "Stripped Oak Log",
+                null
+            ],
+            [
+                "Stripped Oak Log",
+                "Stripped Oak Log",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Conduit"
+        ],
+        "ingredients": [
+            "Nautilus Shell",
+            "Heart of the Sea"
+        ],
+        "sample pattern": [
+            [
+                "Nautilus Shell",
+                "Nautilus Shell",
+                "Nautilus Shell"
+            ],
+            [
+                "Nautilus Shell",
+                "Heart of the Sea",
+                "Nautilus Shell"
+            ],
+            [
+                "Nautilus Shell",
+                "Nautilus Shell",
+                "Nautilus Shell"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Concrete Powder"
+        ],
+        "ingredients": [
+            "Dye",
+            "Sand",
+            "Gravel"
+        ],
+        "sample pattern": [
+            [
+                "White Dye",
+                "Sand",
+                "Sand"
+            ],
+            [
+                "Sand",
+                "Sand",
+                "Gravel"
+            ],
+            [
+                "Gravel",
+                "Gravel",
+                "Gravel"
+            ]
+        ],
+        "description": "Red sand cannot be used in place of sand.[4][5]"
+    },
+    {
+        "names": [
+            "White Concrete Powder",
+            "Blue Concrete Powder",
+            "Brown Concrete Powder",
+            "Black Concrete Powder"
+        ],
+        "ingredients": [
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac",
+            "Sand",
+            "Gravel"
+        ],
+        "sample pattern": [
+            [
+                "Bone Meal",
+                "Sand",
+                "Sand"
+            ],
+            [
+                "Sand",
+                "Sand",
+                "Gravel"
+            ],
+            [
+                "Gravel",
+                "Gravel",
+                "Gravel"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Scaffolding"
+        ],
+        "ingredients": [
+            "Bamboo",
+            "String"
+        ],
+        "sample pattern": [
+            [
+                "Bamboo",
+                "String",
+                "Bamboo"
+            ],
+            [
+                "Bamboo",
+                null,
+                "Bamboo"
+            ],
+            [
+                "Bamboo",
+                null,
+                "Bamboo"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Polished Blackstone"
+        ],
+        "ingredients": [
+            "Blackstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blackstone",
+                "Blackstone",
+                null
+            ],
+            [
+                "Blackstone",
+                "Blackstone",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Polished Blackstone Bricks"
+        ],
+        "ingredients": [
+            "Polished Blackstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Polished Blackstone",
+                "Polished Blackstone",
+                null
+            ],
+            [
+                "Polished Blackstone",
+                "Polished Blackstone",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Netherite"
+        ],
+        "ingredients": [
+            "Netherite Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Netherite Ingot",
+                "Netherite Ingot",
+                "Netherite Ingot"
+            ],
+            [
+                "Netherite Ingot",
+                "Netherite Ingot",
+                "Netherite Ingot"
+            ],
+            [
+                "Netherite Ingot",
+                "Netherite Ingot",
+                "Netherite Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Tinted Glass"
+        ],
+        "ingredients": [
+            "Amethyst Shard",
+            "Glass"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Amethyst Shard",
+                null
+            ],
+            [
+                "Amethyst Shard",
+                "Glass",
+                "Amethyst Shard"
+            ],
+            [
+                null,
+                "Amethyst Shard",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Dripstone Block"
+        ],
+        "ingredients": [
+            "Pointed Dripstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Pointed Dripstone",
+                "Pointed Dripstone",
+                null
+            ],
+            [
+                "Pointed Dripstone",
+                "Pointed Dripstone",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chain"
+        ],
+        "ingredients": [
+            "Iron Nugget",
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Iron Nugget",
+                null
+            ],
+            [
+                null,
+                "Iron Ingot",
+                null
+            ],
+            [
+                null,
+                "Iron Nugget",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Copper"
+        ],
+        "ingredients": [
+            "Copper Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Copper Ingot",
+                "Copper Ingot",
+                "Copper Ingot"
+            ],
+            [
+                "Copper Ingot",
+                "Copper Ingot",
+                "Copper Ingot"
+            ],
+            [
+                "Copper Ingot",
+                "Copper Ingot",
+                "Copper Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Block of Copper"
+        ],
+        "ingredients": [
+            "Block of Copper",
+            "Honeycomb"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Block of Copper",
+                "Honeycomb",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Amethyst"
+        ],
+        "ingredients": [
+            "Amethyst Shard"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Amethyst Shard",
+                "Amethyst Shard",
+                null
+            ],
+            [
+                "Amethyst Shard",
+                "Amethyst Shard",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Polished Deepslate"
+        ],
+        "ingredients": [
+            "Cobbled Deepslate"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cobbled Deepslate",
+                "Cobbled Deepslate",
+                null
+            ],
+            [
+                "Cobbled Deepslate",
+                "Cobbled Deepslate",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Deepslate Bricks"
+        ],
+        "ingredients": [
+            "Polished Deepslate"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Polished Deepslate",
+                "Polished Deepslate",
+                null
+            ],
+            [
+                "Polished Deepslate",
+                "Polished Deepslate",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Raw Copper"
+        ],
+        "ingredients": [
+            "Raw Copper"
+        ],
+        "sample pattern": [
+            [
+                "Raw Copper",
+                "Raw Copper",
+                "Raw Copper"
+            ],
+            [
+                "Raw Copper",
+                "Raw Copper",
+                "Raw Copper"
+            ],
+            [
+                "Raw Copper",
+                "Raw Copper",
+                "Raw Copper"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Raw Iron"
+        ],
+        "ingredients": [
+            "Raw Iron"
+        ],
+        "sample pattern": [
+            [
+                "Raw Iron",
+                "Raw Iron",
+                "Raw Iron"
+            ],
+            [
+                "Raw Iron",
+                "Raw Iron",
+                "Raw Iron"
+            ],
+            [
+                "Raw Iron",
+                "Raw Iron",
+                "Raw Iron"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Deepslate Tiles"
+        ],
+        "ingredients": [
+            "Deepslate Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Deepslate Bricks",
+                "Deepslate Bricks",
+                null
+            ],
+            [
+                "Deepslate Bricks",
+                "Deepslate Bricks",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chiseled Deepslate"
+        ],
+        "ingredients": [
+            "Cobbled Deepslate Slab"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Cobbled Deepslate Slab",
+                null
+            ],
+            [
+                null,
+                "Cobbled Deepslate Slab",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mud Bricks"
+        ],
+        "ingredients": [
+            "Packed Mud"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Packed Mud",
+                "Packed Mud",
+                null
+            ],
+            [
+                "Packed Mud",
+                "Packed Mud",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mud Brick Slab"
+        ],
+        "ingredients": [
+            "Mud Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mud Brick Stairs"
+        ],
+        "ingredients": [
+            "Mud Bricks"
+        ],
+        "sample pattern": [
+            [
+                "Mud Bricks",
+                null,
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mud Brick Wall"
+        ],
+        "ingredients": [
+            "Mud Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Block of Raw Gold"
+        ],
+        "ingredients": [
+            "Raw Gold"
+        ],
+        "sample pattern": [
+            [
+                "Raw Gold",
+                "Raw Gold",
+                "Raw Gold"
+            ],
+            [
+                "Raw Gold",
+                "Raw Gold",
+                "Raw Gold"
+            ],
+            [
+                "Raw Gold",
+                "Raw Gold",
+                "Raw Gold"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bamboo Mosaic Stairs"
+        ],
+        "ingredients": [
+            "Bamboo Mosaic"
+        ],
+        "sample pattern": [
+            [
+                "Bamboo Mosaic",
+                null,
+                null
+            ],
+            [
+                "Bamboo Mosaic",
+                "Bamboo Mosaic",
+                null
+            ],
+            [
+                "Bamboo Mosaic",
+                "Bamboo Mosaic",
+                "Bamboo Mosaic"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bamboo Mosaic Slab"
+        ],
+        "ingredients": [
+            "Bamboo Mosaic"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Bamboo Mosaic",
+                "Bamboo Mosaic",
+                "Bamboo Mosaic"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cut Copper"
+        ],
+        "ingredients": [
+            "Block of Copper"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Block of Copper",
+                "Block of Copper",
+                null
+            ],
+            [
+                "Block of Copper",
+                "Block of Copper",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper"
+        ],
+        "ingredients": [
+            "Waxed Block of Copper"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Waxed Block of Copper",
+                "Waxed Block of Copper",
+                null
+            ],
+            [
+                "Waxed Block of Copper",
+                "Waxed Block of Copper",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper"
+        ],
+        "ingredients": [
+            "Cut Copper",
+            "Honeycomb"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cut Copper",
+                "Honeycomb",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chiseled Polished Blackstone"
+        ],
+        "ingredients": [
+            "Polished Blackstone Slab"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Polished Blackstone Slab",
+                null
+            ],
+            [
+                null,
+                "Polished Blackstone Slab",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Wooden Stairs"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                "Oak Planks",
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cut Copper Stairs"
+        ],
+        "ingredients": [
+            "Cut Copper"
+        ],
+        "sample pattern": [
+            [
+                "Cut Copper",
+                null,
+                null
+            ],
+            [
+                "Cut Copper",
+                "Cut Copper",
+                null
+            ],
+            [
+                "Cut Copper",
+                "Cut Copper",
+                "Cut Copper"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper Stairs"
+        ],
+        "ingredients": [
+            "Waxed Cut Copper"
+        ],
+        "sample pattern": [
+            [
+                "Waxed Cut Copper",
+                null,
+                null
+            ],
+            [
+                "Waxed Cut Copper",
+                "Waxed Cut Copper",
+                null
+            ],
+            [
+                "Waxed Cut Copper",
+                "Waxed Cut Copper",
+                "Waxed Cut Copper"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper Stairs"
+        ],
+        "ingredients": [
+            "Cut Copper Stairs",
+            "Honeycomb"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cut Copper Stairs",
+                "Honeycomb",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Wooden Slab"
+        ],
+        "ingredients": [
+            "Planks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Oak Planks",
+                "Oak Planks",
+                "Oak Planks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cut Copper Slab"
+        ],
+        "ingredients": [
+            "Cut Copper"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cut Copper",
+                "Cut Copper",
+                "Cut Copper"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper Slab"
+        ],
+        "ingredients": [
+            "Waxed Cut Copper"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Waxed Cut Copper",
+                "Waxed Cut Copper",
+                "Waxed Cut Copper"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Waxed Cut Copper Slab"
+        ],
+        "ingredients": [
+            "Cut Copper Slab",
+            "Honeycomb"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Cut Copper Slab",
+                "Honeycomb",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Prismarine Slab"
+        ],
+        "ingredients": [
+            "Prismarine"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Prismarine",
+                "Prismarine",
+                "Prismarine"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Purpur Pillar"
+        ],
+        "ingredients": [
+            "Purpur Slab"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Purpur Slab",
+                null
+            ],
+            [
+                null,
+                "Purpur Slab",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Polished Granite"
+        ],
+        "ingredients": [
+            "Granite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Granite",
+                "Granite",
+                null
+            ],
+            [
+                "Granite",
+                "Granite",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Prismarine Stairs"
+        ],
+        "ingredients": [
+            "Prismarine"
+        ],
+        "sample pattern": [
+            [
+                "Prismarine",
+                null,
+                null
+            ],
+            [
+                "Prismarine",
+                "Prismarine",
+                null
+            ],
+            [
+                "Prismarine",
+                "Prismarine",
+                "Prismarine"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Polished Diorite"
+        ],
+        "ingredients": [
+            "Diorite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Diorite",
+                "Diorite",
+                null
+            ],
+            [
+                "Diorite",
+                "Diorite",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Polished Andesite"
+        ],
+        "ingredients": [
+            "Andesite"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Andesite",
+                "Andesite",
+                null
+            ],
+            [
+                "Andesite",
+                "Andesite",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mud Brick Slab"
+        ],
+        "ingredients": [
+            "Mud Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Polished Basalt"
+        ],
+        "ingredients": [
+            "Basalt"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Basalt",
+                "Basalt",
+                null
+            ],
+            [
+                "Basalt",
+                "Basalt",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Dark Prismarine"
+        ],
+        "ingredients": [
+            "Prismarine Shard",
+            "Black Dye"
+        ],
+        "sample pattern": [
+            [
+                "Prismarine Shard",
+                "Prismarine Shard",
+                "Prismarine Shard"
+            ],
+            [
+                "Prismarine Shard",
+                "Black Dye",
+                "Prismarine Shard"
+            ],
+            [
+                "Prismarine Shard",
+                "Prismarine Shard",
+                "Prismarine Shard"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Dark Prismarine"
+        ],
+        "ingredients": [
+            "Prismarine Shard",
+            "Ink Sac"
+        ],
+        "sample pattern": [
+            [
+                "Prismarine Shard",
+                "Prismarine Shard",
+                "Prismarine Shard"
+            ],
+            [
+                "Prismarine Shard",
+                "Ink Sac",
+                "Prismarine Shard"
+            ],
+            [
+                "Prismarine Shard",
+                "Prismarine Shard",
+                "Prismarine Shard"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Mud Brick Stairs"
+        ],
+        "ingredients": [
+            "Mud Bricks"
+        ],
+        "sample pattern": [
+            [
+                "Mud Bricks",
+                null,
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                null
+            ],
+            [
+                "Mud Bricks",
+                "Mud Bricks",
+                "Mud Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Prismarine Bricks"
+        ],
+        "ingredients": [
+            "Prismarine Shard"
+        ],
+        "sample pattern": [
+            [
+                "Prismarine Shard",
+                "Prismarine Shard",
+                "Prismarine Shard"
+            ],
+            [
+                "Prismarine Shard",
+                "Prismarine Shard",
+                "Prismarine Shard"
+            ],
+            [
+                "Prismarine Shard",
+                "Prismarine Shard",
+                "Prismarine Shard"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Prismarine Brick Stairs"
+        ],
+        "ingredients": [
+            "Prismarine Bricks"
+        ],
+        "sample pattern": [
+            [
+                "Prismarine Bricks",
+                null,
+                null
+            ],
+            [
+                "Prismarine Bricks",
+                "Prismarine Bricks",
+                null
+            ],
+            [
+                "Prismarine Bricks",
+                "Prismarine Bricks",
+                "Prismarine Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Prismarine Brick Slab"
+        ],
+        "ingredients": [
+            "Prismarine Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Prismarine Bricks",
+                "Prismarine Bricks",
+                "Prismarine Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Red Nether Bricks"
+        ],
+        "ingredients": [
+            "Nether Wart",
+            "Nether Brick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Nether Wart",
+                "Nether Brick",
+                null
+            ],
+            [
+                "Nether Brick",
+                "Nether Wart",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chiseled Nether Bricks"
+        ],
+        "ingredients": [
+            "Nether Brick Slab"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Nether Brick Slab",
+                null
+            ],
+            [
+                null,
+                "Nether Brick Slab",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Quartz Bricks"
+        ],
+        "ingredients": [
+            "Block of Quartz"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Block of Quartz",
+                "Block of Quartz",
+                null
+            ],
+            [
+                "Block of Quartz",
+                "Block of Quartz",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Blackstone Slab"
+        ],
+        "ingredients": [
+            "Blackstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blackstone",
+                "Blackstone",
+                "Blackstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chiseled Quartz Block"
+        ],
+        "ingredients": [
+            "Quartz Slab"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Quartz Slab",
+                null
+            ],
+            [
+                null,
+                "Quartz Slab",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Quartz Pillar"
+        ],
+        "ingredients": [
+            "Block of Quartz"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Quartz",
+                null
+            ],
+            [
+                null,
+                "Block of Quartz",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Polished Blackstone Slab"
+        ],
+        "ingredients": [
+            "Polished Blackstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Polished Blackstone",
+                "Polished Blackstone",
+                "Polished Blackstone"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Polished Blackstone Brick Slab"
+        ],
+        "ingredients": [
+            "Polished Blackstone Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Polished Blackstone Bricks",
+                "Polished Blackstone Bricks",
+                "Polished Blackstone Bricks"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Stained Glass"
+        ],
+        "ingredients": [
+            "Glass",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ],
+            [
+                "Glass",
+                "White Dye",
+                "Glass"
+            ],
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mossy Stone Bricks"
+        ],
+        "ingredients": [
+            "Stone Bricks",
+            "Vines"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Stone Bricks",
+                "Vines",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Mossy Stone Bricks"
+        ],
+        "ingredients": [
+            "Stone Bricks",
+            "Moss Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Stone Bricks",
+                "Moss Block",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chiseled Stone Bricks"
+        ],
+        "ingredients": [
+            "Stone Brick Slab"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Stone Brick Slab",
+                null
+            ],
+            [
+                null,
+                "Stone Brick Slab",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chiseled Red Sandstone"
+        ],
+        "ingredients": [
+            "Red Sandstone Slab"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Red Sandstone Slab",
+                null
+            ],
+            [
+                null,
+                "Red Sandstone Slab",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Chiseled Sandstone"
+        ],
+        "ingredients": [
+            "Sandstone Slab"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Sandstone Slab",
+                null
+            ],
+            [
+                null,
+                "Sandstone Slab",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cut Red Sandstone"
+        ],
+        "ingredients": [
+            "Red Sandstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Red Sandstone",
+                "Red Sandstone",
+                null
+            ],
+            [
+                "Red Sandstone",
+                "Red Sandstone",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cut Sandstone"
+        ],
+        "ingredients": [
+            "Sandstone"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Sandstone",
+                "Sandstone",
+                null
+            ],
+            [
+                "Sandstone",
+                "Sandstone",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Red Sandstone"
+        ],
+        "ingredients": [
+            "Red Sand"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Red Sand",
+                "Red Sand",
+                null
+            ],
+            [
+                "Red Sand",
+                "Red Sand",
+                null
+            ]
+        ],
+        "description": ""
+    }
+]

@@ -1,0 +1,48 @@
+Overview
+    Nether bricks[a]  are blocks used to form nether fortresses in the Nether.
+
+Obtaining
+  Breaking
+    Nether bricks can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+    Block,Nether Bricks
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Nether bricks form the walls and supporting pillars of all nether fortresses.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Nether Brick,"[[None, None, None], ['Nether Brick', 'Nether Brick', None], ['Nether Brick', 'Nether Brick', None]]"
+
+Usage
+    Nether bricks are non-flammable and immune to ghast fireballs, making them a suitable shelter material for the Nether. If a nether bricks block is inside the whole bounding box of a nether fortress (not just inside the individual parts), nether fortress mobs (such as blazes and wither skeletons) can spawn on it if other normal conditions are met. It is not known if this is an exclusive property of the block.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Nether Brick Fence,Nether Bricks + Nether Brick,"[[None, None, None], ['', 'Nether Brick', ''], ['', 'Nether Brick', '']]"
+    Nether Brick Slab,Nether Bricks,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Nether Brick Stairs,Nether Bricks,"[['', None, None], ['', '', None], ['', '', '']]"
+    Nether Brick Wall,Nether Bricks,"[[None, None, None], ['', '', ''], ['', '', '']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Nether Brick Slab or Nether Brick Stairs or Nether Brick Wall,Nether Bricks,2
+    Chiseled Nether Bricks,Nether Bricks,
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Cracked Nether Bricks,Nether Bricks + Any fuel,0.1
+
+  Note Blocks
+    Nether bricks can be placed under note blocks to produce "bass drum" sounds.
+

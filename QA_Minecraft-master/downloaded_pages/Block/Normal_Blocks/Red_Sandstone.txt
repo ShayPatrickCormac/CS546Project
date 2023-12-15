@@ -1,0 +1,47 @@
+Overview
+    Red sandstone is a variant of regular sandstone. Red sandstone comes in the three other variants, them being cut red sandstone, chiseled red sandstone, and smooth red sandstone.
+
+Obtaining
+  Breaking
+    Red andstone can be mined with any pickaxe. If mined without a pickaxe, the block drops nothing.
+
+    Block,Red Sandstone
+    Hardness,0.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,4
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Natural generation
+    Red sandstone generates at noise cave entrances in badlands biomes. If a village generates some buildings inside of a badlands biome, any floating platform surrounding village buildings generate with red sandstone below red sand. No naturally generated structures are made of red sandstone.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Red Sand,"[[None, None, None], ['Red Sand', 'Red Sand', None], ['Red Sand', 'Red Sand', None]]"
+
+Usage
+    Unlike red sand, red sandstone is never affected by gravity.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Cut Red Sandstone,Red Sandstone,"[[None, None, None], ['', '', None], ['', '', None]]"
+    Red Sandstone Slab,Red Sandstone,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Red Sandstone Stairs,Red Sandstone,"[['', None, None], ['', '', None], ['', '', '']]"
+    Red Sandstone Wall,Red Sandstone,"[[None, None, None], ['', '', ''], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Red Sandstone,2 2
+
+  Smelting
+    Ingredients,Smelting recipe
+    Red Sandstone + Any fuel,0.1
+
+  Note blocks
+    Red sandstone can be placed under note blocks to produce "bass drum" sounds.
+

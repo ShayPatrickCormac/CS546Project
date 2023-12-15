@@ -1,0 +1,30 @@
+Overview
+    A block of raw gold is a raw metal block equivalent to nine raw gold.
+
+Obtaining
+  Breaking
+    Blocks of raw gold can be mined only with a iron pickaxe or better.
+
+    Block,Block of Raw Gold
+    Hardness,5
+    Tool,iron pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,12.5
+    Stone,6.25
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,2.1
+
+  Crafting
+    Ingredients,Crafting recipe
+    Raw Gold,"[['Raw Gold', 'Raw Gold', 'Raw Gold'], ['Raw Gold', 'Raw Gold', 'Raw Gold'], ['Raw Gold', 'Raw Gold', 'Raw Gold']]"
+
+Usage
+    Blocks of raw gold are a compact way to store raw gold.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Raw Gold,Block of Raw Gold,"[[None, None, None], [None, '', None], [None, None, None]]"
+

@@ -1,0 +1,32 @@
+Overview
+    A sniffer egg is a block that can be brushed out of suspicious sand in warm ocean ruins, or obtained by breeding two sniffers. It slowly hatches into a snifflet (baby sniffer) when placed as a block in the world, which takes half as much time when it is placed on a moss block.
+
+Obtaining
+  Breaking
+    Sniffer eggs can be mined with any tool, even with bare hands, and always drop themselves. Unlike turtle eggs, Silk Touch is not needed.[1]
+
+    Block,Sniffer Egg
+    Hardness,0.5
+    Breaking time (secs)
+    Default,0.75
+
+  Mob loot
+    Sniffer eggs can also be obtained by breeding two sniffers with torchflower seeds. Unlike turtle eggs or frogspawn which are placed into the world in block form, sniffer eggs are dropped as items, similar to chicken eggs.
+
+  Archaeology
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Sniffer Egg,Warm Ocean ruins,Warm ruins suspicious sand,1,"6.7% { ""item"": ""Sniffer Egg"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Bedrock Edition
+    Sniffer Egg,Warm Ocean ruins,Warm ruins suspicious sand,1,"6.7% { ""item"": ""Sniffer Egg"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+
+Usage
+  Placing
+    Sniffer eggs can be placed in block form and slowly hatch into snifflets. Sniffer eggs do not require a supporting block below.[2] Unlike dragon eggs, they are not affected by gravity.
+
+  Hatching
+    Sniffer eggs crack over time and hatch after cracking twice. They hatch faster when on moss blocks. Sniffer eggs hatch in about 10 minutes on moss blocks, and take twice as long to hatch on non-moss blocks. Sniffer eggs do not need to receive random ticks to hatch.[needs testing] Therefore, the hatching speed of sniffer eggs is not affected by the randomTickSpeed game rule.[3]
+
+  Piston interactivity
+    Sniffer eggs can be pushed and pulled by pistons.[4]
+

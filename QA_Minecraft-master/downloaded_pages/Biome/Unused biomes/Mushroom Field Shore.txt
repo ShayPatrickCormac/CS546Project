@@ -1,0 +1,1225 @@
+Overview
+    In Java Edition 1.18 and Bedrock Edition 1.18.0, Overworld terrain generation was rewritten to become more varied and independent of biome generation. This made many biome variants that were in the game redundant, as the only difference between their regular counterparts was the way terrain generated in them. As a result, most variant biomes were removed from the generator. In Java Edition, these biomes were merged with their normal variants, while in Bedrock Edition, these biomes still exist, but remain unused.
+
+Generation
+    Minecraft biomes were generated in layer stacks. These layers generated specific aspects of Minecraft biomes, such as scale, rivers, varieties, and biome categories.
+
+  Earlier stages
+    Biome generation was initialized as a 1 to 4096 scale of ocean, with a few spots of landmasses scattered throughout. This map was then scaled and additional landmasses shuffled around to decrease the amount of ocean, twice, to reach a scale of 1 to 1024. Additional layers that decrease the amount of ocean were repeatedly applied until the ratio of land to ocean was about 50-50. Snowy biome categories were then assigned to a few spots of land, which was then shuffled around a final time to obtain a ratio of 33% ocean and 67% landmass. At this stage of biome generation, the final climate zones were applied as follows. Areas of dry landmasses were assigned to be a normal biome if it bordered a cold or frozen landmass. Areas of snowy landmasses were assigned to the cold temperature category if it bordered a normal or dry temperature zone. 1 out of every 13 landmasses was then marked as "Special", which would be used to place some of the rarer biomes in later stages of biome generation. This map was then scaled twice, until a scale of 1 to 256. An additional layer was applied to create a more jagged coastline, creating areas of large islands and lakes around the coastline. 1 out of 100 areas of oceans were assigned as mushroom biomes and areas of ocean far from the coast converted into deep ocean. The final areas of climate areas were as follows: 31% oceanic, which consisted of 22% deep ocean and 9% ocean, 0.07% mushroom, 13% dry, 22% medium, 23% cold, and 6% frozen. Areas of rare biomes made up 4% of the total area. The biome generation was then split into 3 separate stacks.
+
+  Generation of biomes and biome variants
+    One stack of biome generation generated the actual biomes in-game. The biome categories generated the following biomes as follows. Some biomes were weighed more and as such generated more commonly than other biomes. Snowy biomes had an unused rare biome variant and as such generated as normal snowy biomes. Forest and mountain biomes could generate in both cold biome clusters in addition to normal temperature clusters. Plains biomes could generate in all temperature clusters except in frozen biomes. Bamboo jungles overwrote certain areas of jungle biomes since Village and Pillage. This map is scaled twice until a scale of 1 to 64 in both Java and Bedrock Editions. In Legacy Console Edition, the map is not scaled at all at this stage of biome generation unless biome size was set to medium or large. To ensure a smooth transition between biomes, some biomes generate an "edge biome" as follows. These edge biomes can also generate hills and modified biome variants: Modified and hill biomes are then merged into the biome generation. Most biomes have a "hills" variant but some biomes use other biomes as their "hills" variant, which are listed below. This stage also allows islands to generate in areas of Deep Ocean: Swamps and regular badlands do not generate a hills biome variant. Oceans do not have a "modified" biome variant. While most biomes have a "modified" variant, few biomes generate a unique "modified hills" variant, such as birch forests and mountain biomes. Some other biomes use another existing biome as a "modified hills" variant. If a biome does not have a "modified hills" variant, such as swamps or snowy taigas, the regular biome variant generates instead. Additional areas of sunflower plains were generated separately to the modified biome stage of biome generation, covering 1/57 of normal plains biome. The map was then scaled and the coastline made more jagged, then scaled again and beaches are generated. The generation of shorelines and beaches were as follows, this also added a few additional biome edge biomes for jungles and badlands, without biome variants: This also creates unique quirks in generation, where gravelly mountains and swamp hills generate a beach biome, and swamp hills bordering a regular jungle edge, with a modified jungle edge bordering jungles. This biome map was scaled two more times (scaled 4x) until a scale of 1 to 4. River generation was merged with the regular biomes, then ocean climate zones merged.
+
+  Generation of rivers
+    A layer stack for river noise generation was used as a random number generator to generate areas of hills and mutated biomes, which was scaled twice before applied to the biome stage of biome generation at scale 1 to 64. Since Update Aquatic, modified biomes could conform to an entire biome or border a river. A separate layer stack to generate rivers throughout was scaled 4 times, before it was merged with the rest of the generation at scale 1 to 4. Rivers generated across all land biomes excluding areas of oceans. Frozen rivers replaced rivers in regular snowy tundra. Once the ocean temperature stack and river generation stack was merged with the biome generation stack, a final layer was applied to make the biome scale 1:1, which was the final biome generation used in Minecraft.
+
+  Java Edition oceanic temperature generation
+    Ocean biomes generated their climate zones separately from land biome generation, to avoid changing existing Minecraft seeds/biome generation in its entirely. Ocean climate zones were initialized at a scale of 1 to 256, then scaled 6 times, before it was merged with the rest of the biome generation. In Java Edition, ocean climate areas were done so warm oceans could not border frozen oceans. One must go incrementally from warm oceans, to lukewarm oceans, regular oceans, and cold oceans, before reaching frozen oceans. If a frozen ocean or frozen deep ocean bordered a land biome, a regular cold ocean generated. If a warm ocean generated next to a land biome, a regular lukewarm ocean generated. Warm oceans overwrote deep oceans as warm deep oceans did not generate. Ocean climate zones were based off the 48 bit seed, unlike the rest of the land biome generation, as such, shadow seeds in Java Edition contained entirely different ocean climate areas, even though common land biomes generated identically in Java Edition shadow seeds.
+
+  Other information
+    In Java Edition, the possible shapes of biomes could use only the first 24 bits of the 64-bit world seed, and biome shapes within a world seed could repeat beginning around 229 blocks from 0,0. Biome generation overflowed at 231 blocks from 0,0. However, as biomes were generated in a zoomed out stage, before it was scaled upward, it technically means that biome generation could extend further out during earlier stages of biome generation as the integer overflow point is further out. Even though there are 64-bit seeds on Java, there were only 263 unique noise maps for continental/ocean biome generation, because a quadratic equation was used, and quadratic equations always can be mirrored so that for every input except one to the quadratic equation, there is another that results in the same output (halving the number of truly distinct possibilities). For any seed, the other seed resulting in the same output to this equation was colloquially known as a shadow seed. In this case, land biome and general ocean biomes were exactly the same in a pair of seeds, but ocean biome temperatures, structures and hills differed in the shadow seed. A user could find a shadow seed by adding the constant -7379792620528906219 to the negative of their current world seed, to obtain the shadow seed. Shadow seeds were exclusive to Java Edition. With Bedrock Edition using 32-bit seeds and a different world generation algorithm, there were few similarities between it and the 64-bit world generation. The positions of mutated biomes, oceans (and islands), rare biomes (jungles, badlands, mushroom fields, giant tree taiga), as well as specific biomes in cold, temperate, or dry biome clusters, bore some geographical relationship with the equivalent positive value seed of the 64-bit generation. The biome shapes deviated significantly. The specific generation of lush biomes and ocean variants was completely different on Bedrock.
+
+Removed/Unused biomes
+  Badlands
+    The badlands plateau featured large flat-topped hills composed of stratified colors of terracotta ranging in warm colors. Plateaus had steep edges that rose to within 20-30 blocks above sea level, where they quickly flatten. The top of these plateaus typically had scattered dead bushes. Occasional ponds appeared on plateau tops. The sides of the plateau occasionally revealed caverns and mineshafts. River biomes that passed through badlands plateau biomes cut steep grooves, giving off the appearance of narrow canyons. These posed a fall damage hazard if the player was not careful. Ravines also frequently spawned in badlands plateau biomes, which caused the same as above. This biome was not always present in the badlands biomes, but it was likely to appear. Badlands plateaus used the same mob spawning chances as badlands. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+
+    The modified badlands plateau featured smaller plateaus and somewhat harsher terrain than the badlands plateau, mimicking large plateaus that have weathered more over time. Eroded badlands replaced the usual thin desert border that this biome variant shared with other biomes. The modified badlands plateau was the second rarest biome in Minecraft, after modified jungle edge, and was only present in about 1/5 of the badlands biomes, and almost always (98% chance) came with an eroded badlands bordering the edges and modified wooded badlands plateaus surrounding it at the center. Modified badlands plateaus used the same mob spawning chances as badlands. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+
+    Similar to the modified badlands plateau, the modified wooded badlands plateau had a weathered appearance and featured smaller plateaus with more erratic terrain, allowing for significantly fewer oak trees to grow at the highest layers. Eroded badlands replaced the usual thin desert border that this biome variant shared with other biomes. Modified wooded badlands plateaus used the same mob spawning chances as badlands. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+
+  Birch forest
+    Birch forest hills featured hillier terrain than regular birch forests, being identical to them in every other aspect. It was fairly common due to its wide spread. Birch forest hills used the same mob spawning chances as birch forests. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 40,4
+    Pig,10 ⁄ 40,4
+    Chicken,10 ⁄ 40,4
+    Cow,8 ⁄ 40,4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 40,2–3
+    Pig,10 ⁄ 40,1–3
+    Chicken,10 ⁄ 40,2–4
+    Cow,8 ⁄ 40,2–3
+    Monster category
+    Spider,99 ⁄ 495,1
+    Zombie,94.25 ⁄ 495,2–4
+    Zombie Villager,5 ⁄ 495,2–4
+    Skeleton,80 ⁄ 495,1–2
+    Creeper,100 ⁄ 495,1
+    Slime [note 1],100 ⁄ 495,1
+    Enderman,10 ⁄ 495,1–2
+    Witch,5 ⁄ 495,1
+    Spider Jockey,1 ⁄ 495,1
+    Chicken Jockey,0.75 ⁄ 495,1
+    Ambient category
+    Bat,1,2
+
+    Like the other hills biomes, the tall birch hills biome had hillier, rougher terrain, along with the taller-than-normal birch trees of the tall birch forest variant. The hills were steep in this biome, comparable to the windswept hills biome. Tall birch hills used the same mob spawning chances as birch forests. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 40,4
+    Pig,10 ⁄ 40,4
+    Chicken,10 ⁄ 40,4
+    Cow,8 ⁄ 40,4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 40,2–3
+    Pig,10 ⁄ 40,1–3
+    Chicken,10 ⁄ 40,2–4
+    Cow,8 ⁄ 40,2–3
+    Monster category
+    Spider,99 ⁄ 495,1
+    Zombie,94.25 ⁄ 495,2–4
+    Zombie Villager,5 ⁄ 495,2–4
+    Skeleton,80 ⁄ 495,1–2
+    Creeper,100 ⁄ 495,1
+    Slime [note 1],100 ⁄ 495,1
+    Enderman,10 ⁄ 495,1–2
+    Witch,5 ⁄ 495,1
+    Spider Jockey,1 ⁄ 495,1
+    Chicken Jockey,0.75 ⁄ 495,1
+    Ambient category
+    Bat,1,2
+
+  Dark Forest Hills
+    Dark forest hills broke the leaf canopy, increasing visibility and decreasing the chance of daytime hostile mob spawning, though the hills were steep compared to other hill biomes. Hills generated near rivers led to cliffs. Small plains-biome clearings didn't generate within the dark forest hills variant. Dark forest hills used the same mob spawning chances as dark forests. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 40,4
+    Pig,10 ⁄ 40,4
+    Chicken,10 ⁄ 40,4
+    Cow,8 ⁄ 40,4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 40,2–3
+    Pig,10 ⁄ 40,1–3
+    Chicken,10 ⁄ 40,2–4
+    Cow,8 ⁄ 40,2–3
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+  Deep Warm Ocean
+    The deep warm ocean was similar to the warm ocean, but twice as deep and without coral reefs or sea pickles. Since they were a deep ocean variant, tall seagrass was more frequent and ocean monuments could generate as well. Unlike shallow warm oceans, pufferfish could not spawn in deep warm oceans. This biome did not naturally generate in any non-snapshot or beta version. In Java Edition, deep warm oceans used the same mob spawning chances as oceans for hostile and ambient categories, and had different chances for water creature and water ambient categories:
+
+    Mob,Spawn weight,Group size
+    Water creature category
+    Dolphin,2 ⁄ 7,1–2
+    Squid,5 ⁄ 7,1–4
+    Ambient category
+    Bat,1,8
+    Monster category
+    Spider,100 ⁄ 521.25,4
+    Zombie,95 ⁄ 521.25,4
+    Drowned,5 ⁄ 521.25,1
+    Zombie Villager,5 ⁄ 521.25,1
+    Skeleton,100 ⁄ 521.25,4
+    Creeper,100 ⁄ 521.25,4
+    Slime [note 1],100 ⁄ 521.25,4
+    Enderman,10 ⁄ 521.25,1–4
+    Witch,5 ⁄ 521.25,1
+    Spider Jockey,1 ⁄ 521.25,1
+    Chicken Jockey,0.25 ⁄ 521.25,1
+    Water ambient category
+    Tropical Fish,1,8
+
+    In Bedrock Edition, deep warm oceans used the same mob spawning chances as warm oceans:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,99 ⁄ 595,1
+    Zombie,94.25 ⁄ 595,2–4
+    Drowned,100 ⁄ 595,2–4
+    Zombie Villager,5 ⁄ 595,2–4
+    Skeleton,80 ⁄ 595,1–2
+    Creeper,100 ⁄ 595,1
+    Slime [note 1],100 ⁄ 595,1
+    Enderman,10 ⁄ 595,1–2
+    Witch,5 ⁄ 595,1
+    Spider Jockey,1 ⁄ 595,1
+    Chicken Jockey,0.75 ⁄ 595,1
+    Creature category
+    Dolphin,7 ⁄ 15,3–5
+    Squid,8 ⁄ 15,2–4
+
+  Desert
+    Desert hills variants featured hillier terrain, just like all other hills biomes in the game. Desert hills reached slightly higher elevations than other hills, and were comprised mostly of sand and sandstone like the rest of the desert. No structures[verify] other than fossils, desert pyramids,‌[Bedrock Edition  only] and desert wells generated within the hills, making this variant overall more difficult. Desert hills didn't generate if their base desert is a thin border around a badlands biome. Desert hills used the same mob spawning chances as deserts. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Rabbit [note 1],1,2–3
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 2],100 ⁄ 516.25,4
+    Husk,80 ⁄ 516.25,4
+    Zombie,19 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Zombie Villager,1 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,100 ⁄ 736.25,1
+    Zombie,95 ⁄ 736.25,2–4
+    Zombie Villager,5 ⁄ 736.25,2–4
+    Husk,240 ⁄ 736.25,2–4
+    Skeleton,80 ⁄ 736.25,1–2
+    Creeper,100 ⁄ 736.25,1
+    Slime [note 1],100 ⁄ 736.25,1
+    Enderman,10 ⁄ 736.25,1–2
+    Witch,5 ⁄ 736.25,1
+    Spider Jockey,1 ⁄ 736.25,1
+    Chicken Jockey,0.25 ⁄ 736.25,1
+    Creature category
+    Rabbit [note 2],1,2–3
+
+    The rare desert lakes variant featured slightly rougher and hillier terrain than the base desert biome, though not as much as the desert hills. This made them more likely to have oases of water across its landscape. No structures other than fossils and desert wells generated here. Desert lakes used the same mob spawning chances as deserts. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Rabbit [note 1],1,2–3
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 2],100 ⁄ 516.25,4
+    Husk,80 ⁄ 516.25,4
+    Zombie,19 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Zombie Villager,1 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,100 ⁄ 736.25,1
+    Zombie,95 ⁄ 736.25,2–4
+    Zombie Villager,5 ⁄ 736.25,2–4
+    Husk,240 ⁄ 736.25,2–4
+    Skeleton,80 ⁄ 736.25,1–2
+    Creeper,100 ⁄ 736.25,1
+    Slime [note 1],100 ⁄ 736.25,1
+    Enderman,10 ⁄ 736.25,1–2
+    Witch,5 ⁄ 736.25,1
+    Spider Jockey,1 ⁄ 736.25,1
+    Chicken Jockey,0.25 ⁄ 736.25,1
+    Creature category
+    Rabbit [note 2],1,2–3
+
+  Giant Taiga
+    Giant spruce taiga hills were a variant intended to be a more mountainous version of the giant spruce taiga. However, in Java Edition, due to a likely error in the way terrain height is calculated, there was no difference in the terrain between giant spruce taiga and giant spruce taiga hills. Specifically, the game used internal values known as setBaseHeight and setHeightVariation when generating hills biomes, but these values were the same for both giant spruce taiga and giant spruce taiga hills, resulting in no actual difference between the two. This was the only hills biome in the game with this issue.[1] In Bedrock Edition, this biome generated as a hillier version of the giant spruce taiga, however, this biome generated the same trees as the giant tree taiga hills tree type (not giant spruce tree type) resulting in no actual difference between giant tree taiga hills and giant spruce taiga hills (except in water color). Giant spruce taiga hills used the same mob spawning chances as giant spruce taigas. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,4
+    Pig,10 ⁄ 60,4
+    Chicken,10 ⁄ 60,4
+    Cow,8 ⁄ 60,4
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 3],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 56,2–3
+    Pig,10 ⁄ 56,1–3
+    Chicken,10 ⁄ 56,2–4
+    Cow,8 ⁄ 56,2–3
+    Wolf,8 ⁄ 56,4
+    Fox [note 1],8 ⁄ 56,2–4
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 2],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+    Like all other hills biomes, giant tree taiga hills featured elevated, hillier terrain compared to the normal giant tree taiga, making the landscape less suitable for shelter. Podzol, coarse dirt, and rocks all still generated on the hills. Wolves, foxes and rabbit‌[Java Edition  only] spawned here. Giant tree taiga hills used the same mob spawning chances as giant tree taigas. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,4
+    Pig,10 ⁄ 60,4
+    Chicken,10 ⁄ 60,4
+    Cow,8 ⁄ 60,4
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 541.25,4
+    Zombie,100 ⁄ 541.25,4
+    Skeleton,100 ⁄ 541.25,4
+    Zombie Villager,25 ⁄ 541.25,1
+    Creeper,100 ⁄ 541.25,4
+    Slime [note 3],100 ⁄ 541.25,4
+    Enderman,10 ⁄ 541.25,1–4
+    Witch,5 ⁄ 541.25,1
+    Spider Jockey,1 ⁄ 541.25,1
+    Chicken Jockey,0.25 ⁄ 541.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 56,2–3
+    Pig,10 ⁄ 56,1–3
+    Chicken,10 ⁄ 56,2–4
+    Cow,8 ⁄ 56,2–3
+    Wolf,8 ⁄ 56,4
+    Fox [note 1],8 ⁄ 56,2–4
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 2],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+  Jungle
+    The bamboo jungle hills variant was similar to the bamboo jungle, though with steeper terrain just like the regular jungle hills variant. Large amounts of bamboo covered the landscape, and patches of podzol replaced most grass blocks. Naturally-generated trees were always large variants, and pandas spawned here, like in the bamboo jungle. Jungle pyramids also spawned here in Java Edition.
+In Java Edition, bamboo jungle hills used the same mob spawning chances as jungle hills for hostile and ambient categories, and had different chances for passive categories:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 130,4
+    Pig,10 ⁄ 130,4
+    Chicken,10 ⁄ 130,4
+    Cow,8 ⁄ 130,4
+    Parrot,10 ⁄ 130,1
+    Panda,80 ⁄ 130,1–2
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+    In Bedrock Edition, bamboo jungle hills used the same mob spawning chances as bamboo jungles:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 150,2–3
+    Pig,10 ⁄ 150,1–3
+    Chicken,10 ⁄ 150,2–4
+    Cow,8 ⁄ 150,2–3
+    Parrot,40 ⁄ 150,1–2
+    Panda,40 ⁄ 150,1–2
+    Ocelot,30 ⁄ 150,1–2
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+    Similar to the wooded hills biome, the jungle hills biome featured steeper terrain, making it a more difficult variant of the already difficult jungle for survival purposes. Ocelots, parrots, and pandas spawned here and jungle pyramids generated here.
+In Java Edition, jungle hills used the same mob spawning chances as jungles for ambient categories, and had different chances for the others:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 63,4
+    Pig,10 ⁄ 63,4
+    Chicken,10 ⁄ 63,4
+    Cow,8 ⁄ 63,4
+    Parrot,10 ⁄ 63,1
+    Panda,1 ⁄ 63,1–2
+    Chicken,10 ⁄ 63,4
+    Ocelot,2 ⁄ 63,1–1
+    Monster category
+    Spider,100 ⁄ 515,4
+    Zombie,95 ⁄ 515,4
+    Zombie Villager,5 ⁄ 515,1
+    Skeleton,100 ⁄ 515,4
+    Creeper,100 ⁄ 515,4
+    Slime [note 1],100 ⁄ 515,4
+    Enderman,10 ⁄ 515,1–4
+    Witch,5 ⁄ 515,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition, jungle hills used the same mob spawning chances as jungles:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 120,2–3
+    Pig,10 ⁄ 120,1–3
+    Chicken,10 ⁄ 120,2–4
+    Cow,8 ⁄ 120,2–3
+    Parrot,40 ⁄ 120,1–2
+    Panda,10 ⁄ 120,1–2
+    Ocelot,30 ⁄ 120,1–2
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+    The rare modified jungle variant featured much more mountainous terrain, being taller and steeper than jungle hills. The heights, combined with the thick foliage, rendered the ground below almost entirely out of sight. Ocelots, parrots, and pandas spawned in this biome, but jungle pyramids didn't generate here.
+In Java Edition, modified jungles used the same mob spawning chances as jungle hills for hostile and ambient categories, and had different chances for passive categories:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,4
+    Pig,10 ⁄ 60,4
+    Chicken,10 ⁄ 60,4
+    Cow,8 ⁄ 60,4
+    Parrot,10 ⁄ 60,1
+    Chicken,10 ⁄ 60,4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition, modified jungles used the same mob spawning chances as jungles:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 120,2–3
+    Pig,10 ⁄ 120,1–3
+    Chicken,10 ⁄ 120,2–4
+    Cow,8 ⁄ 120,2–3
+    Parrot,40 ⁄ 120,1–2
+    Panda,10 ⁄ 120,1–2
+    Ocelot,30 ⁄ 120,1–2
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+    The rare modified jungle edge variant generated only in strict conditions, and it was the rarest biome in the game. If a jungle biome bordered a swamp hills biome,[2] then the modified jungle edge spawned as part of a double-layered transition, with a thin normal jungle edge bordering the swamp hills, and the modified jungle edge bordering the jungle. As both jungles and swamp hills were already rare, and even more rarely did they generate bordering each other, the conditions for a modified jungle edge to generate were rarely met. When they actually did manage to generate, they were often just a few hundred blocks in length, but in some cases were less than 10 blocks, making them one of the smallest biomes as well. Modified jungle edges featured the same smooth transition and lowered tree density that regular jungle edges had, though with much more mountainous terrain and occasional overhangs. Ocelots, parrots, and pandas spawned in this biome, but jungle pyramids didn't generate here. Modified jungle edges covered only a few millionths (0.00027%) of the overworld by area. Modified jungle edges used the same mob spawning chances as jungle edges. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 50,4
+    Pig,10 ⁄ 50,4
+    Chicken,10 ⁄ 50,4
+    Cow,8 ⁄ 50,4
+    Chicken,10 ⁄ 50,4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 120,2–3
+    Pig,10 ⁄ 120,1–3
+    Chicken,10 ⁄ 120,2–4
+    Cow,8 ⁄ 120,2–3
+    Parrot,40 ⁄ 120,1–2
+    Panda,10 ⁄ 120,1–2
+    Ocelot,30 ⁄ 120,1–2
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+  Mountains
+    Gravelly mountains+, also referred to as modified gravelly mountains in code, was a rare variant of the wooded hill biome that had the exact same features as the regular gravelly mountains, making this biome almost indistinct from the former.[3] with the only difference being the fact that it can rarely generate standalone as a thick separation when a desert lakes biome borders a snowy biome. Gravelly mountains+ had the same mob spawning chances as windswept hills. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 45,4
+    Pig,10 ⁄ 45,4
+    Chicken,10 ⁄ 45,4
+    Cow,8 ⁄ 45,4
+    Llama,5 ⁄ 45,4–6
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Goat,20 ⁄ 83,2–3
+    Sheep,12 ⁄ 83,2–3
+    Pig,10 ⁄ 83,1–3
+    Chicken,10 ⁄ 83,2–4
+    Glow Squid [note 1],10 ⁄ 83,2–4
+    Cow,8 ⁄ 83,2–3
+    Axolotl [note 2],8 ⁄ 83,1–4
+    Llama,5 ⁄ 83,4–6
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 3],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+    The mountain edge variant used to generate before Java Edition 1.7.2. Similarly to the sparse jungle biome, it was a technical biome intended to provide a smooth transition from other biomes to the windswept hills. It was nearly identical to the wooded mountain biome, but with gentler slopes. Mountain edges had the same mob spawning chances as windswept hills. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 45,4
+    Pig,10 ⁄ 45,4
+    Chicken,10 ⁄ 45,4
+    Cow,8 ⁄ 45,4
+    Llama,5 ⁄ 45,4–6
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Goat,20 ⁄ 83,2–3
+    Sheep,12 ⁄ 83,2–3
+    Pig,10 ⁄ 83,1–3
+    Chicken,10 ⁄ 83,2–4
+    Glow Squid [note 1],10 ⁄ 83,2–4
+    Cow,8 ⁄ 83,2–3
+    Axolotl [note 2],8 ⁄ 83,1–4
+    Llama,5 ⁄ 83,4–6
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 3],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+  Mushroom Field Shore
+    The mushroom field shore was a technical biome that represented both the shores and the rivers of the mushroom fields. It generated when a river cut through it as well as when it bordered an ocean, unless the ocean was a deep variant, in which case a steep cliff generated instead. The terrain of this biome was much flatter and shallower in elevation, similar to beaches, though it was equal to the mushroom fields in every other way. Buried treasure and shipwrecks generated here. Mushroom field shores used the same mob spawning chances as mushroom fields. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Ambient category
+    Bat,1,8
+    Creature category
+    Mooshroom,1,4–8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Mooshroom,1,4–8
+
+  Shattered Savanna Plateau
+    Like the normal windswept savanna, the shattered savanna plateau variant featured steep mountains, cliffs, and overhangs, which made it a treacherous place to explore. Though it was nearly indistinguishable from the regular shattered savanna at first glance, the shattered plateau's terrain was slightly gentler, though often risked fatal fall damage if not above water. The giant lakes characteristic of the regular shattered savanna did not generate here either. In Bedrock Edition, the foliage was a more vibrant green color, and rain would often occur in it.[5] Shattered savanna plateaus used the same mob spawning chances as savannas. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 42,4
+    Pig,10 ⁄ 42,4
+    Chicken,10 ⁄ 42,4
+    Cow,8 ⁄ 42,4
+    Horse,1 ⁄ 42,2–6
+    Donkey,1 ⁄ 42,1
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 49,2–3
+    Pig,10 ⁄ 49,1–3
+    Chicken,10 ⁄ 49,2–4
+    Cow,8 ⁄ 49,2–3
+    Horse,1 ⁄ 49,2–6
+    Llama,8 ⁄ 49,4
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+  Snowy Mountains
+    These hills were no taller than most other hill biomes in the game, despite the name 'mountains'. No structures generated in this biome, though polar bears, rabbits and strays spawned. Caves frequently generated on the sides of the mountains. In Bedrock Edition, no hostile mobs other than strays and skeletons spawned here. Snowy mountains used the same mob spawning chances as snowy plains. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Rabbit [note 1],10 ⁄ 11,2–3
+    Polar Bear,1 ⁄ 11,1–2
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Stray,80 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 2],100 ⁄ 516.25,4
+    Skeleton,20 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Zombie Villager,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Stray,96 ⁄ 220,1–2
+    Skeleton,24 ⁄ 220,1–2
+    Slime [note 1],100 ⁄ 220,1
+    Creature category
+    Rabbit [note 2],4 ⁄ 5,2–3
+    Polar Bear,1 ⁄ 5,1–2
+
+  Snowy Taiga
+    Like all other hills biomes, snowy taiga hills featured hillier, more erratic terrain. These hills were somewhat steep, making this variant difficult for survival mode. Pillager outposts and villages generated in this biome‌[BE  only], however, unlike the regular snowy taiga, igloos didn't generate here. Snowy taiga hills used the same mob spawning chances as snowy taigas. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,4
+    Pig,10 ⁄ 60,4
+    Chicken,10 ⁄ 60,4
+    Cow,8 ⁄ 60,4
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 3],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,2–3
+    Pig,10 ⁄ 60,1–3
+    Chicken,10 ⁄ 60,2–4
+    Cow,8 ⁄ 60,2–3
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 3],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+    The very rare snowy taiga mountains featured much steeper terrain than the hills. Similarly to the taiga mountains, this variant reached high elevations. The steep elevations made this biome difficult for survival. Buildings didn't generate here. This biome was the third rarest in the game, behind modified badlands plateau and modified jungle edge. Snowy taiga mountains used the same mob spawning chances as snowy taigas. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,4
+    Pig,10 ⁄ 60,4
+    Chicken,10 ⁄ 60,4
+    Cow,8 ⁄ 60,4
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 3],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,2–3
+    Pig,10 ⁄ 60,1–3
+    Chicken,10 ⁄ 60,2–4
+    Cow,8 ⁄ 60,2–3
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 3],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+  Swamp Hills
+    The swamp hills variant featured hillier terrain rising up between the flat marshes. These hills would tower over the otherwise low-elevation swamp. Additionally, flooded areas in swamp hills tended to reach lower depths than the rest of the swamp, sometimes deep enough to have a gravel floor in place of a dirt floor, like normal oceans. Swamp huts did not generate in swamp hills‌[Java Edition  only], nor did slimes spawn, but fossils did still generate underground. Additionally, seagrass did not generate in flooded areas of swamp hills. If it connected to a jungle edge it had a chance to create a modified jungle edge biome. Swamp hills used the same mob spawning chances as swamps. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 40,4
+    Pig,10 ⁄ 40,4
+    Chicken,10 ⁄ 40,4
+    Cow,8 ⁄ 40,4
+    Monster category
+    Spider,100 ⁄ 517.25,4
+    Zombie,95 ⁄ 517.25,4
+    Zombie Villager,5 ⁄ 517.25,1
+    Skeleton,100 ⁄ 517.25,4
+    Creeper,100 ⁄ 517.25,4
+    Slime [note 1],100 ⁄ 517.25,4
+    Enderman,10 ⁄ 517.25,1–4
+    Witch,5 ⁄ 517.25,1
+    Slime [note 1],1 ⁄ 517.25,1
+    Spider Jockey,1 ⁄ 517.25,1
+    Chicken Jockey,0.25 ⁄ 517.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 40,2–3
+    Pig,10 ⁄ 40,1–3
+    Chicken,10 ⁄ 40,2–4
+    Cow,8 ⁄ 40,2–3
+    Monster category
+    Spider,100 ⁄ 596.25,1
+    Zombie,95 ⁄ 596.25,2–4
+    Zombie Villager,5 ⁄ 596.25,2–4
+    Skeleton,80 ⁄ 596.25,1–2
+    Creeper,100 ⁄ 596.25,1
+    Slime [note 1],100 ⁄ 596.25,1
+    Enderman,10 ⁄ 596.25,1–2
+    Witch,5 ⁄ 596.25,1
+    Slime [note 1],100 ⁄ 596.25,1
+    Spider Jockey,1 ⁄ 596.25,1
+    Chicken Jockey,0.25 ⁄ 596.25,1
+    Ambient category
+    Bat,1,2
+
+  Taiga
+    Taiga hills, like all other hills biomes in the game, featured steeper terrain compared to the base taiga biome. Villages and outposts didn't generate in this biome‌[Java Edition  only], though wolves and foxes still spawned. Taiga hills used the same mob spawning chances as taigas. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,4
+    Pig,10 ⁄ 60,4
+    Chicken,10 ⁄ 60,4
+    Cow,8 ⁄ 60,4
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 3],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,2–3
+    Pig,10 ⁄ 60,1–3
+    Chicken,10 ⁄ 60,2–4
+    Cow,8 ⁄ 60,2–3
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 3],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+    The rare taiga mountains variant was much steeper than the taiga hills, with peaks occasionally crossing the snowfall line. The steep terrain made this a more difficult version of the regular taiga. Like the hills, villages and outposts didn't generate here, though wolves and foxes still spawned. Taiga mountains used the same mob spawning chances as taigas. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,4
+    Pig,10 ⁄ 60,4
+    Chicken,10 ⁄ 60,4
+    Cow,8 ⁄ 60,4
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 3],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 60,2–3
+    Pig,10 ⁄ 60,1–3
+    Chicken,10 ⁄ 60,2–4
+    Cow,8 ⁄ 60,2–3
+    Wolf,8 ⁄ 60,4
+    Rabbit [note 1],4 ⁄ 60,2–3
+    Fox [note 2],8 ⁄ 60,2–4
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 3],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+  Wooded Hills
+    Wooded hills were similar to forests, though the terrain was hillier and generally more erratic, making it less suitable for shelter. Wolves spawned here. Wooded hills used the same mob spawning chances as forests. In Java Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 45,4
+    Pig,10 ⁄ 45,4
+    Chicken,10 ⁄ 45,4
+    Cow,8 ⁄ 45,4
+    Wolf,5 ⁄ 45,4
+    Monster category
+    Spider,100 ⁄ 516.25,4
+    Zombie,95 ⁄ 516.25,4
+    Zombie Villager,5 ⁄ 516.25,1
+    Skeleton,100 ⁄ 516.25,4
+    Creeper,100 ⁄ 516.25,4
+    Slime [note 1],100 ⁄ 516.25,4
+    Enderman,10 ⁄ 516.25,1–4
+    Witch,5 ⁄ 516.25,1
+    Spider Jockey,1 ⁄ 516.25,1
+    Chicken Jockey,0.25 ⁄ 516.25,1
+    Ambient category
+    Bat,1,8
+
+    In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Creature category
+    Sheep,12 ⁄ 45,2–3
+    Pig,10 ⁄ 45,1–3
+    Chicken,10 ⁄ 45,2–4
+    Cow,8 ⁄ 45,2–3
+    Wolf,5 ⁄ 45,4
+    Monster category
+    Spider,100 ⁄ 496.25,1
+    Zombie,95 ⁄ 496.25,2–4
+    Zombie Villager,5 ⁄ 496.25,2–4
+    Skeleton,80 ⁄ 496.25,1–2
+    Creeper,100 ⁄ 496.25,1
+    Slime [note 1],100 ⁄ 496.25,1
+    Enderman,10 ⁄ 496.25,1–2
+    Witch,5 ⁄ 496.25,1
+    Spider Jockey,1 ⁄ 496.25,1
+    Chicken Jockey,0.25 ⁄ 496.25,1
+    Ambient category
+    Bat,1,2
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Badlands Plateau,badlands_plateau,biome.minecraft.badlands_plateau
+    Bamboo Jungle Hills,bamboo_jungle_hills,biome.minecraft.bamboo_jungle_hills
+    Birch Forest Hills,birch_forest_hills,biome.minecraft.birch_forest_hills
+    Dark Forest Hills,dark_forest_hills,biome.minecraft.dark_forest_hills
+    Deep Warm Ocean,deep_warm_ocean,biome.minecraft.deep_warm_ocean
+    Desert Hills,desert_hills,biome.minecraft.desert_hills
+    Desert Lakes,desert_lakes,biome.minecraft.desert_lakes
+    Giant Spruce Taiga Hills,giant_spruce_taiga_hills,biome.minecraft.giant_spruce_taiga_hills
+    Giant Tree Taiga Hills,giant_tree_taiga_hills,biome.minecraft.giant_tree_taiga_hills
+    Gravelly Mountains+,modified_gravelly_mountains,biome.minecraft.modified_gravelly_mountains
+    Jungle Hills,jungle_hills,biome.minecraft.jungle_hills
+    Modified Badlands Plateau,modified_badlands_plateau,biome.minecraft.modified_badlands_plateau
+    Modified Jungle,modified_jungle,biome.minecraft.modified_jungle
+    Modified Jungle Edge,modified_jungle_edge,biome.minecraft.modified_jungle_edge
+    Modified Wooded Badlands Plateau,giant_tree_taiga_hills,biome.minecraft.giant_tree_taiga_hills
+    Mountain Edge,mountain_edge,biome.minecraft.mountain_edge
+    Mushroom Field Shore,mushroom_field_shore,biome.minecraft.mushroom_field_shore
+    Shattered Savanna Plateau,shattered_savanna_plateau,biome.minecraft.shattered_savanna_plateau
+    Snowy Mountains,snowy_mountains,biome.minecraft.snowy_mountains
+    Snowy Taiga Hills,snowy_taiga_hills,biome.minecraft.snowy_taiga_hills
+    Snowy Taiga Mountains,snowy_taiga_mountains,biome.minecraft.snowy_taiga_mountains
+    Swamp Hills,swamp_hills,biome.minecraft.swamp_hills
+    Taiga Hills,taiga_hills,biome.minecraft.taiga_hills
+    Taiga Mountains,taiga_mountains,biome.minecraft.taiga_mountains
+    Tall Birch Hills,tall_birch_hills,biome.minecraft.tall_birch_hills
+    Wooded Hills,wooded_hills,biome.minecraft.wooded_hills
+
+    Bedrock Edition:
+
+    Name,Identifier,Translation key
+    [No displayed name],mesa_plateau,biome.mesa_plateau.name
+    [No displayed name],bamboo_jungle_hills,biome.bamboo_jungle_hills.name
+    [No displayed name],birch_forest_hills,biome.birch_forest_hills.name
+    [No displayed name],roofed_forest_mutated,biome.roofed_forest_mutated.name
+    [No displayed name],deep_warm_ocean,biome.deep_warm_ocean.name
+    [No displayed name],desert_hills,biome.desert_hills.name
+    [No displayed name],desert_mutated,biome.desert_mutated.name
+    [No displayed name],redwood_taiga_hills_mutated,biome.redwood_taiga_hills_mutated.name
+    [No displayed name],mega_taiga_hills,biome.mega_taiga_hills.name
+    [No displayed name],extreme_hills_plus_trees_mutated,biome.extreme_hills_plus_trees_mutated.name
+    [No displayed name],jungle_hills,biome.jungle_hills.name
+    [No displayed name],mesa_plateau_mutated,biome.mesa_plateau_mutated.name
+    [No displayed name],jungle_mutated,biome.jungle_mutated.name
+    [No displayed name],jungle_edge_mutated,biome.jungle_edge_mutated.name
+    [No displayed name],mesa_plateau_stone_mutated,biome.mesa_plateau_stone_mutated.name
+    [No displayed name],extreme_hills_edge,biome.extreme_hills_edge.name
+    [No displayed name],mushroom_island_shore,biome.mushroom_island_shore.name
+    [No displayed name],savanna_plateau_mutated,biome.savanna_plateau_mutated.name
+    [No displayed name],ice_mountains,biome.ice_mountains.name
+    [No displayed name],cold_taiga_hills,biome.cold_taiga_hills.name
+    [No displayed name],cold_taiga_mutated,biome.cold_taiga_mutated.name
+    [No displayed name],swampland_mutated,biome.swampland_mutated.name
+    [No displayed name],taiga_hills,biome.taiga_hills.name
+    [No displayed name],taiga_mutated,biome.taiga_mutated.name
+    [No displayed name],birch_forest_hills_mutated,biome.birch_forest_hills_mutated.name
+    [No displayed name],forest_hills,biome.forest_hills.name
+

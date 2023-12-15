@@ -1,0 +1,48 @@
+Overview
+    Deepslate bricks are the brick version of deepslate.
+
+Obtaining
+  Breaking
+    Deepslate bricks can be obtained only by mining them with any pickaxe. When mined using any other tool, they drop nothing.
+
+    Block,Deepslate Bricks
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+  Natural generation
+    Deepslate Bricks generate naturally in ancient cities.‌
+
+  Crafting
+    Ingredients,Crafting recipe
+    Polished Deepslate,"[[None, None, None], ['Polished Deepslate', 'Polished Deepslate', None], ['Polished Deepslate', 'Polished Deepslate', None]]"
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Deepslate Brick Slab,Deepslate Bricks,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Deepslate Brick Stairs,Deepslate Bricks,"[['', None, None], ['', '', None], ['', '', '']]"
+    Deepslate Brick Wall,Deepslate Bricks,"[[None, None, None], ['', '', ''], ['', '', '']]"
+    Deepslate Tiles,Deepslate Bricks,"[[None, None, None], ['', '', None], ['', '', None]]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Deepslate Brick Slab,Deepslate Bricks,2
+    Deepslate Brick Stairs,Deepslate Bricks,
+    Deepslate Brick Wall,Deepslate Bricks,
+    Deepslate Tiles,Deepslate Bricks,
+    Deepslate Tile Slab,Deepslate Bricks,2
+    Deepslate Tile Stairs,Deepslate Bricks,
+    Deepslate Tile Wall,Deepslate Bricks,
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Cracked Deepslate Bricks,Deepslate Bricks + Any fuel,0.1
+

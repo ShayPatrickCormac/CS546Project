@@ -1,0 +1,38 @@
+Overview
+    A sculk catalyst is a block that converts blocks around it to blocks in the sculk family (except for more sculk catalysts) when a mob that drops experience dies nearby.
+
+Obtaining
+  Breaking
+    Sculk catalysts can be mined with any tool, but hoes are the quickest. It drops 5 experience if mined without Silk Touch.
+
+    Block,Sculk Catalyst
+    Hardness,3
+    Tool,Hoe
+    Breaking time (sec) [A]
+    Default,4.5
+    Wooden,2.25
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,0.4
+
+  Natural generation
+    Sculk catalysts are generated within the deep dark biome.
+
+  Mob loot
+    A warden drops a single sculk catalyst upon death, unaffected by Looting.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Sculk Catalyst,Ancient City,Chest,1–2,"16.1% { ""item"": ""Sculk Catalyst"", ""stacksize"": ""1–2"", ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Sculk Catalyst,Ancient City,Chest,1–2,"16.1% { ""item"": ""Sculk Catalyst"", ""stacksize"": ""1–2"", ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+
+Usage
+    If a mob dies within a Euclidean distance of 8 blocks of a sculk catalyst, the catalyst blooms, giving off soul particles and creates a patch of sculk with sculk veins around that location. Blooming sculk can replace blocks in the sculk_replaceable tag, which includes the surface materials of most of the biomes in all three dimensions. If a mob is killed and detected by the sculk catalyst while over a sculk block, it may occasionally result in the growth of a sculk sensor or sculk shrieker. If a mob dies near multiple sculk catalysts, this does not increase the number of sculk-related blocks generated. The means of death of the mob is irrelevant; mobs can die from being killed by a player, by another mob, or from environmental damage. Rather than granting experience, a bubbling charge spawns where the mob died, and it travels through sculk until it finds a replaceable block. The strength of the sculk spreading depends on the amount of experience the mob would have dropped when it was killed by a player or a tamed wolf. Several sculk charges may end up on the same block and merge, up to 1000 charges per block. Sculk catalysts can replace the following blocks with sculk: In Java Edition, these blocks are marked under the sculk_replacable tag. If a mob dies and a charge is detected more than 4 blocks from a catalyst, a sculk block has a chance to use 10 experience to grow a sculk sensor or a sculk shrieker. A sculk sensor has a 9% chance to spawn and a sculk shrieker has a 1% chance to spawn. However, sculk sensors and sculk shriekers cannot spawn if there are 2 or more sensors within a 9×3×9 box with the bottom center of the box centered on the bubbling charge location (or within -4,0,-4 and 4,2,4 in relative coordinates). A player dying can also affect the sculk catalyst, depending on how much experience the player has gathered. The sculk catalyst spreads a number of sculk blocks depending on player experience, with no spreading if a player dies with zero experience. A sculk catalyst does not respond to the death of mobs that do not yield any experience, such as baby animals. It also does not respond to the ender dragon's death,[1] although this may be implemented in the future.[2]
+
+  Light source
+    Sculk catalysts emit a light level of 6.
+

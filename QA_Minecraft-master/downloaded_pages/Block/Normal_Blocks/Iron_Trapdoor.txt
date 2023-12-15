@@ -1,0 +1,34 @@
+Overview
+    An iron trapdoor is a variant of the trapdoor that can be only opened using redstone mechanisms.
+
+Obtaining
+  Breaking
+    Iron trapdoors require a pickaxe to drop as items. Trapdoors remain in place if their attachment block is moved, removed, or destroyed.
+
+    Block,Iron Trapdoor
+    Hardness,5
+    Tool,Pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,3.75
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,0.65
+
+  Natural generation
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot,"[[None, None, None], ['Iron Ingot', 'Iron Ingot', None], ['Iron Ingot', 'Iron Ingot', None]]"
+
+Usage
+  Properties
+    Iron Trapdoors can only be toggled by a redstone signal.
+
+  Barrier
+    Opening and closing an Iron Trapdoor requires redstone to do it. When a trapdoor opens or closes, it immediately changes its orientation without affecting anything in the space it "passes through".
+
+  Redstone component
+    Iron trapdoors can be controlled with redstone power. An iron trapdoor is a redstone mechanism and can be activated by weakly powering any cardinally adjacent block. When activated, the iron trapdoor immediately opens. When deactivated, it immediately closes.
+

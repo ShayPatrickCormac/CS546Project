@@ -1,0 +1,40 @@
+Overview
+    A slimeball is a crafting ingredient commonly dropped by slimes, and can be sneezed out by pandas.
+
+Obtaining
+  Mob loot
+    If a slime's size is 1, it drops 0–2 slimeballs when killed. The maximum number of slimeballs is increased by 1 per level of Looting, for a maximum of 5 slimeballs with Looting III. Baby pandas have a 1⁄700 chance of dropping one slimeball when sneezing.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Slime Block,"[[None, None, None], [None, 'Slime Block', None], [None, None, None]]"
+
+  Trading
+    Wandering traders sometimes offer to sell a slimeball for 4 emeralds.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Lead,String + Slimeball,"[['String', 'String', None], ['String', '', None], [None, None, 'String']]"
+    Magma Cream,Blaze Powder + Slimeball,"[[None, None, None], ['Blaze Powder', '', None], [None, None, None]]"
+    Slime Block,Slimeball,"[['', '', ''], ['', '', ''], ['', '', '']]"
+    Sticky Piston,Slimeball + Piston,"[[None, None, None], [None, '', None], [None, 'Piston', None]]"
+
+  Breeding
+    Slimeballs can be used to breed frogs and reduce the remaining growth duration of tadpoles by 10%. Both also follow a player holding a slimeball.
+
+Video
+    Note: This video is outdated, as slimeballs can now also be used to craft leads and slime blocks, breed frogs, and can now be obtained from baby pandas and wandering traders.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Slimeball,slime_ball,Item,item.minecraft.slime_ball
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Slimeball,slimeball,388,Item,item.slimeball.name
+

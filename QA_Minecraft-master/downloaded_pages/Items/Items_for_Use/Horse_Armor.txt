@@ -1,0 +1,114 @@
+Overview
+    Horse armor is a special type of armor that can be given to a horse to wear.
+
+Obtaining
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Iron Horse Armor,Monster Room,Chest,1,"21.5% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.21505443965101612, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1,"18% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.18047585032339075, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,1,"4.6% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.04610128358507015, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1,"4.5% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.04456082194605049, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1,"19% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1,"2.5% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.024800500000000003, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"5.7% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.05697008952692806, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Upcoming Java Edition
+    Iron Horse Armor,Trial Chambers,Reward chest,1,"13.9% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.1385304282494364, ""structure"": ""Trial Chambers"", ""container"": ""Reward chest"" }"
+    Bedrock Edition
+    Iron Horse Armor,Monster Room,Chest,1,"21.5% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.21505443965101612, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1,"18% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.18047585032339075, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,1,"4.6% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.04610128358507015, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1,"4.4% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.04446177611411839, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1,"19% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1,"2.4% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.024037471921875886, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"5.7% { ""item"": ""Iron Horse Armor"", ""stacksize"": 1, ""chance"": 0.05697008952692806, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Golden Horse Armor,Monster Room,Chest,1,"14.7% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.14718169857549623, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1,"12.3% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.1232496403922203, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,1,"4.6% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.04610128358507015, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1,"4.5% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.04456082194605049, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1,"29.1% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.2908800818567131, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Ruined portal,Chest,1,"7.3% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.0729006411312747, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1,"2.5% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.024800500000000003, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"5.7% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.05697008952692806, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Upcoming Java Edition
+    Golden Horse Armor,Trial Chambers,Reward chest,1,"10.5% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.10517806160781373, ""structure"": ""Trial Chambers"", ""container"": ""Reward chest"" }"
+    Bedrock Edition
+    Golden Horse Armor,Monster Room,Chest,1,"14.7% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.14718169857549623, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1,"12.3% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.1232496403922203, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,1,"4.6% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.04610128358507015, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1,"4.4% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.04446177611411839, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1,"29.1% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.2908800818567131, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Ruined portal,Chest,1,"7.3% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.0729006411312747, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1,"2.4% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.024037471921875886, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"5.7% { ""item"": ""Golden Horse Armor"", ""stacksize"": 1, ""chance"": 0.05697008952692806, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Diamond Horse Armor,Monster Room,Chest,1,"7.6% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.07553570483040006, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1,"16.1% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1,"6.3% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.06312352825007994, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,1,"4.6% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.04610128358507015, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1,"4.5% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.04456082194605049, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1,"11.8% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.1177728226195418, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1,"2.5% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.024800500000000003, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"5.7% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.05697008952692806, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Upcoming Java Edition
+    Diamond Horse Armor,Trial Chambers,Reward chest,1,"5.4% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.05356048084147247, ""structure"": ""Trial Chambers"", ""container"": ""Reward chest"" }"
+    Bedrock Edition
+    Diamond Horse Armor,Monster Room,Chest,1,"7.6% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.07553570483040006, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1,"16.1% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1,"6.3% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.06312352825007994, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,1,"4.6% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.04610128358507015, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1,"4.4% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.04446177611411839, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1,"11.8% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.1177728226195418, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1,"2.4% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.024037471921875886, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"5.7% { ""item"": ""Diamond Horse Armor"", ""stacksize"": 1, ""chance"": 0.05697008952692806, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Leather,"[['Leather', None, 'Leather'], ['Leather', 'Leather', 'Leather'], ['Leather', None, 'Leather']]"
+
+    Only leather horse armor can be crafted; other horse armor can be obtained only from chest loot from structures listed above.
+
+  Trading
+    Expert-level leatherworker villagers sell leather horse armor for 6 emeralds as part of their trade.
+
+Usage
+    Only normal adult horses can wear armor; foals, donkeys, mules, and undead variants such as skeleton horses and zombie horses cannot be equipped with armor.
+
+  Types
+    Horse armor has leather, iron, gold, and diamond variants. It does not have netherite or chainmail variants.
+
+  Armor stands
+    Horse armor cannot be placed or displayed on armor stands in Java Edition.
+
+  Protection
+    Horse armor can be equipped to horses either by manually placing it in its respective slot by pressing inventory while riding the horse (), or by using the horse with it. There is a gradual increase in the defense given from a horse wearing the different types of armor. Note that golden horse armor provides more protection than iron horse armor, whereas the opposite is true for player armor.
+
+    Material,Armor
+    Leather,3 ( )
+    Iron,5 ( )
+    Gold,7 ( )
+    Diamond,11 ( × 5.5)
+
+    When a horse dies while equipped with any horse armor, it drops its normal loot, saddle (if it had one), and the horse armor. Leather horse armor protects horses from freezing in powder snow, but it does not negate other powder snow effects (e.g., falling through, inability to jump).
+
+  Durability
+    Unlike player armor, horse armor does not have durability. This means a single horse armor can be used infinitely unless destroyed.
+
+  Enchanting
+    Unlike player armor, horse armor cannot be enchanted in survival mode. However, in Java Edition Creative mode, horse armor can be used with an anvil to enchant with Depth Strider, Thorns, Respiration, Feather Falling, and Curse of vanishing. Other enchantments can be applied, but they have no effect.
+
+  Dyeing
+    Leather horse armor can be dyed 12,326,391 different colors (using lone dyes or dye combinations) and put onto a horse to display that color. These changes can be reverted by using a filled cauldron with dyed leather horse armor.
+
+  Smelting usage
+    Name,Ingredients,Smelting recipe
+    Iron Nugget or Gold Nugget,Iron Horse Armor or Golden Horse Armor + Any fuel,0.1
+
+  Piglins
+    Piglins are attracted to golden horse armor and run toward any golden horse armor on the ground, inspecting it for 6 to 8 seconds before putting it in their inventory.
+

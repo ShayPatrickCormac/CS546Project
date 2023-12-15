@@ -1,0 +1,54 @@
+Overview
+    Diorite is a block of igneous rock, found in large pockets in the ground.
+
+Obtaining
+  Breaking
+    Diorite can be mined using any pickaxe. If broken without a pickaxe, it drops nothing.
+
+    Block,Diorite
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Diorite can generate in the Overworld in the form of ore blobs. In Bedrock Edition, Diorite attempts to generate in two batches in all biomes in the Overworld. The first batch generate 2 times per chunk in blobs of size 0-864, from elevations 0 to 60. The second batch has 1⁄6 chance to generate blobs of size 0-864, from elevation 64 to 128. In Bedrock Edition, diorite can replace stone, andesite, granite, polished andesite‌, polished diorite‌, and polished granite‌. In Java Edition, diorite can replace stone, andesite, granite, tuff, and deepslate. Diorite generates in weaponsmith houses, tannery houses, and mason houses in snowy tundra villages. In Bedrock Edition, diorite generates in coral reefs, replacing some blocks of coral crust.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Cobblestone + Nether Quartz,"[[None, None, None], ['Cobblestone', 'Nether Quartz', None], ['Nether Quartz', 'Cobblestone', None]]"
+
+Usage
+    Diorite is currently used only for decoration. It has the same blast resistance as stone, meaning it can be used as a substitute for stone when building.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Andesite,Diorite + Cobblestone,"[[None, None, None], ['', 'Cobblestone', None], [None, None, None]]",
+    Diorite Slab,Diorite,"[[None, None, None], [None, None, None], ['', '', '']]",
+    Diorite Stairs,Diorite,"[['', None, None], ['', '', None], ['', '', '']]",
+    Diorite Wall,Diorite,"[[None, None, None], ['', '', ''], ['', '', '']]",
+    Granite,Diorite + Nether Quartz,"[[None, None, None], ['', 'Nether Quartz', None], [None, None, None]]",
+    Polished Diorite,Diorite,"[[None, None, None], ['', '', None], ['', '', None]]",
+    Stonecutter,Iron Ingot + Diorite,"[[None, None, None], [None, 'Iron Ingot', None], ['', '', '']]",Can use stone and its three other variants interchangeably.‌ [ Bedrock Edition only ]
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Diorite Slab,Diorite,2
+    Diorite Stairs,Diorite,
+    Diorite Wall,Diorite,
+    Polished Diorite,Diorite,
+    Polished Diorite Slab,Diorite,2
+    Polished Diorite Stairs,Diorite,
+
+  Trading
+    Journeyman-level stone mason villagers have a 2⁄7 chance to buy 16 diorite for an emerald.
+
+  Note Blocks
+    Diorite can be placed under note blocks to produce "bass drum" sound.
+

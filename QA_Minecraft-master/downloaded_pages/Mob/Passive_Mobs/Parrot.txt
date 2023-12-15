@@ -1,0 +1,20 @@
+Overview
+    A parrot is a tameable passive mob that spawns in jungle biomes. Parrots imitate sounds of nearby monsters and can perch on the player's shoulders.
+
+Spawning
+    Parrots naturally spawn in groups of 1–2 in jungles, sparse jungles‌[BE  only] and bamboo jungles above logs, leaves or grass blocks. Unlike most passive mobs, parrots cannot be bred.
+
+Drops
+  On death
+    Item,Roll Chance,Quantity (Roll Chance)
+    Default,Looting I,Looting II,Looting III
+    ,Feather,100%,1–2,1–3,1–4,1–5
+
+    1–3 experience orbs are dropped when parrots are killed by a player or a tamed wolf.
+
+Behavior
+    Parrots are passive and swim in water by flapping their wings. A parrot flies and usually flies upward if it is struck; parrots flap their wings and fall slowly, preventing fall damage. Parrots fly under normal conditions, but they can tire[1] and return to the ground after a short time. Parrots crowd and settle around other nearby mobs, including neutral and hostile mobs. Parrots can be tamed by feeding them wheat seeds, melon seeds, pumpkin seeds, beetroot seeds or torchflower seeds with 1⁄10 chance of success. Once tamed, interacting with a parrot makes it sit down and stand up. A tamed parrot follows the player unless told to sit and teleports if there is a distance of 12 blocks between it and the player. A death message is displayed to its owner upon death. The parrot teleportation is completely silent.[2] In Java Edition, attempting to feed a parrot a cookie instantly kills it, emitting Poison particles as it dies. In Bedrock Edition, feeding a cookie to a parrot gives it fatal poison instead. This is a reference to the fact that chocolate is toxic to parrots. A tamed parrot on the ground can be made to perch on its player's shoulder by moving through the parrot. On its own, a tamed parrot can also fly to and perch on the player's shoulder, unless it has been told to sit. A player can have one parrot on each shoulder. Parrots always prefer a player's left shoulder first, if it is empty. A parrot dismounts its player when the player: Parrots on a shoulder always look in the same direction the player's head is looking. A parrot on a shoulder cannot take any damage but may get hurt as soon as it dismounts, as when dismounting a player submerged in lava. A parrot sitting on the shoulder appears in the inventory interface. In Bedrock Edition, a parrot sitting on a shoulder prevents the player from entering a nether portal.[3]
+
+  Imitating sounds
+    Parrots imitate the idle sounds of nearby hostile and certain neutral mobs (including the hiss of creepers but excluding guardians and elder guardians); they have a detection range of 20 cubical blocks. The sound produced by the parrots is simply the same sound as the mob being mimicked at a higher pitch. Occasionally, a parrot may imitate sounds of mobs that are not in the area.[4] Parrots dance near a jukebox if a music disc is inside it. Parrots even have the ability to dance while on a player's shoulder.‌[BE  only] This is a reference to the Party Parrot meme.[5] The game does not seem to have any real way to determine when the music ends, though; as long as the disc remains in the jukebox, the parrot continues dancing even after the music stops.[6] The dancing radius is 3 blocks from the jukebox. If they dance and then fly beyond this radius, they stop dancing. A parrot does not dance if the music disc was inserted prior to it spawning, dismounting or being within the 3 blocks range.[7]
+

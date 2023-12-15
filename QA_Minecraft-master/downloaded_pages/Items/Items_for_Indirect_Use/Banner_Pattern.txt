@@ -1,0 +1,79 @@
+Overview
+    Banner patterns are items used to customize banners inside looms.
+There are six patterns in Java Edition and eight in Bedrock Edition.
+
+Obtaining
+  Crafting
+    It is possible to craft 4 out of 6 banner patterns in Java Edition, or 6 out of 8 banner patterns in Bedrock Edition. They are crafted by combining one paper along with a certain material.
+
+    Name,Ingredients,Crafting recipe
+    Banner Pattern Creeper,Paper + Creeper Head,"[[None, None, None], ['Paper', 'Creeper Head', None], [None, None, None]]"
+    Banner Pattern Flower,Paper + Oxeye Daisy,"[[None, None, None], ['Paper', 'Oxeye Daisy', None], [None, None, None]]"
+    Banner Pattern Skull,Paper + Wither Skeleton Skull,"[[None, None, None], ['Paper', 'Wither Skeleton Skull', None], [None, None, None]]"
+    Banner Pattern Thing,Paper + Enchanted Golden Apple,"[[None, None, None], ['Paper', 'Enchanted Golden Apple', None], [None, None, None]]"
+
+    Bedrock Edition:
+
+    Name,Ingredients,Crafting recipe,Description
+    Banner Pattern Bordure Indented,Paper + Vines,"[[None, None, None], ['Paper', 'Vines', None], [None, None, None]]",‌ [ Bedrock Edition only ]
+    Banner Pattern Field Masoned,Paper + Bricks,"[[None, None, None], ['Paper', 'Bricks', None], [None, None, None]]",‌ [ Bedrock Edition only ]
+
+  Trading
+    Globe banner pattern is obtained by trading with a master-level cartographer villager for a price of 8 emeralds.
+
+  Chest loot
+    Snout banner pattern is obtained in the Bastion Remnant as loot.
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Snout Banner Pattern,Bastion remnant,Generic chest,1,"10.1% { ""item"": ""Snout Banner Pattern"", ""stacksize"": 1, ""chance"": 0.101123595505618, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bedrock Edition
+    Snout Banner Pattern,Bastion remnant,Generic chest,1,"10.1% { ""item"": ""Snout Banner Pattern"", ""stacksize"": 1, ""chance"": 0.101123595505618, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+
+Usage
+  Loom ingredient
+    Banner patterns are used in looms to add customization to banners. The pattern must be combined with 1 banner and 1 dye. Upon usage in the loom, the banner pattern is not consumed.
+
+    Name,Ingredients,Loom recipe,Description
+    Flower Charge Banner,Any Banner + Matching Dye,Flower,Emblazons a flower charge (flower icon)
+    Creeper Charge Banner,Any Banner + Matching Dye,Creeper,Emblazons a creeper charge (creeper face)
+    Skull Charge Banner,Any Banner + Matching Dye,Skull,Emblazons a skull charge (skull and crossbones)
+    Thing Banner,Any Banner + Matching Dye,Thing,Emblazons a thing (old Mojang logo)
+    Snout Banner,Any Banner + Matching Dye,Snout,Emblazons a piglin snout
+    Globe Banner,Any Banner + Matching Dye,Globe,Emblazons a globe (cube shaped earth)
+    Bordure Indented Banner,Any Banner + Matching Dye,Bordure,Emblazons a bordure indented (fancy border)‌ [ Bedrock Edition only ]
+    Field Masoned Banner,Any Banner + Matching Dye,Field,Emblazons a field masoned (brick pattern)‌‌ [ Bedrock Edition only ]
+
+Data values
+  ID
+    Java Edition:
+
+    Banner Pattern,Identifier,Form,Translation key
+    Flower Charge,flower_banner_pattern,Item,item.minecraft.flower_banner_pattern
+    Creeper Charge,creeper_banner_pattern,Item,item.minecraft.creeper_banner_pattern
+    Skull Charge,skull_banner_pattern,Item,item.minecraft.skull_banner_pattern
+    Thing,mojang_banner_pattern,Item,item.minecraft.mojang_banner_pattern
+    Globe,globe_banner_pattern,Item,item.minecraft.globe_banner_pattern
+    Snout,piglin_banner_pattern,Item,item.minecraft.piglin_banner_pattern
+
+    Bedrock Edition:
+
+    Banner Pattern,Identifier,Alias ID,Numeric ID,Form,Translation key
+    Creeper Charge,creeper_banner_pattern,banner_pattern / 0,582,Item,item.banner_pattern.name item.banner_pattern.creeper
+    Skull Charge,skull_banner_pattern,banner_pattern / 1,583,Item,item.banner_pattern.name item.banner_pattern.skull
+    Flower Charge,flower_banner_pattern,banner_pattern / 2,581,Item,item.banner_pattern.name item.banner_pattern.flower
+    Thing,mojang_banner_pattern,banner_pattern / 3,584,Item,item.banner_pattern.name item.banner_pattern.thing
+    Field Masoned,field_masoned_banner_pattern,banner_pattern / 4,585,Item,item.banner_pattern.name item.banner_pattern.bricks
+    Bordure Indented,bordure_indented_banner_pattern,banner_pattern / 5,586,Item,item.banner_pattern.name item.banner_pattern.vines
+    Snout,piglin_banner_pattern,banner_pattern / 6,587,Item,item.banner_pattern.name item.banner_pattern.piglin
+    Globe,globe_banner_pattern,banner_pattern / 7,588,Item,item.banner_pattern.name item.banner_pattern.globe
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    fruit on the loom,fruit on the loom,"Fruit on the Loom { ""anchor"": """", ""title"": ""Fruit on the Loom"", ""icon"": """", ""title"": ""Fruit on the Loom"", ""description"": ""Make a banner using an Enchanted Apple Stencil
+ "", ""requirements"": ""Make a banner using an enchanted apple.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Make a banner using an Enchanted Apple Stencil,Make a banner using an enchanted apple.,20G,Bronze
+

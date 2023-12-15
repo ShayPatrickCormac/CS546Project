@@ -1,0 +1,36 @@
+Overview
+    The blackstone stairs are the blackstone variant of stairs, crafted from blackstone.
+
+Obtaining
+  Breaking
+    Blackstone stairs can be broken with wooden pickaxes or higher.
+
+    Block,Blackstone Stairs
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Blackstone stairs generate as part of bastion remnants.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Blackstone,"[['Blackstone', None, None], ['Blackstone', 'Blackstone', None], ['Blackstone', 'Blackstone', 'Blackstone']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Blackstone,
+
+Usage
+    Blackstone stairs are a type of stairs, meaning they have the following common placement mechanics:
+
+  Note blocks
+    Blackstone stairs can be placed under note blocks to produce "bass drum" sounds.
+

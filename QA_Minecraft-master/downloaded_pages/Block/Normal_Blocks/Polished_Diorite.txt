@@ -1,0 +1,49 @@
+Overview
+    Polished diorite is the polished version of diorite.
+
+Obtaining
+  Breaking
+    Polished diorite can be mined using any pickaxe. If broken without a pickaxe, it drops nothing.
+
+    Block,Polished Diorite
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Polished diorite also generates in warm underwater ruins.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Diorite,"[[None, None, None], ['Diorite', 'Diorite', None], ['Diorite', 'Diorite', None]]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Diorite,Diorite,
+
+  Trading
+    Journeyman-level stone mason villagers have a 2⁄7 chance to sell 4 polished diorite for an emerald.
+
+Usage
+    Diorite is currently used only for decoration. It has the same blast resistance as stone, meaning it can be used as a substitute for stone when building.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Polished Diorite Slab,Polished Diorite,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Polished Diorite Stairs,Polished Diorite,"[['', None, None], ['', '', None], ['', '', '']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Diorite Slab,Polished Diorite,2
+    Polished Diorite Stairs,Polished Diorite,
+
+  Note Blocks
+    Polished diorite can be placed under note blocks to produce "bass drum" sound.
+

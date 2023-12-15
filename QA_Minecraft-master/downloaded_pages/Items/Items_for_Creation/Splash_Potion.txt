@@ -1,0 +1,44 @@
+Overview
+    Splash potions are a variant of potions that can be thrown.
+
+Obtaining
+  Natural generation
+    One splash potion of weakness can be found in a brewing stand inside an igloo basement.
+
+  Brewing
+    Ingredients,Brewing recipe
+    Gunpowder + Any Potion,input:Gunpowder | output:Splash Water Bottle; Awkward Splash Potion; Thick Splash Potion; Mundane Splash Potion; Splash Potion of Regeneration; Splash Potion of Swiftness; Splash Potion of Fire Resistance; Splash Potion of Poison; Splash Potion of Healing; Splash Potion of Night Vision; Splash Potion of Weakness; Splash Potion of Strength; Splash Potion of Slowness; Splash Potion of Leaping; Splash Potion of Harming; Splash Potion of Water Breathing; Splash Potion of Invisibility; Splash Potion of Slow Falling; Splash Potion of Luck; Splash Potion of Decay; Splash Potion of the Turtle Master
+
+    Splash potions are brewed by adding gunpowder to a normal potion, including uncraftable potions of luck‌[JE  only] and decay‌[BE  only].
+
+  Bartering
+    Piglins have a 1.74% chance of bartering a splash potion of Fire Resistance when given a gold ingot. 
+
+  Filling bottles
+    Using a glass bottle on a cauldron that contains splash potion turns it into a bottle of that splash potion, this also removes 1⁄3 of the cauldron's content.‌[Bedrock Edition  only]
+
+Usage
+  Brewing
+    Ingredients,Brewing recipe
+    Dragon's breath + any splash potion,input:Dragon's Breath | output:Lingering Water Bottle; Awkward Lingering Potion; Thick Lingering Potion; Mundane Lingering Potion; Lingering Potion of Regeneration; Lingering Potion of Swiftness; Lingering Potion of Fire Resistance; Lingering Potion of Poison; Lingering Potion of Healing; Lingering Potion of Night Vision; Lingering Potion of Weakness; Lingering Potion of Strength; Lingering Potion of Slowness; Lingering Potion of Leaping; Lingering Potion of Harming; Lingering Potion of Water Breathing; Lingering Potion of Invisibility; Lingering Potion of Slow Falling; Lingering Potion of Luck; Lingering Potion of Decay; Lingering Potion of the Turtle Master
+
+    Lingering potions are brewed by adding dragon's breath to a splash potion.
+
+  Using
+    Splash potions are thrown by using them. On impact they explode, applying status effects to nearby entities. When thrown by the player, they have a range of 8 blocks if thrown at the best angle. The bottle is lost, unlike drinkable potions. Entities within an 8.25×8.25×4.25 cuboid centered on the thrown potion at impact and within 4 blocks euclidean distance of the thrown potion[n 1] at impact are affected. In Bedrock Edition, splash potions' effects have only three-fourths of the duration of the drinkable form. In Java Edition, splash and drinkable forms have the same duration. If the potion directly collides with an entity, the entity gets the full duration and potency of the effect. Otherwise, the farther away the entity is from the center of the impact, the lesser the imbued effect. For instant effects (i.e. Healing or Harming), the potency of the effect reduces linearly from 100% on a direct hit to 0% at 4 blocks' distance. For other effects, the potency is unchanged, but the duration decreases linearly on the same scale (rounded to the nearest 1⁄20 second), with no effect being applied if the duration would be 1 second or less.
+
+  Splash water bottles
+    Splash water bottles have no effect on almost all entities, but they extinguish fire in the block hit and the four blocks horizontally surrounding it. A splash water bottle deals 1 damage to endermen, striders, snow golems, and blazes; however, endermen have a chance of teleporting away if hit with one. Splash water bottles can extinguish a burning entity. Splash water bottles can be used on dirt, coarse dirt, or rooted dirt to turn it into mud.
+
+  Filling cauldrons
+    In Bedrock Edition, using a splash potion on a cauldron adds one level of that potion to the cauldron. Attempting to add a splash potion to a cauldron with water, dyed water or a non-matching potion empties the cauldron and creates an explosion sound (but no actual explosion).
+
+  Uncraftable splash potion
+    In Java Edition, the uncraftable potion is a splash potion with no effect that is unobtainable in regular gameplay. It is also available in potion and lingering potion forms, as well as for tipped arrows. It can be obtained in two distinct (though functionally identical) variants, using the following commands: /give @s minecraft:splash_potion{Potion:"minecraft:empty"} or /give @s minecraft:splash_potion. It is also obtained any time a potion has invalid or missing potion effect tags, and thus serves as a placeholder.
+
+    Icon,Name
+    ,Uncraftable Splash Potion
+
+Custom effects
+    In Java Edition, splash potions can be obtained with any status effect using /give and the tag CustomPotionEffects, which is an array of effects for the potion. See Item format#Potion Effects for more information, and status effect for a list of effects and IDs.
+

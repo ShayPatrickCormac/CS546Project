@@ -1,0 +1,29 @@
+Overview
+    Muddy mangrove roots are a decorative variant of mangrove roots.
+
+Obtaining
+  Breaking
+    Muddy mangrove roots can be broken by hand, but using a shovel speeds up the process. Muddy mangrove roots drop themselves when broken with any tool.
+
+    Block,Muddy mangrove roots
+    Hardness,0.7
+    Tool,Shovel
+    Breaking time (sec) [A]
+    Default,1.05
+    Wooden,0.55
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Natural generation
+    Muddy mangrove roots naturally generate in mangrove swamps where mud blocks intersect with normal mangrove roots at the bottom of mangrove trees.
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Mud + Mangrove Roots,"[[None, None, None], ['Mud', 'Mangrove Roots', None], [None, None, None]]",
+
+  Post generation
+    When a mangrove propagule grows into a tree, if the tree roots intersect with nearby mud blocks, those mud blocks are converted into muddy mangrove roots.
+

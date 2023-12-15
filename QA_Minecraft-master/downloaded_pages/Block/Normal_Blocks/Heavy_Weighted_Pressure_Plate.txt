@@ -1,0 +1,51 @@
+Overview
+    A heavy weighted pressure plate is a type of pressure plate that, like the light weighted pressure plate, outputs a variable redstone signal strength based on the number of entities present on the plate. A heavy weighted pressure plate outputs one redstone signal strength for every 10 entities present.
+
+Obtaining
+  Breaking
+    A heavy weighted pressure plate drops itself if a piston extends or pushes a block into its location, or if a block under the pressure plate is moved or destroyed.
+
+    Block,Heavy Weighted Pressure Plate
+    Hardness,0.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,2.5
+    Wooden,0.4
+    Stone,0.2
+    Iron,0.15
+    Diamond,0.1
+    Netherite,0.1
+    Golden,0.1
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot,"[[None, None, None], ['Iron Ingot', 'Iron Ingot', None], [None, None, None]]"
+
+Usage
+  Placement
+    A heavy weighted pressure plate can only be placed on the top of other blocks with either a full solid block face, a solid center, or a solid rim.
+
+  Redstone Component
+    Signal Strength,Entity count
+    0,0
+    1,1–10
+    2,11–20
+    3,21–30
+    4,31–40
+    5,41–50
+    6,51–60
+    7,61–70
+    8,71–80
+    9,81–90
+    10,91–100
+    11,101–110
+    12,111–120
+    13,121–130
+    14,131–140
+    15,141+
+
+    A heavy weighted pressure plate detects all entities on top of it, outputting a redstone signal strength of 1 for every 10 entities present, starting at 1. While active, a heavy weighted pressure plate weakly powers itself, and strongly powers the block it is placed on. The power level output varies depending on the number of entities colliding with the pressure plate. The signal strength from a weighted pressure plate does not vary with the type of entity. 15 mobs will produce the same signal strength as 15 different items. Note the heavy weighted presser plate counts entities, not quantity of items, generally leading to one entity count per stack of items. For more information see  item entity behavior.
+
+  Behavior
+    A heavy weighted pressure plate is a non-solid block, allowing entities to freely pass through it. The visual height of a pressure plate is 1⁄16 of a block when inactive and 1⁄32 of a block when active. Fluids flow around a heavy weighted pressure plate without affecting it.
+

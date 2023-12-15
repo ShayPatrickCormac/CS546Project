@@ -1,0 +1,41 @@
+Overview
+    Chains are metallic decoration blocks.
+
+Obtaining
+  Breaking
+    Chains can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Chain
+    Hardness,5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,3.75
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,0.65
+
+  Natural generation
+    Chains generate in bastion remnants and sometimes in ruined portals that generate in the Nether. They always generate above magma cube spawners, also found in bastions. Chains can also generate in mineshafts. They generate on the sides of a wooden bridge (a mid-air corridor) when the distance between the bridge and the highest solid block below it is higher than the distance to the lowest solid block above it. Chains here generate vertically in a pillar between the bridge and the ceiling. The lowest block of the pillar, connecting the chain to the bridge, is always an oak fence.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Chain,Bastion remnant,Generic chest,2–10,"24.4% { ""item"": ""Chain"", ""stacksize"": ""2–10"", ""chance"": 0.24372395924512447, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bedrock Edition
+    Chain,Bastion remnant,Generic chest,2–10,"24.4% { ""item"": ""Chain"", ""stacksize"": ""2–10"", ""chance"": 0.24372395924512447, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Nugget + Iron Ingot,"[[None, 'Iron Nugget', None], [None, 'Iron Ingot', None], [None, 'Iron Nugget', None]]"
+
+Usage
+    Chains can be used to suspend bells, hanging signs, or both types of lanterns (normal lanterns and soul lanterns), as the chain texture connects to the chain of the lantern seamlessly as if it were part of it, and it connects the hanging sign chains together. Chains do not require a supporting block to be placed whether it is on the top, next to it or at the bottom. It can exist completely free-standing in mid air[1] and it can be rotated. Chains connect horizontally or vertically, but not across different orientations (so a chain with N orientation does not connect to a chain with E orientation in the adjacent block).
+Horizontal chains one block above a surface may be walked over. Horizontal chains two blocks above a surface prevent players from traveling past them. Vertical chains block travel if targeted directly, but may be skirted. Precision is required, but chains can be walked on, allowing for inconspicuous, although somewhat costly, bridges. Chains can be pushed by pistons without being broken.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Hanging Sign,Chain + Matching Stripped Log or Block of Stripped Bamboo or Matching Stripped Stem,"[['', None, ''], ['Stripped Oak Log', 'Stripped Oak Log', 'Stripped Oak Log'], ['Stripped Oak Log', 'Stripped Oak Log', 'Stripped Oak Log']]"
+

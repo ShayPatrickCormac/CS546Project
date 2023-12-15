@@ -1,0 +1,58 @@
+Overview
+    Wood or hyphae is a block that has the log's "bark" texture on all six sides. It comes in ten types: oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, crimson, and warped. Stripped wood or stripped hyphae is a variant obtained when any axe is used on wood or hyphae respectively.
+
+Obtaining
+  Breaking
+    Wood and hyphae can be broken by hand, but using an axe is the fastest.
+
+    Block,Wood Stripped Wood Hyphae Stripped Hyphae
+    Hardness,2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,3
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Oak wood and stripped oak wood generate in plains villages. Acacia wood generates in savanna villages. Spruce wood and stripped spruce wood generate in snowy plains, snowy taiga, and taiga villages.
+
+  Crafting
+    Wood or hyphae can be crafted out of four matching logs or stems, yielding three wood or hyphae as a result.
+
+    Name,Ingredients,Crafting recipe
+    Wood or Hyphae,Matching Log or Matching Stem,"[['Oak Log', 'Oak Log', None], ['Oak Log', 'Oak Log', None], [None, None, None]]"
+    Stripped Wood or Stripped Hyphae,Matching Stripped Log or Matching Stripped Stem,"[['Stripped Oak Log', 'Stripped Oak Log', None], ['Stripped Oak Log', 'Stripped Oak Log', None], [None, None, None]]"
+
+  Post-generation
+    Using an axe on wood or hyphae turns it into stripped wood or hyphae, which act the same as regular wood or hyphae.
+
+Usage
+    Wood and hyphae can be placed in three orientations, similarly to normal logs.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Campfire,Stick + Coal + Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, 'Stick', None], ['Stick', 'Coal', 'Stick'], ['Oak Wood', 'Oak Wood', 'Oak Wood']]"
+    Campfire,Stick + Charcoal + Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, 'Stick', None], ['Stick', 'Charcoal', 'Stick'], ['Oak Wood', 'Oak Wood', 'Oak Wood']]"
+    Nether Planks,Matching Hyphae or Matching Stripped Hyphae,"[[None, None, None], [None, 'Crimson Hyphae', None], [None, None, None]]"
+    Oak Planks or Spruce Planks or Birch Planks or Jungle Planks or Acacia Planks or Dark Oak Planks or Mangrove Planks or Cherry Planks,Matching Wood or Matching Stripped Wood,"[[None, None, None], [None, 'Oak Wood', None], [None, None, None]]"
+    Smoker,Any Wood or Hyphae or Any Stripped Wood or Hyphae + Furnace,"[[None, 'Oak Wood', None], ['Oak Wood', 'Furnace', 'Oak Wood'], [None, 'Oak Wood', None]]"
+    Soul Campfire,Stick + Soul Sand + Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, 'Stick', None], ['Stick', 'Soul Sand', 'Stick'], ['Oak Wood', 'Oak Wood', 'Oak Wood']]"
+    Soul Campfire,Stick + Soul Soil + Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, 'Stick', None], ['Stick', 'Soul Soil', 'Stick'], ['Oak Wood', 'Oak Wood', 'Oak Wood']]"
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Charcoal,Any Wood or Any Stripped Wood + Any fuel,0.15
+
+  Fuel
+    Wood and stripped wood can be used as a fuel in furnaces, smelting 1.5 items per block. Hyphae and stripped hyphae cannot be used as a fuel in furnaces.
+
+  Cocoa beans
+    Cocoa beans can be placed on the side of both jungle logs and stripped jungle logs to grow new cocoa pods.
+
+  Note blocks
+    Wood and hyphae can be placed under note blocks to produce "bass" sounds.
+

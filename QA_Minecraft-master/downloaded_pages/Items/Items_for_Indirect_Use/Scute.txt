@@ -1,0 +1,32 @@
+Overview
+    Scutes are items that baby turtles drop when they grow into adults. They can be used to craft turtle shells which can be used to brew the potion of the Turtle Master.
+
+Obtaining
+  Mob loot
+    Baby turtles drop a single scute when they grow up into adults, which is the only possible way to obtain the item.
+
+Usage
+    Scutes can be crafted into turtle shells.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Turtle Shell,Scute,"[[None, None, None], ['', '', ''], ['', None, '']]"
+
+  Repairing
+    Scutes are the repair items for the turtle armor material, and thus can be used to repair turtle shells in an anvil.
+
+  Trading
+    Expert-level cleric villagers have a 2⁄3 chance to buy 4 scutes for an emerald as part of their trades.‌[Java Edition  only] Expert-level cleric villagers have a 50% chance to buy 4 scutes for an emerald as part of their seventh trades.‌[Bedrock Edition  only] Expert-level leatherworker villagers buy 4 scutes for an emerald as part of their trades.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Scute,scute,Item,item.minecraft.scute
+
+    Bedrock Edition:
+
+    Name,Identifier,Alias ID,Numeric ID,Form,Translation key
+    Scute,scute,turtle_shell_piece,572,Item,item.turtle_shell_piece.name
+

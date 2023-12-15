@@ -1,0 +1,38 @@
+Overview
+    Blaze powder is an item made from a blaze rod, which is dropped by a blaze when killed. Its main uses are to fuel brewing stands, to brew strength potions, and to make eyes of ender to take the player to the End.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Blaze Rod,"[[None, None, None], [None, 'Blaze Rod', None], [None, None, None]]"
+
+Usage
+  Crafting Ingredient
+    Name,Ingredients,Crafting recipe
+    Eye of Ender,Blaze Powder + Ender Pearl,"[[None, None, None], ['', 'Ender Pearl', None], [None, None, None]]"
+    Fire Charge,Blaze Powder + Coal or Charcoal + Gunpowder,"[[None, None, None], ['', 'Coal', None], [None, 'Gunpowder', None]]"
+    Magma Cream,Blaze Powder + Slimeball,"[[None, None, None], ['', 'Slimeball', None], [None, None, None]]"
+
+  Brewing stand fuel
+    In addition to being a brewing ingredient, blaze powder is needed to fuel a brewing stand. Each piece of blaze powder can brew up to 20 batches of potions.
+
+  Brewing ingredient
+    Name,Ingredients,Brewing recipe
+    Mundane Potion,Blaze Powder + Water Bottle,output:Mundane Potion
+    Potion of Strength,Blaze Powder + Awkward Potion,output:Potion of Strength
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Blaze Powder,blaze_powder,Item,item.minecraft.blaze_powder
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Blaze Powder,blaze_powder,429,Item,item.blaze_powder.name
+
+Video
+    Note: This video does not mention that blaze powder must be used to fuel brewing stands.
+

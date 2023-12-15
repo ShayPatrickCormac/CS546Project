@@ -1,0 +1,90 @@
+Overview
+    Clocks are time-telling devices that display the current in-game position of the sun and the moon. Clocks only function properly in the Overworld.
+
+Obtaining
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Clock,Ruined portal,Chest,1,"7.3% { ""item"": ""Clock"", ""stacksize"": 1, ""chance"": 0.0729006411312747, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Shipwreck,Map chest,1,"7.7% { ""item"": ""Clock"", ""stacksize"": 1, ""chance"": 0.07688803032512026, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+    Bedrock Edition
+    Clock,Ruined portal,Chest,1,"7.3% { ""item"": ""Clock"", ""stacksize"": 1, ""chance"": 0.0729006411312747, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Shipwreck,Map chest,1,"7.7% { ""item"": ""Clock"", ""stacksize"": 1, ""chance"": 0.07688803032512026, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Gold Ingot + Redstone Dust,"[[None, 'Gold Ingot', None], ['Gold Ingot', 'Redstone Dust', 'Gold Ingot'], [None, 'Gold Ingot', None]]"
+
+  Trading
+    Expert-level librarian villagers have a 1⁄3 (roughly 33.3%) chance to sell a single clock for 4 emeralds as part of their trades.‌[Bedrock Edition  only] Expert-level librarian villagers have a 1⁄2 (50%) chance to sell a clock for 5 emeralds.‌[Java Edition  only]
+
+Usage
+    The clock dial consists of two halves, a day side and a night side. The dial spins clockwise slowly to indicate the time of day, corresponding to the sun or moon's actual position in the sky. When the time of day changes suddenly, such as after sleeping or when /time is used, the clock dial spins rapidly to catch up. The player is able to sleep a few seconds after the clock shows exactly dusk. The dial always shows the current in-game time when in the Overworld, regardless of where it appears. This includes a player's hand, an inventory slot, a crafting grid, an item frame, or even as a dropped item. For a clock to be mounted on a wall, an item frame is required. Because there is no day/night cycle in the Nether or the End, clocks do not work properly in these dimensions. Instead, the dial rotates rapidly and randomly. Although clocks do not function in these dimensions, the actual daylight cycle does continue. In Java Edition, a clock can be viewed under the item statistics page as long as one obtained a clock at some point.
+
+  Piglins
+    Piglins are attracted to clocks and run toward any clock on the ground, and inspect it for 6 to 8 seconds before putting it in their inventory.
+
+Data values
+  ID
+    values ==
+=== ID:
+
+    Name,Identifier,Form,Translation key
+    Clock,clock,Item,item.minecraft.clock
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Clock,clock,393,Item,item.clock.name
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    oooh shiny,oooh shiny,"Oooh, shiny! { ""anchor"": """", ""title"": ""Oooh, shiny!"", ""icon"": ""oooh-shiny"", ""title"": ""Oooh, shiny!"", ""description"": ""Distract a [[Piglin]] using [[gold]]
+ "", ""requirements"": "" Give a piglin a gold item while it is aggressive toward the player.
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Golden Watch"" glove
+"" }",Distract a Piglin using gold,Give a piglin a gold item while it is aggressive toward the player.,30G,Silver
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Oh Shiny,Distract Piglins with gold,Nether,"While aggravated, give a piglin one of these 25 gold-related items in the #piglin_loved item tag: Bell Block of Gold Block of Raw Gold Clock Enchanted Golden Apple Gilded Blackstone Glistering Melon Slice Gold Ingot Gold Ore Golden Apple Golden Axe Golden Boots Golden Carrot Golden Chestplate Golden Helmet Golden Hoe Golden Horse Armor Golden Leggings Golden Pickaxe Golden Shovel Golden Sword Light Weighted Pressure Plate Nether Gold Ore Deepslate Gold Ore Raw Gold Other gold-related items do not distract the piglin and do not trigger this advancement.","nether/distract_piglin {""anchor"": """", ""title"": ""Oh Shiny"", ""icon"": ""Gold Ingot
+"", ""icon-style"": ""plain"", ""title"": ""Oh Shiny"", ""description"": ""Distract Piglins with gold
+"", ""parent"": ""Nether
+"", ""requirements"": ""While aggravated, give a [[piglin]] ''one'' of these 25 gold-related items in the <code>[[Tag#items piglin_loved|#piglin_loved]]</code> item tag:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite bell.png|16x16px|link=Bell|alt=ItemSprite bell.png: Sprite image for bell in Minecraft linking to Bell|class=pixel-image|]]</span>[[Bell|<span class=""sprite-text"">Bell</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite block-of-gold.png|16x16px|link=Block of Gold|alt=BlockSprite block-of-gold.png: Sprite image for block-of-gold in Minecraft linking to Block of Gold|class=pixel-image|]]</span>[[Block of Gold|<span class=""sprite-text"">Block of Gold</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite block-of-raw-gold.png|16x16px|link=Block of Raw Gold|alt=BlockSprite block-of-raw-gold.png: Sprite image for block-of-raw-gold in Minecraft linking to Block of Raw Gold|class=pixel-image|]]</span>[[Block of Raw Gold|<span class=""sprite-text"">Block of Raw Gold</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite clock.png|16x16px|link=Clock|alt=ItemSprite clock.png: Sprite image for clock in Minecraft linking to Clock|class=pixel-image|]]</span>[[Clock|<span class=""sprite-text"">Clock</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite enchanted-golden-apple.png|16x16px|link=Enchanted Golden Apple|alt=ItemSprite enchanted-golden-apple.png: Sprite image for enchanted-golden-apple in Minecraft linking to Enchanted Golden Apple|class=pixel-image|]]</span>[[Enchanted Golden Apple|<span class=""sprite-text"">Enchanted Golden Apple</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite gilded-blackstone.png|16x16px|link=Gilded Blackstone|alt=BlockSprite gilded-blackstone.png: Sprite image for gilded-blackstone in Minecraft linking to Gilded Blackstone|class=pixel-image|]]</span>[[Gilded Blackstone|<span class=""sprite-text"">Gilded Blackstone</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite glistering-melon-slice.png|16x16px|link=Glistering Melon Slice|alt=ItemSprite glistering-melon-slice.png: Sprite image for glistering-melon-slice in Minecraft linking to Glistering Melon Slice|class=pixel-image|]]</span>[[Glistering Melon Slice|<span class=""sprite-text"">Glistering Melon Slice</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite gold-ingot.png|16x16px|link=Gold Ingot|alt=ItemSprite gold-ingot.png: Sprite image for gold-ingot in Minecraft linking to Gold Ingot|class=pixel-image|]]</span>[[Gold Ingot|<span class=""sprite-text"">Gold Ingot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite gold-ore.png|16x16px|link=Gold Ore|alt=BlockSprite gold-ore.png: Sprite image for gold-ore in Minecraft linking to Gold Ore|class=pixel-image|]]</span>[[Gold Ore|<span class=""sprite-text"">Gold Ore</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-apple.png|16x16px|link=Golden Apple|alt=ItemSprite golden-apple.png: Sprite image for golden-apple in Minecraft linking to Golden Apple|class=pixel-image|]]</span>[[Golden Apple|<span class=""sprite-text"">Golden Apple</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-axe.png|16x16px|link=Golden Axe|alt=ItemSprite golden-axe.png: Sprite image for golden-axe in Minecraft linking to Golden Axe|class=pixel-image|]]</span>[[Golden Axe|<span class=""sprite-text"">Golden Axe</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-boots.png|16x16px|link=Golden Boots|alt=ItemSprite golden-boots.png: Sprite image for golden-boots in Minecraft linking to Golden Boots|class=pixel-image|]]</span>[[Golden Boots|<span class=""sprite-text"">Golden Boots</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-carrot.png|16x16px|link=Golden Carrot|alt=ItemSprite golden-carrot.png: Sprite image for golden-carrot in Minecraft linking to Golden Carrot|class=pixel-image|]]</span>[[Golden Carrot|<span class=""sprite-text"">Golden Carrot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-chestplate.png|16x16px|link=Golden Chestplate|alt=ItemSprite golden-chestplate.png: Sprite image for golden-chestplate in Minecraft linking to Golden Chestplate|class=pixel-image|]]</span>[[Golden Chestplate|<span class=""sprite-text"">Golden Chestplate</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-helmet.png|16x16px|link=Golden Helmet|alt=ItemSprite golden-helmet.png: Sprite image for golden-helmet in Minecraft linking to Golden Helmet|class=pixel-image|]]</span>[[Golden Helmet|<span class=""sprite-text"">Golden Helmet</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-hoe.png|16x16px|link=Golden Hoe|alt=ItemSprite golden-hoe.png: Sprite image for golden-hoe in Minecraft linking to Golden Hoe|class=pixel-image|]]</span>[[Golden Hoe|<span class=""sprite-text"">Golden Hoe</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-horse-armor.png|16x16px|link=Golden Horse Armor|alt=ItemSprite golden-horse-armor.png: Sprite image for golden-horse-armor in Minecraft linking to Golden Horse Armor|class=pixel-image|]]</span>[[Golden Horse Armor|<span class=""sprite-text"">Golden Horse Armor</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-leggings.png|16x16px|link=Golden Leggings|alt=ItemSprite golden-leggings.png: Sprite image for golden-leggings in Minecraft linking to Golden Leggings|class=pixel-image|]]</span>[[Golden Leggings|<span class=""sprite-text"">Golden Leggings</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-pickaxe.png|16x16px|link=Golden Pickaxe|alt=ItemSprite golden-pickaxe.png: Sprite image for golden-pickaxe in Minecraft linking to Golden Pickaxe|class=pixel-image|]]</span>[[Golden Pickaxe|<span class=""sprite-text"">Golden Pickaxe</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-shovel.png|16x16px|link=Golden Shovel|alt=ItemSprite golden-shovel.png: Sprite image for golden-shovel in Minecraft linking to Golden Shovel|class=pixel-image|]]</span>[[Golden Shovel|<span class=""sprite-text"">Golden Shovel</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-sword.png|16x16px|link=Golden Sword|alt=ItemSprite golden-sword.png: Sprite image for golden-sword in Minecraft linking to Golden Sword|class=pixel-image|]]</span>[[Golden Sword|<span class=""sprite-text"">Golden Sword</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite light-weighted-pressure-plate.png|16x16px|link=Light Weighted Pressure Plate|alt=BlockSprite light-weighted-pressure-plate.png: Sprite image for light-weighted-pressure-plate in Minecraft linking to Light Weighted Pressure Plate|class=pixel-image|]]</span>[[Light Weighted Pressure Plate|<span class=""sprite-text"">Light Weighted Pressure Plate</span>]]</span> 
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite nether-gold-ore.png|16x16px|link=Nether Gold Ore|alt=BlockSprite nether-gold-ore.png: Sprite image for nether-gold-ore in Minecraft linking to Nether Gold Ore|class=pixel-image|]]</span>[[Nether Gold Ore|<span class=""sprite-text"">Nether Gold Ore</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite deepslate-gold-ore.png|16x16px|link=Deepslate Gold Ore|alt=BlockSprite deepslate-gold-ore.png: Sprite image for deepslate-gold-ore in Minecraft linking to Deepslate Gold Ore|class=pixel-image|]]</span>[[Deepslate Gold Ore|<span class=""sprite-text"">Deepslate Gold Ore</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite raw-gold.png|16x16px|link=Raw Gold|alt=ItemSprite raw-gold.png: Sprite image for raw-gold in Minecraft linking to Raw Gold|class=pixel-image|]]</span>[[Raw Gold|<span class=""sprite-text"">Raw Gold</span>]]</span>
+</div>
+Other gold-related items do not distract the piglin and do not trigger this advancement.
+"", ""resourcelocation"": ""nether/distract_piglin
+"", ""rewards"": ""—
+"" }"
+
+Video
+    Note: This video doesn't state that clocks can be found in shipwrecks or ruined portals because the video was released in an earlier version.
+

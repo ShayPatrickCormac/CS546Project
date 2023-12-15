@@ -1,0 +1,41 @@
+Overview
+    A block of coal is a storage block, equivalent to nine coal, that can also be used as fuel.
+
+Obtaining
+  Breaking
+    Blocks of coal can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Block of Coal
+    Hardness,5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,3.75
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,0.65
+
+  Natural generation
+    Blocks of coal can generate in trail ruins.
+
+  Crafting
+    Blocks of coal can be crafted only from regular coal, not charcoal. It is crafted in the same way as other mineral blocks.
+
+    Ingredients,Crafting recipe
+    Coal,"[['Coal', 'Coal', 'Coal'], ['Coal', 'Coal', 'Coal'], ['Coal', 'Coal', 'Coal']]"
+
+Usage
+    Blocks of coal are often used to store coal in a compact fashion, or otherwise used as a fairly cheap construction block.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Coal,Block of Coal,"[[None, None, None], [None, '', None], [None, None, None]]"
+
+  Fuel
+    Blocks of coal can be used as fuel in a furnace. One block of coal lasts 800 seconds (16000 ticks), which smelts 80 items. This is ten times the duration of a single piece of coal and 11⁄9 times as efficient (+11.11%) as nine individual pieces of coal—which would only smelt 72 items. The latter, however, prevents inactive furnace use; while smelting one item with one coal wastes seven potential items, smelting one item with one block of coal wastes 79 potential items.
+
+  Note Blocks
+    Block of coal can be placed under note blocks to produce "bass drum" sounds.
+

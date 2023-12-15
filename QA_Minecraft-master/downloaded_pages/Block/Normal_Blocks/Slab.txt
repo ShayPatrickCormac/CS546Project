@@ -1,0 +1,94 @@
+Overview
+    Slabs are half-height versions of their respective blocks.
+
+Obtaining
+  Breaking
+    Stone-type slabs require a pickaxe to mine. Cut copper slabs require at least a stone pickaxe. Wooden slabs can be mined with anything, but an axe is quickest. Unlike stairs, many stone-type slabs have different hardness values (and thus, breaking time) compared to their full-block counterparts.[1]
+
+    Block,Cobbled Deepslate Polished Deepslate Deepslate Brick Deepslate Tile,Cut Copper,End Stone Brick,Stone Brick Blackstone (and variants) (Mossy) Cobblestone (Red) Nether Brick Purpur (Smooth) Quartz (Cut/Smooth) Sandstone (Cut/Smooth) Red Sandstone (Smooth) Stone,Mossy Stone Brick (Polished) Andesite (Polished) Diorite (Polished) Granite Prismarine (and variants) Mud Brick,Wooden
+    Hardness,3.5,3,3,2,1.5,2
+    Tool,wooden pickaxe,stone pickaxe,wooden pickaxe,wooden pickaxe,wooden pickaxe,Axe
+    Breaking time (sec) [A]
+    Default,17.5,15,15,10,7.5,3
+    Wooden,2.65,7.5,2.25,1.5,1.15,1.5
+    Stone,1.35,1.15,1.15,0.75,0.6,0.75
+    Iron,0.9,0.75,0.75,0.5,0.4,0.5
+    Diamond,0.7,0.6,0.6,0.4,0.3,0.4
+    Netherite,0.6,0.5,0.5,0.35,0.25,0.35
+    Golden,0.45,1.25,0.4,0.25,0.2,0.25
+
+    Most slabs drop themselves when broken. However, in Bedrock Edition, petrified oak slabs drop normal oak slabs. Double slabs drop 2 of their respective single slabs, even when mined with Silk Touch. In Java Edition, double slabs are completely unobtainable. In Bedrock Edition, they can be obtained through inventory editing.
+
+  Natural generation
+    Villages Ruined portal
+
+  Crafting
+    Name,Ingredients,Crafting recipe,Description
+    Wooden Slab,Matching Planks,"[[None, None, None], [None, None, None], ['Oak Planks', 'Oak Planks', 'Oak Planks']]",
+    Bamboo Mosaic Slab,Bamboo Mosaic,"[[None, None, None], [None, None, None], ['Bamboo Mosaic', 'Bamboo Mosaic', 'Bamboo Mosaic']]",
+    Stone Slab or Smooth Stone Slab,Stone or Smooth Stone,"[[None, None, None], [None, None, None], ['Stone', 'Stone', 'Stone']]",
+    Cobblestone Slab or Mossy Cobblestone Slab,Cobblestone or Mossy Cobblestone,"[[None, None, None], [None, None, None], ['Cobblestone', 'Cobblestone', 'Cobblestone']]",
+    Stone Brick Slab or Mossy Stone Brick Slab,Stone Bricks or Mossy Stone Bricks,"[[None, None, None], [None, None, None], ['Stone Bricks', 'Stone Bricks', 'Stone Bricks']]",
+    Granite Slab or Polished Granite Slab,Granite or Polished Granite,"[[None, None, None], [None, None, None], ['Granite', 'Granite', 'Granite']]",
+    Diorite Slab or Polished Diorite Slab,Diorite or Polished Diorite,"[[None, None, None], [None, None, None], ['Diorite', 'Diorite', 'Diorite']]",
+    Andesite Slab or Polished Andesite Slab,Andesite or Polished Andesite,"[[None, None, None], [None, None, None], ['Andesite', 'Andesite', 'Andesite']]",
+    Cobbled Deepslate Slab or Polished Deepslate Slab or Deepslate Brick Slab or Deepslate Tile Slab,Cobbled Deepslate or Polished Deepslate or Deepslate Bricks or Deepslate Tiles,"[[None, None, None], [None, None, None], ['Cobbled Deepslate', 'Cobbled Deepslate', 'Cobbled Deepslate']]",
+    Tuff Slab or Polished Tuff Slab or Tuff Brick Slab,Tuff or Polished Tuff or Tuff Bricks,"[[None, None, None], [None, None, None], ['Tuff', 'Tuff', 'Tuff']]",
+    Brick Slab,Bricks,"[[None, None, None], [None, None, None], ['Bricks', 'Bricks', 'Bricks']]",
+    Mud Brick Slab,Mud Bricks,"[[None, None, None], [None, None, None], ['Mud Bricks', 'Mud Bricks', 'Mud Bricks']]",
+    Sandstone Slab or Red Sandstone Slab,Sandstone or Chiseled Sandstone or Red Sandstone or Chiseled Red Sandstone,"[[None, None, None], [None, None, None], ['Sandstone', 'Sandstone', 'Sandstone']]",
+    Smooth Sandstone Slab or Cut Sandstone Slab,Smooth Sandstone or Cut Sandstone,"[[None, None, None], [None, None, None], ['Smooth Sandstone', 'Smooth Sandstone', 'Smooth Sandstone']]",
+    Smooth Red Sandstone Slab or Cut Red Sandstone Slab,Smooth Red Sandstone or Cut Red Sandstone,"[[None, None, None], [None, None, None], ['Smooth Red Sandstone', 'Smooth Red Sandstone', 'Smooth Red Sandstone']]",
+    Prismarine Slab or Prismarine Brick Slab or Dark Prismarine Slab,Prismarine or Prismarine Bricks or Dark Prismarine,"[[None, None, None], [None, None, None], ['Prismarine', 'Prismarine', 'Prismarine']]",
+    Nether Brick Slab or Red Nether Brick Slab,Nether Bricks or Red Nether Bricks,"[[None, None, None], [None, None, None], ['Nether Bricks', 'Nether Bricks', 'Nether Bricks']]",
+    Blackstone Slab or Polished Blackstone Slab or Polished Blackstone Brick Slab,Blackstone or Polished Blackstone or Polished Blackstone Bricks,"[[None, None, None], [None, None, None], ['Blackstone', 'Blackstone', 'Blackstone']]",
+    End Stone Brick Slab,End Stone Bricks,"[[None, None, None], [None, None, None], ['End Stone Bricks', 'End Stone Bricks', 'End Stone Bricks']]",
+    Purpur Slab,Any Purpur Block,"[[None, None, None], [None, None, None], ['Purpur Block', 'Purpur Block', 'Purpur Block']]",‌ [ Java Edition only ]
+    Purpur Slab,Purpur Block,"[[None, None, None], [None, None, None], ['Purpur Block', 'Purpur Block', 'Purpur Block']]",‌ [ Bedrock Edition only ]
+    Quartz Slab,Any Quartz Block,"[[None, None, None], [None, None, None], ['Block of Quartz', 'Block of Quartz', 'Block of Quartz']]",
+    Smooth Quartz Slab,Smooth Quartz Block,"[[None, None, None], [None, None, None], ['Smooth Quartz Block', 'Smooth Quartz Block', 'Smooth Quartz Block']]",
+    Unwaxed Cut Copper Slab,Matching Unwaxed Cut Copper,"[[None, None, None], [None, None, None], ['Cut Copper', 'Cut Copper', 'Cut Copper']]",
+    Waxed Cut Copper Slab,Matching Waxed Cut Copper,"[[None, None, None], [None, None, None], ['Waxed Cut Copper', 'Waxed Cut Copper', 'Waxed Cut Copper']]",
+    Waxed Cut Copper Slab,Matching Unwaxed Cut Copper Slab + Honeycomb,"[[None, None, None], ['Cut Copper Slab', 'Honeycomb', None], [None, None, None]]",
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe,Description
+    Stone Slab or Smooth Stone Slab,Stone or Smooth Stone,2 2,
+    Cobblestone Slab or Mossy Cobblestone Slab,Cobblestone or Mossy Cobblestone,2 2,
+    Stone Brick Slab or Mossy Stone Brick Slab,Stone or Stone Bricks or Mossy Stone Bricks,2 2 2,
+    Granite Slab or Polished Granite Slab,Granite or Polished Granite,2 2 2,
+    Diorite Slab or Polished Diorite Slab,Diorite or Polished Diorite,2 2 2,
+    Andesite Slab or Polished Andesite Slab,Andesite or Polished Andesite,2 2 2,
+    Cobbled Deepslate Slab or Polished Deepslate Slab or Deepslate Brick Slab or Deepslate Tile Slab,Cobbled Deepslate or Polished Deepslate or Deepslate Bricks or Deepslate Tiles,2 2 2 2,
+    Tuff Slab or Polished Tuff Slab or Tuff Brick Slab,Tuff or Polished Tuff or Tuff Bricks,2 2 2,
+    Brick Slab,Bricks,2,
+    Mud Brick Slab,Mud Bricks,2,
+    Sandstone Slab or Smooth Sandstone Slab,Sandstone or Smooth Sandstone,2 2,
+    Cut Sandstone Slab,Sandstone or Cut Sandstone,2,‌ [ Java Edition only ] [2]
+    Red Sandstone Slab or Smooth Red Sandstone Slab,Red Sandstone or Smooth Red Sandstone,2 2,
+    Cut Red Sandstone Slab,Red Sandstone or Cut Red Sandstone,2,‌ [ Java Edition only ] [2]
+    Prismarine Slab or Prismarine Brick Slab or Dark Prismarine Slab,Prismarine or Prismarine Bricks or Dark Prismarine,2 2 2,
+    Nether Brick Slab or Red Nether Brick Slab,Nether Bricks or Red Nether Bricks,2 2,
+    Blackstone Slab or Polished Blackstone Slab or Polished Blackstone Brick Slab,Blackstone or Polished Blackstone or Polished Blackstone Bricks,2 2 2 2 2 2,
+    End Stone Brick Slab,End Stone or End Stone Bricks,2,
+    Purpur Slab,Purpur Block,2,
+    Quartz Slab or Smooth Quartz Slab,Block of Quartz or Smooth Quartz Block,2 2,
+    Cut Copper Slab,Matching Block of Copper,8 8 8 8 8 8 8 8,
+    Cut Copper Slab,Matching Cut Copper,2 2 2 2 2 2 2 2,
+
+    Petrified oak slabs are the stone-type wooden slabs left from before Java Edition 1.3.1. They are now unobtainable in vanilla survival.
+
+Usage
+  Placement
+    Slabs can occupy either the top half or the bottom half of a block, or both: Slabs cannot be oriented vertically.
+
+  Crafting ingredient
+  Behavior
+    In Bedrock Edition a single slab (top or bottom) is transparent to light, while a double slab is opaque. The empty half of a slab block is also transparent to mobs, unlike other transparent blocks such as fences and glass, which players can see through but mobs cannot. A bottom placed on top of a hopper is transparent to items; the items fall through the bottom slab into the hopper. Without a hopper attached below, a bottom slab behaves as a solid surface. Falling block entities (like sand, gravel, and concrete powder) turn into their dropped form if they land on a bottom slab, as when they fall on a torch. Mobs see a slab as a full block when pathfinding. They can spawn on top slabs and double slabs, but not on bottom slabs. This can be used to prevent mob spawning in certain areas, such as mob farms. Generally, the top face of top slabs, the bottom face of bottom slabs, and all faces of double slabs are handled as solid blocks. Due to this, blocks that require a solid surface for placement can be placed on these faces. Double slabs are handled as a single block instead of two different slabs; as such, breaking one destroys the whole block and drop two slabs, as opposed to breaking only one slab within the block. "Double slabs" that are not aligned to the grid (i.e. a bottom slab on top of a top slab) are handled as separate blocks and are broken individually. Redstone dust placed on a top slab receives signals from redstone dust one block lower and adjacent, but cannot transmit signals down to that block. In Bedrock Edition, mobs standing on bottom slabs with air or another bottom slab below fail to pathfind correctly. They often end up spinning around in a small circle when they try to move. Due to the way blast rays propagate from an explosion, bottom slabs provide extremely effective absorption to explosions directly on top of them. In some cases, only the slab is destroyed from a TNT explosion directly on top of it. Explosions from end crystals and creepers are also weakened. Sneaking reduces the player's hitbox height to 1.5 blocks, allowing the player to fit through such a gap (for example, walking over a bottom slab with one block of air above it, or in a two block high tunnel with an upper slab on the ceiling). A player cannot walk from a block of soul sand directly up to a bottom slab without jumping – this applies not just to soul sand, but to any block 7⁄8 of a block high or shorter, because the maximum step height of the player is 0.6 of a block. The player can walk off a bottom slab while sneaking, because the sneaking prevents falling only when the distance is higher than one half block. If a single slab is placed in a water source block, or water is placed onto a single slab using a water bucket, the empty half of that slab's block is waterlogged. If a slab is placed in flowing water, a pocket of air is created in the unfilled half of the block. If the player's head is in this pocket, the player can breathe and see as clearly as from an air block. In Java Edition, if a single slab is placed in between two water sources or waterlogged blocks, the slab becomes waterlogged. A minecart on powered rails is not repelled by a slab, although it is repelled by a slab with a minecart on top.
+
+  Fuel
+    Overworld wooden slabs can be used as fuel in furnaces, smelting 0.75 items per slab in Java Edition, and 1.5 items per slab in Bedrock Edition.[3] Therefore in Bedrock Edition, wooden slabs (12 items per log) are twice as fuel efficient as wood planks (6 items per log), even more so than charcoal (8 items per log), which needs to be smelted in the first place.
+
+  Note blocks
+    Wooden slabs can be placed under note blocks to produce "bass" sounds. Stone slabs can be placed under note blocks to produce "bass drum" sounds.
+

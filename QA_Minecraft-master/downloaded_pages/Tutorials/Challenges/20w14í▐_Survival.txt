@@ -1,0 +1,25 @@
+Overview
+    Surviving in never explored dimensions is not easy. This tutorial helps you on how to survive on them.
+
+Creating a portal
+    This step is one of the simplest thought it may be hard for new players to obtain obsidian. You are going to create a nether portal and light it. After that, you are going to need a book and quill. Write something in it, sign it and throw in the portal. The portal may change color.
+
+Preparation
+    Being well-equipped is essential for survival in the dimensions. Lacking even a seemingly useless item in an unfortunate situation can put you in serious danger. However, be sure not to bring any items that have little or no use for your objective, leaving room to carry the loot you came to the Nether to find in the first place, as well as reduce the number of items lost if you die. This list is very similar to the Nether and the End essential lists.
+
+  Tools
+    Diamond Pickaxe or better (Preferably enchanted), Iron Shovel or better (Preferably enchanted), Iron Axe or better (Preferably enchanted)
+
+  Combat
+    Iron Armor or better (Preferably enchanted) Diamond Sword or better (Needs to be enchanted) Bow or Crossbow (Needs to be enchanted), Arrows (Preferably Tipped)
+
+  Foodstuffs
+    Any good food is useful in the custom dimensions such as Bread and Steak. Bring at least half stack.
+
+  General Supplies
+    Common blocks like Cobblestone and Dirt., A Water Bucket can be useful if the dimension allows placing water, Planks may be used to craft a variety of things including tools, weapons and other items., At least 10 Obsidian and a Flint and Steel to create a new portal to the overworld in case you get lost or the portal was destroyed., Torches are useful for illuminating the place you are, spawnproofing mobs and marking paths., AnEnder Pearl can save all your items if you use it correctly and in the correct moment., Iron Ingots are useful for creating equipment.
+
+Entering your dimension
+  Lag
+    Even with a good computer, the player may encounter a big lag spike upon entering a dimension. This can crash the game and you can lose all your progress mainly because of entities, containers, laggy models, etc. Sadly, there is no way to recover your world unless you have a backup. This version can only be well-played if you regularly create backups.
+

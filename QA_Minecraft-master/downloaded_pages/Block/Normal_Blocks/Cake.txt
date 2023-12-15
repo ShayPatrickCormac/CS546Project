@@ -1,0 +1,41 @@
+Overview
+    Cake is a food and a block that can be eaten by the player. A cake with candle is a light-producing variation created when a candle is used on an uneaten cake.
+
+Obtaining
+  Breaking
+    Once the cake is placed, it cannot be recollected even with the use of Silk Touch. Candle cakes always drop their respective candle when broken.
+
+    Block,Cake
+    Hardness,0.5
+    Breaking time (secs)
+    Default,0.75
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Upcoming Java Edition
+    Cake,Trial Chambers,Intersection chest,1–4,"39.7% { ""item"": ""Cake"", ""stacksize"": ""1–4"", ""chance"": 0.39719773101739475, ""structure"": ""Trial Chambers"", ""container"": ""Intersection chest"" }"
+    Bedrock Edition
+    Cake,Buried treasure,Chest,1,"4.1% { ""item"": ""Cake"", ""stacksize"": 1, ""chance"": 0.040848020267810314, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Milk Bucket + Sugar + Egg + Wheat,"[['Milk Bucket', 'Milk Bucket', 'Milk Bucket'], ['Sugar', 'Egg', 'Sugar'], ['Wheat', 'Wheat', 'Wheat']]",Empty buckets remain in the crafting grid after crafting the cake.
+
+  Trading
+    Expert-level farmer villagers can sell cake for a single emerald each. The chance is 2⁄7 in Java Edition.
+
+Usage
+    Unlike most food, the cake cannot be eaten as an item in the hotbar. Before being eaten, it must first be placed on top of a solid block. Placing the cake on a slab also works, as the slab acts like a solid block. The cake instead floats half a block on top of the slab. Each cake has seven "slices"; each use consumes one slice progressing inward from the west. A single slice restores 2 () hunger and 0.4 hunger saturation. Eating all seven slices of a cake restores 14 ( × 7) hunger and 2.8 hunger saturation. Since eating a cake comes with no animation, the cake can be eaten at a rate of one slice per tick. Multiple players can eat from the same cake at the same time. In Java Edition, eating cake makes no sound, unlike other foods. As a redstone component, when connected to a comparator, a whole cake emits a signal strength of 14. The signal strength decreases two units with each slice. Cake destroys falling blocks if placed under them, similar to a torch.
+
+  Pandas
+    Some pandas move toward a dropped cake to pick up and eat it. Some may not, depending on the cake's location.
+
+  Composting
+    Placing a cake into a composter raises the compost level by 1.
+
+  Piston interactivity
+    A cake is broken when pushed by a piston, and it drops nothing.
+
+  Cakes with candles
+    Using a candle on an uneaten cake creates a candle cake of that color (including uncolored). Eating any of the cake causes the candle to drop. Using flint and steel, fire charge, or any flaming projectile on an unlit candle cake lights its candle. Lit candle cakes emit a light level of 3. Interacting with the lit candle (but not the cake) extinguishes it.
+

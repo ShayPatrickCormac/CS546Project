@@ -1,0 +1,80 @@
+Overview
+    Coal is a mineral item mainly obtained from coal ore. It is primarily used for crafting torches and campfires, as well as fuel.
+
+Obtaining
+  Mining
+    Coal ore are mined using a pickaxe and drops 1 piece of coal. If the pickaxe is enchanted with Fortune, it may drop an extra piece per level of Fortune, up to a maximum of 4 with Fortune III.
+
+  Mob loot
+    Wither skeletons have a 1⁄3 chance of dropping a single coal upon death. The maximum amount of coal is increased by 1 per level of Looting. The chance of a wither skeleton not dropping any coal can be found using the formula 2 / (Looting Level + 3). For example, Looting III gives a 1⁄3 chance of not dropping any coal. All other amounts have an equal chance of occurring.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Coal,Monster Room,Chest,1–4,"26.6% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.26610816000000004, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,3–8,"27.3% { ""item"": ""Coal"", ""stacksize"": ""3–8"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Ancient City,Chest,6–15,"46.5% { ""item"": ""Coal"", ""stacksize"": ""6–15"", ""chance"": 0.4654112666071859, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Igloo,Chest,1–4,"70.4% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.7036114467820859, ""structure"": ""Igloo"", ""container"": ""Chest"" }"
+    Cold Ocean ruins,Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Coal"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Warm ruins suspicious sand,1,"13.3% { ""item"": ""Coal"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Shipwreck,Supply chest,2–8,"37.3% { ""item"": ""Coal"", ""stacksize"": ""2–8"", ""chance"": 0.3733254862763913, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Stronghold,Storeroom chest,3–8,"34.3% { ""item"": ""Coal"", ""stacksize"": ""3–8"", ""chance"": 0.34326506922961153, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Coal"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Underwater ruins,Small ruins chest,1–4,"84.2% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.8421943782381399, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Big ruins chest,1–4,"81% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.8100781882091176, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Village,Butcher's chest,1–3,"27.9% { ""item"": ""Coal"", ""stacksize"": ""1–3"", ""chance"": 0.27904475953099894, ""structure"": ""Village"", ""container"": ""Butcher's chest"" }"
+    Fisherman's chest,1–3,"43% { ""item"": ""Coal"", ""stacksize"": ""1–3"", ""chance"": 0.4299830488478805, ""structure"": ""Village"", ""container"": ""Fisherman's chest"" }"
+    Toolsmith's chest,1–3,"9.9% { ""item"": ""Coal"", ""stacksize"": ""1–3"", ""chance"": 0.0989873657501581, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Snowy house chest,1–4,"41.2% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.4118208436710489, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Woodland mansion,Chest,1–4,"26.6% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.26610816000000004, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Coal,Monster Room,Chest,1–4,"26.6% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.26610816000000004, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,3–8,"27.3% { ""item"": ""Coal"", ""stacksize"": ""3–8"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Ancient City,Chest,6–15,"46.5% { ""item"": ""Coal"", ""stacksize"": ""6–15"", ""chance"": 0.4654112666071859, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Igloo,Chest,1–4,"70.4% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.7036114467820859, ""structure"": ""Igloo"", ""container"": ""Chest"" }"
+    Cold Ocean ruins,Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Coal"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Warm ruins suspicious sand,1,"13.3% { ""item"": ""Coal"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Shipwreck,Supply chest,2–8,"37.3% { ""item"": ""Coal"", ""stacksize"": ""2–8"", ""chance"": 0.3733254862763913, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Stronghold,Storeroom chest,3–8,"28.5% { ""item"": ""Coal"", ""stacksize"": ""3–8"", ""chance"": 0.2845331813431661, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Underwater ruins,Big ruins chest,1–4,"81% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.8100781882091176, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Small ruins chest,1–4,"84.2% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.8421943782381399, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Village,Toolsmith's chest,1–3,"9.9% { ""item"": ""Coal"", ""stacksize"": ""1–3"", ""chance"": 0.0989873657501581, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Butcher's chest,1–3,"27.9% { ""item"": ""Coal"", ""stacksize"": ""1–3"", ""chance"": 0.27904475953099894, ""structure"": ""Village"", ""container"": ""Butcher's chest"" }"
+    Snowy house chest,1–4,"41.2% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.4118208436710489, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Woodland mansion,Chest,1–4,"26.6% { ""item"": ""Coal"", ""stacksize"": ""1–4"", ""chance"": 0.26610816000000004, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Coal,Block of Coal,"[[None, None, None], [None, 'Block of Coal', None], [None, None, None]]"
+
+  Smelting
+    Ingredients,Smelting recipe
+    Coal Ore + Any fuel,0.1
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Block of Coal,Coal,"[['', '', ''], ['', '', ''], ['', '', '']]"
+    Campfire,Stick + Coal + Any Log or Stem or Any Stripped Log or Stem or Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, 'Stick', None], ['Stick', '', 'Stick'], ['Oak Log', 'Oak Log', 'Oak Log']]"
+    Fire Charge,Blaze Powder + Coal + Gunpowder,"[[None, None, None], ['Blaze Powder', '', None], [None, 'Gunpowder', None]]"
+    Soul Torch,Coal + Stick + Soul Soil,"[[None, '', None], [None, 'Stick', None], [None, 'Soul Soil', None]]"
+    Torch,Coal + Stick,"[[None, None, None], [None, '', None], [None, 'Stick', None]]"
+
+  Fuel
+    When used in a furnace as a fuel, a piece of coal lasts 80 seconds (smelting up to 8 items), like charcoal. Coal used as fuel lasts more than 5 times longer than wood planks or wood logs used as fuel, being more efficient than any other use of wood for smelting in Java Edition, but outstripped by wooden slabs in Bedrock Edition. Coal and charcoal are also the only fuels accepted by furnace minecarts. They provide approximately four minutes of transit each.
+
+  Trading
+    Novice-level fisherman villagers have a 50% chance to buy 10 coal for one emerald. In Java Edition, novice-level armorer and toolsmith villagers have a 40% chance of offering to buy 15 coal for one emerald. Novice-level weaponsmith villagers and apprentice-level butcher villagers have 2⁄3 chance of offering to buy 15 coal for one emerald. In Bedrock Edition, novice-level armorer, toolsmith, and weaponsmith villagers and apprentice-level butcher villagers buy 15 coal for one emerald. Trades that involve coal cannot be substituted by charcoal.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Item tags,Translation key
+    Coal,coal,Item,coals,item.minecraft.coal
+
+    Bedrock Edition:
+
+    Name,Identifier,Alias ID,Numeric ID,Form,Item tags,Translation key
+    Coal,coal,coal / 0,302,Item,minecraft:coals,item.coal.name
+

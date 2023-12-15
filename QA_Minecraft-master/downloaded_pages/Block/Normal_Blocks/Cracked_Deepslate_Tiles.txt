@@ -1,0 +1,29 @@
+Overview
+    Cracked deepslate tiles are a cracked variant of deepslate tiles.
+
+Obtaining
+  Breaking
+    Cracked deepslate tiles can be obtained only by mining it with a pickaxe. When mined using any other tool, it drops nothing. Mining cracked deepslate tiles takes longer than mining deepslate.
+
+    Block,Cracked Deepslate Tiles
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+  Natural generation
+    Cracked deepslate tiles generate naturally in ancient cities.‌
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Cracked Deepslate Tiles,Deepslate Tiles + Any fuel,0.1
+
+Usage
+    Cracked deepslate tiles is a decorative block and is not used in any crafting or smelting recipes.
+

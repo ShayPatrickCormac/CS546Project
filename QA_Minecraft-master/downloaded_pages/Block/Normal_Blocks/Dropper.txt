@@ -1,0 +1,57 @@
+Overview
+    A dropper is a low-capacity storage block that can eject its contents into the world or into other containers when given a redstone signal.
+
+Obtaining
+  Breaking
+    A dropper can be mined with a pickaxe, in which case it drops itself and its contents. If mined without a pickaxe, the dropper drops only its contents.
+
+    Block,Dropper
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+  Crafting
+    Ingredients,Crafting recipe
+    Cobblestone + Redstone Dust,"[['Cobblestone', 'Cobblestone', 'Cobblestone'], ['Cobblestone', None, 'Cobblestone'], ['Cobblestone', 'Redstone Dust', 'Cobblestone']]"
+
+Usage
+    A dropper can be used as a container or as a redstone component to move items. A dropper can be placed so that its output faces in any direction, including up or down. When placed, the dropper's output faces toward the player. With default textures, the droppers output side looks like a face when positioned for horizontal output. Otherwise, the output side has a square hole. In Java Edition, droppers cannot be moved by pistons.
+
+  Container
+    A dropper has 9 slots of inventory space. To open the dropper GUI, use the Use Item control. To move items between the dropper inventory and the player inventory or hotbar while the dropper GUI is open, drag or shift-click the items. To exit the dropper GUI, use the Esc control. By default, the GUI of a dropper is labeled "Dropper". A dropper's GUI label can be changed by naming the dropper in an anvil before placing it. In Java Edition, droppers can also be renamed by using the /data command (for example, to label a dropper at (0,64,0) "Alice's Dropper", use /data merge block 0 64 0 {CustomName:'"Alice's Dropper"'}). In Java Edition, a dropper can be "locked" (or subsequently unlocked) by setting the dropper's Lock tag with the /data command. If a dropper's Lock tag is not blank, the dropper cannot be accessed except by players holding an item with the same name as the Lock tag's text. For example, to lock a dropper at (0,64,0) so that only players holding an item named "Alice's Key" can access the dropper, use /data merge block 0 64 0 {Lock:"Alice's Key"}.
+
+  Redstone component
+    A dropper can be used to eject items, or push items into another container. Activation A dropper can be activated by:
+an adjacent active power component (Exceptions: a redstone torch does not turn ON a dropper it is attached to)
+an adjacent powered opaque block (strongly-powered or weakly-powered)
+a powered redstone repeater or redstone comparator facing the dropper
+powered redstone dust configured to point at the dropper, or on top of it; a dropper is not activated by adjacent powered redstone dust that is configured to point in another direction. In addition to the methods above, droppers in Java Edition can also be activated by quasi-connectivity. A dropper activates if one of the methods above would activate a mechanism component in the block above the dropper, even if there is no mechanism component there (even if the block above the dropper is air or a transparent block), but only when the dropper receives a block update (including a redstone update within two blocks of the dropper). A dropper has a 2 redstone tick (4 game ticks, or 0.2 seconds barring lag) delay between activation and a response. During this time, additional inputs are ignored. Behavior When activated, a dropper waits 2 redstone ticks (4 game ticks, or 0.2 seconds barring lag) and then ejects one item from its inventory. The dropper does not continue to eject items while activated — ejection occurs only on the initial activation (the rising edge of an input signal). To eject multiple items, repeatedly activate the dropper with a clock circuit. If multiple slots are occupied by items, a random occupied slot is chosen for ejection. The slot is chosen when an item is ejected, not when the dropper is initially activated, thus it is possible to move items into or out of a dropper between its activation and item dispensing. If the dropper is facing a container, the ejected item is transferred into the container. If the container it is facing is full, or the item cannot be inserted into the container, the dropper does not activate. Otherwise, the item is ejected in the direction the dropper is facing, as if a player had used the Drop control. Even items that would be treated differently by a dispenser (such as arrows) are simply ejected by a dropper. A dropper makes a clicking noise (the random.click sound event) when activated empty or when ejecting items into air. It is silent when it successfully transfers an item into any kind of chest or barrel, or another dropper. A dropper is an opaque block, so powering it directly can cause adjacent mechanism components (including other droppers) to activate as well. A line of droppers, each pushing items into the next dropper, is known as a dropper pipe. A dropper pipe must be clocked to move items, but can be clocked to move items faster than a hopper pipe's transfer rate. When a dropper pipe pushes items upward, it is known as a droppervator (short for "dropper elevator"). Some containers interact with droppers in specific ways: Barrel, Boat with Chest, Dispenser, Dropper
+Droppers interact normally with barrels, boats with chests, dispensers, and other droppers. Brewing Stand
+A dropper facing toward a brewing stand from above deposits only into the ingredient slot and it can insert only valid brewing ingredients. A dropper facing toward a brewing stand from the sides or from below can deposit only blaze powder in the fuel slot, or filled bottles into the three brew slots. Chest, Trapped Chest
+Large chests and large trapped chests are treated as a single container: a dropper depositing into a large chest fills up the entire chest. Trapped chests being accessed by a player trigger any adjacent droppers, depositing items into the chest if they are facing toward it. Chiseled Bookshelf
+A dropper facing toward a chiseled bookshelf from any direction can insert books, books and quills, written books, enchanted books, and knowledge books. Crafter‌[upcoming: JE 1.21 & BE 1.21.0]
+Droppers can insert ingredients in the crafting grid. Items are distributed in enabled slots, going left to right starting from the first row; if the crafter has all item slots filled then items are added to the lowest count item stack of the same type. Composter
+A dropper facing toward a composter from above can push compostable items into the composter, with a chance of increasing the compost level as if the player used the item on the composter. Decorated Pot‌[upcoming: JE 1.20.3 & BE 1.20.50]
+Droppers can deposit up to a stack of a single type of item into a decorated pot. Items are not inserted if the decorated pot is full or the pot contains a different item. Ender Chest
+Droppers cannot interact with ender chests in any way. Furnace, Blast Furnace, Smoker
+A dropper facing toward a furnace from above deposits only into the ingredient slot. It can insert any item, including items that can't be smelted by the furnace. A dropper facing toward a furnace from the sides or from below deposits only into the fuel slot, and only items that are usable as fuel. Hopper
+A dropper facing toward a hopper can insert items even if the hopper is locked by an active redstone signal. Jukebox
+A dropper can insert music discs into a jukebox from any direction. The dropper does not activate if the jukebox is already playing a disc. Lectern
+Droppers cannot interact with lecterns in any way. Minecart with Chest, Minecart with Hopper
+A dropper fills chest minecarts and hopper minecarts if any part of the entity's hitbox is within the dropper's target block-space. A dropper can fill a hopper minecart even if the hopper minecart has been locked by an activator rail. Shulker Box
+Droppers cannot put shulker boxes into other shulker boxes. Otherwise, droppers interact with shulker boxes normally.
+
+  Note Blocks
+    Droppers can be placed under note blocks to produce "bass drum" sounds.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Crafter,Iron Ingot + Crafting Table + Redstone Dust + Dropper,"[['Iron Ingot', 'Iron Ingot', 'Iron Ingot'], ['Iron Ingot', 'Crafting Table', 'Iron Ingot'], ['Redstone Dust', '', 'Redstone Dust']]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+

@@ -1,0 +1,126 @@
+Overview
+    Chestplates are a type of armor that covers the upper body of the player. There are six types of chestplates: leather, chainmail, iron, diamond, gold and netherite.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Leather or Gold Ingot or Iron Ingot or Diamond,"[['Leather', None, 'Leather'], ['Leather', 'Leather', 'Leather'], ['Leather', 'Leather', 'Leather']]",
+    Damaged Matching Chestplate,"[[None, None, None], ['Leather Tunic', 'Leather Tunic', None], [None, None, None]]","The durability of the two chestplates is added together, making a fully healed chestplate. You can get 5% more durability while using a grindstone to fix."
+
+  Upgrading
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Chestplate + Netherite Ingot,Upgrade Gear
+
+  Repairing
+    Ingredients,Grinding recipe,Description
+    Damaged Matching Chestplates,,"The durability of the two chestplates are added together, plus an extra 5% durability."
+
+    Chestplates can be repaired in an anvil by adding units of the armor material's repair material, with each repair material restoring 25% of the chestplate's maximum durability, rounded down.
+
+  Natural generation
+    Two armor stands are found in each taiga village outdoor armory, one of them equipped with an iron chestplate.
+
+  Chest loot
+    In Bedrock Edition, a sealed room in woodland mansions can appear that has a chest sometimes containing an Efficiency I leather tunic.[1]
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Leather Tunic,Buried treasure,Chest,1,"25% { ""item"": ""Leather Tunic"", ""stacksize"": 1, ""chance"": 0.25, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Underwater ruins,Big ruins chest,1,"4.3% { ""item"": ""Leather Tunic"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Small ruins chest,1,"8.3% { ""item"": ""Leather Tunic"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Village,Tanner's chest,1,"31.8% { ""item"": ""Leather Tunic"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Enchanted Leather Tunic [A],Shipwreck,Supply chest,1,"20.8% { ""item"": ""Enchanted Leather Tunic"", ""stacksize"": 1, ""chance"": 0.20778331426627006, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Chainmail Chestplate,Woodland mansion,Chest,1,"14.9% { ""item"": ""Chainmail Chestplate"", ""stacksize"": 1, ""chance"": 0.14937636174484936, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Iron Chestplate,Stronghold,Altar chest,1,"12% { ""item"": ""Iron Chestplate"", ""stacksize"": 1, ""chance"": 0.12006249999999996, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Chestplate"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Chestplate [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Chestplate"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Golden Chestplate,Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Golden Chestplate"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Nether fortress,Chest,1,"19% { ""item"": ""Golden Chestplate"", ""stacksize"": 1, ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Enchanted Golden Chestplate [A],Bastion remnant,Bridge chest,1,"11.2% { ""item"": ""Enchanted Golden Chestplate"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Chestplate"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Diamond Chestplate,Bastion remnant,Treasure chest,1,"15.8% { ""item"": ""Diamond Chestplate"", ""stacksize"": 1, ""chance"": 0.15757887517146774, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Woodland mansion,Chest,1,"7.7% { ""item"": ""Diamond Chestplate"", ""stacksize"": 1, ""chance"": 0.07669382792833823, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Enchanted Diamond Chestplate [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Chestplate"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Damaged Enchanted Diamond Chestplate [A] [C],Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Damaged Enchanted Diamond Chestplate"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Bedrock Edition
+    Leather Tunic,Underwater ruins,Big ruins chest,1,"4.3% { ""item"": ""Leather Tunic"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Small ruins chest,1,"8.3% { ""item"": ""Leather Tunic"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Village,Tanner's chest,1,"31.8% { ""item"": ""Leather Tunic"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Enchanted Leather Tunic [A],Shipwreck,Supply chest,1,"20.8% { ""item"": ""Enchanted Leather Tunic"", ""stacksize"": 1, ""chance"": 0.20778331426627006, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Chainmail Chestplate,Buried treasure,Chest,1,"57.2% { ""item"": ""Chainmail Chestplate"", ""stacksize"": 1, ""chance"": 0.5722759899564946, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Woodland mansion,Chest,1,"14.7% { ""item"": ""Chainmail Chestplate"", ""stacksize"": 1, ""chance"": 0.14718169857549623, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Iron Chestplate,Stronghold,Altar chest,1,"11.6% { ""item"": ""Iron Chestplate"", ""stacksize"": 1, ""chance"": 0.11648616558453506, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Chestplate"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Chestplate [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Chestplate"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Golden Chestplate,Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Golden Chestplate"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Nether fortress,Chest,1,"19% { ""item"": ""Golden Chestplate"", ""stacksize"": 1, ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Enchanted Golden Chestplate [A],Bastion remnant,Bridge chest,1,"11.2% { ""item"": ""Enchanted Golden Chestplate"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Chestplate"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Diamond Chestplate,Bastion remnant,Treasure chest,1,"15.8% { ""item"": ""Diamond Chestplate"", ""stacksize"": 1, ""chance"": 0.15757887517146774, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Woodland mansion,Chest,1,"7.6% { ""item"": ""Diamond Chestplate"", ""stacksize"": 1, ""chance"": 0.07553570483040006, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Enchanted Diamond Chestplate [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Chestplate"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Damaged Enchanted Diamond Chestplate [A] [C],Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Damaged Enchanted Diamond Chestplate"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+
+  Mob loot
+    Zombies and skeletons have a small chance to spawn wearing any armor. There is an 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop a chestplate upon death. The chestplate the mob drops is usually badly damaged, and rarely enchanted. Vindicators and Pillagers spawning in raids have a 4.1% chance (5.12% on hard difficulty) to drop iron chestplate, which is almost always badly damaged and rarely enchanted.
+
+  Trading
+    In Java Edition, novice-level armorer villagers have a 40% chance to sell an iron chestplate for 9 emeralds. Journeyman-level armorers have a 40% chance to sell a chainmail chestplate for 4 emeralds. Master-level armorers always sell an enchanted[note 1] diamond chestplate for 18-35 emeralds. Novice-level leatherworker villagers have a 2⁄3 chance to sell a leather tunic[note 2] for 7 emeralds. Journeyman-level Leatherworker villagers always offer the same trade. Armorer villagers may give the players with the Hero of the Village effect a chainmail chestplate. In Bedrock Edition, novice-level armorer villagers have a 25% chance to sell an iron chestplate for 9 emeralds. Journeyman-level armorers have a 1⁄3 chance to sell a chainmail chestplate for 4 emeralds. Master-level armorers have a 50% chance to sell an enchanted[note 1] diamond chestplate for 16 emeralds. Novice-level leatherworker villagers have a 50% chance to sell leather tunic for 7 emeralds. Master-level leatherworkers always sell an enchanted[note 1] leather tunic for 7 emeralds.
+
+Usage
+    Chestplates can be placed in the 2nd armor slot of a player's inventory for activation.
+
+  Defense points
+    Defense points are each signified by chestplates in the armor bar above the health bar. 1 defense point is half of a chestplate in the armor bar. Each defense point reduces any damage dealt to the player, which is absorbed by armor by 4%, increasing additively with the number of defense points. Different materials and combinations of armor provide different levels of defense. The following table shows the amount of defense points added by chestplates.
+
+    Material,Defense points
+    Leather,3 ( )
+    Golden,5 ( )
+    Chainmail
+    Iron,6 ( )
+    Diamond,8 ( )
+    Netherite
+
+  Knockback Resistance
+    A netherite chestplate provides 10% knockback resistance.
+
+  Durability
+    The following table shows the amount of damage each piece of armor can absorb before being destroyed. Any "hit" from a damage source that can be blocked by armor removes one point of durability from each piece of armor worn for every 4 of incoming damage (rounded down, but never below 1). Damage taken that unenchanted armor does not protect against (such as falling or drowning) does not damage the armor, even if it is enchanted to protect against that type of damage. The following chart displays how many hits chest plates can endure. Netherite armor is not damaged by lava or fire when worn.
+
+    Material,Durability
+    Leather,80
+    Golden,112
+    Chainmail,240
+    Iron
+    Diamond,528
+    Netherite,592
+
+    Chestplates may be repaired by using them along with some of their crafting material (leather, gold ingots, iron ingots, diamonds, or netherite ingots) in an anvil. Chainmail chestplates may be repaired in this way with iron ingots. They may also be repaired by crafting them together with another chestplate of the same material.
+
+  Enchantments
+    A chestplate can receive the following enchantments:
+
+    Enchantment,Max Level,Notes
+    Fire Protection,IV,[note 1]
+    Projectile Protection,IV,[note 1]
+    Blast Protection,IV,[note 1]
+    Protection,IV,[note 1]
+    Unbreaking,III,
+    Thorns,III,[note 2]
+    Mending,I,[note 3]
+    Curse of Binding,I,[note 3]
+    Curse of Vanishing,I,[note 3]
+
+  Armor trimming
+    It is possible to upgrade armor with trims. This requires a smithing template, a chestplate, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, or diamond). These trims have no effect on the gameplay or strength of the armor.
+
+    Ingredients,Smithing recipe
+    Any Armor Trim + Any Chestplate + Any Ingot/Crystal,Upgrade Gear
+
+  Smelting usage
+    Name,Ingredients,Smelting recipe
+    Iron Nugget or Gold Nugget,Iron Chestplate or Chainmail Chestplate or Golden Chestplate + Any fuel,0.1
+
+  Piglins
+    Piglins are attracted to golden chestplates and pick them up, examining them for 6 to 8 seconds. Piglins can wear other chestplates but are not attracted to them. They prefer stronger chestplates over weaker chestplates, with one exception: They always prefer golden chestplates over all other chestplates, throwing out stronger chestplates to equip them. Enchanted chestplates are preferred over unenchanted chestplates.
+

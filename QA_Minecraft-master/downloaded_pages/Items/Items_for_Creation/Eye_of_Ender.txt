@@ -1,0 +1,24 @@
+Overview
+    An eye of ender is a craftable item used to locate strongholds and activate the end portals within them.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Blaze Powder + Ender Pearl,"[[None, None, None], ['Blaze Powder', 'Ender Pearl', None], [None, None, None]]"
+
+Usage
+  Locating strongholds
+    To locate strongholds (and the end portals they house): Note that the eyes may point to an incorrect location if the target chunks were generated with a different biomes map in an older version or through different generation settings.[1]
+
+  Activating end portals
+    Once an end portal is found, the eyes of ender are required to activate it. End portals require a total of 12 eyes of ender in order to activate, though each individual frame-block has a 10% chance of containing an eye of ender when generated. Eyes can be placed in empty End portal frames by pressing use on them until the entire ring of 12 is filled, thereby activating the portal. Due to the fact that there is a 10% chance of each individual end portal frame having an eye in it, there is a one out of one trillion chance of every frame having an eye in it thereby activating the portal even if the player doesn't have any eyes of ender.
+
+    Eyes,0,1,2,3,4,5-12
+    Exactly,28%,38%,23%,9%,2%,<1%
+    Or More,100%,72%,34%,11%,3%,<1%
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    End Crystal,Glass + Eye of Ender + Ghast Tear,"[['Glass', 'Glass', 'Glass'], ['Glass', '', 'Glass'], ['Glass', 'Ghast Tear', 'Glass']]"
+    Ender Chest,Obsidian + Eye of Ender,"[['Obsidian', 'Obsidian', 'Obsidian'], ['Obsidian', '', 'Obsidian'], ['Obsidian', 'Obsidian', 'Obsidian']]"
+

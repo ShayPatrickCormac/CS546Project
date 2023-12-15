@@ -1,0 +1,39 @@
+Overview
+    A smooth quartz block is a mineral block used only for decoration. It is made by smelting blocks of quartz.
+
+Obtaining
+  Breaking
+    Smooth quartz blocks can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Smooth Quartz Block
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    2 smooth quartz blocks generate naturally as part of each bridge bastion remnant.
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Smooth Quartz Block,Block of Quartz + Any fuel,0.1
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Smooth Quartz Slab,Smooth Quartz Block,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Smooth Quartz Stairs,Smooth Quartz Block,"[['', None, None], ['', '', None], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Smooth Quartz Block,2
+
+  Note Blocks
+    Smooth quartz blocks can be placed under note blocks to produce "bass drum" sounds.
+

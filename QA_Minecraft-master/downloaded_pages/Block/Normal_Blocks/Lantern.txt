@@ -1,0 +1,35 @@
+Overview
+    Lanterns are blocks that emit light. There is a green variant of the lantern that appeared in Minecraft Live 2023. Its function is unknown.
+
+Obtaining
+  Breaking
+    When broken with a pickaxe, a lantern drops itself. When broken without a pickaxe, it drops nothing. A lantern always drops if its supporting block is removed.
+
+    Block,Lantern
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+  Natural generation
+    Lanterns can generate as lamps or lamp posts above farms and on some buildings in snowy tundra villages and in bastion remnants.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Nugget + Torch,"[['Iron Nugget', 'Iron Nugget', 'Iron Nugget'], ['Iron Nugget', 'Torch', 'Iron Nugget'], ['Iron Nugget', 'Iron Nugget', 'Iron Nugget']]"
+
+  Trading
+    Apprentice-level librarian villagers have a 50%‌[Bedrock Edition  only] or 66.7%‌[Java Edition  only] chance of selling a lantern for an emerald as part of their trades.
+
+Usage
+    Lanterns can be placed on the top or bottom surfaces of most solid blocks, although some require sneaking. More information can be found at Opacity/Placement. When placed below a block the lantern appears to hang. They connect to chains seamlessly. Lanterns can be placed (if a support platform is presented) or hanging (if a ceiling block is presented). The type of the block (solid, opaque, transparent, etc... given the block has top/bottom solid surface) does not affect the ability to hang of a lantern, similar to torches. Press use on the targeted block or a block adjacent to the air block the lantern is going to occupy to place it. If the latter is used and both the support/ceiling block is presented: If the object the lantern is placed on receive a block update that does not support the placement of the lantern, it is removed and drop as an item (e.g: lantern on a trapdoor and the trapdoor is flipped).
+
+  Light
+    The lantern is among the most luminous of light sources, emitting a light level of 15. Lanterns also melt snow layers within 2 blocks and ice within 3 blocks (taxicab distance).
+

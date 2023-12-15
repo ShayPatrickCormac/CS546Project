@@ -1,0 +1,34 @@
+Overview
+    Concrete is a block created when concrete powder touches water. It comes in the sixteen dye colors.
+
+Obtaining
+  Breaking
+    Concrete requires a pickaxe to be mined. When mined without a pickaxe, it drops nothing.
+
+    Block,Concrete
+    Hardness,1.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,9
+    Wooden,1.35
+    Stone,0.7
+    Iron,0.45
+    Diamond,0.35
+    Netherite,0.3
+    Golden,0.25
+
+  Natural generation
+    Red and cyan concrete can be found in trail ruins.
+
+  Post-generation
+    Concrete is formed when concrete powder comes into contact with a block of water (source block, flowing or waterlogged). If next to a waterlogged block, it must be adjacent to the sides where water can flow out from, such as the open sides of stairs, but not the back side of stairs or any sides of waterlogged leaves.
+
+  Renewability
+    Concrete is renewable as all of the crafting ingredients of concrete powder are renewable. However, without glitches, sand is only renewably obtained through the wandering trader, which spawns infrequently and only allows a limited number of trades per spawn, making it impractical to obtain it (and by extension, concrete) through only renewable means.
+
+Usage
+    The bright and solid colors of concrete make it useful for decoration. It has more pronounced colors than terracotta, and unlike wool, is not flammable. As a building material, its hardness is slightly higher than stone, but its blast resistance is significantly lower.[1]
+
+  Note Blocks
+    Concrete can be placed under note blocks to produce "bass drum" sound.
+

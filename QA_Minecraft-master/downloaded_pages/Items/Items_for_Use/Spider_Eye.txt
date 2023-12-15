@@ -1,0 +1,27 @@
+Overview
+    A spider eye is a poisonous food and brewing item.
+
+Obtaining
+  Mob loot
+    Spiders and cave spiders have a 1⁄3 chance of dropping a spider eye when killed by a player or tamed wolf, but not when killed by environmental damage (such as falling). The maximum amount of spider eyes is increased by 1 per level of Looting. The chance of a spider not dropping any spider eyes can be found using the formula 2 / (Looting Level + 3). For example, Looting III gives a 1⁄3 chance of not dropping any spider eyes. All other amounts have an equal chance of occurring. Witches have a chance of dropping 0–6 spider eyes upon death. This is increased by 3 per level of Looting, for a maximum of 0-15 spider eyes.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Spider Eye,Desert temple,Chest,1–3,"28.7% { ""item"": ""Spider Eye"", ""stacksize"": ""1–3"", ""chance"": 0.2866099895922952, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Spider Eye,Desert temple,Chest,1–3,"28.7% { ""item"": ""Spider Eye"", ""stacksize"": ""1–3"", ""chance"": 0.2866099895922952, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+
+Usage
+  Food
+    When eaten, a spider eye restores 2 () hunger points and 3.2 saturation points, giving a nourishment value of 1.6. It also applies a Poison effect lasting 5 seconds to the player, causing 4 damage, which reduces hunger/saturation by 6 points.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Fermented Spider Eye,Brown Mushroom + Sugar + Spider Eye,"[[None, None, None], ['Brown Mushroom', 'Sugar', None], [None, '', None]]"
+
+  Brewing ingredient
+    Name,Ingredients,Brewing recipe
+    Mundane Potion,Spider Eye + Water Bottle,output:Mundane Potion
+    Potion of Poison,Spider Eye + Awkward Potion,output:Potion of Poison
+

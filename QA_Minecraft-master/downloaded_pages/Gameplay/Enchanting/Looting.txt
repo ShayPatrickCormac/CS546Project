@@ -1,0 +1,18 @@
+Overview
+    Looting is an enchantment for swords that can cause mobs to drop more items and increases the chances of rare drops. The additional drops do not affect experience.
+
+Usage
+    Increases the maximum number of items for most common drops by 1 per level. It increases the chance of rare drops by making a second attempt to drop if the original attempt failed. The success chance of this second attempt is level / (level + 1). Looting also increases the chance of rare drops and equipment drops by 1 percentage point per level. Looting affects any kills while holding the enchanted item in the main hand, not only to kills with the enchanted item.[1] For example, a player can fire a projectile then switch to the Looting item before the projectile reaches the target to get the Looting effect, or can fire a projectile from the off-hand‌[Java Edition  only] while holding a Looting item in the main hand. This allows Looting to work on arrows or thrown tridents, as long as the player is holding the Looting item when the arrow or trident lands. Looting applies to mobs killed with a sweep attack.‌[Java Edition  only] Using commands to get higher levels than 3 works as expected, adding higher numbers with a weight of 1. High enough numbers however (like level 2500) may crash the game due to too many dropped item entities. Looting has no effect in certain cases:
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Looting,looting,enchantment.minecraft.looting
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Looting,looting,14,enchantment.lootBonus
+

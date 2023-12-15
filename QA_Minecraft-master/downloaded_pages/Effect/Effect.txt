@@ -1,0 +1,173 @@
+Overview
+    An effect[note 1] is a helpful or harmful condition that affects an entity. Effects can be inflicted in various ways throughout the game, including consuming potions and some food items, being in the range of beacons and conduits, and being attacked by or close to certain mobs. The /effect command allows players to inflict effects upon themselves and other entities.
+
+Behavior
+    Any entities inflicted by an effect are affected in various ways for an amount of time. During the effect, spiral-shaped particles emanate from the position of the inflicted entity. For most effects, higher levels increase the strength of the effect. In Java Edition, players can open their inventory to see any current effects afflicted upon them, as well as the levels and duration of each. In Bedrock Edition, effects are displayed in a separate screen, which can be opened by pressing Z on a keyboard, pressing // on a controller, or tapping the effect icon when using touch controls. Internally, in the /effect command, and in potion Amplifier NBT tags, the game stores an "amplifier" value, which is one less than the displayed level. For example, Strength II has an amplifier value of 1. Any number of different effects, including opposing effects such as Strength and Weakness, can be simultaneously active on a player. However, it is not possible to apply the same effect multiple times, even if they are of different levels (e.g. Strength and Strength II). When applying an effect already active on the player, higher levels overwrite lower levels, and higher durations overwrite lower durations of the same level. In Java Edition, when the stronger effect overrides the weaker effect, the weaker effect remains, but is hidden. It returns after the stronger effect expires, if the weaker effect has a higher duration than the stronger effect. This change makes it impossible to create custom potion antidotes by applying an amplified effect with a one tick duration.[verify] In Bedrock Edition, when a stronger effect overrides the weaker effect, the weaker effect is deleted and does not return.[1] In Java Edition, play can use /effect give <targets> <effect> infinite to make effect last infinitely. When drinking from milk bucket, dying, being saved from death by a totem of undying, or traveling through the exit portal in the End,[2] all status effects are removed. Single-player users with cheats enabled and operators in multiplayer servers can use /effect clear <playername>‌[Java Edition  only] or /effect <playername> clear‌[Bedrock Edition  only] to achieve the same goal. Damage dealt by effects (a kind of "magical damage") completely bypasses armor, making it a good way to deal with highly-armored targets (Protection enchantments reduce damage taken from effects, however). Witches are the only mob to have natural protection against effects, taking 85% less‌[Java Edition  only] or 95% less‌[Bedrock Edition  only] damage from effects.
+
+Immunity
+    Effects can only be applied to living entities. Of these, certain entities are immune to some or all effects:
+
+Effect list
+    In Java Edition, positive effects have blue text in potion information and are displayed on the upper row of effects in the heads up display, while negative effects have red potion text and are displayed in the bottom row. Neutral effects have the blue potion text and are listed with the negative effects in the bottom row in the heads up display. In Bedrock Edition, negative effect names in potion and tipped arrow tooltips are shown in red; positive and neutral effect names in these contexts, and all effect names in the "Mob effects" screen, are shown in white.
+
+    Icon,Display name,Name,Effect,Type,ID (J.E.),ID (B.E.)
+    speed,Speed,speed,Increases walking speed; higher levels make the affected entity faster and increases the player's field of view when affected,Positive,1,1
+    slowness,Slowness,slowness,Decreases walking speed; higher levels make the affected entity slower and decreases the player's field of view when affected,Negative,2,2
+    haste,Haste,haste,"Increases mining and attack speed , higher levels increase the player's mining and attack speed",Positive,3,3
+    mining fatigue,Mining Fatigue,mining_fatigue,"Decreases mining and attack speed , higher levels decrease the player's mining and attack speed",Negative,4,4
+    strength,Strength,strength,"Increases melee damage , higher levels make the affected entity do more melee damage",Positive,5,5
+    instant health,Instant Health,instant_health,"Heals living entities , damages undead , higher levels heal more health and do more damage",Positive,6,6
+    instant damage,Instant Damage,instant_damage,"Damages living entities , heals undead , higher levels do more damage and heal more health",Negative,7,7
+    jump boost,Jump Boost,jump_boost,"Increases jump height and reduces fall damage, higher levels make the affected entity jump higher and reduces more fall damage",Positive,8,8
+    nausea,Nausea,nausea,Wobbles and warps the screen,Negative,9,9
+    regeneration,Regeneration,regeneration,"Regenerates health over time, higher levels make health regenerate quicker",Positive,10,10
+    resistance,Resistance,resistance,"Reduces damage, higher levels reduce more damage",Positive,11,11
+    fire resistance,Fire Resistance,fire_resistance,"Prevents the affected entity from taking damage due to Fire , lava and other sources of fire damage",Positive,12,12
+    water breathing,Water Breathing,water_breathing,Prevents drowning and lets the affected entity breathe underwater,Positive,13,13
+    invisibility,Invisibility,invisibility,"Grants invisibility, making the affected entity invisible (but not the item they hold or the armor they wear), and reduces other mobs' detection range for the affected entity, higher levels reduce other mobs' detection range more",Positive,14,14
+    blindness,Blindness,blindness,Impairs vision and disables the ability to sprint and critical hit,Negative,15,15
+    night vision,Night Vision,night_vision,Lets the player see well in darkness and underwater,Positive,16,16
+    hunger,Hunger,hunger,"Increases food exhaustion , higher levels cause the player to starve quicker",Negative,17,17
+    weakness,Weakness,weakness,"Decreases melee damage , higher levels decrease more melee damage",Negative,18,18
+    poison,Poison,poison,"Inflicts damage over time (but can't kill), higher levels do more damage per second, doesn't affect undead",Negative,19,19
+    wither,Wither,wither,"Inflicts damage over time (can kill), higher levels do more damage per second",Negative,20,20
+    health boost,Health Boost,health_boost,"Increases maximum health , higher levels give the affected entity more maximum health",Positive,21,21
+    absorption,Absorption,absorption,"Adds damage absorption (additional hearts that can't be regenerated), higher levels give more absorption",Positive,22,22
+    saturation,Saturation,saturation,Restores hunger and saturation,Positive,23,23
+    glowing,Glowing ‌ [ Java Edition only ],glowing,Outlines the affected entity (can be seen through blocks ),Neutral,24,N/A
+    levitation,Levitation,levitation,Floats the affected entity upward,Negative,25,24
+    luck,Luck ‌ [ Java Edition only ],luck,"Can increase chances of high-quality and more loot, higher levels increase the chances of better loot",Positive,26,N/A
+    unluck,Bad Luck ‌ [ Java Edition only ],unluck,"Can reduce chances of high-quality and more loot, higher levels reduce the chance of good loot",Negative,27,N/A
+    poison,Fatal Poison ‌ [ Bedrock Edition only ],fatal_poison,Inflicts damage over time and potentially kills,Negative,N/A,25
+    slow falling,Slow Falling,slow_falling,Decreases falling speed and negates fall damage,Positive,28,27
+    conduit power,Conduit Power,conduit_power,"Increases underwater visibility and mining speed, prevents drowning",Positive,29,26
+    dolphins grace,Dolphin's Grace ‌ [ Java Edition only ],dolphins_grace,Increases swimming speed (only obtainable from dolphins),Positive,30,N/A
+    bad omen,Bad Omen,bad_omen,"Causes an illager raid to start upon entering a village (only received from an Illager captain upon its death), higher levels cause a more difficult raid‌ [ JE only ]",Neutral,31,28
+    hero of the village,Hero of the Village,hero_of_the_village ‌ [ JE only ] village_hero ‌ [ BE only ],"Gives discounts on trades with villagers , and makes villagers throw items at the player depending on their profession",Positive,32,29
+    darkness,Darkness,darkness,Darkens the players screen,Negative,33,30
+
+  Joke effects
+    These effects exist only in 15w14a:
+
+    Icon,Display name,Name,Effect,Type,ID (J.E.)
+    slowness revision 1,Caring,slowness,Changes the mob AI to move toward the nearest mob as if it were to attack it,Negative,2
+    poison revision 1,poison,Negative,19
+    weakness revision 1,Sharing,weakness,"Drops items in a random amount of time, ranging from food to rare items like saddles or diamonds",Negative,18
+
+    These effects exist only in 23w13a_or_b:
+
+    Icon,Display name,Name,Effect,Type,ID (J.E.)
+    big,Big,big,Make the entity bigger,Neutral,34
+    small,Small,small,Make the entity smaller,Neutral,35
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    stayin frosty,stayin frosty,"Stayin' Frosty { ""anchor"": """", ""title"": ""Stayin' Frosty"", ""icon"": """", ""title"": ""Stayin' Frosty"", ""description"": ""Swim in lava while having the Fire Resistance effect.
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Lil' Chilly"" outerwear
+"" }",Swim in lava while having the Fire Resistance effect.,—,20G,Bronze
+    free diver,free diver,"Free Diver { ""anchor"": """", ""title"": ""Free Diver"", ""icon"": """", ""title"": ""Free Diver"", ""description"": ""Stay underwater for 2 minutes
+ "", ""requirements"": ""Drink a potion of water breathing that can last for 2 minutes or more, then jump into the water or activate a conduit or sneak on a magma block underwater for 2 minutes.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Underwater Dancing"" emote
+"" }",Stay underwater for 2 minutes,"Drink a potion of water breathing that can last for 2 minutes or more, then jump into the water or activate a conduit or sneak on a magma block underwater for 2 minutes.",20G,Silver
+    great view from up here,great view from up here,"Great View From Up Here { ""anchor"": """", ""title"": ""Great View From Up Here"", ""icon"": """", ""title"": ""Great View From Up Here"", ""description"": ""Levitate up 50 blocks from the attacks of a Shulker
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Elder Dragon Wings"" back item
+"" }",Levitate up 50 blocks from the attacks of a Shulker,—,20G,Bronze
+    were being attacked,were being attacked,"We're being attacked! { ""anchor"": """", ""title"": ""We're being attacked!"", ""icon"": """", ""title"": ""We're being attacked!"", ""description"": ""Trigger a Pillager Raid.
+ "", ""requirements"": ""Walk in a village with the Bad Omen effect applied.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Trigger a Pillager Raid.,Walk in a village with the Bad Omen effect applied.,20G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,A Furious Cocktail,Have every potion effect applied at the same time,Local Brewery,"Have all of these 13 status effects applied to the player at the same time: Fire Resistance Invisibility Jump Boost Night Vision Poison Regeneration Resistance Slow Falling Slowness Speed Strength Water Breathing Weakness The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.","nether/all_potions {""anchor"": """", ""title"": ""A Furious Cocktail"", ""icon"": ""Milk Bucket
+"", ""icon-style"": ""fancy"", ""title"": ""A Furious Cocktail"", ""description"": ""Have every potion effect applied at the same time
+"", ""parent"": ""Local Brewery
+"", ""requirements"": ""Have ''all'' of these 13 status [[effect]]s applied to the player at the same time:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite fire-resistance.png|18x18px|link=Fire Resistance|alt=EffectSprite fire-resistance.png: Sprite image for fire-resistance in Minecraft linking to Fire Resistance|class=pixel-image|]]</span>[[Fire Resistance|<span class=""sprite-text"">Fire Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite invisibility.png|18x18px|link=Invisibility|alt=EffectSprite invisibility.png: Sprite image for invisibility in Minecraft linking to Invisibility|class=pixel-image|]]</span>[[Invisibility|<span class=""sprite-text"">Invisibility</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite jump-boost.png|18x18px|link=Jump Boost|alt=EffectSprite jump-boost.png: Sprite image for jump-boost in Minecraft linking to Jump Boost|class=pixel-image|]]</span>[[Jump Boost|<span class=""sprite-text"">Jump Boost</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite night-vision.png|18x18px|link=Night Vision|alt=EffectSprite night-vision.png: Sprite image for night-vision in Minecraft linking to Night Vision|class=pixel-image|]]</span>[[Night Vision|<span class=""sprite-text"">Night Vision</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite poison.png|18x18px|link=Poison|alt=EffectSprite poison.png: Sprite image for poison in Minecraft linking to Poison|class=pixel-image|]]</span>[[Poison|<span class=""sprite-text"">Poison</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite regeneration.png|18x18px|link=Regeneration|alt=EffectSprite regeneration.png: Sprite image for regeneration in Minecraft linking to Regeneration|class=pixel-image|]]</span>[[Regeneration|<span class=""sprite-text"">Regeneration</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite resistance.png|18x18px|link=Resistance|alt=EffectSprite resistance.png: Sprite image for resistance in Minecraft linking to Resistance|class=pixel-image|]]</span>[[Resistance|<span class=""sprite-text"">Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slow-falling.png|18x18px|link=Slow Falling|alt=EffectSprite slow-falling.png: Sprite image for slow-falling in Minecraft linking to Slow Falling|class=pixel-image|]]</span>[[Slow Falling|<span class=""sprite-text"">Slow Falling</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slowness.png|18x18px|link=Slowness|alt=EffectSprite slowness.png: Sprite image for slowness in Minecraft linking to Slowness|class=pixel-image|]]</span>[[Slowness|<span class=""sprite-text"">Slowness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite speed.png|18x18px|link=Speed|alt=EffectSprite speed.png: Sprite image for speed in Minecraft linking to Speed|class=pixel-image|]]</span>[[Speed|<span class=""sprite-text"">Speed</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite strength.png|18x18px|link=Strength|alt=EffectSprite strength.png: Sprite image for strength in Minecraft linking to Strength|class=pixel-image|]]</span>[[Strength|<span class=""sprite-text"">Strength</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite water-breathing.png|18x18px|link=Water Breathing|alt=EffectSprite water-breathing.png: Sprite image for water-breathing in Minecraft linking to Water Breathing|class=pixel-image|]]</span>[[Water Breathing|<span class=""sprite-text"">Water Breathing</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite weakness.png|18x18px|link=Weakness|alt=EffectSprite weakness.png: Sprite image for weakness in Minecraft linking to Weakness|class=pixel-image|]]</span>[[Weakness|<span class=""sprite-text"">Weakness</span>]]</span>
+</div>
+The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.
+"", ""resourcelocation"": ""nether/all_potions
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>100 [[experience]]
+"" }"
+    ,How Did We Get Here?,Have every effect applied at the same time,A Furious Cocktail,"Have all of these 27 status effects applied to the player at the same time: Absorption Bad Omen Blindness Conduit Power Darkness Dolphin's Grace Fire Resistance Glowing Haste Hero of the Village Hunger Invisibility Jump Boost Levitation Mining Fatigue Nausea Night Vision Poison Regeneration Resistance Slow Falling Slowness Speed Strength Water Breathing Weakness Wither The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement. This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.","nether/all_effects {""anchor"": """", ""title"": ""How Did We Get Here?"", ""icon"": ""Bucket
+"", ""icon-style"": ""fancy"", ""title"": ""How Did We Get Here?"", ""description"": ""Have every effect applied at the same time 
+"", ""parent"": ""A Furious Cocktail
+"", ""requirements"": ""Have ''all'' of these 27 status [[effect]]s applied to the player at the same time:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite absorption.png|18x18px|link=Absorption|alt=EffectSprite absorption.png: Sprite image for absorption in Minecraft linking to Absorption|class=pixel-image|]]</span>[[Absorption|<span class=""sprite-text"">Absorption</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite bad-omen.png|18x18px|link=Bad Omen|alt=EffectSprite bad-omen.png: Sprite image for bad-omen in Minecraft linking to Bad Omen|class=pixel-image|]]</span>[[Bad Omen|<span class=""sprite-text"">Bad Omen</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite blindness.png|18x18px|link=Blindness|alt=EffectSprite blindness.png: Sprite image for blindness in Minecraft linking to Blindness|class=pixel-image|]]</span>[[Blindness|<span class=""sprite-text"">Blindness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite conduit-power.png|18x18px|link=Conduit Power|alt=EffectSprite conduit-power.png: Sprite image for conduit-power in Minecraft linking to Conduit Power|class=pixel-image|]]</span>[[Conduit Power|<span class=""sprite-text"">Conduit Power</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite darkness.png|18x18px|link=Darkness|alt=EffectSprite darkness.png: Sprite image for darkness in Minecraft linking to Darkness|class=pixel-image|]]</span>[[Darkness|<span class=""sprite-text"">Darkness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite dolphin's-grace.png|18x18px|link=Dolphin's Grace|alt=EffectSprite dolphin's-grace.png: Sprite image for dolphin's-grace in Minecraft linking to Dolphin's Grace|class=pixel-image|]]</span>[[Dolphin's Grace|<span class=""sprite-text"">Dolphin's Grace</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite fire-resistance.png|18x18px|link=Fire Resistance|alt=EffectSprite fire-resistance.png: Sprite image for fire-resistance in Minecraft linking to Fire Resistance|class=pixel-image|]]</span>[[Fire Resistance|<span class=""sprite-text"">Fire Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite glowing.png|18x18px|link=Glowing|alt=EffectSprite glowing.png: Sprite image for glowing in Minecraft linking to Glowing|class=pixel-image|]]</span>[[Glowing|<span class=""sprite-text"">Glowing</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite haste.png|18x18px|link=Haste|alt=EffectSprite haste.png: Sprite image for haste in Minecraft linking to Haste|class=pixel-image|]]</span>[[Haste|<span class=""sprite-text"">Haste</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite hero-of-the-village.png|18x18px|link=Hero of the Village|alt=EffectSprite hero-of-the-village.png: Sprite image for hero-of-the-village in Minecraft linking to Hero of the Village|class=pixel-image|]]</span>[[Hero of the Village|<span class=""sprite-text"">Hero of the Village</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite hunger.png|18x18px|link=Hunger (effect)|alt=EffectSprite hunger.png: Sprite image for hunger in Minecraft linking to Hunger (effect)|class=pixel-image|]]</span>[[Hunger (effect)|<span class=""sprite-text"">Hunger</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite invisibility.png|18x18px|link=Invisibility|alt=EffectSprite invisibility.png: Sprite image for invisibility in Minecraft linking to Invisibility|class=pixel-image|]]</span>[[Invisibility|<span class=""sprite-text"">Invisibility</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite jump-boost.png|18x18px|link=Jump Boost|alt=EffectSprite jump-boost.png: Sprite image for jump-boost in Minecraft linking to Jump Boost|class=pixel-image|]]</span>[[Jump Boost|<span class=""sprite-text"">Jump Boost</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite levitation.png|18x18px|link=Levitation|alt=EffectSprite levitation.png: Sprite image for levitation in Minecraft linking to Levitation|class=pixel-image|]]</span>[[Levitation|<span class=""sprite-text"">Levitation</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite mining-fatigue.png|18x18px|link=Mining Fatigue|alt=EffectSprite mining-fatigue.png: Sprite image for mining-fatigue in Minecraft linking to Mining Fatigue|class=pixel-image|]]</span>[[Mining Fatigue|<span class=""sprite-text"">Mining Fatigue</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite nausea.png|18x18px|link=Nausea|alt=EffectSprite nausea.png: Sprite image for nausea in Minecraft linking to Nausea|class=pixel-image|]]</span>[[Nausea|<span class=""sprite-text"">Nausea</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite night-vision.png|18x18px|link=Night Vision|alt=EffectSprite night-vision.png: Sprite image for night-vision in Minecraft linking to Night Vision|class=pixel-image|]]</span>[[Night Vision|<span class=""sprite-text"">Night Vision</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite poison.png|18x18px|link=Poison|alt=EffectSprite poison.png: Sprite image for poison in Minecraft linking to Poison|class=pixel-image|]]</span>[[Poison|<span class=""sprite-text"">Poison</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite regeneration.png|18x18px|link=Regeneration|alt=EffectSprite regeneration.png: Sprite image for regeneration in Minecraft linking to Regeneration|class=pixel-image|]]</span>[[Regeneration|<span class=""sprite-text"">Regeneration</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite resistance.png|18x18px|link=Resistance|alt=EffectSprite resistance.png: Sprite image for resistance in Minecraft linking to Resistance|class=pixel-image|]]</span>[[Resistance|<span class=""sprite-text"">Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slow-falling.png|18x18px|link=Slow Falling|alt=EffectSprite slow-falling.png: Sprite image for slow-falling in Minecraft linking to Slow Falling|class=pixel-image|]]</span>[[Slow Falling|<span class=""sprite-text"">Slow Falling</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slowness.png|18x18px|link=Slowness|alt=EffectSprite slowness.png: Sprite image for slowness in Minecraft linking to Slowness|class=pixel-image|]]</span>[[Slowness|<span class=""sprite-text"">Slowness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite speed.png|18x18px|link=Speed|alt=EffectSprite speed.png: Sprite image for speed in Minecraft linking to Speed|class=pixel-image|]]</span>[[Speed|<span class=""sprite-text"">Speed</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite strength.png|18x18px|link=Strength|alt=EffectSprite strength.png: Sprite image for strength in Minecraft linking to Strength|class=pixel-image|]]</span>[[Strength|<span class=""sprite-text"">Strength</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite water-breathing.png|18x18px|link=Water Breathing|alt=EffectSprite water-breathing.png: Sprite image for water-breathing in Minecraft linking to Water Breathing|class=pixel-image|]]</span>[[Water Breathing|<span class=""sprite-text"">Water Breathing</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite weakness.png|18x18px|link=Weakness|alt=EffectSprite weakness.png: Sprite image for weakness in Minecraft linking to Weakness|class=pixel-image|]]</span>[[Weakness|<span class=""sprite-text"">Weakness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite wither.png|18x18px|link=Wither (effect)|alt=EffectSprite wither.png: Sprite image for wither in Minecraft linking to Wither (effect)|class=pixel-image|]]</span>[[Wither (effect)|<span class=""sprite-text"">Wither</span>]]</span>
+</div>
+The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.<br>''This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.''
+"", ""resourcelocation"": ""nether/all_effects
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-1236"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>1000 [[experience]]
+"" }"
+    ,Great View From Up Here,Levitate up 50 blocks from the attacks of a Shulker,The City at the End of the Game,"Move a distance of 50 blocks vertically with the Levitation effect applied, regardless of direction or whether it is caused by the effect.","end/levitate {""anchor"": """", ""title"": ""Great View From Up Here"", ""icon"": ""Shulker Shell
+"", ""icon-style"": ""fancy"", ""title"": ""Great View From Up Here"", ""description"": ""Levitate up 50 blocks from the attacks of a [[Shulker]]
+"", ""parent"": ""The City at the End of the Game
+"", ""requirements"": ""Move a distance of 50 blocks vertically with the [[Levitation]] effect applied, regardless of direction or whether it is caused by the effect.
+"", ""resourcelocation"": ""end/levitate
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-72"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>50 [[experience]]
+"" }"
+    ,Voluntary Exile,Kill a raid captain . Maybe consider staying away from villages for the time being...,Adventure,"Kill an entity in the #raiders entity tag wearing an ominous banner . This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.","adventure/voluntary_exile {""anchor"": """", ""title"": ""Voluntary Exile"", ""icon"": ""Ominous Banner
+"", ""icon-style"": ""plain"", ""title"": ""Voluntary Exile"", ""description"": ""Kill a [[raid captain]].<br>Maybe consider staying away from villages for the time being...
+"", ""parent"": ""Adventure
+"", ""requirements"": ""Kill an entity in the <code>[[Tag#entity_types raiders|#raiders]]</code> entity tag wearing an [[banner|ominous banner]].<br>''This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.''
+"", ""resourcelocation"": ""adventure/voluntary_exile
+"", ""rewards"": ""—
+"" }"
+    ,Hero of the Village,Successfully defend a village from a raid,Voluntary Exile,"Kill at least one raid mob during a raid and wait until it ends in victory. This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.","adventure/hero_of_the_village {""anchor"": """", ""title"": ""Hero of the Village"", ""icon"": ""Ominous Banner
+"", ""icon-style"": ""fancy"", ""title"": ""Hero of the Village"", ""description"": ""Successfully defend a village from a raid
+"", ""parent"": ""Voluntary Exile
+"", ""requirements"": ""Kill at least one raid mob during a [[raid]] and wait until it ends in victory.<br>''This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.''
+"", ""resourcelocation"": ""adventure/hero_of_the_village
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>100 [[experience]]
+"" }"
+

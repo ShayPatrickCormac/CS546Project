@@ -1,0 +1,10 @@
+Overview
+    info_update and info_update2 are debugging/placeholder blocks exclusive to Bedrock Edition that generated in place of blocks that are not yet added.
+
+Obtaining
+    These blocks can no longer be obtained. They used to generate instead of magma blocks when a player with a lower version of the game where the block had not been added joined a player with a higher one.[more information needed]
+
+Usage
+    info_update blocks, even if obtained through a third-party software, cannot be placed.
+info_update2 blocks can be placed and broken, and drop when broken with any tool.
+

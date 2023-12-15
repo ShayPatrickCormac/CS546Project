@@ -1,0 +1,59 @@
+Overview
+    A jukebox is a block used to play music discs.
+
+Obtaining
+  Breaking
+    A jukebox can be broken using any tool, but an axe is the fastest. Jukeboxes also drop all of their contents.
+
+    Block,Jukebox
+    Hardness,2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,3
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Crafting
+    Ingredients,Crafting recipe
+    Any Planks + Diamond,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], ['Oak Planks', 'Diamond', 'Oak Planks'], ['Oak Planks', 'Oak Planks', 'Oak Planks']]"
+
+Usage
+  Playback
+    Using a music disc on a jukebox inserts the disc and plays music corresponding to the type of music disc used. Pressing use on the jukebox again ejects the disc and stops any music playing. Music discs play only once before they must be ejected and reinserted. Note particles emit out the top when sound is playing. The sound from the jukebox travels roughly 65 blocks in all directions. It supports all available music discs in the game. Hoppers and droppers can be used to insert a disc into a jukebox. Tamed parrots and allays dance when in a 3 block radius from a jukebox that's playing a disc. If an amethyst shard is used on an allay dancing next to a playing jukebox, the allay consumes the amethyst shard, emits heart particles, and duplicates into two allays. Both allays have a 5-minute cooldown before they can be duplicated again.
+
+  Redstone component
+    Active jukeboxes give off a redstone signal when a redstone comparator is placed directly behind it or through an adjoining block; its strength depends on the ID of the inserted disc. The following table shows the redstone strength output for each disc.
+
+    Power Level,Disc
+    0,No disc inserted
+    1,"""13"""
+    2,"""cat"""
+    3,"""blocks"""
+    4,"""chirp"""
+    5,"""far"""
+    6,"""mall"""
+    7,"""mellohi"""
+    8,"""stal"""
+    9,"""strad"""
+    10,"""ward"""
+    11,"""11"""
+    12,"""wait"""
+    13,"""Pigstep"""
+    14,"""otherside"" ""Relic"""
+    15,"""5"""
+
+    They also emit a redstone signal when any music disc is played inside. Jukeboxes disable adjacent hoppers when a music disc is playing inside them, due to them emitting a redstone signal even without using a comparator. When the song ends, the hopper placed below the jukebox is re-enabled, so the disc is automatically ejected and stored in the hopper. A system of hoppers and droppers can then be used to automatically re-insert the disc, causing it to loop. If the hopper under the jukebox is powered by anything else, it does not eject the disc, breaking the loop.
+
+  Fuel
+    Jukeboxes can be used as a fuel in furnaces, smelting 1.5 items per block.
+
+  Note Blocks
+    Jukeboxes can be placed under note blocks to produce "bass" sounds.
+
+  Piston interactivity
+    Jukeboxes cannot be pushed by pistons. They also cannot be pushed or pulled by sticky pistons.
+

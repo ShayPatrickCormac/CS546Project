@@ -1,0 +1,33 @@
+Overview
+    Packed mud is a block crafted from mud and wheat. It is used to create mud bricks.
+
+Obtaining
+  Breaking
+    Packed mud can be broken by hand, but using a pickaxe speeds up the process. It drops itself even when broken by hand.
+
+    Block,Packed mud
+    Hardness,1
+    Tool,Pickaxe
+    Breaking time (sec) [A]
+    Default,1.5
+    Wooden,0.75
+    Stone,0.4
+    Iron,0.25
+    Diamond,0.2
+    Netherite,0.2
+    Golden,0.15
+
+  Natural generation
+    Packed mud can generate in trail ruins.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Mud + Wheat,"[[None, None, None], ['Mud', 'Wheat', None], [None, None, None]]"
+
+Usage
+    Packed mud can be used for decoration.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Mud Bricks,Packed Mud,"[[None, None, None], ['', '', None], ['', '', None]]"
+

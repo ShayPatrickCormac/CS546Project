@@ -1,0 +1,25 @@
+Overview
+    Saturation is an instant status effect that reduces the need for eating. It also prevents death by hunger if the player has no food.
+
+Effect
+    The Saturation  effect instantly replenishes 1 () × level and 2 × level points of saturation. If the effect lasts longer than one tick, the player continues gaining hunger and saturation points 1 hunger point and 2 saturation points on each tick, with 20 ticks (1 second) completely replenishing the hunger bar. Negative levels decrease hunger and saturation.
+
+Causes
+    Cause,Potency,Length,Notes
+    Suspicious Stew,I,0.30 seconds (6 ticks)‌ [ Bedrock Edition only ] 0.35 seconds (7 ticks)‌ [ Java Edition only ],Must be crafted with Blue Orchid or Dandelion
+
+Notes
+    All foods replenish food saturation, but none actually add the Saturation status effect, with the exception of suspicious stew crafted with a dandelion or blue orchid.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Saturation,saturation,23,effect.minecraft.saturation
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Saturation,saturation,23,potion.saturation
+

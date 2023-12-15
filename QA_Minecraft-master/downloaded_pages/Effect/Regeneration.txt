@@ -1,0 +1,132 @@
+Overview
+    Regeneration is a status effect that restores an entity's health over time.
+
+Effect
+    The amount of health healed over time is shown in the table below:
+
+    Level,Ticks per,per second
+    1,50,0.4 × 0.2
+    2,25,0.8 × 0.4
+    3,12,1.67 × 0.835
+    4,6,3.33 × 1.665
+    5,3,6.67 × 3.335
+    6+,1,20 × 10
+
+    Amplifiers outside the range 0–31 (corresponding to levels 1–32) are used modulo 32, making level 33 the same as level 1, etc.
+
+Causes
+    Cause,Potency,Length,Notes
+    Potion of Regeneration,I,0:45,18 × 9 is regenerated.
+    Potion of Regeneration (extended),I,1:30‌ [ JE only ] 2:00‌ [ BE only ],36 × 18 in Java Edition or 48 × 24 in Bedrock Edition
+    Potion of Regeneration II,II,0:22,17.6 × 8.8
+    Splash Potion of Regeneration,I,0:45‌ [ JE only ] 0:33‌ [ BE only ],18 × 9 in Java Edition or 13.2 × 6.6 in Bedrock Edition
+    Splash Potion of Regeneration (extended),I,1:30,36 × 18
+    Splash Potion of Regeneration II,II,0:22‌ [ JE only ] 0:16‌ [ BE only ],17.6 × 8.8 in Java Edition or 12.8 × 6.4 in Bedrock Edition
+    Lingering Potion of Regeneration,I,0:11,The health regenerated depends how long the entity spent in the cloud.
+    Lingering Potion of Regeneration (extended),I,0:22‌ [ JE only ] 0:30‌ [ BE only ],The health regenerated depends how long the entity spent in the cloud.
+    Lingering Potion of Regeneration II,II,0:05,The health regenerated depends how long the entity spent in the cloud.
+    Arrow of Regeneration,I,0:05,2
+    Arrow of Regeneration (extended),I,0:11‌ [ JE only ] 0:15‌ [ BE only ],4.4 × 2.2 in Java Edition or 6 in Bedrock Edition
+    Arrow of Regeneration II,II,0:02,1.6 × 0.8
+    Beacon set to Regeneration,I,0:17,"Replenishes when in range. Requires beacon pyramid level 4. Due to a bug [note 1] , beacon regeneration works at only 5 ⁄ 8 the normal regeneration speed."
+    Suspicious Stew,I,0:08‌ [ JE only ] 0:06‌ [ BE only ],Must be made with Oxeye Daisy . Regenerates 3.2 × 1.6 in Java Edition or 2.4 × 1.2 in Bedrock Edition
+    Golden Apple,II,0:05,4 is regenerated.
+    Enchanted Golden Apple,II‌ [ JE only ] V‌ [ BE only ],0:20‌ [ JE only ] 0:30‌ [ BE only ],16 × 8 in Java Edition or 200 × 100 in Bedrock Edition
+    Totem of Undying,II,0:45‌ [ JE only ] 0:40‌ [ BE only ],When being revived by it. Regenerates 36 × 18 in Java Edition or 32 × 16 in Bedrock Edition .
+    Spawning within the world,I,∞,Applies only to spider s on Hard difficulty.‌ [ JE only ]
+    Unlocking trades,I,0:10,Applies only to villager s. Regenerates 4
+    Having low health,I,0:10,Applies only to Axolotl s.
+    Killing a mob,I,+0:05 * Axolotl s nearby,When killing a mob that can be targeted by an axolotl while an axolotl is nearby
+
+Brewing
+    Potion,"Reagent, Base",Extended,Enhanced,Effects
+    Potion of Regeneration,input:Ghast Tear | output:Awkward Potion,Potion of Regeneration (extended),Potion of Regeneration,Regeneration Restores health by every 2.5 seconds. Enhanced: Regeneration II Restores health by every 1.2 seconds.
+
+Notes
+    
+
+Immune mobs
+    Undead mobs and ender dragons are unaffected by Regeneration.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Regeneration,regeneration,10,effect.minecraft.regeneration
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Regeneration,regeneration,10,potion.regeneration
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,A Furious Cocktail,Have every potion effect applied at the same time,Local Brewery,"Have all of these 13 status effects applied to the player at the same time: Fire Resistance Invisibility Jump Boost Night Vision Poison Regeneration Resistance Slow Falling Slowness Speed Strength Water Breathing Weakness The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.","nether/all_potions {""anchor"": """", ""title"": ""A Furious Cocktail"", ""icon"": ""Milk Bucket
+"", ""icon-style"": ""fancy"", ""title"": ""A Furious Cocktail"", ""description"": ""Have every potion effect applied at the same time
+"", ""parent"": ""Local Brewery
+"", ""requirements"": ""Have ''all'' of these 13 status [[effect]]s applied to the player at the same time:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite fire-resistance.png|18x18px|link=Fire Resistance|alt=EffectSprite fire-resistance.png: Sprite image for fire-resistance in Minecraft linking to Fire Resistance|class=pixel-image|]]</span>[[Fire Resistance|<span class=""sprite-text"">Fire Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite invisibility.png|18x18px|link=Invisibility|alt=EffectSprite invisibility.png: Sprite image for invisibility in Minecraft linking to Invisibility|class=pixel-image|]]</span>[[Invisibility|<span class=""sprite-text"">Invisibility</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite jump-boost.png|18x18px|link=Jump Boost|alt=EffectSprite jump-boost.png: Sprite image for jump-boost in Minecraft linking to Jump Boost|class=pixel-image|]]</span>[[Jump Boost|<span class=""sprite-text"">Jump Boost</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite night-vision.png|18x18px|link=Night Vision|alt=EffectSprite night-vision.png: Sprite image for night-vision in Minecraft linking to Night Vision|class=pixel-image|]]</span>[[Night Vision|<span class=""sprite-text"">Night Vision</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite poison.png|18x18px|link=Poison|alt=EffectSprite poison.png: Sprite image for poison in Minecraft linking to Poison|class=pixel-image|]]</span>[[Poison|<span class=""sprite-text"">Poison</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite regeneration.png|18x18px|link=Regeneration|alt=EffectSprite regeneration.png: Sprite image for regeneration in Minecraft linking to Regeneration|class=pixel-image|]]</span>[[Regeneration|<span class=""sprite-text"">Regeneration</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite resistance.png|18x18px|link=Resistance|alt=EffectSprite resistance.png: Sprite image for resistance in Minecraft linking to Resistance|class=pixel-image|]]</span>[[Resistance|<span class=""sprite-text"">Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slow-falling.png|18x18px|link=Slow Falling|alt=EffectSprite slow-falling.png: Sprite image for slow-falling in Minecraft linking to Slow Falling|class=pixel-image|]]</span>[[Slow Falling|<span class=""sprite-text"">Slow Falling</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slowness.png|18x18px|link=Slowness|alt=EffectSprite slowness.png: Sprite image for slowness in Minecraft linking to Slowness|class=pixel-image|]]</span>[[Slowness|<span class=""sprite-text"">Slowness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite speed.png|18x18px|link=Speed|alt=EffectSprite speed.png: Sprite image for speed in Minecraft linking to Speed|class=pixel-image|]]</span>[[Speed|<span class=""sprite-text"">Speed</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite strength.png|18x18px|link=Strength|alt=EffectSprite strength.png: Sprite image for strength in Minecraft linking to Strength|class=pixel-image|]]</span>[[Strength|<span class=""sprite-text"">Strength</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite water-breathing.png|18x18px|link=Water Breathing|alt=EffectSprite water-breathing.png: Sprite image for water-breathing in Minecraft linking to Water Breathing|class=pixel-image|]]</span>[[Water Breathing|<span class=""sprite-text"">Water Breathing</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite weakness.png|18x18px|link=Weakness|alt=EffectSprite weakness.png: Sprite image for weakness in Minecraft linking to Weakness|class=pixel-image|]]</span>[[Weakness|<span class=""sprite-text"">Weakness</span>]]</span>
+</div>
+The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.
+"", ""resourcelocation"": ""nether/all_potions
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>100 [[experience]]
+"" }"
+    ,How Did We Get Here?,Have every effect applied at the same time,A Furious Cocktail,"Have all of these 27 status effects applied to the player at the same time: Absorption Bad Omen Blindness Conduit Power Darkness Dolphin's Grace Fire Resistance Glowing Haste Hero of the Village Hunger Invisibility Jump Boost Levitation Mining Fatigue Nausea Night Vision Poison Regeneration Resistance Slow Falling Slowness Speed Strength Water Breathing Weakness Wither The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement. This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.","nether/all_effects {""anchor"": """", ""title"": ""How Did We Get Here?"", ""icon"": ""Bucket
+"", ""icon-style"": ""fancy"", ""title"": ""How Did We Get Here?"", ""description"": ""Have every effect applied at the same time 
+"", ""parent"": ""A Furious Cocktail
+"", ""requirements"": ""Have ''all'' of these 27 status [[effect]]s applied to the player at the same time:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite absorption.png|18x18px|link=Absorption|alt=EffectSprite absorption.png: Sprite image for absorption in Minecraft linking to Absorption|class=pixel-image|]]</span>[[Absorption|<span class=""sprite-text"">Absorption</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite bad-omen.png|18x18px|link=Bad Omen|alt=EffectSprite bad-omen.png: Sprite image for bad-omen in Minecraft linking to Bad Omen|class=pixel-image|]]</span>[[Bad Omen|<span class=""sprite-text"">Bad Omen</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite blindness.png|18x18px|link=Blindness|alt=EffectSprite blindness.png: Sprite image for blindness in Minecraft linking to Blindness|class=pixel-image|]]</span>[[Blindness|<span class=""sprite-text"">Blindness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite conduit-power.png|18x18px|link=Conduit Power|alt=EffectSprite conduit-power.png: Sprite image for conduit-power in Minecraft linking to Conduit Power|class=pixel-image|]]</span>[[Conduit Power|<span class=""sprite-text"">Conduit Power</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite darkness.png|18x18px|link=Darkness|alt=EffectSprite darkness.png: Sprite image for darkness in Minecraft linking to Darkness|class=pixel-image|]]</span>[[Darkness|<span class=""sprite-text"">Darkness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite dolphin's-grace.png|18x18px|link=Dolphin's Grace|alt=EffectSprite dolphin's-grace.png: Sprite image for dolphin's-grace in Minecraft linking to Dolphin's Grace|class=pixel-image|]]</span>[[Dolphin's Grace|<span class=""sprite-text"">Dolphin's Grace</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite fire-resistance.png|18x18px|link=Fire Resistance|alt=EffectSprite fire-resistance.png: Sprite image for fire-resistance in Minecraft linking to Fire Resistance|class=pixel-image|]]</span>[[Fire Resistance|<span class=""sprite-text"">Fire Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite glowing.png|18x18px|link=Glowing|alt=EffectSprite glowing.png: Sprite image for glowing in Minecraft linking to Glowing|class=pixel-image|]]</span>[[Glowing|<span class=""sprite-text"">Glowing</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite haste.png|18x18px|link=Haste|alt=EffectSprite haste.png: Sprite image for haste in Minecraft linking to Haste|class=pixel-image|]]</span>[[Haste|<span class=""sprite-text"">Haste</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite hero-of-the-village.png|18x18px|link=Hero of the Village|alt=EffectSprite hero-of-the-village.png: Sprite image for hero-of-the-village in Minecraft linking to Hero of the Village|class=pixel-image|]]</span>[[Hero of the Village|<span class=""sprite-text"">Hero of the Village</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite hunger.png|18x18px|link=Hunger (effect)|alt=EffectSprite hunger.png: Sprite image for hunger in Minecraft linking to Hunger (effect)|class=pixel-image|]]</span>[[Hunger (effect)|<span class=""sprite-text"">Hunger</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite invisibility.png|18x18px|link=Invisibility|alt=EffectSprite invisibility.png: Sprite image for invisibility in Minecraft linking to Invisibility|class=pixel-image|]]</span>[[Invisibility|<span class=""sprite-text"">Invisibility</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite jump-boost.png|18x18px|link=Jump Boost|alt=EffectSprite jump-boost.png: Sprite image for jump-boost in Minecraft linking to Jump Boost|class=pixel-image|]]</span>[[Jump Boost|<span class=""sprite-text"">Jump Boost</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite levitation.png|18x18px|link=Levitation|alt=EffectSprite levitation.png: Sprite image for levitation in Minecraft linking to Levitation|class=pixel-image|]]</span>[[Levitation|<span class=""sprite-text"">Levitation</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite mining-fatigue.png|18x18px|link=Mining Fatigue|alt=EffectSprite mining-fatigue.png: Sprite image for mining-fatigue in Minecraft linking to Mining Fatigue|class=pixel-image|]]</span>[[Mining Fatigue|<span class=""sprite-text"">Mining Fatigue</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite nausea.png|18x18px|link=Nausea|alt=EffectSprite nausea.png: Sprite image for nausea in Minecraft linking to Nausea|class=pixel-image|]]</span>[[Nausea|<span class=""sprite-text"">Nausea</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite night-vision.png|18x18px|link=Night Vision|alt=EffectSprite night-vision.png: Sprite image for night-vision in Minecraft linking to Night Vision|class=pixel-image|]]</span>[[Night Vision|<span class=""sprite-text"">Night Vision</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite poison.png|18x18px|link=Poison|alt=EffectSprite poison.png: Sprite image for poison in Minecraft linking to Poison|class=pixel-image|]]</span>[[Poison|<span class=""sprite-text"">Poison</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite regeneration.png|18x18px|link=Regeneration|alt=EffectSprite regeneration.png: Sprite image for regeneration in Minecraft linking to Regeneration|class=pixel-image|]]</span>[[Regeneration|<span class=""sprite-text"">Regeneration</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite resistance.png|18x18px|link=Resistance|alt=EffectSprite resistance.png: Sprite image for resistance in Minecraft linking to Resistance|class=pixel-image|]]</span>[[Resistance|<span class=""sprite-text"">Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slow-falling.png|18x18px|link=Slow Falling|alt=EffectSprite slow-falling.png: Sprite image for slow-falling in Minecraft linking to Slow Falling|class=pixel-image|]]</span>[[Slow Falling|<span class=""sprite-text"">Slow Falling</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slowness.png|18x18px|link=Slowness|alt=EffectSprite slowness.png: Sprite image for slowness in Minecraft linking to Slowness|class=pixel-image|]]</span>[[Slowness|<span class=""sprite-text"">Slowness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite speed.png|18x18px|link=Speed|alt=EffectSprite speed.png: Sprite image for speed in Minecraft linking to Speed|class=pixel-image|]]</span>[[Speed|<span class=""sprite-text"">Speed</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite strength.png|18x18px|link=Strength|alt=EffectSprite strength.png: Sprite image for strength in Minecraft linking to Strength|class=pixel-image|]]</span>[[Strength|<span class=""sprite-text"">Strength</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite water-breathing.png|18x18px|link=Water Breathing|alt=EffectSprite water-breathing.png: Sprite image for water-breathing in Minecraft linking to Water Breathing|class=pixel-image|]]</span>[[Water Breathing|<span class=""sprite-text"">Water Breathing</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite weakness.png|18x18px|link=Weakness|alt=EffectSprite weakness.png: Sprite image for weakness in Minecraft linking to Weakness|class=pixel-image|]]</span>[[Weakness|<span class=""sprite-text"">Weakness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite wither.png|18x18px|link=Wither (effect)|alt=EffectSprite wither.png: Sprite image for wither in Minecraft linking to Wither (effect)|class=pixel-image|]]</span>[[Wither (effect)|<span class=""sprite-text"">Wither</span>]]</span>
+</div>
+The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.<br>''This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.''
+"", ""resourcelocation"": ""nether/all_effects
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-1236"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>1000 [[experience]]
+"" }"
+    ,The Healing Power of Friendship !,Team up with an axolotl and win a fight,The Cutest Predator,Have the Regeneration effect applied from assisting an axolotl or it killing a mob.,"husbandry/kill_axolotl_target {""anchor"": ""The Healing Power of Friendship"", ""title"": ""The Healing Power of Friendship<span  class=""explain "" title=""Punctuation appears only in chat and toast when advancement has been completed."">!</span>"", ""icon"": ""Bucket of Tropical Fish
+"", ""icon-style"": ""plain"", ""title"": ""The Healing Power of Friendship<span  class=""explain "" title=""Punctuation appears only in chat and toast when advancement has been completed."">!</span>"", ""description"": ""Team up with an axolotl and win a fight
+"", ""parent"": ""The Cutest Predator
+"", ""requirements"": ""Have the [[Regeneration]] effect applied from assisting an [[axolotl]] or it killing a mob.
+"", ""resourcelocation"": ""husbandry/kill_axolotl_target
+"", ""rewards"": ""—
+"" }"
+

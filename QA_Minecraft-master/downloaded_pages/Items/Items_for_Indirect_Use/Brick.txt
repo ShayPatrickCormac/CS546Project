@@ -1,0 +1,46 @@
+Overview
+    A brick is an item used to craft brick blocks, flower pots, and decorated pots.
+
+Obtaining
+  Mining
+    When breaking a decorated pot with a tool without Silk Touch on the main hand, the decorated pot can drop 0-4 brick(s) depend on the material that the decorated pot make of.
+
+  Chest Loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Brick,Desert well,Suspicious sand,1,"12.5% { ""item"": ""Brick"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    Trail ruins,Suspicious gravel,1,"4.4% { ""item"": ""Brick"", ""stacksize"": 1, ""chance"": 0.0444444444444444, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Bedrock Edition
+    Brick,Desert well,Suspicious sand,1,"12.5% { ""item"": ""Brick"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    Trail ruins,Suspicious gravel,1,"8.7% { ""item"": ""Brick"", ""stacksize"": 1, ""chance"": 0.08695652173913049, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+
+  Smelting
+    A brick can be obtained by smelting a clay ball.
+
+    Ingredients,Smelting recipe
+    Clay Ball + Any fuel,0.3
+
+  Trading
+    Novice-level stone mason villagers sell 16‌[Bedrock Edition  only] or 10‌[Java Edition  only] bricks for one emerald.
+
+Usage
+    Brick can be used to craft bricks, flower pots, and decorated pots.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Bricks,Brick,"[[None, None, None], ['', '', None], ['', '', None]]",
+    Decorated Pot,Brick,"[[None, '', None], ['', None, ''], [None, '', None]]",It is possible to use any combination of bricks and pottery sherds .
+    Flower Pot,Brick,"[[None, None, None], ['', None, ''], [None, '', None]]",
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Brick,brick,Item,item.minecraft.brick
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Brick,brick,383,Item,item.brick.name
+

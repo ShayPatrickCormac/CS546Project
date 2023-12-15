@@ -1,0 +1,49 @@
+Overview
+    Nether wart is a fungus harvested from nether wart crops and is used to plant them, as well as being vital in the creation of potions. Nether wart crops are found in nether fortresses and bastions and is used to grow nether wart in soul sand.
+
+Obtaining
+  Breaking
+    Nether wart can be mined instantly with any tool. A fully mature nether wart crop yields 2–4 nether wart. This is increased by one for each level of Fortune, this allows for a maximum of 7 nether warts dropping from one crop. Less mature stages drop one nether wart, even with the Fortune enchantment.
+
+    Block,Nether Wart
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+
+  Natural generation
+    Nether wart can generate in nether fortresses in soul sand gardens around stairwells. Nether wart can also generate in the courtyards of housing unit bastion remnants. Due to only spawning in these specific structures, it's entirely possible for a nether fortress or bastion remnant to generate without nether wart (though they may still appear in the chests that generate in the fortress).
+
+    Location,Description,Image
+    Nether Fortress,Nether wart can be found growing near stairwells in small soul sand gardens.,Nether wart growing in a nether fortress.
+    Bastion Remnant,Nether wart can be found growing in the central courtyard of each of the sections of piglin housing unit bastions.,Nether wart growing in a bastion remnant.
+
+    
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Nether Wart,Nether fortress,Chest,3–7,"19% { ""item"": ""Nether Wart"", ""stacksize"": ""3–7"", ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Nether Wart,Nether fortress,Chest,3–7,"19% { ""item"": ""Nether Wart"", ""stacksize"": ""3–7"", ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+
+Usage
+  Brewing ingredient
+    Nether wart's primary purpose is to brew the awkward potion, the base for all potions, but optional for Weakness.
+
+    Name,Ingredients,Brewing recipe
+    Awkward Potion,Nether Wart + Water Bottle,output:Awkward Potion
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Nether Wart Block,Nether Wart,"[['', '', ''], ['', '', ''], ['', '', '']]",The nether wart block cannot be crafted back into nether wart. [1] [2] [3]
+    Red Nether Bricks,Nether Wart + Nether Brick,"[[None, None, None], ['', 'Nether Brick', None], ['Nether Brick', '', None]]",
+
+  Trading
+    Master-level cleric villagers buy 22 nether warts for an emerald as part of their trades.
+
+  Farming
+    When planted on soul sand, nether wart grows through four stages, though the middle two stages use the same texture (the hitbox of stage 3 is three pixels taller). In Java Edition, the exact age can be seen using the debug screen, and the ages range from 0 to 3. Each random tick, nether wart has a 10% chance of growing one stage. At default random tick speed, each nether wart grows one age step approximately every 13653 game ticks (11.3775 minutes) on average, and fully grows from planting to harvest every 40960 game ticks (34.133333333333 minutes) on average. The growth rate is not affected by light or any other environmental factors. Bone meal cannot be used on the nether wart. Nether wart can only be planted on soul sand. It cannot be planted on soul soil. It can grow in any dimension. Nether wart is ready to harvest when it reaches its fourth stage (age:3). Breaking a fully grown nether wart drops 2 to 4 nether wart, while an immature one drops a single nether wart. Using a tool enchanted with fortune increases the maximum number of nether wart dropped by 1 per level, for a maximum of 7 for a tool enchanted with Fortune III.
+
+  Composting
+    Placing a nether wart into a composter has a 30% chance of raising the compost level by 1.
+

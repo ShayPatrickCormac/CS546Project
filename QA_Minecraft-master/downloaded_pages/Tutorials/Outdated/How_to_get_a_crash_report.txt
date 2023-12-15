@@ -1,0 +1,7 @@
+Overview
+    More often than not, Minecraft automatically closes itself after a crash rather than displaying an error report. Here are some methods to find the error report.
+
+  Windows
+  macOS
+    This method is similar to Windows' method 2 in that you can use a separate file to launch Minecraft.
+

@@ -1,0 +1,42 @@
+Overview
+    Netherrack is a frail stone block found abundantly in the Nether and in blobs below ruined portals. Fire lit on top of netherrack burns indefinitely.
+
+Obtaining
+  Breaking
+    Netherrack can only be obtained with a pickaxe. It drops nothing if mined without one.
+
+    Block,Netherrack
+    Hardness,0.4
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,2
+    Wooden,0.3
+    Stone,0.15
+    Iron,0.1
+    Diamond,0.1
+    Netherite,0.1
+    Golden,0.05
+
+    Netherrack can also be obtained by mining nylium with a pickaxe that's not enchanted with Silk Touch.
+
+  Natural generation
+    Netherrack makes up most of the Nether's terrain, and also generates as part of ruined portals in the Overworld. Netherrack generates as part of bridge and treasure room bastion remnants.
+
+  Post-generation
+    In Bedrock Edition, netherrack generates as part of nether portals spawned floating. This is what makes netherrack renewable. Crimson or warped nylium transforms into netherrack if a solid, opaque block is directly above it, or when it is covered by snow.[1]
+
+Usage
+    Netherrack is mostly used as a cheap building block. Because of its abundance and softness, it is often used to construct temporary structures that can be used for scaffolding, blockage, or other purposes. When netherrack's top is lit on fire, the fire burns indefinitely. Unlike soul fire, this fire can spread. Using bone meal on netherrack placed next to warped nylium or crimson nylium transforms the netherrack into more warped or crimson nylium. Analyzing the netherrack in a material reducer, it turns out to be a volcanic silicate rock rich in mercury.‌[Bedrock Edition and Minecraft Education  only]
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Netherite Upgrade Smithing Template,Diamond + Netherite Upgrade + Netherrack,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', '', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+    Rib Armor Trim Smithing Template,Diamond + Rib Armor Trim + Netherrack,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', '', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Nether Brick,Netherrack + Any fuel,0.1
+
+  Note Blocks
+    Netherrack can be placed under note blocks to produce "bass drum" sounds.
+

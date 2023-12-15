@@ -1,0 +1,46 @@
+Overview
+    A snow block[a] is a full-sized block of snow.
+
+Obtaining
+  Breaking
+    If mined with a Silk Touch enchanted shovel, snow blocks drop themselves; without the enchantment, 4 snowballs are dropped instead. Nothing drops if mined with any other tool, even if enchanted with Silk Touch. In Java Edition, a snow block can also be obtained by mining 8 snow layers with a Silk Touch shovel.[1]
+
+    Block,Snow Block
+    Hardness,0.2
+    Tool,wooden shovel
+    Breaking time (sec) [A]
+    Default,1
+    Wooden,0.15
+    Stone,0.1
+    Iron,0.05
+    Diamond,0.05
+    Netherite,0.05
+    Golden,0.05
+
+    Unlike snow layers, snow blocks do not melt from higher levels of light under normal circumstances, and are not destroyed by water.
+
+  Natural generation
+    Snow blocks generate on the ground in the ice spikes, grove, snowy slopes, frozen peaks and jagged peaks biomes, they form the walls of igloos and some snowy tundra village houses and can also generate on top of some icebergs. The snowfall weather effect generates snow layers which combine into a snow block once they reach full block height.‌[BE & edu  only]
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Snow Block,Village,Snowy house chest,1,"34.5% { ""item"": ""Snow Block"", ""stacksize"": 1, ""chance"": 0.3446794399357004, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Bedrock Edition
+    Snow Block,Village,Snowy house chest,1,"34.5% { ""item"": ""Snow Block"", ""stacksize"": 1, ""chance"": 0.3446794399357004, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Snowball,"[[None, None, None], ['Snowball', 'Snowball', None], ['Snowball', 'Snowball', None]]"
+
+Usage
+  Melting
+    Unlike snow, snow blocks do not melt when a heat block‌[BE & edu  only] or a light-emitting block is nearby, nor will they melt in dry biomes.
+
+  Snow golems
+    Snow blocks are also used to make snow golems by putting 2 snow blocks on top of another and a carved pumpkin, jack o'lantern or pumpkin‌[BE  only] on the top as the head. Note that the carved pumpkin has to be placed last for this to work. This can be done sideways and upside-down, as well.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Snow,Snow Block,"[[None, None, None], ['', '', ''], [None, None, None]]"
+

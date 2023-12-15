@@ -1,0 +1,44 @@
+Overview
+    Cut sandstone is a variant of sandstone, obtained through crafting.
+
+Obtaining
+  Breaking
+    Cut sandstone can be mined with any pickaxe. If mined without a pickaxe, the block drops nothing.
+
+    Block,Cut Sandstone
+    Hardness,0.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,4
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Natural generation
+    Cut sandstone generates in desert villages, desert pyramids, and warm underwater ruins.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Sandstone,"[[None, None, None], ['Sandstone', 'Sandstone', None], ['Sandstone', 'Sandstone', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Sandstone,
+
+Usage
+    Unlike sand, cut sandstone is never affected by gravity.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Cut Sandstone Slab,Cut Sandstone,"[[None, None, None], [None, None, None], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Cut Sandstone,2
+
+  Note blocks
+    Cut sandstone can be placed under note blocks to produce "bass drum" sounds.
+

@@ -1,0 +1,72 @@
+Overview
+    This article covers curing zombie villagers.
+
+About zombie villagers
+    Zombie villagers have a 5% chance to spawn in place of a regular zombie and can also spawn if a zombie kills a regular villager, depending on the difficulty level. (0% on Easy, 50% on Normal, and 100% on Hard) You can also spawn zombie villagers via commands or using a spawn egg. A villager and a zombie villager always spawn inside an igloo basement. Zombie villagers also naturally generate in zombie villages. Zombie villagers have a similar appearance to normal villagers but have zombie-colored flesh and attempt to attack the player like other zombies. In Bedrock Edition, zombie villagers also have a 5% chance to emerge from zombie spawners, and you can contrive to separate the zombie villagers from the zombies to collect them and heal them. in Java Edition zombie villagers do not spawn from zombie monster spawners, so don't expect to get a zombie villger by waiting next to a monster spawner.
+
+Equipment, items, and mobs needed to cure a zombie villager
+  Required
+    1 Zombie Villager, Either 1 Splash Potion of Weakness, or 1 Lingering Potion of Weakness if you want to heal multiple zombie villagers, or 1 Arrow of Weakness, or 1 Witch to throw a Splash Potion of Weakness. You can also use a command to give the zombie villager the weakness effect., 1 regular Golden Apple
+
+  Optional
+    Any type of expendable block (e.g. dirt or cobblestone), A full set of armor, preferably iron or above, Any type of mining tool, such as a pickaxe for stone or shovel for dirt, A boat or minecart to restrict movement and ease transportation, Iron bars and a  bed to speed up the curing process
+
+Finding and crafting the equipment
+  Splash Potion of Weakness
+    To create a Splash Potion of Weakness, it must be brewed using a brewing stand, which can either be crafted using blaze rods and cobblestone or found in an igloo basement, end ship or a cleric house in a village. To brew a Splash Potion of Weakness, you need:
+1 fermented spider eye, which can be crafted with spider eyes, brown mushroom and sugar
+1 to 3 water bottles, which can be obtained by right-clicking a water source with glass bottles
+1 gunpowder, which can be obtained from creepers and ghasts or found in naturally-generated chests
+1 blaze powder to fuel the brewing stand, 1 fermented spider eye, which can be crafted with spider eyes, brown mushroom and sugar, 1 to 3 water bottles, which can be obtained by right-clicking a water source with glass bottles, 1 gunpowder, which can be obtained from creepers and ghasts or found in naturally-generated chests, 1 blaze powder to fuel the brewing stand Place the water bottle(s) and the fermented spider eye in the brewing stand, then insert the blaze powder to initiate the brewing process. Once your potions of weakness have brewed, place in the gunpowder to convert them into splash potions of weakness. A splash potion of weakness can also be found placed in igloo brewing stands.
+
+  Lingering Potion of Weakness
+    To create a Lingering Potion of Weakness, it must be brewed using a brewing stand. To brew a Lingering Potion of Weakness, you need:
+1 fermented spider eye, which can be crafted with spider eyes, brown mushroom, and sugar
+1 to 3 water bottles, which can be obtained by right-clicking a water source with glass bottles
+1 gunpowder, which can be obtained from creepers and ghasts or found in naturally-generated chests
+1 dragon's breath, which can be obtained by scooping up the ender dragon's breath attack or dragon fireball clouds in an empty bottle
+1 blaze powder to fuel the brewing stand, 1 fermented spider eye, which can be crafted with spider eyes, brown mushroom, and sugar, 1 to 3 water bottles, which can be obtained by right-clicking a water source with glass bottles, 1 gunpowder, which can be obtained from creepers and ghasts or found in naturally-generated chests, 1 dragon's breath, which can be obtained by scooping up the ender dragon's breath attack or dragon fireball clouds in an empty bottle, 1 blaze powder to fuel the brewing stand Place the three water bottles and the fermented spider eye in the brewing stand, then insert the blaze powder to initiate the brewing process. Once your potions of weakness have brewed, place in the gunpowder to convert them into splash potions of weakness. Once your splash potions of weakness have brewed, place in the dragon's breath to convert them into lingering potions.
+
+  Arrow of Weakness
+    An Arrow of Weakness can provide an alternative to splash potions of weakness and eliminate the risk of splashing yourself with the weakness potion; however, they are harder to obtain than splash potions. To craft arrows of weakness, you must brew a lingering potion of weakness, which can be done by brewing a Splash Potions of Weakness with dragon's breath. Dragon's breath can be obtained by right-clicking (or long-pressing if in Bedrock Edition) the ender dragon dragon breath or dragon fireball clouds with an empty glass bottle in hand., Combine eight arrows and a Lingering Potion of Weakness in a crafting table, and craft eight Arrows of Weakness. Alternatively, there are multiple methods to obtain arrows of weakness without having to fight the ender dragon: Arrows of weakness can be obtained by filing a cauldron with a Potion of Weakness and then using arrows on it. A full cauldron can treat the tips of a stack of arrows.‌[Bedrock Edition  only], Arrows of weakness can be obtained through trades with master level fletcher villagers., If the player has the Hero of the Village effect, fletcher villagers can throw arrows of weakness as gifts to the player. {Java Edition only}
+
+  Witch
+    Witches have a 25% chance of throwing a splash potion of weakness if the player is within 3 blocks of a witch and does not already have the Weakness status effect. While this method is more dangerous to attempt than others, this method can be used as an alternative if a player is not able to obtain a potion or arrow of weakness at the time. Witches spawn in numerous ways, including: In the Overworld at the light level of 0. It spawns in all Overworld biomes except mushroom fields and deep dark., In a swamp hut located in swamp biomes., When an adult or baby villager is within 4 blocks of a lightning strike., In raids starting from wave 4 in Bedrock Edition, or wave 3 or 4 in Java Edition depending on the world difficulty.
+
+  Golden Apple
+    Ingredients,Crafting recipe
+    Gold Ingot + Apple,"[['Gold Ingot', 'Gold Ingot', 'Gold Ingot'], ['Gold Ingot', 'Apple', 'Gold Ingot'], ['Gold Ingot', 'Gold Ingot', 'Gold Ingot']]"
+
+    Golden apples are crafted from eight gold ingots and an apple in a crafting table. They can also naturally generate in: stronghold altars, large underwater ruin chests, dungeon chests, desert pyramid chests, mineshaft minecart chests, woodland mansion chests, igloo chests, ruined portal chests, ancient city center chest
+
+Finding a zombie villager
+    Zombie villagers spawn in place of a normal zombie 5% of the time and can also be found in igloo basements and zombie villages. Manually scouting your base's perimeter during the night is a good way to find zombie villagers. If you cannot find a zombie villager, you can summon them via commands or use a spawn egg if you have cheats on.
+
+Curing a zombie villager
+    Curing a zombie villager grants you the Zombie Doctor achievement/advancement if it has not been obtained yet. If the cured villager has a profession, it permanently provides heavy discounts while trading to the player that cured them.‌[Java Edition  only] There is also a heavy discount on Bedrock Edition with 1.16, another thing to keep in mind is that in Bedrock Edition, the discount spreads through the "talking" of villagers 16 blocks in a cube from the cured Villager.
+
+Gallery
+    
+
+
+A zombie farmer getting cured and losing their profession.
+
+
+, 
+
+
+A non-professional zombie villager getting cured.
+
+
+, 
+
+
+A zombie librarian getting cured and kept their profession after being cured because they traded before they were zombified.
+
+
+
+
+Videos
+See also
+    Tutorials/Zombie villager farming
+

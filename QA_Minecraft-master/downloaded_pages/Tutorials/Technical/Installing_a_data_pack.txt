@@ -1,0 +1,23 @@
+Overview
+    These tutorials are meant to help you use data packs in Minecraft. Data packs allow players to customize command functions, loot tables, world structures, advancements, recipes, and tags, which will change the actual game play. Before installing a data pack, you will first need to download one or create your own.
+
+Singleplayer
+  At the creation of a world
+    Here is how to install a data pack when creating a singleplayer world:
+
+  In an existing world
+    Here is how to install a data pack in an existing singleplayer world:
+
+Multiplayer
+    Here is how to install a data pack when in multiplayer:
+
+See also
+    Data pack, Resource pack, Tutorials/Creating a data pack
+
+    v t e Data packs
+    Components,Advancements Functions Item modifiers Loot tables Predicates Recipes Tags World generation Dimensions Dimension types World presets Noise settings Noise Density functions Surface rules Biomes Carvers Configured features Placed features Structures Structure sets Template pools Processor lists Structure templates,World generation,Dimensions Dimension types World presets Noise settings Noise Density functions Surface rules Biomes Carvers Configured features Placed features Structures Structure sets Template pools Processor lists Structure templates,Structures,Structure sets Template pools Processor lists Structure templates
+    World generation,Dimensions Dimension types World presets Noise settings Noise Density functions Surface rules Biomes Carvers Configured features Placed features Structures Structure sets Template pools Processor lists Structure templates,Structures,Structure sets Template pools Processor lists Structure templates
+    Structures,Structure sets Template pools Processor lists Structure templates
+    Data packs,Caves & Cliffs Prototype Data Pack
+    Tutorials,Installing a data pack Creating a data pack
+

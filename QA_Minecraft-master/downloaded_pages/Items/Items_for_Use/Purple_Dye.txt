@@ -1,0 +1,53 @@
+Overview
+    Purple dye is one of the sixteen available dyes. Crafting it is possible only with other dyes.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Blue Dye + Red Dye,"[[None, None, None], ['Blue Dye', 'Red Dye', None], [None, None, None]]"
+    Lapis Lazuli + Red Dye,"[[None, None, None], ['Lapis Lazuli', 'Red Dye', None], [None, None, None]]"
+
+  Trading
+    Wandering traders sometimes sell 3 purple dye for an emerald.
+
+Usage
+    Like all other dyes, purple dye can be:
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Dyed Carpet,Any Carpet + Purple Dye,"[[None, None, None], ['White Carpet', '', None], [None, None, None]]",‌ [ Java Edition only ]
+    Glow Stick,Polyethylene + Hydrogen Peroxide + Purple Dye + Luminol,"[['Polyethylene', 'Hydrogen Peroxide', 'Polyethylene'], ['Polyethylene', '', 'Polyethylene'], ['Polyethylene', 'Luminol', 'Polyethylene']]",
+    Magenta Dye,Purple Dye + Pink Dye,"[[None, None, None], ['', 'Pink Dye', None], [None, None, None]]",
+    Purple Balloon,Latex + Purple Dye + Helium + Lead,"[['Latex', '', 'Latex'], ['Latex', 'Helium', 'Latex'], ['Latex', 'Lead', 'Latex']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Purple Balloon,Latex + Purple Dye + Helium + Lead,"[['Latex', '', 'Latex'], ['Latex', 'Helium', 'Latex'], ['Latex', 'Lead', 'Latex']]",
+    Purple Bed,Any Bed + Purple Dye,"[[None, None, None], ['White Bed', '', None], [None, None, None]]",A bed of any color can be re-dyed using dyes.
+    Purple Candle,Candle + Purple Dye,"[[None, None, None], ['Candle', '', None], [None, None, None]]",
+    Purple Carpet,White Carpet + Purple Dye,"[['White Carpet', 'White Carpet', 'White Carpet'], ['White Carpet', '', 'White Carpet'], ['White Carpet', 'White Carpet', 'White Carpet']]",‌ [ Bedrock Edition only ]
+    Purple Concrete Powder,Purple Dye + Sand + Gravel,"[['', 'Sand', 'Sand'], ['Sand', 'Sand', 'Gravel'], ['Gravel', 'Gravel', 'Gravel']]",Red sand cannot be used in place of sand. [1] [2]
+    Purple Firework Star,Gunpowder + Purple Dye + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', '', 'Head'], ['Glowstone Dust', 'Diamond', None]]","Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Purple Glow Stick,Polyethylene + Hydrogen Peroxide + Purple Dye + Luminol,"[['Polyethylene', 'Hydrogen Peroxide', 'Polyethylene'], ['Polyethylene', '', 'Polyethylene'], ['Polyethylene', 'Luminol', 'Polyethylene']]",‌ [ Bedrock Edition and Minecraft Education only ] light gray dye creates a glitched glow stick called item.glow_stick.silver.name. [ verify ]
+    Purple Shulker Box,Shulker Box or Any Shulker Box + Purple Dye,"[[None, None, None], ['Shulker Box', '', None], [None, None, None]]","The shulker box retains its contents. If it is renamed on an anvil , it also retains its name."
+    Purple Stained Glass,Glass + Purple Dye,"[['Glass', 'Glass', 'Glass'], ['Glass', '', 'Glass'], ['Glass', 'Glass', 'Glass']]",
+    Purple Stained Glass Pane,Glass Pane + Purple Dye,"[['Glass Pane', 'Glass Pane', 'Glass Pane'], ['Glass Pane', '', 'Glass Pane'], ['Glass Pane', 'Glass Pane', 'Glass Pane']]",
+    Purple Terracotta,Terracotta + Purple Dye,"[['Terracotta', 'Terracotta', 'Terracotta'], ['Terracotta', '', 'Terracotta'], ['Terracotta', 'Terracotta', 'Terracotta']]",
+    Purple Wool,Any Wool + Purple Dye,"[[None, None, None], ['White Wool', '', None], [None, None, None]]",
+    Purple Banner pattern,Purple Dye + Banner,"[['', '', ''], ['', 'Banner', ''], ['', '', '']]",
+    Purple Banner image,Purple Dye + Banner + Vines or Bricks or Creeper Head or Wither Skeleton Skull or Oxeye Daisy or Enchanted Golden Apple,"[[None, None, None], ['Vines', '', None], [None, 'Banner', None]]",
+
+  Loom ingredient
+  Trading
+    Apprentice-level Shepherd villagers have a 20% chance to buy 12 purple dye for an emerald as part of their trades.‌[Bedrock Edition  only] Expert-level Shepherd villagers have a 2⁄7 chance to buy 12 purple dye for an emerald.‌[Java Edition  only]
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Purple Dye,purple_dye,Item,item.minecraft.purple_dye
+
+    Bedrock Edition:
+
+    Name,Identifier,Alias ID,Numeric ID,Form,Translation key
+    Purple Dye,purple_dye,dye / 5,400,Item,item.dye.purple.name
+
+Video

@@ -1,0 +1,32 @@
+Overview
+    A rabbit's foot is a brewing item obtained from rabbits.
+
+Obtaining
+  Mob loot
+    Each rabbit has a 10% chance to drop a rabbit's foot when killed by the player. This chance can be increased by 3% per level using a sword enchanted with Looting. A fox sometimes spawns with a rabbit's foot in its mouth, which always drops upon death. Alternatively, the player can drop a food item, which causes the fox to drop the rabbit's foot.
+
+  Cat gifts
+    A tamed cat has a 70% chance of giving the player a gift when the player wakes up from a bed, and the gift has a 16.13% chance to be a rabbit's foot.
+
+Usage
+  Brewing ingredient
+    Name,Ingredients,Brewing recipe
+    Mundane Potion,Rabbit's Foot + Water Bottle,output:Mundane Potion
+    Potion of Leaping,Rabbit's Foot + Awkward Potion,output:Potion of Leaping
+
+  Trading
+    Journeyman-level cleric villagers buy rabbit's feet for an emerald as part of their trade: in Java Edition they buy 2, and in Bedrock Edition they buy 4.
+
+Video
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Rabbit's Foot,rabbit_foot,Item,item.minecraft.rabbit_foot
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Rabbit's Foot,rabbit_foot,528,Item,item.rabbit_foot.name
+

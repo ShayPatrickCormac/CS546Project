@@ -1,0 +1,51 @@
+Overview
+    A block of iron is a precious metal block equivalent to nine iron ingots.
+
+Obtaining
+  Breaking
+    Blocks of iron can be mined only with a stone pickaxe or better. If a block of iron is mined without the use of a pickaxe, it drops nothing.
+
+    Block,Block of Iron
+    Hardness,5
+    Tool,stone pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,12.5
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,2.1
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Block of Iron,Bastion remnant,Generic chest,1,"19% { ""item"": ""Block of Iron"", ""stacksize"": 1, ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Treasure chest,2–5,"33.7% { ""item"": ""Block of Iron"", ""stacksize"": ""2–5"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Upcoming Java Edition
+    Block of Iron,Trial Chambers,Intersection chest,1–2,"39.7% { ""item"": ""Block of Iron"", ""stacksize"": ""1–2"", ""chance"": 0.39719773101739475, ""structure"": ""Trial Chambers"", ""container"": ""Intersection chest"" }"
+    Bedrock Edition
+    Block of Iron,Bastion remnant,Generic chest,1,"19% { ""item"": ""Block of Iron"", ""stacksize"": 1, ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Treasure chest,2–5,"33.7% { ""item"": ""Block of Iron"", ""stacksize"": ""2–5"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot,"[['Iron Ingot', 'Iron Ingot', 'Iron Ingot'], ['Iron Ingot', 'Iron Ingot', 'Iron Ingot'], ['Iron Ingot', 'Iron Ingot', 'Iron Ingot']]"
+
+Usage
+    Blocks of iron can be used to store iron ingots in a compact fashion.
+
+  Beacons
+    Blocks of iron can be used to "power" a beacon. The beacon can be powered by a 3×3 square of iron blocks underneath it, and can optionally also include a 5×5, 7×7 and 9×9 layer in the shape of a pyramid under the original layer to increase the effects from the beacon. The layers do not have to be entirely blocks of iron, as they may also contain blocks of gold, blocks of diamond, blocks of netherite or blocks of emerald.
+
+  Spawning iron golems
+    Blocks of iron and pumpkins‌[Bedrock Edition  only], carved pumpkins or jack o'lanterns are used to build iron golems. The pumpkin, carved pumpkin or jack o'lantern must be placed last, and the golem spawns immediately after placing it.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Anvil,Block of Iron + Iron Ingot,"[['', '', ''], [None, 'Iron Ingot', None], ['Iron Ingot', 'Iron Ingot', 'Iron Ingot']]"
+    Iron Ingot,Block of Iron,"[[None, None, None], [None, '', None], [None, None, None]]"
+
+  Note blocks
+    Blocks of iron can be placed under note blocks to produce iron xylophone sounds.
+

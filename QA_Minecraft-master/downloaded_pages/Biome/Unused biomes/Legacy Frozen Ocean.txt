@@ -1,0 +1,260 @@
+Overview
+    The ocean is an aquatic biome consisting of water. Oceans are the largest biome by area, covering anywhere around 25-33% of the surface area of the Overworld when factoring in all of its varieties and consist of a deep water source with the surface at an altitude of y=62 by default, which is counted as the "sea level" layer of the world.
+
+Description
+    Oceans are vast expanses of water, going from sea level all the way down to the ocean floor, which is at a depth of roughly Y=45 for normal oceans, or Y=30 for deep variants. The seafloor is fairly hilly, featuring multiple peaks and valleys, and is mostly covered by a one-block layer of gravel or sand, though some clay, dirt, gravel and sand patches may generate near the peaks. Ravines can occasionally generate on the ocean floor, forming underwater trenches. Some seafloor peaks may reach high enough to form islands on the surface of the ocean; these islands are typically small and may have very sparse vegetation with very little grass and oak trees. The seafloor is often covered with seagrass and kelp, with "forests" of kelp frequently reaching close to or even touching the water's surface. Fish, squid and dolphins frequently spawn within oceans. Shipwrecks and ocean ruins generate within all oceans, while deep ocean variants can occasionally generate ocean monuments. The regular ocean variant mainly generates when bordering on land, while deep variants generates when away from land. Survival in ocean biomes themselves is impractical due to all the water. A player who camps on an island in the ocean faces a rather difficult situation. This means that whatever resources found on an island might be all the player has if the player is unwilling or unable to venture out. See the island survival article for more information.
+
+Variants
+    Oceans come in nine different varieties in-game, including the base ocean and eight different variants. Bedrock Edition has two unused biomes, "deep warm ocean" and "legacy frozen ocean".
+
+  Ocean
+    This is the standard ocean variant. The ground is mainly covered with gravel. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 520,4
+    Skeleton,100 ⁄ 520,4
+    Slime [note 1],100 ⁄ 520,4
+    Spider,100 ⁄ 520,4
+    Zombie,95 ⁄ 520,4
+    Enderman,10 ⁄ 520,1–4
+    Drowned,5 ⁄ 520,1
+    Witch,5 ⁄ 520,1
+    Zombie Villager,5 ⁄ 520,1
+    Water ambient category
+    Cod,1,3–6
+    Water creature category
+    Dolphin,1 ⁄ 2,1–2
+    Squid,1 ⁄ 2,1–4
+    Ambient category
+    Bat,1,8
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 595,1
+    Drowned,100 ⁄ 595,2–4
+    Slime [note 1],100 ⁄ 595,1
+    Spider,100 ⁄ 595,1
+    Zombie,95 ⁄ 595,2–4
+    Skeleton,80 ⁄ 595,1–2
+    Enderman,10 ⁄ 595,1–2
+    Witch,5 ⁄ 595,1
+    Zombie Villager,5 ⁄ 595,2–4
+    Creature category
+    Glow Squid,10 ⁄ 25,2–4
+    Squid,8 ⁄ 25,2–4
+    Dolphin,7 ⁄ 25,3–5
+    Water creature category
+    Cod,75 ⁄ 101,4–7
+    Salmon,26 ⁄ 101,3–5
+
+    The deep ocean variant generates at deeper waters, with the depth usually being around 30 blocks which is twice as deep as shallower oceans. The ground is mainly covered with gravel. Ocean monuments generate in deep oceans, meaning guardians and elder guardians can spawn there. Dolphins, cod, salmon‌[Bedrock Edition  only] and squid spawn in these oceans as well. Underwater caves and ravines often generate here, forming underwater trenches. Tall seagrass also generates more frequently in deep oceans compared to shallower oceans. Deep oceans use the same mob spawning chances as oceans.
+
+  Frozen Ocean
+    The frozen ocean has low temperature and often borders snowy beaches. They generate next to snowy plains, ice spikes, and snowy taigas usually, but they can also generate next to regular taiga biomes, resulting in incorrect and weird generation. Like the standard and cold oceans, it has a gravel seabed, though the water's surface is mostly‌[JE  only]/completely‌[BE  only] frozen. Neither seagrass nor kelp generates on the seafloor, leaving it entirely barren and reminiscent of pre-Update Aquatic oceans. Large icebergs made of snow blocks, packed ice and a bit of blue ice frequently generate on the surface. In Java Edition, frozen oceans have varying temperatures across their landscapes, and have a more noticeable effect in that colder patches have snowfall and ice sheets, while warmer patches have rainfall (up to a certain height) and unfrozen water. See also Biome#Temperature. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 520,4
+    Skeleton,100 ⁄ 520,4
+    Slime [note 1],100 ⁄ 520,4
+    Spider,100 ⁄ 520,4
+    Zombie,95 ⁄ 520,4
+    Enderman,10 ⁄ 520,1–4
+    Drowned,5 ⁄ 520,1
+    Witch,5 ⁄ 520,1
+    Zombie Villager,5 ⁄ 520,1
+    Creature category
+    Polar Bear,1,1–2
+    Underground water creature category
+    Glow Squid,1,4–6
+    Ambient category
+    Bat,1,8
+    Water ambient category
+    Salmon,1,1–5
+    Water creature category
+    Squid,1,1–4
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 635,1
+    Drowned,100 ⁄ 635,2–4
+    Slime [note 1],100 ⁄ 635,1
+    Spider,100 ⁄ 635,1
+    Stray,96 ⁄ 635,1–2
+    Zombie,95 ⁄ 635,2–4
+    Skeleton,24 ⁄ 635,1–2
+    Enderman,10 ⁄ 635,1–2
+    Witch,5 ⁄ 635,1
+    Zombie Villager,5 ⁄ 635,2–4
+    Creature category
+    Glow Squid,10 ⁄ 27,2–4
+    Squid,8 ⁄ 27,2–4
+    Polar Bear,5 ⁄ 27,1–2
+    Rabbit,4 ⁄ 27,2–3
+    Water creature category
+    Cod,75 ⁄ 101,4–7
+    Salmon,26 ⁄ 101,3–5
+
+    The deep frozen ocean generate at deeper waters and also contain ocean monuments. Icebergs may still generate, but unlike normal frozen ocean, the water's surface is not frozen in Java Edition[1]. In Bedrock Edition, the water's surface is entirely frozen. Deep frozen oceans use the same mob spawning chances as frozen oceans.
+
+  Cold Ocean
+    The cold ocean uses a dark indigo water color at the surface and often generates next to cold biomes like taigas and old growth taigas. Like regular oceans and frozen oceans, its floor is made up mainly of gravel. The vegetation in cold oceans also has less seagrass compared to other ocean variants.
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 520,4
+    Skeleton,100 ⁄ 520,4
+    Slime [note 1],100 ⁄ 520,4
+    Spider,100 ⁄ 520,4
+    Zombie,95 ⁄ 520,4
+    Enderman,10 ⁄ 520,1–4
+    Drowned,5 ⁄ 520,1
+    Witch,5 ⁄ 520,1
+    Zombie Villager,5 ⁄ 520,1
+    Water ambient category
+    Cod,15 ⁄ 30,3–6
+    Salmon,15 ⁄ 30,1–5
+    Water creature category
+    Squid,1,1–4
+    Ambient category
+    Bat,1,8
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    In Bedrock Edition, cold oceans use the same mob spawning chances as oceans. The deep cold ocean generates at deeper waters being twice as deep, can generate ocean monuments and has higher amounts of tall seagrass. Deep cold oceans use the same mob spawning chances as cold oceans.
+
+  Lukewarm Ocean
+    The lukewarm ocean has light blue water at the surface and generates in regions with slightly warm biomes like jungles and savannas. Its floor is made of sand, with occasional patches of dirt, gravel and clay in shallower areas. Ocean ruins that generate in lukewarm and warm oceans are made of sandy materials, as opposed to the stony materials that make up ruins in colder oceans. This biome also has more seagrass and less kelp compared to colder ocean variants.
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 520,4
+    Skeleton,100 ⁄ 520,4
+    Slime [note 1],100 ⁄ 520,4
+    Spider,100 ⁄ 520,4
+    Zombie,95 ⁄ 520,4
+    Enderman,10 ⁄ 520,1–4
+    Drowned,5 ⁄ 520,1
+    Witch,5 ⁄ 520,1
+    Zombie Villager,5 ⁄ 520,1
+    Water ambient category
+    Tropical Fish,25 ⁄ 45,8
+    Cod,15 ⁄ 45,3–6
+    Pufferfish,5 ⁄ 45,1–3
+    Water creature category
+    Squid,10 ⁄ 12,1–2
+    Dolphin,2 ⁄ 12,1–2
+    Ambient category
+    Bat,1,8
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 595,1
+    Drowned,100 ⁄ 595,2–4
+    Slime [note 1],100 ⁄ 595,1
+    Spider,100 ⁄ 595,1
+    Zombie,95 ⁄ 595,2–4
+    Skeleton,80 ⁄ 595,1–2
+    Enderman,10 ⁄ 595,1–2
+    Witch,5 ⁄ 595,1
+    Zombie Villager,5 ⁄ 595,2–4
+    Creature category
+    Glow Squid,10 ⁄ 25,2–4
+    Squid,8 ⁄ 25,2–4
+    Dolphin,7 ⁄ 25,3–5
+    Water creature category
+    Cod,75 ⁄ 201,4–7
+    Tropical Fish [note 2],75 ⁄ 201,3–5
+    Salmon,26 ⁄ 201,3–5
+    Tropical Fish [note 2],25 ⁄ 201,1–3
+
+    The deep lukewarm ocean generates in deep waters. Since they are a deep ocean variant, they can generate ocean monuments and have more tall seagrass. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Spider,100 ⁄ 520,4
+    Zombie,95 ⁄ 520,4
+    Zombie Villager,5 ⁄ 520,1
+    Skeleton,100 ⁄ 520,4
+    Creeper,100 ⁄ 520,4
+    Slime [note 1],100 ⁄ 520,4
+    Enderman,10 ⁄ 520,1–4
+    Witch,5 ⁄ 520,1
+    Drowned,5 ⁄ 520,1
+    Water ambient category
+    Cod,8 ⁄ 38,3–6
+    Pufferfish,5 ⁄ 38,1–3
+    Tropical Fish,25 ⁄ 38,8
+    Water creature category
+    Squid,8 ⁄ 10,1–4
+    Dolphin,2 ⁄ 10,1–2
+    Ambient category
+    Bat,1,8
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    In Bedrock Edition, deep lukewarm oceans use the same mob spawning chances as lukewarm oceans
+
+  Warm Ocean
+    The warm ocean has an aquamarine water tone at the surface and often generates next to deserts and badlands. Like the lukewarm ocean, it has a floor mainly made of sand, however no dirt, clay or gravel generate at shallower areas and if this biome generates above sea level, the surface is made of sand instead of grass blocks. Warm oceans feature coral reefs and numerous sea pickles, though kelp does not naturally generate here. Because of the height of the coral reef, warm oceans can appear more shallow than other oceans, though the actual ocean floor is no deeper. This is also the only ocean temperature variant that can generate at deeper waters without needing a deep variant, and because of that monuments can't be found in this biome.
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 520,4
+    Skeleton,100 ⁄ 520,4
+    Slime [note 1],100 ⁄ 520,4
+    Spider,100 ⁄ 520,4
+    Zombie,95 ⁄ 520,4
+    Enderman,10 ⁄ 520,1–4
+    Drowned,5 ⁄ 520,1
+    Witch,5 ⁄ 520,1
+    Zombie Villager,5 ⁄ 520,1
+    Water ambient category
+    Pufferfish,15 ⁄ 40,1–3
+    Tropical Fish,25 ⁄ 40,8
+    Water creature category
+    Squid,10 ⁄ 12,4
+    Dolphin,2 ⁄ 12,1–2
+    Ambient category
+    Bat,1,8
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 595,1
+    Drowned,100 ⁄ 595,2–4
+    Slime [note 1],100 ⁄ 595,1
+    Spider,100 ⁄ 595,1
+    Zombie,95 ⁄ 595,2–4
+    Skeleton,80 ⁄ 595,1–2
+    Enderman,10 ⁄ 595,1–2
+    Witch,5 ⁄ 595,1
+    Zombie Villager,5 ⁄ 595,2–4
+    Creature category
+    Glow Squid,10 ⁄ 25,2–4
+    Squid,8 ⁄ 25,2–4
+    Dolphin,7 ⁄ 25,3–5
+    Water creature category
+    Tropical Fish [note 2],75 ⁄ 125,3–5
+    Pufferfish,25 ⁄ 125,3–5
+    Tropical Fish [note 2],25 ⁄ 125,1–3
+
+Unused variant
+  Deep Warm Ocean
+  Legacy Frozen Ocean
+    The legacy frozen ocean variant is similar to frozen ocean biomes, but without icebergs, making it look like flatlands of ice. Rabbits, polar bears and strays spawn in here. Rabbits have their snowy texture. No monsters other than drowned, strays and skeletons can spawn here. This biome also generates kelp. Those biomes were much smaller and existed prior in Pocket Edition v0.9.0 alpha. This biome does not naturally generate, though it can be generated using a biome editor or add-ons. Legacy frozen oceans use the same mob spawning chances as frozen oceans for water and passive categories. As for the others: In Bedrock Edition:
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Drowned,100 ⁄ 220,2–4
+    Stray,96 ⁄ 220,1–2
+    Skeleton,24 ⁄ 220,1–2
+
+    
+

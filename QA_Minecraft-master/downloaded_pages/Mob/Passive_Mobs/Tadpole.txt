@@ -1,0 +1,19 @@
+Overview
+    A tadpole is a bucketable aquatic baby passive mob hatched from frogspawn. They mature into one of the three frog variants depending on the biome in which they mature.
+
+Spawning
+    Tadpoles hatch from frogspawn in groups of 2-5.
+
+Drops
+    As with other baby animals, tadpoles do not drop any items or experience on death.
+
+Behavior
+    Tadpoles swim aimlessly in water. On land, they flop around like fish and seek out nearest water. They die in less than 20 seconds after being out of water. Unlike frogs, tadpoles are hunted by axolotls. Tadpoles follow a player that is holding a slimeball. A player can pick up a tadpole with a bucket of water. A tadpole grows up into one of the variants of a frog depending on the tadpole's location, as shown on the table below. Tadpoles take one Minecraft day to grow up (20 minutes). Its growth may be accelerated by feeding it slimeballs. Each use reduces the remaining growth duration by 10%.
+
+    Variants
+    Temperate,Cold,Warm
+    Biomes
+    River Beach Taiga Old Growth Pine Taiga Old Growth Spruce Taiga Birch Forest Old Growth Birch Forest Dark Forest Forest Flower Forest Mushroom Fields Meadow Plains Sunflower Plains Swamp [n 1] Windswept Hills Windswept Gravelly Hills Windswept Forest Ocean Dripstone Caves Lush Caves Stony Shore Stony Peaks ‌ [ JE only ] Cold Ocean ‌ [ JE only ] Deep Cold Ocean ‌ [ JE only ] Lukewarm Ocean ‌ [ JE only ] Deep Lukewarm Ocean ‌ [ JE only ] The Void ‌ [ JE only ],Frozen River Snowy Beach Grove Frozen Peaks Jagged Peaks Snowy Plains Ice Spikes Snowy Slopes Snowy Taiga Frozen Ocean Deep Frozen Ocean The End Deep Dark End Barrens ‌ [ JE only ] End Highlands ‌ [ JE only ] End Midlands ‌ [ JE only ] Small End Islands ‌ [ JE only ] Cold Ocean ‌ [ BE only ] Deep Cold Ocean ‌ [ BE only ],Jungle Bamboo Jungle Sparse Jungle Badlands Eroded Badlands Wooded Badlands Desert Savanna Savanna Plateau Windswept Savanna Warm Ocean Mangrove Swamp [n 1] Basalt Deltas Crimson Forest Nether Wastes Soul Sand Valley Warped Forest Stony Peaks ‌ [ BE only ] Lukewarm Ocean ‌ [ BE only ] Deep Lukewarm Ocean ‌ [ BE only ]
+
+    Notes
+

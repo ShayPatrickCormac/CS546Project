@@ -1,0 +1,76 @@
+Overview
+    A stone pickaxe has a mining level of 1, being between a wooden pickaxe and iron pickaxe.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Any stone-tier block + Stick,"[['Cobblestone', 'Cobblestone', 'Cobblestone'], [None, 'Stick', None], [None, 'Stick', None]]",Can use cobblestone and its other variants interchangeably.
+    Damaged Stone Pickaxes,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two pickaxes is added together, plus an extra 5% durability."
+
+  Repairing
+    Ingredients,Grinding recipe
+    Damaged Stone Pickaxes,
+
+    Stone pickaxes can be repaired in an anvil by adding cobblestone, cobbled deepslate, or blackstone‌[JE  only], with each block restoring 25% of the pickaxe's maximum durability, rounded down.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Stone Pickaxe,Bonus chest,Chest,1,"25% { ""item"": ""Stone Pickaxe"", ""stacksize"": 1, ""chance"": 0.25, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Stone Pickaxe,Bonus chest,Chest,1,"25% { ""item"": ""Stone Pickaxe"", ""stacksize"": 1, ""chance"": 0.25, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+  Trading
+    In Bedrock Edition, novice-level toolsmith villagers have a 25% chance to sell stone pickaxes for one emerald. In Java Edition, novice-level toolsmith villagers have a 40% chance to sell a stone pickaxe for one emerald.
+
+  Villager gifts
+    In Java Edition, toolsmith villagers throw stone pickaxes at players under the Hero of the Village effect.
+
+Usage
+  Mining
+    A stone pickaxe is used to break stone and metal-based materials faster. Breaking a block with a stone pickaxe consumes one use (one durability point). No durability is consumed for blocks that have a hardness value of 0, such as torches and flowers.
+
+  Weapon
+    All pickaxes have an attack speed modifier of -2.8, meaning they take about 0.83 seconds to recover. Stone pickaxes do 3 damage per attack, or 3.6 damage per second. All pickaxes attack instantly, with stone pickaxes doing 4 damage per attack.
+
+  Enchantments
+    A stone pickaxe can receive the following enchantments:
+
+    Name,Description,Max Level,Method,Weight
+    Efficiency,Increases the mining speed.,V,,10
+    Fortune [note 1],Increases the amount of drops when mining.,III,,2
+    Silk Touch [note 1],Causes blocks to drop themselves when mined.,I,,1
+    Unbreaking,Grants a chance to negate durability consumption.,III,,5
+    Mending,Repairs the pickaxe when obtaining experience .,I,,2
+    Curse of Vanishing,"The pickaxe vanishes on death, not dropping as an item.",I,,1
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Stone Pickaxe,stone_pickaxe,Item,item.minecraft.stone_pickaxe
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Stone Pickaxe,stone_pickaxe,314,Item,item.stone_pickaxe.name
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    getting an upgrade,getting an upgrade,"Getting an Upgrade { ""anchor"": """", ""title"": ""Getting an Upgrade"", ""icon"": """", ""title"": ""Getting an Upgrade"", ""description"": ""Construct a better pickaxe.
+ "", ""requirements"": ""Pick up a stone [[pickaxe]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Construct a better pickaxe.,Pick up a stone pickaxe from a crafting table output.,15G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Getting an Upgrade,Construct a better Pickaxe,Stone Age,Have a stone pickaxe in your inventory.,"story/upgrade_tools {""anchor"": """", ""title"": ""Getting an Upgrade"", ""icon"": ""Stone Pickaxe
+"", ""icon-style"": ""plain"", ""title"": ""Getting an Upgrade"", ""description"": ""Construct a better Pickaxe
+"", ""parent"": ""Stone Age
+"", ""requirements"": ""Have a [[stone pickaxe]] in your inventory.
+"", ""resourcelocation"": ""story/upgrade_tools
+"", ""rewards"": """" }"
+

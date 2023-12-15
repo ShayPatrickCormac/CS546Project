@@ -1,0 +1,30 @@
+Overview
+    A heart of the sea is a rare item that can be crafted into a conduit.
+
+Obtaining
+    The heart of the sea must be found. It cannot be crafted or obtained by trading, making it a non-renewable resource. A heart of the sea is obtained from a buried treasure. The location is marked with a noticeable red X on a buried treasure map, which is found in ocean ruins and shipwrecks. Feeding raw cod or raw salmon to a dolphin causes the dolphin to swim toward the nearest buried treasure, shipwreck, or ocean ruins.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Heart Of The Sea,Buried treasure,Chest,1,"100% { ""item"": ""Heart Of The Sea"", ""stacksize"": 1, ""chance"": 1, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Heart Of The Sea,Buried treasure,Chest,1,"100% { ""item"": ""Heart Of The Sea"", ""stacksize"": 1, ""chance"": 1, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+
+Usage
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Conduit,Nautilus Shell + Heart of the Sea,"[['Nautilus Shell', 'Nautilus Shell', 'Nautilus Shell'], ['Nautilus Shell', '', 'Nautilus Shell'], ['Nautilus Shell', 'Nautilus Shell', 'Nautilus Shell']]"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Heart of the Sea,heart_of_the_sea,Item,item.minecraft.heart_of_the_sea
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Heart of the Sea,heart_of_the_sea,571,Item,item.heart_of_the_sea.name
+

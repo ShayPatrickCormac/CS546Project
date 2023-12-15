@@ -1,0 +1,38 @@
+Overview
+    A cut copper slab is the cut copper variant of slabs, crafted from cut copper. Unlike other types of slabs, cut copper slabs can oxidize over time.
+
+Obtaining
+  Breaking
+    Cut copper slabs can be broken with stone pickaxes or higher.
+
+    Block,Cut Copper Slab
+    Hardness,3
+    Tool,stone pickaxe
+    Breaking time (sec) [A]
+    Default,15
+    Wooden,7.5
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,1.25
+
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Unwaxed Cut Copper Slab,Matching Unwaxed Cut Copper,"[[None, None, None], [None, None, None], ['Cut Copper', 'Cut Copper', 'Cut Copper']]"
+    Waxed Cut Copper Slab,Matching Waxed Cut Copper,"[[None, None, None], [None, None, None], ['Waxed Cut Copper', 'Waxed Cut Copper', 'Waxed Cut Copper']]"
+    Waxed Cut Copper Slab,Matching Unwaxed Cut Copper Slab + Honeycomb,"[[None, None, None], ['', 'Honeycomb', None], [None, None, None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Matching Block of Copper,8 8 8 8 8 8 8 8
+    Matching Cut Copper,2 2 2 2 2 2 2 2
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Chiseled Copper,Cut Copper Slab,"[[None, None, None], [None, '', None], [None, '', None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+
+  Oxidation
+    Non-waxed cut copper slabs have four stages of oxidation (including the initial normal state). Lightning bolts and axes can remove the oxidation on cut copper slabs. They can be waxed with a honeycomb to prevent it from oxidizing. As the block begins to oxidize (exposed), it gets discolored and green spots begin to appear. As the oxidation continues (weathered), the block is a green color with brown spots. In the last stage (oxidized), the block is teal with several green spots.
+

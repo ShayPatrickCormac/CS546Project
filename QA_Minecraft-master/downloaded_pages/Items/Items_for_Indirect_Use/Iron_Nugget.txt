@@ -1,0 +1,54 @@
+Overview
+    Iron nuggets are pieces of iron that can be obtained by smelting iron tools/weapons or iron/chainmail armor. One iron nugget is worth one-ninth of an iron ingot.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot,"[[None, None, None], [None, 'Iron Ingot', None], [None, None, None]]"
+
+  Smelting
+    Ingredients,Smelting recipe
+    Iron Sword or Any iron tools or Any iron armor or Any chainmail armor or Iron Horse Armor + Any fuel,0.1
+
+    Durability and enchantments do not affect the ability to smelt iron tools, weapons, or armor into iron nuggets.
+
+  Bartering
+    Piglins may barter 9–36 iron nuggets when given a gold ingot.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Iron Nugget,Bastion remnant,Generic chest,2–8,"24.4% { ""item"": ""Iron Nugget"", ""stacksize"": ""2–8"", ""chance"": 0.24372395924512447, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bridge chest,2–6,"47.9% { ""item"": ""Iron Nugget"", ""stacksize"": ""2–6"", ""chance"": 0.4794666666666667, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Ruined portal,Chest,9–18,"46.4% { ""item"": ""Iron Nugget"", ""stacksize"": ""9–18"", ""chance"": 0.46437576826185156, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–10,"94.5% { ""item"": ""Iron Nugget"", ""stacksize"": ""1–10"", ""chance"": 0.9448623657226562, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Village,Taiga house chest,1–5,"9.7% { ""item"": ""Iron Nugget"", ""stacksize"": ""1–5"", ""chance"": 0.09723883474496142, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Bedrock Edition
+    Iron Nugget,Bastion remnant,Generic chest,2–8,"24.4% { ""item"": ""Iron Nugget"", ""stacksize"": ""2–8"", ""chance"": 0.24372395924512447, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bridge chest,2–6,"47.9% { ""item"": ""Iron Nugget"", ""stacksize"": ""2–6"", ""chance"": 0.4794666666666667, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Ruined portal,Chest,9–18,"46.4% { ""item"": ""Iron Nugget"", ""stacksize"": ""9–18"", ""chance"": 0.46437576826185156, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–10,"94.5% { ""item"": ""Iron Nugget"", ""stacksize"": ""1–10"", ""chance"": 0.9448623657226562, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Village,Taiga house chest,1–5,"10.7% { ""item"": ""Iron Nugget"", ""stacksize"": ""1–5"", ""chance"": 0.10665831307875395, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+
+Usage
+    Iron nuggets are used to craft iron ingots, lanterns, soul lanterns, and chains.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Chain,Iron Nugget + Iron Ingot,"[[None, '', None], [None, 'Iron Ingot', None], [None, '', None]]"
+    Iron Ingot,Iron Nugget,"[['', '', ''], ['', '', ''], ['', '', '']]"
+    Lantern,Iron Nugget + Torch,"[['', '', ''], ['', 'Torch', ''], ['', '', '']]"
+    Soul Lantern,Iron Nugget + Soul Torch,"[['', '', ''], ['', 'Soul Torch', ''], ['', '', '']]"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Iron Nugget,iron_nugget,Item,item.minecraft.iron_nugget
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Iron Nugget,iron_nugget,569,Item,item.iron_nugget.name
+

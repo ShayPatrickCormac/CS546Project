@@ -1,0 +1,41 @@
+Overview
+    Riptide is an enchantment exclusive to tridents, which hurls the user in the direction the user is facing, but only when they are wet.
+
+Usage
+    Tridents enchanted with Riptide can be thrown only when a player stands in water or when exposed to rain. In those situations, a thrown trident launches the player with it. Players can reach greater heights by throwing a Riptide trident straight upward, and travel further distances by throwing it from a higher altitude, or by sprinting or sprint-swimming while in motion. If a Riptide-enchanted trident is held in both the main hand and the off-hand, the player's velocity is not doubled and only the trident in the main is used (see dual wield), although the animation for both tridents is displayed on the HUD. The formula for the number of blocks the trident throws the user is (6 × level) + 3 when in rain or standing in water, and (4 × level) + 3 while underwater. Riptide cannot be used in biomes (or altitudes) where it doesn't rain, even if the current weather in these locations is snow or overcast. If the player collides with a mob or another player, the trident deals throwing damage, including critical damage if the player is falling, and the player's movement is abruptly stopped. Throwing a Riptide trident consumes 1 durability.‌[JE  only] In this situation, a Riptide trident can bypass the defense of a shield. Colliding with a mob to deal damage consumes 1 durability regardless of version, which means a collision in Java Edition damages the trident twice. If the Riptide trident is in the off-hand, damage is dealt with the item in the main hand, if any. If an item is being held in the off-hand during movement, on the HUD, the held item appears at the top-left, with the top of the item texture facing the direction the player is (unless that item is another trident, in which case the same animation as the Riptide trident is played, regardless of if the trident in the off-hand is enchanted with Riptide or not). The same is true if the trident is in the off-hand and the held item in the main hand, if any. The trident, the item in the main/off-hand (if any), and other items can be swapped, rearranged, or thrown out to create different animation combinations. A thrown Riptide-enchanted trident can hit multiple targets.‌[BE  only]
+
+  Elytra
+    A Riptide trident can be used to propel a player with a pair of elytra, in rainy weather or in a body of water. This allows the player to reach speeds as high as 125 blocks per second,[1] much faster than the 33.5 blocks-per-second speed achieved using firework rockets.
+
+Incompatibilities
+    Since a Riptide trident never leaves the player's hand when used, Loyalty cannot be used, and because of that, the two enchantments can't be combined. Channeling is also mutually exclusive with Riptide, both because the trident never really lands anywhere, and because it would strike lightning at the player's own position. If combined using commands, Riptide takes priority over Loyalty and Channeling.
+
+Sounds
+    Java Edition:
+
+    Sounds
+    Sound,Subtitles,Source,Description,Resource location,Translation key,Volume,Pitch,Attenuation distance
+    ,Trident zooms,Players,When a Riptide I trident is used,item .trident .riptide_1,subtitles .item .trident .riptide,1.0,1.0,"16 { ""pitch"": ""1.0"", ""subtitle"": ""Trident zooms"", ""source"": ""Players"", ""id"": ""item.trident.riptide_1"", ""distance"": ""16"", ""desc"": ""When a Riptide I trident is used"", ""sounds"": [ ""Riptide I.ogg"" ], ""volume"": ""1.0"", ""java"": ""1"", ""translationkey"": ""subtitles.item.trident.riptide"" }"
+    ,Trident zooms,Players,When a Riptide II trident is used,item .trident .riptide_2,subtitles .item .trident .riptide,1.0,1.0,"16 { ""pitch"": ""1.0"", ""subtitle"": ""Trident zooms"", ""source"": ""Players"", ""id"": ""item.trident.riptide_2"", ""distance"": ""16"", ""desc"": ""When a Riptide II trident is used"", ""sounds"": [ ""Riptide II.ogg"" ], ""volume"": ""1.0"", ""java"": ""1"", ""translationkey"": ""subtitles.item.trident.riptide"" }"
+    ,Trident zooms,Players,When a Riptide III or higher trident is used,item .trident .riptide_3,subtitles .item .trident .riptide,1.0,1.0,"16 { ""pitch"": ""1.0"", ""subtitle"": ""Trident zooms"", ""source"": ""Players"", ""id"": ""item.trident.riptide_3"", ""distance"": ""16"", ""desc"": ""When a Riptide III or higher trident is used"", ""sounds"": [ ""Riptide III.ogg"" ], ""volume"": ""1.0"", ""java"": ""1"", ""translationkey"": ""subtitles.item.trident.riptide"" }"
+
+    Bedrock Edition:
+
+    Sounds
+    Sound,Source,Description,Resource location,Volume,Pitch
+    ,Players,When a Riptide I trident is used,item .trident .riptide_1,1.0,"1.0 { ""sounds"": [ ""Riptide I.ogg"" ], ""source"": ""Players"", ""volume"": ""1.0"", ""id"": ""item.trident.riptide_1"", ""pitch"": ""1.0"", ""bedrock"": ""1"", ""desc"": ""When a Riptide I trident is used"" }"
+    ,Players,When a Riptide II trident is used,item .trident .riptide_2,1.0,"1.0 { ""sounds"": [ ""Riptide II.ogg"" ], ""source"": ""Players"", ""volume"": ""1.0"", ""id"": ""item.trident.riptide_2"", ""pitch"": ""1.0"", ""bedrock"": ""1"", ""desc"": ""When a Riptide II trident is used"" }"
+    ,Players,When a Riptide III trident is used,item .trident .riptide_3,1.0,"1.0 { ""sounds"": [ ""Riptide III.ogg"" ], ""source"": ""Players"", ""volume"": ""1.0"", ""id"": ""item.trident.riptide_3"", ""pitch"": ""1.0"", ""bedrock"": ""1"", ""desc"": ""When a Riptide III trident is used"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Riptide,riptide,enchantment.minecraft.riptide
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Riptide,riptide,30,enchantment.tridentRiptide
+

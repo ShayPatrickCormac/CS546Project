@@ -1,0 +1,20 @@
+Overview
+    The basalt deltas is a volcanic biome situated in the Nether.
+
+Description
+    The basalt deltas is composed largely of basalt and blackstone. Its fog appears in a dull lilac color with ash particles passing by. Archipelagos with islands of different sizes can be found around the lava seas nearby. Nether fortresses and caves filled with nether quartz ore can also be found here. Ore generates more commonly (to compensate for less netherrack to generate in). Bastion remnants do not generate here. The Basalt deltas are exceedingly dangerous due to the jagged terrain, countless deltas, ghasts and magma cubes. Magma cubes jump from above and are amphibious in lava. Due to their high spawn rate, they can pose a threat to the player even if wearing netherite armor, but they also make the biome the best place to obtain magma cream. Being bumped here is more dangerous than average, as cliffs and hidden lava pools are common. Their jumping movement, however, requires more space than the player.
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Ghast [note 1],40 ⁄ 140,1
+    Magma Cube,100 ⁄ 140,2–5
+    Creature category
+    Strider,1,1–2
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Magma Cube,100 ⁄ 140,2–5
+    Ghast,40 ⁄ 140,1
+    Creature category
+    Strider,1,2–4
+

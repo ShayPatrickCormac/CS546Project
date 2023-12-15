@@ -1,0 +1,38 @@
+Overview
+    A block of redstone is a mineral block equivalent to nine redstone dust. It acts as a permanently powered redstone power source that can be pushed by pistons.
+
+Obtaining
+  Breaking
+    A block of redstone can be mined using any pickaxe (unlike redstone ore, which requires an iron pickaxe or better).[1] If mined without a pickaxe, a block of redstone drops nothing.
+
+    Block,Block of Redstone
+    Hardness,5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,3.75
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,0.65
+
+  Natural generation
+    In each ancient city, 2 blocks of redstone can be found integrated into circuitry within a secret room at the city center.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Redstone Dust,"[['Redstone Dust', 'Redstone Dust', 'Redstone Dust'], ['Redstone Dust', 'Redstone Dust', 'Redstone Dust'], ['Redstone Dust', 'Redstone Dust', 'Redstone Dust']]"
+
+Usage
+    A block of redstone can be used as a redstone power source and can be crafted back into redstone dust. It can also be used as storage if the player's inventory is full of redstone dust from mining.
+
+  Crafting ingredient
+    Blocks of redstone can be crafted back into redstone dust, and thus provide compact storage for redstone, like other blocks of materials (block of iron, block of gold, etc.).
+
+    Name,Ingredients,Crafting recipe
+    Redstone Dust,Block of Redstone,"[[None, None, None], [None, '', None], [None, None, None]]"
+
+  Redstone component
+    To place a block of redstone, use the Place Block control. Blocks of redstone are always active and cannot be turned off. A block of redstone: Adjacent opaque blocks are not powered. If a redstone torch is attached to a block of redstone, it deactivates after 1 redstone tick and does not reactivate (which is normal behavior for a redstone torch attached to a powered block). A block of redstone can be moved by a piston. Water and lava flow around a block of redstone without affecting it.
+

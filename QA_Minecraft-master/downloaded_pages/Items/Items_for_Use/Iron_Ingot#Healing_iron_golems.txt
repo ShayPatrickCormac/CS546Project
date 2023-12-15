@@ -1,0 +1,157 @@
+Overview
+    Iron ingots are versatile metal ingots used extensively in crafting.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Block of Iron,"[[None, None, None], [None, 'Block of Iron', None], [None, None, None]]"
+    Iron Nugget,"[['Iron Nugget', 'Iron Nugget', 'Iron Nugget'], ['Iron Nugget', 'Iron Nugget', 'Iron Nugget'], ['Iron Nugget', 'Iron Nugget', 'Iron Nugget']]"
+
+  Smelting
+    Smelting raw iron in a furnace or blast furnace is the most common way to obtain iron ingots.
+
+    Name,Ingredients,Smelting recipe
+    Iron Ingot,Iron Ore or Deepslate Iron Ore + Any fuel,0.7
+    Iron Ingot,Raw Iron + Any fuel,0.7
+
+  Mob loot
+    Iron golems drop 3-5 iron ingots upon death, regardless of the way they die. The looting enchantment does not increase the amount of iron ingots dropped. Zombies, husks, and zombie villagers have a 2.5% (1⁄40) chance of dropping either an iron ingot, carrot, or potato when killed by a player or tamed wolf. This is increased by 1% (1⁄100) per level of looting. This gives iron ingots the following chances of dropping:
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Iron Ingot,Monster Room,Chest,1–4,"18.5% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.1846297600000001, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,1–5,"27.3% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bastion remnant,Generic chest,1–6,"19% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–6"", ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Treasure chest,3–9,"33.7% { ""item"": ""Iron Ingot"", ""stacksize"": ""3–9"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Bridge chest,4–9,"11.2% { ""item"": ""Iron Ingot"", ""stacksize"": ""4–9"", ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Buried treasure,Chest,1–4,"99.4% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.9938879069719839, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1–5,"18% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.18047585032339075, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,4–8,"38.4% { ""item"": ""Iron Ingot"", ""stacksize"": ""4–8"", ""chance"": 0.3843271872159123, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1–5,"37.4% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.3737505169732285, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1–5,"19% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Pillager Outpost,Chest,1–3,"30.5% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.3049868519909842, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–5,"97.4% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.974016, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Stronghold,Altar chest,1–5,"23% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.23049999999999993, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Storeroom chest,1–5,"34.3% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.34326506922961153, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Village,Weaponsmith's chest,1–5,"45.1% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.45132585369707257, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Armorer's chest,1–3,"54.2% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.5423828124999999, ""structure"": ""Village"", ""container"": ""Armorer's chest"" }"
+    Toolsmith's chest,1–5,"41.2% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.4118208436710489, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Woodland mansion,Chest,1–4,"18.5% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.1846297600000001, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Upcoming Java Edition
+    Iron Ingot,Trial Chambers,Corridor pot,1–6,"9.1% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–6"", ""chance"": 0.09074410163339386, ""structure"": ""Trial Chambers"", ""container"": ""Corridor pot"" }"
+    Bedrock Edition
+    Iron Ingot,Monster Room,Chest,1–4,"18.5% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.1846297600000001, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,1–5,"27.3% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bastion remnant,Bridge chest,4–9,"11.2% { ""item"": ""Iron Ingot"", ""stacksize"": ""4–9"", ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Generic chest,1–6,"19% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–6"", ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Treasure chest,3–9,"33.7% { ""item"": ""Iron Ingot"", ""stacksize"": ""3–9"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Buried treasure,Chest,3–5,"57.2% { ""item"": ""Iron Ingot"", ""stacksize"": ""3–5"", ""chance"": 0.5722759899564946, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1–5,"18% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.18047585032339075, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,4–8,"38.4% { ""item"": ""Iron Ingot"", ""stacksize"": ""4–8"", ""chance"": 0.3843271872159123, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1–5,"37.3% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.37306559930881145, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1–5,"19% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Pillager Outpost,Chest,1–3,"30.5% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.3049868519909842, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–5,"97.4% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.974016, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Stronghold,Storeroom chest,1–5,"28.5% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.2845331813431661, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Altar chest,1–5,"22.4% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.22392405816585448, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1–5,"45.1% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.45132585369707257, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Toolsmith's chest,1–5,"41.2% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.4118208436710489, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Armorer's chest,1–3,"54.2% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.5423828124999999, ""structure"": ""Village"", ""container"": ""Armorer's chest"" }"
+    Woodland mansion,Chest,1–4,"18.5% { ""item"": ""Iron Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.1846297600000001, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+  Compound creation
+    Iron Ingot can be created from its base elements, using the compound creator.‌[Bedrock Edition and Minecraft Education  only]
+
+    Name,Elements,Example recipe
+    Iron Ingot,Iron,"[[None, None, None], ['Iron', None, None], [None, None, None]]"
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Activator Rail,Iron Ingot + Stick + Redstone Torch,"[['', 'Stick', ''], ['', 'Redstone Torch', ''], ['', 'Stick', '']]",
+    Anvil,Block of Iron + Iron Ingot,"[['Block of Iron', 'Block of Iron', 'Block of Iron'], [None, '', None], ['', '', '']]",
+    Blast Furnace,Iron Ingot + Furnace + Smooth Stone,"[['', '', ''], ['', 'Furnace', ''], ['Smooth Stone', 'Smooth Stone', 'Smooth Stone']]",
+    Block of Iron,Iron Ingot,"[['', '', ''], ['', '', ''], ['', '', '']]",
+    Bucket,Iron Ingot,"[[None, None, None], ['', None, ''], [None, '', None]]",
+    Cauldron,Iron Ingot,"[['', None, ''], ['', None, ''], ['', '', '']]",
+    Chain,Iron Nugget + Iron Ingot,"[[None, 'Iron Nugget', None], [None, '', None], [None, 'Iron Nugget', None]]",
+    Compass,Iron Ingot + Redstone Dust,"[[None, '', None], ['', 'Redstone Dust', ''], [None, '', None]]",
+    Crafter,Iron Ingot + Crafting Table + Redstone Dust + Dropper,"[['', '', ''], ['', 'Crafting Table', ''], ['Redstone Dust', 'Dropper', 'Redstone Dust']]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Crossbow,Stick + Iron Ingot + String + Tripwire Hook,"[['Stick', '', 'Stick'], ['String', 'Tripwire Hook', 'String'], [None, 'Stick', None]]",
+    Detector Rail,Iron Ingot + Stone Pressure Plate + Redstone Dust,"[['', None, ''], ['', 'Stone Pressure Plate', ''], ['', 'Redstone Dust', '']]",
+    Flint and Steel,Iron Ingot + Flint,"[[None, None, None], ['', 'Flint', None], [None, None, None]]",
+    Heavy Weighted Pressure Plate,Iron Ingot,"[[None, None, None], ['', '', None], [None, None, None]]",
+    Hopper,Iron Ingot + Chest,"[['', None, ''], ['', 'Chest', ''], [None, '', None]]",
+    Iron Axe,Iron Ingot + Stick,"[['', '', None], ['', 'Stick', None], [None, 'Stick', None]]",
+    Iron Bars,Iron Ingot,"[['', '', ''], ['', '', ''], [None, None, None]]",
+    Iron Boots,Iron Ingot,"[[None, None, None], ['', None, ''], ['', None, '']]",
+    Iron Chestplate,Iron Ingot,"[['', None, ''], ['', '', ''], ['', '', '']]",
+    Iron Door,Iron Ingot,"[['', '', None], ['', '', None], ['', '', None]]",
+    Iron Helmet,Iron Ingot,"[[None, None, None], ['', '', ''], ['', None, '']]",
+    Iron Hoe,Iron Ingot + Stick,"[['', '', None], [None, 'Stick', None], [None, 'Stick', None]]",
+    Iron Leggings,Iron Ingot,"[['', '', ''], ['', None, ''], ['', None, '']]",
+    Iron Nugget,Iron Ingot,"[[None, None, None], [None, '', None], [None, None, None]]",
+    Iron Pickaxe,Iron Ingot + Stick,"[['', '', ''], [None, 'Stick', None], [None, 'Stick', None]]",
+    Iron Shovel,Iron Ingot + Stick,"[[None, '', None], [None, 'Stick', None], [None, 'Stick', None]]",
+    Iron Sword,Iron Ingot + Stick,"[[None, '', None], [None, '', None], [None, 'Stick', None]]",
+    Iron Trapdoor,Iron Ingot,"[[None, None, None], ['', '', None], ['', '', None]]",
+    Minecart,Iron Ingot,"[[None, None, None], ['', None, ''], ['', '', '']]",
+    Piston,Any Planks + Cobblestone + Iron Ingot + Redstone Dust,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], ['Cobblestone', '', 'Cobblestone'], ['Cobblestone', 'Redstone Dust', 'Cobblestone']]",
+    Rail,Iron Ingot + Stick,"[['', None, ''], ['', 'Stick', ''], ['', None, '']]",
+    Shears,Iron Ingot,"[[None, None, None], [None, '', None], ['', None, None]]",
+    Shield,Any Planks + Iron Ingot,"[['Oak Planks', '', 'Oak Planks'], ['Oak Planks', 'Oak Planks', 'Oak Planks'], [None, 'Oak Planks', None]]",
+    Smithing Table,Iron Ingot + Any Planks,"[['', '', None], ['Oak Planks', 'Oak Planks', None], ['Oak Planks', 'Oak Planks', None]]",
+    Stonecutter,Iron Ingot + Stone,"[[None, None, None], [None, '', None], ['Stone', 'Stone', 'Stone']]","Can use stone only, no variants.‌ [ Java Edition only ]"
+    Stonecutter,Iron Ingot + Any Stone,"[[None, None, None], [None, '', None], ['Stone', 'Stone', 'Stone']]",Can use stone and its three other variants interchangeably.‌ [ Bedrock Edition only ]
+    Tripwire Hook,Iron Ingot + Stick + Any Planks,"[[None, '', None], [None, 'Stick', None], [None, 'Oak Planks', None]]",
+
+  Trading
+    Apprentice-level Armorer, Toolsmith, and Weaponsmith villagers buy 4 iron ingots for an emerald as their third trade.‌[Bedrock Edition  only] Apprentice-level Armorer villagers have a 50% chance to buy 4 iron ingots for one emerald, and apprentice-level Toolsmith and Weaponsmith villagers always offer to buy 4 iron ingots for one emerald.‌[Java Edition  only]
+
+  Repairing
+    Iron ingots are the repair items for the iron tier and chainmail and iron armor materials, and thus can be used to repair the following items in an anvil:
+
+  Healing iron golems
+    Using an iron ingot on an iron golem restores its health by 25 × 12.5.
+
+  Beacons
+    Iron ingots can be used to select powers from a beacon. The player must select one of the available powers, and then insert an iron ingot in the item slot. An iron ingot can be substituted for an emerald, a gold ingot, a diamond, or a netherite ingot.
+
+  Smithing ingredient
+    Ingredients,Smithing recipe,Description
+    Any Armor Trim + Any Armor Piece + Iron Ingot,Upgrade Gear,"All armor types can be used in this recipe, a netherite chestplate is shown as an example."
+
+    Trim color palette The following color palettes are shown on the designs on trimmed armor:
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    acquire hardware,acquire hardware,"Acquire Hardware { ""anchor"": """", ""title"": ""Acquire Hardware"", ""icon"": """", ""title"": ""Acquire Hardware"", ""description"": ""Smelt an iron ingot
+ "", ""requirements"": ""Pick up an [[iron ingot]] from a [[furnace]] output.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"The Hammer"" emote
+"" }",Smelt an iron ingot,Pick up an iron ingot from a furnace output.,15G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Acquire Hardware,Smelt an Iron Ingot,Getting an Upgrade,Have an iron ingot in your inventory.,"story/smelt_iron {""anchor"": """", ""title"": ""Acquire Hardware"", ""icon"": ""Iron Ingot
+"", ""icon-style"": ""plain"", ""title"": ""Acquire Hardware"", ""description"": ""Smelt an Iron Ingot
+"", ""parent"": ""Getting an Upgrade
+"", ""requirements"": ""Have an [[iron ingot]] in your inventory.
+"", ""resourcelocation"": ""story/smelt_iron
+"", ""rewards"": """" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Item tags,Translation key
+    Iron Ingot,iron_ingot,Item,beacon_payment_items,item.minecraft.iron_ingot
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Iron Ingot,iron_ingot,305,Item,item.iron_ingot.name
+

@@ -1,0 +1,76 @@
+Overview
+    Smithing is a mechanic that allows players to upgrade tools and armor both in material and in appearance through the use of a smithing table.
+
+Equipment
+    A smithing table is required, along with three ingredients for each smithing action the player wishes to perform. Each time working on a smithing table, the player must provide a smithing template, armor/tool, and an augmenting material.
+
+  Upgrading
+    While upgrading, the newly crafted netherite gear retains the enchantments, prior work penalty and number of durability points lost (instead of the remaining durability) from the diamond gear. Upgrading gear does not remove incompatible enchantments, such as multiple different Protection enchantments. Unlike anvils, using a smithing table to upgrade diamond gear to netherite gear costs no experience and does not increase the prior work penalty. When upgraded to netherite, all items are granted resistance to fire and lava when dropped in the world, and their durability and enchantability are increased. Swords and tools (except for hoes) deal a higher attack damage and the mining speed of tools is improved as well. Each piece of netherite armor gives 10% of knockback reduction, protecting 40% with a full set. Armor toughness is also increased.
+
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Helmet + Netherite Ingot,input:Smithing Template; Diamond Helmet; Netherite Ingot | output:Netherite Helmet
+    Netherite Upgrade + Diamond Chestplate + Netherite Ingot,input:Smithing Template; Diamond Chestplate; Netherite Ingot | output:Netherite Chestplate
+    Netherite Upgrade + Diamond Leggings + Netherite Ingot,input:Smithing Template; Diamond Leggings; Netherite Ingot | output:Netherite Leggings
+    Netherite Upgrade + Diamond Boots + Netherite Ingot,input:Smithing Template; Diamond Boots; Netherite Ingot | output:Netherite Boots
+
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Sword + Netherite Ingot,input:Smithing Template; Diamond Sword; Netherite Ingot | output:Netherite Sword
+    Netherite Upgrade + Diamond Pickaxe + Netherite Ingot,input:Smithing Template; Diamond Pickaxe; Netherite Ingot | output:Netherite Pickaxe
+    Netherite Upgrade + Diamond Axe + Netherite Ingot,input:Smithing Template; Diamond Axe; Netherite Ingot | output:Netherite Axe
+    Netherite Upgrade + Diamond Shovel + Netherite Ingot,input:Smithing Template; Diamond Shovel; Netherite Ingot | output:Netherite Shovel
+    Netherite Upgrade + Diamond Hoe + Netherite Ingot,input:Smithing Template; Diamond Hoe; Netherite Ingot | output:Netherite Hoe
+
+  Trimming
+    Trimming allows players to customize an armor piece's appearance by applying a material using one of the following smithing templates. During trimming, the decorative pattern applied to the armor corresponds to the trim used, with the color determined by the used material. All trims are purely decorative, and don't impact gameplay in any way. Piglins do not pick up any gold-trimmed armor pieces and remain hostile towards players wearing gold-trimmed armor, unless the armor is in itself golden. Netherite-trimmed armor pieces can still be burned by fire. Most armor trims cover a small portion of the armor piece's surface with the trim material, except for the silence armor trim, which allows the trim material to cover a majority of the armor piece's surface. Armor with a trim can be trimmed again by applying another template to it; the old trim pattern is overwritten in the process.[1] Therefore, one piece of armor cannot possess multiple trims at the same time.
+
+    Ingredients,Smithing recipe
+    Any Armor Trim + Any Armor Piece + Any Ingot/Crystal,input:Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Netherite Helmet; Iron Chestplate; Golden Leggings; Diamond Boots; Chainmail Chestplate; Leather Pants; Turtle Shell; Amethyst Shard; Copper Ingot; Diamond; Emerald; Gold Ingot; Iron Ingot; Lapis Lazuli; Nether Quartz; Netherite Ingot; Redstone Dust; Diamond; Emerald; Lapis Lazuli; Redstone Dust; Amethyst Trim Netherite Helmet; Copper Trim Iron Chestplate; Diamond Trim Golden Leggings; Emerald Trim Diamond Boots; Gold Trim Chainmail Chestplate; Iron Trim Leather Pants; Lapis Trim Turtle Shell; Quartz Trim Netherite Helmet; Netherite Trim Iron Chestplate; Redstone Trim Golden Leggings; Diamond Trim Diamond Boots; Emerald Trim Chainmail Chestplate; Lapis Trim Leather Pants | output:Redstone Trim Turtle Shell
+
+    Including all dyed leather armor colors and regular armor, there are ≈3.679×109 different possible armor pieces, and 7.16×1035 total possible armor combinations excluding enchantments and the player not wearing armor.
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    cover me in debris,cover me in debris,"Cover me in debris { ""anchor"": """", ""title"": ""Cover me in debris"", ""icon"": """", ""title"": ""Cover me in debris"", ""description"": ""Wear a full set of [[Netherite]] armor
+ "", ""requirements"": ""Have a full set of Netherite armor in your inventory.
+ "", ""gamerscore"": ""50G
+ "", ""trophytype"": ""Gold
+"", ""rewards"": """" }",Wear a full set of Netherite armor,Have a full set of Netherite armor in your inventory.,50G,Gold
+    File:AchievementSprite smithing-with-style.png,smithing with style,"Smithing with style { ""anchor"": """", ""title"": ""Smithing with style"", ""icon"": """", ""title"": ""Smithing with style"", ""description"": ""Apply these smithing templates at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Gold
+ "", ""rewards"": """"Blacksmith Gauntlets"" gloves
+"" }","Apply these smithing templates at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder",—,30G,Gold
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Cover Me in Debris,Get a full suit of Netherite armor,Hidden in the Depths,Have a full set of netherite armor in your inventory.,"nether/netherite_armor {""anchor"": """", ""title"": ""Cover Me in Debris"", ""icon"": ""Netherite Chestplate
+"", ""icon-style"": ""fancy"", ""title"": ""Cover Me in Debris"", ""description"": ""Get a full suit of Netherite armor
+"", ""parent"": ""Hidden in the Depths
+"", ""requirements"": ""Have a <u>full set</u> of netherite [[armor]] in your inventory.
+"", ""resourcelocation"": ""nether/netherite_armor
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>100 [[experience]]
+"" }"
+    ,Crafting a New Look,Craft a trimmed armor at a Smithing Table,Adventure,—,"adventure/trim_with_any_armor_pattern {""anchor"": """", ""title"": ""Crafting a New Look"", ""icon"": ""Dune Armor Trim Smithing Template
+"", ""icon-style"": ""plain"", ""title"": ""Crafting a New Look"", ""description"": ""Craft a trimmed armor at a [[Smithing Table]]
+"", ""parent"": ""Adventure
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""adventure/trim_with_any_armor_pattern
+"", ""rewards"": ""—
+"" }"
+    ,Smithing with Style,"Apply these smithing templates at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder",Crafting a New Look,—,"adventure/trim_with_all_exclusive_armor_patterns {""anchor"": """", ""title"": ""Smithing with Style"", ""icon"": ""Silence Armor Trim Smithing Template
+"", ""icon-style"": ""fancy"", ""title"": ""Smithing with Style"", ""description"": ""Apply these [[smithing template]]s at least once: Spire, Snout, Rib, Ward, Silence, Vex, Tide, Wayfinder
+"", ""parent"": ""Crafting a New Look
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""adventure/trim_with_all_exclusive_armor_patterns
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-306"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>150 [[experience]]
+"" }"
+    ,Serious Dedication,"Use a Netherite Ingot to upgrade a Hoe , and then reevaluate your life choices",A Seedy Place,Have a netherite hoe in your inventory.,"husbandry/obtain_netherite_hoe {""anchor"": """", ""title"": ""Serious Dedication"", ""icon"": ""Netherite Hoe
+"", ""icon-style"": ""fancy"", ""title"": ""Serious Dedication"", ""description"": ""Use a [[Netherite Ingot]] to upgrade a [[Hoe]], and then reevaluate your life choices
+"", ""parent"": ""A Seedy Place
+"", ""requirements"": ""Have a netherite hoe in your inventory.
+"", ""resourcelocation"": ""husbandry/obtain_netherite_hoe
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>100 [[experience]]
+"" }"
+

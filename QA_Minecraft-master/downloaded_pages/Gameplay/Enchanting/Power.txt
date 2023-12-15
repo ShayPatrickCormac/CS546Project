@@ -1,0 +1,28 @@
+Overview
+    Power is a bow enchantment which increases arrow damage.
+
+Usage
+    Power increases arrow damage by 25% × (level + 1), rounded up to nearest half-heart.
+
+    Level,Increase,No charge,Medium charge,Full charge,Full charge (critical)
+    Not enchanted,+0% (2.0),1,5,6,11 × 5.5
+    I,+50% (3.0),2,8,9,16 × 8
+    II,+75% (3.5),2,9,11 × 5.5,19 × 9.5
+    III,+100% (4.0),2,10,12 × 6,20 × 10
+    IV,+125% (4.5),3,12 × 6,14 × 7,23 × 11.5
+    V,+150% (5.0),3,13 × 6.5,15 × 7.5,25 × 12.5
+
+    Power doesn't affect arrows shot from crossbows if applied using commands or an anvil in Creative mode.[1]
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Power,power,enchantment.minecraft.power
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Power,power,19,enchantment.arrowDamage
+

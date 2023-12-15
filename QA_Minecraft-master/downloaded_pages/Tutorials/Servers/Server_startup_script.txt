@@ -1,0 +1,95 @@
+Overview
+    This is an example of possible Minecraft server startup and maintenance script for GNU/Linux distros.
+
+Systemd Script
+    For all modern Servers supporting Systemd. Systemd is the jack of all trades. For Ubuntu, it comes with 15.04 (15.04 is an old version which have had end-of-support, we suggest using later LTS versions instead, but the following contents is fully working in this version).
+
+  Installation
+  Setup Instance
+    Now you can Upload your FTB Modpacks into a subfolder of /opt/minecraft/. For example, you would place the modpack "FTB Beyond" in "/opt/minecraft/FTBBeyond" (without spaces in the name).
+If you want to run vanilla instances, just create a folder within /opt/minecraft and upload the minecraft_server.jar and create the eula.txt file (using: echo "eula=true" > /opt/minecraft/vanilla/eula.txt). After you uploaded the minecraft server files, make sure, that "minecraft" is the owner and owning group. To do so just run "ls -la /opt/minecraft". If it is not, run "chown minecraft:minecraft /opt/minecraft/FTBBeyond".
+You may also require to complete the installation. For current FTB packages you would run:
+
+  Start/Stop Instances
+    You start your server using "systemctl start minecraft@FTBBeyond" and stop it using "systemctl stop minecraft@FTBBeyond". The part behind the "@" is your instance name e. g. the Folder Name.
+This script also takes care to automatically stop your minecraft server if you reboot the server.
+
+  Autostart
+Init.d Script
+    For legacy Servers which don't have OS-integrated Systemd
+
+  Pre-Requisites
+    Screen package must be installed.
+On CentOs and Red Hat-based distributions: On Debian based systems such as Ubuntu:
+
+  Download
+    To download the script with wget, run the following (WATCH OUT SCRIPT NEEDS WORK - change the WORLD, MCPATH and BACKUPPATH variables.
+Important: If you use the wget method and the first character of every line is an empty space, the script won't work and update-rc.d outputs errors. If so, you have to remove the leading empty spaces from each line. Be careful not to delete anything else than empty space though!)
+
+  Requirements
+    screen, python (apt-get install python)
+
+  Installation
+    Use your favorite editor to create file called minecraft in /etc/init.d/ and paste the script above in that file. Edit the USERNAME and MCPATH -variables according to your setup.  If you use a wrapper script, change INVOCATION to start it instead of starting the server directly. Make sure the newly created file has required permissions
+You can set the permissions by running: Then run (on Debian-based distributions) Starting with Debian 6.0, the insserv command is used instead, if dependency-based booting is enabled.
+insserv will produce no output if everything went OK. Examine the error code in $? if you want to be sure. On CentOs and RHEL(Redhat enterprise Linux)
+You will need to add the process into the chkconfig list chkconfig manages startup scripts under systemd To check if the process is done correctly use the ntsysv command keep scrolling until you see the minecraft process if you don't
+repeat the chkconfig command. 
+to add required symbolic links.
+Note: your system will most likely warn you that the script does not meet all requirements. The script will however work. You can also setup an entry in your crontab to backup the server.
+A sample crontab to backup every half hour on the hour, and 30 minutes into the hour: Using the user account you want the work done under, run: and add this If the process is unsuccessful, try:
+
+  Uninstall
+    (In debian based GNU/Linux distribution) (In CentOs/RHEL)
+
+  Usage
+    The script may be invoked via the following command on most systems, where "(command)" will be "stop", "start", "restart", or any of the other options it supports. On most RedHat- or Debian-based distribution where the `service` command is available, it should be invoked as: To view the screen, use: To exit the screen, use:
+
+  References
+    http://www.debian-administration.org/articles/28, https://wiki.debian.org/LSBInitScripts/DependencyBasedBoot
+
+  Extra information
+    If you still want to view the live log file, use this command in the server directory.
+
+Alternative Startup Scripts
+    The following scripts offer the same functions as the above script but contain more useful features: mcwrapper [Multi World] Minecraft Server Control Script
+Run multiple Minecraft worlds.
+Start, stop, and restart single or multiple worlds.
+Create, delete, disable, and enable worlds.
+Supports CraftBukkit in addition to the standard Mojang server distribution.
+Users automatically notified of important server events.
+Uses the Minecraft Query protocol to keep track of current server conditions.
+LSB and systemd compatible init script, allows for seamless integration with your server's startup and shutdown sequences.
+Map worlds using the Minecraft Overviewer mapping software.
+Backup worlds, and remove backups older than X days.
+Update the server software and installed addons.
+Send commands to a world server from the command line., Run multiple Minecraft worlds., Start, stop, and restart single or multiple worlds., Create, delete, disable, and enable worlds., Supports CraftBukkit in addition to the standard Mojang server distribution., Users automatically notified of important server events., Uses the Minecraft Query protocol to keep track of current server conditions., LSB and systemd compatible init script, allows for seamless integration with your server's startup and shutdown sequences., Map worlds using the Minecraft Overviewer mapping software., Backup worlds, and remove backups older than X days., Update the server software and installed addons., Send commands to a world server from the command line. minecraftd
+Start, stop, and restart the server using either systemd or the script directly
+Send commands to a server from the command line
+Backup server (world, plugins, configuration, etc.), and purge old ones (configurable)
+Suspend server if no player is logged in and bring it up as soon as one tries to join to maximazie efficiency
+Purely written in bash and condensed features in about 500 lines of code to keep the foorprint small
+Flexible configuration: support for e.g. spigot/craftbukkit, adjustable threads and RAM usage, etc.
+Full systemd support with init and backup script
+Secure resource usage: run script as different user and drop permissions if not requiered
+Very similar to the script described in this article: It as well uses screen and tar but offers more advanced features
+Excellent Arch Linux support, Start, stop, and restart the server using either systemd or the script directly, Send commands to a server from the command line, Backup server (world, plugins, configuration, etc.), and purge old ones (configurable), Suspend server if no player is logged in and bring it up as soon as one tries to join to maximazie efficiency, Purely written in bash and condensed features in about 500 lines of code to keep the foorprint small, Flexible configuration: support for e.g. spigot/craftbukkit, adjustable threads and RAM usage, etc., Full systemd support with init and backup script, Secure resource usage: run script as different user and drop permissions if not requiered, Very similar to the script described in this article: It as well uses screen and tar but offers more advanced features, Excellent Arch Linux support MC Sheller Minecraft Systemd Service A nice systemd service that features:
+safe shutdown using rcon
+protection of the system by making most of the system readonly
+uses systemd journal to log
+can be combined with a nice commandcenter script
+is fully integrated in the systemd-toolchain, safe shutdown using rcon, protection of the system by making most of the system readonly, uses systemd journal to log, can be combined with a nice commandcenter script, is fully integrated in the systemd-toolchain minecraft init
+modification of this script with a lot more features like multiworld, modification of this script with a lot more features like multiworld Minecraft Service Dagmar d'Surreal's Sysv init script Setsuna-Xero's OpenRC(Gentoo) compatible init script, with conf.d defaults Mineserv Perl Init Script
+A very simple automatic start/stop script with backup and cleanup functions and the ability to pass commands to the server console., A very simple automatic start/stop script with backup and cleanup functions and the ability to pass commands to the server console. McSrv Script by 7thCore
+Bash language only script
+Only uses systemd
+Start, stop, backup functions and much more
+Multi instance support
+TmpFs/Ramdisk support that can be configured for each instance
+Vanilla server automatic updates
+Can run vanilla, forge and spigot jar files
+Pre-built packages for Arch and Debian based systems that also install all dependancies
+Discord integration. Sends notifications on start, stop, crashd and update events
+Email integration. Sends emails on start, stop, crash and update events. Crash events also include logs in the email
+More documentation available on the project's GitHub Wiki, Bash language only script, Only uses systemd, Start, stop, backup functions and much more, Multi instance support, TmpFs/Ramdisk support that can be configured for each instance, Vanilla server automatic updates, Can run vanilla, forge and spigot jar files, Pre-built packages for Arch and Debian based systems that also install all dependancies, Discord integration. Sends notifications on start, stop, crashd and update events, Email integration. Sends emails on start, stop, crash and update events. Crash events also include logs in the email, More documentation available on the project's GitHub Wiki
+

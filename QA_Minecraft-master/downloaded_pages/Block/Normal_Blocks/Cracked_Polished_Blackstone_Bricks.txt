@@ -1,0 +1,28 @@
+Overview
+    Cracked polished blackstone bricks is the cracked version of polished blackstone bricks.
+
+Obtaining
+  Breaking
+    Block,Cracked Polished Blackstone Bricks
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Cracked polished blackstone bricks generate as part of bastion remnants and ruined portals.
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Cracked Polished Blackstone Bricks,Polished Blackstone Bricks + Any fuel,0.1
+
+Usage
+  Note Blocks
+    Cracked polished blackstone bricks can be placed under note blocks to produce "bass drum" sound.
+

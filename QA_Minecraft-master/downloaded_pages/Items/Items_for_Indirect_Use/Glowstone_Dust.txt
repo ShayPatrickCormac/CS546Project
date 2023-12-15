@@ -1,0 +1,38 @@
+Overview
+    Glowstone dust is an item obtained from mining glowstone, and is mainly used to create potions with increased strength and decreased duration.
+
+Obtaining
+  Mining
+    When broken using anything other than a Silk Touch-enchanted tool, a glowstone block drops 2-4 glowstone dust. A Fortune enchantment increases the chances of higher drops, with Fortune III allowing an average yield of 3.5 glowstone dust per block.
+
+  Mob loot
+    Witches have a chance of dropping 0–6 glowstone dust upon death. This is increased by 3 per level of Looting, for a maximum of 0-15 glowstone dust.
+
+  Trading
+    In Bedrock Edition, journeyman-level cleric villagers sell one glowstone dust for 4 emeralds as part of their trades.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Firework Star,Gunpowder + Matching Dye + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'White Dye', 'Head'], ['', 'Diamond', None]]","Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Glowstone,Glowstone Dust,"[[None, None, None], ['', '', None], ['', '', None]]",
+    Spectral Arrow,Glowstone Dust + Arrow,"[[None, '', None], ['', 'Arrow', ''], [None, '', None]]",‌ [ Java Edition only ]
+    White Firework Star or Blue Firework Star or Brown Firework Star or Black Firework Star,Gunpowder + Bone Meal or Lapis Lazuli or Cocoa Beans or Ink Sac + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'Bone Meal', 'Head'], ['', 'Diamond', None]]","‌ [ Bedrock Edition and Minecraft Education only ] Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+
+  Brewing ingredient
+    Name,Ingredients,Brewing recipe
+    Thick Potion,Glowstone Dust + Water Bottle,output:Thick Potion
+    Increased Potency,Glowstone Dust + Potion of Healing or Potion of Regeneration or Potion of Strength or Potion of Swiftness or Potion of Harming or Potion of Poison or Potion of Leaping,output:Potion of Healing II; Potion of Regeneration II; Potion of Strength II; Potion of Swiftness II; Potion of Harming II; Potion of Poison II; Potion of Leaping II
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Glowstone Dust,glowstone_dust,Item,item.minecraft.glowstone_dust
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Glowstone Dust,glowstone_dust,394,Item,item.glowstone_dust.name
+

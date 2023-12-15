@@ -1,0 +1,71 @@
+Overview
+    Unbreaking is an enchantment that gives a chance for an item to avoid durability reduction when it is used, effectively increasing the item's durability.
+
+Obtaining
+    Unbreaking I, Unbreaking II, and Unbreaking III can be acquired using an enchanting table, by fishing, finding an enchanted book in dungeon chests, and by trading with a librarian villager.
+
+Usage
+    For most items, there is a 100level+1% chance that using the item reduces durability. Meaning the item has a 50%/~66%/75% chance of not using any durability. On average, tools last level+1 times as long.
+
+    ,No enchanting,Unbreaking I,Unbreaking II,Unbreaking III
+    Average lifetime increase,+0%,+100%,+200%,+300%
+    Wood,60,120,180,240
+    Stone,132,264,396,528
+    Iron,251,502,753,1004
+    Gold,33,66,99,132
+    Diamond,1562,3124,4686,6248
+    Netherite,2032,4064,6096,8128
+    Fishing rod ‌ [ Java Edition only ],64,128,192,256
+    Bow ‌ [ Bedrock Edition only ],384,768,1152,1536
+    Crossbow,JE,326,652,978,1304
+    BE,464,928,1392,1856
+    Carrot on a stick,25,50,75,100
+    Flint and steel,64,128,192,256
+    Elytra,Durability,432,864,1296,1728
+    Flight time,7 min 12 sec,14 min 24 sec,21 min 36 sec,28 min 48 sec
+    Shears,238,476,714,952
+    Shield,336,672,1008,1344
+
+    For armor, there is a (60+40level+1)% chance a use reduces durability, meaning each durability hit against Unbreaking armor has a ~20%/27%/30% chance of being ignored. On average, armor lasts 10.6+0.4level+1 times as long. Thus, no level of Unbreaking will ensure that an item will never break. When durability is reduced by multiple points, as when hooking a mob with fishing rods or getting blown up with TNT, Unbreaking is applied for each point of reduction.
+
+    ,No enchanting,Unbreaking I,Unbreaking II,Unbreaking III
+    Chance of reducing durability,100% ( 1 ⁄ 1 ),80% ( 4 ⁄ 5 ),73.3% ( 11 ⁄ 15 ),70% ( 7 ⁄ 10 )
+    Average lifetime increase,+0% ( 0 ⁄ 1 ),+25% ( 1 ⁄ 4 ),+36.4% ( 4 ⁄ 11 ),+42.9% ( 3 ⁄ 7 )
+    Turtle Shell,275,344,375,393
+    Leather,Cap,55,69,75,79
+    Tunic,80,100,109,114
+    Pants,75,94,102,107
+    Boots,65,81,89,93
+    Golden,Helmet,77,96,105,110
+    Chestplate,112,140,153,160
+    Leggings,105,131,143,150
+    Boots,91,113,124,130
+    Chainmail,Helmet,165,206,225,236
+    Chestplate,240,300,327,343
+    Leggings,225,281,307,322
+    Boots,195,244,266,279
+    Iron,Helmet,165,206,225,236
+    Chestplate,240,300,327,343
+    Leggings,225,281,307,322
+    Boots,195,244,266,279
+    Diamond,Helmet,363,454,495,519
+    Chestplate,528,660,720,755
+    Leggings,495,619,675,707
+    Boots,429,536,585,613
+    Netherite,Helmet,407,509,555,582
+    Chestplate,592,740,807,846
+    Leggings,555,694,757,793
+    Boots,481,601,656,687
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Unbreaking,unbreaking,enchantment.minecraft.unbreaking
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Unbreaking,unbreaking,17,enchantment.durability
+

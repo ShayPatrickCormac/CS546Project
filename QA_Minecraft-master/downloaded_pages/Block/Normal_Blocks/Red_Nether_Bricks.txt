@@ -1,0 +1,39 @@
+Overview
+    Red nether bricks[a] are a decorative variant of nether bricks that do not naturally generate.
+
+Obtaining
+  Breaking
+    Red nether bricks can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+    Block,Red Nether Bricks
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Crafting
+    Ingredients,Crafting recipe
+    Nether Wart + Nether Brick,"[[None, None, None], ['Nether Wart', 'Nether Brick', None], ['Nether Brick', 'Nether Wart', None]]"
+
+Usage
+    Red ether bricks are non-flammable and immune to ghast fireballs, making them a suitable shelter material for the Nether.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Red Nether Brick Slab,Red Nether Bricks,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Red Nether Brick Stairs,Red Nether Bricks,"[['', None, None], ['', '', None], ['', '', '']]"
+    Red Nether Brick Wall,Red Nether Bricks,"[[None, None, None], ['', '', ''], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Red Nether Bricks,2
+
+  Note Blocks
+    Red nether bricks can be placed under note blocks to produce "bass drum" sounds.
+

@@ -1,0 +1,43 @@
+Overview
+    Bone blocks are storage blocks equivalent to nine pieces of bone meal.
+
+Obtaining
+  Breaking
+    Bone blocks can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+    Block,Bone Block
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Bone blocks are generated naturally as part of fossil structures found in desert and swamp biomes. They also generate as part of nether fossils in soul sand valley biomes.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Bone Block,Bastion remnant,Generic chest,3–6,"24.4% { ""item"": ""Bone Block"", ""stacksize"": ""3–6"", ""chance"": 0.24372395924512447, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bedrock Edition
+    Bone Block,Bastion remnant,Generic chest,3–6,"24.4% { ""item"": ""Bone Block"", ""stacksize"": ""3–6"", ""chance"": 0.24372395924512447, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Bone Meal,"[['Bone Meal', 'Bone Meal', 'Bone Meal'], ['Bone Meal', 'Bone Meal', 'Bone Meal'], ['Bone Meal', 'Bone Meal', 'Bone Meal']]"
+
+Usage
+    Bone blocks are decorative blocks, and can also be used as compact storage for bone meal.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Bone Meal,Bone Block,"[[None, None, None], [None, '', None], [None, None, None]]"
+
+  Note blocks
+    Bone blocks can be placed under note blocks to produce xylophone sounds.
+

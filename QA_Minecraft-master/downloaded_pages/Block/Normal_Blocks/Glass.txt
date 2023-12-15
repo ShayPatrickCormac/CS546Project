@@ -1,0 +1,38 @@
+Overview
+    Glass is a transparent solid block that can be dyed into stained glass, or crafted into tinted glass.
+
+Obtaining
+  Breaking
+    Glass drops itself only if it is broken with a tool enchanted with Silk Touch. Otherwise, it drops nothing. Glass does not have an assigned tool; it is mined at the same speed regardless of what tool is used.[1]
+
+    Block,Glass
+    Hardness,0.3
+    Breaking time (secs)
+    Default,0.45
+
+  Natural generation
+    A secret room containing glass can be found inside woodland mansions.
+Glass is also generated in ancient cities.
+
+  Smelting
+    Ingredients,Smelting recipe
+    Sand or Red Sand + Any fuel,0.1
+
+  Trading
+    Journeyman-level librarian villagers have a 50% chance to sell 4 glass for 1 emerald.‌[Bedrock Edition  only] Journeyman-level librarian villagers have a 2⁄3 chance to sell 4 glass for 1 emerald.‌[Java Edition  only]
+
+Usage
+    Glass blocks adjacent to other glass blocks are invisible when viewed through glass that is identical in color. Mobs cannot normally spawn on glass blocks. An exception to this is zombie reinforcements, which can spawn on glass blocks (but not glass panes). Glass blocks cannot be seen through by mobs, as they treat them as completely opaque. Mobs may look at players through glass, but this is purely visual. Redstone dust and components can be placed on glass, but cannot power glass. Glass can't cut vertical redstone. Vertical redstone can be placed on glass. In Java Edition, it transmits redstone signals up, not down. Otherwise, glass in redstone circuits is functionally the same as an upside-down slab.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Beacon,Glass + Nether Star + Obsidian,"[['', '', ''], ['', 'Nether Star', ''], ['Obsidian', 'Obsidian', 'Obsidian']]",
+    Daylight Detector,Glass + Nether Quartz + Any Wooden Slab,"[['', '', ''], ['Nether Quartz', 'Nether Quartz', 'Nether Quartz'], ['Oak Slab', 'Oak Slab', 'Oak Slab']]",
+    End Crystal,Glass + Eye of Ender + Ghast Tear,"[['', '', ''], ['', 'Eye of Ender', ''], ['', 'Ghast Tear', '']]",
+    Glass Bottle,Glass,"[[None, None, None], ['', None, ''], [None, '', None]]",
+    Glass Pane,Glass,"[[None, None, None], ['', '', ''], ['', '', '']]",
+    Hardened Glass,Aluminum Oxide + Glass + Boron Trioxide,"[['Aluminum Oxide', 'Aluminum Oxide', 'Aluminum Oxide'], ['', '', ''], ['Boron Trioxide', 'Boron Trioxide', 'Boron Trioxide']]",A representation of alumino-borosilicate glass .‌ [ Bedrock Edition and Minecraft Education only ]
+    Stained Glass,Glass + Matching Dye,"[['', '', ''], ['', 'White Dye', ''], ['', '', '']]",
+    Tinted Glass,Amethyst Shard + Glass,"[[None, 'Amethyst Shard', None], ['Amethyst Shard', '', 'Amethyst Shard'], [None, 'Amethyst Shard', None]]",
+    White Stained Glass or Blue Stained Glass or Brown Stained Glass or Black Stained Glass,Glass + Bone Meal or Lapis Lazuli or Cocoa Beans or Ink Sac,"[['', '', ''], ['', 'Bone Meal', ''], ['', '', '']]",‌ [ Bedrock Edition and Minecraft Education only ]
+

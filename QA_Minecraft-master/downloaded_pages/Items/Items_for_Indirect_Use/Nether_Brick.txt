@@ -1,0 +1,32 @@
+Overview
+    A nether brick is an item made by smelting netherrack in a furnace, and is used to craft the nether bricks block and its variants.
+
+Obtaining
+  Smelting
+    Nether brick can be smelted from netherrack.
+
+    Ingredients,Smelting recipe
+    Netherrack + Any fuel,0.1
+
+  Bartering
+    Piglins may barter 2 to 8 nether bricks when given a gold ingot.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Nether Brick Fence,Nether Bricks + Nether Brick,"[[None, None, None], ['Nether Bricks', '', 'Nether Bricks'], ['Nether Bricks', '', 'Nether Bricks']]"
+    Nether Bricks,Nether Brick,"[[None, None, None], ['', '', None], ['', '', None]]"
+    Red Nether Bricks,Nether Wart + Nether Brick,"[[None, None, None], ['Nether Wart', '', None], ['', 'Nether Wart', None]]"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Nether Brick,nether_brick,Item,item.minecraft.nether_brick
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Nether Brick,netherbrick,523,Item,item.netherbrick.name
+

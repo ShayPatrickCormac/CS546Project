@@ -1,0 +1,21 @@
+Overview
+    Infinity is an enchantment for bows that prevents regular arrows from being consumed when shot. Only one arrow is needed to use a bow enchanted with Infinity.
+
+Usage
+    A bow enchanted with Infinity can be used to shoot unlimited arrows, as long as the player's inventory contains at least 1 arrow. Fired arrows cannot be retrieved except in Creative mode (in which they are erased instead of added to the player's inventory). Infinity has no effect on tipped and spectral arrows; they are still consumed as usual. A crossbow still consumes arrows if commands are used to add Infinity to it.
+
+Incompatibilities
+    Mending and Infinity are mutually exclusive. However, if combined with commands, both enchantments function as normal.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Infinity,infinity,enchantment.minecraft.infinity
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Infinity,infinity,22,enchantment.arrowInfinite
+

@@ -1,0 +1,37 @@
+Overview
+    A glow lichen is a non-solid, light-emitting block. It can generate, or be placed, on any side of a solid block.
+
+Obtaining
+  Breaking
+    Glow lichen can be destroyed with anything, most efficiently with an axe. However, using shears is the only way to obtain glow lichen. Enchanting shears with Efficiency II allows for instant mining.
+
+    Block,Glow Lichen
+    Hardness,0.2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,0.3
+    Wooden,0.15
+    Stone,0.1
+    Iron,0.05
+    Diamond,0.05
+    Netherite,0.05
+    Golden,0.05
+    Shears,0.3
+    Sword,0.2
+
+  Natural generation
+    Glow lichen generates naturally in the interior of caves (at any height) on the surface of stone, andesite, diorite, granite, calcite, tuff, deepslate, and dripstone blocks that are exposed to air or water sources.[more information needed] It can be found underwater, but cannot generate in the deep dark biome.
+
+  Post-generation
+    Using bone meal causes glow lichen to spread to a random adjacent block if possible, otherwise the bone meal is not consumed. By fertilizing one lichen with bone meal, it is possible to cover the sides and the top of an adjacent block, but not the back. Otherwise, glow lichen does not spread naturally.
+
+Usage
+  Light
+    Glow lichen emits a light level of 7.
+
+  Placement
+    Multiple glow lichens can be placed in the area of one solid block, such as covering three sides of a corner. When such glow lichens are mined, all glow lichens occupying the same block are also mined. Mining with shears causes all glow lichens in the block to drop. Glow lichens cannot be broken by flowing water or lava,[1][2] similar to signs. Therefore, they may be used to control the flow of these fluids.
+
+  Composting
+    Placing a glow lichen into a composter has a 50% chance of raising the compost level by 1.
+

@@ -1,0 +1,60 @@
+Overview
+    Light blue dye is one of the sixteen available dyes.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Blue Orchid,"[[None, None, None], [None, 'Blue Orchid', None], [None, None, None]]",
+    Blue Dye + White Dye,"[[None, None, None], ['Blue Dye', 'White Dye', None], [None, None, None]]",
+    Lapis Lazuli or Blue Dye + Bone Meal or White Dye,"[[None, None, None], ['Lapis Lazuli', 'Bone Meal', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+
+  Loot chest
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Light Blue Dye,Trail ruins,Suspicious gravel,1,"4.4% { ""item"": ""Light Blue Dye"", ""stacksize"": 1, ""chance"": 0.0444444444444444, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Bedrock Edition
+    Light Blue Dye,Trail ruins,Suspicious gravel,1,"4.3% { ""item"": ""Light Blue Dye"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+
+  Trading
+    Wandering traders sell 3 light blue dye for an emerald.
+
+Usage
+    Like all other dyes, light blue dye can be:
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Cyan Glow Stick,Polyethylene + Hydrogen Peroxide + Light Blue Dye + Luminol,"[['Polyethylene', 'Hydrogen Peroxide', 'Polyethylene'], ['Polyethylene', '', 'Polyethylene'], ['Polyethylene', 'Luminol', 'Polyethylene']]",‌ [ Bedrock Edition and Minecraft Education only ] light gray dye creates a glitched glow stick called item.glow_stick.silver.name. [ verify ]
+    Dyed Carpet,Any Carpet + Light Blue Dye,"[[None, None, None], ['White Carpet', '', None], [None, None, None]]",‌ [ Java Edition only ]
+    Glow Stick,Polyethylene + Hydrogen Peroxide + Light Blue Dye + Luminol,"[['Polyethylene', 'Hydrogen Peroxide', 'Polyethylene'], ['Polyethylene', '', 'Polyethylene'], ['Polyethylene', 'Luminol', 'Polyethylene']]",
+    Light Blue Balloon,Latex + Light Blue Dye + Helium + Lead,"[['Latex', '', 'Latex'], ['Latex', 'Helium', 'Latex'], ['Latex', 'Lead', 'Latex']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Light Blue Balloon,Latex + Light Blue Dye + Helium + Lead,"[['Latex', '', 'Latex'], ['Latex', 'Helium', 'Latex'], ['Latex', 'Lead', 'Latex']]",
+    Light Blue Bed,Any Bed + Light Blue Dye,"[[None, None, None], ['White Bed', '', None], [None, None, None]]",A bed of any color can be re-dyed using dyes.
+    Light Blue Candle,Candle + Light Blue Dye,"[[None, None, None], ['Candle', '', None], [None, None, None]]",
+    Light Blue Carpet,White Carpet + Light Blue Dye,"[['White Carpet', 'White Carpet', 'White Carpet'], ['White Carpet', '', 'White Carpet'], ['White Carpet', 'White Carpet', 'White Carpet']]",‌ [ Bedrock Edition only ]
+    Light Blue Concrete Powder,Light Blue Dye + Sand + Gravel,"[['', 'Sand', 'Sand'], ['Sand', 'Sand', 'Gravel'], ['Gravel', 'Gravel', 'Gravel']]",Red sand cannot be used in place of sand. [1] [2]
+    Light Blue Firework Star,Gunpowder + Light Blue Dye + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', '', 'Head'], ['Glowstone Dust', 'Diamond', None]]","Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Light Blue Shulker Box,Shulker Box or Any Shulker Box + Light Blue Dye,"[[None, None, None], ['Shulker Box', '', None], [None, None, None]]","The shulker box retains its contents. If it is renamed on an anvil , it also retains its name."
+    Light Blue Stained Glass,Glass + Light Blue Dye,"[['Glass', 'Glass', 'Glass'], ['Glass', '', 'Glass'], ['Glass', 'Glass', 'Glass']]",
+    Light Blue Stained Glass Pane,Glass Pane + Light Blue Dye,"[['Glass Pane', 'Glass Pane', 'Glass Pane'], ['Glass Pane', '', 'Glass Pane'], ['Glass Pane', 'Glass Pane', 'Glass Pane']]",
+    Light Blue Terracotta,Terracotta + Light Blue Dye,"[['Terracotta', 'Terracotta', 'Terracotta'], ['Terracotta', '', 'Terracotta'], ['Terracotta', 'Terracotta', 'Terracotta']]",
+    Light Blue Wool,Any Wool + Light Blue Dye,"[[None, None, None], ['White Wool', '', None], [None, None, None]]",
+    Light Blue Banner pattern,Light Blue Dye + Banner,"[['', '', ''], ['', 'Banner', ''], ['', '', '']]",
+    Light Blue Banner image,Light Blue Dye + Banner + Vines or Bricks or Creeper Head or Wither Skeleton Skull or Oxeye Daisy or Enchanted Golden Apple,"[[None, None, None], ['Vines', '', None], [None, 'Banner', None]]",
+
+  Loom ingredient
+  Trading
+    Apprentice-level shepherd villagers have a 20%‌[Bedrock Edition  only] or 2⁄7‌[Java Edition  only] chance to buy 12 light blue dye for an emerald as part of their trades.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Light Blue Dye,light_blue_dye,Item,item.minecraft.light_blue_dye
+
+    Bedrock Edition:
+
+    Name,Identifier,Alias ID,Numeric ID,Form,Translation key
+    Light Blue Dye,light_blue_dye,dye / 12,407,Item,item.dye.lightBlue.name
+
+Video

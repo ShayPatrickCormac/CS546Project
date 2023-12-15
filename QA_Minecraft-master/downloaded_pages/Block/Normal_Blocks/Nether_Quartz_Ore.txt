@@ -1,0 +1,32 @@
+Overview
+    Nether quartz ore is ore found in the Nether, and is a source of quartz.
+
+Obtaining
+  Breaking
+    Nether quartz ore can be mined with any pickaxe, or it drops nothing. If mined with Silk Touch, the block drops itself. Otherwise, it drops 1 nether quartz (or more with Fortune). It also drops 2–5 when broken.
+
+    Block,Nether Quartz Ore
+    Hardness,3
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,15
+    Wooden,2.25
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,0.4
+
+  Natural generation
+    Nether quartz ore can generate in the Nether in the form of ore blobs. Nether quartz ore attempts to replace netherrack 16 times per chunk in blobs of size 0-24, from levels 10 to 117, in all Nether biomes. In Java Edition, in basalt deltas, nether quartz ore attempts to generate 32 times per chunk as there are fewer valid generation areas.
+
+Usage
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Nether Quartz,Nether Quartz Ore + Any fuel,0.2
+
+    Note that mining the block directly with a tool enchanted with any Fortune level produces more Nether quartz.
+
+  Note Blocks
+    Nether quartz ore can be placed under note blocks to produce "bass drum" sounds.
+

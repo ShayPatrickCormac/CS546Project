@@ -1,0 +1,35 @@
+Overview
+    Nether Brick Fences are a  block used to form nether fortresses in the Nether.
+
+Obtaining
+  Breaking
+    Nether brick fences can be mined using any pickaxe. If mined without a pickaxe, it will drop nothing.
+
+    Block,Nether Brick Fence
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Nether brick fences generate as part of:
+
+  Crafting
+    Ingredients,Crafting recipe
+    Nether Bricks + Nether Brick,"[[None, None, None], ['Nether Bricks', 'Nether Brick', 'Nether Bricks'], ['Nether Bricks', 'Nether Brick', 'Nether Bricks']]"
+
+Usage
+    Nether brick fences are non-flammable and and have the same blast resistance as most stone blocks. Nether Brick fences have the same usages as regular fences to form barriers and attach mobs with a lead.
+
+  Barrier
+    Nether brick fences connect to most blocks, including wooden fence gates, but not wooden fences.
+
+  Note Blocks
+    Nether brick fences can be placed under note blocks to produce "bass drum" sound.
+

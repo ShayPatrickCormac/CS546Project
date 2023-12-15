@@ -1,0 +1,42 @@
+Overview
+    A block of diamond is a precious mineral block equivalent to nine diamonds.
+
+Obtaining
+  Breaking
+    Blocks of diamond can be mined with an iron pickaxe or better.
+
+    Block,Block of Diamond
+    Hardness,5
+    Tool,iron pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,12.5
+    Stone,6.25
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,2.1
+
+  Natural generation
+    Diamond blocks spawn as the cores of "obsidian rooms" and "lava rooms" in woodland mansions.
+
+  Container loot
+    Item,Structure,Container,Quantity,Chance
+    Upcoming Java Edition
+    Block of Diamond,Trial Chambers,Intersection chest,1,"2.3% { ""item"": ""Block of Diamond"", ""stacksize"": 1, ""chance"": 0.023076060388812714, ""structure"": ""Trial Chambers"", ""container"": ""Intersection chest"" }"
+    Corridor pot,1–2,"0.2% { ""item"": ""Block of Diamond"", ""stacksize"": ""1–2"", ""chance"": 0.001814882032667886, ""structure"": ""Trial Chambers"", ""container"": ""Corridor pot"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Diamond,"[['Diamond', 'Diamond', 'Diamond'], ['Diamond', 'Diamond', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+
+Usage
+    Blocks of diamond can be used to store diamonds in a compact fashion.
+
+  Beacons
+    Blocks of diamond can be used to "power" a beacon. The beacon can be powered by a 3×3 square of diamond blocks underneath it, and can optionally also include a 5×5, 7×7 and 9×9 layer in the shape of a pyramid under the original layer to increase the effects from the beacon. The layers do not have to be entirely diamond blocks, as they may also contain blocks of iron, blocks of gold, blocks of netherite, and blocks of emerald.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Diamond,Block of Diamond,"[[None, None, None], [None, '', None], [None, None, None]]"
+

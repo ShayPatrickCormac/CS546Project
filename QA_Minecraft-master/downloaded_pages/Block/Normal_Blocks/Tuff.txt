@@ -1,0 +1,38 @@
+Overview
+    Tuff is an ornamental rock formed from volcanic ash, occurring in underground ore blobs below Y=16.
+
+Obtaining
+  Breaking
+    Tuff drops as an item if mined by any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Tuff
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Tuff can generate in the Overworld in the form of ore blobs. Tuff attempts to generate 2 times per chunk in blobs of size 0-864, from elevations -64 to 0, in all biomes. Tuff can replace stone, andesite, diorite, granite, polished andesite‌‌[BE  only], polished diorite‌‌[BE  only], polished granite‌‌[BE  only], and deepslate. Any ore that generates in tuff becomes its deepslate variety. Ores may generate next to tuff, but in Java Edition, they replace tuff, while in Bedrock Edition, ores do not replace tuff. Additionally, tuff can generate in an ore vein that consists of iron ore below Y=0.
+
+  Container loot
+    Item,Structure,Container,Quantity,Chance
+    Upcoming Java Edition
+    Tuff,Trial Chambers,Corridor chest,8–20,"28.4% { ""item"": ""Tuff"", ""stacksize"": ""8–20"", ""chance"": 0.28386062108179044, ""structure"": ""Trial Chambers"", ""container"": ""Corridor chest"" }"
+    Supply chest,5–10,"20.4% { ""item"": ""Tuff"", ""stacksize"": ""5–10"", ""chance"": 0.20351336037302348, ""structure"": ""Trial Chambers"", ""container"": ""Supply chest"" }"
+
+Usage
+    Tuff is currently used only for decoration. It cannot be crafted into anything else. However, tuff will gain several variants, including the tuff brick, in 1.21.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Polished Tuff,Tuff,"[['', '', None], ['', '', None], [None, None, None]]"
+    Tuff Slab,Tuff,"[[None, None, None], ['', '', ''], [None, None, None]]"
+    Tuff Stairs,Tuff,"[['', None, None], ['', '', None], ['', '', '']]"
+    Tuff Wall,Tuff,"[['', '', ''], ['', '', ''], [None, None, None]]"
+

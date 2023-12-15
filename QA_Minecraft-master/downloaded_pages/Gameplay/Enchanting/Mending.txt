@@ -1,0 +1,22 @@
+Overview
+    Mending is an enchantment that restores durability of an item using experience.
+
+Obtaining
+    Mending is a treasure enchantment; it can be obtained from jungle temple, stronghold, and ancient city chest loot, fishing, raid drops‌[BE  only], or trading with a librarian of any level (or if the Villager Trade rebalance experimental datapack is enabled, a Master level Swamp Librarian).
+
+Usage
+Incompatibilities
+    The Mending and Infinity enchantments are mutually exclusive, meaning only one can be added to any given item in survival. When added through use of commands, both enchantments function as normal.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Mending,mending,enchantment.minecraft.mending
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Mending,mending,26,enchantment.mending
+

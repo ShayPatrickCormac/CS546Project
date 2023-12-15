@@ -1,0 +1,44 @@
+Overview
+    Copper ingots are metal ingots obtained from smelting raw copper or killing drowned.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Block of Copper or Waxed Block of Copper,"[[None, None, None], [None, 'Block of Copper', None], [None, None, None]]"
+
+  Smelting
+    Copper ingots can be obtained by smelting raw copper in a furnace or blast furnace, as well as the ore itself if mined using Silk Touch.
+
+    Name,Ingredients,Smelting recipe
+    Copper Ingot,Raw Copper + Any fuel,0.7
+    Copper Ingot,Copper Ore or Deepslate Copper Ore + Any fuel,0.7
+
+  Mob loot
+    When killed by a player or a tamed wolf, a drowned has a 11% (11⁄100) chance of dropping a copper ingot. With the Looting enchantment, the chance can be increased to 13% (13⁄100) with Looting I, 15% (3⁄20) with Looting II, and 17% (17⁄100) with Looting III.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Block of Copper,Copper Ingot,"[['', '', ''], ['', '', ''], ['', '', '']]"
+    Brush,Feather + Copper Ingot + Stick,"[[None, 'Feather', None], [None, '', None], [None, 'Stick', None]]"
+    Lightning Rod,Copper Ingot,"[[None, '', None], [None, '', None], [None, '', None]]"
+    Spyglass,Amethyst Shard + Copper Ingot,"[[None, 'Amethyst Shard', None], [None, '', None], [None, '', None]]"
+
+  Smithing ingredient
+    Ingredients,Smithing recipe,Description
+    Any Armor Trim + Any Armor Piece + Copper Ingot,Upgrade Gear,"All armor types can be used in this recipe, a netherite chestplate is shown as an example."
+
+    Trim color palette The following color palette is shown on the designs on trimmed armor:
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Copper Ingot,copper_ingot,Item,item.minecraft.copper_ingot
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Copper Ingot,copper_ingot,504,Item,item.copper_ingot.name
+

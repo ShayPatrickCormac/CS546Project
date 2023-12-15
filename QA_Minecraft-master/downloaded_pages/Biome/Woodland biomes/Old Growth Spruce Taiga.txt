@@ -1,0 +1,101 @@
+Overview
+    Old growth taigas are forested biomes covered with tall spruce trees. There are two variants in the biome family.
+
+Description
+    As the name implies, an old growth forest includes trees that have attained a great age, and therefore height. These biomes generate at very high humidity values, similar to dark forest and bamboo jungle biomes, and border groves, taigas, dark forests, and swamps, but old growth taigas only border snowy taigas at the tops of a plateau. Due to their high humidity values, old growth taigas are almost guaranteed to have lush caves generate beneath them. The two variants are often separated by rivers. Spruce or pine grows all over the landscape, and most of them are the large 2×2 trees that grow significantly taller than regular trees. Much of the grass blocks are replaced by large swaths of podzol and coarse dirt. Additionally, rocks made of mossy cobblestone frequently generate on the ground and dead bushes generate alongside the sweet berry bushes‌[JE  only][1], ferns, large ferns and tall grass on the ground. Mushrooms are more common here than most overworld biomes. Trail ruins may generate here. Wolves, foxes and rabbits‌[JE  only] may spawn here. As the climate here is cold, rainfall changes to snowfall above layer 200±8, though in the old growth spruce taiga variant, snowfall forms at layer 160±8. There are overall more trees in old growth taigas compared to normal taigas, leading to increased foliage density. This makes wood more abundant, though as a large portion of it grows as part of tall 2×2 spruce trees, it may be more difficult to obtain. Old growth taigas are slightly more difficult for survival than regular taigas for this reason, though aren't so bad once acclimated and strategies are used to clear the tall trees; they may offer more unique views compared to regular taigas as well.
+
+Variants
+  Old Growth Pine Taiga
+    The standard biome variant, old growth pine taiga features both large 2×2 and normal-sized spruce trees, with the tall trees being mostly arrow shaped with few leaves at the top. Snowfall starts at layer Y=200±8 in this biome. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 540,4
+    Skeleton,100 ⁄ 540,4
+    Slime [note 1],100 ⁄ 540,4
+    Spider,100 ⁄ 540,4
+    Zombie,100 ⁄ 540,4
+    Zombie Villager,25 ⁄ 540,1
+    Enderman,10 ⁄ 540,1–4
+    Witch,5 ⁄ 540,1
+    Ambient category
+    Bat,1,8
+    Creature category
+    Sheep,12 ⁄ 60,4
+    Chicken,10 ⁄ 60,4
+    Pig,10 ⁄ 60,4
+    Cow,8 ⁄ 60,4
+    Fox,8 ⁄ 60,2–4
+    Wolf,8 ⁄ 60,4
+    Rabbit,4 ⁄ 60,2–3
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 495,1
+    Slime [note 1],100 ⁄ 495,1
+    Spider,100 ⁄ 495,1
+    Zombie,95 ⁄ 495,2–4
+    Skeleton,80 ⁄ 495,1–2
+    Enderman,10 ⁄ 495,1–2
+    Witch,5 ⁄ 495,1
+    Zombie Villager,5 ⁄ 495,2–4
+    Creature category
+    Wolf,13 ⁄ 71,4
+    Sheep,12 ⁄ 71,2–3
+    Chicken,10 ⁄ 71,2–4
+    Glow Squid,10 ⁄ 71,2–4
+    Pig,10 ⁄ 71,1–3
+    Cow,8 ⁄ 71,2–3
+    Fox,8 ⁄ 71,2–4
+    Ambient category
+    Bat,1,2
+
+  Old Growth Spruce Taiga
+    The old growth spruce taiga variant resembles the old growth pine taiga at first glance, with the main difference being the shape of the giant trees. The giant trees in old growth spruce taigas have leaves surrounding much more of the tree trunk, the larger amounts of leaves increase the chances of saplings dropping when these trees are cut down, leading to easier sustainability. This variant is also slightly colder than the regular variant, which means that snowfall starts at layer Y=160±8 instead of layer Y=200±8. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 515,4
+    Skeleton,100 ⁄ 515,4
+    Slime [note 1],100 ⁄ 515,4
+    Spider,100 ⁄ 515,4
+    Zombie,95 ⁄ 515,4
+    Enderman,10 ⁄ 515,1–4
+    Witch,5 ⁄ 515,1
+    Zombie Villager,5 ⁄ 515,1
+    Ambient category
+    Bat,1,8
+    Creature category
+    Sheep,12 ⁄ 60,4
+    Chicken,10 ⁄ 60,4
+    Pig,10 ⁄ 60,4
+    Cow,8 ⁄ 60,4
+    Fox,8 ⁄ 60,2–4
+    Wolf,8 ⁄ 60,4
+    Rabbit,4 ⁄ 60,2–3
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 495,1
+    Slime [note 1],100 ⁄ 495,1
+    Spider,100 ⁄ 495,1
+    Zombie,95 ⁄ 495,2–4
+    Skeleton,80 ⁄ 495,1–2
+    Enderman,10 ⁄ 495,1–2
+    Witch,5 ⁄ 495,1
+    Zombie Villager,5 ⁄ 495,2–4
+    Creature category
+    Sheep,12 ⁄ 66,2–3
+    Chicken,10 ⁄ 66,2–4
+    Glow Squid,10 ⁄ 66,2–4
+    Pig,10 ⁄ 66,1–3
+    Cow,8 ⁄ 66,2–3
+    Fox,8 ⁄ 66,2–4
+    Wolf,8 ⁄ 66,4
+    Ambient category
+    Bat,1,2
+

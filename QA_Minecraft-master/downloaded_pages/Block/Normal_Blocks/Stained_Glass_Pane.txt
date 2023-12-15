@@ -1,0 +1,49 @@
+Overview
+    A stained glass pane is a dyed version of glass pane. It is a transparent block that can be used as a more efficient alternative to stained glass blocks.
+
+Obtaining
+  Breaking
+    Stained glass panes can be obtained using a tool enchanted with Silk Touch. If one is broken without a Silk Touch enchantment, it drops nothing. Stained glass panes do not have an assigned tool; they are mined at the same speed regardless of what tool is used.[1]
+
+    Block,Stained Glass Pane
+    Hardness,0.3
+    Breaking time (secs)
+    Default,0.45
+
+  Natural generation
+    Orange and red stained glass panes generate in savanna village temples. Yellow stained glass panes generate in plains and savanna village temples. Brown stained glass panes generate in abandoned villages. White stained glass panes generate in plains village temples.
+
+  Suspicious block loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Blue Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Blue Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Light Blue Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Light Blue Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Magenta Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Magenta Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Pink Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Pink Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Purple Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Purple Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Red Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Red Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Yellow Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Yellow Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Bedrock Edition
+    Blue Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Blue Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Light Blue Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Light Blue Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Magenta Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Magenta Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Pink Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Pink Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Purple Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Purple Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Red Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Red Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Yellow Stained Glass Pane,Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Yellow Stained Glass Pane"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Stained Glass Pane,Matching Stained Glass,"[[None, None, None], ['White Stained Glass', 'White Stained Glass', 'White Stained Glass'], ['White Stained Glass', 'White Stained Glass', 'White Stained Glass']]"
+    Stained Glass Pane,Glass Pane + Matching Dye,"[['Glass Pane', 'Glass Pane', 'Glass Pane'], ['Glass Pane', 'White Dye', 'Glass Pane'], ['Glass Pane', 'Glass Pane', 'Glass Pane']]"
+
+Usage
+    Stained glass panes are more efficient to use than stained glass blocks, as six stained glass blocks can be crafted into sixteen stained glass panes, yielding 22⁄3 panes per block. Windows built using stained glass panes can be up to 267% (22⁄3 times) larger in area than windows built with regular stained glass blocks.
+
+  Placement
+    If placed without anything on the sides, they appear as a thin vertical • shape, 2×2 pixels in size; but when other blocks occupy adjacent spaces, it becomes flat or turns into a  or  or  shape depending on the items surrounding it. The collision box is identical to the shape of the pane. Therefore, two glass panes placed with one empty space in between forms a gap that is two blocks wide. Stained glass panes are never oriented horizontally. Horizontal stained glass surfaces must be made from stained glass blocks. Stained glass panes can be waterlogged, which means water can be in the same place as a glass pane, unlike regular stained glass.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Hardened Stained Glass Pane,Aluminum Oxide + Matching Stained Glass Pane + Boron Trioxide,"[['Aluminum Oxide', 'Aluminum Oxide', 'Aluminum Oxide'], ['White Stained Glass Pane', 'White Stained Glass Pane', 'White Stained Glass Pane'], ['Boron Trioxide', 'Boron Trioxide', 'Boron Trioxide']]",A representation of alumino-borosilicate glass .‌ [ Bedrock Edition and Minecraft Education only ]
+

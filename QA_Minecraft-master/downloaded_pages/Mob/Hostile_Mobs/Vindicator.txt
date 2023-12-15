@@ -1,0 +1,42 @@
+Overview
+    A vindicator is an illager equipped with an iron axe. Vindicators appear in woodland mansions and participate in raids. It sprints toward its targets to attack them with its axe.
+
+Spawning
+    On Normal difficulty and Hard difficulty, vindicators sometimes spawn with a randomly enchanted iron axe: the chance is 0–25%, and is higher when the regional difficulty is higher.
+
+  Woodland mansions
+    Vindicators spawn during the generation of woodland mansions, in groups of 1–3 inside particular rooms, sometimes accompanied by an evoker. Rarely, vindicators can spawn in the corridors and hallways. They do not respawn after initially spawning. Vindicators generated in mansions do not naturally despawn unless the world is switched to peaceful difficulty.‌[JE  only]‌[upcoming: BE 1.20.50] Vindicators are sometimes neutral if naturally spawned in a woodland mansion, which means that the vindicator does not attack the player on sight, but only after the player attacks it.
+
+  Patrols
+    In Java Edition, any vindicators can join a patrol if sufficiently near a patrol captain, but do not go seeking out for patrols to join.
+
+  Raids
+    Vindicators can spawn during raids. They appear more frequently during later waves and at higher difficulties. Vindicators can spawn riding ravagers, creating a vindicator ravager jockey.‌[JE  only]
+
+  Java Edition
+    In Java Edition, if a player spawns a vindicator with a spawn egg or using a command, the vindicator has a chance of becoming an illager captain, with a Ominous banner attached above its back.
+
+Drops
+  On death
+    Item,Roll Chance,Quantity (Roll Chance)
+    Default,Looting I,Looting II,Looting III
+    ,Emerald,100% [d 1],0–1,0–2,0–3,0–4
+    ,Illager Banner,100% [d 2],1,1,1,1
+
+    A vindicator drops loot only when killed by a player or tamed wolf: In Bedrock Edition, if a vindicator spawns as part of a raid, it drops: Additionally, in Bedrock Edition, vindicators have a 65% chance of dropping the following on Easy and Normal difficulties, and an 80% chance of dropping them on Hard difficulty: Notes:
+
+Behavior
+    Vindicators are hostile toward players, iron golems, adult villagers, wandering traders, and snow golems.‌[BE  only] In Bedrock Edition, vindicators are passive to players on Peaceful difficulty but still attack other mobs. While idle, a vindicator crosses its arms similar to a villager, with its axe stowed. While giving chase, the vindicator brandishes its axe and sprints. If it has no weapons, a mainhand-unarmed vindicator raises both of its hands when attacking. On Normal and Hard difficulties, vindicators that are part of a raid can break wooden doors. This is controlled by the raider tag.[1] Like any illager during a raid, vindicators celebrate by cheering if all the villagers are killed or all the beds are destroyed. In Bedrock Edition, if a pillager arrow accidentally strikes a vindicator, the vindicator retaliates against the pillager, but the pillager does not retaliate. All illagers remain friendly to each other in Java Edition, even when struck accidentally.[2]
+
+  Java Edition
+    Vindicators are likely to call help from other vindicators when attacked by mobs (except for illagers and goats, or if they were killed in one hit), inciting them all to attack the aggressor. They do not call help from other kinds of illagers. Vindicator raiders can break doors and open doors like villagers.[needs testing] Ringing a bell gives all vindicators within 32 blocks the Glowing effect for 3 seconds.
+
+  Bedrock Edition
+    Vindicators can only sprint, even when idle. A dispenser can equip a vindicator with armor, but it is invisible and does not show on its model.
+
+  Damage
+    Armed vindicators hit for 7.5 × 3.75 to 19.5 × 9.75 damage, depending on difficulty. They tie with piglin brutes for dealing the third most melee damage in the game, following the iron golem at 21 × 10.5 damage and the warden at 45 × 22.5 damage. The vindicator's axe attack disables the player's shield for 5 seconds, even when riding a ravager.
+
+  "Johnny"
+    A vindicator named Johnny (using a name tag, named spawn egg, etc., or has its Johnny tag set to 1b) is hostile to every mob except evokers, pillagers, other vindicators, and ghasts[3] and players in Creative or Spectator mode. In Java Edition, they also do not attack baby villagers, illusioners or armor stands[4]. This hostility extends to vexes and witches in both editions.[5] "Johnny" vindicators also attempt to attack the ender dragon, but she would not take damage. All hostile or neutral mobs try to attack the "Johnny" vindicator in return, except for ender dragons,[verify] endermites (as they die in one hit), guardians, elder guardians, phantoms,  goats (apart from their usual ramming behavior), slimes, magma cubes, and ravagers. The Johnny tag overrides its name; the player can give the vindicator any other name and set the Johnny tag to 1b and it remains hostile in the same way as described. Conversely, the player can name the vindicator "Johnny" and set the Johnny tag to 0b, causing the vindicator to act as a normal vindicator. In Java Edition, using a name tag to rename a "Johnny" vindicator does not reset its Johnny tag, and it continues to exhibit "Johnny" behavior. In Bedrock Edition, naming a vindicator spawn egg "Johnny" and using it on a spawner has no effect; normal vindicators spawn rather than vindicators named "Johnny".
+

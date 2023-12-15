@@ -1,0 +1,21 @@
+Overview
+    A disc fragment is a music disc fragment obtained from ancient city loot chests. Nine fragments can be combined in a crafting table to make a music disc named "5".
+
+Obtaining
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Disc Fragment (5),Ancient City,Chest,1–3,"29.8% { ""item"": ""Disc Fragment (5)"", ""stacksize"": ""1–3"", ""chance"": 0.2980580352156472, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Disc Fragment (5),Ancient City,Chest,1–3,"29.8% { ""item"": ""Disc Fragment (5)"", ""stacksize"": ""1–3"", ""chance"": 0.2980580352156472, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Music Disc 5,Disc Fragment 5,"[['Disc Fragment', 'Disc Fragment', 'Disc Fragment'], ['Disc Fragment', 'Disc Fragment', 'Disc Fragment'], ['Disc Fragment', 'Disc Fragment', 'Disc Fragment']]"
+
+Data values
+  ID
+    Track,Identifier,Form,Translation key
+    Samuel Åberg - 5,disc_fragment_5,Item,item.minecraft.disc_fragment_5
+

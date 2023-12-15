@@ -1,0 +1,25 @@
+Overview
+    This tutorial covers strategies to obtain each type of music disc. Music discs are essential to duplicating allays and collecting every music disc could be pursued as a personal challenge.
+
+Skeletons and creepers
+    Most music discs, except Pigstep, Otherside, 5, and Relic can be obtained if a skeleton or stray shot kills a creeper. It is recommended to set up a farm for this. Additionally, if a skeleton or stray with an arrow lit on fire (either from having a bow enchanted with flame or by shooting through lava) hits a block of tnt which explodes a creeper, it will drop a music disc.
+
+Chest loot
+  13 and Cat
+    13 and Cat can be found in dungeon, woodland mansion, and ancient city chests.
+
+  Mellohi and Wait‌[BE  only]
+    Mellohi and Wait can be found in buried treasure chests.
+
+  Pigstep
+    Pigstep can be found in bastion chests.
+
+  Otherside
+    Otherside can be found in stronghold and dungeon chests. It can also be found in ancient city chests excluding ice box chests.
+
+  5
+    5 can only be crafted from nine disc fragments found in ancient city chests excluding ice box chests.
+
+  Relic
+    Relic has a 8.3% chance of being obtaining by brushing suspicious gravel in trail ruins.
+

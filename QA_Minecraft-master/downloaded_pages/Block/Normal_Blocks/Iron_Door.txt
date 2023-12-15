@@ -1,0 +1,31 @@
+Overview
+    An iron door is a barrier that can only be opened with redstone. Iron doors are more secure than wooden doors because they cannot be opened by hand and cannot be broken by zombies. They are also more resistant to explosions, and immune to fire and lava.
+
+Obtaining
+    Iron doors are most commonly found in strongholds, where they generate often. They are also craftable by the player using 6 iron ingots.
+
+  Breaking
+    Block,Iron Door
+    Hardness,5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,3.75
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,0.65
+
+    Iron doors require a solid block beneath them for support. if that block is no longer supporting, due to breaking or changing, the door will drop itself as an item. Pistons can also break doors, pushing the piston head or any block into the door causes the door to break. An iron door can be broken with anything if the top half of the door is broken.[1][2]
+
+  Natural Generation
+    Iron doors generate as part of:
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot,"[['Iron Ingot', 'Iron Ingot', None], ['Iron Ingot', 'Iron Ingot', None], ['Iron Ingot', 'Iron Ingot', None]]"
+
+Usage
+    Iron doors can only be opened with redstone power. Iron doors can only be opened and closed by a redstone signal. When an iron door opens or closes, it immediately change its orientation without affecting anything in the space between. An iron door is a redstone mechanism and can be activated by  weakly powering any cardinally adjacent block. When activated, the iron door immediately opens. When deactivated, it immediately closes.
+

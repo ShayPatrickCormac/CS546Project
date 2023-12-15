@@ -1,0 +1,33 @@
+Overview
+    A block of raw iron is a raw metal block equivalent to nine raw iron.
+
+Obtaining
+  Breaking
+    Blocks of raw iron can be mined only with a stone pickaxe or better.
+
+    Block,Block of Raw Iron
+    Hardness,5
+    Tool,stone pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,12.5
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,2.1
+
+  Natural generation
+    Blocks of raw iron can be found rarely inside of huge ore veins below Y=0.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Raw Iron,"[['Raw Iron', 'Raw Iron', 'Raw Iron'], ['Raw Iron', 'Raw Iron', 'Raw Iron'], ['Raw Iron', 'Raw Iron', 'Raw Iron']]"
+
+Usage
+    Blocks of raw iron are a compact way to store raw iron.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Raw Iron,Block of Raw Iron,"[[None, None, None], [None, '', None], [None, None, None]]"
+

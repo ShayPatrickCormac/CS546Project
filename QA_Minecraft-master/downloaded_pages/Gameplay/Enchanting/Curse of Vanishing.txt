@@ -1,0 +1,21 @@
+Overview
+    Curse of Vanishing is an enchantment that causes the item to disappear upon death.
+
+Obtaining
+    Curse of Vanishing is a treasure enchantment; it can be obtained from End City, Jungle Temple, and Stronghold chest loot, fishing, raid drops‌[BE  only], or trading with a librarian of any level.
+
+Usage
+    When the player dies while an item enchanted with Curse of Vanishing is in their inventory, it does not drop on the ground, but is removed from the world entirely. The item does not vanish if it is dropped manually, or if it is placed in a chest before death. The effect can be mitigated by storing affected items inside a shulker box,[1] or by setting the keepInventory gamerule to true. Curse of Vanishing cannot be removed by a grindstone or a crafting table. However, if the cursed item is a pumpkin or mob head, placing and breaking the head removes the curse. If an item dropped by a mob (such as a zombie or skeleton wearing armor) has Curse of Vanishing, the enchantment's effect works as normal. Of all enchantments in the game, Curse of Vanishing is compatible with the greatest number of different item types. It can be added to any type of item which can be enchanted at all, including compass and carved pumpkin . The effect is irrelevant in singleplayer Hardcore difficulty because death is permanent, so no items can be retrieved after dying.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Curse of Vanishing,vanishing_curse,enchantment.minecraft.vanishing_curse
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Curse of Vanishing,vanishing,28,enchantment.curse.vanishing
+

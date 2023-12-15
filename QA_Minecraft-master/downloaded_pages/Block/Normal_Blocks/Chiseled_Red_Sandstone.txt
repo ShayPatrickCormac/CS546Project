@@ -1,0 +1,37 @@
+Overview
+    Chiseled red sandstone is the chiseled variant of red sandstone, crafted from red sandstone slabs.
+
+Obtaining
+  Breaking
+    Chiseled red sandstone can be mined with any pickaxe. If mined without a pickaxe, the block drops nothing.
+
+    Block,Chiseled Red Sandstone
+    Hardness,0.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,4
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Crafting
+    Ingredients,Crafting recipe
+    Red Sandstone Slab,"[[None, None, None], [None, 'Red Sandstone Slab', None], [None, 'Red Sandstone Slab', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Red Sandstone,
+
+Usage
+    Unlike red sand, chiseled red sandstone is never affected by gravity.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Red Sandstone Slab,Chiseled Red Sandstone,"[[None, None, None], [None, None, None], ['', '', '']]"
+
+  Note blocks
+    Chiseled Red sandstone can be placed under note blocks to produce "bass drum" sounds.
+

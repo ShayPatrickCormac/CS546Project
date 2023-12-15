@@ -1,0 +1,58 @@
+Overview
+    Netherite upgrade is a type of smithing template used in smithing tables to upgrade armor and tools from diamond to netherite. It is consumed when used, but can be duplicated using an existing template, netherrack, and diamonds.
+
+Obtaining
+    This item is found in bastion remnants. Once obtained, it can be duplicated using the crafting recipe below.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Diamond + Netherite Upgrade + Netherrack,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', 'Netherrack', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Netherite Upgrade Smithing Template,Bastion remnant,Treasure chest,1,"100% { ""item"": ""Netherite Upgrade Smithing Template"", ""stacksize"": 1, ""chance"": 1, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Generic chest,1,"10% { ""item"": ""Netherite Upgrade Smithing Template"", ""stacksize"": 1, ""chance"": 0.09999999999999998, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Hoglin stable chest,1,"10% { ""item"": ""Netherite Upgrade Smithing Template"", ""stacksize"": 1, ""chance"": 0.09999999999999998, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Bridge chest,1,"10% { ""item"": ""Netherite Upgrade Smithing Template"", ""stacksize"": 1, ""chance"": 0.09999999999999998, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Bedrock Edition
+    Netherite Upgrade Smithing Template,Bastion remnant,Treasure chest,1,"100% { ""item"": ""Netherite Upgrade Smithing Template"", ""stacksize"": 1, ""chance"": 1, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Generic chest,1,"10% { ""item"": ""Netherite Upgrade Smithing Template"", ""stacksize"": 1, ""chance"": 0.09999999999999998, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Hoglin stable chest,1,"10% { ""item"": ""Netherite Upgrade Smithing Template"", ""stacksize"": 1, ""chance"": 0.09999999999999998, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Bridge chest,1,"10% { ""item"": ""Netherite Upgrade Smithing Template"", ""stacksize"": 1, ""chance"": 0.09999999999999998, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+
+Usage
+    It is an ingredient in its own recipe, making it simple to craft more after the initial item is found.
+
+  Crafting ingredient
+    Ingredients,Crafting recipe
+    Diamond + Netherite Upgrade + Netherrack,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', 'Netherrack', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+
+  Smithing ingredient
+    While upgrading, the newly crafted netherite gear retains the enchantments, prior work penalty and number of durability points lost (instead of the remaining durability) from the diamond gear. Upgrading gear does not remove incompatible enchantments, such as multiple different Protection enchantments. Unlike anvils, using a smithing table to upgrade diamond gear to netherite gear costs no experience and does not increase the prior work penalty.
+
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Helmet + Netherite Ingot,Upgrade Gear
+    Netherite Upgrade + Diamond Chestplate + Netherite Ingot,Upgrade Gear
+    Netherite Upgrade + Diamond Leggings + Netherite Ingot,Upgrade Gear
+    Netherite Upgrade + Diamond Boots + Netherite Ingot,Upgrade Gear
+
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Sword + Netherite Ingot,Upgrade Gear
+    Netherite Upgrade + Diamond Pickaxe + Netherite Ingot,Upgrade Gear
+    Netherite Upgrade + Diamond Axe + Netherite Ingot,Upgrade Gear
+    Netherite Upgrade + Diamond Shovel + Netherite Ingot,Upgrade Gear
+    Netherite Upgrade + Diamond Hoe + Netherite Ingot,Upgrade Gear
+
+Data values
+  ID
+    Java Edition:
+
+    Smithing Template,Identifier,Form,Translation key
+    Netherite Upgrade,netherite_upgrade_smithing_template,Item,item.minecraft.netherite_upgrade_smithing_template
+
+    Bedrock Edition:
+
+    Smithing Template,Identifier,Numeric ID,Form,Translation key
+    Netherite Upgrade,netherite_upgrade_smithing_template,686,Item,item.smithing_template.name trim_pattern.netherite_upgrade.name
+

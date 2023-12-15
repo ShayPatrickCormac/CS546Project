@@ -1,0 +1,78 @@
+Overview
+    Archaeology is a gameplay mechanic that allows the player to find items that represent historical artifacts inside suspicious sand and gravel blocks.[1][2] This mechanic was originally intended to be part of the Caves & Cliffs update, but was delayed three times until finally being released as part of the Trails & Tales update.[3]
+
+Guide
+    Players can use a brush on suspicious sand (located in warm ocean ruins, desert pyramids, and desert wells) or suspicious gravel (located in cold ocean ruins and trail ruins). Players can discover and obtain artifacts and other loot, such as sticks, emeralds and pottery sherds, which can be used to craft decorated pots. If a suspicious block falls or is broken, the loot inside is lost.
+
+Additions
+  Blocks
+  Decorated Pot
+    Can be crafted with any 4 pottery sherds or brick items, placed in a rhombus shape.
+The specific type of crafting material used determines which side of the resulting decorated pot shows a symbol.
+The possible symbols are determined by the type of pottery sherd used to craft the pot.
+Sides of the pot corresponding to bricks when crafted use a plain texture with no symbol.
+Fragile and easy to break:
+If broken with any block-breaking tool, drops as its component materials.
+If broken without a tool, or using a tool with the Silk Touch enchantment, drops as itself.
+As of Snapshot 23w41a, Decorated Pots now have a single storage slot that allows players to store up to 64 of one block or item.
+
+  Sniffer Egg
+    Only found from suspicious sand in warm ocean ruins.
+Hatches into Snifflets.
+Once two eggs are found, can be continuously obtained by breeding sniffers with torchflower seeds.
+
+  Suspicious Gravel
+    Generates in cold ocean ruins and trail ruins.
+Brushing the suspicious gravel with a brush extracts items.
+Suspicious Gravel drops as an item in Survival Mode if it stays in its Falling Block entity state for more than 30 seconds. This can be achieved by dropping the Suspicious Gravel into a two-block deep soul sand bubble column or onto two layers of cobwebs. Both actions slow down the falling Suspicious Gravel enough for its 30-second timer to expire, allowing it to drop in item form. (Java Edition)
+
+  Suspicious Sand
+    Generates in desert temples, desert wells, and warm ocean ruins.
+Brushing the suspicious sand with a brush extracts items.
+Suspicious Sand drops as an item in Survival Mode if it stays in its Falling Block entity state for more than 30 seconds. This can be achieved by dropping the Suspicious Sand into a two-block deep soul sand bubble column or onto two layers of cobwebs. Both actions slow down the falling Suspicious Sand enough for its 30-second timer to expire, allowing it to drop in item form. (Java Edition)
+
+  Items
+  Brush
+    An item which can be used to brush suspicious blocks.
+Can be crafted with a feather, copper ingot and stick.
+
+  Pottery Sherds
+    They have symbolic pictures on them.
+Different structures contain different pottery sherds.
+Contains 20 different variants.
+They cannot be crafted and are only found by brushing suspicious blocks.
+
+  Relic Music Disc
+  World generation
+  Trail Ruins
+    A buried generated structure from a lost culture.
+Generates in taigas, snowy taigas, old growth taigas (both types), old growth birch forests and jungles.
+Comprised of a tower, a path across the bottom, and a few additional rooms attached to the side.
+Contains gravel and suspicious gravel, as well as mud bricks and several colors of terracotta and glazed terracotta.
+Four armor trims and seven pottery sherds can be found here.
+
+  Gameplay
+    The player can find items in suspicious sand or suspicious gravel inside of certain structures by using the brush.
+In desert pyramids, suspicious sand can contain a pottery sherd, TNT, gunpowder, an emerald or a diamond.
+In desert wells, suspicious sand can contain a pottery sherd, a brick, an emerald, a stick or suspicious stew.
+In warm ocean ruins, suspicious sand can contain a pottery sherd, a sniffer egg, an iron axe, an emerald, wheat, a wooden hoe, coal or a gold nugget.
+In cold ocean ruins, suspicious gravel can contain a pottery sherd, an iron axe, an emerald, wheat, a wooden hoe, coal, or a gold nugget.
+In trail ruins, suspicious gravel can contain a pottery sherd, an emerald, wheat, clay, a brick, dyes, a dyed candle, a stained glass pane, a hanging sign, a gold nugget, coal, wheat seeds, beetroot seeds, a dead bush, a flower pot, string, a lead, a Relic music disc, or an armor trim.
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Respecting the Remnants,Brush a Suspicious block to obtain a Pottery Sherd,Adventure,—,"adventure/salvage_sherd {""anchor"": """", ""title"": ""Respecting the Remnants"", ""icon"": ""Brush
+"", ""icon-style"": ""plain"", ""title"": ""Respecting the Remnants"", ""description"": ""Brush a [[Suspicious block]] to obtain a [[Pottery Sherd]]
+"", ""parent"": ""Adventure
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""adventure/salvage_sherd
+"", ""rewards"": ""—
+"" }"
+    ,Smells Interesting,Obtain a Sniffer Egg,Husbandry,"Have a sniffer egg in your inventory. This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.","husbandry/obtain_sniffer_egg {""anchor"": """", ""title"": ""Smells Interesting"", ""icon"": ""Sniffer Egg
+"", ""icon-style"": ""plain"", ""title"": ""Smells Interesting"", ""description"": ""Obtain a Sniffer Egg
+"", ""parent"": ""Husbandry
+"", ""requirements"": ""Have a [[sniffer egg]] in your inventory.<br>''This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.''
+"", ""resourcelocation"": ""husbandry/obtain_sniffer_egg
+"", ""rewards"": ""—
+"" }"
+

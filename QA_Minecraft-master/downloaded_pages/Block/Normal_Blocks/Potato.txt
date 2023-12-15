@@ -1,0 +1,53 @@
+Overview
+    A potato is a food item obtained from potato crops that can be used to plant them, consumed raw or cooked to make baked potatoes. Potato crops are planted in farmland and used to grow potatoes and, rarely, poisonous potatoes.
+
+Obtaining
+  Natural generation
+    Village farm plots have a chance of being planted with potatoes. The exact chance depends on the style of the village:
+
+    Village style,Chance
+    Snowy,70%
+    Plains,15%
+    Taiga,10%
+
+    Fully grown potato crops drop 2 to 5 potatoes (3 5⁄7 per crop harvested on average) and have a 2% chance of dropping an additional poisonous potato. Potato yield can be increased using a tool enchanted with Fortune, with Fortune III harvesting an average of 5 3⁄7 potatoes. Bone meal can be used to mature the potato to its last stage of growth. The first two potatoes always drop, and then three more attempts are made to drop a potato with a success rate of 57.14286% to yield the extra 0–3 drops. Each level of Fortune enchantment increases the number of attempts by one.
+
+  Mob loot
+    Zombies, husks, and zombie villagers have a 2.5% (1⁄40) chance of dropping either an iron ingot, carrot, or potato when killed by a player or tamed wolf. This is increased by 1% (1⁄100) per level of looting. This gives potatoes the following chances of dropping: When killed with fire, a zombie drops a baked potato instead.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Potato,Pillager Outpost,Chest,2–5,"57.5% { ""item"": ""Potato"", ""stacksize"": ""2–5"", ""chance"": 0.5750050885406066, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Supply chest,2–6,"42.1% { ""item"": ""Potato"", ""stacksize"": ""2–6"", ""chance"": 0.42061090139687074, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Village,Plains house chest,1–7,"74.2% { ""item"": ""Potato"", ""stacksize"": ""1–7"", ""chance"": 0.7422481146272464, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Snowy house chest,1–7,"66.3% { ""item"": ""Potato"", ""stacksize"": ""1–7"", ""chance"": 0.662802357880901, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Taiga house chest,1–7,"65.6% { ""item"": ""Potato"", ""stacksize"": ""1–7"", ""chance"": 0.6556091848091459, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Bedrock Edition
+    Potato,Bonus chest,Chest,1–2,"50% { ""item"": ""Potato"", ""stacksize"": ""1–2"", ""chance"": 0.5, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Pillager Outpost,Chest,2–5,"57.5% { ""item"": ""Potato"", ""stacksize"": ""2–5"", ""chance"": 0.5750050885406066, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Supply chest,2–6,"42.1% { ""item"": ""Potato"", ""stacksize"": ""2–6"", ""chance"": 0.42061090139687074, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Village,Plains house chest,1–7,"74.2% { ""item"": ""Potato"", ""stacksize"": ""1–7"", ""chance"": 0.7422481146272464, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Snowy house chest,1–7,"66.3% { ""item"": ""Potato"", ""stacksize"": ""1–7"", ""chance"": 0.662802357880901, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Taiga house chest,1–7,"69.3% { ""item"": ""Potato"", ""stacksize"": ""1–7"", ""chance"": 0.6929135530018191, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+
+Usage
+  Farming
+    When farmed, potatoes require 8 stages to grow. However, there are four visible stages due to having only four distinct textures: every two stages have the same texture, except that growth stage 7 keeps the same appearance as stages 5–6, so that only stage 8 has the final, mature appearance. Planted potatoes require a light level of 9 or greater to continue growing. If the light level is 7 or below, the crops instantly un-plant themselves ("pop off"). It is not possible to plant potatoes if the light level is too low. Crops grow faster if the farmland they are planted in is hydrated. Using bone meal on crops also increases the speed of growth by randomly increasing their growth stage by 2 to 5. Crops break if pushed by a piston or if their supporting farmland breaks or turns to dirt (i.e. by being trampled), dropping their usual drops.
+
+  Food
+    To eat a potato, press and hold use while it is selected in the hotbar. Eating a potato restores 1 () hunger and 0.6 saturation.
+
+  Breeding
+    Pigs follow and can be bred by a player holding a potato. Villagers can pick up potato items to become willing, which allow them to breed. Villagers require 12 potatoes to become willing.
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Baked Potato,Potato + Any fuel,0.35
+
+  Trading
+    Novice-level farmer villagers have a 25%‌[Bedrock Edition  only] or 40%‌[Java Edition  only] chance to buy 26 potatoes for an emerald as part of their trade.
+
+  Composting
+    Placing a potato into a composter has a 65% chance of raising the compost level by 1. This is less efficient than composting with baked potatoes, which has a higher success chance of 85%.
+

@@ -1,0 +1,33 @@
+Overview
+    A block of raw copper is a raw metal block equivalent to nine raw copper.
+
+Obtaining
+  Breaking
+    Blocks of raw copper can be mined only with a stone pickaxe or better.
+
+    Block,Block of Raw Copper
+    Hardness,5
+    Tool,stone pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,12.5
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,2.1
+
+  Natural generation
+    Blocks of raw copper can be found rarely inside of copper ore veins above Y=0.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Raw Copper,"[['Raw Copper', 'Raw Copper', 'Raw Copper'], ['Raw Copper', 'Raw Copper', 'Raw Copper'], ['Raw Copper', 'Raw Copper', 'Raw Copper']]"
+
+Usage
+    Blocks of raw copper are a compact way to store raw copper.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Raw Copper,Block of Raw Copper,"[[None, None, None], [None, '', None], [None, None, None]]"
+

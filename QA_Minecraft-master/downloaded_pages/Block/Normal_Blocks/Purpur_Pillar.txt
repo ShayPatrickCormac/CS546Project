@@ -1,0 +1,39 @@
+Overview
+    Purpur pillars are decorative blocks that are naturally generated in end cities and end ships.
+
+Obtaining
+  Breaking
+    Purpur pillars can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Purpur Pillar
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Purpur pillars can be found naturally as part of the structure of end cities and end ships.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Purpur Slab,"[[None, None, None], [None, 'Purpur Slab', None], [None, 'Purpur Slab', None]]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Purpur Pillar,Purpur Block,
+
+Usage
+    Purpur pillars are primarily decorative blocks, similar to other brick-type blocks. Purpur pillar blocks can be placed sideways, similar to logs or quartz pillar blocks.
+
+  Crafting ingredient
+    Purpur pillars can be used to craft purpur slabs in Java Edition, but not Bedrock Edition. 
+
+  Note Blocks
+    Purpur pillar can be placed under note blocks to produce "bass drum" sound.
+

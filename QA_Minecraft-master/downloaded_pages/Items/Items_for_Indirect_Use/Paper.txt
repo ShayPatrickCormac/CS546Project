@@ -1,0 +1,60 @@
+Overview
+    Paper is an item crafted from sugar cane.
+
+Obtaining
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Paper,Shipwreck,Supply chest,1–12,"46.4% { ""item"": ""Paper"", ""stacksize"": ""1–12"", ""chance"": 0.46441189521344395, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Map chest,1–10,"89.4% { ""item"": ""Paper"", ""stacksize"": ""1–10"", ""chance"": 0.8937162851727657, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+    Stronghold,Library chest,2–7,"89.2% { ""item"": ""Paper"", ""stacksize"": ""2–7"", ""chance"": 0.8919829527458125, ""structure"": ""Stronghold"", ""container"": ""Library chest"" }"
+    Village,Cartographer's chest,1–5,"61.2% { ""item"": ""Paper"", ""stacksize"": ""1–5"", ""chance"": 0.611766, ""structure"": ""Village"", ""container"": ""Cartographer's chest"" }"
+    Bedrock Edition
+    Paper,Shipwreck,Supply chest,1–12,"46.4% { ""item"": ""Paper"", ""stacksize"": ""1–12"", ""chance"": 0.46441189521344395, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Map chest,1–10,"89.4% { ""item"": ""Paper"", ""stacksize"": ""1–10"", ""chance"": 0.8937162851727657, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+    Stronghold,Library chest,2–7,"88.3% { ""item"": ""Paper"", ""stacksize"": ""2–7"", ""chance"": 0.8829194743853341, ""structure"": ""Stronghold"", ""container"": ""Library chest"" }"
+    Village,Cartographer's chest,1–5,"61.2% { ""item"": ""Paper"", ""stacksize"": ""1–5"", ""chance"": 0.611766, ""structure"": ""Village"", ""container"": ""Cartographer's chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Sugar Cane,"[[None, None, None], ['Sugar Cane', 'Sugar Cane', 'Sugar Cane'], [None, None, None]]"
+
+  Villagers
+    In Java Edition, cartographer villagers may give paper to players with the Hero of the Village effect.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Banner Pattern Bordure Indented,Paper + Vines,"[[None, None, None], ['', 'Vines', None], [None, None, None]]",‌ [ Bedrock Edition only ]
+    Banner Pattern Creeper,Paper + Creeper Head,"[[None, None, None], ['', 'Creeper Head', None], [None, None, None]]",
+    Banner Pattern Field Masoned,Paper + Bricks,"[[None, None, None], ['', 'Bricks', None], [None, None, None]]",‌ [ Bedrock Edition only ]
+    Banner Pattern Flower,Paper + Oxeye Daisy,"[[None, None, None], ['', 'Oxeye Daisy', None], [None, None, None]]",
+    Banner Pattern Skull,Paper + Wither Skeleton Skull,"[[None, None, None], ['', 'Wither Skeleton Skull', None], [None, None, None]]",
+    Banner Pattern Thing,Paper + Enchanted Golden Apple,"[[None, None, None], ['', 'Enchanted Golden Apple', None], [None, None, None]]",
+    Book,Paper + Leather,"[[None, None, None], ['', '', None], ['', 'Leather', None]]",
+    Cartography Table,Paper + Any Planks,"[['', '', None], ['Oak Planks', 'Oak Planks', None], ['Oak Planks', 'Oak Planks', None]]",
+    Empty Map,Paper + Compass,"[['', '', ''], ['', 'Compass', ''], ['', '', '']]","This variation is called an ""empty locator map"" in Bedrock Edition , or an ""empty map"" in Java Edition . When the player first creates a map, it is blank. It needs to be activated by holding it and pressing use item . after which it records terrain and location markers as the player travels within (or close to) the area it maps."
+    Empty Map,Paper,"[['', '', ''], ['', '', ''], ['', '', '']]","‌ [ Bedrock Edition only ] This variation is called an ""empty map"". It does not show location markers. It is intended for cloning and zooming locator maps without having to consume an additional compass (thereby saving iron ingots and redstone dust ), but it can also be activated and later converted to a locator map by combining it with a compass on an anvil , crafting table , or cartography table ."
+    Firework Rocket,Any Firework Star + Paper + Gunpowder,"[[None, None, None], ['Firework Star', '', ''], ['', 'Gunpowder', None]]",Adding more gunpowder increases the duration of the rocket. Up to three gunpowder can be used. Up to five firework stars can also be used with three gunpowder. Up to seven firework stars can be used by using firework stars instead of additional gunpowder. All firework stars explode almost simultaneously when the rocket detonates.
+    Firework Rocket,Paper + Gunpowder,"[[None, None, None], ['', '', None], ['', 'Gunpowder', None]]","When crafted this way (without a firework star), the rocket does not have explosion effects. The value of gunpowder affects the flight duration ."
+    Map or Locator Map,Paper + Map or Locator Map,"[['', '', ''], ['', 'Map', ''], ['', '', '']]",Locator Map Bedrock Edition only.
+
+  Anvil usage
+    Name,Ingredients,Anvil usage,Description
+    Map or Locator Map (zoomed out),Map or Locator Map + Paper,Repair & Name Map Locator Map,Bedrock Edition only. Supplying 8 sheets of paper results in a zoomed-out version of the input map.
+
+  Trading
+    In Bedrock Edition, novice-level librarian and cartographer villagers buy 24 paper for an emerald as part of their trades. In Java Edition, novice-level cartographer villagers always offer to buy 24 paper for an emerald, while novice-level librarians have a 2⁄3 chance of offering the same trade.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Paper,paper,Item,item.minecraft.paper
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Paper,paper,386,Item,item.paper.name
+

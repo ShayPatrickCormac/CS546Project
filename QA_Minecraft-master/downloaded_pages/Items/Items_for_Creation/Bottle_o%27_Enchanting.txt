@@ -1,0 +1,22 @@
+Overview
+    A bottle o' enchanting is a throwable item that releases experience orbs on impact.
+
+Obtaining
+  Chest Loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Bottle o' Enchanting,Ancient City,Chest,1–3,"23.2% { ""item"": ""Bottle o' Enchanting"", ""stacksize"": ""1–3"", ""chance"": 0.23238142813184637, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Pillager Outpost,Chest,1,"60.9% { ""item"": ""Bottle o' Enchanting"", ""stacksize"": 1, ""chance"": 0.6090815176558978, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1,"14.1% { ""item"": ""Bottle o' Enchanting"", ""stacksize"": 1, ""chance"": 0.14087321982167356, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Bedrock Edition
+    Bottle o' Enchanting,Ancient City,Chest,1–3,"23.2% { ""item"": ""Bottle o' Enchanting"", ""stacksize"": ""1–3"", ""chance"": 0.23238142813184637, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Buried treasure,Chest,1,"11.8% { ""item"": ""Bottle o' Enchanting"", ""stacksize"": 1, ""chance"": 0.11781380948217901, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Pillager Outpost,Chest,1,"60.9% { ""item"": ""Bottle o' Enchanting"", ""stacksize"": 1, ""chance"": 0.6090815176558978, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1,"14.1% { ""item"": ""Bottle o' Enchanting"", ""stacksize"": 1, ""chance"": 0.14087321982167356, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+
+  Trading
+    Master-level cleric villagers sell bottles o' enchanting for 3 emeralds as part of their trade.
+
+Usage
+    A bottle o' enchanting can be thrown by pressing use. On impact, it drops experience orbs worth 3–11 (average 7.0) and sends out blue particles.
+

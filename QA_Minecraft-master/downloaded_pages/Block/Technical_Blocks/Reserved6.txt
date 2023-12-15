@@ -1,0 +1,9 @@
+Overview
+     reserved6 is an unused former placeholder block.
+
+Obtaining
+    reserved6 cannot be obtained via /give or /setblock, and as such can only be obtained through inventory editors or other methods such as using behavior packs to change loot tables.
+
+Usage
+    From v0.3.3 to v0.6.1, reserved6 replaced any fire blocks created due to an issue where fire would spread throughout an entire world after a single flammable block had been set aflame by lava.
+

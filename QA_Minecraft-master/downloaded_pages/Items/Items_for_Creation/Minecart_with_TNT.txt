@@ -1,0 +1,13 @@
+Overview
+    A minecart with TNT is a block of TNT inside a minecart. Unlike normal TNT it can detonate instantly under certain conditions and its damage and blast radius is increased by its speed when it detonates.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    TNT + Minecart,"[[None, None, None], ['TNT', 'Minecart', None], [None, None, None]]"
+
+    Minecarts with TNT can be retrieved by attacking them, and by doing so it drops as an item.
+
+Usage
+    A minecart with TNT detonates after a delay on these conditions: The delay is 4 seconds (80 game ticks) for an activator rail, like the TNT block. For other causes there is a random delay between 0 and 1.9 seconds, but more likely to be close to 1. It detonates instantly on these conditions: Upon detonation it acts as normal TNT, exploding and damaging nearby blocks, players, and entities. Upon detonation after activating on activator rail, it does not destroy its rails and the blocks the rail is on, however other nearby carts can.‌[Java Edition  only] More than one minecart can be placed on the same rail block, allowing many of them to fit into a single block. They explode when touched, dealing large amounts of damage. The explosion has a base power of 4, the same as regular TNT, but the game also adds a random bonus value up to 1.5 times velocity, but no higher than 7.5. This means that with a speed of 5 or higher the power is a random value between 4 and 11.5. When triggered by an activator rail or by damage, the bonus value is calculated using the horizontal velocity of the minecart. When hit by a flaming arrow the velocity of the arrow is used instead. When triggered by fall damage, the fall distance divided by 10 is used. Minecarts with TNT bounce off of other minecarts and cannot be linked to minecarts with furnaces.
+

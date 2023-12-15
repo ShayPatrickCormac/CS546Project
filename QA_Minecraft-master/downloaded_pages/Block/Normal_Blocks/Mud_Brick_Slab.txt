@@ -1,0 +1,34 @@
+Overview
+    A mud brick slab is the mud bricks variant of slabs, crafted from mud bricks.
+
+Obtaining
+  Breaking
+    Mud brick slabs can be broken with wooden pickaxes or higher.
+
+    Block,Mud Brick Slab
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Mud brick slabs generate as part of trail ruins.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Mud Bricks,"[[None, None, None], [None, None, None], ['Mud Bricks', 'Mud Bricks', 'Mud Bricks']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Mud Bricks,2
+
+Usage
+  Note blocks
+    Mud brick slabs can be placed under note blocks to produce "bass drum" sounds.
+

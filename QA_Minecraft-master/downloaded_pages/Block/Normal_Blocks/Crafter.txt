@@ -1,0 +1,28 @@
+Overview
+    A crafter is a low-capacity storage block used for automatic crafting. The inventory acts as a crafting table but only crafts when powered and ejects the crafted item (or items) from its "face" into the world or into a container it is facing. Its inventory slots can be individually locked to prevent hoppers, droppers, etc. from filling them; crafting recipes treat locked slots as empty of items.
+
+Obtaining
+  Breaking
+    Block,Crafter
+    Hardness,1.5
+    Tool,Pickaxe
+    Breaking time (sec) [A]
+    Default,2.25
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot + Crafting Table + Redstone Dust + Dropper,"[['Iron Ingot', 'Iron Ingot', 'Iron Ingot'], ['Iron Ingot', 'Crafting Table', 'Iron Ingot'], ['Redstone Dust', 'Dropper', 'Redstone Dust']]"
+
+Usage
+  Container
+    A crafter has nine slots of inventory space, arranged in a 3-by-3 grid like a crafting table. Its GUI can be accessed by using it. A slot can be enabled or disabled, which can be toggled by clicking on it when empty. Disabled slots cannot have items put in them. Hoppers, droppers and other crafters interact with crafters by inserting items into its inventory; hoppers can remove ingredients as well. The added items are distributed from the top left to the bottom right of the enabled slots if there is an empty slot, if the crafter has all item slots filled then items are added to the lowest count item stack of the same type.[1] Hoppers and droppers can interact with all sides of the crafter, and prioritize filling empty spaces, followed by the smallest stack of the item.
+
+  Redstone component
+    When a crafter receives a redstone signal, one item is crafted using the ingredients from the nine inventory slots. The crafted items are subsequently spit out from the front of the crafter. If the front of a crafter is facing a container (including another crafter), the crafted items are transferred into the container. If the container it is facing is full, or the item cannot be inserted into the container, the crafter spits out the item instead. Crafters interact with containers similar to droppers. If a recipe has byproducts (e.g. empty bottles for honey blocks or empty buckets for cake) those will be spit out after the crafted item. For shaped recipes, the position of the items in the inventory matters. Because disabled slots prevent items from entering the slot, crafters can be used to craft any item in the game automatically without any input from the player, using a series of hoppers and/or droppers and the correct configuration of disabled slots for the recipe. A hopper placed below a crafter collects the ingredients from the crafting grid, not the resulting item. In Java Edition, unlike dispensers and droppers, crafters aren't affected by quasi-connectivity. Comparators can emit a redstone signal when reading from a crafter. The signal strength is equal to the number of crafting slots that are either disabled or occupied by an item. [2] An empty crafter with no disabled slots does not output any signal through a comparator. A crafter with every slot either disabled or containing at least one item outputs a signal strength of nine through a comparator.
+

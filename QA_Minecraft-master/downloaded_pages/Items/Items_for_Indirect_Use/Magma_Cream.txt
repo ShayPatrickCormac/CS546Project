@@ -1,0 +1,42 @@
+Overview
+    Magma cream is an item used in brewing to create potions of Fire Resistance, and to manually craft magma blocks.
+
+Obtaining
+  Mob loot
+    All but tiny-sized magma cubes drop 0–1 magma cream. The maximum amount of magma cream is increased by 1 per level of Looting, for a maximum of 4 with Looting III.
+
+  Chest Loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Magma Cream,Bastion remnant,Generic chest,2–6,"44.1% { ""item"": ""Magma Cream"", ""stacksize"": ""2–6"", ""chance"": 0.44077588319736705, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Treasure chest,3–8,"33.7% { ""item"": ""Magma Cream"", ""stacksize"": ""3–8"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Bedrock Edition
+    Magma Cream,Bastion remnant,Generic chest,2–6,"44.1% { ""item"": ""Magma Cream"", ""stacksize"": ""2–6"", ""chance"": 0.44077588319736705, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Treasure chest,3–8,"33.7% { ""item"": ""Magma Cream"", ""stacksize"": ""3–8"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Blaze Powder + Slimeball,"[[None, None, None], ['Blaze Powder', 'Slimeball', None], [None, None, None]]"
+
+Usage
+  Brewing ingredient
+    Name,Ingredients,Brewing recipe
+    Mundane Potion,Magma Cream + Water Bottle,output:Mundane Potion
+    Potion of Fire Resistance,Magma Cream + Awkward Potion,output:Potion of Fire Resistance
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Magma Block,Magma Cream,"[[None, None, None], ['', '', None], ['', '', None]]"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Magma Cream,magma_cream,Item,item.minecraft.magma_cream
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Magma Cream,magma_cream,430,Item,item.magma_cream.name
+

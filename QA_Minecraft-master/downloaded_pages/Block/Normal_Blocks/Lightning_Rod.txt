@@ -1,0 +1,26 @@
+Overview
+    A lightning rod is a block used to divert lightning strikes.
+
+Obtaining
+  Breaking
+    A lightning rod must be mined with a stone pickaxe or better, or else it drops nothing.
+
+    Block,Lightning Rod
+    Hardness,3
+    Tool,stone pickaxe
+    Breaking time (sec) [A]
+    Default,15
+    Wooden,7.5
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,1.25
+
+  Crafting
+    Ingredients,Crafting recipe
+    Copper Ingot,"[[None, 'Copper Ingot', None], [None, 'Copper Ingot', None], [None, 'Copper Ingot', None]]"
+
+Usage
+    Lightning rods can be oriented in different directions. Lightning rods that are the highest block in the column redirect lightning strikes within a spherical volume having a radius of 128 blocks in Java Edition and 64 blocks in Bedrock Edition. The block emits particles during thunderstorms as an indicator. If multiple lightning rods are in range, the closest to the original location of the strike is chosen. Lightning can also strike a lightning rod hit by a trident enchanted with Channeling during a thunderstorm, even if there are solid blocks above it blocking rainfall, as long as all the blocks are fully transparent (sky light level 15 at rod position). Lightning rods do not divert the lightning created by a Channeling trident thrown at an entity, or the lightning summoned by commands. Unlike in real life, a lightning rod doesn't require a direct connection to ground in order to work. Lightning strikes on lightning rods cannot summon skeleton trap horses. A lightning rod and the block it's attached to emit a redstone signal for 8 game ticks when struck by lightning. Lightning diverted by a lightning rod can still start fires nearby (quickly extinguished on non-flammable blocks or by rain) and inflicts lightning damage on mobs within a 6×12×6 box centered 4 blocks above the bottom center of the lightning rod block (that is extending 2 below and 9 above). Adjacent blocks can ignite even if the lightning rod is mounted on a non-flammable block.
+

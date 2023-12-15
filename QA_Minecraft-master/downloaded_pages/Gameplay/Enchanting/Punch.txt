@@ -1,0 +1,28 @@
+Overview
+    Punch is an enchantment for a bow that increases an arrow's knockback, much like the Knockback enchantment for melee weapons. This does not increase the damage of the bow.
+
+Usage
+    For each level, Punch adds approximately 3 blocks of distance to the base knockback. If commands are used to increase the level of Punch beyond 2, the additional knockback effect will cap at 255.
+
+    Enchantment Level,Block without any special properties,Soul Sand,Ice,Packed Ice,Blue Ice
+    No enchantment,1.985,0.894,4.053,4.053,4.2
+    Punch l,5.492,2.532,10.342,11.344,10.647
+    Punch ll,8.792,4.051,16.558,16.563,17.038
+
+    Punch doesn't affect arrows shot from crossbows if applied using commands or an anvil in Creative mode.[1] Any level of Punch changes the vertical knockback of arrows from 0.8125 blocks to 1.25 blocks.
+
+Obtaining
+    Both Punch I and Punch II books can be obtained by fishing or by using an enchanting table. Punch I bows can be obtained by trading with an expert Fletcher. Skeletons may spawn with a Punch I bow on Normal or Hard difficulty.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Punch,punch,enchantment.minecraft.punch
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Punch,punch,20,enchantment.arrowKnockback
+

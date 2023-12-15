@@ -1,0 +1,30 @@
+Overview
+    Flint and steel is a tool used to create fire or to ignite certain blocks, structures and mobs.
+
+Obtaining
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Flint and Steel,Nether fortress,Chest,1,"19% { ""item"": ""Flint and Steel"", ""stacksize"": 1, ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Ruined portal,Chest,1,"46.4% { ""item"": ""Flint and Steel"", ""stacksize"": 1, ""chance"": 0.46437576826185156, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Flint and Steel,Nether fortress,Chest,1,"19% { ""item"": ""Flint and Steel"", ""stacksize"": 1, ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Ruined portal,Chest,1,"46.4% { ""item"": ""Flint and Steel"", ""stacksize"": 1, ""chance"": 0.46437576826185156, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Iron Ingot + Flint,"[[None, None, None], ['Iron Ingot', 'Flint', None], [None, None, None]]",
+    Damaged Flint and Steel,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two tools is added together, plus an extra 5% durability."
+
+Usage
+  Igniting
+    When used on the space above any solid top surface, on any side of any flammable block or any side of any obsidian block within a valid unlit nether portal frame regardless of if there is a solid top surface available, the flint and steel places a fire there. Flint and steel can be used to light unlit campfires, candles and cakes with candles. Flint and steel can be used to light nether portals, as any fire existing within an appropriate obsidian frame is instantly replaced with nether portal blocks that occupy the entirety of the frame. Using flint and steel on TNT ignites it. The explosion damage dealt by TNT ignited with flint and steel in this specific way counts as the player's attack. If the player is sneaking a fire is instead placed on the side of the TNT the flint and steel was used on. A flint and steel can be used on a creeper to force it to explode. Explosions initiated in this way cannot be cancelled. When powered, a dispenser containing flint and steel can place fires or ignite relevant blocks such as TNT or campfires in the space directly in front of it. This reduces the flint and steel's durability. A dispenser containing a flint and steel cannot detonate creepers.
+
+  Enchantments
+    Flint and steel can receive the following enchantments:
+
+    Name,Max Level,Method
+    Unbreaking,III,
+    Mending,I,
+    Curse of Vanishing,I,
+

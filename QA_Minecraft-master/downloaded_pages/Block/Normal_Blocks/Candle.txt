@@ -1,0 +1,42 @@
+Overview
+    A candle is a dyeable block that emits light when lit with a flint and steel. Up to four of the same color of candle can be placed in one block space, which affects the amount of light produced.
+
+Obtaining
+  Breaking
+    Candles can be mined using any tool, or without a tool.
+
+    Block,Candle
+    Hardness,0.1
+    Breaking time (secs)
+    Default,0.15
+
+  Natural generation
+    Non-dyed candles and white candles can be found in ancient cities, and brown, green, purple, and red candles can be found in trail ruins.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Brown Candle,Trail ruins,Suspicious gravel,1,"4.4% { ""item"": ""Brown Candle"", ""stacksize"": 1, ""chance"": 0.0444444444444444, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Candle,Ancient City,Chest,1–4,"23.2% { ""item"": ""Candle"", ""stacksize"": ""1–4"", ""chance"": 0.23238142813184637, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Green Candle,Trail ruins,Suspicious gravel,1,"4.4% { ""item"": ""Green Candle"", ""stacksize"": 1, ""chance"": 0.0444444444444444, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Purple Candle,Trail ruins,Suspicious gravel,1,"4.4% { ""item"": ""Purple Candle"", ""stacksize"": 1, ""chance"": 0.0444444444444444, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Red Candle,Trail ruins,Suspicious gravel,1,"4.4% { ""item"": ""Red Candle"", ""stacksize"": 1, ""chance"": 0.0444444444444444, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Bedrock Edition
+    Brown Candle,Trail ruins,Suspicious gravel,1,"4.3% { ""item"": ""Brown Candle"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Candle,Ancient City,Chest,1–4,"23.2% { ""item"": ""Candle"", ""stacksize"": ""1–4"", ""chance"": 0.23238142813184637, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Green Candle,Trail ruins,Suspicious gravel,1,"4.3% { ""item"": ""Green Candle"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Purple Candle,Trail ruins,Suspicious gravel,1,"4.3% { ""item"": ""Purple Candle"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Red Candle,Trail ruins,Suspicious gravel,1,"4.3% { ""item"": ""Red Candle"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Candle,String + Honeycomb,"[[None, 'String', None], [None, 'Honeycomb', None], [None, None, None]]"
+    Dyed Candle,Candle + Matching Dye,"[[None, None, None], ['', 'White Dye', None], [None, None, None]]"
+
+Usage
+  Light
+    Candles can be used as a light source, emitting light like a sea pickle. A single candle emits a light level of 3. Up to four identically colored candles may be placed in one block, with each candle increasing the emitted light level by 3, for a maximum light level of 12. They also emit fire particles. Candles are not lit when they are placed, and must be lit using flint and steel, fire charge, or any flaming projectile. If a candle is already lit, more candle(s) that may be added (if possible) are also lit. In Bedrock Edition, a mob/player that is burning, a Fire Aspect book or any sword enchanted with Fire Aspect can also be used to light candles. Candles may be waterlogged, but waterlogged candles cannot be lit. Lit candles can be extinguished using water (even a water bottle‌[Java Edition  only]) or by the player interacting with the candle.
+
+  Cakes
+    A single candle of any color may be used on an uneaten cake, turning it into a candle cake, which acts as a normal, singular candle on top of a cake. If the candle cake is eaten at all or destroyed, the candle is dropped. Interacting with the lit candle (but not the cake) extinguishes it. Interacting with a lit candle cake causes the player to eat it if possible, but if the held item is a flint and steel or fire charge, the appropriate block becomes lit, if possible (otherwise nothing happens).
+

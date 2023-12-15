@@ -1,0 +1,62 @@
+Overview
+    A snow golem is a buildable passive mob that throws snowballs at monsters, which provokes them into attacking it. Depending on the biome temperature it also either produces a trail of snow, or takes heat damage and dies.
+
+Creation
+    Snow golems are created by placing 2 snow blocks in an I shape (as shown in the image), and then placing a pumpkin‌[Bedrock Edition  only], a carved pumpkin, or a jack o'lantern on top. The pumpkin may be placed by the player, a dispenser, or an enderman.[1] The building pattern also works when arranged sideways or upside-down, as long as the pumpkin is the last block placed. The player can place the snow blocks in any pattern and then place an uncarved pumpkin.‌[Java Edition  only] The snow golem spawns at the location of the snow block as its feet when created horizontally.
+
+Drops
+  On death
+    Item,Roll Chance,Quantity (Roll Chance)
+    Default,Looting I,Looting II,Looting III
+    ,Snowball,100%,0–15,0-15,0-15,0-15
+
+  Sheared
+    A snow golem drops 1 carved pumpkin when sheared.
+
+Behavior
+    A snow golem wanders aimlessly and tries to avoid water, obstacles and environmental hazards, but is immune to damage from powder snow. A snow golem wears its carved pumpkin like a helmet. Its actual head is hidden beneath the pumpkin. Shearing a snow golem removes the pumpkin, revealing its face and making it drop the pumpkin. The pumpkin is stored using the Pumpkin tag instead of ArmorItems; a snow golem does not display its HandItems or its ArmorItems. After shearing the pumpkin, the player can give a snow golem a new pumpkin only by using a command, such as /data‌[Java Edition  only]. As a snow golem moves, it leaves a trail of snow on the ground if the blocks can support it[2] in any biome regardless of the temperature, unless it is in a mushroom field biome, in which it does not spread snow.‌[Bedrock Edition  only] If the mobGriefing game rule is false, a snow trail does not appear. Snow golems are damaged in contact with rain or water and in biomes with a temperature greater than 1.0. Examples include savannas, badlands, deserts or biomes in the Nether. The Fire Resistance effect allows them to survive in these biomes.‌[Java Edition  only][3] Snow golems move toward all monsters (except ghasts) and throw snowballs at them up to 10 blocks away, provoking them, regardless of whether they attack the player.[4] When captured, they throw snowballs up to 16 blocks away. They throw one snowball per second. Thrown snowballs do not deal damage except to blazes and wolves,[5] but the snowballs knock back any mobs that they hit. Additionally, snow golems also attack creepers and never intentionally attack the player. The snow golem's snowballs can set other mobs on fire in addition to knockback, if the shot flies through a lava block or a block that is on fire.‌[Bedrock Edition  only] A snow golem is not provoked by another golem (snow or iron) attacking it, although an iron golem that is hit accidentally by a snow golem's snowball attacks the snow golem.
+
+  Provocation by other mobs
+    
+
+    Entity,Snow golem attacks the mob?,Attacks the snow golem?,Notes
+    Bee,Accidentally,"When attacked, group retaliates",
+    Blaze,Yes,"When attacked, group retaliates",
+    Breeze ‌ [ upcoming: JE Edition 1.21 & BE Edition 1.21 ],Yes,No,Currently does not retaliate.
+    Chicken Jockey,Yes,When attacked,"Snow golems attack the rider, but the golem can accidentally hit the chicken. The rider attacks the golem. When a zombified piglin rider is attacked, the group of zombified piglins retaliate."
+    Creeper,Yes,When attacked,
+    Dolphin,Accidentally,"When attacked, group retaliates",
+    Ender Dragon,Yes,Accidentally [ verify ],"When in near vicinity, snow golems try to attack the ender dragon, although they are rarely able to."
+    Enderman,Yes,No,The enderman teleports away when hit by a snowball.
+    Endermite,Yes,"When attacked, group retaliates",
+    Ghast,Accidentally,Accidentally,"Fireballs can hit snow golems, dealing damage and setting them on fire."
+    Giant [ unused mob ],Yes,No,Giants cannot move or attack due to lacking AI.
+    Goat,Accidentally,Randomly,"Snow golems do not retaliate to being rammed, although it may attack a goat by accident."
+    Guardian Elder Guardian,Yes,No,
+    Hoglin,Yes,"When attacked, group retaliates",A group of hoglins does not retaliate if babies are attacked.
+    Illagers: Evoker Illusioner [ unused mob ] ‌ [ Java Edition only ] Pillager Ravager Vex Vindicator,Yes,When attacked,"Snow golems also attack unarmed pillagers , despite them being passive in Java Edition ."
+    Iron Golem,Accidentally,When attacked,
+    Killer Bunny,Accidentally,When attacked,
+    Llama Trader Llama,Accidentally,When attacked,"A snow golem attacks a llama that accidentally hits the golem with its spit. After being hit by the golem, the llama deliberately attacks the golem."
+    Magma Cube,Yes,No,
+    Phantom,Yes,No,
+    Piglin,Yes,"When attacked, group retaliates","Snow golems also attack baby piglins, despite them being passive."
+    Piglin Brute,Yes,"When attacked, group retaliates",
+    Player,No,At player's discretion,"Unlike iron golems , snow golems are passive to the player ."
+    Polar Bear,Accidentally,When attacked,
+    Pufferfish,No,Defensive,
+    Shulker,Yes,"When attacked, group retaliates",
+    Silverfish,Yes,"When attacked, group retaliates",
+    Skeleton Skeleton Horseman Stray Wither Skeleton,Yes,When attacked,"Snow golems attack Skeleton s riding skeleton horses, but the golem can accidentally hit the skeleton horse."
+    Slime,Yes,When attacked,
+    Spider Cave Spider Spider Jockey,Yes,When attacked,
+    Warden,Yes,When attacked or noticed,Snow golems always attack wardens that are in range.
+    Witch,Yes,When attacked,
+    Wither,Yes,Yes,"Snow golems always attack withers, even when the attacks do no damage while the wither is generating health after being summoned."
+    Wolf (wild),Accidentally,"When attacked, group retaliates",
+    Wolf (tamed),When attacked,In defense of owner,"Tamed wolves attack the snow golem if the owner attacks the golem. When attacked by the wolf, the golem retaliates."
+    Zoglin,Yes,Yes,"Unlike hoglins, a group does not attack the golem if the golem attacks one zoglin."
+    Zombie variants: Drowned Husk Zombie Zombie Villager,Yes,When attacked,Swimming drowned do not attack any mob that is not touching water during daytime.
+    Zombified Piglin,Yes,"When attacked, group retaliates",
+    All other mobs,Accidentally,No,
+

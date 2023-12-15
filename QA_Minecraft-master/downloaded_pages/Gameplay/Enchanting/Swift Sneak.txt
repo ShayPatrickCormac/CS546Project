@@ -1,0 +1,31 @@
+Overview
+    Swift Sneak is a non-renewable enchantment that can be applied to leggings and allows the player to walk more quickly while sneaking.
+
+Obtaining
+  Loot chest
+    Swift Sneak can be obtained only from loot chests in ancient cities. The chests can contain enchanted books with any level of Swift Sneak.
+
+Usage
+  Speed
+    Swift Sneak increases the player's speed while crouching by 15% per level. At Swift Sneak level 3, the player's crouch speed equals 75% of their normal walking speed. Swift Sneak 4 and 5 can further improve crouching speed, but the crouching speed can never be faster than the player's walking speed. This enchantment also increases the player's movement speed while they are crawling.
+
+    Enchantment Level,Percent of Walking Speed
+    No Swift Sneak,30%
+    Swift Sneak I,45%
+    Swift Sneak II,60%
+    Swift Sneak III,75%
+    Swift Sneak IV [note 1],90%
+    Swift Sneak V+ [note 1],100%
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Swift Sneak,swift_sneak,enchantment.minecraft.swift_sneak
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Swift Sneak,swift_sneak,37,enchantment.swift_sneak
+

@@ -1,0 +1,40 @@
+Overview
+    Dark prismarine is dark cyan, with a tight grid pattern; variant of prismarine.
+
+Obtaining
+  Breaking
+    Prismarine only drops itself when mined with a pickaxe. If mined by any other tool, it drops nothing.
+
+    Block,Dark Prismarine
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Dark prismarine naturally generate as the main blocks making up ocean monuments. Dark prismarine encases the 8 gold blocks of the dungeon, and appears in fewer decorative features, compared to the other variants of prismarine.
+
+  Crafting
+    Name,Ingredients,Crafting recipe,Description
+    Dark Prismarine,Prismarine Shard + Black Dye,"[['Prismarine Shard', 'Prismarine Shard', 'Prismarine Shard'], ['Prismarine Shard', 'Black Dye', 'Prismarine Shard'], ['Prismarine Shard', 'Prismarine Shard', 'Prismarine Shard']]",
+    Dark Prismarine,Prismarine Shard + Ink Sac,"[['Prismarine Shard', 'Prismarine Shard', 'Prismarine Shard'], ['Prismarine Shard', 'Ink Sac', 'Prismarine Shard'], ['Prismarine Shard', 'Prismarine Shard', 'Prismarine Shard']]",‌ [ Bedrock Edition and Minecraft Education only ]
+
+Usage
+  Conduit power
+    Dark prismarine can be used to activate a conduit by building a structure around it. By doing this, the conduit emits the "Conduit Power" effect in a certain radius, depending on how many blocks are used to power it. Sea lanterns can also be used for this purpose.
+
+  Crafting ingredient
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Dark Prismarine Slab,Dark Prismarine,2
+    Dark Prismarine Stairs,Dark Prismarine,
+
+  Note Blocks
+    Dark prismarine can be placed under note blocks to produce "bass drum" sound.
+

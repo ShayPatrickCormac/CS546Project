@@ -1,0 +1,33 @@
+Overview
+    Nether wart blocks are decorative blocks found in crimson forests and crafted using nether wart.
+
+Obtaining
+  Breaking
+    Nether wart blocks and warped wart blocks can be mined using any tool or by hand, but a hoe is the fastest way to break it.
+
+    Block,Nether Wart Block
+    Hardness,1
+    Tool,Hoe
+    Breaking time (sec) [A]
+    Default,1.5
+    Wooden,0.75
+    Stone,0.4
+    Iron,0.25
+    Diamond,0.2
+    Netherite,0.2
+    Golden,0.15
+
+  Natural generation
+    Nether wart blocks and generate as part of huge crimson fungi in crimson forests.
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Nether Wart,"[['Nether Wart', 'Nether Wart', 'Nether Wart'], ['Nether Wart', 'Nether Wart', 'Nether Wart'], ['Nether Wart', 'Nether Wart', 'Nether Wart']]",The nether wart block cannot be crafted back into nether wart. [1] [2] [3]
+
+Usage
+  Composting
+    Nether wart blocks blocks can be fed into a composter with an 85% chance of leveling up the pile.
+
+  Mob spawning
+    Piglins, zombified piglins and hoglins do not spawn on top of nether wart blocks. Other Nether mobs such as skeletons and endermen are not prevented from spawning.
+

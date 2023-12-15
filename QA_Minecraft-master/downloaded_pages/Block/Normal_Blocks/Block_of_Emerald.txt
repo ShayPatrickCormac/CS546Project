@@ -1,0 +1,42 @@
+Overview
+    A block of emerald is a precious mineral block equivalent to nine emeralds.
+
+Obtaining
+  Breaking
+    Mining blocks of emerald requires an iron pickaxe or better.
+
+    Block,Block of Emerald
+    Hardness,5
+    Tool,iron pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,12.5
+    Stone,6.25
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,2.1
+
+  Crafting
+    Ingredients,Crafting recipe
+    Emerald,"[['Emerald', 'Emerald', 'Emerald'], ['Emerald', 'Emerald', 'Emerald'], ['Emerald', 'Emerald', 'Emerald']]"
+
+  Container loot
+    Item,Structure,Container,Quantity,Chance
+    Upcoming Java Edition
+    Block of Emerald,Trial Chambers,Corridor pot,1–3,"0.9% { ""item"": ""Block of Emerald"", ""stacksize"": ""1–3"", ""chance"": 0.00907441016333943, ""structure"": ""Trial Chambers"", ""container"": ""Corridor pot"" }"
+    Intersection chest,1–3,"11.2% { ""item"": ""Block of Emerald"", ""stacksize"": ""1–3"", ""chance"": 0.11183763693762816, ""structure"": ""Trial Chambers"", ""container"": ""Intersection chest"" }"
+
+Usage
+    Blocks of emerald are often used to store emeralds in a compact fashion. They are also commonly used as decorative blocks.
+
+  Beacons
+    Blocks of emerald can be used to "power" a beacon. The beacon can be powered by a 3×3 square of emerald blocks underneath it, and can optionally also include a 5×5, 7×7, and 9×9 layer in the shape of a pyramid under the original layer to increase the effects from the beacon. The layers do not have to be entirely emerald blocks, as they may also contain blocks of iron, blocks of gold, blocks of netherite, and blocks of diamond.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Emerald,Block of Emerald,"[[None, None, None], [None, '', None], [None, None, None]]"
+
+  Note Blocks
+    A block of emerald can also be used underneath a note block to produce the "bit" sound.
+

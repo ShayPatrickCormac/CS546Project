@@ -1,0 +1,51 @@
+Overview
+    A sapling is a non-solid block that can be grown into a tree.
+
+Obtaining
+  Breaking
+    Saplings can be broken instantly using any tool, including the player's fist, and always drop themselves.
+
+  Natural generation
+    Spruce Potted spruce saplings generate in taiga and snowy taiga‌[BE  only] village mason houses. Birch Potted birch saplings generate in a room in woodland mansions. Dark oak 58 dark oak saplings generate naturally in a "sapling farm room" in woodland mansions. 28 dark oak saplings are also found inside a chest in that room. Acacia Two acacia saplings generate in front of each savanna village library.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Oak Sapling,Village,Plains house chest,1–2,"48.2% { ""item"": ""Oak Sapling"", ""stacksize"": ""1–2"", ""chance"": 0.4819569376305396, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Weaponsmith's chest,3–7,"25.6% { ""item"": ""Oak Sapling"", ""stacksize"": ""3–7"", ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Spruce Sapling,Village,Taiga house chest,1–5,"40.6% { ""item"": ""Spruce Sapling"", ""stacksize"": ""1–5"", ""chance"": 0.4058792240743314, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Acacia Sapling,Village,Savanna house chest,1–2,"71.7% { ""item"": ""Acacia Sapling"", ""stacksize"": ""1–2"", ""chance"": 0.7169464744127282, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Bedrock Edition
+    Oak Sapling,Bonus chest,Chest,4,"14.3% { ""item"": ""Oak Sapling"", ""stacksize"": 4, ""chance"": 0.1428571428571429, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Village,Cartographer's chest,1–2,"26.3% { ""item"": ""Oak Sapling"", ""stacksize"": ""1–2"", ""chance"": 0.26288199999999995, ""structure"": ""Village"", ""container"": ""Cartographer's chest"" }"
+    Plains house chest,1–2,"48.2% { ""item"": ""Oak Sapling"", ""stacksize"": ""1–2"", ""chance"": 0.4819569376305396, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Weaponsmith's chest,3–7,"25.6% { ""item"": ""Oak Sapling"", ""stacksize"": ""3–7"", ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Spruce Sapling,Bonus chest,Chest,4,"14.3% { ""item"": ""Spruce Sapling"", ""stacksize"": 4, ""chance"": 0.1428571428571429, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Village,Taiga house chest,1–5,"43.7% { ""item"": ""Spruce Sapling"", ""stacksize"": ""1–5"", ""chance"": 0.4373709452178328, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Acacia Sapling,Bonus chest,Chest,4,"14.3% { ""item"": ""Acacia Sapling"", ""stacksize"": 4, ""chance"": 0.1428571428571429, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Village,Savanna house chest,1–2,"71.7% { ""item"": ""Acacia Sapling"", ""stacksize"": ""1–2"", ""chance"": 0.7169464744127282, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Dark Oak Sapling,Bonus chest,Chest,4,"14.3% { ""item"": ""Dark Oak Sapling"", ""stacksize"": 4, ""chance"": 0.1428571428571429, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+  Trading
+    Each type of sapling is sold by the wandering trader for 5 emeralds.
+
+  Post-generation
+    When leaves decay, or are broken by any tool except shears, they have a 5.1% chance of dropping a sapling, except for jungle leaves, which have a 2.6% chance of dropping a sapling.
+The Fortune enchantment increases the rate to 6.26% (2.79% for jungle leaves) at level I, 8.34% (3.126% for jungle leaves) at level II, and 10.1% (4.18% for jungle leaves) at level III.
+
+Usage
+  Growing trees
+    Saplings come in seven varieties, each of which can grow into a corresponding tree: oak, birch, spruce, jungle, acacia, dark oak, and cherry. In addition, azaleas and mangrove propagules can also grow trees. Saplings have two growth stages (with no visible difference between them) before growing into trees. When a tree is to be grown, a height is chosen and then the ground and space above are checked; if the ground is bad or there is not space for the chosen height, the tree does not grow. Bone meal can be used to speed up the growth of the sapling, even to grow the tree without sufficient light. Saplings can grow into trees when placed on all variants of dirt (except dirt paths) or moss blocks. The sapling requires a light level of at least 9, and require a certain volume of space above the sapling, based on its type: In addition: Dirt blocks in the space above the sapling are an exception. Dirt blocks do not stop the sapling from growing. For most tree types, including giant versions, the dirt remains in place and the rest of the tree generates normally around it (it is possible to grow a tree that contains only one log block at the original sapling location, with a column of dirt above where the rest of the trunk should be and leaves spreading out from it). For the large variant of oak trees, the dirt blocks are replaced with log blocks wherever they would normally occur. In Java Edition, all types of log block and wood block and their stripped versions are also treated like dirt blocks (they don't stop growth). In Bedrock Edition, log and wood blocks are treated like other block types and stop the sapling from growing if they are above it. When a sapling on a grass block grows into a tree, the grass block becomes a dirt block.
+
+  Bee nests
+    Oak and birch trees grown from saplings that are within 2 blocks of any flower, flowering azalea,‌[JE  only] or flowering azalea leaves‌[JE  only] have a 5% chance to grow with a bee nest and 1-3 bees in it.
+
+  Decoration
+    Any kind of sapling can be placed in a flower pot.
+
+  Fuel
+    Saplings can be used as a fuel in furnaces, smelting 0.5 items per sapling.
+
+  Composting
+    Placing a sapling into a composter has a 30% chance of raising the compost level by 1. A stack of saplings yields an average of 2.74 bonemeal.
+

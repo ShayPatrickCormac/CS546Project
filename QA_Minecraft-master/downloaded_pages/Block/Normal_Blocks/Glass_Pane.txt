@@ -1,0 +1,37 @@
+Overview
+    A glass pane is a transparent block that can be used as a more efficient alternative to glass blocks. It can be dyed into stained glass panes.
+
+Obtaining
+  Breaking
+    Glass panes can be obtained using a tool enchanted with Silk Touch. If one is broken without a Silk Touch enchantment, it drops nothing. Stained glass panes do not have an assigned tool; they are mined at the same speed regardless of what tool is used.[1]
+
+    Block,Glass Pane
+    Hardness,0.3
+    Breaking time (secs)
+    Default,0.45
+
+  Natural generation
+    Glass panes generate naturally as windows in villages, woodland mansions, and ancient cities.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Glass,"[[None, None, None], ['Glass', 'Glass', 'Glass'], ['Glass', 'Glass', 'Glass']]"
+
+Usage
+    Glass panes are more efficient to use than glass blocks, as six glass blocks can be crafted into sixteen glass panes, yielding 22⁄3 panes per block. Windows built using glass panes can be up to 267% (22⁄3 times) larger in area than windows built with regular glass blocks.
+
+  Placement
+    If placed without anything on the sides, they appear as a thin vertical • shape, 2×2 pixels in size; but when other blocks occupy adjacent spaces, it becomes flat or turns into a  or  or  shape depending on the items surrounding it. The collision box is identical to the shape of the pane. Therefore, two glass panes placed with one empty space in between forms a gap that is two blocks wide. Glass panes are never oriented horizontally. Horizontal glass surfaces must be made from glass blocks. Glass panes can be waterlogged, which means water can be in the same place as a glass pane, unlike regular glass.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Hardened Glass Pane,Aluminum Oxide + Glass Pane + Boron Trioxide,"[['Aluminum Oxide', 'Aluminum Oxide', 'Aluminum Oxide'], ['', '', ''], ['Boron Trioxide', 'Boron Trioxide', 'Boron Trioxide']]",A representation of alumino-borosilicate glass .‌ [ Bedrock Edition and Minecraft Education only ]
+    Stained Glass Pane,Glass Pane + Matching Dye,"[['', '', ''], ['', 'White Dye', ''], ['', '', '']]",
+    White Stained Glass Pane or Blue Stained Glass Pane or Brown Stained Glass Pane or Black Stained Glass Pane,Glass Pane + Bone Meal or Lapis Lazuli or Cocoa Beans or Ink Sac,"[['', '', ''], ['', 'Bone Meal', ''], ['', '', '']]",‌ [ Bedrock Edition and Minecraft Education only ]
+
+  Locking maps
+    Glass panes can be used in cartography tables to lock maps, which makes them unable to be filled again when exploring.
+
+  Trading
+    Apprentice-level cartographer villagers buy 11 glass panes for an emerald as part of their trades.
+

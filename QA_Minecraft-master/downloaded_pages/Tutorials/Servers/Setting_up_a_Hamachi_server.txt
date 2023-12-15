@@ -1,0 +1,19 @@
+Overview
+    
+
+Hamachi LAN
+    You can setup a Hamachi LAN which allows people in your Hamachi network to connect to your LAN server via Hamachi connection.
+
+  Setup
+  Host
+  Other Players
+  Limitations
+    Tip: Try disabling the firewall if you or your friend can't connect. Sometimes it works, sometimes it doesn't, so keep on trying.
+
+  Tutorial
+  Alternatives
+    Note: Never use these other than LAN connections, these might get you banned or kicked from servers.
+
+LAN bug (Fixed)
+    In version 1.13.2 there has been a bug which causes your LAN IP to be incorrectly displayed and would look something like this: The port number is technically correct, however the "0.0.0.0" part is incorrect. In Hamachi, right click the big number near the t Now, paste that in with the five-digit port number shown in Minecraft. You should now have your game's IP: ##.###.##.###:#####.
+

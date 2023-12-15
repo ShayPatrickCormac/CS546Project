@@ -1,0 +1,797 @@
+Overview
+    A mob (short for mobile object)[1] is an AI-driven game entity. All mobs can be attacked and hurt (from falling, attacked by a player or another mob, falling into the void, hit by an arrow, etc), and have some form of voluntary movement. Different types of mobs often have unique AI and loot.
+
+Spawning
+    Mobs spawn in various ways. Most mobs spawn naturally, depending on the light level, biome, and their surroundings. For example, most animals are found in bright areas on the surface, while hostile monsters are commonly found in the dark (whether it's a cave, dungeon, mansion, or at night). Animals usually spawn upon chunk generation, while hostile monsters spawn and despawn in certain radii around the player. Some mobs including passive and neutral animals, and even hoglins have the ability to be bred by the player, creating offspring. Villagers also breed randomly depending on the time of day and the number of beds (though they can’t be directly bred by the player). Most mobs never spawn on transparent blocks, in water (except fish, dolphins, turtles, and other aquatic creatures), in lava (except for striders), on bedrock, or on blocks less than a full block tall (such as slabs placed on the bottom half). The exception is monster spawners, from which monsters can spawn naturally on any block including air. Some mobs (like the snow golem and the wither) require that the player "construct" them before being able to spawn. The iron golem can spawn naturally and can also be constructed. The ender dragon can be respawned with four end crystals. Players can also spawn mobs easily by using a spawn eggs in Creative mode, or the /summon command.
+
+  Despawning
+    Many mobs despawn (cease to exist) after a certain amount of time if far enough from the player. In Java Edition, most passive mobs do not despawn, while most monsters do. In Bedrock Edition, almost all mobs despawn.
+
+Behavior
+    Mobs are affected by the environment in the same ways as the player; they are subject to physics, and they can be hurt by the same things that harm the player (catching on fire, falling, drowning, attacked by weapons, /kill command, etc.). Some mobs may be resistant or immune to certain hazards, such as some Nether mobs, which are immune to fire. All aquatic mobs except dolphins are immune to drowning. Mobs can ride minecarts and other mobs can climb up ladders. When mobs are killed, they turn to dust and drop items that may be useful resources. Each type of mob in Minecraft has a certain AI (artificial intelligence) system with different behaviors and mechanics. Mobs ordinarily wander around at random if there is a player within 32 blocks and usually avoid walking off blocks high enough to cause falling damage. Many mobs have an advanced path-finding system that allows them to navigate through obstacles to get to a desired object or destination. Passive mobs flee in random directions after being hurt, while hostile mobs face and chase/attack the player as soon as the player comes close. Neutral mobs remain neutral until a player or mob provokes it (usually by attacking), at which point the neutral mob becomes hostile toward and attacks the entity that hit it. Most mobs are aware of players within 16 blocks of them, but some can see farther. Conversely, most mobs can be heard by players up to 16 blocks (spherical) away. Mobs are harmless to players in Creative mode. Most mobs cannot see through most solid blocks, including semi-transparent blocks such as ice, glass, tall grass, or glass panes. In Java Edition, mobs (except wardens[2]) do not attempt to walk over rails tracks unless pushed onto the rails by other mobs.
+
+List of mobs
+    Mobs are listed and classified by their nature from the player's perspective. For more details on a particular mob, click on them to view their individual page.
+
+  Passive mobs
+    Passive mobs are harmless mobs that do not attempt to attack the player, even when provoked or attacked, though some of them may attack other mobs. Most of them can be bred or tamed.
+
+    ,,,,,,,,,
+    Allay,Axolotl,Bat,Camel,Cat,Chicken,Cod,Cow,Donkey,Fox
+
+    ,,,,,,,,,
+    Frog,Glow Squid,Horse,Mooshroom,Mule,Ocelot,Parrot,Pig,Rabbit,Salmon
+
+    ,,,,,,,,,
+    Sheep,Sniffer,Snow Golem,Squid,Strider,Tadpole,Tropical Fish,Turtle,Villager,Wandering Trader
+
+    
+
+  Defensive mobs
+    Defensive mobs are special passive mobs that are never hostile towards the player, but can still harm them when threatened.
+
+    ,
+    Pufferfish,Skeleton Horse (naturally spawned)
+
+  Neutral mobs
+    Neutral mobs are sometimes passive and sometimes hostile toward the player. All of these mobs (except goats) are provoked when the player attacks it first. Some mobs may also be naturally hostile with provocation, and some mobs also have some additional way to be provoked.
+
+    ,,,,,,
+    Bee,Cave Spider,Dolphin,Enderman,Goat,Iron Golem (naturally spawned),Llama
+
+    ,,,,,,
+    Panda,Piglin,Polar Bear,Spider,Trader Llama,Wolf,Zombified Piglin
+
+    
+
+  Hostile mobs
+    Hostile mobs are dangerous, aggressive mobs that always attack the player within their respective detection ranges. Non-hostile mobs such as chickens, skeleton horses and spiders can be mounted by hostile mobs on rare occasions.
+
+    ,,,,,,,,,,
+    Blaze,Chicken Jockey,Creeper,Drowned,Elder Guardian,Endermite,Evoker,Ghast,Guardian,Hoglin,Husk
+
+    ,,,,,,,,,
+    Magma Cube,Phantom,Piglin Brute,Pillager,Ravager,Shulker,Silverfish,Skeleton,Skeleton Horseman,Slime
+
+    ,,,,,,,,,
+    Spider Jockey,Stray,Vex,Vindicator,Warden,Witch,Wither Skeleton,Zoglin,Zombie,Zombie Villager
+
+    
+
+  Boss mobs
+    Boss mobs are special hostile mobs that are distinctly more dangerous and tougher than other mobs. They do not spawn randomly, and are confronted intentionally. All of them also have a boss bar featuring their name and health. Boss mobs provide unique challenges but also equivalent rewards.
+
+    ,
+    Ender Dragon,Wither
+
+  Upcoming mobs
+    Upcoming mobs are soon to be added to the game.
+
+    ,
+    Armadillo,Breeze
+
+  Unused mobs
+    Only contains a few mobs that never spawn naturally in-game as they can only be summoned with the /summon command though the zombie horse, Agent and NPC can be spawned in with a spawn egg.
+
+    ,,,,,,,,
+    Giant ‌ [ JE only ],Zombie Horse,The Killer Bunny (not independent) ‌ [ JE only ],Agent ‌ [ BE & edu only ],NPC ‌ [ BE & edu only ],Illusioner ‌ [ JE only ],Elder Guardian Ghost ‌ [ BE only ],Old Villager ‌ [ BE only ],Old Zombie Villager ‌ [ BE only ]
+
+  Removed mobs
+    Removed mobs no longer exist in current versions of the game.
+
+    ,,,,,
+    Mob,Beast Boy,Black Steve,Rana,Steve,Monster
+
+  Joke mobs
+    Mobs that were added as a joke for April Fools' Day in Java Edition.
+
+    ,,,,,,,,,,
+    Diamond Chicken,Horse,Love Golem,Mars,Moon Cow,Nerd Creeper,Pink Wither,Pony,Ray Tracing,Redstone Bug,Smiling Creeper
+
+  Unimplemented mobs
+    Mobs that were announced by Mojang as potential additions to the game, but either got scrapped or shelved indefinitely.
+
+    ,N/A,N/A,,,,,,,
+    Pigman [n 1],Red Dragon [n 1],Alpaca [n 1],Barnacle [n 2],The Great Hunger [n 2],Wildfire [n 2],Chinese Alligator [n 1],Golden Monkey [n 1],White-Lipped Deer [n 1],Baiji Dolphin [n 1]
+
+    ,,,,,,,,
+    Meerkat [n 3],Ostrich [n 3],Termite [n 3],Vulture [n 3],Moobloom [n 4],Iceologer [n 4],Glare [n 4],Copper Golem [n 4],Firefly [n 4]
+
+    ,,,
+    Rascal [n 4],Tuff Golem [n 4],Crab [n 4],Penguin [n 4]
+
+Mob vote
+    In 2016, Jeb held an informal poll on Twitter in which the public voted on adding the llama to Minecraft over the alpaca.[3][4] In the six annual Minecraft events MINECON Earth 2017, MINECON Earth 2018, MINECON Live 2019, Minecraft Live 2020, Minecraft Live 2021 and Minecraft Live 2022, the public also voted on a mob to be added to Minecraft. In the first vote, the winner was the phantom (then known as "Mob B" or "The Monster of the Night Skies"). In the second, the winner was the taiga biome and the fox. In the third, the winner was the mountain biome and the goat. In the fourth, the winner was the glow squid. In the fifth, the winner was the allay. In the sixth, the winner was the sniffer. In the seventh, the winner was the armadillo. Shortly before the second vote, the China Edition also had a mob vote, the winner of which was the panda. Shortly after the second vote, there was also a vote for which new cat skin would be added, the winner of which was Jellie.
+
+Classification
+    Most of the mobs are divided into different types, such as the animals or the monsters, but some creatures are assigned to a more detailed group. There are a total of four mob classifications that have different effects than other mobs.
+
+  Weaknesses and immunities
+    Some mobs are weak or immune to certain kinds of damage. Sea creatures, such as turtles, take more damage from tridents that are enchanted with Impaling.‌[Java Edition  only]‌[until JE Combat Tests] Skeletons and their variants are immune to drowning. All undead mobs are healed by potions of Harming, but take extra damage from weapons enchanted with Smite, along with taking damage from Potions of Healing. Many of these weaknesses and immunities are a result of what category (see below) of mobs that the mob falls into.
+
+  Undead mobs
+    This group of mobs includes drowned, husks, phantoms, skeletons, skeleton horses, strays, withers, wither skeletons, zoglins, zombies, zombie horses, zombie villagers, and zombified piglins. These mobs are damaged by potions of Healing, healed by potions of Harming, and are immune to drowning (except for husks and zombies, which turn into zombies and drowned if drowning, respectively) and poison damage. Zombies, zombie villagers, drowned, skeletons, strays, and phantoms burn when under direct sunlight, unless they are touching water or wearing a helmet. Under the fire resistance effect, undead mobs still catch fire in direct sunlight but do not get hurt by the fire. All undead mobs except for drowned, phantoms, and withers sink in water. All undead mobs take extra damage from weapons enchanted with Smite, and are ignored by withers. Most undead mobs have the ability to pick up items. Some can spawn wearing armor, or holding tools or weapons.
+
+  Aquatic mobs
+    This group of mobs includes axolotls, dolphins, squids, glow squids, guardians, elder guardians, turtles, cod, salmon, pufferfish, and tropical fish, but not drowned.[5] They take extra damage from tridents enchanted with Impaling,‌[Java Edition  only]‌[until JE Combat Tests] and, except axolotl, do not cause pufferfish to inflate nor take damage from them. All aquatic mobs except dolphins are immune to drowning, and all except guardians, elder guardians, and turtles take suffocation damage if out of water for too long. Aquatic mobs have the ability to swim, whereas other mobs simply float on water or sink.
+In Bedrock Edition there is no in-game classification for these mobs.
+
+  Arthropods
+    This group consists of mobs based on arthropods, namely bees, cave spiders, endermites, silverfish, and spiders. They take extra damage and receive the Slowness IV effect when attacked with weapons enchanted with Bane of Arthropods.
+
+  Illagers
+    This group includes pillagers, illusioners‌[JE  only][unused mob], ravagers‌[BE  only], evokers, and vindicators. They are immune to evoker fangs damage and ignored by vindicators named "Johnny" (except ravagers‌[Java Edition  only]). They are hostile toward villagers, wandering traders, iron golems and players in Survival or Adventure mode. Witches, and vexes may accompany them in raids. Illusioners (and witches‌[Bedrock Edition  only]) can see players or targets through blocks.
+
+  Knockback resistance
+    Some non-boss mobs resist a percentage of knockback from attacks.
+
+    Mob,Knockback resistance
+    Drowned,0% - 5% (determined upon spawning )
+    Hoglin,60%
+    Husk,0% - 5% (determined upon spawning)
+    Iron Golem,100%
+    Old Zombie Villager,0% - 5% (determined upon spawning) [ verify ]
+    Ravager,75%
+    Squid,85% (outside water ) [ verify ]
+    Shulker,100%
+    Warden,100%
+    Zoglin,60%
+    Zombie,0% - 5% (determined upon spawning)
+    Zombie Villager,0% - 5% (determined upon spawning)
+    Zombified Piglin,0% - 5% (determined upon spawning)
+
+Platform availability
+    Mob,Java Edition,Bedrock Edition,Minecraft Education
+    Agent,No,"Only if ""Education Edition"" features are turned on.",Yes
+    Allay,Yes,Yes,Yes
+    Axolotl,Yes,Yes,Yes
+    Bat,Yes,Yes,Yes
+    Bee,Yes,Yes,Yes
+    Blaze,Yes,Yes,Yes
+    Breeze,Upcoming,Upcoming,No
+    Camel,Yes,Yes,Yes
+    Cat,Yes,Yes,Yes
+    Cave Spider,Yes,Yes,Yes
+    Chicken,Yes,Yes,Yes
+    Chicken Jockey,Yes,Yes,Yes
+    Cod,Yes,Yes,Yes
+    Cow,Yes,Yes,Yes
+    Creeper,Yes,Yes,Yes
+    Dolphin,Yes,Yes,Yes
+    Donkey,Yes,Yes,Yes
+    Drowned,Yes,Yes,Yes
+    Elder Guardian,Yes,Yes,Yes
+    Elder Guardian Ghost,No,Yes,Yes
+    Ender Dragon,Yes,Yes,Yes
+    Enderman,Yes,Yes,Yes
+    Endermite,Yes,Yes,Yes
+    Evoker,Yes,Yes,Yes
+    Fox,Yes,Yes,Yes
+    Frog,Yes,Yes,Yes
+    Ghast,Yes,Yes,Yes
+    Giant,Yes,No,No
+    Glow Squid,Yes,Yes,Yes
+    Goat,Yes,Yes,Yes
+    Guardian,Yes,Yes,Yes
+    Horse,Yes,Yes,Yes
+    Hoglin,Yes,Yes,Yes
+    Husk,Yes,Yes,Yes
+    Illusioner,Yes,No,No
+    Iron Golem,Yes,Yes,Yes
+    Killer Bunny,Yes,No,No
+    Llama,Yes,Yes,Yes
+    Magma Cube,Yes,Yes,Yes
+    Mooshroom,Yes,Yes,Yes
+    Mule,Yes,Yes,Yes
+    NPC,No,"Only if ""Education Edition"" features are turned on.",Yes
+    Ocelot,Yes,Yes,Yes
+    Old Villager,No,Unobtainable,Yes
+    Old Zombie Villager,No,Unobtainable,Yes
+    Panda,Yes,Yes,Yes
+    Parrot,Yes,Yes,Yes
+    Phantom,Yes,Yes,Yes
+    Pig,Yes,Yes,Yes
+    Piglin,Yes,Yes,Yes
+    Piglin Brute,Yes,Yes,Yes
+    Pillager,Yes,Yes,Yes
+    Polar Bear,Yes,Yes,Yes
+    Pufferfish,Yes,Yes,Yes
+    Rabbit,Yes,Yes,Yes
+    Ravager,Yes,Yes,Yes
+    Salmon,Yes,Yes,Yes
+    Sheep,Yes,Yes,Yes
+    Shulker,Yes,Yes,Yes
+    Silverfish,Yes,Yes,Yes
+    Skeleton,Yes,Yes,Yes
+    Skeleton Horse,Yes,Yes,Yes
+    Skeleton Horseman,Yes,Yes,Yes
+    Slime,Yes,Yes,Yes
+    Snow Golem,Yes,Yes,Yes
+    Sniffer,Yes,Yes,Yes
+    Spider,Yes,Yes,Yes
+    Spider Jockey,Yes,Yes,Yes
+    Squid,Yes,Yes,Yes
+    Stray,Yes,Yes,Yes
+    Strider,Yes,Yes,Yes
+    Tadpole,Yes,Yes,Yes
+    Trader Llama,Yes,Yes,Yes
+    Tropical Fish,Yes,Yes,Yes
+    Turtle,Yes,Yes,Yes
+    Vex,Yes,Yes,Yes
+    Villager,Yes,Yes,Yes
+    Vindicator,Yes,Yes,Yes
+    Wandering Trader,Yes,Yes,Yes
+    Warden,Yes,Yes,Yes
+    Witch,Yes,Yes,Yes
+    Wither,Yes,Yes,Yes
+    Wither Skeleton,Yes,Yes,Yes
+    Wolf,Yes,Yes,Yes
+    Zoglin,Yes,Yes,Yes
+    Zombie,Yes,Yes,Yes
+    Zombie Horse,Yes,Yes,Yes
+    Zombie Villager,Yes,Yes,Yes
+    Zombified Piglin,Yes,Yes,Yes
+
+Damage dealt by hostile and neutral mobs
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    monster hunter,monster hunter,"Monster Hunter { ""anchor"": """", ""title"": ""Monster Hunter"", ""icon"": """", ""title"": ""Monster Hunter"", ""description"": ""Attack and destroy a monster.
+ "", ""requirements"": ""Kill a hostile [[mob]] or one of the following neutral mobs: an enderman, a piglin, a zombified piglin, a spider, or a cave spider.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Victor's Tunic"" top
+"" }",Attack and destroy a monster.,"Kill a hostile mob or one of the following neutral mobs: an enderman, a piglin, a zombified piglin, a spider, or a cave spider.",15G,Bronze
+    cow tipper,cow tipper,"Cow Tipper { ""anchor"": """", ""title"": ""Cow Tipper"", ""icon"": """", ""title"": ""Cow Tipper"", ""description"": ""Harvest some leather.
+ "", ""requirements"": ""Pick up [[leather]] from the ground.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Faceplant"" emote
+"" }",Harvest some leather.,Pick up leather from the ground.,15G,Bronze
+    when pigs fly,when pigs fly,"When Pigs Fly { ""anchor"": """", ""title"": ""When Pigs Fly"", ""icon"": """", ""title"": ""When Pigs Fly"", ""description"": ""Use a saddle to ride a pig, and then have the pig get hurt from fall damage while riding it.
+ "", ""requirements"": ""Be riding a pig (e.g. using a [[saddle]]) when it hits the ground with a fall distance greater than 5. 
+ "", ""gamerscore"": ""40G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Winged Pig Boots"" footwear
+"" }","Use a saddle to ride a pig, and then have the pig get hurt from fall damage while riding it.",Be riding a pig (e.g. using a saddle ) when it hits the ground with a fall distance greater than 5.,40G,Silver
+    sniper duel,sniper duel,"Sniper Duel { ""anchor"": """", ""title"": ""Sniper Duel"", ""icon"": """", ""title"": ""Sniper Duel"", ""description"": ""Kill a Skeleton with an arrow from more than 50 meters.
+ "", ""requirements"": ""Use a launched [[arrow]] to kill a [[skeleton]], [[spider jockey]], [[wither skeleton]], or [[stray]] from 50 or more blocks away, horizontally.
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Kill a Skeleton with an arrow from more than 50 meters.,"Use a launched arrow to kill a skeleton , spider jockey , wither skeleton , or stray from 50 or more blocks away, horizontally.",30G,Bronze
+    return to sender,return to sender,"Return to Sender { ""anchor"": """", ""title"": ""Return to Sender"", ""icon"": """", ""title"": ""Return to Sender"", ""description"": ""Destroy a [[Ghast]] with a fireball.
+ "", ""requirements"": ""Kill a ghast using a [[ghast fireball]].
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+"", ""rewards"": """" }",Destroy a Ghast with a fireball.,Kill a ghast using a ghast fireball .,30G,Silver
+    the beginning?,the beginning?,"The Beginning? { ""anchor"": """", ""title"": ""The Beginning?"", ""icon"": """", ""title"": ""The Beginning?"", ""description"": ""Spawn the [[Wither]]
+ "", ""requirements"": ""Be within a 100.9×100.9×103.5 cuboid centered on the Wither when it is spawned.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Spawn the Wither,Be within a 100.9×100.9×103.5 cuboid centered on the Wither when it is spawned.,20G,Bronze
+    the beginning,the beginning,"The Beginning. { ""anchor"": """", ""title"": ""The Beginning."", ""icon"": """", ""title"": ""The Beginning."", ""description"": ""Kill the Wither
+ "", ""requirements"": ""Be within a 100.9×100.9×203.5 cuboid centered on the Wither when it drops the nether star.
+ "", ""gamerscore"": ""40G
+ "", ""trophytype"": ""Silver
+"", ""rewards"": """" }",Kill the Wither,Be within a 100.9×100.9×203.5 cuboid centered on the Wither when it drops the nether star.,40G,Silver
+    repopulation,repopulation,"Repopulation { ""anchor"": """", ""title"": ""Repopulation"", ""icon"": """", ""title"": ""Repopulation"", ""description"": ""Breed two cows with wheat.
+ "", ""requirements"": ""Breed two [[cow]]s or two [[mooshroom]]s.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Cowbell Necklace"" outerwear
+"" }",Breed two cows with wheat.,Breed two cows or two mooshrooms .,15G,Bronze
+    leader of the pack,leader of the pack,"Leader of the Pack { ""anchor"": """", ""title"": ""Leader of the Pack"", ""icon"": """", ""title"": ""Leader of the Pack"", ""description"": ""Befriend five [[wolves]].
+ "", ""requirements"": ""This does not have to be in a single game, so multiple games or reloading old saves does count toward this achievement.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Wolf Mask"" headwear
+"" }",Befriend five wolves .,"This does not have to be in a single game, so multiple games or reloading old saves does count toward this achievement.",20G,Bronze
+    have a shearful day,have a shearful day,"Have a Shearful Day { ""anchor"": """", ""title"": ""Have a Shearful Day"", ""icon"": """", ""title"": ""Have a Shearful Day"", ""description"": ""Use [[Shears]] to obtain [[wool]] from a [[sheep]].
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": ""Wooled outerwear
+"" }",Use Shears to obtain wool from a sheep .,—,15G,Bronze
+    body guard,body guard,"Body Guard { ""anchor"": """", ""title"": ""Body Guard"", ""icon"": """", ""title"": ""Body Guard"", ""description"": ""Create an [[Iron Golem]]
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Create an Iron Golem,—,20G,Bronze
+    zombie doctor,zombie doctor,"Zombie Doctor { ""anchor"": """", ""title"": ""Zombie Doctor"", ""icon"": """", ""title"": ""Zombie Doctor"", ""description"": ""Cure a [[zombie villager]].
+ "", ""requirements"": ""Throw a [[splash potion]] of [[weakness]] at a zombie villager and give it a [[golden apple]] (by facing the zombie and pressing the <span  class=""explain "" title=""Defaults to right click on mouse or left trigger on gamepad."">use</span> key with a golden apple in your hand)
+ "", ""gamerscore"": ""40G
+ "", ""trophytype"": ""Gold
+ "", ""rewards"": """"Plague Doctor Mask"" headwear
+"" }",Cure a zombie villager .,Throw a splash potion of weakness at a zombie villager and give it a golden apple (by facing the zombie and pressing the use key with a golden apple in your hand),40G,Gold
+    archer,archer,"Archer { ""anchor"": """", ""title"": ""Archer"", ""icon"": """", ""title"": ""Archer"", ""description"": ""Kill a [[creeper]] with arrows.
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""10G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Archers Quiver"" back item
+"" }",Kill a creeper with arrows.,—,10G,Bronze
+    the deep end,the deep end,"The Deep End { ""anchor"": """", ""title"": ""The Deep End"", ""icon"": """", ""title"": ""The Deep End"", ""description"": ""Defeat an [[Elder Guardian]]
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+"", ""rewards"": """" }",Defeat an Elder Guardian,—,30G,Silver
+    the end again,the end again,"The End... Again... { ""anchor"": """", ""title"": ""The End... Again..."", ""icon"": """", ""title"": ""The End... Again..."", ""description"": ""Respawn the [[Ender Dragon|Enderdragon]] [''[[Wikipedia:Sic|sic]]'']
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+"", ""rewards"": """" }",Respawn the Enderdragon [ sic ],—,30G,Silver
+    great view from up here,great view from up here,"Great View From Up Here { ""anchor"": """", ""title"": ""Great View From Up Here"", ""icon"": """", ""title"": ""Great View From Up Here"", ""description"": ""Levitate up 50 blocks from the attacks of a [[Shulker]]
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Elder Dragon Wings"" back item
+"" }",Levitate up 50 blocks from the attacks of a Shulker,—,20G,Bronze
+    echolocation,echolocation,"Echolocation { ""anchor"": """", ""title"": ""Echolocation"", ""icon"": """", ""title"": ""Echolocation"", ""description"": ""Feed a [[dolphin]] [[fish]] to have it lead you to treasure
+ "", ""requirements"": ""Feed a dolphin cod or salmon and have it lure you to treasure.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Sine Wave Tee"" top 
+"" }",Feed a dolphin fish to have it lead you to treasure,Feed a dolphin cod or salmon and have it lure you to treasure.,20G,Silver
+    where have you been?,where have you been?,"Where have you been? { ""anchor"": """", ""title"": ""Where have you been?"", ""icon"": """", ""title"": ""Where have you been?"", ""description"": ""Receive a gift from a tamed cat in the morning.
+ "", ""requirements"": ""The gift must be picked up from the ground.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Kitty Face :3"" headwear
+"" }",Receive a gift from a tamed cat in the morning.,The gift must be picked up from the ground.,20G,Bronze
+    zoologist,zoologist,"Zoologist { ""anchor"": """", ""title"": ""Zoologist"", ""icon"": """", ""title"": ""Zoologist"", ""description"": ""Breed two pandas with bamboo.
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""40G
+ "", ""trophytype"": ""Gold
+"", ""rewards"": """" }",Breed two pandas with bamboo.,—,40G,Gold
+    plethora of cats,plethora of cats,"Plethora of Cats { ""anchor"": """", ""title"": ""Plethora of Cats"", ""icon"": """", ""title"": ""Plethora of Cats"", ""description"": ""Befriend twenty stray [[cat]]s.
+ "", ""requirements"": ""Befriend and tame twenty stray cats found in [[village]]s. They do not all need to be tamed in a single world. 
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Calico Headset"" headwear
+"" }",Befriend twenty stray cats .,Befriend and tame twenty stray cats found in villages . They do not all need to be tamed in a single world.,20G,Silver
+    kill the beast,kill the beast,"Kill the Beast! { ""anchor"": """", ""title"": ""Kill the Beast!"", ""icon"": """", ""title"": ""Kill the Beast!"", ""description"": ""Defeat a [[Ravager]].
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+"", ""rewards"": """" }",Defeat a Ravager .,—,30G,Silver
+    ive got a bad feeling about this,ive got a bad feeling about this,"I've got a bad feeling about this { ""anchor"": """", ""title"": ""I've got a bad feeling about this"", ""icon"": """", ""title"": ""I've got a bad feeling about this"", ""description"": ""Kill a [[Pillager Captain]].
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Victor's Trousers"" bottom
+"" }",Kill a Pillager Captain .,—,20G,Bronze
+    bee our guest,bee our guest,"Bee our guest { ""anchor"": """", ""title"": ""Bee our guest"", ""icon"": """", ""title"": ""Bee our guest"", ""description"": ""Use a [[Campfire]] to collect Honey from a [[Beehive]] using a Bottle without aggravating the [[bee]]s.
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Honey Pot"" headwear
+"" }",Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees .,—,15G,Bronze
+    total beelocation,total beelocation,"Total Beelocation { ""anchor"": """", ""title"": ""Total Beelocation"", ""icon"": """", ""title"": ""Total Beelocation"", ""description"": ""Move and place a [[Bee Nest]], with 3 bees inside, using [[Silk Touch]].
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Beekeeper Hat"" headwear
+"" }","Move and place a Bee Nest , with 3 bees inside, using Silk Touch .",—,30G,Silver
+    whatever floats your goat,whatever floats your goat,"Whatever Floats Your Goat { ""anchor"": """", ""title"": ""Whatever Floats Your Goat"", ""icon"": """", ""title"": ""Whatever Floats Your Goat"", ""description"": ""Get in a boat and float with a [[goat]]
+ "", ""requirements"": ""Use a boat and put a goat inside that boat, then ride it
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Goat Floaties"" outerwear
+"" }",Get in a boat and float with a goat,"Use a boat and put a goat inside that boat, then ride it",20G,Bronze
+    the healing power of friendship,the healing power of friendship,"The Healing Power of Friendship! { ""anchor"": """", ""title"": ""The Healing Power of Friendship!"", ""icon"": """", ""title"": ""The Healing Power of Friendship!"", ""description"": ""Team up with an [[axolotl]] and win a fight
+ "", ""requirements"": ""Team up with an axolotl by killing the hostile aquatic mob <sup class=""noprint nowrap Inline-Template "" title="""">[<i>[https://minecraft.wiki/w/Talk:Mob <span title=""Does the mob have to be hostile, or can it be passive/neutral?  "" style=""border-bottom: 1px dotted"">verify</span>]</i>]</sup>[[Category:Verify]] while the axolotl is fighting it (not playing dead).
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Friendship Bracelet"" glove
+"" }",Team up with an axolotl and win a fight,Team up with an axolotl by killing the hostile aquatic mob [ verify ] while the axolotl is fighting it (not playing dead).,30G,Silver
+    star trader,star trader,"Star trader { ""anchor"": """", ""title"": ""Star trader"", ""icon"": """", ""title"": ""Star trader"", ""description"": ""Trade with a [[villager]] at the build height limit.
+ "", ""requirements"": ""Trade with a villager at y320.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Silver
+"", ""rewards"": """" }",Trade with a villager at the build height limit.,Trade with a villager at y320.,20G,Silver
+    feels like home,feels like home,"Feels Like Home { ""anchor"": """", ""title"": ""Feels Like Home"", ""icon"": """", ""title"": ""Feels Like Home"", ""description"": ""Take a Strider for a loooong [''[[Wikipedia:Sic|sic]]''] ride on a lava lake in the [[Overworld]].
+ "", ""requirements"": ""In the Overworld, use a [[strider]] to ride on a lava lake for a distance of 50 meters from the point where the ride starts.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Silver
+"", ""rewards"": """" }",Take a Strider for a loooong [ sic ] ride on a lava lake in the Overworld .,"In the Overworld, use a strider to ride on a lava lake for a distance of 50 meters from the point where the ride starts.",20G,Silver
+    birthday song,birthday song,"Birthday Song { ""anchor"": """", ""title"": ""Birthday Song"", ""icon"": """", ""title"": ""Birthday Song"", ""description"": ""Have an Allay drop a cake at a noteblock
+ "", ""requirements"": ""Tame an [[allay]] by giving it a cake while having dropped cake items and play a [[note block]] nearby.
+ "", ""gamerscore"": ""10G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Have an Allay drop a cake at a noteblock,Tame an allay by giving it a cake while having dropped cake items and play a note block nearby.,10G,Bronze
+    with our powers combined,with our powers combined,"With Our Powers Combined! { ""anchor"": """", ""title"": ""With Our Powers Combined!"", ""icon"": """", ""title"": ""With Our Powers Combined!"", ""description"": ""Have all 3 froglights in your inventory
+ "", ""requirements"": ""Acquire at least one of each pearlescent, verdant, and ochre [[froglight]]s in your inventory at the same time.
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Gold
+"", ""rewards"": """" }",Have all 3 froglights in your inventory,"Acquire at least one of each pearlescent, verdant, and ochre froglights in your inventory at the same time.",30G,Gold
+
+Advancements
+    Advancements are made when a player accomplishes something that is either rare to accomplish or sometimes easy to do so (such as Adventure for killing or getting killed by an entity).
+
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Zombie Doctor,Weaken and then cure a Zombie Villager,We Need to Go Deeper,"Use a golden apple on a zombie villager under the Weakness effect; the advancement is granted when the zombie villager converts into a villager . In multiplayer , only the player that feeds the golden apple gets the advancement.","story/cure_zombie_villager {""anchor"": """", ""title"": ""Zombie Doctor"", ""icon"": ""Golden Apple
+"", ""icon-style"": ""oval"", ""title"": ""Zombie Doctor"", ""description"": ""Weaken and then cure a Zombie Villager
+"", ""parent"": ""We Need to Go Deeper
+"", ""requirements"": ""<span  class=""explain "" title=""Defaults to right click on mouse or left trigger on gamepad."">Use</span> a [[golden apple]] on a [[zombie villager]] under the [[Weakness]] effect; the advancement is granted when the zombie villager [[Zombie Villager#Curing|converts into a villager]].<br>''In [[multiplayer]], only the [[player]] that feeds the golden apple gets the advancement.''
+"", ""resourcelocation"": ""story/cure_zombie_villager
+"", ""rewards"": """" }"
+    ,Return to Sender,Destroy a Ghast with a fireball,Nether,Kill a ghast by deflecting a ghast fireball back into it via hitting or shooting a projectile at the fireball.,"nether/return_to_sender {""anchor"": """", ""title"": ""Return to Sender"", ""icon"": ""Fire Charge
+"", ""icon-style"": ""fancy"", ""title"": ""Return to Sender"", ""description"": ""Destroy a Ghast with a fireball
+"", ""parent"": ""Nether
+"", ""requirements"": ""Kill a [[ghast]] by deflecting a ghast fireball back into it via hitting or shooting a projectile at the fireball.
+"", ""resourcelocation"": ""nether/return_to_sender
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-72"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>50 [[experience]]
+"" }"
+    ,Oh Shiny,Distract Piglins with gold,Nether,"While aggravated, give a piglin one of these 25 gold-related items in the #piglin_loved item tag: Bell Block of Gold Block of Raw Gold Clock Enchanted Golden Apple Gilded Blackstone Glistering Melon Slice Gold Ingot Gold Ore Golden Apple Golden Axe Golden Boots Golden Carrot Golden Chestplate Golden Helmet Golden Hoe Golden Horse Armor Golden Leggings Golden Pickaxe Golden Shovel Golden Sword Light Weighted Pressure Plate Nether Gold Ore Deepslate Gold Ore Raw Gold Other gold-related items do not distract the piglin and do not trigger this advancement.","nether/distract_piglin {""anchor"": """", ""title"": ""Oh Shiny"", ""icon"": ""Gold Ingot
+"", ""icon-style"": ""plain"", ""title"": ""Oh Shiny"", ""description"": ""Distract Piglins with gold
+"", ""parent"": ""Nether
+"", ""requirements"": ""While aggravated, give a [[piglin]] ''one'' of these 25 gold-related items in the <code>[[Tag#items piglin_loved|#piglin_loved]]</code> item tag:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite bell.png|16x16px|link=Bell|alt=ItemSprite bell.png: Sprite image for bell in Minecraft linking to Bell|class=pixel-image|]]</span>[[Bell|<span class=""sprite-text"">Bell</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite block-of-gold.png|16x16px|link=Block of Gold|alt=BlockSprite block-of-gold.png: Sprite image for block-of-gold in Minecraft linking to Block of Gold|class=pixel-image|]]</span>[[Block of Gold|<span class=""sprite-text"">Block of Gold</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite block-of-raw-gold.png|16x16px|link=Block of Raw Gold|alt=BlockSprite block-of-raw-gold.png: Sprite image for block-of-raw-gold in Minecraft linking to Block of Raw Gold|class=pixel-image|]]</span>[[Block of Raw Gold|<span class=""sprite-text"">Block of Raw Gold</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite clock.png|16x16px|link=Clock|alt=ItemSprite clock.png: Sprite image for clock in Minecraft linking to Clock|class=pixel-image|]]</span>[[Clock|<span class=""sprite-text"">Clock</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite enchanted-golden-apple.png|16x16px|link=Enchanted Golden Apple|alt=ItemSprite enchanted-golden-apple.png: Sprite image for enchanted-golden-apple in Minecraft linking to Enchanted Golden Apple|class=pixel-image|]]</span>[[Enchanted Golden Apple|<span class=""sprite-text"">Enchanted Golden Apple</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite gilded-blackstone.png|16x16px|link=Gilded Blackstone|alt=BlockSprite gilded-blackstone.png: Sprite image for gilded-blackstone in Minecraft linking to Gilded Blackstone|class=pixel-image|]]</span>[[Gilded Blackstone|<span class=""sprite-text"">Gilded Blackstone</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite glistering-melon-slice.png|16x16px|link=Glistering Melon Slice|alt=ItemSprite glistering-melon-slice.png: Sprite image for glistering-melon-slice in Minecraft linking to Glistering Melon Slice|class=pixel-image|]]</span>[[Glistering Melon Slice|<span class=""sprite-text"">Glistering Melon Slice</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite gold-ingot.png|16x16px|link=Gold Ingot|alt=ItemSprite gold-ingot.png: Sprite image for gold-ingot in Minecraft linking to Gold Ingot|class=pixel-image|]]</span>[[Gold Ingot|<span class=""sprite-text"">Gold Ingot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite gold-ore.png|16x16px|link=Gold Ore|alt=BlockSprite gold-ore.png: Sprite image for gold-ore in Minecraft linking to Gold Ore|class=pixel-image|]]</span>[[Gold Ore|<span class=""sprite-text"">Gold Ore</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-apple.png|16x16px|link=Golden Apple|alt=ItemSprite golden-apple.png: Sprite image for golden-apple in Minecraft linking to Golden Apple|class=pixel-image|]]</span>[[Golden Apple|<span class=""sprite-text"">Golden Apple</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-axe.png|16x16px|link=Golden Axe|alt=ItemSprite golden-axe.png: Sprite image for golden-axe in Minecraft linking to Golden Axe|class=pixel-image|]]</span>[[Golden Axe|<span class=""sprite-text"">Golden Axe</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-boots.png|16x16px|link=Golden Boots|alt=ItemSprite golden-boots.png: Sprite image for golden-boots in Minecraft linking to Golden Boots|class=pixel-image|]]</span>[[Golden Boots|<span class=""sprite-text"">Golden Boots</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-carrot.png|16x16px|link=Golden Carrot|alt=ItemSprite golden-carrot.png: Sprite image for golden-carrot in Minecraft linking to Golden Carrot|class=pixel-image|]]</span>[[Golden Carrot|<span class=""sprite-text"">Golden Carrot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-chestplate.png|16x16px|link=Golden Chestplate|alt=ItemSprite golden-chestplate.png: Sprite image for golden-chestplate in Minecraft linking to Golden Chestplate|class=pixel-image|]]</span>[[Golden Chestplate|<span class=""sprite-text"">Golden Chestplate</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-helmet.png|16x16px|link=Golden Helmet|alt=ItemSprite golden-helmet.png: Sprite image for golden-helmet in Minecraft linking to Golden Helmet|class=pixel-image|]]</span>[[Golden Helmet|<span class=""sprite-text"">Golden Helmet</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-hoe.png|16x16px|link=Golden Hoe|alt=ItemSprite golden-hoe.png: Sprite image for golden-hoe in Minecraft linking to Golden Hoe|class=pixel-image|]]</span>[[Golden Hoe|<span class=""sprite-text"">Golden Hoe</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-horse-armor.png|16x16px|link=Golden Horse Armor|alt=ItemSprite golden-horse-armor.png: Sprite image for golden-horse-armor in Minecraft linking to Golden Horse Armor|class=pixel-image|]]</span>[[Golden Horse Armor|<span class=""sprite-text"">Golden Horse Armor</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-leggings.png|16x16px|link=Golden Leggings|alt=ItemSprite golden-leggings.png: Sprite image for golden-leggings in Minecraft linking to Golden Leggings|class=pixel-image|]]</span>[[Golden Leggings|<span class=""sprite-text"">Golden Leggings</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-pickaxe.png|16x16px|link=Golden Pickaxe|alt=ItemSprite golden-pickaxe.png: Sprite image for golden-pickaxe in Minecraft linking to Golden Pickaxe|class=pixel-image|]]</span>[[Golden Pickaxe|<span class=""sprite-text"">Golden Pickaxe</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-shovel.png|16x16px|link=Golden Shovel|alt=ItemSprite golden-shovel.png: Sprite image for golden-shovel in Minecraft linking to Golden Shovel|class=pixel-image|]]</span>[[Golden Shovel|<span class=""sprite-text"">Golden Shovel</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-sword.png|16x16px|link=Golden Sword|alt=ItemSprite golden-sword.png: Sprite image for golden-sword in Minecraft linking to Golden Sword|class=pixel-image|]]</span>[[Golden Sword|<span class=""sprite-text"">Golden Sword</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite light-weighted-pressure-plate.png|16x16px|link=Light Weighted Pressure Plate|alt=BlockSprite light-weighted-pressure-plate.png: Sprite image for light-weighted-pressure-plate in Minecraft linking to Light Weighted Pressure Plate|class=pixel-image|]]</span>[[Light Weighted Pressure Plate|<span class=""sprite-text"">Light Weighted Pressure Plate</span>]]</span> 
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite nether-gold-ore.png|16x16px|link=Nether Gold Ore|alt=BlockSprite nether-gold-ore.png: Sprite image for nether-gold-ore in Minecraft linking to Nether Gold Ore|class=pixel-image|]]</span>[[Nether Gold Ore|<span class=""sprite-text"">Nether Gold Ore</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite deepslate-gold-ore.png|16x16px|link=Deepslate Gold Ore|alt=BlockSprite deepslate-gold-ore.png: Sprite image for deepslate-gold-ore in Minecraft linking to Deepslate Gold Ore|class=pixel-image|]]</span>[[Deepslate Gold Ore|<span class=""sprite-text"">Deepslate Gold Ore</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite raw-gold.png|16x16px|link=Raw Gold|alt=ItemSprite raw-gold.png: Sprite image for raw-gold in Minecraft linking to Raw Gold|class=pixel-image|]]</span>[[Raw Gold|<span class=""sprite-text"">Raw Gold</span>]]</span>
+</div>
+Other gold-related items do not distract the piglin and do not trigger this advancement.
+"", ""resourcelocation"": ""nether/distract_piglin
+"", ""rewards"": ""—
+"" }"
+    ,This Boat Has Legs,Ride a Strider with a Warped Fungus on a Stick,Nether,Decrease the durability of a warped fungus on a stick while riding a strider . [6],"nether/ride_strider {""anchor"": """", ""title"": ""This Boat Has Legs"", ""icon"": ""Warped Fungus on a Stick
+"", ""icon-style"": ""plain"", ""title"": ""This Boat Has Legs"", ""description"": ""Ride a Strider with a Warped Fungus on a Stick
+"", ""parent"": ""Nether
+"", ""requirements"": ""Decrease the durability of a [[warped fungus on a stick]] while riding a [[strider]].<ref>{{bug|MC-183764}}</ref>
+"", ""resourcelocation"": ""nether/ride_strider
+"", ""rewards"": ""—
+"" }"
+    ,Uneasy Alliance,"Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it",Return to Sender,Kill a ghast while the player is in the Overworld .,"nether/uneasy_alliance {""anchor"": """", ""title"": ""Uneasy Alliance"", ""icon"": ""Ghast Tear
+"", ""icon-style"": ""fancy"", ""title"": ""Uneasy Alliance"", ""description"": ""Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it
+"", ""parent"": ""Return to Sender
+"", ""requirements"": ""Kill a [[ghast]] while the player is in the [[Overworld]].
+"", ""resourcelocation"": ""nether/uneasy_alliance
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>100 [[experience]]
+"" }"
+    ,Spooky Scary Skeleton,Obtain a Wither Skeleton's skull,A Terrible Fortress,Have a wither skeleton skull in your inventory.,"nether/get_wither_skull {""anchor"": """", ""title"": ""Spooky Scary Skeleton"", ""icon"": ""Wither Skeleton Skull
+"", ""icon-style"": ""plain"", ""title"": ""Spooky Scary Skeleton"", ""description"": ""Obtain a Wither Skeleton's skull
+"", ""parent"": ""A Terrible Fortress
+"", ""requirements"": ""Have a [[head|wither skeleton skull]] in your inventory.
+"", ""resourcelocation"": ""nether/get_wither_skull
+"", ""rewards"": ""—
+"" }"
+    ,Into Fire,Relieve a Blaze of its rod,A Terrible Fortress,Have a blaze rod in your inventory.,"nether/obtain_blaze_rod {""anchor"": """", ""title"": ""Into Fire"", ""icon"": ""Blaze Rod
+"", ""icon-style"": ""plain"", ""title"": ""Into Fire"", ""description"": ""Relieve a Blaze of its rod
+"", ""parent"": ""A Terrible Fortress
+"", ""requirements"": ""Have a [[blaze rod]] in your inventory.
+"", ""resourcelocation"": ""nether/obtain_blaze_rod
+"", ""rewards"": ""—
+"" }"
+    ,Withering Heights,Summon the Wither,Spooky Scary Skeleton,Be within a 100.9×100.9×103.5 cuboid centered on the wither when it is spawned.,"nether/summon_wither {""anchor"": """", ""title"": ""Withering Heights"", ""icon"": ""Nether Star.gif
+"", ""icon-style"": ""plain"", ""title"": ""Withering Heights"", ""description"": ""Summon the Wither
+"", ""parent"": ""Spooky Scary Skeleton
+"", ""requirements"": ""Be within a 100.9×100.9×103.5 cuboid centered on the [[wither]] when it is spawned.
+"", ""resourcelocation"": ""nether/summon_wither
+"", ""rewards"": ""—
+"" }"
+    ,How Did We Get Here?,Have every effect applied at the same time,A Furious Cocktail,"Have all of these 27 status effects applied to the player at the same time: Absorption Bad Omen Blindness Conduit Power Darkness Dolphin's Grace Fire Resistance Glowing Haste Hero of the Village Hunger Invisibility Jump Boost Levitation Mining Fatigue Nausea Night Vision Poison Regeneration Resistance Slow Falling Slowness Speed Strength Water Breathing Weakness Wither The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement. This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.","nether/all_effects {""anchor"": """", ""title"": ""How Did We Get Here?"", ""icon"": ""Bucket
+"", ""icon-style"": ""fancy"", ""title"": ""How Did We Get Here?"", ""description"": ""Have every effect applied at the same time 
+"", ""parent"": ""A Furious Cocktail
+"", ""requirements"": ""Have ''all'' of these 27 status [[effect]]s applied to the player at the same time:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite absorption.png|18x18px|link=Absorption|alt=EffectSprite absorption.png: Sprite image for absorption in Minecraft linking to Absorption|class=pixel-image|]]</span>[[Absorption|<span class=""sprite-text"">Absorption</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite bad-omen.png|18x18px|link=Bad Omen|alt=EffectSprite bad-omen.png: Sprite image for bad-omen in Minecraft linking to Bad Omen|class=pixel-image|]]</span>[[Bad Omen|<span class=""sprite-text"">Bad Omen</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite blindness.png|18x18px|link=Blindness|alt=EffectSprite blindness.png: Sprite image for blindness in Minecraft linking to Blindness|class=pixel-image|]]</span>[[Blindness|<span class=""sprite-text"">Blindness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite conduit-power.png|18x18px|link=Conduit Power|alt=EffectSprite conduit-power.png: Sprite image for conduit-power in Minecraft linking to Conduit Power|class=pixel-image|]]</span>[[Conduit Power|<span class=""sprite-text"">Conduit Power</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite darkness.png|18x18px|link=Darkness|alt=EffectSprite darkness.png: Sprite image for darkness in Minecraft linking to Darkness|class=pixel-image|]]</span>[[Darkness|<span class=""sprite-text"">Darkness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite dolphin's-grace.png|18x18px|link=Dolphin's Grace|alt=EffectSprite dolphin's-grace.png: Sprite image for dolphin's-grace in Minecraft linking to Dolphin's Grace|class=pixel-image|]]</span>[[Dolphin's Grace|<span class=""sprite-text"">Dolphin's Grace</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite fire-resistance.png|18x18px|link=Fire Resistance|alt=EffectSprite fire-resistance.png: Sprite image for fire-resistance in Minecraft linking to Fire Resistance|class=pixel-image|]]</span>[[Fire Resistance|<span class=""sprite-text"">Fire Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite glowing.png|18x18px|link=Glowing|alt=EffectSprite glowing.png: Sprite image for glowing in Minecraft linking to Glowing|class=pixel-image|]]</span>[[Glowing|<span class=""sprite-text"">Glowing</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite haste.png|18x18px|link=Haste|alt=EffectSprite haste.png: Sprite image for haste in Minecraft linking to Haste|class=pixel-image|]]</span>[[Haste|<span class=""sprite-text"">Haste</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite hero-of-the-village.png|18x18px|link=Hero of the Village|alt=EffectSprite hero-of-the-village.png: Sprite image for hero-of-the-village in Minecraft linking to Hero of the Village|class=pixel-image|]]</span>[[Hero of the Village|<span class=""sprite-text"">Hero of the Village</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite hunger.png|18x18px|link=Hunger (effect)|alt=EffectSprite hunger.png: Sprite image for hunger in Minecraft linking to Hunger (effect)|class=pixel-image|]]</span>[[Hunger (effect)|<span class=""sprite-text"">Hunger</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite invisibility.png|18x18px|link=Invisibility|alt=EffectSprite invisibility.png: Sprite image for invisibility in Minecraft linking to Invisibility|class=pixel-image|]]</span>[[Invisibility|<span class=""sprite-text"">Invisibility</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite jump-boost.png|18x18px|link=Jump Boost|alt=EffectSprite jump-boost.png: Sprite image for jump-boost in Minecraft linking to Jump Boost|class=pixel-image|]]</span>[[Jump Boost|<span class=""sprite-text"">Jump Boost</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite levitation.png|18x18px|link=Levitation|alt=EffectSprite levitation.png: Sprite image for levitation in Minecraft linking to Levitation|class=pixel-image|]]</span>[[Levitation|<span class=""sprite-text"">Levitation</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite mining-fatigue.png|18x18px|link=Mining Fatigue|alt=EffectSprite mining-fatigue.png: Sprite image for mining-fatigue in Minecraft linking to Mining Fatigue|class=pixel-image|]]</span>[[Mining Fatigue|<span class=""sprite-text"">Mining Fatigue</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite nausea.png|18x18px|link=Nausea|alt=EffectSprite nausea.png: Sprite image for nausea in Minecraft linking to Nausea|class=pixel-image|]]</span>[[Nausea|<span class=""sprite-text"">Nausea</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite night-vision.png|18x18px|link=Night Vision|alt=EffectSprite night-vision.png: Sprite image for night-vision in Minecraft linking to Night Vision|class=pixel-image|]]</span>[[Night Vision|<span class=""sprite-text"">Night Vision</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite poison.png|18x18px|link=Poison|alt=EffectSprite poison.png: Sprite image for poison in Minecraft linking to Poison|class=pixel-image|]]</span>[[Poison|<span class=""sprite-text"">Poison</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite regeneration.png|18x18px|link=Regeneration|alt=EffectSprite regeneration.png: Sprite image for regeneration in Minecraft linking to Regeneration|class=pixel-image|]]</span>[[Regeneration|<span class=""sprite-text"">Regeneration</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite resistance.png|18x18px|link=Resistance|alt=EffectSprite resistance.png: Sprite image for resistance in Minecraft linking to Resistance|class=pixel-image|]]</span>[[Resistance|<span class=""sprite-text"">Resistance</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slow-falling.png|18x18px|link=Slow Falling|alt=EffectSprite slow-falling.png: Sprite image for slow-falling in Minecraft linking to Slow Falling|class=pixel-image|]]</span>[[Slow Falling|<span class=""sprite-text"">Slow Falling</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite slowness.png|18x18px|link=Slowness|alt=EffectSprite slowness.png: Sprite image for slowness in Minecraft linking to Slowness|class=pixel-image|]]</span>[[Slowness|<span class=""sprite-text"">Slowness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite speed.png|18x18px|link=Speed|alt=EffectSprite speed.png: Sprite image for speed in Minecraft linking to Speed|class=pixel-image|]]</span>[[Speed|<span class=""sprite-text"">Speed</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite strength.png|18x18px|link=Strength|alt=EffectSprite strength.png: Sprite image for strength in Minecraft linking to Strength|class=pixel-image|]]</span>[[Strength|<span class=""sprite-text"">Strength</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite water-breathing.png|18x18px|link=Water Breathing|alt=EffectSprite water-breathing.png: Sprite image for water-breathing in Minecraft linking to Water Breathing|class=pixel-image|]]</span>[[Water Breathing|<span class=""sprite-text"">Water Breathing</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite weakness.png|18x18px|link=Weakness|alt=EffectSprite weakness.png: Sprite image for weakness in Minecraft linking to Weakness|class=pixel-image|]]</span>[[Weakness|<span class=""sprite-text"">Weakness</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style=""height:18px;width:18px"">[[File:EffectSprite wither.png|18x18px|link=Wither (effect)|alt=EffectSprite wither.png: Sprite image for wither in Minecraft linking to Wither (effect)|class=pixel-image|]]</span>[[Wither (effect)|<span class=""sprite-text"">Wither</span>]]</span>
+</div>
+The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.<br>''This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.''
+"", ""resourcelocation"": ""nether/all_effects
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-1236"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>1000 [[experience]]
+"" }"
+    ,Free the End,Good luck,The End,"Kill the ender dragon . If multiple players are involved in the dragon fight, only the player that deals the final blow to the dragon receives the advancement. [7]","end/kill_dragon {""anchor"": """", ""title"": ""Free the End"", ""icon"": ""Dragon Head
+"", ""icon-style"": ""plain"", ""title"": ""Free the End"", ""description"": ""Good luck
+"", ""parent"": ""The End
+"", ""requirements"": ""Kill the [[ender dragon]].<br>''If multiple players are involved in the dragon fight, only the player that deals the final blow to the dragon receives the advancement.''<ref>{{bug|MC-199994||Advancement ""Free the End"" is only granted to one player}}</ref>
+"", ""resourcelocation"": ""end/kill_dragon
+"", ""rewards"": ""—
+"" }"
+    ,The End... Again...,Respawn the Ender Dragon,Free the End,"Be within a 192 block radius from the coordinates (0.0, 128, 0.0) when an ender dragon is summoned using end crystals .","end/respawn_dragon {""anchor"": """", ""title"": ""The End... Again..."", ""icon"": ""End Crystal.gif
+"", ""icon-style"": ""oval"", ""title"": ""The End... Again..."", ""description"": ""Respawn the Ender Dragon
+"", ""parent"": ""Free the End
+"", ""requirements"": ""Be within a 192 block radius from the coordinates (0.0, 128, 0.0) when an [[ender dragon]] is summoned using [[end crystal]]s.
+"", ""resourcelocation"": ""end/respawn_dragon
+"", ""rewards"": ""—
+"" }"
+    ,You Need a Mint,Collect Dragon's Breath in a Glass Bottle,Free the End,Have a bottle of dragon's breath in your inventory.,"end/dragon_breath {""anchor"": """", ""title"": ""You Need a Mint"", ""icon"": ""Dragon's Breath
+"", ""icon-style"": ""oval"", ""title"": ""You Need a Mint"", ""description"": ""Collect Dragon's Breath in a Glass Bottle
+"", ""parent"": ""Free the End
+"", ""requirements"": ""Have a bottle of [[dragon's breath]] in your inventory.
+"", ""resourcelocation"": ""end/dragon_breath
+"", ""rewards"": ""—
+"" }"
+    ,Great View From Up Here,Levitate up 50 blocks from the attacks of a Shulker,The City at the End of the Game,"Move a distance of 50 blocks vertically with the Levitation effect applied, regardless of direction or whether it is caused by the effect.","end/levitate {""anchor"": """", ""title"": ""Great View From Up Here"", ""icon"": ""Shulker Shell
+"", ""icon-style"": ""fancy"", ""title"": ""Great View From Up Here"", ""description"": ""Levitate up 50 blocks from the attacks of a [[Shulker]]
+"", ""parent"": ""The City at the End of the Game
+"", ""requirements"": ""Move a distance of 50 blocks vertically with the [[Levitation]] effect applied, regardless of direction or whether it is caused by the effect.
+"", ""resourcelocation"": ""end/levitate
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-72"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>50 [[experience]]
+"" }"
+    ,Adventure,"Adventure, exploration and combat",—,"Kill any mob , or be killed by any living entity .","adventure/root {""anchor"": """", ""title"": ""Adventure"", ""icon"": ""Empty Map
+"", ""icon-style"": ""plain"", ""title"": ""Adventure"", ""description"": ""Adventure, exploration and combat
+"", ""parent"": ""—
+"", ""requirements"": ""Kill any [[mob]], or be killed by any [[Entity#Types of entities|living entity]].
+"", ""resourcelocation"": ""adventure/root
+"", ""rewards"": ""—
+"" }"
+    ,Monster Hunter,Kill any hostile monster,Adventure,"Kill one of these 35 mobs : Blaze Breeze ‌ [ upcoming: JE Edition 1.21 & BE Edition 1.21 ] Cave Spider Creeper Drowned Elder Guardian Ender Dragon Enderman Endermite Evoker Ghast Guardian Hoglin Husk Magma Cube Phantom Piglin Piglin Brute Pillager Ravager Shulker Silverfish Skeleton Slime Spider Stray Vex Vindicator Witch Wither Wither Skeleton Zoglin Zombie Zombie Villager Zombified Piglin Only the riders of the chicken jockey s and skeleton horsemen are counted in this advancement. Other mobs may be killed, but are ignored for this advancement.","adventure/kill_a_mob {""anchor"": """", ""title"": ""Monster Hunter"", ""icon"": ""Iron Sword
+"", ""icon-style"": ""plain"", ""title"": ""Monster Hunter"", ""description"": ""Kill any hostile monster
+"", ""parent"": ""Adventure
+"", ""requirements"": ""Kill ''one'' of these 35 [[mob]]s:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite blaze.png|16x16px|link=Blaze|alt=EntitySprite blaze.png: Sprite image for blaze in Minecraft linking to Blaze|class=pixel-image|]]</span>[[Blaze|<span class=""sprite-text"">Blaze</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite breeze.png|16x16px|link=Breeze|alt=EntitySprite breeze.png: Sprite image for breeze in Minecraft linking to Breeze|class=pixel-image|]]</span>[[Breeze|<span class=""sprite-text"">Breeze</span>]]</span>‌<sup class=""noprint nowrap Inline-Template "" title="""">[<i><span title=""This statement applies only to upcoming versions of Minecraft."">upcoming:</span> [[Java Edition 1.21|JE Edition 1.21]] & [[Bedrock Edition 1.21|BE Edition 1.21]]</i>]</sup>[[Category:Upcoming]][[Category:Java Edition upcoming tag]][[Category:Bedrock Edition upcoming tag]]
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite cave-spider.png|16x16px|link=Cave Spider|alt=EntitySprite cave-spider.png: Sprite image for cave-spider in Minecraft linking to Cave Spider|class=pixel-image|]]</span>[[Cave Spider|<span class=""sprite-text"">Cave Spider</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite creeper.png|16x16px|link=Creeper|alt=EntitySprite creeper.png: Sprite image for creeper in Minecraft linking to Creeper|class=pixel-image|]]</span>[[Creeper|<span class=""sprite-text"">Creeper</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite drowned.png|16x16px|link=Drowned|alt=EntitySprite drowned.png: Sprite image for drowned in Minecraft linking to Drowned|class=pixel-image|]]</span>[[Drowned|<span class=""sprite-text"">Drowned</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite elder-guardian.png|16x16px|link=Elder Guardian|alt=EntitySprite elder-guardian.png: Sprite image for elder-guardian in Minecraft linking to Elder Guardian|class=pixel-image|]]</span>[[Elder Guardian|<span class=""sprite-text"">Elder Guardian</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite ender-dragon.png|16x16px|link=Ender Dragon|alt=EntitySprite ender-dragon.png: Sprite image for ender-dragon in Minecraft linking to Ender Dragon|class=pixel-image|]]</span>[[Ender Dragon|<span class=""sprite-text"">Ender Dragon</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite enderman.png|16x16px|link=Enderman|alt=EntitySprite enderman.png: Sprite image for enderman in Minecraft linking to Enderman|class=pixel-image|]]</span>[[Enderman|<span class=""sprite-text"">Enderman</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite endermite.png|16x16px|link=Endermite|alt=EntitySprite endermite.png: Sprite image for endermite in Minecraft linking to Endermite|class=pixel-image|]]</span>[[Endermite|<span class=""sprite-text"">Endermite</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite evoker.png|16x16px|link=Evoker|alt=EntitySprite evoker.png: Sprite image for evoker in Minecraft linking to Evoker|class=pixel-image|]]</span>[[Evoker|<span class=""sprite-text"">Evoker</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite ghast.png|16x16px|link=Ghast|alt=EntitySprite ghast.png: Sprite image for ghast in Minecraft linking to Ghast|class=pixel-image|]]</span>[[Ghast|<span class=""sprite-text"">Ghast</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite guardian.png|16x16px|link=Guardian|alt=EntitySprite guardian.png: Sprite image for guardian in Minecraft linking to Guardian|class=pixel-image|]]</span>[[Guardian|<span class=""sprite-text"">Guardian</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite hoglin.png|16x16px|link=Hoglin|alt=EntitySprite hoglin.png: Sprite image for hoglin in Minecraft linking to Hoglin|class=pixel-image|]]</span>[[Hoglin|<span class=""sprite-text"">Hoglin</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite husk.png|16x16px|link=Husk|alt=EntitySprite husk.png: Sprite image for husk in Minecraft linking to Husk|class=pixel-image|]]</span>[[Husk|<span class=""sprite-text"">Husk</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite magma-cube.png|16x16px|link=Magma Cube|alt=EntitySprite magma-cube.png: Sprite image for magma-cube in Minecraft linking to Magma Cube|class=pixel-image|]]</span>[[Magma Cube|<span class=""sprite-text"">Magma Cube</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite phantom.png|16x16px|link=Phantom|alt=EntitySprite phantom.png: Sprite image for phantom in Minecraft linking to Phantom|class=pixel-image|]]</span>[[Phantom|<span class=""sprite-text"">Phantom</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite piglin.png|16x16px|link=Piglin|alt=EntitySprite piglin.png: Sprite image for piglin in Minecraft linking to Piglin|class=pixel-image|]]</span>[[Piglin|<span class=""sprite-text"">Piglin</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite piglin-brute.png|16x16px|link=Piglin Brute|alt=EntitySprite piglin-brute.png: Sprite image for piglin-brute in Minecraft linking to Piglin Brute|class=pixel-image|]]</span>[[Piglin Brute|<span class=""sprite-text"">Piglin Brute</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite pillager.png|16x16px|link=Pillager|alt=EntitySprite pillager.png: Sprite image for pillager in Minecraft linking to Pillager|class=pixel-image|]]</span>[[Pillager|<span class=""sprite-text"">Pillager</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite ravager.png|16x16px|link=Ravager|alt=EntitySprite ravager.png: Sprite image for ravager in Minecraft linking to Ravager|class=pixel-image|]]</span>[[Ravager|<span class=""sprite-text"">Ravager</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite shulker.png|16x16px|link=Shulker|alt=EntitySprite shulker.png: Sprite image for shulker in Minecraft linking to Shulker|class=pixel-image|]]</span>[[Shulker|<span class=""sprite-text"">Shulker</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite silverfish.png|16x16px|link=Silverfish|alt=EntitySprite silverfish.png: Sprite image for silverfish in Minecraft linking to Silverfish|class=pixel-image|]]</span>[[Silverfish|<span class=""sprite-text"">Silverfish</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite skeleton.png|16x16px|link=Skeleton|alt=EntitySprite skeleton.png: Sprite image for skeleton in Minecraft linking to Skeleton|class=pixel-image|]]</span>[[Skeleton|<span class=""sprite-text"">Skeleton</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite slime.png|16x16px|link=Slime|alt=EntitySprite slime.png: Sprite image for slime in Minecraft linking to Slime|class=pixel-image|]]</span>[[Slime|<span class=""sprite-text"">Slime</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite spider.png|16x16px|link=Spider|alt=EntitySprite spider.png: Sprite image for spider in Minecraft linking to Spider|class=pixel-image|]]</span>[[Spider|<span class=""sprite-text"">Spider</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite stray.png|16x16px|link=Stray|alt=EntitySprite stray.png: Sprite image for stray in Minecraft linking to Stray|class=pixel-image|]]</span>[[Stray|<span class=""sprite-text"">Stray</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite vex.png|16x16px|link=Vex|alt=EntitySprite vex.png: Sprite image for vex in Minecraft linking to Vex|class=pixel-image|]]</span>[[Vex|<span class=""sprite-text"">Vex</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite vindicator.png|16x16px|link=Vindicator|alt=EntitySprite vindicator.png: Sprite image for vindicator in Minecraft linking to Vindicator|class=pixel-image|]]</span>[[Vindicator|<span class=""sprite-text"">Vindicator</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite witch.png|16x16px|link=Witch|alt=EntitySprite witch.png: Sprite image for witch in Minecraft linking to Witch|class=pixel-image|]]</span>[[Witch|<span class=""sprite-text"">Witch</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite wither.png|16x16px|link=Wither|alt=EntitySprite wither.png: Sprite image for wither in Minecraft linking to Wither|class=pixel-image|]]</span>[[Wither|<span class=""sprite-text"">Wither</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite wither-skeleton.png|16x16px|link=Wither Skeleton|alt=EntitySprite wither-skeleton.png: Sprite image for wither-skeleton in Minecraft linking to Wither Skeleton|class=pixel-image|]]</span>[[Wither Skeleton|<span class=""sprite-text"">Wither Skeleton</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite zoglin.png|16x16px|link=Zoglin|alt=EntitySprite zoglin.png: Sprite image for zoglin in Minecraft linking to Zoglin|class=pixel-image|]]</span>[[Zoglin|<span class=""sprite-text"">Zoglin</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite zombie.png|16x16px|link=Zombie|alt=EntitySprite zombie.png: Sprite image for zombie in Minecraft linking to Zombie|class=pixel-image|]]</span>[[Zombie|<span class=""sprite-text"">Zombie</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite zombie-villager.png|16x16px|link=Zombie Villager|alt=EntitySprite zombie-villager.png: Sprite image for zombie-villager in Minecraft linking to Zombie Villager|class=pixel-image|]]</span>[[Zombie Villager|<span class=""sprite-text"">Zombie Villager</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite zombified-piglin.png|16x16px|link=Zombified Piglin|alt=EntitySprite zombified-piglin.png: Sprite image for zombified-piglin in Minecraft linking to Zombified Piglin|class=pixel-image|]]</span>[[Zombified Piglin|<span class=""sprite-text"">Zombified Piglin</span>]]</span>
+</div>
+Only the riders of the <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite chicken-jockey.png|16x16px|link=Chicken Jockey|alt=EntitySprite chicken-jockey.png: Sprite image for chicken-jockey in Minecraft linking to Chicken Jockey|class=pixel-image|]]</span>[[Chicken Jockey|<span class=""sprite-text"">chicken jockey</span>]]</span>s and <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite skeleton-horseman.png|16x16px|link=Skeleton Horseman|alt=EntitySprite skeleton-horseman.png: Sprite image for skeleton-horseman in Minecraft linking to Skeleton Horseman|class=pixel-image|]]</span>[[Skeleton Horseman|<span class=""sprite-text"">skeleton horsemen</span>]]</span> are counted in this advancement. Other mobs may be killed, but are ignored for this advancement.
+"", ""resourcelocation"": ""adventure/kill_a_mob
+"", ""rewards"": ""—
+"" }"
+    ,What a Deal!,Successfully trade with a Villager,Adventure,"Take an item from a villager or wandering trader 's trading output slot, and put it in your inventory.","adventure/trade {""anchor"": """", ""title"": ""What a Deal!"", ""icon"": ""Emerald
+"", ""icon-style"": ""plain"", ""title"": ""What a Deal!"", ""description"": ""Successfully trade with a Villager
+"", ""parent"": ""Adventure
+"", ""requirements"": ""Take an item from a [[villager]] or [[wandering trader]]'s [[trading]] output slot, and put it in your inventory.
+"", ""resourcelocation"": ""adventure/trade
+"", ""rewards"": ""—
+"" }"
+    ,Monsters Hunted,Kill one of every hostile monster,Monster Hunter,"Kill each of these 35 mobs : Blaze Breeze ‌ [ upcoming: JE Edition 1.21 & BE Edition 1.21 ] Cave Spider Creeper Drowned Elder Guardian Ender Dragon Enderman Endermite Evoker Ghast Guardian Hoglin Husk Magma Cube Phantom Piglin Piglin Brute Pillager Ravager Shulker Silverfish Skeleton Slime Spider Stray Vex Vindicator Witch Wither Wither Skeleton Zoglin Zombie Zombie Villager Zombified Piglin Only the riders of the chicken jockey s and skeleton horsemen are counted in this advancement. Other mobs may be killed, but are ignored for this advancement.","adventure/kill_all_mobs {""anchor"": """", ""title"": ""Monsters Hunted"", ""icon"": ""Diamond Sword
+"", ""icon-style"": ""fancy"", ""title"": ""Monsters Hunted"", ""description"": ""Kill one of every hostile monster
+"", ""parent"": ""Monster Hunter
+"", ""requirements"": ""Kill ''each'' of these 35 [[mob]]s:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite blaze.png|16x16px|link=Blaze|alt=EntitySprite blaze.png: Sprite image for blaze in Minecraft linking to Blaze|class=pixel-image|]]</span>[[Blaze|<span class=""sprite-text"">Blaze</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite breeze.png|16x16px|link=Breeze|alt=EntitySprite breeze.png: Sprite image for breeze in Minecraft linking to Breeze|class=pixel-image|]]</span>[[Breeze|<span class=""sprite-text"">Breeze</span>]]</span>‌<sup class=""noprint nowrap Inline-Template "" title="""">[<i><span title=""This statement applies only to upcoming versions of Minecraft."">upcoming:</span> [[Java Edition 1.21|JE Edition 1.21]] & [[Bedrock Edition 1.21|BE Edition 1.21]]</i>]</sup>[[Category:Upcoming]][[Category:Java Edition upcoming tag]][[Category:Bedrock Edition upcoming tag]]
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite cave-spider.png|16x16px|link=Cave Spider|alt=EntitySprite cave-spider.png: Sprite image for cave-spider in Minecraft linking to Cave Spider|class=pixel-image|]]</span>[[Cave Spider|<span class=""sprite-text"">Cave Spider</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite creeper.png|16x16px|link=Creeper|alt=EntitySprite creeper.png: Sprite image for creeper in Minecraft linking to Creeper|class=pixel-image|]]</span>[[Creeper|<span class=""sprite-text"">Creeper</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite drowned.png|16x16px|link=Drowned|alt=EntitySprite drowned.png: Sprite image for drowned in Minecraft linking to Drowned|class=pixel-image|]]</span>[[Drowned|<span class=""sprite-text"">Drowned</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite elder-guardian.png|16x16px|link=Elder Guardian|alt=EntitySprite elder-guardian.png: Sprite image for elder-guardian in Minecraft linking to Elder Guardian|class=pixel-image|]]</span>[[Elder Guardian|<span class=""sprite-text"">Elder Guardian</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite ender-dragon.png|16x16px|link=Ender Dragon|alt=EntitySprite ender-dragon.png: Sprite image for ender-dragon in Minecraft linking to Ender Dragon|class=pixel-image|]]</span>[[Ender Dragon|<span class=""sprite-text"">Ender Dragon</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite enderman.png|16x16px|link=Enderman|alt=EntitySprite enderman.png: Sprite image for enderman in Minecraft linking to Enderman|class=pixel-image|]]</span>[[Enderman|<span class=""sprite-text"">Enderman</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite endermite.png|16x16px|link=Endermite|alt=EntitySprite endermite.png: Sprite image for endermite in Minecraft linking to Endermite|class=pixel-image|]]</span>[[Endermite|<span class=""sprite-text"">Endermite</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite evoker.png|16x16px|link=Evoker|alt=EntitySprite evoker.png: Sprite image for evoker in Minecraft linking to Evoker|class=pixel-image|]]</span>[[Evoker|<span class=""sprite-text"">Evoker</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite ghast.png|16x16px|link=Ghast|alt=EntitySprite ghast.png: Sprite image for ghast in Minecraft linking to Ghast|class=pixel-image|]]</span>[[Ghast|<span class=""sprite-text"">Ghast</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite guardian.png|16x16px|link=Guardian|alt=EntitySprite guardian.png: Sprite image for guardian in Minecraft linking to Guardian|class=pixel-image|]]</span>[[Guardian|<span class=""sprite-text"">Guardian</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite hoglin.png|16x16px|link=Hoglin|alt=EntitySprite hoglin.png: Sprite image for hoglin in Minecraft linking to Hoglin|class=pixel-image|]]</span>[[Hoglin|<span class=""sprite-text"">Hoglin</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite husk.png|16x16px|link=Husk|alt=EntitySprite husk.png: Sprite image for husk in Minecraft linking to Husk|class=pixel-image|]]</span>[[Husk|<span class=""sprite-text"">Husk</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite magma-cube.png|16x16px|link=Magma Cube|alt=EntitySprite magma-cube.png: Sprite image for magma-cube in Minecraft linking to Magma Cube|class=pixel-image|]]</span>[[Magma Cube|<span class=""sprite-text"">Magma Cube</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite phantom.png|16x16px|link=Phantom|alt=EntitySprite phantom.png: Sprite image for phantom in Minecraft linking to Phantom|class=pixel-image|]]</span>[[Phantom|<span class=""sprite-text"">Phantom</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite piglin.png|16x16px|link=Piglin|alt=EntitySprite piglin.png: Sprite image for piglin in Minecraft linking to Piglin|class=pixel-image|]]</span>[[Piglin|<span class=""sprite-text"">Piglin</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite piglin-brute.png|16x16px|link=Piglin Brute|alt=EntitySprite piglin-brute.png: Sprite image for piglin-brute in Minecraft linking to Piglin Brute|class=pixel-image|]]</span>[[Piglin Brute|<span class=""sprite-text"">Piglin Brute</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite pillager.png|16x16px|link=Pillager|alt=EntitySprite pillager.png: Sprite image for pillager in Minecraft linking to Pillager|class=pixel-image|]]</span>[[Pillager|<span class=""sprite-text"">Pillager</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite ravager.png|16x16px|link=Ravager|alt=EntitySprite ravager.png: Sprite image for ravager in Minecraft linking to Ravager|class=pixel-image|]]</span>[[Ravager|<span class=""sprite-text"">Ravager</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite shulker.png|16x16px|link=Shulker|alt=EntitySprite shulker.png: Sprite image for shulker in Minecraft linking to Shulker|class=pixel-image|]]</span>[[Shulker|<span class=""sprite-text"">Shulker</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite silverfish.png|16x16px|link=Silverfish|alt=EntitySprite silverfish.png: Sprite image for silverfish in Minecraft linking to Silverfish|class=pixel-image|]]</span>[[Silverfish|<span class=""sprite-text"">Silverfish</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite skeleton.png|16x16px|link=Skeleton|alt=EntitySprite skeleton.png: Sprite image for skeleton in Minecraft linking to Skeleton|class=pixel-image|]]</span>[[Skeleton|<span class=""sprite-text"">Skeleton</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite slime.png|16x16px|link=Slime|alt=EntitySprite slime.png: Sprite image for slime in Minecraft linking to Slime|class=pixel-image|]]</span>[[Slime|<span class=""sprite-text"">Slime</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite spider.png|16x16px|link=Spider|alt=EntitySprite spider.png: Sprite image for spider in Minecraft linking to Spider|class=pixel-image|]]</span>[[Spider|<span class=""sprite-text"">Spider</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite stray.png|16x16px|link=Stray|alt=EntitySprite stray.png: Sprite image for stray in Minecraft linking to Stray|class=pixel-image|]]</span>[[Stray|<span class=""sprite-text"">Stray</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite vex.png|16x16px|link=Vex|alt=EntitySprite vex.png: Sprite image for vex in Minecraft linking to Vex|class=pixel-image|]]</span>[[Vex|<span class=""sprite-text"">Vex</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite vindicator.png|16x16px|link=Vindicator|alt=EntitySprite vindicator.png: Sprite image for vindicator in Minecraft linking to Vindicator|class=pixel-image|]]</span>[[Vindicator|<span class=""sprite-text"">Vindicator</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite witch.png|16x16px|link=Witch|alt=EntitySprite witch.png: Sprite image for witch in Minecraft linking to Witch|class=pixel-image|]]</span>[[Witch|<span class=""sprite-text"">Witch</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite wither.png|16x16px|link=Wither|alt=EntitySprite wither.png: Sprite image for wither in Minecraft linking to Wither|class=pixel-image|]]</span>[[Wither|<span class=""sprite-text"">Wither</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite wither-skeleton.png|16x16px|link=Wither Skeleton|alt=EntitySprite wither-skeleton.png: Sprite image for wither-skeleton in Minecraft linking to Wither Skeleton|class=pixel-image|]]</span>[[Wither Skeleton|<span class=""sprite-text"">Wither Skeleton</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite zoglin.png|16x16px|link=Zoglin|alt=EntitySprite zoglin.png: Sprite image for zoglin in Minecraft linking to Zoglin|class=pixel-image|]]</span>[[Zoglin|<span class=""sprite-text"">Zoglin</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite zombie.png|16x16px|link=Zombie|alt=EntitySprite zombie.png: Sprite image for zombie in Minecraft linking to Zombie|class=pixel-image|]]</span>[[Zombie|<span class=""sprite-text"">Zombie</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite zombie-villager.png|16x16px|link=Zombie Villager|alt=EntitySprite zombie-villager.png: Sprite image for zombie-villager in Minecraft linking to Zombie Villager|class=pixel-image|]]</span>[[Zombie Villager|<span class=""sprite-text"">Zombie Villager</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite zombified-piglin.png|16x16px|link=Zombified Piglin|alt=EntitySprite zombified-piglin.png: Sprite image for zombified-piglin in Minecraft linking to Zombified Piglin|class=pixel-image|]]</span>[[Zombified Piglin|<span class=""sprite-text"">Zombified Piglin</span>]]</span>
+</div>
+Only the riders of the <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite chicken-jockey.png|16x16px|link=Chicken Jockey|alt=EntitySprite chicken-jockey.png: Sprite image for chicken-jockey in Minecraft linking to Chicken Jockey|class=pixel-image|]]</span>[[Chicken Jockey|<span class=""sprite-text"">chicken jockey</span>]]</span>s and <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite skeleton-horseman.png|16x16px|link=Skeleton Horseman|alt=EntitySprite skeleton-horseman.png: Sprite image for skeleton-horseman in Minecraft linking to Skeleton Horseman|class=pixel-image|]]</span>[[Skeleton Horseman|<span class=""sprite-text"">skeleton horsemen</span>]]</span> are counted in this advancement. Other mobs may be killed, but are ignored for this advancement.
+"", ""resourcelocation"": ""adventure/kill_all_mobs
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>100 [[experience]]
+"" }"
+    ,Hired Help,Summon an Iron Golem to help defend a village,What a Deal!,Summon an iron golem .,"adventure/summon_iron_golem {""anchor"": """", ""title"": ""Hired Help"", ""icon"": ""Carved Pumpkin
+"", ""icon-style"": ""oval"", ""title"": ""Hired Help"", ""description"": ""Summon an Iron Golem to help defend a village
+"", ""parent"": ""What a Deal!
+"", ""requirements"": ""Summon an [[iron golem]].
+"", ""resourcelocation"": ""adventure/summon_iron_golem
+"", ""rewards"": ""—
+"" }"
+    ,Who's the Pillager Now?,Give a Pillager a taste of their own medicine,Ol' Betsy,Kill a pillager with a crossbow .,"adventure/whos_the_pillager_now {""anchor"": """", ""title"": ""Who's the Pillager Now?"", ""icon"": ""Crossbow
+"", ""icon-style"": ""plain"", ""title"": ""Who's the Pillager Now?"", ""description"": ""Give a Pillager a taste of their own medicine
+"", ""parent"": ""Ol' Betsy
+"", ""requirements"": ""Kill a [[pillager]] with a [[crossbow]].
+"", ""resourcelocation"": ""adventure/whos_the_pillager_now
+"", ""rewards"": ""—
+"" }"
+    ,Arbalistic,Kill five unique mobs with one crossbow shot,Ol' Betsy,"This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.","adventure/arbalistic {""anchor"": """", ""title"": ""Arbalistic"", ""icon"": ""Crossbow
+"", ""icon-style"": ""fancy"", ""title"": ""Arbalistic"", ""description"": ""Kill five unique [[mob]]s with one [[crossbow]] shot 
+"", ""parent"": ""Ol' Betsy
+"", ""requirements"": ""''This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.''
+"", ""resourcelocation"": ""adventure/arbalistic
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>85 [[experience]]
+"" }"
+    ,Sniper Duel,Kill a Skeleton from at least 50 meters away,Take Aim,Receive kill credit for a skeleton that is at least 50 blocks away horizontally and is killed by a projectile.,"adventure/sniper_duel {""anchor"": """", ""title"": ""Sniper Duel"", ""icon"": ""Arrow
+"", ""icon-style"": ""fancy"", ""title"": ""Sniper Duel"", ""description"": ""Kill a Skeleton from at least 50 meters away
+"", ""parent"": ""Take Aim
+"", ""requirements"": ""Receive kill credit for a [[skeleton]] that is at least 50 blocks away <u>horizontally</u> and is killed by a projectile.
+"", ""resourcelocation"": ""adventure/sniper_duel
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-72"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>50 [[experience]]
+"" }"
+    ,Bee Our Guest,Use a Campfire to collect Honey from a Beehive using a Glass Bottle without aggravating the Bees,Husbandry,Use a glass bottle on a beehive or bee nest while not angering the bees inside.,"husbandry/safely_harvest_honey {""anchor"": """", ""title"": ""Bee Our Guest"", ""icon"": ""Honey Bottle
+"", ""icon-style"": ""plain"", ""title"": ""Bee Our Guest"", ""description"": ""Use a [[Campfire]] to collect Honey from a Beehive using a Glass Bottle without aggravating the Bees
+"", ""parent"": ""Husbandry
+"", ""requirements"": ""<span  class=""explain "" title=""Defaults to right click on mouse or left trigger on gamepad."">Use</span> a [[glass bottle]] on a [[beehive]] or bee nest while not angering the [[bee]]s inside.
+"", ""resourcelocation"": ""husbandry/safely_harvest_honey
+"", ""rewards"": ""—
+"" }"
+    ,The Parrots and the Bats,Breed two animals together,Husbandry,Breed a pair of any of these 25 mobs : Axolotl Bee Camel Cat Chicken Cow Donkey Fox Frog Goat Hoglin Horse Llama Mooshroom Mule Ocelot Panda Pig Rabbit Sheep Sniffer Strider Trader Llama Turtle Wolf A mule must be the result of breeding a horse and a donkey for this advancement as they are not breedable together. Other breedable mobs are ignored for this advancement.,"husbandry/breed_an_animal {""anchor"": """", ""title"": ""The Parrots and the Bats"", ""icon"": ""Wheat
+"", ""icon-style"": ""plain"", ""title"": ""The Parrots and the Bats"", ""description"": ""Breed two animals together
+"", ""parent"": ""Husbandry
+"", ""requirements"": ""Breed a pair of ''any'' of these 25 [[mob]]s:
+
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite axolotl.png|16x16px|link=Axolotl|alt=EntitySprite axolotl.png: Sprite image for axolotl in Minecraft linking to Axolotl|class=pixel-image|]]</span>[[Axolotl|<span class=""sprite-text"">Axolotl</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite bee.png|16x16px|link=Bee|alt=EntitySprite bee.png: Sprite image for bee in Minecraft linking to Bee|class=pixel-image|]]</span>[[Bee|<span class=""sprite-text"">Bee</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite camel.png|16x16px|link=Camel|alt=EntitySprite camel.png: Sprite image for camel in Minecraft linking to Camel|class=pixel-image|]]</span>[[Camel|<span class=""sprite-text"">Camel</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite cat.png|16x16px|link=Cat|alt=EntitySprite cat.png: Sprite image for cat in Minecraft linking to Cat|class=pixel-image|]]</span>[[Cat|<span class=""sprite-text"">Cat</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite chicken.png|16x16px|link=Chicken|alt=EntitySprite chicken.png: Sprite image for chicken in Minecraft linking to Chicken|class=pixel-image|]]</span>[[Chicken|<span class=""sprite-text"">Chicken</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite cow.png|16x16px|link=Cow|alt=EntitySprite cow.png: Sprite image for cow in Minecraft linking to Cow|class=pixel-image|]]</span>[[Cow|<span class=""sprite-text"">Cow</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite donkey.png|16x16px|link=Donkey|alt=EntitySprite donkey.png: Sprite image for donkey in Minecraft linking to Donkey|class=pixel-image|]]</span>[[Donkey|<span class=""sprite-text"">Donkey</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite fox.png|16x16px|link=Fox|alt=EntitySprite fox.png: Sprite image for fox in Minecraft linking to Fox|class=pixel-image|]]</span>[[Fox|<span class=""sprite-text"">Fox</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite frog.png|16x16px|link=Frog|alt=EntitySprite frog.png: Sprite image for frog in Minecraft linking to Frog|class=pixel-image|]]</span>[[Frog|<span class=""sprite-text"">Frog</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite goat.png|16x16px|link=Goat|alt=EntitySprite goat.png: Sprite image for goat in Minecraft linking to Goat|class=pixel-image|]]</span>[[Goat|<span class=""sprite-text"">Goat</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite hoglin.png|16x16px|link=Hoglin|alt=EntitySprite hoglin.png: Sprite image for hoglin in Minecraft linking to Hoglin|class=pixel-image|]]</span>[[Hoglin|<span class=""sprite-text"">Hoglin</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite horse.png|16x16px|link=Horse|alt=EntitySprite horse.png: Sprite image for horse in Minecraft linking to Horse|class=pixel-image|]]</span>[[Horse|<span class=""sprite-text"">Horse</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite llama.png|16x16px|link=Llama|alt=EntitySprite llama.png: Sprite image for llama in Minecraft linking to Llama|class=pixel-image|]]</span>[[Llama|<span class=""sprite-text"">Llama</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite mooshroom.png|16x16px|link=Mooshroom|alt=EntitySprite mooshroom.png: Sprite image for mooshroom in Minecraft linking to Mooshroom|class=pixel-image|]]</span>[[Mooshroom|<span class=""sprite-text"">Mooshroom</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite mule.png|16x16px|link=Mule|alt=EntitySprite mule.png: Sprite image for mule in Minecraft linking to Mule|class=pixel-image|]]</span>[[Mule|<span class=""sprite-text"">Mule</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite ocelot.png|16x16px|link=Ocelot|alt=EntitySprite ocelot.png: Sprite image for ocelot in Minecraft linking to Ocelot|class=pixel-image|]]</span>[[Ocelot|<span class=""sprite-text"">Ocelot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite panda.png|16x16px|link=Panda|alt=EntitySprite panda.png: Sprite image for panda in Minecraft linking to Panda|class=pixel-image|]]</span>[[Panda|<span class=""sprite-text"">Panda</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite pig.png|16x16px|link=Pig|alt=EntitySprite pig.png: Sprite image for pig in Minecraft linking to Pig|class=pixel-image|]]</span>[[Pig|<span class=""sprite-text"">Pig</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite rabbit.png|16x16px|link=Rabbit|alt=EntitySprite rabbit.png: Sprite image for rabbit in Minecraft linking to Rabbit|class=pixel-image|]]</span>[[Rabbit|<span class=""sprite-text"">Rabbit</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite sheep.png|16x16px|link=Sheep|alt=EntitySprite sheep.png: Sprite image for sheep in Minecraft linking to Sheep|class=pixel-image|]]</span>[[Sheep|<span class=""sprite-text"">Sheep</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite sniffer.png|16x16px|link=Sniffer|alt=EntitySprite sniffer.png: Sprite image for sniffer in Minecraft linking to Sniffer|class=pixel-image|]]</span>[[Sniffer|<span class=""sprite-text"">Sniffer</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite strider.png|16x16px|link=Strider|alt=EntitySprite strider.png: Sprite image for strider in Minecraft linking to Strider|class=pixel-image|]]</span>[[Strider|<span class=""sprite-text"">Strider</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite trader-llama.png|16x16px|link=Trader Llama|alt=EntitySprite trader-llama.png: Sprite image for trader-llama in Minecraft linking to Trader Llama|class=pixel-image|]]</span>[[Trader Llama|<span class=""sprite-text"">Trader Llama</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite turtle.png|16x16px|link=Turtle|alt=EntitySprite turtle.png: Sprite image for turtle in Minecraft linking to Turtle|class=pixel-image|]]</span>[[Turtle|<span class=""sprite-text"">Turtle</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite wolf.png|16x16px|link=Wolf|alt=EntitySprite wolf.png: Sprite image for wolf in Minecraft linking to Wolf|class=pixel-image|]]</span>[[Wolf|<span class=""sprite-text"">Wolf</span>]]</span>
+</div>
+
+A [[mule]] must be the result of [[breeding]] a [[horse]] and a [[donkey]] for this advancement as they are not breedable together. Other breedable mobs are ignored for this advancement.
+"", ""resourcelocation"": ""husbandry/breed_an_animal
+"", ""rewards"": ""—
+"" }"
+    ,Best Friends Forever,Tame an animal,Husbandry,Tame one of these 8 tameable mobs : Cat Donkey Horse Llama Mule Parrot Trader Llama Wolf,"husbandry/tame_an_animal {""anchor"": """", ""title"": ""Best Friends Forever"", ""icon"": ""Lead
+"", ""icon-style"": ""plain"", ""title"": ""Best Friends Forever"", ""description"": ""Tame an animal
+"", ""parent"": ""Husbandry
+"", ""requirements"": ""Tame ''one'' of these 8 tameable [[mob]]s:
+
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite cat.png|16x16px|link=Cat|alt=EntitySprite cat.png: Sprite image for cat in Minecraft linking to Cat|class=pixel-image|]]</span>[[Cat|<span class=""sprite-text"">Cat</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite donkey.png|16x16px|link=Donkey|alt=EntitySprite donkey.png: Sprite image for donkey in Minecraft linking to Donkey|class=pixel-image|]]</span>[[Donkey|<span class=""sprite-text"">Donkey</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite horse.png|16x16px|link=Horse|alt=EntitySprite horse.png: Sprite image for horse in Minecraft linking to Horse|class=pixel-image|]]</span>[[Horse|<span class=""sprite-text"">Horse</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite llama.png|16x16px|link=Llama|alt=EntitySprite llama.png: Sprite image for llama in Minecraft linking to Llama|class=pixel-image|]]</span>[[Llama|<span class=""sprite-text"">Llama</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite mule.png|16x16px|link=Mule|alt=EntitySprite mule.png: Sprite image for mule in Minecraft linking to Mule|class=pixel-image|]]</span>[[Mule|<span class=""sprite-text"">Mule</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite parrot.png|16x16px|link=Parrot|alt=EntitySprite parrot.png: Sprite image for parrot in Minecraft linking to Parrot|class=pixel-image|]]</span>[[Parrot|<span class=""sprite-text"">Parrot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite trader-llama.png|16x16px|link=Trader Llama|alt=EntitySprite trader-llama.png: Sprite image for trader-llama in Minecraft linking to Trader Llama|class=pixel-image|]]</span>[[Trader Llama|<span class=""sprite-text"">Trader Llama</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite wolf.png|16x16px|link=Wolf|alt=EntitySprite wolf.png: Sprite image for wolf in Minecraft linking to Wolf|class=pixel-image|]]</span>[[Wolf|<span class=""sprite-text"">Wolf</span>]]</span>
+</div>
+
+"", ""resourcelocation"": ""husbandry/tame_an_animal
+"", ""rewards"": ""—
+"" }"
+    ,Total Beelocation,"Move a Bee Nest , with 3 Bees inside, using Silk Touch",Husbandry,—,"husbandry/silk_touch_nest {""anchor"": """", ""title"": ""Total Beelocation"", ""icon"": ""Bee Nest
+"", ""icon-style"": ""plain"", ""title"": ""Total Beelocation"", ""description"": ""Move a [[Bee Nest]], with 3 [[Bee]]s inside, using [[Silk Touch]]
+"", ""parent"": ""Husbandry
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""husbandry/silk_touch_nest
+"", ""rewards"": ""—
+"" }"
+    ,Two by Two,Breed all the animals!,The Parrots and the Bats,"Breed a pair of each of these 24 mobs : Axolotl Bee Camel Cat Chicken Cow Donkey Fox Frog Goat Hoglin Horse Llama Mooshroom Mule Ocelot Panda Pig Rabbit Sheep Sniffer Strider Turtle Wolf A trader llama does not count as a llama , and a mule must be the result of breeding a horse and a donkey for this advancement as they are not breedable together. Other breedable mobs can be bred, but are ignored for this advancement.","husbandry/bred_all_animals {""anchor"": """", ""title"": ""Two by Two"", ""icon"": ""Golden Carrot
+"", ""icon-style"": ""fancy"", ""title"": ""Two by Two"", ""description"": ""Breed all the animals!
+"", ""parent"": ""The Parrots and the Bats
+"", ""requirements"": ""[[Breed]] a pair of ''each'' of these 24 [[mob]]s:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite axolotl.png|16x16px|link=Axolotl|alt=EntitySprite axolotl.png: Sprite image for axolotl in Minecraft linking to Axolotl|class=pixel-image|]]</span>[[Axolotl|<span class=""sprite-text"">Axolotl</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite bee.png|16x16px|link=Bee|alt=EntitySprite bee.png: Sprite image for bee in Minecraft linking to Bee|class=pixel-image|]]</span>[[Bee|<span class=""sprite-text"">Bee</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite camel.png|16x16px|link=Camel|alt=EntitySprite camel.png: Sprite image for camel in Minecraft linking to Camel|class=pixel-image|]]</span>[[Camel|<span class=""sprite-text"">Camel</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite cat.png|16x16px|link=Cat|alt=EntitySprite cat.png: Sprite image for cat in Minecraft linking to Cat|class=pixel-image|]]</span>[[Cat|<span class=""sprite-text"">Cat</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite chicken.png|16x16px|link=Chicken|alt=EntitySprite chicken.png: Sprite image for chicken in Minecraft linking to Chicken|class=pixel-image|]]</span>[[Chicken|<span class=""sprite-text"">Chicken</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite cow.png|16x16px|link=Cow|alt=EntitySprite cow.png: Sprite image for cow in Minecraft linking to Cow|class=pixel-image|]]</span>[[Cow|<span class=""sprite-text"">Cow</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite donkey.png|16x16px|link=Donkey|alt=EntitySprite donkey.png: Sprite image for donkey in Minecraft linking to Donkey|class=pixel-image|]]</span>[[Donkey|<span class=""sprite-text"">Donkey</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite fox.png|16x16px|link=Fox|alt=EntitySprite fox.png: Sprite image for fox in Minecraft linking to Fox|class=pixel-image|]]</span>[[Fox|<span class=""sprite-text"">Fox</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite frog.png|16x16px|link=Frog|alt=EntitySprite frog.png: Sprite image for frog in Minecraft linking to Frog|class=pixel-image|]]</span>[[Frog|<span class=""sprite-text"">Frog</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite goat.png|16x16px|link=Goat|alt=EntitySprite goat.png: Sprite image for goat in Minecraft linking to Goat|class=pixel-image|]]</span>[[Goat|<span class=""sprite-text"">Goat</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite hoglin.png|16x16px|link=Hoglin|alt=EntitySprite hoglin.png: Sprite image for hoglin in Minecraft linking to Hoglin|class=pixel-image|]]</span>[[Hoglin|<span class=""sprite-text"">Hoglin</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite horse.png|16x16px|link=Horse|alt=EntitySprite horse.png: Sprite image for horse in Minecraft linking to Horse|class=pixel-image|]]</span>[[Horse|<span class=""sprite-text"">Horse</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite llama.png|16x16px|link=Llama|alt=EntitySprite llama.png: Sprite image for llama in Minecraft linking to Llama|class=pixel-image|]]</span>[[Llama|<span class=""sprite-text"">Llama</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite mooshroom.png|16x16px|link=Mooshroom|alt=EntitySprite mooshroom.png: Sprite image for mooshroom in Minecraft linking to Mooshroom|class=pixel-image|]]</span>[[Mooshroom|<span class=""sprite-text"">Mooshroom</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite mule.png|16x16px|link=Mule|alt=EntitySprite mule.png: Sprite image for mule in Minecraft linking to Mule|class=pixel-image|]]</span>[[Mule|<span class=""sprite-text"">Mule</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite ocelot.png|16x16px|link=Ocelot|alt=EntitySprite ocelot.png: Sprite image for ocelot in Minecraft linking to Ocelot|class=pixel-image|]]</span>[[Ocelot|<span class=""sprite-text"">Ocelot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite panda.png|16x16px|link=Panda|alt=EntitySprite panda.png: Sprite image for panda in Minecraft linking to Panda|class=pixel-image|]]</span>[[Panda|<span class=""sprite-text"">Panda</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite pig.png|16x16px|link=Pig|alt=EntitySprite pig.png: Sprite image for pig in Minecraft linking to Pig|class=pixel-image|]]</span>[[Pig|<span class=""sprite-text"">Pig</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite rabbit.png|16x16px|link=Rabbit|alt=EntitySprite rabbit.png: Sprite image for rabbit in Minecraft linking to Rabbit|class=pixel-image|]]</span>[[Rabbit|<span class=""sprite-text"">Rabbit</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite sheep.png|16x16px|link=Sheep|alt=EntitySprite sheep.png: Sprite image for sheep in Minecraft linking to Sheep|class=pixel-image|]]</span>[[Sheep|<span class=""sprite-text"">Sheep</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite sniffer.png|16x16px|link=Sniffer|alt=EntitySprite sniffer.png: Sprite image for sniffer in Minecraft linking to Sniffer|class=pixel-image|]]</span>[[Sniffer|<span class=""sprite-text"">Sniffer</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite strider.png|16x16px|link=Strider|alt=EntitySprite strider.png: Sprite image for strider in Minecraft linking to Strider|class=pixel-image|]]</span>[[Strider|<span class=""sprite-text"">Strider</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite turtle.png|16x16px|link=Turtle|alt=EntitySprite turtle.png: Sprite image for turtle in Minecraft linking to Turtle|class=pixel-image|]]</span>[[Turtle|<span class=""sprite-text"">Turtle</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite wolf.png|16x16px|link=Wolf|alt=EntitySprite wolf.png: Sprite image for wolf in Minecraft linking to Wolf|class=pixel-image|]]</span>[[Wolf|<span class=""sprite-text"">Wolf</span>]]</span>
+</div>
+
+A trader llama does not count as a [[llama]], and a [[mule]] must be the result of breeding a [[horse]] and a [[donkey]] for this advancement as they are not breedable together. Other breedable mobs can be bred, but are ignored for this advancement.
+"", ""resourcelocation"": ""husbandry/bred_all_animals
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>100 [[experience]]
+"" }"
+
+Videos

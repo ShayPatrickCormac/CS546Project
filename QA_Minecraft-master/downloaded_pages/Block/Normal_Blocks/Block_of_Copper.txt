@@ -1,0 +1,66 @@
+Overview
+    A block of copper is a block that oxidizes over time, gaining a verdigris appearance over four stages. They can be prevented from oxidizing by being waxed with honeycombs. Non-oxidized, non-waxed copper blocks are storage blocks equivalent to nine copper ingots.
+
+Obtaining
+  Breaking
+    Blocks of copper can be mined only with a stone pickaxe or better. If a block of copper is mined without the use of a pickaxe, it drops nothing.
+
+    Block,Block of Copper
+    Hardness,3
+    Tool,stone pickaxe
+    Breaking time (sec) [A]
+    Default,15
+    Wooden,7.5
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,1.25
+
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Block of Copper,Copper Ingot,"[['Copper Ingot', 'Copper Ingot', 'Copper Ingot'], ['Copper Ingot', 'Copper Ingot', 'Copper Ingot'], ['Copper Ingot', 'Copper Ingot', 'Copper Ingot']]"
+    Waxed Block of Copper,Matching Unwaxed Block of Copper + Honeycomb,"[[None, None, None], ['', 'Honeycomb', None], [None, None, None]]"
+
+  Waxing
+    Copper blocks can be turned into the respective waxed copper blocks by using a honeycomb item on them. Waxed copper blocks do not oxidize and are identical to the non-waxed version.
+
+  Scraping
+    Using an axe on a waxed copper block turns it into the respective non-waxed copper block. In addition, using an axe on an exposed, weathered, or oxidized copper block reverts it one stage to a regular, exposed, or weathered copper block respectively.
+
+  Lightning strike
+    Non-waxed copper blocks are completely deoxidized when struck by lightning, and other non-waxed copper blocks nearby are deoxidized randomly.
+
+Usage
+    Blocks of copper can be used to store copper ingots in a compact fashion. Weathered or cut variants cannot be crafted back into copper ingots, but the waxed block variant can. The cut variant can be crafted into slabs or stairs. Stonecutting blocks of copper gives four times more products than typical for stone.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Copper Ingot,Block of Copper or Waxed Block of Copper,"[[None, None, None], [None, '', None], [None, None, None]]",
+    Unwaxed Copper Bulb,Matching Unwaxed Block of Copper + Blaze Rod + Redstone Dust,"[[None, '', None], ['', 'Blaze Rod', ''], [None, 'Redstone Dust', None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Unwaxed Copper Door,Matching Unwaxed Block of Copper,"[['', '', None], ['', '', None], ['', '', None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Unwaxed Copper Grate,Matching Unwaxed Block of Copper,"[[None, '', None], ['', None, ''], [None, '', None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Unwaxed Copper Trapdoor,Matching Unwaxed Block of Copper,"[[None, None, None], ['', '', ''], ['', '', '']]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Unwaxed Cut Copper,Matching Unwaxed Block of Copper,"[[None, None, None], ['', '', None], ['', '', None]]",
+    Waxed Copper Bulb,Matching Waxed Block of Copper + Blaze Rod + Redstone Dust,"[[None, 'Waxed Block of Copper', None], ['Waxed Block of Copper', 'Blaze Rod', 'Waxed Block of Copper'], [None, 'Redstone Dust', None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Copper Door,Matching Waxed Block of Copper,"[['Waxed Block of Copper', 'Waxed Block of Copper', None], ['Waxed Block of Copper', 'Waxed Block of Copper', None], ['Waxed Block of Copper', 'Waxed Block of Copper', None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Copper Grate,Matching Waxed Block of Copper,"[[None, 'Waxed Block of Copper', None], ['Waxed Block of Copper', None, 'Waxed Block of Copper'], [None, 'Waxed Block of Copper', None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Copper Trapdoor,Matching Waxed Block of Copper,"[[None, None, None], ['Waxed Block of Copper', 'Waxed Block of Copper', 'Waxed Block of Copper'], ['Waxed Block of Copper', 'Waxed Block of Copper', 'Waxed Block of Copper']]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Cut Copper,Matching Waxed Block of Copper,"[[None, None, None], ['Waxed Block of Copper', 'Waxed Block of Copper', None], ['Waxed Block of Copper', 'Waxed Block of Copper', None]]",
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe,Description
+    Unwaxed Cut Copper,Matching Unwaxed Block of Copper,4 4 4 4,
+    Unwaxed Cut Copper Slab,Matching Unwaxed Block of Copper,8 8 8 8,
+    Unwaxed Cut Copper Stairs,Matching Unwaxed Block of Copper,4 4 4 4,
+    Unwaxed Chiseled Copper,Matching Unwaxed Block of Copper,4 4 4 4,‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Unwaxed Copper Grate,Matching Unwaxed Block of Copper,4 4 4 4,‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Cut Copper,Matching Waxed Block of Copper,4 4 4 4,
+    Waxed Cut Copper Slab,Matching Waxed Block of Copper,8 8 8 8,
+    Waxed Cut Copper Stairs,Matching Waxed Block of Copper,4 4 4 4,
+    Waxed Chiseled Copper,Matching Waxed Block of Copper,4 4 4 4,‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Copper Grate,Matching Waxed Block of Copper,4 4 4 4,‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+
+  Oxidation
+    Non-waxed copper blocks have four stages of oxidation (including the initial normal state). Lightning bolts and axes can remove the oxidation on copper blocks. They can be waxed with a honeycomb to prevent the oxidation from progressing. As the block begins to oxidize (exposed copper), it gets discolored and green spots begin to appear. As the oxidation continues (weathered copper), the block is a green color with brown spots. In the last stage (oxidized copper), the block is teal with several green spots.
+

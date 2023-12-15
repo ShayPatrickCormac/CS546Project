@@ -1,0 +1,36 @@
+Overview
+    Netherite scrap is a material smelted from ancient debris, which is found in the Nether. It is used solely for crafting netherite ingots. Like all netherite-related items, it is not flammable.
+
+Obtaining
+  Smelting
+    Ingredients,Smelting recipe
+    Ancient Debris + Any fuel,2
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Netherite Scrap,Bastion remnant,Treasure chest,1,"24.4% { ""item"": ""Netherite Scrap"", ""stacksize"": 1, ""chance"": 0.24366529492455413, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Hoglin stable chest,1,"9.1% { ""item"": ""Netherite Scrap"", ""stacksize"": 1, ""chance"": 0.09090909090909094, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Generic chest,1,"4.5% { ""item"": ""Netherite Scrap"", ""stacksize"": 1, ""chance"": 0.0449438202247191, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bedrock Edition
+    Netherite Scrap,Bastion remnant,Treasure chest,1,"24.4% { ""item"": ""Netherite Scrap"", ""stacksize"": 1, ""chance"": 0.24366529492455413, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Hoglin stable chest,1,"9.1% { ""item"": ""Netherite Scrap"", ""stacksize"": 1, ""chance"": 0.09090909090909094, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Generic chest,1,"4.5% { ""item"": ""Netherite Scrap"", ""stacksize"": 1, ""chance"": 0.0449438202247191, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Netherite Ingot,Netherite Scrap + Gold Ingot,"[['', '', ''], ['', 'Gold Ingot', 'Gold Ingot'], ['Gold Ingot', 'Gold Ingot', None]]"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Netherite Scrap,netherite_scrap,Item,item.minecraft.netherite_scrap
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Netherite Scrap,netherite_scrap,613,Item,item.netherite_scrap.name
+

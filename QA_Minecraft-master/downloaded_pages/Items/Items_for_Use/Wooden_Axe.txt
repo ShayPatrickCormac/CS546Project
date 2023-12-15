@@ -1,0 +1,61 @@
+Overview
+    A wooden axe is the lowest tier of axe the player can obtain. It can be used to cut down trees faster, but also used as a melee weapon, and it can disable shields.
+
+Obtaining
+  Crafting
+    Wooden axes are crafted with three wooden planks and two sticks.
+
+    Ingredients,Crafting recipe,Description
+    Any Planks + Stick,"[['Oak Planks', 'Oak Planks', None], ['Oak Planks', 'Stick', None], [None, 'Stick', None]]",The planks do not need to match.
+    Damaged Matching Wooden Axe,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two axes is added together, plus an extra 5% durability."
+
+  Repairing
+    Ingredients,Grinding recipe,Description
+    2× Damaged Wooden Axe,,"The durability of the two axes is added together, plus an extra 5% of max durability."
+
+  Chest loot
+    The player will usually find a wooden axe in a bonus chest, if it is turned on.
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Wooden Axe,Bonus chest,Chest,1,"75% { ""item"": ""Wooden Axe"", ""stacksize"": 1, ""chance"": 0.75, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Upcoming Java Edition
+    Wooden Axe,Trial Chambers,Entrance chest,1,"55.1% { ""item"": ""Wooden Axe"", ""stacksize"": 1, ""chance"": 0.5508401920438958, ""structure"": ""Trial Chambers"", ""container"": ""Entrance chest"" }"
+    Bedrock Edition
+    Wooden Axe,Bonus chest,Chest,1,"75% { ""item"": ""Wooden Axe"", ""stacksize"": 1, ""chance"": 0.75, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+Usage
+  Chopping
+    Wooden axes can break wood-related blocks faster than other tools. Breaking a block will cost 1 durability.[note 1]
+
+  Durability
+    A wooden axe has 60 durability,‌[Bedrock Edition  only] or 59 durability.‌[Java Edition  only]
+
+  Stripping
+    Using a wooden axe on a log, wood block, bamboo block turns it into a stripped log, stripped wood, or stripped bamboo, respectively. This will use 1 point of durability of the axe. Using a wooden axe on a waxed or somewhat oxidized Copper block will remove the wax if it has any, or otherwise remove a level of oxidization. This costs 1 point of durability.
+
+  Weapon
+    When used as a weapon, a wooden axe will lose 2 durability points. In Bedrock Edition, wooden axes attack instantly with no cooldown and do 1 less damage than a wooden sword, but it lowers the durablility of armour and shields faster than a sword would do. In Java Edition, a wooden axe will always disable a shield, though there should be a chance of it happening.[1] Damage done by a wooden axe is equivalent to that of a diamond sword, but it has a longer cooldown.
+
+  Enchantments
+    A wooden axe can receive the following enchantments:
+
+    Name,Max Level,Method
+    Fortune [note 1],III,
+    Silk Touch [note 1],I,
+    Efficiency,V,
+    Unbreaking,III,
+    Sharpness [note 2],V,
+    Smite [note 2],V,
+    Bane of Arthropods [note 2],V,
+    Fire Aspect ‌ [ upcoming: JE Combat Tests ] [note 3],II,
+    Looting ‌ [ upcoming: JE Combat Tests ] [note 3],III,
+    Knockback ‌ [ upcoming: JE Combat Tests ] [note 3],II,
+    Cleaving ‌ [ upcoming: JE Combat Tests ] [note 2],III,
+    Sweeping Edge ‌ [ upcoming: JE Combat Tests ] [note 3],III,
+    Mending,I,
+    Curse of Vanishing,I,
+
+  Fuel
+    Wooden axes can be used as fuel in a furnace, but it smelts only one item per axe.
+

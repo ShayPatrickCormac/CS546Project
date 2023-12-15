@@ -1,0 +1,20 @@
+Overview
+    Honeycomb blocks are decorative blocks crafted from honeycombs.
+
+Obtaining
+  Breaking
+    Honeycomb blocks can be broken with any tool,[1] and always drops as an item.
+
+    Block,Honeycomb Block
+    Hardness,0.6
+    Breaking time (secs)
+    Default,0.9
+
+  Crafting
+    Ingredients,Crafting recipe
+    Honeycomb,"[['Honeycomb', 'Honeycomb', None], ['Honeycomb', 'Honeycomb', None], [None, None, None]]"
+
+Usage
+  Note Blocks
+    Honeycomb blocks can be placed under note blocks to produce flute sounds. ‌[Bedrock Edition  only][2]
+

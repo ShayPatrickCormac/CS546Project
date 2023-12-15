@@ -1,0 +1,26 @@
+Overview
+    Warped wart blocks are a decorative block found in warped forests, generating as part of huge warped fungus. 
+
+Obtaining
+  Breaking
+    Warped wart blocks can be mined using any tool or by hand, but a hoe is the fastest way to break it.
+
+    Block,Warped Wart Block
+    Hardness,1
+    Tool,Hoe
+    Breaking time (sec) [A]
+    Default,1.5
+    Wooden,0.75
+    Stone,0.4
+    Iron,0.25
+    Diamond,0.2
+    Netherite,0.2
+    Golden,0.15
+
+  Natural generation
+    Warped wart blocks generate as part of huge warped fungus which generate within warped forests
+
+Usage
+  Composting
+    Warped wart blocks can be fed into a composter with an 85% chance of leveling up the pile.
+

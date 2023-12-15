@@ -1,0 +1,36 @@
+Overview
+    The mud brick stairs are the mud bricks variant of stairs, crafted from mud bricks.
+
+Obtaining
+  Breaking
+    Mud brick stairs can be broken with wooden pickaxes or higher.
+
+    Block,Mud Brick Stairs
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Mud brick stairs generate as part of trail ruins.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Mud Bricks,"[['Mud Bricks', None, None], ['Mud Bricks', 'Mud Bricks', None], ['Mud Bricks', 'Mud Bricks', 'Mud Bricks']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Mud Bricks,
+
+Usage
+    Mud brick stairs are a type of stairs, meaning they have the following common placement mechanics:
+
+  Note blocks
+    Mud brick stairs can be placed under note blocks to produce "bass drum" sounds.
+

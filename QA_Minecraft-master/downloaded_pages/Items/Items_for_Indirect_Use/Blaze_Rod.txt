@@ -1,0 +1,56 @@
+Overview
+    Blaze rods are items exclusively obtained from blazes. They act as a fuel for both brewing and smelting, and are required to craft eyes of ender used to access to the End.
+
+Obtaining
+  Mob loot
+    When killed by a player or tamed wolf, a blaze has a 50% chance to drop a blaze rod. The Looting enchantment can increase the drops by one per level, for a maximum of 4 blaze rods. Blazes do not drop any blaze rods if killed by any other source.
+
+    Source,Roll Chance,Quantity (Roll Chance)
+    Default,Looting I,Looting II,Looting III
+    Blaze,100% [d 1],0–1,0–2,0–3,0–4
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Blaze Powder,Blaze Rod,"[[None, None, None], [None, '', None], [None, None, None]]",
+    Brewing Stand,Blaze Rod + Any stone-tier block,"[[None, '', None], ['Cobblestone', 'Cobblestone', 'Cobblestone'], [None, None, None]]",Can use cobblestone and its other variants interchangeably.
+    End Rod,Blaze Rod + Popped Chorus Fruit,"[[None, None, None], [None, '', None], [None, 'Popped Chorus Fruit', None]]",
+    Unwaxed Copper Bulb or Waxed Copper Bulb,Matching Unwaxed Block of Copper or Matching Waxed Block of Copper + Blaze Rod + Redstone Dust,"[[None, 'Block of Copper', None], ['Block of Copper', '', 'Block of Copper'], [None, 'Redstone Dust', None]]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+
+  Fuel
+    When used in a furnace, a blaze rod lasts 120 seconds (12 items).
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    into fire,into fire,"Into Fire { ""anchor"": """", ""title"": ""Into Fire"", ""icon"": """", ""title"": ""Into Fire"", ""description"": ""Relieve a [[Blaze]] of [[Blaze Rod|its rod]].
+ "", ""requirements"": ""Pick up a blaze rod from the ground.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Relieve a Blaze of its rod .,Pick up a blaze rod from the ground.,20G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Into Fire,Relieve a Blaze of its rod,A Terrible Fortress,Have a blaze rod in your inventory.,"nether/obtain_blaze_rod {""anchor"": """", ""title"": ""Into Fire"", ""icon"": ""Blaze Rod
+"", ""icon-style"": ""plain"", ""title"": ""Into Fire"", ""description"": ""Relieve a Blaze of its rod
+"", ""parent"": ""A Terrible Fortress
+"", ""requirements"": ""Have a [[blaze rod]] in your inventory.
+"", ""resourcelocation"": ""nether/obtain_blaze_rod
+"", ""rewards"": ""—
+"" }"
+
+Video
+    Note: This video does not mention the crafting of End Rods.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Blaze Rod,blaze_rod,Item,item.minecraft.blaze_rod
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Blaze Rod,blaze_rod,423,Item,item.blaze_rod.name
+

@@ -1,0 +1,12 @@
+Overview
+    This guide seeks to teach the player on how to obtain an indestructible end crystal and inform you on their uses.
+
+How to obtain one
+    There is only one known method to obtain indestructible end crystals. These are the materials you will need: At least one piston, At least one redstone power source, Lots of convenience blocks, 4 end crystals, At least one ender pearl These are the steps you will need to follow. Some of the steps are split into Singleplayer and Multiplayer because the Singleplayer ability to log out and log back in is very helpful. This works because while the dragon is respawning, the newly-generated crystals are indestructible until the dragon respawns. Logging out and logging back in on Singleplayer stops the respawning sequence. The dragon will still spawn, but the remaining towers and crystals will not. Step 2 can be scrapped for a slime block flying machine that pushes the crystal off the tower. Note: This does not work in Bedrock Edition; if the player logs off and re-enters, the respawning process will continue as normal.
+
+Uses
+    An indestructible end crystal has many quirky properties that can be exploited. An indestructible end crystal has a beam coming off it that leads to (0, 128, 0). This can be used for decoration, such as making the Star Wars Death Star's planet-destroying beam. This type of end crystal is called that because it cannot be destroyed (see below for more). This makes it ideal for inescapable traps. Simply trap the player in a room that is just big enough for the crystal and they cannot escape because the hitbox of the crystal covers the walls of the enclosure. This might not sound useful at first, but an easy music disc farm can be made this way. Skeletons try to shoot an iron golem through an indestructible end crystal, but the arrows bounce off and go downwards, hitting a creeper.
+
+How to get rid of one
+    Other than the obvious Creative Mode punch and the /kill command, there is only one way to destroy an indestructible end crystal: use it to respawn the ender dragon. This requires the player to push the end crystal to a stronghold and push it into the End, then push it to the bedrock portal and use it alongside other crystals to respawn the dragon. 
+

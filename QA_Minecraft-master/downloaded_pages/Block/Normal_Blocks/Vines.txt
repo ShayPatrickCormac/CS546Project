@@ -1,0 +1,128 @@
+Overview
+    Vines are climbable non-solid vegetation blocks that grow on walls.
+
+Obtaining
+  Breaking
+    Vines can be destroyed with any item, but using shears is the only way to collect them. Shears enchanted with Efficiency are more efficient when used on vines; Efficiency II and above allows vines to be instantly broken.[1] Using an axe on vines can also increase efficiency, but does not allow for collection, even with Silk Touch. If multiple vines exist within the same block space, breaking one of them breaks all of them instead of just the one targeted[2] and results in only a single vine dropping[3]. Shears used by a dispenser cannot break vines.
+
+    Block,Vines
+    Hardness,0.2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,0.3
+    Wooden,0.15
+    Stone,0.1
+    Iron,0.05
+    Diamond,0.05
+    Netherite,0.05
+    Golden,0.05
+    Shears,0.3
+    Sword,0.2
+
+  Natural generation
+    Vines are naturally generated in jungles, swamps and lush caves. Jungle trees of both sizes have vines on their trunks and canopy edges, and vines grow on the sides of jungle terrain. Vines are also naturally generated on oak trees in swamps and mangrove trees. In Bedrock Edition, vines can also generate on dying oak, spruce, jungle and dark oak trees. Vines are found in jungle temples and the allium room in woodland mansions. They can also generate in watchtower walls in pillager outposts.
+
+  Trading
+    Vines are sold by wandering traders for an emerald.
+
+  Post-generation
+    Vines generate on 2×2 jungle trees grown from saplings, or mangrove trees grown from propagules. In Bedrock Edition, vines generate on dying trees, which can sometimes be grown from saplings.
+
+Behavior
+    On each block tick, the vine block has a 25% chance to spread in a randomly selected direction. Their spreading can be toggled by the doVinesSpread game rule‌[Java Edition  only]. Vines spread to adjacent blocks under certain conditions:
+
+    ↑ ?,,,↑,?,to,?,,,,?
+    ,
+    ↑,?
+    ,
+    ,?
+
+    If the vine block has vines to the right and that side of the air block is backed by something vines can be placed on, spread to the right side of the air block.
+
+    ? ↑,,,?,↑,to,?,,,?,
+    ,
+    ?,↑
+    ,
+    ?,
+
+    If the vine block has vines to the left and that side of the air block is backed by something vines can be placed on, spread to the left side of the air block.
+
+    ↑,,,↑,,to,,,,,
+    ,
+    ↑,
+    ,
+    ,
+
+    [more information needed] If the vine block has vines to the right, and that side of the air block is backed by another air block, and the right side of the vine block is backed by something vines can be placed on, spread around the corner.
+
+    ↑,,,,↑,to,,,,,
+    ,
+    ,↑
+    ,
+    ,
+
+    If the vine block has vines to the left, and that side of the air block is backed by another air block, and the left side of the vine block is backed by something vines can be placed on, spread around the corner. If the air block in the target direction has something vines could be placed on above it, spread to the top side of the air block.
+If the block in the target direction is opaque and fills its whole cube, spread to that side of the ticked vine block. Vines cannot be grown using bone meal. Vines do not need light when growing.
+
+Usage
+    Vines can be placed on the side of any block that fills its whole cube and blocks entity movement. They can also be placed on the bottom side of a block (although not the bottom side of another vine[4]). However, a vine block without vines on any of the horizontal sides disappears if it gets an update from a neighboring block. Vines attached to the bottom of stairs are completely deleted by any block update.[5] Several vines can be placed in the same block space, as long as they are facing different directions. Vines can be climbed by standing next to them and holding the jump key. If there is a solid block behind the vines, the walk forward key can also be used. Vines cancel a sprint if the player is sprinting, slowing the movement speed. Vines absorb all fall damage, even without a solid surface nearby. Sneaking on vines causes the player to hang, even if the vines are not adjacent to any surface. Blocks can replace vines if placed within the same block space. However, item frames and paintings cannot.[6]
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Banner Pattern Bordure Indented,Paper + Vines,"[[None, None, None], ['Paper', '', None], [None, None, None]]",‌ [ Bedrock Edition only ]
+    Mossy Cobblestone,Cobblestone + Vines,"[[None, None, None], ['Cobblestone', '', None], [None, None, None]]",
+    Mossy Stone Bricks,Stone Bricks + Vines,"[[None, None, None], ['Stone Bricks', '', None], [None, None, None]]",
+
+  Composting
+    Placing vines into a composter has a 50% chance of raising the compost level by 1.
+
+  Color
+    These values are generated by the biome dyeing algorithm. See Biome colors for more information.
+
+    Biome,Temperature,Downfall,Foliage Color,Block
+    (Default values) The Void River Warm Ocean Lukewarm Ocean Deep Lukewarm Ocean Ocean Deep Ocean Cold Ocean Deep Cold Ocean Deep Frozen Ocean Lush Caves ‌ [ JE only ] The End End Highlands End Midlands Small End Islands End Barrens,0.5,0.5,#71a74d,
+    Lush Caves ‌ [ BE only ],0.9,0.0,#a6a432,
+    Plains Beach Sunflower Plains Dripstone Caves ‌ [ JE only ] Deep Dark,0.8,0.4,#77ab2f,
+    Dripstone Caves ‌ [ BE only ],0.2,0.0,#70a26c,
+    Snowy Plains Ice Spikes Snowy Taiga Frozen Ocean Frozen River,0.0,0.5,#60a17b,
+    Grove,-0.2,0.8
+    Snowy Slopes,-0.3,0.9
+    Frozen Peaks Jagged Peaks,-0.7,0.9
+    Desert Savanna ‌ [ JE only ] Savanna Plateau ‌ [ JE only ] Windswept Savanna Nether Wastes Warped Forest Crimson Forest Soul Sand Valley Basalt Deltas,2.0,0.0,#aea42a,
+    Savanna ‌ [ BE only ],1.2,0.0
+    Savanna Plateau ‌ [ BE only ],1.0,0.0
+    Badlands Wooded Badlands Eroded Badlands,2.0,0.0,#9e814d [n 1],
+    Swamp,0.8,0.9,#6a7039 [n 1],
+    Mangrove Swamp,0.8,0.9,#8db127 [n 1],
+    Forest Dark Forest Flower Forest,0.7,0.8,#59ae30,
+    Birch Forest Old Growth Birch Forest,0.6,0.6,#6ba941,
+    Old Growth Pine Taiga,0.3,0.8,#68a55f,
+    Old Growth Spruce Taiga Taiga,0.25,0.8,#68a464,
+    Windswept Hills Windswept Gravelly Hills Windswept Forest Stony Shore,0.2,0.3,#6da36b,
+    Jungle Bamboo Jungle,0.95,0.9,#30bb0b,
+    Sparse Jungle,0.95,0.8,#3eb80f,
+    Meadow,0.5,0.8,#63a948,
+    Cherry Grove,0.5,0.8,#b6db61 [n 1],
+    Stony Peaks,1.0,0.3,#82ac1e,
+    Snowy Beach,0.05,0.3,#64a278,
+    Mushroom Fields,0.9,1.0,#2bbb0f,
+
+    Unused biomes in Bedrock Edition.
+
+    Biome,Temperature,Downfall,Foliage Color,Block
+    (Default values) Deep Warm Ocean,0.5,0.5,#71a74d,
+    Snowy Mountains Legacy Frozen Ocean,0.0,0.5,#60a17b,
+    Snowy Taiga Hills Snowy Taiga Mountains,-0.5,0.4
+    Taiga Hills Taiga Mountains,0.25,0.8,#68a464,
+    Desert Hills Desert Lakes,2.0,0.0,#aea42a,
+    Badlands Plateau Modified Badlands Plateau Modified Wooded Badlands Plateau,2.0,0.0,#9e814d [n 1],
+    Shattered Savanna Plateau,1.0,0.5,#64b216,
+    Swamp Hills,0.8,0.5,#6a7039 [n 1],
+    Wooded Hills Tall Birch Hills,0.7,0.8,#59ae30,
+    Birch Forest Hills,0.6,0.6,#6ba941,
+    Giant Tree Taiga Hills Giant Spruce Taiga Hills,0.3,0.8,#68a55f,
+    Gravelly Mountains+ Mountain Edge,0.2,0.3,#6da36b,
+    Jungle Hills Modified Jungle Bamboo Jungle Hills,0.95,0.9,#30bb0b,
+    Modified Jungle Edge,0.95,0.8,#3eb80f,
+    Mushroom Field Shore,0.9,1.0,#2bbb0f,
+

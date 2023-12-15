@@ -1,0 +1,31 @@
+Overview
+    A prismarine brick slab is the prismarine bricks variant of slabs, crafted from prismarine bricks.
+
+Obtaining
+  Breaking
+    Prismarine brick slabs can be broken with wooden pickaxes or higher.
+
+    Block,Prismarine Brick Slab
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Crafting
+    Ingredients,Crafting recipe
+    Prismarine Bricks,"[[None, None, None], [None, None, None], ['Prismarine Bricks', 'Prismarine Bricks', 'Prismarine Bricks']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Prismarine Bricks,2
+
+Usage
+  Note blocks
+    Prismarine brick slabs can be placed under note blocks to produce "bass drum" sounds.
+

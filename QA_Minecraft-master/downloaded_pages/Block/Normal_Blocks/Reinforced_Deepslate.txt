@@ -1,0 +1,17 @@
+Overview
+    Reinforced deepslate is a block that generates exclusively in ancient cities. It has high hardness, is immune to explosions, and cannot be obtained in Survival mode.
+
+Obtaining
+    Reinforced deepslate is not obtainable in Survival, even with Silk Touch, and is only available through the Creative inventory or commands. It cannot be pushed by a piston, is highly blast resistant, has higher hardness than obsidian, and cannot be destroyed by the wither or the ender dragon.
+
+  Breaking
+    Reinforced deepslate has no tool associated with it, meaning it is mined at the exact same speed regardless of the tool used.
+
+    Block,Reinforced Deepslate
+    Hardness,55
+    Breaking time (secs)
+    Default,82.5
+
+  Natural generation
+    56 blocks of reinforced deepslate are found in the central part of each ancient city, creating a portal-like frame structure.
+

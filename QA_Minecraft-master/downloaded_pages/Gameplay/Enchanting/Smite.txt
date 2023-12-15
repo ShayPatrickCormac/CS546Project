@@ -1,0 +1,58 @@
+Overview
+    Smite is an enchantment applied to a sword or axe, increasing the damage dealt to undead mobs.
+
+Usage
+    Smite applied to a sword or axe increases damage dealt to skeletons, zombies, zombie villagers, withers, wither skeletons, zombified piglins, skeleton horses, zombie horses, strays, husks, phantoms, drowned, and zoglins. Each level separately adds 2.5 × 1.25 extra damage on each hit to undead mobs.
+
+  Damage per hit
+    These tables detail how much damage is done per attack based on the level of enchantment used, assuming the target is not wearing armor and the attack is fully charged.‌[Java Edition  only] Critical damage is in parentheses.
+
+    Swords
+    Weapon,Base damage,Smite I,Smite II,Smite III,Smite IV,Smite V
+    Wooden sword,4 (6),6.5 (8.5),9 (11),11.5 (13.5),14 (16),16.5 (18.5)
+    Gold sword,4 (6),6.5 (8.5),9 (11),11.5 (13.5),14 (16),16.5 (18.5)
+    Stone sword,5 (7.5),7.5 (10),10 (12.5),12.5 (15),15 (17.5),17.5 (20)
+    Iron sword,6 (9),8.5 (11.5),11 (14),13.5 (16.5),16 (19),18.5 (21.5)
+    Diamond sword,7 (10.5),9.5 (13),12 (15.5),14.5 (18),17 (20.5),19.5 (23)
+    Netherite sword,8 (12),10.5 (14.5),13 (17),15.5 (19.5),18 (22),20.5 (24.5)
+    Axes
+    Weapon,Base damage,Smite I,Smite II,Smite III,Smite IV,Smite V
+    Wooden axe,7 (10.5),9.5 (13),12 (15.5),14.5 (18),17 (20.5),19.5 (23)
+    Gold axe,7 (10.5),9.5 (13),12 (15.5),14.5 (18),17 (20.5),19.5 (23)
+    Stone axe,9 (13.5),11.5 (16),14 (18.5),16.5 (21),19 (23.5),21.5 (26)
+    Iron axe,9 (13.5),11.5 (16),14 (18.5),16.5 (21),19 (23.5),21.5 (26)
+    Diamond axe,9 (13.5),11.5 (16),14 (18.5),16.5 (21),19 (23.5),21.5 (26)
+    Netherite axe,10 (15),12.5 (17.5),15 (20),17.5 (22.5),20 (25),22.5 (27.5)
+
+    Swords
+    Weapon,Base damage,Smite I,Smite II,Smite III,Smite IV,Smite V
+    Wooden sword,4 (7.5),7.5 (10),10 (12.5),12.5 (15),15 (17.5),17.5 (20)
+    Gold sword,4 (7.5),7.5 (10),10 (12.5),12.5 (15),15 (17.5),17.5 (20)
+    Stone sword,5 (9),8.5 (11.5),11 (14),13.5 (16.5),16 (19),18.5 (21.5)
+    Iron sword,6 (10.5),8.5 (13),11 (15.5),13.5 (18),17 (20.5),19.5 (23)
+    Diamond sword,7 (12),10.5 (14.5),13 (17),15.5 (19.5),18 (22),20.5 (24.5)
+    Netherite sword,8 (13.5),11.5 (16),14 (18.5),16.5 (21),19 (23.5),21.5 (26)
+    Axes
+    Weapon,Base damage,Smite I,Smite II,Smite III,Smite IV,Smite V
+    Wooden axe,3 (6),6.5 (8.5),9 (11),11.5 (13.5),14 (16),16.5 (18.5)
+    Gold axe,3 (6),6.5 (8.5),9 (11),11.5 (13.5),14 (16),16.5 (18.5)
+    Stone axe,4 (7),7.5 (9.5),10 (12),12.5 (14.5),15 (17),17.5 (19.5)
+    Iron axe,5 (9),8.5 (11.5),11 (14),13.5 (16.5),16 (19),18.5 (21.5)
+    Diamond axe,6 (10),9.5 (12.5),12 (15),14.5 (17.5),17 (20),19.5 (22.5)
+    Netherite Axe,7 (12),10.5 (14.5),13 (17),15.5 (19.5),18 (22),20.5 (24.5)
+
+Incompatibilities
+    Sharpness, Smite, Cleaving,‌[upcoming: JE Combat Tests] and Bane of Arthropods are mutually exclusive. However, if commands are used to have two or more of these enchantments on the same item, the effects stack.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Smite,smite,enchantment.minecraft.smite
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Smite,smite,10,enchantment.damage.undead
+

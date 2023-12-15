@@ -1,0 +1,18 @@
+Overview
+    The warped forest is a biome found in the Nether. It is a relatively safe biome because no hostile mobs spawn there naturally.
+
+Description
+    The warped forest is dense and has a cyan color scheme. The forest's fog and particles have a dark royal blue tone, and the fog appears lilac with Night Vision. The floor of the biome is composed mostly of warped nylium, with some netherrack and warped wart blocks generating on the surface. The vegetation of the biome includes fungi, warped roots, huge warped fungi, and twisting vines growing from the ground. Large overhangs extend over the oceans of lava. Blobs of glowstone generate in the ceiling, and shroomlights generate on the huge fungus scattered around the forest. In general, the warped forest is much safer than other Nether biomes. Only two types of mob usually spawn here: endermen on solid terrain, and striders on lava. Endermen also spawn at much lower density than in the End. However, hostile mobs may still spawn in fortresses and bastion remnants. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size,Charge [note 1],Budget [note 1]
+    Monster category
+    Enderman,1,4,1.0,0.12
+    Creature category
+    Strider,1,1–2,—,—
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Enderman,1,1
+    Creature category
+    Strider,1,2–4
+

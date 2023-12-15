@@ -1,0 +1,22 @@
+Overview
+    Blast Protection is an armor enchantment that reduces damage taken from explosions and fireworks.
+
+Usage
+    Blast Protection reduces the damage the user takes from all explosions, including, but not limited to, Creepers, TNT, Beds/Respawn Anchors, and even Firework Rockets. The formula for damage reduction by explosions is (8 × level)%, meaning that for every additional level another 8% of the damage is negated. The highest level (Blast Protection IV) absorbs 32% of the damage inflicted by any explosion. In Java Edition, Blast Protection has the side effect of reducing knockback created from explosions by (15 × level)%, up to a maximum of 60% from Blast Protection IV. This effect does not stack on multiple armor pieces; if multiple pieces have the enchantment, only the highest level's knockback reduction is used. Damage reduction from Protection, Fire Protection, Feather Falling, Blast Protection, and Projectile Protection stacks up to an upper limit cap of 80%.  Any further damage reduction that would normally be applied is instead ignored.  This cap can be reached with 10 combined levels of Blast Protection on the player's armor, or by combining 12 levels of Protection with 4 levels of Blast Protection.
+
+Incompatibilities
+    Protection, Blast Protection, Fire Protection, and Projectile Protection are mutually exclusive.  Attempting to combine these enchantments with an anvil will delete the enchantment in the upgrade slot and replace it with the enchantment in the sacrifice slot.  However, if commands are used to force  two or more of these enchantments on the same item, the effects stack.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Blast Protection,blast_protection,enchantment.minecraft.blast_protection
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Blast Protection,blast_protection,3,enchantment.protect.explosion
+
+Video

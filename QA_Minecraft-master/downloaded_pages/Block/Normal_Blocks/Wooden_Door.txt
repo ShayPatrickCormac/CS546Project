@@ -1,0 +1,46 @@
+Overview
+    A wooden door is a block that can be used as a barrier that can be opened by hand or with redstone.
+
+Obtaining
+    Wooden doors can be found in any Overworld biome, and can also be crafted from any type of wood as well as materials found in the Nether. Some have built-in openings that are useful for determining the time of day.
+
+  Breaking
+    Wooden doors can be broken with anything, but axes are fastest. Wooden doors drop themselves if they no longer have a block beneath them that can support them.
+
+    Block,Oak Spruce Birch Jungle Acacia Dark Oak Mangrove Cherry Bamboo Crimson Warped
+    Hardness,3
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,4.5
+    Wooden,2.25
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,0.4
+
+    Wooden doors require a solid block beneath them for support. if that block is no longer supporting, due to breaking or changing, the door will drop itself as an item. Pistons can also break doors, pushing the piston head or any block into the door causes the door to break.
+
+  Natural generation
+    Wooden doors generate in some generated structures, forming the entrances to the majority of buildings. Wooden doors do not generate in zombie villages. Oak Oak doors generate as part of: Spruce Spruce doors generate as part of: Jungle Jungle doors generate as part of: Acacia Acacia doors generate as part of: Dark oak Dark oak doors generate as part of:
+
+  Crafting
+    Ingredients,Crafting recipe
+    Matching Planks,"[['Oak Planks', 'Oak Planks', None], ['Oak Planks', 'Oak Planks', None], ['Oak Planks', 'Oak Planks', None]]"
+
+Usage
+    Wooden doors can be opened and closed by players, villagers, piglins, wandering traders‌[BE  only] and vindicators‌[JE  only].
+In Hard difficulty, wooden doors can be broken by vindicators and all variants of zombies except drowned.
+
+  Barrier
+    To open or close a wooden door, use the Use Item/Place Block control. When a door opens or closes, it immediately changes its orientation without affecting anything in the space it "swings through". Some zombies can break wooden doors in Hard difficulty. Zombies have a 5% chance to spawn with the ability to break doors. Vindicators spawned from a raid in Normal and Hard difficulty can also break wooden doors, but they do so only to reach targeted players, villagers, or wandering traders. Some vindicators may sometimes open a wooden door instead of breaking it.‌[Java Edition  only] Both zombies and vindicators attempt to break wooden doors only when in their "closed" state, even if a door is placed so that its "open" state blocks access (for example, by facing sideways when placing a door so that it allows passage when closed and blocks passage when open).
+
+  Redstone component
+    Wooden doors can be controlled with redstone power. A wooden door is a redstone mechanism component and can be activated by  weakly powering any cardinally adjacent block. When activated, the wooden door immediately opens. When deactivated, it immediately closes. Players and mobs can still open and close a door that is controlled by a redstone signal. All methods of activating a door can be applied to either the top or bottom parts of a door.
+
+  Fuel
+    Overworld wooden doors can be used as a fuel in furnaces, smelting 1 item per door.
+
+  Note blocks
+    Wooden doors can be placed under note blocks to produce "bass" sound.
+

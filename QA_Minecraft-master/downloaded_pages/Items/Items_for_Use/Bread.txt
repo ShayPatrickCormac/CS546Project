@@ -1,0 +1,65 @@
+Overview
+    Bread is a food item that can be eaten by the player.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe
+    Wheat,"[[None, None, None], ['Wheat', 'Wheat', 'Wheat'], [None, None, None]]"
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Bread,Monster Room,Chest,1,"34.1% { ""item"": ""Bread"", ""stacksize"": 1, ""chance"": 0.34095616000000006, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,1–3,"38.7% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.38688472290717413, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bonus chest,Chest,1–2,"61.5% { ""item"": ""Bread"", ""stacksize"": ""1–2"", ""chance"": 0.6153268219383922, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1–3,"33.2% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.3316874999999999, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Storeroom chest,1–3,"47.5% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.4753516873195087, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Village,Mason's chest,1–4,"62.2% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.6215662562989337, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+    Tanner's chest,1–4,"62.8% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.6275796890258789, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Desert house chest,1–4,"80.6% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.8060478337988324, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+    Taiga house chest,1–4,"65.6% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.6556091848091459, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Savanna house chest,1–4,"71.7% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.7169464744127282, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Cartographer's chest,1–4,"61.2% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.611766, ""structure"": ""Village"", ""container"": ""Cartographer's chest"" }"
+    Temple chest,1–4,"89.3% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.8932644437669621, ""structure"": ""Village"", ""container"": ""Temple chest"" }"
+    Armorer's chest,1–4,"80.6% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.8062499999999999, ""structure"": ""Village"", ""container"": ""Armorer's chest"" }"
+    Toolsmith's chest,1–3,"81.2% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.812436743998568, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Snowy house chest,1–4,"66.3% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.662802357880901, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Weaponsmith's chest,1–3,"59.8% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.5984756201896029, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Plains house chest,1–4,"74.2% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.7422481146272464, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Woodland mansion,Chest,1,"34.1% { ""item"": ""Bread"", ""stacksize"": 1, ""chance"": 0.34095616000000006, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Bread,Monster Room,Chest,1,"34.1% { ""item"": ""Bread"", ""stacksize"": 1, ""chance"": 0.34095616000000006, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,1–3,"38.7% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.38688472290717413, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bonus chest,Chest,1–2,"100% { ""item"": ""Bread"", ""stacksize"": ""1–2"", ""chance"": 1, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1–3,"32.3% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.32265486450878544, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Storeroom chest,1–3,"40% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.40018245990447665, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Village,Mason's chest,1–4,"62.2% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.6215662562989337, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+    Tanner's chest,1–4,"62.8% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.6275796890258789, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Desert house chest,1–4,"80.6% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.8060478337988324, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+    Taiga house chest,1–4,"69.3% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.6929135530018191, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Savanna house chest,1–4,"71.7% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.7169464744127282, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Cartographer's chest,1–4,"61.2% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.611766, ""structure"": ""Village"", ""container"": ""Cartographer's chest"" }"
+    Temple chest,1–4,"89.3% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.8932644437669621, ""structure"": ""Village"", ""container"": ""Temple chest"" }"
+    Armorer's chest,1–4,"80.6% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.8062499999999999, ""structure"": ""Village"", ""container"": ""Armorer's chest"" }"
+    Toolsmith's chest,1–3,"81.2% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.812436743998568, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Snowy house chest,1–4,"66.3% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.662802357880901, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Weaponsmith's chest,1–3,"59.8% { ""item"": ""Bread"", ""stacksize"": ""1–3"", ""chance"": 0.5984756201896029, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Plains house chest,1–4,"74.2% { ""item"": ""Bread"", ""stacksize"": ""1–4"", ""chance"": 0.7422481146272464, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Woodland mansion,Chest,1,"34.1% { ""item"": ""Bread"", ""stacksize"": 1, ""chance"": 0.34095616000000006, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+  Trading
+    Novice-level farmer villagers sell 6 bread for one emerald as part of their trades. In Java Edition they only have a 40% chance of offering this trade.
+
+  Villager gifts
+    Farmer villagers may use wheat they have harvested to craft bread, which they can trade with other villagers. Farmer villagers may throw bread at players under the Hero of the Village effect.‌[Java Edition  only]
+
+Usage
+  Food
+    Bread can be eaten with the use control while it is selected in the hotbar. Eating bread restores 5 () hunger and 6.0 hunger saturation.
+
+  Breeding
+    Villagers can pick up bread items to become willing, allowing them to breed. Villagers require 3 bread to become willing.
+
+  Composting
+    Placing bread into a composter has an 85% chance of raising the compost level by 1. It is more efficient to compost wheat than bread made from wheat.
+

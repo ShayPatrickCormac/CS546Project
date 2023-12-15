@@ -1,0 +1,21 @@
+Overview
+    Luck is a status effect that makes it more likely to receive better loot from certain loot tables, contrary to Bad Luck.
+
+Effect
+    Adds 1 × level to attribute generic.luck, making loot table entries with a high quality score more likely, and entries with negative quality less likely. It also increases the chances of bonus_rolls occurring. Currently, only fishing uses quality. The new weight of each entry is floor(base_weight + quality * generic.luck). Negative levels decrease luck. Using a fishing rod enchanted with Luck of the Sea increases a player's generic.luck attribute, but doesn't actually grant the Luck status effect.
+
+Causes
+    Cause,Potency,Length
+    Potion of Luck [tn 1],I,5:00
+    Splash Potion of Luck [tn 1],I,5:00
+    Lingering Potion of Luck [tn 1],I,1:15
+    Arrow of Luck,I,0:37
+
+Immune mobs
+    While no mobs, except bosses, are immune to Luck, only players are actually affected.
+
+Data values
+  ID
+    Name,Identifier,Numeric ID,Translation key
+    Luck,luck,26,effect.minecraft.luck
+

@@ -1,0 +1,98 @@
+Overview
+    An iron pickaxe has a mining level of 2. It is crafted with three iron ingots and two sticks, giving one iron pickaxe as a result. An iron pickaxe can mine any ore in the game, including diamond ore, which drops material to craft the fourth tier of pickaxe, the diamond pickaxe.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Iron Ingot + Stick,"[['Iron Ingot', 'Iron Ingot', 'Iron Ingot'], [None, 'Stick', None], [None, 'Stick', None]]",
+    Damaged Iron Pickaxes,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two pickaxes is added together, plus an extra 5% durability."
+
+  Repairing
+    Ingredients,Grinding recipe
+    Damaged Iron Pickaxes,
+
+    Iron pickaxes can be repaired in an anvil by adding iron ingots, with each ingot restoring 25% of the pickaxe's maximum durability, rounded down.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Iron Pickaxe,Mineshaft,Chest,1,"7% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.07042253521126762, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Stronghold,Storeroom chest,1,"4% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.03967744439487575, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Altar chest,1,"12% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.12006249999999996, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Toolsmith's chest,1,"41.2% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.4118208436710489, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Pickaxe [A],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Upcoming Java Edition
+    Enchanted Iron Pickaxe [B],Trial Chambers,Reward chest,1,"10.5% { ""item"": ""Enchanted Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.10517806160781373, ""structure"": ""Trial Chambers"", ""container"": ""Reward chest"" }"
+    Bedrock Edition
+    Iron Pickaxe,Mineshaft,Chest,1,"7% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.07042253521126762, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Stronghold,Storeroom chest,1,"3.2% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.03196665510523944, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Altar chest,1,"11.6% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.11648616558453506, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Toolsmith's chest,1,"41.2% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.4118208436710489, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Pickaxe [A],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Pickaxe"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+
+  Mob loot
+    In Bedrock Edition, pillagers and vindicators have a chance of dropping a damaged iron pickaxe when killed during a raid. The pickaxe has a 50% chance of being enchanted with random enchantment(s).
+
+  Trading
+    In Bedrock Edition, journeyman-level toolsmith villagers have a 25% chance to sell enchanted iron pickaxes for 3 emeralds. In Java Edition, journeyman-level toolsmith villagers have a 40% chance to sell an enchanted iron pickaxe for 7–22 emeralds. The enchantments are the same as the ones obtained from an enchantment table at levels 5–19.
+
+Usage
+  Mining
+    An iron pickaxe is used to break stone and metal-based materials faster. Breaking a block with an iron pickaxe consumes one use (one durability point). No durability is consumed for blocks that have a hardness value of 0, such as torches and flowers. An iron pickaxe or better is required to mine the following blocks:
+
+  Weapon
+    All pickaxes have an attack speed modifier of -2.8, meaning they take about 0.83 seconds to recover. Iron pickaxes do 4 damage per attack, or 4.8 damage per second. All pickaxes attack instantly, with iron pickaxes doing 5 damage per attack.
+
+  Enchantments
+    An iron pickaxe can receive the following enchantments:
+
+    Name,Description,Max Level,Method,Weight
+    Efficiency,Increases the mining speed.,V,,10
+    Fortune [note 1],Increases the amount of drops when mining.,III,,2
+    Silk Touch [note 1],Causes blocks to drop themselves when mined.,I,,1
+    Unbreaking,Grants a chance to negate durability consumption.,III,,5
+    Mending,Repairs the pickaxe when obtaining experience .,I,,2
+    Curse of Vanishing,"The pickaxe vanishes on death, not dropping as an item.",I,,1
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Iron Nugget,Iron Pickaxe + Any fuel,0.1
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Iron Pickaxe,iron_pickaxe,Item,item.minecraft.iron_pickaxe
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Iron Pickaxe,iron_pickaxe,297,Item,item.iron_pickaxe.name
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    time to mine,time to mine,"Time to Mine! { ""anchor"": """", ""title"": ""Time to Mine!"", ""icon"": """", ""title"": ""Time to Mine!"", ""description"": ""Use planks and sticks to make a pickaxe.
+ "", ""requirements"": ""Pick up any type of [[pickaxe]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""10G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Miner Headband"" headwear
+"" }",Use planks and sticks to make a pickaxe.,Pick up any type of pickaxe from a crafting table output.,10G,Bronze
+    moar tools,moar tools,"MOAR Tools { ""anchor"": """", ""title"": ""MOAR Tools"", ""icon"": """", ""title"": ""MOAR Tools"", ""description"": ""Construct one type of each tool.
+ "", ""requirements"": ""Construct one [[pickaxe]], one [[shovel]], one [[axe]], and one [[hoe]] with the same material.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Construct one type of each tool.,"Construct one pickaxe , one shovel , one axe , and one hoe with the same material.",15G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Isn't It Iron Pick,Upgrade your Pickaxe,Acquire Hardware,Have an iron pickaxe in your inventory.,"story/iron_tools {""anchor"": """", ""title"": ""Isn't It Iron Pick"", ""icon"": ""Iron Pickaxe
+"", ""icon-style"": ""plain"", ""title"": ""Isn't It Iron Pick"", ""description"": ""Upgrade your Pickaxe
+"", ""parent"": ""Acquire Hardware
+"", ""requirements"": ""Have an [[iron pickaxe]] in your inventory.
+"", ""resourcelocation"": ""story/iron_tools
+"", ""rewards"": """" }"
+

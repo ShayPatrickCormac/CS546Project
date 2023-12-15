@@ -1,0 +1,55 @@
+Overview
+    Soul sand is a block found naturally only in the Nether and ancient cities. Soul sand usually slows down the movement of mobs and players walking on it. It is also used for growing nether wart, for crafting soul-related blocks, for creating a bubble column, and for constructing a wither.
+
+Obtaining
+  Breaking
+    Soul sand can be mined with any tool or by hand, but shovels are the quickest.
+
+    Block,Soul Sand
+    Hardness,0.5
+    Tool,Shovel
+    Breaking time (sec) [A]
+    Default,0.75
+    Wooden,0.4
+    Stone,0.2
+    Iron,0.15
+    Diamond,0.1
+    Netherite,0.1
+    Golden,0.1
+
+  Natural generation
+    Soul sand is found below Y=34 in the nether wastes, generally in four-block-deep layers. It is also found naturally in nether wart rooms of nether fortresses. Soul sand also generates in hoglin stables and housing unit bastion remnants. Soul sand also generates in soul sand valleys as part of the surface terrain. Soul sand can generate in the Nether in the form of ore blobs. Soul sand attempts to generate 12 times per chunk in blobs of size 0-23, from altitudes 0 to 31‌[JE  only] or 32‌[BE  only] , in soul sand valleys. It can replace only netherrack. Soul sand is also found in ancient cities, making it the only location to find soul sand in the Overworld.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Soul Sand,Bastion remnant,Hoglin stable chest,2–7,"22.8% { ""item"": ""Soul Sand"", ""stacksize"": ""2–7"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Bedrock Edition
+    Soul Sand,Bastion remnant,Hoglin stable chest,2–7,"22.8% { ""item"": ""Soul Sand"", ""stacksize"": ""2–7"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+
+  Bartering
+    Piglins may barter 2–8 soul sand when given a gold ingot‌.
+
+Usage
+    Movement on or just above soul sand is slowed down for any mob or player that is not wearing boots enchanted with Soul Speed by 50%, and standing on soul sand causes entities to sink 2 pixels into the block. A cover with solid blocks of any non-zero physical thickness prevents sinking, and any solid cover thicker than half a block eliminates the slowing effect, too. The effect applies to sneaking, walking, sprinting, and crawling (but not gliding[needs testing]), and to both regular and sprint-swimming. It also applies to riding mounts. Traveling by boat is slowed down, too, although this requires water no more than 2/8 a block in depth for the boat to sit low enough to be affected. Furthermore, it does not matter whether the player or mob moves actively or is being moved, like by flowing water. Most blocks that can be placed on full blocks can be placed on soul sand, with the notable exceptions of both types of fungi, both types of nether roots, and nether sprouts.[1] In addition, a falling block that lands on soul sand turns into an item,[2] which prevents gravel from replacing lava if soul sand is underneath. A hopper underneath a soul sand block can collect items that are dropped on it. Soul sand cannot be used in place of regular sand as a falling block because it is not affected by gravity. Striders are slowed down by soul sand underneath a layer of lava.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Soul Campfire,Stick + Soul Sand + Any Log or Stem or Any Stripped Log or Stem or Any Wood or Hyphae or Any Stripped Wood or Hyphae,"[[None, 'Stick', None], ['Stick', '', 'Stick'], ['Oak Log', 'Oak Log', 'Oak Log']]"
+    Soul Torch,Charcoal + Stick + Soul Sand,"[[None, 'Charcoal', None], [None, 'Stick', None], [None, '', None]]"
+
+  Growing nether wart
+    Soul sand is used for growing nether wart, a primary base ingredient for many varieties of potions. Nether warts can be placed on soul sand like seeds on farmland and over time they grow through four growth stages (placing the nether wart on soul sand grants the "A Seedy Place" advancement‌[Java Edition  only]). Nether warts can grow in any dimension and do not have any light-level requirements. Nether warts can also be placed only in soul sand (and cannot even be placed in soul soil).
+
+  Withers
+    Four blocks of soul sand (or soul soil) are used in the construction of the wither. The four blocks are arranged in a "T"-like formation (similar to the summoning of an iron golem) and 3 wither skeleton skulls are placed in a row on top of the "T" to summon the wither.
+
+  Bubble columns
+    Placing soul sand under source water blocks creates a lifting bubble column, which causes items, entities, players, and mobs inside the column to rise to the surface. The bubble column extends upward through any number of empty water source blocks (not waterlogged blocks). A player can restore breath by entering a soul sand's bubble column.
+
+  Note blocks
+    Soul sand can be placed under note blocks to produce cowbell sounds.
+
+  Fire
+    Fire lit on soul sand becomes soul fire, which burns indefinitely. Because soul sand is not as high as a full block, a player is set on fire if standing next to lava while on soul sand.[3] Standing near water while on soul sand extinguishes the player.
+

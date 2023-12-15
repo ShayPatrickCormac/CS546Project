@@ -1,0 +1,60 @@
+Overview
+    A carved pumpkin is a carved version of a pumpkin that can be worn or used to spawn golems. It can be made by using shears on a pumpkin placed in the world.
+
+Obtaining
+  Breaking
+    Carved pumpkins can be mined using any tool, but axes are the quickest way.
+
+    Block,Carved Pumpkin
+    Hardness,1
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,1.5
+    Wooden,0.75
+    Stone,0.4
+    Iron,0.25
+    Diamond,0.2
+    Netherite,0.2
+    Golden,0.15
+    Sword,1
+
+    When a carved pumpkin is pushed by a piston, it breaks and drops as an item. It cannot be pulled.
+
+  Natural generation
+    Carved pumpkins generate in rail rooms in woodland mansions, as well as in pillager outposts as a part of scarecrows.
+
+  Mob loot
+    The carved pumpkin of a snow golem can be obtained by shearing its head, revealing the golem's face. The carved pumpkin cannot be put back on the golem.
+
+  Post-generation
+    A carved pumpkin (and 4 pumpkin seeds in Java Edition or 1 unit of pumpkin seeds in Bedrock Edition) is obtained by using shears on an uncarved pumpkin. Once carved, a pumpkin cannot be changed back to uncarved. This changes the rotation of the top texture.[1]
+
+Usage
+    When placed, a carved pumpkin automatically faces the player.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Jack o'Lantern,Carved Pumpkin + Torch,"[[None, None, None], [None, '', None], [None, 'Torch', None]]"
+
+  Helmet
+    A carved pumpkin can be equipped as a helmet without any actual armor value. When worn, it limits the player's viewing area to a mask pattern that resembles the pumpkin's carved face. The pattern does not appear when using the third-person view (toggled by F5 by default). It also doesn't appear when the heads-up display is disabled by pressing F1.[2]‌[Java Edition  only] A player wearing a carved pumpkin does not aggravate endermen when looking at them.
+
+  Dispensers
+    Dispensers can equip a carved pumpkin on a player, mob or armor stand with an empty helmet slot, within the block the dispenser is facing. It can also place the carved pumpkin as a block, if a snow or iron golem can be spawned after the pumpkin is placed.
+
+  Building golems
+    Carved pumpkins can be used to make snow golems and iron golems as shown below. Snow golems require snow blocks for their bodies, while iron golems require iron blocks. The carved pumpkin must be placed last or the golem does not spawn. The orientation of the carved pumpkin does not matter while building an iron golem or snow golem.
+
+  Enchantments
+    Carved Pumpkins can receive the following enchantments, but only through an anvil.
+
+    Name,Max Level,Method
+    Curse of Binding,I,
+    Curse of Vanishing,I,
+
+  Composting
+    Placing a carved pumpkin into a composter has a 65% chance of raising the compost level by 1.
+
+  Note blocks
+    Carved pumpkins do not produce didgeridoo sounds when placed under a note block, unlike regular pumpkins.[3]
+

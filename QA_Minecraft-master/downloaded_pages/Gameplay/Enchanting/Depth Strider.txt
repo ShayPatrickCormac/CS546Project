@@ -1,0 +1,22 @@
+Overview
+    Depth Strider is a boot enchantment that increases underwater movement speed.
+
+Usage
+    Every level reduces the amount water slows the player by ⅓, including reducing the speed at which flowing water pushes the player when standing still. An armor stand carrying armor enchanted with Depth Strider also moves more slowly when being pushed by water. Level 3 lets the player swim as fast as walking on land. Any higher level has no effect on speed. Also at level 3, a speed potion affects the player's swimming the same as walking. If the player has the Dolphin's Grace‌[JE  only] effect, bonuses from both are combined and the player can move at a high speed through water.[1] Depth Strider can normally be applied only to boots. However, using commands, the enchantment still works if applied to other types of armor (such as a helmet). In Java Edition, Depth Strider can be applied to horse armor in Creative mode and works when worn by a horse. Depth strider only affects horizontal movement speed in water. Vertical movement speed is not affected.[2]
+
+Incompatibilities
+    Depth Strider and Frost Walker are mutually exclusive. However, if combined using commands, both enchantments function normally.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Depth Strider,depth_strider,enchantment.minecraft.depth_strider
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Depth Strider,depth_strider,7,enchantment.waterWalker
+
+Video

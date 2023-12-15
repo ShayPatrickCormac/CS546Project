@@ -1,0 +1,31 @@
+Overview
+    Lingering potions are variants of splash potions that can be thrown to leave clouds with status effects that linger on the ground in an area.
+
+Obtaining
+  Brewing
+    Ingredients,Brewing recipe
+    Dragon's Breath + Any Splash Potion,input:Dragon's Breath | output:Lingering Water Bottle; Awkward Lingering Potion; Thick Lingering Potion; Mundane Lingering Potion; Lingering Potion of Regeneration; Lingering Potion of Swiftness; Lingering Potion of Fire Resistance; Lingering Potion of Poison; Lingering Potion of Healing; Lingering Potion of Night Vision; Lingering Potion of Weakness; Lingering Potion of Strength; Lingering Potion of Slowness; Lingering Potion of Leaping; Lingering Potion of Harming; Lingering Potion of Water Breathing; Lingering Potion of Invisibility; Lingering Potion of Slow Falling; Lingering Potion of Luck; Lingering Potion of Decay; Lingering Potion of the Turtle Master
+
+Usage
+  Creating area effect clouds
+    Lingering potions are thrown, like splash potions, by using them. On impact they explode, creating a cloud. The cloud is made of the potion particles corresponding to the potion that was thrown. The cloud starts with a radius of 3 blocks, decreasing to 0 over the course of 30 seconds. During the cloud's existence, any player or mob that walks into it after the first second gets the corresponding status effect; this decreases the radius by a 1⁄2 block immediately, reducing the cloud's lifespan by 5 seconds. For effects with duration, the duration applied by the cloud is 1⁄4 that of the corresponding potion. For effects without duration such as healing or harming, the potency of the effect is 1⁄2 that of the corresponding potion. The effect may be applied consecutively if the player or mob remains in the cloud. For example, a player throwing the Lingering Potion of Healing II straight down consumes the cloud within a few seconds while being healed 5 times for a total of 20 × 10 health. As far as healing is concerned, this makes the lingering potion much more powerful than the regular or splash potion, provided that the player is away from other mobs or players. Lingering potions can also be thrown out of dispensers like splash potions.
+
+  Lingering water bottle
+    Like the splash water bottle, a lingering water bottle puts out fire and damages endermen and blazes by 1. It creates no effect cloud. Lingering water bottles can be used on dirt, coarse dirt, or rooted dirt to turn it into mud.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Tipped Arrow,Arrow + Matching Lingering Potion,"[['Arrow', 'Arrow', 'Arrow'], ['Arrow', 'Lingering Water Bottle', 'Arrow'], ['Arrow', 'Arrow', 'Arrow']]","Arrows of Decay are exclusive to Bedrock Edition unless obtained via creative or commands . Arrows of luck are exclusive to Java Edition . A custom potion obtained via commands cannot craft arrows with the potion's custom name, lore, or the CustomPotionColor ."
+
+  Filling cauldrons
+    In Bedrock Edition, using a lingering potion on a cauldron adds one level of that potion to the cauldron. Attempting to add a lingering potion to a cauldron with water, dyed water or a non-matching potion empties the cauldron and creates an explosion sound (but no actual explosion).
+
+  Uncraftable lingering potion
+    In Java Edition, the uncraftable potion is a splash potion with no effect that is unobtainable in regular gameplay. It is also available in potion and splash potion forms, as well as for tipped arrows. It can be obtained using the following command: /give @s minecraft:lingering_potion{Potion:"minecraft:empty"}. It is also obtained any time a potion has invalid or missing potion effect tags, and thus serves as a placeholder.
+
+    Icon,Name
+    ,Uncraftable Lingering Potion
+
+Custom effects
+    In Java Edition, lingering potions can be obtained with any status effect using /give and the tag CustomPotionEffects, which is an array of effects for the potion. See Item format#Potion Effects for more information, and status effect for a list of effects and IDs.
+

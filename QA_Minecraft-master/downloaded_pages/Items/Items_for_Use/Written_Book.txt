@@ -1,0 +1,20 @@
+Overview
+    A written book is an item created after a book and quill is signed.
+
+Obtaining
+  Signing a book and quill
+    Written books can be obtained by signing a book and quill. After it has been signed, it cannot be edited again. The label does not say "Written Book", but whatever the player titles it. The title appears on the top line of the label, and "by <player>" (the player's username) on the bottom. In Bedrock Edition, this is customizable without commands.
+
+  Copying
+    Ingredients,Crafting recipe,Description
+    Book and Quill + Written Book,"[['', '', ''], ['Book and Quill', '', ''], ['', '', '']]","The input written book is not consumed. The new copies are ""Copy of Original"" or ""Copy of Copy"", depending on whether the input written book is ""Original"" or ""Copy of Original"". Copies of copies cannot be copied. Copied books of the same generation (""Original"", ""Copy of Original"", ""Copy of Copy"", or ""Tattered"") stack."
+
+Usage
+    Written books can be opened by right-clicking (or holding down on the screen in Bedrock Edition), and display a GUI allowing the player to read it or turn the page. The contents of a book are an extra set of data attached to the item. This means that when a book is destroyed, its contents are lost with it.
+
+  Lecterns
+    One can place a written book on an empty lectern. The lectern then emits a redstone signal depending on the displayed page in the book. On the last page, the lectern emits a signal strength of 15.
+
+  Chiseled bookshelf
+    Using the chiseled bookshelf while having a written book in the main hand puts the book inside the chiseled bookshelf.
+

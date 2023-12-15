@@ -1,0 +1,13 @@
+Overview
+    The end portal block is a block generated when an end portal or exit portal is activated, which teleports the player between the Overworld and the End.
+
+Obtaining
+    In Java Edition, the end portal block cannot be obtained as an item. It can be placed only by using block placement commands such as /setblock, or simply by building End portals. In Bedrock Edition, it may be obtained as an item via inventory editing, add-ons or by using bugs.
+
+Usage
+    End portal blocks can be used to teleport into and out of the End. When a player or other entity in the Overworld or the End touches an End portal block, it is instantly taken to the other dimension. If a single portal block is placed using commands, it can still be used to travel between dimensions. All entities traveling to the End appear on the obsidian platform, recreating it if necessary. Players traveling to the Overworld appear at their individual spawn point, while other entities appear at the world spawn point.
+
+  Properties
+  Piston interactivity
+    End portal blocks cannot be pushed by pistons. They also cannot be pushed nor pulled by sticky pistons.
+

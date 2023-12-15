@@ -1,0 +1,49 @@
+Overview
+    A smithing table is a utility block used to alter tools and armor at the cost of a smithing template and the appropriate material. This process keeps all enchantments of the altered item. This is the only way to obtain trimmed armor or upgrade diamond equipment with netherite. It also serves as a toolsmith's job site block.
+
+Obtaining
+    Smithing tables can be either found or crafted.
+
+  Breaking
+    Smithing tables can be broken using any tool or by hand, but an axe is the fastest.
+
+    Block,Smithing Table
+    Hardness,2.5
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,3.75
+    Wooden,1.9
+    Stone,0.95
+    Iron,0.65
+    Diamond,0.5
+    Netherite,0.45
+    Golden,0.35
+
+  Natural generation
+    Smithing tables can spawn naturally inside toolsmith houses in villages. They can also spawn in trail ruins.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot + Any Planks,"[['Iron Ingot', 'Iron Ingot', None], ['Oak Planks', 'Oak Planks', None], ['Oak Planks', 'Oak Planks', None]]"
+
+Usage
+  Smithing
+    A smithing table is primarily used for upgrading diamond gear to netherite gear and for trimming armor. The smithing interface is accessed by pressing use on a smithing table. Each time working a smithing table, the player must provide a smithing template in the left-most slot, armor/tool in the central slot, and an augmenting material in the right-most slot. Working at smithing table costs no experience, and item data such as durability, enchantments, and custom names are preserved. Upgrading to netherite requires a netherite upgrade smithing template, a diamond tool or a piece of diamond armor, and a netherite ingot.
+
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Any Diamond Gear + Netherite Ingot,input:Smithing Template; Diamond Helmet; Diamond Chestplate; Diamond Leggings; Diamond Boots; Diamond Sword; Diamond Pickaxe; Diamond Axe; Diamond Shovel; Netherite Ingot; Netherite Helmet; Netherite Chestplate; Netherite Leggings; Netherite Boots; Netherite Sword; Netherite Pickaxe; Netherite Axe | output:Netherite Shovel
+
+    Decorative trims can be applied to any piece of armor - including turtle shells - by using an armor trim smithing template and a trim material. After trimming, the armor will show a decorative pattern corresponding to the smithing template with the color determined by the used material. A preview of this pattern can be seen on an armor stand model, located on the right side of smithing table's GUI.
+
+    Ingredients,Smithing recipe
+    Any Armor Trim + Any Armor Piece + Any trim material,input:Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Smithing Template; Netherite Helmet; Iron Chestplate; Golden Leggings; Diamond Boots; Chainmail Chestplate; Leather Pants; Turtle Shell; Amethyst Shard; Copper Ingot; Diamond; Emerald; Gold Ingot; Iron Ingot; Lapis Lazuli; Nether Quartz; Netherite Ingot; Redstone Dust; Diamond; Emerald; Lapis Lazuli; Redstone Dust; Amethyst Trim Netherite Helmet; Copper Trim Iron Chestplate; Diamond Trim Golden Leggings; Emerald Trim Diamond Boots; Gold Trim Chainmail Chestplate; Iron Trim Leather Pants; Lapis Trim Turtle Shell; Quartz Trim Netherite Helmet; Netherite Trim Iron Chestplate; Redstone Trim Golden Leggings; Diamond Trim Diamond Boots; Emerald Trim Chainmail Chestplate; Lapis Trim Leather Pants | output:Redstone Trim Turtle Shell
+
+  Changing profession
+    If a village contains a smithing table that has not been claimed by a villager, any villager who hasn't already chosen a job site block has a chance to change their profession to toolsmith. If a villager with this profession has already been traded with, it cannot change jobs.
+
+  Fuel
+    Smithing tables can be used as fuel in furnaces, smelting 1.5 items per block.
+
+  Note Blocks
+    Smithing tables can be placed under note blocks to produce "bass" sounds.
+

@@ -1,0 +1,41 @@
+Overview
+    Cut red sandstone is a variant of red sandstone, obtained through crafting.
+
+Obtaining
+  Breaking
+    Cut red sandstone can be mined with any pickaxe. If mined without a pickaxe, the block drops nothing.
+
+    Block,Cut Red Sandstone
+    Hardness,0.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,4
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Crafting
+    Ingredients,Crafting recipe
+    Red Sandstone,"[[None, None, None], ['Red Sandstone', 'Red Sandstone', None], ['Red Sandstone', 'Red Sandstone', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Red Sandstone,
+
+Usage
+    Unlike red sand, cut red sandstone is never affected by gravity.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Cut Red Sandstone Slab,Cut Red Sandstone,"[[None, None, None], [None, None, None], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Cut Red Sandstone,2
+
+  Note blocks
+    Cut red sandstone can be placed under note blocks to produce "bass drum" sounds.
+

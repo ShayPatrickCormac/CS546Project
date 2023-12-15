@@ -1,0 +1,143 @@
+Overview
+    Forests are the most common biome in Minecraft, whose climate is temperate, representing seasonal forests with many oak and some birch trees. The forest holds some useful resources for players. There is an abundance of trees that can be harvested for wood. However, this also makes the biome dangerous, as they lower a player's visibility, making it more difficult to spot hostile mobs. There a total of two variants in the biome family, the regular forest and the flower forest.
+
+Description
+    Forests feature dense trees compared to other biomes. Lily of the valley, rose bushes, peonies and lilacs generate in this biome family along with the usual poppies‌[Java Edition  only] and dandelions. Grass takes on a dark but vibrant green color. Bees from bee nests on trees are found as well. Like almost every other overword biome in the game, lava lakes can generate here, which can cause locally destructive forest fires, due to the density of flammable wood and leaves; the same goes for lightning strikes that hit the trees during thunderstorms, though the fires caused by the strikes are usually quickly put out by the rain. Forests generate in temperatures of -0.450 to 0.500, meaning it generates at 3 temperature ranges: lukewarm, temperate, and cold. When the forest generated in the lukewarm biome temperature range, stony peaks generate instead of jagged peaks/frozen peaks.
+
+Variants
+    There are two forest biome variants (forest and flower forest), with one removed variant (wooded hills) in previous versions. Not included are dark forests and birch forests, as they are considered separate biomes.
+
+  Forest
+    The forest biome is common and densely wooded with oak and birch trees. Wolves spawn here. Forest is one of the most preferred biomes to start a survival world, serving abundant amounts of wood, grass and flowers, water and passive mobs, and they do not have many dangers aside from the usual hostile mobs. Shallow lakes sometimes generate in a forest. Tamed wolves can help fight against hostile mobs, making them especially useful when players lack resources for armor. The density of the trees, however, can obstruct vision and get a player lost quickly; random surface-level lava lakes are possible, albeit rare, and start forest fires when close to trees. Building shelter here might be frustrating, due to having to clean up the zone before. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 515,4
+    Skeleton,100 ⁄ 515,4
+    Slime [note 1],100 ⁄ 515,4
+    Spider,100 ⁄ 515,4
+    Zombie,95 ⁄ 515,4
+    Enderman,10 ⁄ 515,1–4
+    Witch,5 ⁄ 515,1
+    Zombie Villager,5 ⁄ 515,1
+    Ambient category
+    Bat,1,8
+    Creature category
+    Sheep,12 ⁄ 45,4
+    Chicken,10 ⁄ 45,4
+    Pig,10 ⁄ 45,4
+    Cow,8 ⁄ 45,4
+    Wolf,5 ⁄ 45,4
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 495,1
+    Slime [note 1],100 ⁄ 495,1
+    Spider,100 ⁄ 495,1
+    Zombie,95 ⁄ 495,2–4
+    Skeleton,80 ⁄ 495,1–2
+    Enderman,10 ⁄ 495,1–2
+    Witch,5 ⁄ 495,1
+    Zombie Villager,5 ⁄ 495,2–4
+    Creature category
+    Sheep,12 ⁄ 55,2–3
+    Chicken,10 ⁄ 55,2–4
+    Glow Squid,10 ⁄ 55,2–4
+    Pig,10 ⁄ 55,1–3
+    Cow,8 ⁄ 55,2–3
+    Wolf,5 ⁄ 55,4
+    Ambient category
+    Bat,1,2
+
+  Flower forest
+    The flower forest variant has fewer trees and grass than the regular forest but boasts large quantities of flowers across its landscape. The probability of generating a beehive on each tree is ten times higher than in a regular forest. All types of flowers except for sunflowers, blue orchids, torchflower and wither roses generate in the flower forest. The vast number of flowers makes this biome variant an excellent source of dye. Flower forests are rarer than standard forest biome and are most commonly bordered by plains biomes or separted from sunflower plains by rivers. Unlike regular forests, wolves do not spawn in flower forests. However, they can occasionally spawn rabbits, which do not spawn in regular forests. Bees and bee nests also spawn in this biome more commonly. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 515,4
+    Skeleton,100 ⁄ 515,4
+    Slime [note 1],100 ⁄ 515,4
+    Spider,100 ⁄ 515,4
+    Zombie,95 ⁄ 515,4
+    Enderman,10 ⁄ 515,1–4
+    Witch,5 ⁄ 515,1
+    Zombie Villager,5 ⁄ 515,1
+    Ambient category
+    Bat,1,8
+    Creature category
+    Sheep,12 ⁄ 44,4
+    Pig,10 ⁄ 44,4
+    Chicken,10 ⁄ 44,4
+    Cow,8 ⁄ 44,4
+    Rabbit,4 ⁄ 44,2–3
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 495,1
+    Slime [note 1],100 ⁄ 495,1
+    Spider,100 ⁄ 495,1
+    Zombie,95 ⁄ 495,2–4
+    Skeleton,80 ⁄ 495,1–2
+    Enderman,10 ⁄ 495,1–2
+    Witch,5 ⁄ 495,1
+    Zombie Villager,5 ⁄ 495,2–4
+    Creature category
+    Glow Squid,10 ⁄ 14,2–4
+    Rabbit,4 ⁄ 14,2–3
+
+Soundtrack
+    These music tracks play while the player is in the forest.
+
+    Filename in Minecraft,Gameplay,Soundtrack Title,Soundtrack,Track preview,Weight
+    piano1.ogg,The Overworld,"""Dry Hands""",Minecraft - Volume Alpha No. 12,,1
+    piano2.ogg,The Overworld,"""Wet Hands""",Minecraft - Volume Alpha No. 13,,1
+    piano3.ogg,The Overworld,"""Mice on Venus""",Minecraft - Volume Alpha No. 11,,1
+    hal1.ogg,The Overworld,"""Subwoofer Lullaby""",Minecraft - Volume Alpha No. 3,,1
+    hal2.ogg,The Overworld,"""Living Mice""",Minecraft - Volume Alpha No. 5,,1
+    hal3.ogg,The Overworld,"""Haggstrom""",Minecraft - Volume Alpha No. 7,,1
+    hal4.ogg,The Overworld,"""Danny""",Minecraft - Volume Alpha No. 21,,1
+    calm1.ogg,The Overworld,"""Minecraft""",Minecraft - Volume Alpha No. 8,,1
+    calm2.ogg,The Overworld,"""Clark""",Minecraft - Volume Alpha No. 14,,1
+    calm3.ogg,The Overworld,"""Sweden""",Minecraft - Volume Alpha No. 18,,1
+    nuance1.ogg,The Overworld,"""Key""",Minecraft - Volume Alpha No. 1,,1
+    nuance2.ogg,The Overworld,"""Oxygène""",Minecraft - Volume Alpha No. 9,,1
+    left_to_bloom.ogg,"Lush Caves , Meadow , and the Overworld","""Left to Bloom""",Minecraft: Caves & Cliffs (Original Game Soundtrack) No. 4,,1
+    one_more_day.ogg,"Lush Caves , Meadow , Snowy Slopes , Frozen Peaks , and the Overworld","""One More Day""",Minecraft: Caves & Cliffs (Original Game Soundtrack) No. 6,,1
+    comforting_memories.ogg,Grove and the Overworld,"""Comforting Memories""",Minecraft: Caves & Cliffs (Original Game Soundtrack) No. 9,,1
+    floating_dream.ogg,"Lush Caves , Jagged Peaks , and the Overworld","""Floating Dream""",Minecraft: Caves & Cliffs (Original Game Soundtrack) No. 8,,1
+    aerie.ogg,"Lush Caves , Forest , Dark Forest , Birch Forest , Jungle , Swamp , Taiga , Old Growth Taiga , Snowy Taiga","""Aerie""",Minecraft: The Wild Update (Original Game Soundtrack) No. 2,,1
+    firebugs.ogg,"Lush Caves , Forest , Dark Forest , Birch Forest , Jungle , Swamp , Taiga , Old Growth Taiga , Snowy Taiga","""Firebugs""",Minecraft: The Wild Update (Original Game Soundtrack) No. 1,,1
+    labyrinthine.ogg,"Lush Caves , Forest , Dark Forest , Birch Forest , Jungle , Swamp , Taiga , Old Growth Taiga , Snowy Taiga","""Labyrinthine""",Minecraft: The Wild Update (Original Game Soundtrack) No. 3,,1
+    bromeliad.ogg,"Badlands , Bamboo Jungle , Cherry Grove , Flower Forest , Forest , Jungle , Old Growth Taiga , Sparse Jungle , and Main menu","""Bromeliad""",Minecraft: Trails & Tales (Original Game Soundtrack) No. 3,,
+
+    These music tracks play while the player is in the flower forest.
+
+    Filename in Minecraft,Gameplay,Soundtrack Title,Soundtrack,Track preview,Weight
+    hal1.ogg,The Overworld,"""Subwoofer Lullaby""",Minecraft - Volume Alpha No. 3,,1
+    hal2.ogg,The Overworld,"""Living Mice""",Minecraft - Volume Alpha No. 5,,1
+    hal3.ogg,The Overworld,"""Haggstrom""",Minecraft - Volume Alpha No. 7,,1
+    hal4.ogg,The Overworld,"""Danny""",Minecraft - Volume Alpha No. 21,,1
+    nuance1.ogg,The Overworld,"""Key""",Minecraft - Volume Alpha No. 1,,1
+    nuance2.ogg,The Overworld,"""Oxygène""",Minecraft - Volume Alpha No. 9,,1
+    left_to_bloom.ogg,"Lush Caves , Meadow , and the Overworld","""Left to Bloom""",Minecraft: Caves & Cliffs (Original Game Soundtrack) No. 4,,1
+    bromeliad.ogg,"Badlands , Bamboo Jungle , Cherry Grove , Flower Forest , Forest , Jungle , Old Growth Taiga , Sparse Jungle , and Main menu","""Bromeliad""",Minecraft: Trails & Tales (Original Game Soundtrack) No. 3,,
+    echo_in_the_wind.ogg,"Badlands , Cherry Grove , Flower Forest , Lush Caves , Old Growth Taiga , and Main menu","""Echo in the Wind""",Minecraft: Trails & Tales (Original Game Soundtrack) No. 1,,
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Forest,forest,biome.minecraft.forest
+    Flower Forest,flower_forest,biome.minecraft.flower_forest
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID
+    [No displayed name],forest,4
+    [No displayed name],flower_forest,132
+

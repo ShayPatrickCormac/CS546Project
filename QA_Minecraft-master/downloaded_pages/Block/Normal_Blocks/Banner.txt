@@ -1,0 +1,79 @@
+Overview
+    Banners are tall decorative blocks, featuring a field that is highly customizable using dyes and banner patterns.
+
+Obtaining
+  Breaking
+    Banners can be broken with or without a tool, but an axe is fastest.
+
+    Block,Banners
+    Hardness,1
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,1.5
+    Wooden,0.75
+    Stone,0.4
+    Iron,0.25
+    Diamond,0.2
+    Netherite,0.2
+    Golden,0.15
+
+    A banner also breaks and drops itself as an item if the block the banner is attached to is moved, removed, or destroyed.
+
+  Natural generation
+    Name,Location,Appearance,Design
+    Magenta Banner,Outside of end cities .,,Magenta Banner Black Inverted Chevron Black Chevron
+    Gray Banner,In banner room in woodland mansions .,,Gray Banner
+    Light Gray Banner,In master bedroom in woodland mansions .,,Light Gray Banner White Flower Charge
+    Ominous Banner‌ [ JE only ] Illager Banner‌ [ BE & edu only ],"Carried by raid captains . Located in pillager outposts . In Java Edition , the ominous banner cannot be crafted or copied because the design uses 8 patterns. In Bedrock Edition , the illager banner is a separate type that cannot be placed in a loom.",,White Banner‌ [ JE only ] Cyan Lozenge Light Gray Base Gray Pale Light Gray Bordure Black Fess Light Gray Per Fess Light Gray Roundel Black Bordure Separate type entirely‌ [ BE only ]
+    Brown Banner,"Outside of some houses, meeting points, and pillar fountains in savanna villages .",,Brown Banner
+    Black Banner,In altar room in woodland mansions .,,Black Banner
+
+  Mob loot
+    Illagers that spawn carrying an ominous banner‌[JE  only] / illager banner‌[BE & edu  only] always drop it upon death.
+
+  Crafting
+    Banners can be crafted from six wool and a stick in a pattern resembling a sign.
+
+    Name,Ingredients,Crafting recipe,Description
+    Banner,Matching Wool + Stick,"[['White Wool', 'White Wool', 'White Wool'], ['White Wool', 'White Wool', 'White Wool'], [None, 'Stick', None]]","Once the banner is crafted, its base color cannot be changed.‌ [ Java Edition only ]"
+    White Banner,Any Banner + Bleach,"[[None, None, None], ['White Banner', 'Bleach', None], [None, None, None]]","Bleach can be used to remove the color of a banner, resulting in a white banner. This includes removing patterns from a white banner.‌ [ Bedrock Edition and Minecraft Education only ]"
+
+  Trading
+    Expert-level cartographer villagers always offer to sell 1 or 2 blank banners of a random color for 3 emeralds. Expert-level shepherd villagers have a 2⁄7 chance of offering the same trade.‌[Java Edition  only] In Bedrock Edition, expert-level cartographer and shepherd villagers both offer to sell one of 16 blank banners for 3 emeralds as part of their trades.
+
+Usage
+    There are 16 colored blank banners, and numerous patterns each available in each of the 16 colors. A banner can feature up to 6 different patterns. The top layer of a banner (or the last pattern added) can be washed off by using it on a cauldron containing water. Banners, much like signs, can be placed both on the ground facing in any direction, or on a wall. They gently sway as if affected by a breeze, regardless of dimension or location. Banners have no collision mask as they are completely non-solid, so entities can move through them. Other blocks (including other banners) can be placed on any edge of a banner's hitbox, which is only one block high despite the banner appearing as two blocks tall. This makes it possible to overlap another solid block on the top half of a banner for floor banners, or the bottom half of wall banners. When a banner is placed on the side of a block, its position is set by the top block, and it is possible to place it so it appears half buried. Banners can also be placed in item frames, where they simply appear as their item model. Water and lava flow around banners. In Bedrock Edition, banners can be waterlogged. Lava can create fire in air blocks next to banners as if the banners were flammable, but the banners do not burn (and cannot be burned by other methods). Banners also cannot be moved by pistons. If a banner is renamed on an anvil, it retains its name when a pattern is added, but not when a pattern is removed.
+
+  Helmet
+    While a banner cannot be equipped in the head slot in Survival mode, equipping it using commands causes it to appear on top of the player. This is how raid captains wear banners‌[JE  only].
+
+  Chestplate
+    While a banner cannot be equipped in the chestplate slot in Survival mode, equipping it using NBT editors causes it to appear on top of the player. This is how raid captains wear banners‌[BE & edu  only].
+
+  Crafting ingredient
+    Shields can have patterns applied to them using banners. The shield pattern has a smaller resolution than the banner pattern, causing them to look different or offset. Banners that have more than six patterns, such as Ominous Banners or banners obtained through inventory editors, will be reduced to six patterns on the shield.
+
+    Ingredients,Crafting recipe,Description
+    Shield + Matching Banner or Ominous Banner,"[[None, None, None], ['Shield', 'White Banner', None], [None, None, None]]",Applies the banner pattern to the shield. The banner is consumed. The shield must have no pre-existing patterns. Does not change existing durability or enchantments on the shield.
+
+  Copying
+    Banners can be copied with a blank banner to make multiple identical banners. Banners with more than 6 patterns applied using commands cannot be copied in this manner.
+
+    Ingredients,Crafting recipe,Description
+    Matching Banner,"[[None, None, None], ['White Banner', 'White Banner', None], [None, None, None]]","Copies pattern; both banners must have the same base color, and the one having a pattern copied onto it must have no preexisting pattern."
+
+  Map marker
+    In Java Edition, using on a standing banner with a map selected places a marker of the banner's position on the selected map, and using on the banner again removes the marker. Note that wall banners cannot serve as map markers. The marker has the same color as the banner's base without decorations. The marker is removed if the banner is destroyed unless the map is locked using a cartography table. If the banner is renamed, the name appears below the marker.
+
+  Patterns
+    A banner may have up to six layers of patterns, which are overlaid with the last-crafted on top. A banner can have up to 16 layers of patterns with the use of commands. The total number of unique banners is approximately 2.3×1016 (or 23 quadrillion). Any color banner can be used; the pattern overlays the color. In Java Edition, a loom is used to make patterns. However, in Bedrock Edition, the patterns can be made in a loom or a crafting table. A banner can have more than six layers of patterns through the commands /give, /setblock or /fill. This only works in Java Edition, as Bedrock Edition doesn't have any NBT commands. Here is an example of a mining banner with seven different patterns. There is specific codes for the colors and patterns that you have to input. /give @p white_banner{display:{Name:"\"Mining Industries Banner\""},BlockEntityTag:{Patterns:[{Pattern:"cr",Color:15},{Pattern:"bs",Color:15},{Pattern:"sc",Color:12},{Pattern:"ms",Color:0},{Pattern:"hh",Color:15},{Pattern:"bo",Color:15},{Pattern:"tts",Color:8}]}} 1
+
+  Renaming
+    In Java Edition, a banner can be given a custom name that remains as the banner is placed and retrieved. The player can use an anvil to rename the banner item, or may change the CustomName tag using the /data command on the banner block.
+
+  Fuel
+    Banners can be used as a fuel in furnaces, smelting 1.5 items per banner.
+
+  Note Blocks
+    Banners can be placed under note blocks to produce "bass" sounds.
+

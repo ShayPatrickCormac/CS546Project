@@ -1,0 +1,46 @@
+Overview
+    Bookshelves are blocks that improve enchantments applied with an enchanting table when placed around one, up to a maximum of fifteen bookshelves, at the expense of level requirement.
+
+Obtaining
+  Breaking
+    Bookshelves can be broken fairly easily by hand, but can be broken faster by using an axe. In either case, they drop 3 books when broken, allowing the reconstruction of the bookshelf with the addition of six wood planks. When broken by an item that is enchanted with Silk Touch, a bookshelf drops itself.
+
+    Block,Bookshelf
+    Hardness,1.5
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,2.25
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Bookshelves can generate in village libraries and sometimes village houses. Strongholds may contain up to two libraries, each of which may be single-level or have an upper balcony. These feature some bookshelves arranged in pillars, and more bookshelves arranged in pillars in the walls. Single-level libraries contain 161 bookshelves, while libraries with balconies contain 233. Bookshelves also naturally generate in certain woodland mansion rooms.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Any Planks + Book,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], ['Book', 'Book', 'Book'], ['Oak Planks', 'Oak Planks', 'Oak Planks']]"
+
+  Trading
+    Novice-level librarian villagers have a 50% chance to sell 1 bookshelf for 9 emeralds as part of their trades.‌[Bedrock Edition  only] Novice-level librarian villagers have a 2⁄3 chance to sell 1 bookshelf for 9 emeralds.‌[Java Edition  only]
+
+Usage
+  Enchanting
+    If an enchanting table is placed near a bookshelf, glyph particles fly from the bookshelf toward the enchanting table. Having bookshelves in the proper position near the table allows the table to apply higher-level enchantments.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Lectern,Any Wooden Slab + Bookshelf,"[['Oak Slab', 'Oak Slab', 'Oak Slab'], [None, '', None], [None, 'Oak Slab', None]]"
+
+  Fuel
+    Bookshelves can be used as a fuel in furnaces, smelting 1.5 items per block.
+
+  Villager
+    Librarian villagers can interact with bookshelves.
+
+  Note Blocks
+    Bookshelf can be placed under note blocks to produce "bass" sounds.
+

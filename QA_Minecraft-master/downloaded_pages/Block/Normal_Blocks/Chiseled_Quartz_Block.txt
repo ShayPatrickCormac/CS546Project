@@ -1,0 +1,32 @@
+Overview
+    A chiseled quartz block, is a variant of the block of quartz, obtained by crafting from quartz slabs.
+
+Obtaining
+  Breaking
+    Chiseled quartz blocks can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Chiseled Quartz Block
+    Hardness,0.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,4
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Crafting
+    Ingredients,Crafting recipe
+    Quartz Slab,"[[None, None, None], [None, 'Quartz Slab', None], [None, 'Quartz Slab', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Block of Quartz,
+
+Usage
+  Crafting ingredient
+  Note Blocks
+    Chiseled quartz blocks can be placed under note blocks to produce "bass drum" sounds.
+

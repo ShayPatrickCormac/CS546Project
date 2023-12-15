@@ -1,0 +1,33 @@
+Overview
+    The prismarine brick stairs are the prismarine bricks variant of stairs, crafted from prismarine bricks.
+
+Obtaining
+  Breaking
+    Prismarine brick stairs can be broken with wooden pickaxes or higher.
+
+    Block,Prismarine Brick Stairs
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Crafting
+    Ingredients,Crafting recipe
+    Prismarine Bricks,"[['Prismarine Bricks', None, None], ['Prismarine Bricks', 'Prismarine Bricks', None], ['Prismarine Bricks', 'Prismarine Bricks', 'Prismarine Bricks']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Prismarine Bricks,
+
+Usage
+    Prismarine brick stairs are a type of stairs, meaning they have the following common placement mechanics:
+
+  Note blocks
+    Prismarine brick stairs can be placed under note blocks to produce "bass drum" sounds.
+

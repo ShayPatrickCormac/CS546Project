@@ -1,0 +1,18 @@
+Overview
+    Flame is an enchantment that causes bows to shoot flaming arrows.
+
+Usage
+    Arrows shot from a Flame bow are on fire when shot, set fire to mobs they hit, and deal 5 fire damage over 5 seconds (first damage is ignored). Fire damage applies after initial damage, similar to Fire Aspect for melee weapons. Creatures killed by fire do not drop XP unless a player has dealt non-fire damage to it within the past 5 seconds. Unlike flint and steel, flaming arrows affect only players, mobs, TNT, campfires, and candles. No other blocks catch fire. For example, a flaming arrow shot into a tree continues to burn without igniting the tree. Flaming arrows do not produce light. Flaming arrows become normal arrows if fired through water or rain. If commands or an NBT editor are used to increase the enchantment level beyond its normal limit of 1, the duration of the fire does not increase accordingly. Flame doesn't affect arrows shot from crossbows if applied using commands or an anvil in Creative mode.[1]
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Flame,flame,enchantment.minecraft.flame
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Flame,flame,21,enchantment.arrowFire
+

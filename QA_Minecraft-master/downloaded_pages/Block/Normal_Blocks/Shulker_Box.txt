@@ -1,0 +1,34 @@
+Overview
+    A shulker box is a dyeable block that stores items, and, unlike all other storage blocks, keeps its contents in item form when broken.
+
+Obtaining
+  Breaking
+    Shulker boxes can be mined with any tool or by hand, but using a pickaxe is the most effective. Shulker boxes drop themselves when mined. Unlike other containers, the contents of shulker boxes are stored within the dropped item, and not dropped separately. When instantly mined in Creative mode, shulker boxes drop as an item if there are items stored within, unless /gamerule doTileDrops is set to "false".
+
+    Block,Shulker Box
+    Hardness,2
+    Tool,Pickaxe
+    Breaking time (sec) [A]
+    Default,3
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Crafting
+    Name,Ingredients,Crafting recipe,Description
+    Shulker Box,Shulker Shell + Chest,"[[None, 'Shulker Shell', None], [None, 'Chest', None], [None, 'Shulker Shell', None]]",
+    Shulker Box,Any Shulker Box + Matching Dye,"[[None, None, None], ['', 'White Dye', None], [None, None, None]]","The shulker box retains its contents. If it is renamed on an anvil , it also retains its name."
+
+Usage
+  Storage
+    A shulker box has 27 inventory slots, the same as a chest. Shulker boxes are portable chests: they keep their items when broken, which can be retrieved when placed again. This is different from other containers, which drop their contained items as item entities when broken. A shulker box drops itself as an item if pushed by pistons or destroyed by an explosion. Unlike most blocks with inventory, shulker boxes always drop themselves when destroyed by explosions. When a shulker box with items inside is being held‌[Bedrock Edition  only] or is in a container's inventory, the items are listed on the tooltip as properties. A shulker box's items can be fed or removed by a hopper. Shulker boxes can be stored in all containers except for other shulker boxes and bundles. When placed on a wall or ceiling, shulker boxes face and open sideways or upside-down, respectively. Shulker boxes cannot be opened if a solid opaque block is on their top surface, similar to a chest. For example, if a shulker box is facing upside-down and a solid opaque block is below it, the shulker box cannot be opened. A shulker box can also be placed using dispensers. Like a chest, a shulker box requires a transparent area above to be opened, and it opens only if the hitbox of the top of the open shulker box does not intersect with another hitbox. This way, a shulker box can be opened with an upside-down slab or an upper trapdoor on top of it. It is also unique in that when opened, its hitbox expands to 1.5 blocks high/wide, physically pushing entities where it is facing. By default, the GUI of a shulker box is labeled "Shulker Box", which can be changed by naming it in an anvil or by changing the CustomName tag using the /data command.‌[Java Edition  only] When a shulker box item is destroyed, the contents of the shulker box are dropped as items.
+
+  Piglins
+    Piglins become hostile toward players who open or mine shulker boxes.[1]
+
+  Undyeing
+    Dyed shulker boxes can be undyed using a cauldron. To do this, use a dyed shulker box on a cauldron that has water in it. This causes the cauldron's water level to decrease by 1, and the dyed shulker box loses its dye color.
+

@@ -1,0 +1,36 @@
+Overview
+    The dripstone caves biome is an Overworld cave biome filled with clusters and pillars of pointed dripstone and dripstone blocks.
+
+Description
+    Dripstone caves generate underground at any altitude. They favor generating beneath areas with high continentalness values, which means they are usually found far inland, and are essentially never found under ocean biomes or bordering a coast. They even replace lush caves at very high humidity regions like dark forests, old growth taigas, bamboo jungles, and wooded badlands when they're far inland. Dripstone blocks and pointed dripstone both hanging as stalactites and growing from the ground as stalagmites, small water wells of 1×1 blocks are generated in the ground. They mostly appear like regular caves, except with patches of dripstone blocks and pointed dripstone. Large dripstone clusters structures generate occasionally inside ravines. This biome also generates larger copper ore blobs compared to other biomes. In Java Edition, drowned are able to spawn in aquifers. When exposed to the surface, the surface is made entirely out of stone with occasional patches of dripstone. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Underground water creature category
+    Glow Squid,1,4–6
+    Ambient category
+    Bat,1,8
+    Monster category
+    Creeper,100 ⁄ 610,4
+    Skeleton,100 ⁄ 610,4
+    Slime [note 1],100 ⁄ 610,4
+    Spider,100 ⁄ 610,4
+    Drowned,95 ⁄ 610,4
+    Zombie,95 ⁄ 610,4
+    Enderman,10 ⁄ 610,1–4
+    Witch,5 ⁄ 610,1
+    Zombie Villager,5 ⁄ 610,1
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 595,1
+    Drowned,100 ⁄ 595,2–4
+    Slime [note 1],100 ⁄ 595,1
+    Spider,100 ⁄ 595,1
+    Zombie,95 ⁄ 595,2–4
+    Skeleton,80 ⁄ 595,1–2
+    Enderman,10 ⁄ 595,1–2
+    Witch,5 ⁄ 595,1
+    Zombie Villager,5 ⁄ 595,2–4
+    Creature category
+    Glow Squid,1,2–4
+

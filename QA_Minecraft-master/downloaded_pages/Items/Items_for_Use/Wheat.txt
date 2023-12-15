@@ -1,0 +1,122 @@
+Overview
+    Wheat is an item primarily obtained by harvesting fully-grown wheat crops. It is used for crafting as well as to feed certain animals.
+
+Obtaining
+  Mob loot
+    A fox sometimes spawns holding wheat, which it always drops upon death. Alternatively, the player can drop a food item, causing the fox to drop the wheat.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Wheat,Monster Room,Chest,1–4,"34.1% { ""item"": ""Wheat"", ""stacksize"": ""1–4"", ""chance"": 0.34095616000000006, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Igloo,Chest,2–3,"55.3% { ""item"": ""Wheat"", ""stacksize"": ""2–3"", ""chance"": 0.5529977744943003, ""structure"": ""Igloo"", ""container"": ""Chest"" }"
+    Warm Ocean ruins,Warm ruins suspicious sand,1,"13.3% { ""item"": ""Wheat"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Wheat"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Pillager Outpost,Chest,3–5,"72.5% { ""item"": ""Wheat"", ""stacksize"": ""3–5"", ""chance"": 0.7252188072460819, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Supply chest,8–21,"42.1% { ""item"": ""Wheat"", ""stacksize"": ""8–21"", ""chance"": 0.42061090139687074, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Trail ruins,Suspicious gravel,1,"4.4% { ""item"": ""Wheat"", ""stacksize"": 1, ""chance"": 0.0444444444444444, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Underwater ruins,Small ruins chest,2–3,"84.2% { ""item"": ""Wheat"", ""stacksize"": ""2–3"", ""chance"": 0.8421943782381399, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Big ruins chest,2–3,"81% { ""item"": ""Wheat"", ""stacksize"": ""2–3"", ""chance"": 0.8100781882091176, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Village,Butcher's chest,1–3,"48.6% { ""item"": ""Wheat"", ""stacksize"": ""1–3"", ""chance"": 0.4862627922889272, ""structure"": ""Village"", ""container"": ""Butcher's chest"" }"
+    Desert house chest,1–7,"80.6% { ""item"": ""Wheat"", ""stacksize"": ""1–7"", ""chance"": 0.8060478337988324, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+    Shepherd's chest,1–6,"55.8% { ""item"": ""Wheat"", ""stacksize"": ""1–6"", ""chance"": 0.5583399765985125, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Woodland mansion,Chest,1–4,"34.1% { ""item"": ""Wheat"", ""stacksize"": ""1–4"", ""chance"": 0.34095616000000006, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Wheat,Monster Room,Chest,1–4,"34.1% { ""item"": ""Wheat"", ""stacksize"": ""1–4"", ""chance"": 0.34095616000000006, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Igloo,Chest,2–3,"55.3% { ""item"": ""Wheat"", ""stacksize"": ""2–3"", ""chance"": 0.5529977744943003, ""structure"": ""Igloo"", ""container"": ""Chest"" }"
+    Warm Ocean ruins,Warm ruins suspicious sand,1,"13.3% { ""item"": ""Wheat"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Wheat"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Pillager Outpost,Chest,3–5,"72.5% { ""item"": ""Wheat"", ""stacksize"": ""3–5"", ""chance"": 0.7252188072460819, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Supply chest,8–21,"42.1% { ""item"": ""Wheat"", ""stacksize"": ""8–21"", ""chance"": 0.42061090139687074, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Trail ruins,Suspicious gravel,1,"4.3% { ""item"": ""Wheat"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Underwater ruins,Small ruins chest,2–3,"84.2% { ""item"": ""Wheat"", ""stacksize"": ""2–3"", ""chance"": 0.8421943782381399, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Big ruins chest,2–3,"81% { ""item"": ""Wheat"", ""stacksize"": ""2–3"", ""chance"": 0.8100781882091176, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Village,Butcher's chest,1–3,"48.6% { ""item"": ""Wheat"", ""stacksize"": ""1–3"", ""chance"": 0.4862627922889272, ""structure"": ""Village"", ""container"": ""Butcher's chest"" }"
+    Desert house chest,1–7,"80.6% { ""item"": ""Wheat"", ""stacksize"": ""1–7"", ""chance"": 0.8060478337988324, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+    Shepherd's chest,1–6,"55.8% { ""item"": ""Wheat"", ""stacksize"": ""1–6"", ""chance"": 0.5583399765985125, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Woodland mansion,Chest,1–4,"34.1% { ""item"": ""Wheat"", ""stacksize"": ""1–4"", ""chance"": 0.34095616000000006, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Hay Bale,"[[None, None, None], [None, 'Hay Bale', None], [None, None, None]]"
+
+  Farming
+    When a fully-grown wheat crop is harvested, it drops 1 wheat and 1 to 4 wheat seeds (2 5⁄7 per crop harvested on average). A wheat crop has a total of eight stages (0-7) from the time it is planted until it can be harvested. If a crop is harvested before it is fully grown, it just drops one seed. Wheat needs light to grow; a seed is destroyed if planted without light. Harvesting with a Fortune-enchanted tool increases the number of seeds dropped but does not increase the yield of wheat.
+
+Usage
+  Food
+    When wheat is held, it causes nearby cows, sheep, goats and mooshrooms to follow the player, until either the player stops holding the wheat or goes too far away from the animal, thus leading them to lose interest. Wheat may be used to breed cows, sheep, goats, and mooshrooms by first herding two of them together and then using the wheat on them to begin "Love Mode." Wheat can heal a horse 1 health or lower its temper by 3% when attempting to tame it. It can also decrease the time it takes for a foal to grow by 20 seconds. Similarly, wheat can heal a llama 2 health, and it decreases the time it takes a baby llama to grow by 10 seconds.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Bread,Wheat,"[[None, None, None], ['', '', ''], [None, None, None]]",
+    Cake,Milk Bucket + Sugar + Egg + Wheat,"[['Milk Bucket', 'Milk Bucket', 'Milk Bucket'], ['Sugar', 'Egg', 'Sugar'], ['', '', '']]",Empty buckets remain in the crafting grid after crafting the cake.
+    Cookie,Wheat + Cocoa Beans,"[[None, None, None], ['', 'Cocoa Beans', ''], [None, None, None]]",
+    Hay Bale,Wheat,"[['', '', ''], ['', '', ''], ['', '', '']]",
+    Packed Mud,Mud + Wheat,"[[None, None, None], ['Mud', '', None], [None, None, None]]",
+
+  Trading
+    Novice-level farmer villagers have a 25%‌[Bedrock Edition  only] or 40%‌[Java Edition  only] chance to buy 20 wheat for one emerald.
+
+  Composting
+    Placing wheat into a composter has a 65% chance of raising the compost level by 1. A stack of wheat yields an average of 5.94 bone meal.
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    bake bread,bake bread,"Bake Bread { ""anchor"": """", ""title"": ""Bake Bread"", ""icon"": """", ""title"": ""Bake Bread"", ""description"": ""Turn wheat into bread.
+ "", ""requirements"": ""Pick up [[bread]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Chefs Hat"" headwear
+"" }",Turn wheat into bread.,Pick up bread from a crafting table output.,15G,Bronze
+    the lie,the lie,"The Lie { ""anchor"": """", ""title"": ""The Lie"", ""icon"": """", ""title"": ""The Lie"", ""description"": ""Bake a cake using: wheat, sugar, milk, and eggs.
+ "", ""requirements"": ""Pick up a [[cake]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Cake Apron"" outerwear
+"" }","Bake a cake using: wheat, sugar, milk, and eggs.",Pick up a cake from a crafting table output.,30G,Bronze
+    repopulation,repopulation,"Repopulation { ""anchor"": """", ""title"": ""Repopulation"", ""icon"": """", ""title"": ""Repopulation"", ""description"": ""Breed two cows with wheat.
+ "", ""requirements"": ""Breed two [[cow]]s or two [[mooshroom]]s.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Cowbell Necklace"" outerwear
+"" }",Breed two cows with wheat.,Breed two cows or two mooshrooms .,15G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,A Seedy Place,Plant a seed and watch it grow,Husbandry,"Plant one of these 7 crops: Beetroot Melon Nether Wart Pumpkin Wheat Torchflower Pitcher Other crops and plants can be planted, but are ignored for this advancement.","husbandry/plant_seed {""anchor"": """", ""title"": ""A Seedy Place"", ""icon"": ""Wheat
+"", ""icon-style"": ""plain"", ""title"": ""A Seedy Place"", ""description"": ""Plant a seed and watch it grow
+"", ""parent"": ""Husbandry
+"", ""requirements"": ""Plant ''one'' of these 7 crops: 
+
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite beetroot-seeds.png|16x16px|link=Beetroot Seeds|alt=ItemSprite beetroot-seeds.png: Sprite image for beetroot-seeds in Minecraft linking to Beetroot Seeds|class=pixel-image|]]</span>[[Beetroot Seeds|<span class=""sprite-text"">Beetroot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite melon-seeds.png|16x16px|link=Melon Seeds|alt=ItemSprite melon-seeds.png: Sprite image for melon-seeds in Minecraft linking to Melon Seeds|class=pixel-image|]]</span>[[Melon Seeds|<span class=""sprite-text"">Melon</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite nether-wart.png|16x16px|link=Nether Wart|alt=ItemSprite nether-wart.png: Sprite image for nether-wart in Minecraft linking to Nether Wart|class=pixel-image|]]</span>[[Nether Wart|<span class=""sprite-text"">Nether Wart</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite pumpkin-seeds.png|16x16px|link=Pumpkin Seeds|alt=ItemSprite pumpkin-seeds.png: Sprite image for pumpkin-seeds in Minecraft linking to Pumpkin Seeds|class=pixel-image|]]</span>[[Pumpkin Seeds|<span class=""sprite-text"">Pumpkin</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite wheat-seeds.png|16x16px|link=Wheat Seeds|alt=ItemSprite wheat-seeds.png: Sprite image for wheat-seeds in Minecraft linking to Wheat Seeds|class=pixel-image|]]</span>[[Wheat Seeds|<span class=""sprite-text"">Wheat</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite torchflower-seeds.png|16x16px|link=Torchflower Seeds|alt=ItemSprite torchflower-seeds.png: Sprite image for torchflower-seeds in Minecraft linking to Torchflower Seeds|class=pixel-image|]]</span>[[Torchflower Seeds|<span class=""sprite-text"">Torchflower</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite pitcher-pod.png|16x16px|link=Pitcher Pod|alt=ItemSprite pitcher-pod.png: Sprite image for pitcher-pod in Minecraft linking to Pitcher Pod|class=pixel-image|]]</span>[[Pitcher Pod|<span class=""sprite-text"">Pitcher</span>]]</span>
+</div>
+
+Other crops and plants can be planted, but are ignored for this advancement.
+"", ""resourcelocation"": ""husbandry/plant_seed
+"", ""rewards"": ""—
+"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Wheat,wheat,Item,item.minecraft.wheat
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Wheat,wheat,334,Item,item.wheat.name
+
+Video
+    Note: the narrator demonstrates at 0:56 that walking over wheat can destroy the crop and un-till the land. This is outdated: since version JE 1.1, wheat can be destroyed only by a player or mob jumping on it or falling on it.
+

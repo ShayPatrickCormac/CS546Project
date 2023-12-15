@@ -1,0 +1,45 @@
+Overview
+    A saddle is an item required to ride pigs and striders or control ridden camels, horses, donkeys and mules.
+
+Obtaining
+  Mob loot
+    Any mob that the player equips with a saddle drops the saddle upon death. A strider may spawn being ridden by a zombified piglin, which causes it to spawn wearing a saddle. This saddle always drops when the strider is killed. A ravager always spawns with a saddle and always drops the saddle upon death. Looting does not affect the drop.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Saddle,Monster Room,Chest,1,"27.9% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.2792703864726873, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1,"16.1% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bastion remnant,Hoglin stable chest,1,"13.6% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.13636363636363635, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Desert temple,Chest,1,"23.5% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.23489794603087977, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,1,"13.3% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1,"12.9% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.1285000378705884, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1,"35.3% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.35257500631817307, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1,"2.5% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.024800500000000003, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Savanna house chest,1,"11.3% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.11323884996174782, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Weaponsmith's chest,1,"16.2% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.16210315157390187, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Tanner's chest,1,"17.3% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.17258930206298828, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Upcoming Java Edition
+    Saddle,Trial Chambers,Reward chest,1,"10.5% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.10517806160781373, ""structure"": ""Trial Chambers"", ""container"": ""Reward chest"" }"
+    Bedrock Edition
+    Saddle,Monster Room,Chest,1,"27.9% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.2792703864726873, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1,"16.1% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bastion remnant,Hoglin stable chest,1,"13.6% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.13636363636363635, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Desert temple,Chest,1,"23.5% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.23489794603087977, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,1,"13.3% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1,"12.8% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.12822584452727093, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1,"35.3% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.35257500631817307, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1,"2.4% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.024037471921875886, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Savanna house chest,1,"11.3% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.11323884996174782, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Weaponsmith's chest,1,"16.2% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.16210315157390187, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Tanner's chest,1,"17.3% { ""item"": ""Saddle"", ""stacksize"": 1, ""chance"": 0.17258930206298828, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+
+  Fishing
+    Saddles can be obtained as a "treasure" item from fishing with a base chance (without fishing rod enchantments) of 0.8%.
+
+  Trading
+    Master-level leatherworker villagers have a 50% chance to sell a saddle for 6 emeralds as their trade.‌[Bedrock Edition  only] This trade is always offered in Java Edition.
+
+Usage
+    While camels, horses, donkeys, mules and skeleton horses‌[Java Edition  only] can always be ridden, a saddle is required to control them. These mobs (only after being tamed, in the case of equine mobs) can be equipped with a saddle by placing it in their inventory, which can be opened by pressing use while holding a saddle or sneaking. The saddle can be unequipped by removing it from  the specific inventory slot. Saddles are required to ride pigs and striders, but even with a saddle their movement cannot be controlled like other mobs. A carrot on a stick (for pigs) or a warped fungus on a stick (for striders) is required to direct these mobs. Using a saddle on one of these mobs equips them with the saddle, and, since they have no inventory, there is no way to retrieve the saddle without killing the mob. Animals can also be equipped with saddles by a dispenser. Although ravagers are equipped with saddles and sometimes ridden by other mobs, the player is unable to ride ravagers.
+

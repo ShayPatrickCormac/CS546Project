@@ -1,0 +1,56 @@
+Overview
+    Crying obsidian is a luminous variant of obsidian that can be used to craft a respawn anchor.
+
+Obtaining
+  Breaking
+    Crying obsidian can be harvested only with a pickaxe of diamond tier or higher.
+
+    Block,Crying Obsidian
+    Hardness,50
+    Tool,diamond pickaxe
+    Breaking time (sec) [A]
+    Default,250
+    Wooden,125
+    Stone,62.5
+    Iron,41.7
+    Diamond,9.4
+    Netherite,8.35
+    Golden,20.85
+
+    There is no way to convert normal obsidian into crying obsidian. It can only be obtained via the methods listed below.
+
+  Natural generation
+    Crying obsidian can generate as part of ruined portals.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Crying Obsidian,Bastion remnant,Hoglin stable chest,1–5,"22.8% { ""item"": ""Crying Obsidian"", ""stacksize"": ""1–5"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Bridge chest,3–8,"11.2% { ""item"": ""Crying Obsidian"", ""stacksize"": ""3–8"", ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Generic chest,1–5,"19% { ""item"": ""Crying Obsidian"", ""stacksize"": ""1–5"", ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Treasure chest,3–5,"33.7% { ""item"": ""Crying Obsidian"", ""stacksize"": ""3–5"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Bedrock Edition
+    Crying Obsidian,Bastion remnant,Hoglin stable chest,1–5,"22.8% { ""item"": ""Crying Obsidian"", ""stacksize"": ""1–5"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Bridge chest,3–8,"11.2% { ""item"": ""Crying Obsidian"", ""stacksize"": ""3–8"", ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Generic chest,1–5,"19% { ""item"": ""Crying Obsidian"", ""stacksize"": ""1–5"", ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Treasure chest,3–5,"33.7% { ""item"": ""Crying Obsidian"", ""stacksize"": ""3–5"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+
+  Bartering
+    Piglins have a ~8.71% chance (40⁄459) to barter 1–3 crying obsidian when given a gold ingot.
+
+Usage
+    Similarly to obsidian, crying obsidian is a resilient building block. It has a blast resistance of 1,200. In addition, it cannot be destroyed by the ender dragon. It is used to make the respawn anchor, a block that has the function of letting players respawn in the Nether. When placed, crying obsidian occasionally produces purple dripping particles, as if it is "crying". These droplets are purely decorative. Unlike obsidian, crying obsidian cannot be used as a nether portal frame.[1] End crystals also cannot be placed on crying obsidian.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Respawn Anchor,Crying Obsidian + Glowstone,"[['', '', ''], ['Glowstone', 'Glowstone', 'Glowstone'], ['', '', '']]"
+
+  Light
+    Crying obsidian gives off a light level of 10, which does not melt snow or ice. Its blast resistance distinguishes it from other light-emitting blocks.
+
+  Note blocks
+    Crying obsidian can be placed under note blocks to produce "bass drum" sounds.
+
+  Piston interactivity
+    Crying obsidian cannot be pushed or pulled by pistons or sticky pistons.
+

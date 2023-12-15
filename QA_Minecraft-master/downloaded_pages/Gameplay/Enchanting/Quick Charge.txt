@@ -1,0 +1,21 @@
+Overview
+    Quick Charge is an enchantment that reduces the time taken to reload a crossbow.
+
+Obtaining
+    Quick Charge I and Quick Charge II can be acquired using an enchanting table and by fishing. It can also be found in loot chests of dungeons and loot chests of library rooms in strongholds. Quick Charge III can be acquired through an anvil by merging two crossbows/books that both have Quick Charge II on them. Quick Charge III can also be acquired by trading with a librarian villager, or by finding it in a chest in an abandoned mineshaft or desert pyramid.
+
+Usage
+    Quick Charge reduces the time to load a crossbow with either an arrow or a firework rocket. The regular loading time is 1.25 seconds, and each enchantment level decreases the loading time by 0.25 seconds, making Quick Charge III result in a crossbow that requires just 0.5 seconds to load. If commands are used to increase the enchantment level to level 5,‌[Java Edition  only] the crossbow loads instantly when used. Beyond level 5 the crossbow does not load at all.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Quick Charge,quick_charge,enchantment.minecraft.quick_charge
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Quick Charge,quick_charge,35,enchantment.crossbowQuickCharge
+

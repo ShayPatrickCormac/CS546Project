@@ -1,0 +1,150 @@
+Overview
+    A diamond is a mineral that can only be obtained from diamond ore, loot chests and suspicious blocks. It is required to craft diamond tools and armor (and therefore obtain obsidian), enchanting tables, jukeboxes and duplicate smithing templates.
+
+Obtaining
+  Mining
+    Diamond ore can be mined using an iron pickaxe or stronger. An ore drops a single diamond. If mined by any other tool, it drops nothing. If the pickaxe is enchanted with Fortune, it can drop an extra diamond per level of Fortune, allowing for a maximum of 4 diamonds with Fortune III. If the ore is mined using a pickaxe enchanted with Silk Touch, it drops an ore block rather than a diamond. The ore is found at level 15 or lower, most commonly between -50 and -64; levels -58 and -59 are the preferred levels to mine at since they don't contain bedrock, as it starts spawning at -60.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Diamond,Mineshaft,Chest,1–2,"8.9% { ""item"": ""Diamond"", ""stacksize"": ""1–2"", ""chance"": 0.08876055522124693, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bastion remnant,Treasure chest,2–6,"15.8% { ""item"": ""Diamond"", ""stacksize"": ""2–6"", ""chance"": 0.15757887517146774, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Buried treasure,Chest,1–2,"59.9% { ""item"": ""Diamond"", ""stacksize"": ""1–2"", ""chance"": 0.5987654320987654, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1–3,"6.3% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.06312352825007994, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Suspicious sand,1,"12.5% { ""item"": ""Diamond"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    End city,Chest,2–7,"21.2% { ""item"": ""Diamond"", ""stacksize"": ""2–7"", ""chance"": 0.21244814670441758, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1–3,"12.9% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.1285000378705884, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1–3,"19% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1,"14.1% { ""item"": ""Diamond"", ""stacksize"": 1, ""chance"": 0.14087321982167356, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Stronghold,Altar chest,1–3,"7.3% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.07321350000000004, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Toolsmith's chest,1–3,"9.9% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.0989873657501581, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Weaponsmith's chest,1–3,"16.2% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.16210315157390187, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Upcoming Java Edition
+    Diamond,Trial Chambers,Corridor pot,1–4,"0.9% { ""item"": ""Diamond"", ""stacksize"": ""1–4"", ""chance"": 0.00907441016333943, ""structure"": ""Trial Chambers"", ""container"": ""Corridor pot"" }"
+    Intersection barrel,1–3,"5.9% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.05939097123670134, ""structure"": ""Trial Chambers"", ""container"": ""Intersection barrel"" }"
+    Intersection chest,1–2,"21.5% { ""item"": ""Diamond"", ""stacksize"": ""1–2"", ""chance"": 0.21505443965101612, ""structure"": ""Trial Chambers"", ""container"": ""Intersection chest"" }"
+    Reward chest,1–3,"3.6% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.035924868519909836, ""structure"": ""Trial Chambers"", ""container"": ""Reward chest"" }"
+    Bedrock Edition
+    Diamond,Mineshaft,Chest,1–2,"8.9% { ""item"": ""Diamond"", ""stacksize"": ""1–2"", ""chance"": 0.08876055522124693, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bastion remnant,Treasure chest,2–6,"15.8% { ""item"": ""Diamond"", ""stacksize"": ""2–6"", ""chance"": 0.15757887517146774, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Buried treasure,Chest,1,"46.9% { ""item"": ""Diamond"", ""stacksize"": 1, ""chance"": 0.4694850955223546, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1–3,"6.3% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.06312352825007994, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Suspicious sand,1,"12.5% { ""item"": ""Diamond"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    End city,Chest,2–7,"21.2% { ""item"": ""Diamond"", ""stacksize"": ""2–7"", ""chance"": 0.21244814670441758, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1–3,"12.8% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.12822584452727093, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1–3,"19% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1,"14.1% { ""item"": ""Diamond"", ""stacksize"": 1, ""chance"": 0.14087321982167356, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Stronghold,Altar chest,1–3,"7.1% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.07099659856993723, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Toolsmith's chest,1–3,"9.9% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.0989873657501581, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Weaponsmith's chest,1–3,"16.2% { ""item"": ""Diamond"", ""stacksize"": ""1–3"", ""chance"": 0.16210315157390187, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+
+    There's a seed with 42 diamonds in one chest in an End city in 1.16.5. SEED: 233458582470766 ‌[JE  only]
+CORDS:  79 113 -2230 https://www.youtube.com/shorts/lDINx3hOHj0
+
+  Suspicious sand loot
+    When brushing suspicious sand in desert pyramids, they have a 1⁄7 chance to drop a diamond.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Block of Diamond,"[[None, None, None], [None, 'Block of Diamond', None], [None, None, None]]"
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Diamond,Diamond Ore or Deepslate Diamond Ore + Any fuel,1
+
+Usage
+    Diamonds are mainly used to craft high-tier armor and equipment, which in turn are also used in making netherite armor and equipment.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Block of Diamond,Diamond,"[['', '', ''], ['', '', ''], ['', '', '']]",
+    Coast Armor Trim Smithing Template,Diamond + Coast Armor Trim + Cobblestone,"[['', 'Smithing Template', ''], ['', 'Cobblestone', ''], ['', '', '']]",
+    Diamond Axe,Diamond + Stick,"[['', '', None], ['', 'Stick', None], [None, 'Stick', None]]",
+    Diamond Boots,Diamond,"[[None, None, None], ['', None, ''], ['', None, '']]",
+    Diamond Chestplate,Diamond,"[['', None, ''], ['', '', ''], ['', '', '']]",
+    Diamond Helmet,Diamond,"[[None, None, None], ['', '', ''], ['', None, '']]",
+    Diamond Hoe,Diamond + Stick,"[['', '', None], [None, 'Stick', None], [None, 'Stick', None]]",
+    Diamond Leggings,Diamond,"[['', '', ''], ['', None, ''], ['', None, '']]",
+    Diamond Pickaxe,Diamond + Stick,"[['', '', ''], [None, 'Stick', None], [None, 'Stick', None]]",
+    Diamond Shovel,Diamond + Stick,"[[None, '', None], [None, 'Stick', None], [None, 'Stick', None]]",
+    Diamond Sword,Diamond + Stick,"[[None, '', None], [None, '', None], [None, 'Stick', None]]",
+    Dune Armor Trim Smithing Template,Diamond + Dune Armor Trim + Sandstone,"[['', 'Smithing Template', ''], ['', 'Sandstone', ''], ['', '', '']]",
+    Enchanting Table,Book + Diamond + Obsidian,"[[None, 'Book', None], ['', 'Obsidian', ''], ['Obsidian', 'Obsidian', 'Obsidian']]",
+    Eye Armor Trim Smithing Template,Diamond + Eye Armor Trim + End Stone,"[['', 'Smithing Template', ''], ['', 'End Stone', ''], ['', '', '']]",
+    Firework Star,Gunpowder + Matching Dye + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'White Dye', 'Head'], ['Glowstone Dust', '', None]]","Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Host Armor Trim Smithing Template,Diamond + Host Armor Trim + Terracotta,"[['', 'Smithing Template', ''], ['', 'Terracotta', ''], ['', '', '']]",
+    Jukebox,Any Planks + Diamond,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], ['Oak Planks', '', 'Oak Planks'], ['Oak Planks', 'Oak Planks', 'Oak Planks']]",
+    Netherite Upgrade Smithing Template,Diamond + Netherite Upgrade + Netherrack,"[['', 'Smithing Template', ''], ['', 'Netherrack', ''], ['', '', '']]",
+    Raiser Armor Trim Smithing Template,Diamond + Raiser Armor Trim + Terracotta,"[['', 'Smithing Template', ''], ['', 'Terracotta', ''], ['', '', '']]",
+    Rib Armor Trim Smithing Template,Diamond + Rib Armor Trim + Netherrack,"[['', 'Smithing Template', ''], ['', 'Netherrack', ''], ['', '', '']]",
+    Sentry Armor Trim Smithing Template,Diamond + Sentry Armor Trim + Cobblestone,"[['', 'Smithing Template', ''], ['', 'Cobblestone', ''], ['', '', '']]",
+    Shaper Armor Trim Smithing Template,Diamond + Shaper Armor Trim + Terracotta,"[['', 'Smithing Template', ''], ['', 'Terracotta', ''], ['', '', '']]",
+    Silence Armor Trim Smithing Template,Diamond + Silence Armor Trim + Cobbled Deepslate,"[['', 'Smithing Template', ''], ['', 'Cobbled Deepslate', ''], ['', '', '']]",
+    Snout Armor Trim Smithing Template,Diamond + Snout Armor Trim + Blackstone,"[['', 'Smithing Template', ''], ['', 'Blackstone', ''], ['', '', '']]",
+    Spire Armor Trim Smithing Template,Diamond + Spire Armor Trim + Purpur Block,"[['', 'Smithing Template', ''], ['', 'Purpur Block', ''], ['', '', '']]",
+    Tide Armor Trim Smithing Template,Diamond + Tide Armor Trim + Prismarine,"[['', 'Smithing Template', ''], ['', 'Prismarine', ''], ['', '', '']]",
+    Vex Armor Trim Smithing Template,Diamond + Vex Armor Trim + Cobblestone,"[['', 'Smithing Template', ''], ['', 'Cobblestone', ''], ['', '', '']]",
+    Ward Armor Trim Smithing Template,Diamond + Ward Armor Trim + Cobbled Deepslate,"[['', 'Smithing Template', ''], ['', 'Cobbled Deepslate', ''], ['', '', '']]",
+    Wayfinder Armor Trim Smithing Template,Diamond + Wayfinder Armor Trim + Terracotta,"[['', 'Smithing Template', ''], ['', 'Terracotta', ''], ['', '', '']]",
+    White Firework Star or Blue Firework Star or Brown Firework Star or Black Firework Star,Gunpowder + Bone Meal or Lapis Lazuli or Cocoa Beans or Ink Sac + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'Bone Meal', 'Head'], ['Glowstone Dust', '', None]]","‌ [ Bedrock Edition and Minecraft Education only ] Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Wild Armor Trim Smithing Template,Diamond + Wild Armor Trim + Mossy Cobblestone,"[['', 'Smithing Template', ''], ['', 'Mossy Cobblestone', ''], ['', '', '']]",
+
+  Trading
+    In Bedrock Edition, expert-level armorer, toolsmith, and weaponsmith villagers buy one diamond for an emerald as part of their trades. In Java Edition, journeyman-level armorer villagers have a 40% chance of offering to buy one diamond for one emerald. Expert-level toolsmith villagers have 2⁄3 chance of offering to buy one diamond for one emerald. Expert-level weaponsmith villagers always offer to buy one diamond for one emerald.
+
+  Repairing
+    Diamonds are the repair items for the diamond tier and armor material, and thus can be used to repair the following items in an anvil or grindstone:
+
+  Beacons
+    Diamonds can be used to select powers from a beacon. The player must select one of the available powers then insert a diamond into the item slot. A diamond can be substituted for an iron ingot, a gold ingot, an emerald or a netherite ingot.
+
+  Smithing ingredient
+    Ingredients,Smithing recipe,Description
+    Any Armor Trim + Any Armor Piece + Diamond,Upgrade Gear,"All armor types can be used in this recipe, a netherite chestplate is shown as an example."
+
+    Trim color palette The following color palettes are shown on the designs on trimmed armor:
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Item tags,Translation key
+    Diamond,diamond,Item,beacon_payment_items,item.minecraft.diamond
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Diamond,diamond,304,Item,item.diamond.name
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    diamonds,diamonds,"DIAMONDS! { ""anchor"": """", ""title"": ""DIAMONDS!"", ""icon"": """", ""title"": ""DIAMONDS!"", ""description"": ""Acquire diamonds with your iron tools.
+ "", ""requirements"": ""Pick up a [[diamond]] from the ground.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"DIAMOND CROWN"" headwear
+"" }",Acquire diamonds with your iron tools.,Pick up a diamond from the ground.,20G,Bronze
+    enchanter,enchanter,"Enchanter { ""anchor"": """", ""title"": ""Enchanter"", ""icon"": """", ""title"": ""Enchanter"", ""description"": ""Construct an Enchantment Table.
+ "", ""requirements"": ""Pick up an [[enchantment table]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Enchanters Hat"" headwear
+"" }",Construct an Enchantment Table.,Pick up an enchantment table from a crafting table output.,20G,Bronze
+    diamonds to you,diamonds to you,"Diamonds to you! { ""anchor"": """", ""title"": ""Diamonds to you!"", ""icon"": """", ""title"": ""Diamonds to you!"", ""description"": ""Throw diamonds at another player.
+ "", ""requirements"": ""<span  class=""explain "" title=""Defaults to Q on keyboard or D-pad down on gamepad."">Drop</span> a diamond. Another player or a mob must then pick up this diamond.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Diamonds to You!"" emote
+"" }",Throw diamonds at another player.,Drop a diamond. Another player or a mob must then pick up this diamond.,15G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Diamonds!,Acquire diamonds,Isn't It Iron Pick,Have a diamond in your inventory.,"story/mine_diamond {""anchor"": """", ""title"": ""Diamonds!"", ""icon"": ""Diamond
+"", ""icon-style"": ""plain"", ""title"": ""Diamonds!"", ""description"": ""Acquire diamonds
+"", ""parent"": ""Isn't It Iron Pick
+"", ""requirements"": ""Have a [[diamond]] in your inventory.
+"", ""resourcelocation"": ""story/mine_diamond
+"", ""rewards"": """" }"
+

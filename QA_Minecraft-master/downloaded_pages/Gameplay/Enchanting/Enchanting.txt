@@ -1,0 +1,209 @@
+Overview
+    Enchanting is a mechanic that augments armor, tools, weapons, and books with a variety of "enchantments" that improve an item's existing abilities or imbue them with additional abilities and uses. A special "glint" animation appears on items to show that they are enchanted.
+
+Enchanting equipment
+    Name,Icon,Usage
+    Enchanting Table,,Used for enchanting items.
+    Bookshelf,,Each bookshelf (up to 15) increases the level of the enchantments given by the enchanting table.
+    Lapis Lazuli,,Required to power the enchanting table.
+    Anvil,,"Used to combine enchanted items (tools, armor, weapons, etc), add enchantments from books, or repair an enchanted item while preserving enchantments."
+    Grindstone,,"Used to remove all non-curse enchantments on an item, returning a small amount of experience, and optionally repair an item for no experience."
+    Enchanted Book,,Can be combined with another item through an anvil to add certain enchantments to the item.
+
+Enchanting methods
+    There are four ways to enchant an item in Survival mode: A player may also obtain items already enchanted: Server operators and players in singleplayer worlds with cheats enabled can also enchant items using commands such as /enchant. When enchanted with the /give command, the maximum enchantment level is 255 on Java Edition. In Creative mode, items can be enchanted via an anvil and enchanted books, with no experience points required. Enchanted books are available in the Creative mode inventory, with individual book displays for the highest level of each enchantment and other levels available via the "Search" tab.
+
+  Enchanting table
+    An item can be enchanted by using an enchanting table and placing the item in the input slots and 1–3 lapis lazuli in its dedicated slot. Upon placing the item, three (pseudo)randomized options appear on the right of the GUI. The glyphs here do not affect the enchantment, but hovering over a presented enchantment shows one enchantment to be applied (on mobile devices, the player can tap an enchantment before putting in the lapis lazuli or hold the enchantment before release). The only choices available have a level requirement equal to or below the player's current level and a lapis lazuli requirement equal to or below the number of lapis lazuli placed in the table. Each option imbues the item with a randomized set of enchantments that are dependent on the number of experience levels required (e.g. a level 10 enchantment can give a pickaxe the "Efficiency II" enchantment); the actual level cost and the number of lapis lazuli required have no effect. Although the player must have at least the level requirement to get an enchantment, the number of levels that the player is charged is the same as the lapis lazuli requirement. For example, if the third enchantment listed is a level 30 enchantment, the player must have at least 30 levels, but pay only 3 levels and 3 lapis lazuli. The level requirement influences the quantity, type, and level of enchantments instilled in the item, with a higher experience level generally resulting in more and/or higher-level enchantments. Nevertheless, there is a significant random factor, and even a level 30 enchantment (the maximum) doesn't guarantee more than one enchantment, or even that enchantments are "maximum strength" — a level 30 enchantment can still yield Fortune II or Efficiency III alone, for example. On the other hand, it is possible for multiple different enchantments to be given from one use of the enchanting table. For example, a level 30 enchantment applied to a pickaxe may yield both Efficiency IV and Unbreaking III. To increase the enchantment level, bookshelves can be placed next to the enchanting table while keeping one block of air between them. To gain access to the previously mentioned level 30 enchantments, a total of 15 bookshelves need to be placed around the enchanting table. See the Enchantment Mechanics page for more detailed information on this. Enchanting a book produces an enchanted book, which does nothing on its own, but effectively "saves" the enchantment for later application to another item with an anvil. Unlike with an anvil, using the enchanting table while on Creative still costs experience. However, if the player doesn't have enough experience, then experience reduces to zero and the enchantment still works, even when using the enchanting table while already at level zero. Enchanting any item at any enchantment level changes the player's enchantment seed, which changes the possible enchantments for every item at every enchantment level. Thus, if none of the available enchantments for a tool are desired, 1 lapis lazuli and 1 level could be spent to enchant a book or a different tool to refresh the list. The possible enchantments depend on the player's enchantment seed, the item type, and material, and the enchantment level (1–30). The following actions do not affect the possible enchantments: Changing the enchantment levels offered by adding, removing, or blocking bookshelves alters the enchantments shown, but does not change possible enchantments; using another enchanting table with the previous bookshelf number still shows the previous enchantments. The enchantments for a particular enchantment level (with the same seed and item) do also differ depending on which row they appear in, but they are not "better" or "worse" based on the row despite the different resource costs.
+
+  Anvil combinations
+    An anvil can be used to combine the enchantments of two items, sacrificing one of them and repairing the other. The items must be compatible; they must either be the same type and material (such as two iron swords) or an item and an enchanted book with an applicable enchantment (such as a bow and an Infinity enchanted book). Combining two enchanted items, books or one of each with the same enchantment at the same level produces an item or book with the next higher level of that enchantment up to the maximum allowed in Survival mode; for example, a book with Thorns I and Unbreaking II combined with a book with Unbreaking II produces a book with Thorns I and Unbreaking III. To combine items, the player places the target item in the anvil's first slot and the sacrifice item in the second slot. If the combination is allowed, the resulting enchanted item appears in the anvil's output slot and an experience level cost, labeled "Enchantment Cost", appears below (green if the player has enough experience levels, red if they don't). To complete the enchanting, the player removes the enchanted item from the anvil's output slot, and their experience level is reduced accordingly. The experience cost depends on the enchantments, with highly enchanted items costing more. If the target item is also being repaired, that costs more as well. The target item can also be renamed, at additional cost. There is also an accumulating surcharge for prior work done on anvils. In Survival mode, work that costs more than 39 levels of experience is refused although it may still be possible to perform the same work in steps. For example, a damaged enchanted bow may be repaired on an anvil with an ordinary bow, and then another enchanted bow may be used to combine enchantments with the repaired bow.
+
+  Enchanted books
+    Enchanted books can be made by enchanting a book in an enchanting table at the cost of experience points. They can also be found in the chests of several structures, purchased with emeralds from a librarian villager, or caught while fishing. Enchanted books can be applied to tools, weapons, and armor, or combined with other enchanted books in an anvil. In this way, some enchantments that cannot normally be obtained on an item through use of the enchanting table can still be applied to those items, such as applying Thorns to boots. Although enchanted books can have multiple enchantments of any type, only enchantments appropriate to a given item type are applied to that item when combined in an anvil. For example, an enchanted book may have both the Respiration and Power enchantments, but the Respiration enchantment is lost if the book is applied to anything but a helmet. Likewise, the Power enchantment is lost if the book is applied to anything but a bow. In Creative mode, enchanted books can be used to apply any enchantment to any item, such as a stick having Knockback II on Java Edition. However, mutually-exclusive enchantments, such as Infinity and Mending, cannot be applied this way or even via /enchant (though both enchantments function as normal when obtained on a bow through the /give command). The experience costs for using books are considerably less than for combining items with similar enchantments since the books themselves cost levels to create. However, it's still an extra cost, and enchanting items directly has a chance to get multiple enchantments. The advantage of books is that they can be stockpiled for use on an item of choice and allow for controlled combinations. For example, a Silk Touch book can be used on an axe, pickaxe, or shovel, and the player can decide which item receives which enchantment. Use Order Calculator to minimize experience loss when merging two items.
+
+Disenchanting
+    The only way to disenchant items is via the grindstone or by repairing the items via the crafting grid. Using the grindstone removes all enchantments (except Curse of Binding and Curse of Vanishing) but gives some experience back based on the level of the enchantment(s) and their value.
+
+Summary of enchantments
+    Each enchantment in the table below includes attributes that are possible for the player to acquire legitimately in Survival mode. Other combinations are possible in Creative mode or with cheats, mods, or third-party software.
+
+    Name,Summary,Treasure [note 1],Incompatible With,Max Level,Primary Items,Secondary Items,Weight
+    Aqua Affinity,Increases underwater mining speed.,No,,I,helmet; turtle shell,,2
+    Bane of Arthropods,"Increases damage and applies Slowness IV to arthropod mobs (spiders, cave spiders, silverfish, endermites and bees).",No,"Smite, Sharpness",V,‌ [ BE only ],‌ [ JE only ],5
+    Blast Protection,Reduces explosion damage and knockback.,No,"Fire Protection, Protection, Projectile Protection",IV,helmet; chestplate; leggings; boots; turtle shell,,2
+    Channeling,"During thunderstorms, trident summons a lightning bolt on the target when hitting it.",No,Riptide,I,trident,,1
+    Cleaving ‌ [ upcoming: JE Combat Tests ],Increases damage and shield stunning.,Unknown,"Sharpness, Bane of Arthropods, Smite",III,axe,,
+    Curse of Binding,Items cannot be removed from armor slots.,Yes,,I,,helmet; chestplate; leggings; boots; elytra; carved pumpkin; heads; turtle shell,1
+    Curse of Vanishing,Item disappears on death.,Yes,,I,,‌ [ BE only ],1
+    Depth Strider,Increases underwater movement speed.,No,Frost Walker,III,boots,,2
+    Efficiency,"Increases tool speed, as well as the chance for axes to disable shields.",No,,V,pickaxe; shovel; axe; hoe,shears,10
+    Feather Falling,Reduces fall damage.,No,,IV,boots,,5
+    Fire Aspect,Sets target on fire.,No,,II,‌ [ upcoming: JE Combat Tests ],,2
+    Fire Protection,Reduces fire damage and burn time. Mutually exclusive with other protections.,No,"Blast Protection, Protection, Projectile Protection",IV,helmet; chestplate; leggings; boots; turtle shell,,5
+    Flame,Arrows shot are ignited and deal fire damage to the target.,No,,I,bow,,2
+    Fortune,Increases the amount of block drops.,No,Silk Touch,III,pickaxe; shovel; axe; hoe,,2
+    Frost Walker,Allows the player to walk on water by freezing the water under their feet.,Yes,Depth Strider,II,,boots,2
+    Impaling,"Increases damage against aquatic mobs. In Bedrock Edition , increases damage against mobs in water or rain.",No,,V,trident,,2
+    Infinity,Prevents consumption of arrows.,No,Mending,I,bow,,1
+    Knockback,Increases knockback.,No,,II,sword,,5
+    Looting,Increases mob loot.,No,,III,sword,,2
+    Loyalty,Trident returns after being thrown.,No,Riptide,III,trident,,5
+    Luck of the Sea,"Increases rate of good loot (enchanting books, etc.).",No,,III,fishing rod,,2
+    Lure,Decreases time for bites.,No,,III,fishing rod,,2
+    Mending,Repairs the item using experience.,Yes,Infinity,I,,helmet; chestplate; leggings; boots; pickaxe; shovel; axe; sword; hoe; fishing rod; bow; shears; flint and steel; carrot on a stick; warped fungus on a stick; shield; elytra; trident; turtle shell; crossbow; brush,2
+    Multishot,Fires 3 arrows at the same time.,No,Piercing,I,crossbow,,2
+    Piercing,"Arrows pierce entities, allowing for arrows to pierce through stacks of mobs.",No,Multishot,IV,crossbow,,10
+    Power,Increases arrow damage.,No,,V,bow,,10
+    Projectile Protection,Reduces damage from projectiles.,No,"Protection, Blast Protection, Fire Protection",IV,helmet; chestplate; leggings; boots; turtle shell,,5
+    Protection,Reduces generic damage.,No,"Blast Protection, Fire Protection, Projectile Protection",IV,helmet; chestplate; leggings; boots; turtle shell,,10
+    Punch,Increases arrow knockback.,No,,II,bow,,2
+    Quick Charge,Decreases crossbow charging time.,No,,III,crossbow,,5
+    Respiration,Extends underwater breathing time.,No,,III,helmet; turtle shell,,2
+    Riptide,Trident launches player with itself when thrown while in water or rain.,No,"Channeling, Loyalty",III,trident,,2
+    Sharpness,Increases melee damage.,No,"Bane of Arthropods, Smite",V,‌ [ BE only ],‌ [ JE only ],10
+    Silk Touch,Mined blocks drop themselves.,No,Fortune,I,pickaxe; shovel; axe; hoe,‌ [ BE only ],1
+    Smite,Increases damage to the undead .,No,"Bane of Arthropods, Sharpness",V,‌ [ BE only ],‌ [ JE only ],5
+    Soul Speed,Increases movement speed on soul sand and soul soil .,Yes,,III,,boots,1
+    Sweeping Edge ‌ [ Java Edition only ],Increases sweeping attack damage.,No,,III,sword,,2
+    Swift Sneak,Increases sneaking speed.,Yes,,III,,leggings,1
+    Thorns,Taking damage causes the attacker to also take damage.,No,,III,chestplate,helmet; leggings; boots; turtle shell,1
+    Unbreaking,Reduces durability damage.,No,,III,helmet; chestplate; leggings; boots; pickaxe; shovel; axe; sword; hoe; fishing rod; bow; trident; turtle shell; crossbow,shears; flint and steel; shield; carrot on a stick; warped fungus on a stick; elytra; brush,5
+
+Summary of enchantments by item
+    Enchantments that have multiple levels are shown with their maximum level numbers. Mutually exclusive enchantments can be combined using commands (e.g., /give @s bow{Enchantments:[{id:infinity,lvl:1},{id:mending,lvl:1}]} 1). Also, a player can exceed the maximum levels of enchantments (e.g., /give @s netherite_sword{Enchantments:[{id:fire_aspect,lvl:10}]} 1). However, if that number goes above 10, it looks like this: [1]
+
+    Item,Any combination of,Only one from each column
+    Helmet,"Mending , Unbreaking III , Thorns III , Respiration III , Aqua Affinity","Protection IV , Projectile Protection IV , Fire Protection IV , Blast Protection IV",
+    Turtle Shell
+    Chestplate,"Mending , Unbreaking III , Thorns III"
+    Leggings,"Mending , Unbreaking III , Thorns III , Swift Sneak III"
+    Boots,"Mending , Unbreaking III , Thorns III , Feather Falling IV , Soul Speed III",Depth Strider III Frost Walker II
+    Sword,"Mending , Unbreaking III , Fire Aspect II , Looting III , Knockback II , Sweeping Edge III ‌ [ JE only ]","Sharpness V , Smite V , Bane of Arthropods V",
+    Axe,"Mending , Unbreaking III , Efficiency V [2]","Fortune III , Silk Touch",Sharpness V Smite V Bane of Arthropods V Cleaving III ‌ [ upcoming: JE Combat Tests ]
+    Pickaxe,
+    Shovel
+    Hoe
+    Bow,"Unbreaking III , Power V , Punch II , Flame","Infinity , Mending",
+    Fishing Rod,"Mending , Unbreaking III , Lure III , Luck of the Sea III",,
+    Trident,"Mending , Unbreaking III , Impaling V",Channeling,Loyalty III
+    Riptide III [note 1]
+    Crossbow,"Mending , Unbreaking III , Quick Charge III","Piercing IV , Multishot",
+    Shears,"Mending , Unbreaking III , Efficiency V , Silk Touch ‌ [ BE only ]",,
+    Shield,"Mending , Unbreaking III",,
+    Elytra
+    Flint and Steel
+    Carrot on a Stick
+    Warped Fungus on a Stick
+    Brush
+    Compass,Curse of Vanishing,,
+    Recovery Compass ‌ [ BE only ]
+
+    The tables below summarize the enchantments that can be obtained on specific items in Bedrock Edition and in Java Edition Survival mode (Any enchantment can be applied to any item in Java Edition Creative mode). Enchantments that can be applied to both hand slot items and armor slot items are listed in both tables.
+
+    Enchantment (Max),sword,‌ [ JE only ],‌ [ BE only ],pickaxe; shovel; hoe,shears,bow,fishing rod,flint and steel; carrot on a stick; warped fungus on a stick; shield; brush,trident,crossbow,‌ [ BE only ]
+    Bane of Arthropods (V),enchanting table,anvil,enchanting table,,,,,,,,
+    Channeling (I),,,,,,,,,enchanting table,,
+    Cleaving (III) ‌ [ upcoming: JE Combat Tests ],,anvil,,,,,,,,,
+    Curse of Vanishing (I),anvil,anvil,anvil,anvil,anvil,anvil,anvil,anvil,anvil,anvil,anvil
+    Efficiency (V),,enchanting table,enchanting table,enchanting table,anvil,,,,,,
+    Fire Aspect (II),enchanting table,,,,,,,,,,
+    Flame (I),,,,,,enchanting table,,,,,
+    Fortune (III),,enchanting table,enchanting table,enchanting table,,,,,,,
+    Impaling (V),,,,,,,,,enchanting table,,
+    Infinity (I),,,,,,enchanting table,,,,,
+    Knockback (II),enchanting table,,,,,,,,,,
+    Looting (III),enchanting table,,,,,,,,,,
+    Loyalty (III),,,,,,,,,enchanting table,,
+    Luck of the Sea (III),,,,,,,enchanting table,,,,
+    Lure (III),,,,,,,enchanting table,,,,
+    Mending (I),anvil,anvil,anvil,anvil,anvil,anvil,anvil,anvil,anvil,anvil,
+    Multishot (I),,,,,,,,,,enchanting table,
+    Piercing (IV),,,,,,,,,,enchanting table,
+    Power (V),,,,,,enchanting table,,,,,
+    Punch (II),,,,,,enchanting table,,,,,
+    Quick Charge (III),,,,,,,,,,enchanting table,
+    Riptide (III),,,,,,,,,enchanting table,,
+    Sharpness (V),enchanting table,anvil,enchanting table,,,,,,,,
+    Silk Touch (I),,enchanting table,enchanting table,enchanting table,‌ [ BE only ],,,,,,
+    Smite (V),enchanting table,anvil,enchanting table,,,,,,,,
+    Sweeping Edge (III),enchanting table,,,,,,,,,,
+    Unbreaking (III),enchanting table,enchanting table,enchanting table,enchanting table,anvil,enchanting table,enchanting table,anvil,enchanting table,enchanting table,
+
+    Enchantment (Max),helmet; turtle helmet,chestplate,leggings,boots,elytra,carved pumpkin; heads
+    Aqua Affinity (I),enchanting table,,,,,
+    Blast Protection (IV),enchanting table,enchanting table,enchanting table,enchanting table,,
+    Curse of Binding (I),anvil,anvil,anvil,anvil,anvil,anvil
+    Curse of Vanishing (I),anvil,anvil,anvil,anvil,anvil,anvil
+    Depth Strider (III),,,,enchanting table,,
+    Feather Falling (IV),,,,enchanting table,,
+    Fire Protection (IV),enchanting table,enchanting table,enchanting table,enchanting table,,
+    Frost Walker (II),,,,anvil,,
+    Mending (I),anvil,anvil,anvil,anvil,anvil,
+    Projectile Protection (IV),enchanting table,enchanting table,enchanting table,enchanting table,,
+    Protection (IV),enchanting table,enchanting table,enchanting table,enchanting table,,
+    Respiration (III),enchanting table,,,,,
+    Soul Speed (III),,,,anvil,,
+    Swift Sneak (III),,,anvil,,,
+    Thorns (III),anvil,enchanting table,anvil,anvil,,
+    Unbreaking (III),enchanting table,enchanting table,enchanting table,enchanting table,anvil,
+
+Maximum effective values for enchantments
+    A table shows the effective limits for enchantments (found also here).
+
+    Enchantment,Stackable,Effective min,Effective max,Notes
+    Aqua Affinity,Largest on first in armor,1,1,
+    Bane of Arthropods,Adds,Single: -2147483648 Stacked: -52241757371157708,Single: 2147483647 Stacked: 52241757371157708,"Adds 2.5 * level damage Affects arthropods with slowness amplifier 3 for 1 + random(0, level / 2) seconds"
+    Blast Protection,Adds,1,255,"Reduces damage by a factor of min(20, level * 2) / 25 Reduces explosion knockback by a factor of level * 0.15 Higher levels are treated as 255"
+    Channeling,First,1,1,
+    Curse of Binding,First,1,1,
+    Curse of Vanishing,First,1,1,
+    Depth Strider,Largest on first in armor,1,3,Higher levels are treated as 3
+    Efficiency,First,1,255,Increases mine speed by level² + 1 Higher levels are treated as 255
+    Feather Falling,Adds,1,7,"Reduces damage by a factor of min(20, level * 3) / 25"
+    Fire Aspect,First,1,255,Sets mobs on fire for level * 4 seconds Higher levels are treated as 255
+    Fire Protection,Adds for damage reduction Largest of first in armor for duration reduction,1,10,"Reduces damage by a factor of min(20, level * 2) / 25 Reduces fire duration by a factor of level * 0.15"
+    Flame,First,1,1,
+    Fortune,First,1,255,Anything that uses the apply_bonus loot table function works like this Higher levels are treated as 255
+    Frost Walker,First,1,14,Higher levels are treated as 14
+    Impaling,Adds,Single: -2147483648 Stacked: -52241757371157708,Single: 2147483647 Stacked: 52241757371157708,Adds 2.5 * level damage
+    Infinity,First,1,1,
+    Knockback,First,1,255,Adds level knockback strength Higher levels are treated as 255
+    Looting,First,1,255,Higher levels are treated as 255
+    Loyalty,First,1,127,Increases return speed by 0.05 * level Higher levels are treated as 0
+    Luck of the Sea,First,1,255,Adds level luck Higher levels are treated as 255
+    Lure,First,1,5,Reduces lure time by 5 * level seconds Higher levels prevent fish from appearing
+    Mending,First,1,1,
+    Multishot,First,1,1,
+    Piercing,First,1,127,Higher levels are treated as 0
+    Power,First,1,255,Increases damage by 0.5 * level + 0.5 Higher levels are treated as 255
+    Projectile Protection,Adds,1,10,"Reduces damage by a factor of min(20, level * 2) / 25"
+    Protection,Adds,1,20,"Reduces damage by a factor of min(20, level) / 25"
+    Punch,First,1,255,Adds level * 0.6 knockback strength Higher levels are treated as 255
+    Quick Charge,First,1,5,Reduces draw time by 0.25 * level seconds Higher levels prevent charging of crossbow
+    Respiration,Largest of first in armor,1,255,Causes a level / ( level + 1 ) chance not to decrease air level Higher levels are treated as 255
+    Riptide,First,1,1,
+    Sharpness,Adds,0,Single: 2147483647 Stacked: 36028799149670399,"Adds 0.5 * max(0, level - 1) + 1 damage"
+    Silk Touch,First,1,1,
+    Smite,Adds,Single: -2147483648 Stacked: -52241757371157708,Single: 2147483647 Stacked: 52241757371157708,Adds 2.5 * level damage
+    Soul Speed,First,1,255,Increases speed by 0.03 + (level * 0.0105) Higher levels are treated as 255
+    Sweeping Edge,First,1,255,Increases sweeping damage by a factor of level / (level + 1) times the hit's damage Higher levels are treated as 255
+    Swift Sneak,Adds,1,5,Increases walking speed while sneaking by level * 50% Higher levels are treated as 5
+    Thorns,Individual Procs,1,2147483647,"Chance of hitting is 0.15 * level Deals level - 10 damage if level is 11 or greater, otherwise deals random(0, 3) + 1"
+    Unbreaking,First,1,255,Items only have a 1 in level + 1 chance to take damage. Armor has a 0.6 chance to take damage even if it would otherwise skip it. Higher levels are treated as 255
+
+Item data
+Sounds
+    Java Edition:
+
+    Sounds
+    Sound,Subtitles,Source,Description,Resource location,Translation key,Volume,Pitch,Attenuation distance
+    ,Enchanting Table used,Blocks,When an item is enchanted,block .enchantment_table .use [sound 1],subtitles .block .enchantment_table .use [sound 1],1.0,0.9-1.0,"16 { ""pitch"": ""0.9-1.0"", ""subtitle"": ""Enchanting Table used"", ""source"": ""Blocks"", ""id"": ""block.enchantment_table.use"", ""distance"": ""16"", ""desc"": ""When an item is enchanted"", ""sounds"": [ ""Enchanting Table enchant1.ogg"", ""Enchanting Table enchant2.ogg"", ""Enchanting Table enchant3.ogg"" ], ""volume"": ""1.0"", ""translationkey"": ""subtitles.block.enchantment_table.use"", ""java"": ""1"", ""idnote"": ""'\""`UNIQ--ref-00000007-QINU`\""'"", ""translationkeynote"": ""'\""`UNIQ--ref-00000008-QINU`\""'"" }"
+
+    Bedrock Edition:
+
+    Sounds
+    Sound,Source,Description,Resource location,Volume,Pitch
+    ,Blocks,When an item is enchanted,block .enchanting_table .use,1.0,"1.0 { ""sounds"": [ ""Enchanting Table enchant1.ogg"", ""Enchanting Table enchant2.ogg"", ""Enchanting Table enchant3.ogg"" ], ""source"": ""Blocks"", ""volume"": ""1.0"", ""id"": ""block.enchanting_table.use"", ""pitch"": ""1.0"", ""bedrock"": ""1"", ""desc"": ""When an item is enchanted"" }"
+
+Videos

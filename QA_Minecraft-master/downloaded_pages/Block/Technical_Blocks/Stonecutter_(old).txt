@@ -1,0 +1,24 @@
+Overview
+    The stonecutter is an unused decorative block. It was previously used to craft many stone items in Bedrock Edition until those recipes were moved to the Crafting Table. It was later replaced by a new Stonecutter in the creative inventory, but it still exists in old worlds which had one.
+
+Obtaining
+    Stonecutters were available in the creative inventory‌[New Nintendo 3DS Edition  only], by pick blocking an existing stonecutter in the world or by using third-party software.
+
+  Breaking
+    An old stonecutter required a pickaxe to be mined, in which case it dropped itself. If mined without a pickaxe, then the mining was slower and it dropped nothing.
+
+    Block,Stonecutter
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+Usage
+    Stonecutters could be used only for decoration.
+

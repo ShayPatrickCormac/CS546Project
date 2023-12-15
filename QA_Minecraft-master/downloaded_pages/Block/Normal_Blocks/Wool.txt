@@ -1,0 +1,70 @@
+Overview
+    Wool is a block obtained from sheep that can be dyed in any of the sixteen different colors. It can be used as a crafting material and to block vibrations.
+
+Obtaining
+  Breaking
+    Wool can be broken using any tool, but shears are the fastest tool to use.
+
+    Block,Wool
+    Hardness,0.8
+    Breaking time (secs)
+    Default,1.2
+    Shears,0.25
+
+  Natural generation
+    Woodland Mansion All wool colors (except magenta, light blue‌[BE  only], pink, and purple) generate naturally as part of structures within woodland mansions. Village White and yellow wool generate in shepherd houses, fletcher houses, and meeting points in plains villages. A block of light gray wool generates under the door in one type of small house in snowy tundra villages. Pillager outpost White wool generates as tents outside pillager outposts. Ancient city Gray wool appears on some walls and on the floors of long corridors at the corners of an ancient city. The wool damps vibrations, preventing activation of nearby sculk blocks. Ancient cities can also generate blue, cyan, and light blue wool.
+
+  Mob loot
+    Using shears on an adult sheep yields 1-3 wool. If unshorn, sheep drop 1 wool upon death. The wool dropped is the same color as the sheep. The drop rates are not affected by the Fortune or Looting enchantments. Baby sheep cannot be sheared. White, light gray, gray, black, brown, and (rarely) pink wool can be found naturally on sheep. Getting a sheep of a different color requires dyeing the sheep.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Black Wool,Village,Shepherd's chest,1–3,"33% { ""item"": ""Black Wool"", ""stacksize"": ""1–3"", ""chance"": 0.32956898039771965, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    White Wool,Village,Shepherd's chest,1–8,"55.8% { ""item"": ""White Wool"", ""stacksize"": ""1–8"", ""chance"": 0.5583399765985125, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Gray Wool,Village,Shepherd's chest,1–3,"23.3% { ""item"": ""Gray Wool"", ""stacksize"": ""1–3"", ""chance"": 0.23252875118681526, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Light Gray Wool,Village,Shepherd's chest,1–3,"23.3% { ""item"": ""Light Gray Wool"", ""stacksize"": ""1–3"", ""chance"": 0.23252875118681526, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Brown Wool,Village,Shepherd's chest,1–3,"23.3% { ""item"": ""Brown Wool"", ""stacksize"": ""1–3"", ""chance"": 0.23252875118681526, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Bedrock Edition
+    Black Wool,Village,Shepherd's chest,1–3,"33% { ""item"": ""Black Wool"", ""stacksize"": ""1–3"", ""chance"": 0.32956898039771965, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    White Wool,Village,Shepherd's chest,1–8,"55.8% { ""item"": ""White Wool"", ""stacksize"": ""1–8"", ""chance"": 0.5583399765985125, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Gray Wool,Village,Shepherd's chest,1–3,"23.3% { ""item"": ""Gray Wool"", ""stacksize"": ""1–3"", ""chance"": 0.23252875118681526, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Light Gray Wool,Village,Shepherd's chest,1–3,"23.3% { ""item"": ""Light Gray Wool"", ""stacksize"": ""1–3"", ""chance"": 0.23252875118681526, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Brown Wool,Village,Shepherd's chest,1–3,"23.3% { ""item"": ""Brown Wool"", ""stacksize"": ""1–3"", ""chance"": 0.23252875118681526, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+
+  Crafting
+    Name,Ingredients,Crafting recipe,Description
+    White Wool,String,"[[None, None, None], ['String', 'String', None], ['String', 'String', None]]",
+    Wool,Any Wool + Matching Dye,"[[None, None, None], ['White Wool', 'White Dye', None], [None, None, None]]",
+    White Wool,Any Dyed Wool + Bleach,"[[None, None, None], ['Light Gray Wool', 'Bleach', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+
+  Trading
+    In Bedrock Edition, apprentice-level shepherd villagers have a 50% chance to sell one colored wool for an emerald, giving each wool color a 1⁄32 (3.125%) chance of being offered. In Java Edition, apprentice-level shepherd villagers have a 2⁄7 chance of selling one or two colored wool for an emerald, giving each wool color a 1⁄56 (roughly 1.786%) chance of being offered.
+
+  Villager gifts
+    In Java Edition, a shepherd villager may throw a block of wool of random color at a player under the Hero of the Village effect.
+
+Usage
+    Wool comes in sixteen colors, which are white, orange, magenta, light blue, yellow, lime, pink, gray, light gray, cyan, purple, blue, brown, green, red, and black. Unlike stained glass and terracotta, the white variant serves as the undyed block. Wool of any color can be re-dyed into any other color. Wool is weak, highly flammable, and offers little resistance against explosions.
+
+  Trading
+    Novice-level Shepherd villagers offer to buy 18 wool for an emerald, with the color being sold chosen randomly from white, gray, brown, or black. The villager has a 3⁄4 chance of offering the trade again with a different color.‌[JE  only]
+
+  Vibration occlusion
+    Wool can be used to block vibrations from reaching nearby sculk sensors. If a wool block is placed between a sensor and a vibration source, the sensor is not able to detect vibrations behind it. Similarly, if a wool block is placed between a sensor and a sculk shrieker, the sensor is unable to alert the shrieker. Sculk sensors are not able to detect the placing and breaking of wool, as well as entities walking, sprinting, or jumping on top of it. They are also unable to detect items dropped on wool, or wool itself dropped in item form. Similar to sculk sensors, wardens are also unable to detect everything wool-related as listed above.
+
+  Note blocks
+    Wool blocks can be placed under note blocks to produce guitar sounds.‌
+
+  Crafting ingredient
+    Any color of wool or wood can be used for paintings but it has no effect on the product's final appearance.
+
+    Name,Ingredients,Crafting recipe,Description
+    Banner,Matching Wool + Stick,"[['White Wool', 'White Wool', 'White Wool'], ['White Wool', 'White Wool', 'White Wool'], [None, 'Stick', None]]","Once the banner is crafted, its base color cannot be changed.‌ [ Java Edition only ]"
+    Bed,Matching Wool + Any Planks,"[[None, None, None], ['White Wool', 'White Wool', 'White Wool'], ['Oak Planks', 'Oak Planks', 'Oak Planks']]",The wool color must match. The planks can be different.
+    Carpet,Matching Wool,"[[None, None, None], [None, None, None], ['White Wool', 'White Wool', None]]",
+    Painting,Stick + Any Wool,"[['Stick', 'Stick', 'Stick'], ['Stick', 'White Wool', 'Stick'], ['Stick', 'Stick', 'Stick']]",
+
+  Fuel
+    In Java Edition, wool can be used as fuel in furnaces and their variants, smelting 0.5 items per wool block.
+

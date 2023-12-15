@@ -1,0 +1,25 @@
+Overview
+    Salmon are common bucketable aquatic passive mobs found in oceans and rivers, and a source of raw salmon and, occasionally, bones‌[Bedrock Edition  only] or bone meal.‌[Java Edition  only]
+
+Spawning
+  Java Edition
+    Salmon spawn in groups of 1–5 in cold or frozen oceans, as well as their deep variants, subject to fish spawning requirements. Like their real-world counterparts, they also spawn in rivers and frozen rivers.
+
+  Bedrock Edition
+    Salmon spawn underwater at 12–32 blocks away from the player. Salmon spawn in groups of 3–5 in lukewarm, cold, normal, frozen oceans, their deep variants and rivers (including frozen rivers). In addition, salmon spawn on the surface (i.e., there must not be a spawnable block above the spawn location with a non-solid block on top).
+Salmon spawn in small, normal, and large sizes. 31.5% spawn as small, 52.6% spawn as normal, and 15.7% spawn as large.
+
+Drops
+    Item,Roll Chance,Quantity (Roll Chance)
+    Default,Looting I,Looting II,Looting III
+    ,Raw Salmon [d 1],100%,1,1,1,1
+    ,Bone Meal (JE),5%,1,1,1,1
+    ,Bone (BE),25% [d 2],1,1,1,1
+    ,Bone (BE),25% [d 3],1–2,1-2,1-2,1-2
+
+Behavior
+    Salmon tend to swim in schools (a maximum of seven salmon per school). Salmon can swim up approximately 4–5 blocks in waterfalls, emulating the behavior of real-world salmon that leap into and over small waterfalls to reach their spawning ground. The player may collect salmon by using a water bucket on it, which gives the player a bucket of salmon. Salmon placed with buckets do not despawn naturally. When that fish bucket is used against a block, it empties the bucket, placing water with that fish swimming in it. In Bedrock Edition, an empty bucket may be used as well.
+
+  Weaknesses
+    Salmon are unable to survive out of water. Outside of water, they flop around for a while until eventually they start to suffocate and die. Salmon flip around on their sides. In Bedrock Edition, they rotate when flipping. Salmon also cannot swim or breathe in cauldron water.[1] In Java Edition, salmon have a weakness to weapons that have the Impaling enchantment, which also affects other fish and water/ocean mobs except drowned. Axolotls always attack salmon on sight.
+

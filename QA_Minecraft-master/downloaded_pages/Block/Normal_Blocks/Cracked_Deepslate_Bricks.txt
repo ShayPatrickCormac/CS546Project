@@ -1,0 +1,29 @@
+Overview
+    Cracked deepslate bricks are the cracked variant of deepslate bricks.
+
+Obtaining
+  Breaking
+    Cracked deepslate bricks can be obtained only by mining them with any pickaxe. When mined using any other tool, they drop nothing.
+
+    Block,Cracked Deepslate Bricks
+    Hardness,3.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,17.5
+    Wooden,2.65
+    Stone,1.35
+    Iron,0.9
+    Diamond,0.7
+    Netherite,0.6
+    Golden,0.45
+
+  Natural generation
+    Cracked Deepslate Bricks generate naturally in ancient cities.‌
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Cracked Deepslate Bricks,Deepslate Bricks + Any fuel,0.1
+
+Usage
+    Cracked deepslate bricks are a decorative block and is not used in any crafting or smelting recipes.
+

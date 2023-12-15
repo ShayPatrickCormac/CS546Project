@@ -1,0 +1,29 @@
+Overview
+    A calibrated sculk sensor is a craftable variant of sculk sensor. Similarly to its counterpart it detects vibrations, but with twice the range, and can detect multiple vibrations in quicker succession. It outputs a signal on all sides except for its input, which can receive power to make the sensor only listen to specific vibrations, depending on the input signal strength.
+
+Obtaining
+  Breaking
+    Calibrated sculk sensors can be broken with any tool, but can be broken faster with a hoe. They drop experience when broken. When broken by an item that is enchanted with Silk Touch, a calibrated sculk sensor drops itself.
+
+    Block,Calibrated Sculk Sensor
+    Hardness,1.5
+    Tool,Hoe
+    Breaking time (sec) [A]
+    Default,2.25
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Crafting
+    Ingredients,Crafting recipe
+    Amethyst Shard + Sculk Sensor,"[[None, 'Amethyst Shard', None], ['Amethyst Shard', 'Sculk Sensor', 'Amethyst Shard'], [None, None, None]]"
+
+Usage
+    Unlike regular sculk sensors, there are a few differences:
+
+  Redstone
+    Unlike the sculk sensor, one side of the calibrated sculk sensor can receive a redstone signal as an input, and the strength of that redstone signal is the only vibration frequency the sculk sensor will listen to. The following list showcases (in order) a list of frequencies that the calibrated sculk sensor can listen for.
+

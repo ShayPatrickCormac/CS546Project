@@ -1,0 +1,21 @@
+Overview
+    Curse of Binding is an enchantment that prevents removal of a cursed item from its armor slot.
+
+Obtaining
+    Curse of Binding is a treasure enchantment; it can be obtained from ancient city, end city, jungle temple, and stronghold chest loot, fishing, raid drops,‌[BE  only] or trading with a librarian of any level.
+
+Usage
+    An item with Curse of Binding cannot be removed from any armor slot unless the player is in Creative mode, the player dies, or the item breaks. For items without durability, the player must die to remove the item, making removal in Hardcore mode impossible. All mobs also follow the curse of binding; for example, if wearing a leather helmet enchanted with curse of binding, they cannot take it off to equip their preferred netherite helmet if they found one. A player cannot remove the enchantment using a grindstone or crafting table; instead, the item returns to the player still cursed. However, if the cursed item is a pumpkin or mob head, placing and breaking the head removes the curse. If the keepInventory gamerule is set to true, the player keeps the cursed item even after death. Only breaking the item, if possible, removes it. If a player applies the enchantment to a carved pumpkin and wears it, the player becomes unable to remove the carved pumpkin. If the gamerule keepInventory is set to true or the player is in Hardcore mode, it becomes impossible for the player to remove the carved pumpkin without cheating in-game or dying in Hardcore mode. This can be used to troll other players, as the pumpkin overlay on the screen makes the game difficult to play. Because pumpkins have no durability, they are the most effective item to use this curse on. However, most players would not deliberately equip a cursed pumpkin, although a dispenser can be used to forcibly equip it onto a player. This enchantment does not prevent removal of the affected item from one's inventory until it is equipped.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Curse of Binding,binding_curse,enchantment.minecraft.binding_curse
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Curse of Binding,binding,27,enchantment.curse.binding
+

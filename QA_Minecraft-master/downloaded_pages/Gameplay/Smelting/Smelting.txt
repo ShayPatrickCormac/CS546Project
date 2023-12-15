@@ -1,0 +1,212 @@
+Overview
+    Smelting is a method of obtaining refined goods from raw materials by heating in a furnace, blast furnace, smoker or campfire. For example, raw iron can be smelted to produce iron ingots using coal as fuel. Like crafting, smelting uses recipes to determine what item is produced, but its recipes are simpler. Smelting also yields experience.
+
+Usage and mechanics
+    The furnace, blast furnace, and smoker share a similar interface: At the upper left is a slot for smeltable item input, below that is a slot for fuel input, and on the right is a slot where output items accumulate and can be removed by the player. Flames above the fuel slot act as a gauge showing the gradual consumption of the current fuel item, and an arrow in the middle gradually fills to show the progress of smelting the current input item. To smelt, an input item and fuel must be placed into the input and fuel slots, respectively. The furnace then begins to smelt and continues even after the player closes the interface. (The player can still tell when a furnace is working by its block texture showing flames and fire particle effects appearing.) The furnace burns one fuel item at a time, taking 10 seconds to burn or 200 game ticks, with the fuel gauge indicating how much of that item's burn time remains. As each fuel item is fully consumed, another one is taken from the fuel slot and the gauge starts over. Smeltable input items are also processed one at a time but are not removed from the input slot while smelting is in progress. The arrow indicates how much of the smelting process has been completed. When the arrow is full, the input item is removed from the input stack and an output item is added to the output stack. Smelting of the next input item then begins immediately. Smelting stops under any of four conditions: If smelting stops while a fuel item is still burning (a normal occurrence), the furnace continues to run visually but no more input items are processed. If the fuel has been exhausted (and the fuel gauge is empty) when an item has been partly smelted, the smelting progress is undone at double speed and the item remains in the input stack. Smelting is suspended if players move far enough away from the furnace (including going to another dimension) that simulation stops in the chunk the furnace is in. It resumes when a player returns. If the player sleeps in a bed while a furnace is smelting items, the furnace's progress remains the same as if the bed had not been used and no additional time had passed. This is because when a player sleeps in a bed, no time actually passes; the game simply sets the time of day to morning. The furnace keeps track of experience for each item as smelting is completed for it, accumulating it in a hidden counter. It remembers the total earned experience even if a hopper is used to remove the items from the output slot. This earned experience is awarded to the next player who uses the interface to remove items manually, after which the counter is reset (if the player takes some of the output but leaves some in the slot, the experience corresponding to those items is retained by the furnace and not awarded to the player).
+
+Recipes
+    All smelting recipes can be used in the furnace, but only subsets are available in the blast furnace and smoker, when available they, burn twice as fast (5 seconds or 100 game ticks), but use the same amount of fuel. For fractional experience values, first multiply this value by the number of smelted items removed from the furnace, then award the player the whole-number part, and if there is a fractional part remaining, this represents the chance of an additional experience point.
+
+  Foods
+    All food recipes can be used in a furnace or smoker. Food can alternatively be cooked on a campfire, which doesn't require any fuel and takes 30 seconds or 600 game ticks to cook an item, which is faster (when cooking at the maximum capacity of 4 items at a time) than a furnace, but this doesn't award any experience and is slower than a smoker.
+
+    Product,Ingredient,Exp,Description
+    Baked Potato,Potato,0.35,"Fills 5 hunger point , while raw fills 1 hunger point ."
+    Dried Kelp,Kelp,0.1,"Fills 1 hunger point , while uncooked kelp is inedible. Used to craft dried kelp blocks ."
+    Steak,Raw Beef,0.35,"Fills 8 hunger point , while raw fills 3 hunger point ."
+    Cooked Porkchop,Raw Porkchop,0.35,"Fills 8 hunger point , while raw fills 3 hunger point ."
+    Cooked Mutton,Raw Mutton,0.35,"Fills 6 hunger point , while raw fills 2 hunger point ."
+    Cooked Chicken,Raw Chicken,0.35,"Fills 6 hunger point , while raw fills 2 hunger point and has a 30% chance to give the Hunger status effect."
+    Cooked Rabbit,Raw Rabbit,0.35,"Fills 5 hunger point , while raw fills 3 hunger point ."
+    Cooked Cod,Raw Cod,0.35,"Fills 5 hunger point , while raw fills 2 hunger point ."
+    Cooked Salmon,Raw Salmon,0.35,"Fills 6 hunger point , while raw fills 2 hunger point ."
+
+  Ores
+    All ore recipes can be used in a furnace or blast furnace.
+
+    Product,Ingredient,Exp,Description
+    Iron Ingot,Raw Iron,0.7,"Used to craft various items, including blast furnaces , anvils , iron blocks , iron nuggets , rails , buckets , cauldrons , chains , compasses , crossbows , flint and steels , heavy weighted pressure plates , hoppers , iron trapdoors , minecarts , pistons , shears , shields , iron armor , iron tools , stonecutters and tripwire hooks ."
+    Copper Ingot,Raw Copper,0.7,"Used to craft various items, including spyglasses , lightning rods , brushes , and copper blocks ."
+    Gold Ingot,Raw Gold,1,"Used to craft various items, including netherite ingots , gold blocks , golden apples , gold nuggets , clocks , golden armor , golden tools , powered rails and light weighted pressure plates . Also used as a currency for bartering ."
+    Gold Ingot,Nether Gold Ore,1,"Used to craft various items, and as a currency for bartering with piglins . Nether gold ore can be obtained only by mining with a Silk Touch pickaxe."
+    Netherite Scrap,Ancient Debris,2,"Used to craft netherite ingots , which can be used to upgrade diamond gear and craft netherite blocks as well as lodestones ."
+
+    The following additional ores can be smelted, but it's more efficient to mine them with an appropriate pickaxe. In most cases mining them saves fuel and yields more product and experience, especially if the pickaxe has a Fortune enchantment. Smelting them, though, allows obtaining them from an automatic device. The ore blocks themselves can be obtained only via the Silk Touch enchantment.
+
+    Product,Ingredient,Exp,Description
+    Redstone Dust,Redstone Ore,0.3,"Used to craft various items and redstone blocks , brewing , or placed as redstone wire. When normally mined drops 4–5 redstone and 1–5 exp."
+    Coal,Coal Ore,0.1,"Used as a fuel, and to craft torches , campfires and coal blocks . When normally mined drops 1 coal and 0–2 exp."
+    Emerald,Emerald Ore,1,"Used for trading , and to craft emerald blocks . When normally mined drops 1 emerald and 3–7 exp."
+    Lapis Lazuli,Lapis Lazuli Ore,0.2,Used for enchanting and for crafting blue dyes and lapis lazuli blocks . When normally mined drops 4–8 lapis lazuli and 2–5 exp.
+    Diamond,Diamond Ore,1,"Used to craft various items, enchanting tables , jukeboxes and diamond blocks . When normally mined drops 1 diamond and 3–7 exp."
+    Nether Quartz,Nether Quartz Ore,0.2,Used to craft various items and quartz blocks . When normally mined drops 1 nether quartz and 2–5 exp.
+    Iron Ingot,Iron Ore,0.7,Used to craft various items.
+    Copper Ingot,Copper Ore,0.7,Used to craft various items.
+    Gold Ingot,Gold Ore,1,"Used to craft various items, and as a currency for bartering with piglins ."
+
+  Gear
+    These recipes can be used in a furnace or blast furnace to recycle unneeded gear (tools, weapons, armor and horse armor).
+
+    Product,Ingredient,Exp,Description
+    Iron Nugget,"Tools , armor and horse armor made from iron , chainmail armor",0.1,"Can be crafted into lanterns , chains , or iron ingots ."
+    Gold Nugget,"Tools, armor and horse armor made from gold",0.1,"Can be crafted into golden carrots , glistering melons , or gold ingots ."
+
+  Furnace-only
+    These recipes are exclusive to the furnace.
+
+    Product,Ingredient,Exp,Description
+    Stone,Cobblestone,0.1,"Used as a building material. Also used for crafting stone pressure plates , stone buttons , stone bricks , grindstones , stonecutters , redstone repeaters and comparators . Can be smelted into smooth stone ."
+    Smooth Stone,Stone,0.1,"Used as a building material. Also used for crafting smooth stone slabs , armor stands , and blast furnaces ."
+    Cracked Stone Bricks,Stone Bricks,0.1,Decoration block.
+    Deepslate,Cobbled Deepslate,0.1,Decoration block.
+    Cracked Deepslate Bricks,Deepslate Bricks,0.1,Decoration block.
+    Cracked Deepslate Tiles,Deepslate Tiles,0.1,Decoration block.
+    Smooth Sandstone,Sandstone,0.1,Used as a building material. Also used for crafting smooth sandstone slabs and stairs .
+    Smooth Red Sandstone,Red Sandstone,0.1,Used as a building material. Also used for crafting smooth red sandstone slabs and stairs .
+    Cracked Nether Bricks,Nether Bricks,0.1,Decoration block.
+    Smooth Basalt,Basalt,0.1,Decoration block.
+    Cracked Polished Blackstone Bricks,Polished Blackstone Bricks,0.1,Decoration block.
+    Smooth Quartz,Block of Quartz,0.1,Used as a building material. Also used for crafting smooth quartz slabs and stairs .
+    Terracotta,Clay,0.35,Decoration block. Also used for crafting dyed terracotta . Can be smelted into glazed terracotta .
+    Glazed Terracotta,Dyed Terracotta,0.1,Decoration block. Can be pushed by pistons but does not stick.
+    Glass,Sand,0.1,"Used to make transparent structures. Also used to craft glass panes , glass bottles , stained glass, end crystals , daylight detectors , and beacons ."
+    Sponge,Wet Sponge,0.15,"Used to soak up water. Drying a sponge allows it to be reused. If an empty bucket is in the fuel slot when smelting finishes, it becomes a water bucket . Wet sponges can also be instantly dried when placed in the Nether ."
+    Charcoal,Log Wood Stripped Log Stripped Wood,0.15,"Used to craft torches , soul torches, campfires and fire charges , and as fuel for smelting or for a minecart with furnace ‌ [ JE only ] . Input must be an Overworld log or wood, not sticks, planks, or stems."
+    Popped Chorus Fruit,Chorus Fruit,0.1,Used to make purpur blocks and end rods . Cannot be eaten.
+    Lime Dye,Sea Pickle,0.1,Used as a dye .
+    Green Dye,Cactus,JE :1 [1] BE :0.2,Used as a dye .
+    Brick,Clay Ball,0.3,Used to make bricks and flower pots .
+    Nether Brick,Netherrack,0.1,"Used to make nether bricks , nether brick fences and red nether bricks ."
+
+Fuel
+    There are multiple fuels that can be used to smelt items. The type of fuel that should be used depends on the number of items in question. For larger jobs, a single lava bucket or a block of coal can smelt more items than can fit in the furnace, a lava bucket being able to smelt 100 blocks and a block of coal being able to smelt 80 —both input and output are limited to a maximum of a stack of 64 items (with some items not being able to be stacked or being possible to stack only 16 of them).
+
+  Items that can be used as fuel in all types of furnaces
+    Fuel,Burning time (seconds) [note 1],Number of operations per fuel,Number of operations per stack (64) of fuel [note 2],Seconds per log [note 3],Seconds per bamboo [note 4],Amount needed to smelt a stack (64) of items,Notes
+    Lava Bucket,1000 16:40 20000 ticks,100,100,None used,None used,0.64,"If a lava bucket is used as fuel, an empty bucket remains in the fuel slot."
+    Block of Coal,800 13:20 16000 ticks,80,5120,None used,None used,0.8,
+    Dried Kelp Block,200 3:20 4000  ticks,20,1280,None used,None used,3.2,
+    Blaze Rod,120 2:00 2400 ticks,12,768,None used,None used,5 1 ⁄ 3,
+    Coal,80 1:20 1600 ticks,8,512,None used,None used,8,
+    Charcoal,80 1:20 1600 ticks,8,512,70 [note 5],None used,8,
+    Any Boat,60 1200 ticks,6,6,48,2 2 ⁄ 3,10 2 ⁄ 3,
+    Any Boat with Chest,60 1200 ticks,6,6,18 6 ⁄ 13 (~18.46),1 1 ⁄ 39 (~1.03),10 2 ⁄ 3,
+    Bamboo Mosaic,15 300 ticks,1.5,96,None used,3 1 ⁄ 3,42 2 ⁄ 3,
+    Bamboo Mosaic Slab,7.5 150 ticks,0.75,48,60,3 1 ⁄ 3,85 1 ⁄ 3,‌ [ Java Edition only ]
+    15 300 ticks [note 6],1.5,96,120 [note 6],6 2 ⁄ 3 [note 6],42 2 ⁄ 3,‌ [ Bedrock Edition only ]
+    Bamboo Mosaic Stairs,15 300 ticks,1.5,96,None used,3 1 ⁄ 3,42 2 ⁄ 3,
+    Bee Nest,15 300 ticks,1.5,96,None used,None used,42 2 ⁄ 3,‌ [ Bedrock Edition only ]
+    Beehive,15 300 ticks,1.5,96,10,5 ⁄ 9 (0. 5 ),42 2 ⁄ 3,‌ [ Bedrock Edition only ]
+    Chiseled Bookshelf,15 300 ticks,1.5,96,2 13 ⁄ 16 (2.8125),4 ⁄ 9 (0. 4 ),42 2 ⁄ 3,
+    Block of Bamboo or Block of Stripped Bamboo,15 300 ticks,1.5,96,None used,1 2 ⁄ 3,42 2 ⁄ 3,‌ [ Java Edition only ]
+    Overworld Log or Stripped Log,15 300 ticks,1.5,96,15,None used,42 2 ⁄ 3,
+    Overworld Wood or Stripped Wood,15 300 ticks,1.5,96,11.25,None used,42 2 ⁄ 3,
+    Overworld Planks,15 300 ticks,1.5,96,60,3 1 ⁄ 3,42 2 ⁄ 3,
+    Overworld Wooden Slab,7.5 150 ticks,0.75,48,60,3 1 ⁄ 3,85 1 ⁄ 3,‌ [ Java Edition only ]
+    15 300 ticks [note 6],1.5,96,120 [note 6],6 2 ⁄ 3 [note 6],42 2 ⁄ 3,‌ [ Bedrock Edition only ]
+    Overworld Wooden Stairs,15 300 ticks,1.5,96,40,2 2 ⁄ 9 (2. 2 ),42 2 ⁄ 3,
+    Overworld Wooden Pressure Plate,15 300 ticks,1.5,96,30,1 2 ⁄ 3,42 2 ⁄ 3,
+    Overworld Wooden Button,5 100 ticks,0.5,32,20,1 1 ⁄ 9 (1. 1 ),128,‌ [ Java Edition only ]
+    15 300 ticks,1.5,96,60,3 1 ⁄ 3,42 2 ⁄ 3,‌ [ Bedrock Edition only ]
+    Overworld Wooden Trapdoor,15 300 ticks,1.5,96,20,1 1 ⁄ 9 (1. 1 ),42 2 ⁄ 3,
+    Overworld Fence Gate,15 300 ticks,1.5,96,15,15 ⁄ 17 (~0.88),42 2 ⁄ 3,
+    Overworld Wooden Fence,15 300 ticks,1.5,96,36,15 ⁄ 22 (0.6 81 ),42 2 ⁄ 3,
+    Mangrove Roots,15 300 ticks,1.5,96,None used,None used,42 2 ⁄ 3,‌ [ Java Edition only ]
+    Ladder,15 300 ticks,1.5,96,51 3 ⁄ 7 (~51.43),3 3 ⁄ 14 (~3.21),42 2 ⁄ 3,‌ [ Java Edition only ]
+    Crafting Table,15 300 ticks,1.5,96,15,5 ⁄ 6 (0.8 3 ),42 2 ⁄ 3,
+    Cartography Table,15 300 ticks,1.5,96,15,5 ⁄ 6 (0.8 3 ),42 2 ⁄ 3,
+    Fletching Table,15 300 ticks,1.5,96,15,5 ⁄ 6 (0.8 3 ),42 2 ⁄ 3,
+    Smithing Table,15 300 ticks,1.5,96,15,5 ⁄ 6 (0.8 3 ),42 2 ⁄ 3,
+    Loom,15 300 ticks,1.5,96,30,1 2 ⁄ 3,42 2 ⁄ 3,
+    Bookshelf,15 300 ticks,1.5,96,10,5 ⁄ 9 (0. 5 ),42 2 ⁄ 3,
+    Lectern,15 300 ticks,1.5,96,7.5,5 ⁄ 12 (0.41 6 ),42 2 ⁄ 3,
+    Composter,15 300 ticks,1.5,96,17 1 ⁄ 7 (~17.14),20 ⁄ 21 (~0.95),42 2 ⁄ 3,
+    Chest,15 300 ticks,1.5,96,7.5,5 ⁄ 12 (0.41 6 ),42 2 ⁄ 3,
+    Trapped Chest,15 300 ticks,1.5,96,6 6 ⁄ 7 (~6.86),60 ⁄ 157 (~0.38),42 2 ⁄ 3,
+    Barrel,15 300 ticks,1.5,96,8 4 ⁄ 7 (~8.57),10 ⁄ 21 (~0.48),42 2 ⁄ 3,
+    Daylight Detector,15 300 ticks,1.5,96,40,2 2 ⁄ 9 (2. 2 ),42 2 ⁄ 3,
+    Jukebox,15 300 ticks,1.5,96,7.5,5 ⁄ 12 (0.41 6 ),42 2 ⁄ 3,
+    Note Block,15 300 ticks,1.5,96,7.5,5 ⁄ 12 (0.41 6 ),42 2 ⁄ 3,
+    Any Banner,15 300 ticks,1.5,24,120,7.5,42 2 ⁄ 3,
+    Crossbow,15 300 ticks,1.5,1.5,no|26 2 ⁄ 3,1 23 ⁄ 37 (1. 621 ),42 2 ⁄ 3,‌ [ Java Edition only ]
+    10 200 ticks,1,1,17 7 ⁄ 9 (17. 7 ),1 3 ⁄ 37 (1. 081 ),64,‌ [ Bedrock Edition only ]
+    Bow,15 300 ticks,1.5,1.5,40,2.5,42 2 ⁄ 3,‌ [ Java Edition only ]
+    10 200 ticks,1,1,no|26 2 ⁄ 3,1 2 ⁄ 3,64,‌ [ Bedrock Edition only ]
+    Fishing Rod,15 300 ticks,1.5,1.5,40,2.5,42 2 ⁄ 3,
+    Overworld Wooden Door,10 200 ticks,1,64,20,1 1 ⁄ 9 (1. 1 ),64,
+    Overworld Sign,10 200 ticks,1,16,18 6 ⁄ 13 (~18.46),10 ⁄ 29 (~0.34),64,
+    Hanging Sign,10 200 ticks,1,16,10,1 1 ⁄ 9 (1. 1 ),64,
+    Wooden Pickaxe,10 200 ticks,1,1,10,4 ⁄ 7 (~0.57),64,
+    Wooden Shovel,10 200 ticks,1,1,20,1 3 ⁄ 17 (~1.18),64,
+    Wooden Hoe,10 200 ticks,1,1,13 1 ⁄ 3,10 ⁄ 13 (~0.77),64,
+    Wooden Axe,10 200 ticks,1,1,10,4 ⁄ 7 (~0.57),64,
+    Wooden Sword,10 200 ticks,1,1,16,10 ⁄ 11 (0. 90 ),64,
+    Bowl,5 100 ticks,0.5,32,26 2 ⁄ 3,1 13 ⁄ 27 (1. 481 ),128,‌ [ Java Edition only ]
+    10 200 ticks,1,64,53 1 ⁄ 3,2 26 ⁄ 27 (2. 962 ),64,‌ [ Bedrock Edition only ]
+    Any Sapling,5 100 ticks,0.5,32,None used,None used,128,
+    Stick,5 100 ticks,0.5,32,40,2.5,128,
+    Dead Bush,5 100 ticks,0.5,32,None used,None used,128,
+    Azalea,5 100 ticks,0.5,32,None used,None used,128,
+    Any Wool,5 100 ticks,0.5,32,None used,None used,128,‌ [ Java Edition only ]
+    Any Carpet,3.35 67 ticks,0.335,21.44,None used,None used,191 3 ⁄ 67 (~191.04),‌ [ Java Edition only ]
+    Bamboo,2.5 50 ticks,0.25,16,None used,2.5,256,
+    Scaffolding,2.5 50 ticks,0.25,16,None used,2.5,256,
+
+Hopper automation
+    The smelting process can be automated with hoppers on the top and bottom of the furnace. For larger smelting jobs, a third hopper on the side of the furnace can feed in fuel and, in case of lava being used as fuel, any empty buckets come out of the bottom hopper. This automatically feeds and empties the furnace so that different materials can be smelted in the same batch with no loss. Whenever a hopper or minecart with hopper removes items from a furnace, any experience earned from cooking or smelting the removed items is saved in the furnace and awarded to the next player who manually removes an item from the furnace's output slot. This saved experience is in addition to that earned for the manually removed item(s).
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    acquire hardware,acquire hardware,"Acquire Hardware { ""anchor"": """", ""title"": ""Acquire Hardware"", ""icon"": """", ""title"": ""Acquire Hardware"", ""description"": ""Smelt an iron ingot
+ "", ""requirements"": ""Pick up an [[iron ingot]] from a [[furnace]] output.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"The Hammer"" emote
+"" }",Smelt an iron ingot,Pick up an iron ingot from a furnace output.,15G,Bronze
+    delicious fish,delicious fish,"Delicious Fish { ""anchor"": """", ""title"": ""Delicious Fish"", ""icon"": """", ""title"": ""Delicious Fish"", ""description"": ""Catch and cook a fish!
+ "", ""requirements"": ""Pick up a [[cooked cod]] after cooking it in a [[Furnace]], [[Smoker]], [[Campfire]], or [[Soul Campfire]].
+Doesn't work if the block used is hooked up to a hopper, as the player is not getting the item directly from the output.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Fishermans Hat"" headwear
+"" }",Catch and cook a fish!,"Pick up a cooked cod after cooking it in a Furnace , Smoker , Campfire , or Soul Campfire .
+Doesn't work if the block used is hooked up to a hopper, as the player is not getting the item directly from the output.",15G,Silver
+    pork chop,pork chop,"Pork Chop { ""anchor"": """", ""title"": ""Pork Chop"", ""icon"": """", ""title"": ""Pork Chop"", ""description"": ""Cook and eat a pork chop.
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""10G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Cook and eat a pork chop.,—,10G,Bronze
+    renewable energy,renewable energy,"Renewable Energy { ""anchor"": """", ""title"": ""Renewable Energy"", ""icon"": """", ""title"": ""Renewable Energy"", ""description"": ""Smelt wood trunks using charcoal to make more charcoal.
+ "", ""requirements"": ""Smelt a wooden [[log]] with charcoal as the fuel.
+ "", ""gamerscore"": ""10G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Wind Turbine"" back item
+"" }",Smelt wood trunks using charcoal to make more charcoal.,Smelt a wooden log with charcoal as the fuel.,10G,Bronze
+    rabbit season,rabbit season,"Rabbit Season { ""anchor"": """", ""title"": ""Rabbit Season"", ""icon"": """", ""title"": ""Rabbit Season"", ""description"": ""Cook and Eat Rabbit Meat
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Hunter's Hat"" headwear
+"" }",Cook and Eat Rabbit Meat,—,15G,Bronze
+    dry spell,dry spell,"Dry Spell { ""anchor"": """", ""title"": ""Dry Spell"", ""icon"": """", ""title"": ""Dry Spell"", ""description"": ""Dry a sponge in a furnace
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Spongey"" base 
+"" }",Dry a sponge in a furnace,—,15G,Bronze
+    super fuel,super fuel,"Super Fuel { ""anchor"": """", ""title"": ""Super Fuel"", ""icon"": """", ""title"": ""Super Fuel"", ""description"": ""Power a Furnace with Lava
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Power a Furnace with Lava,—,20G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Acquire Hardware,Smelt an Iron Ingot,Getting an Upgrade,Have an iron ingot in your inventory.,"story/smelt_iron {""anchor"": """", ""title"": ""Acquire Hardware"", ""icon"": ""Iron Ingot
+"", ""icon-style"": ""plain"", ""title"": ""Acquire Hardware"", ""description"": ""Smelt an Iron Ingot
+"", ""parent"": ""Getting an Upgrade
+"", ""requirements"": ""Have an [[iron ingot]] in your inventory.
+"", ""resourcelocation"": ""story/smelt_iron
+"", ""rewards"": """" }"
+

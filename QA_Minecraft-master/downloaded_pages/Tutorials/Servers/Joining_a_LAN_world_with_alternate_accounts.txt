@@ -1,0 +1,7 @@
+Overview
+    Every so often there comes a time where you need to test out a multiplayer map in singleplayer and you don't have quick access to other accounts. This tutorial will show you how to load up multiple instances of Minecraft with different usernames on the same computer to join the same world via LAN. Note that this only works offline, in singleplayer – you will not be able to join any online mode multiplayer servers under any situation in any name you have not purchased and will be prevented from joining any online mode multiplayer servers if your client username does not match.
+
+Steps
+More than one alternate account
+    If you want more than one alternate account, perform the following steps before repeating those above: The launcher process must be completely killed to change usernames as while the game is running the session, including current username, is synced with the launcher.
+

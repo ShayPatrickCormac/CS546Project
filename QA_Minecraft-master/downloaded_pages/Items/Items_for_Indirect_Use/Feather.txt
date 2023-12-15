@@ -1,0 +1,48 @@
+Overview
+    Feathers are items dropped by chickens and parrots, as well as tamed cats as morning gifts.
+
+Obtaining
+  Mob loot
+    Adult chickens drop 0–2 feathers upon death. The maximum is increased by 1 per level of Looting, for a maximum of 0–5 with Looting III. Parrots drop 1–2 feathers upon death. The maximum is increased by 1 per level of Looting, for a maximum of 1–5 with Looting III. A fox sometimes spawns holding a feather, which always drops upon death. Alternatively, the player can drop a food item, causing the fox to drop the feather in favor of the food.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Feather,Shipwreck,Map chest,1–5,"60% { ""item"": ""Feather"", ""stacksize"": ""1–5"", ""chance"": 0.5999416824610002, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+    Village,Fletcher's chest,1–3,"55.8% { ""item"": ""Feather"", ""stacksize"": ""1–3"", ""chance"": 0.5583399765985125, ""structure"": ""Village"", ""container"": ""Fletcher's chest"" }"
+    Plains house chest,1,"12.1% { ""item"": ""Feather"", ""stacksize"": 1, ""chance"": 0.12068353467250137, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Bedrock Edition
+    Feather,Shipwreck,Map chest,1–5,"60% { ""item"": ""Feather"", ""stacksize"": ""1–5"", ""chance"": 0.5999416824610002, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+    Village,Fletcher's chest,1–3,"55.8% { ""item"": ""Feather"", ""stacksize"": ""1–3"", ""chance"": 0.5583399765985125, ""structure"": ""Village"", ""container"": ""Fletcher's chest"" }"
+    Plains house chest,1,"12.1% { ""item"": ""Feather"", ""stacksize"": 1, ""chance"": 0.12068353467250137, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+
+  Cat gifts
+    Tamed cats have a 70% chance of giving the player a "morning gift", and the gift has a 16.13% chance to be a feather.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Arrow,Flint + Stick + Feather,"[[None, 'Flint', None], [None, 'Stick', None], [None, '', None]]",
+    Book and Quill,Book + Ink Sac + Feather,"[[None, None, None], ['Book', 'Ink Sac', None], [None, '', None]]",
+    Brush,Feather + Copper Ingot + Stick,"[[None, '', None], [None, 'Copper Ingot', None], [None, 'Stick', None]]",
+    Firework Star,Gunpowder + Matching Dye + Feather + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'White Dye', ''], ['Glowstone Dust', 'Diamond', None]]","Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    White Firework Star or Blue Firework Star or Brown Firework Star or Black Firework Star,Gunpowder + Bone Meal or Lapis Lazuli or Cocoa Beans or Ink Sac + Feather + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', 'Bone Meal', ''], ['Glowstone Dust', 'Diamond', None]]","‌ [ Bedrock Edition and Minecraft Education only ] Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+
+  Trading
+    Expert-level fletcher villagers buy 24 feathers for an emerald as part of their trade.
+
+  Helmet
+    While a feather cannot be equipped in the head slot in Survival mode, equipping it using commands causes it to appear completely upright unlike other items. 
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Feather,feather,Item,item.minecraft.feather
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Feather,feather,327,Item,item.feather.name
+

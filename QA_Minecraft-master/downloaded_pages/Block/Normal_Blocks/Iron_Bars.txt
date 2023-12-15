@@ -1,0 +1,40 @@
+Overview
+    Iron bars are blocks that serve a similar purpose to glass panes, but made of iron ingots instead of glass.
+
+Obtaining
+  Breaking
+    Iron bars can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Iron Bars
+    Hardness,5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,25
+    Wooden,3.75
+    Stone,1.9
+    Iron,1.25
+    Diamond,0.95
+    Netherite,0.85
+    Golden,0.65
+
+  Natural generation
+    Iron bars can be found in parts of strongholds, woodland mansions, desert and plains villages, igloo basements, ruined portals, and trail ruins. In the End, 2–3 obsidian pillars have iron bars around their end crystals.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot,"[['Iron Ingot', 'Iron Ingot', 'Iron Ingot'], ['Iron Ingot', 'Iron Ingot', 'Iron Ingot'], [None, None, None]]"
+
+    Iron bars are not a source of iron. Once crafted, iron bars cannot be smelted into iron nuggets or ingots.
+
+  Post-generation
+    Iron bars regenerate on end pillars when the ender dragon is respawned.
+
+Usage
+    As with glass panes and fences, iron bars can be used to create narrow slits when placed between a door and a solid block. Mobs can see through and attack through these gaps, and arrows may be shot through them. Also as with fences and glass panes, arrows cannot be shot through iron bars themselves. Endermen seen through iron bars do not become angry. The ender dragon cannot destroy iron bars (some of the end crystals are protected by them), which makes them a useful material in the End.
+
+  Placement
+    Iron bars can be placed in much the same way as fences or glass panes. If no solid block is adjacent to the bars, they have appearance of a slim, tall column. If something is placed next to iron bars, they appear either flat,  shaped,  shaped or  shaped, depending on the blocks surrounding it.
+
+  Curing
+    Iron bars speed up the curing process of zombie villagers.
+

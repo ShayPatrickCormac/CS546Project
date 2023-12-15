@@ -1,0 +1,37 @@
+Overview
+    Instant Damage is an instant status effect that decreases health for players and living mobs and heals the undead.
+
+Effect
+    Instant Damage inflicts magic damage of 3 × 2level. Undead mobs (including the wither) are healed as if with Instant Health instead. Death is reported as "<player> was killed by magic". When applied using a lingering potion, damage is inflicted every second. As this is magic damage, it can be decreased only via Resistance and Protection.‌[Java Edition  only]
+
+Causes
+    Cause,Potency,Damage,Heals undead,Length,Notes
+    Potion of Harming,I,6,,Instant,
+    Potion of Harming II,II,12 × 6,,Instant,
+    Splash Potion of Harming,I,6,4,Instant,Witches throw this potion at their target.
+    Splash Potion of Harming II,II,12 × 6,8,Instant,
+    Lingering Potion of Harming,I,3 per second 15 × 7.5 total,2 per second 10 total,0:05,
+    Lingering Potion of Harming II,II,6 per second 30 × 15 total,4 per second 20 × 10 total,0:05,Dragon fireballs cause this much harm.
+    Arrow of Harming,I,6,4,Instant,
+    Arrow of Harming II,II,12 × 6,8,Instant,
+
+Brewing
+    Potion,"Reagent, Base",Extended,Enhanced,Effects
+    Potion of Harming,input:Fermented Spider Eye | output:Potion of Poison,-,Potion of Harming,Instant Damage Damages 6 per potion. Enhanced: Instant Damage II Damages 12 × 6 per potion.
+
+    Potion,"Reagent, Base",Extended,Enhanced,Effects
+    Potion of Harming,input:Fermented Spider Eye | output:Potion of Healing,-,Potion of Harming,Instant Damage Damages 6 per potion. Enhanced: Instant Damage II Damages 12 × 6 per potion.
+
+Immune mobs
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Instant Damage,instant_damage,7,effect.minecraft.instant_damage
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Instant Damage,instant_damage,7,potion.harm
+

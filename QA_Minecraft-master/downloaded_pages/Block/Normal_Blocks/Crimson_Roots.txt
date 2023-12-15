@@ -1,0 +1,35 @@
+Overview
+    Crimson roots are a non-solid plant block which generate naturally on crimson nylium and soul soil in crimson forests. They resemble a colony of tall, thin mushrooms.
+
+Obtaining
+  Breaking
+    Crimson roots can be mined instantly with any tool. They drop themselves when broken. Flower pots containing crimson roots drop both the flower pot and crimson roots when broken.
+
+    Block,Crimson Roots
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+
+  Natural generation
+    Crimson roots generate often in the crimson forest biome and rarely in the soul sand valley biome.
+
+  Mob loot
+    An enderman holding crimson roots drops the block upon death.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Crimson Roots,Bastion remnant,Hoglin stable chest,2–7,"22.8% { ""item"": ""Crimson Roots"", ""stacksize"": ""2–7"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Bedrock Edition
+    Crimson Roots,Bastion remnant,Hoglin stable chest,2–7,"22.8% { ""item"": ""Crimson Roots"", ""stacksize"": ""2–7"", ""chance"": 0.22793887963348602, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+
+  Post-generation
+    Applying bone meal to crimson nylium causes warped roots to appear on nearby crimson or warped nylium. There is also a low chance that bone meal applied to warped nylium will generate crimson roots.
+
+Usage
+  Decoration
+    Crimson roots are decorative blocks. They can be planted on the same blocks that crimson fungi can be placed on. Warped roots can be planted in a flower pot, which gives them a different texture.
+
+  Compost
+    Warped roots can also be used on a composter, with a 65% chance of increasing the level by 1.
+

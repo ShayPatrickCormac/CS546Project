@@ -1,0 +1,52 @@
+Overview
+    Andesite is a block of igneous rock, most often found in large pockets in the ground.
+
+Obtaining
+  Breaking
+    Andesite can be mined using any pickaxe. If mined without a pickaxe, it drops nothing.
+
+    Block,Andesite
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Andesite can generate in the Overworld in the form of ore blobs. Andesite attempts to generate in two batches. The first batch generate 2 times per chunk in blobs of size 0-864, from elevations 0 to 60, in all biomes. The second batch has 1⁄6 chance to generate blobs of size 0-864, from elevation 64 to 128. In Bedrock Edition, andesite can replace stone, diorite, granite, polished andesite‌, polished diorite‌, and polished granite‌. In Java Edition, andesite can replace stone, diorite, granite, tuff, and deepslate. In Bedrock Edition, andesite generates naturally in coral reefs, replacing some coral as part of coral crusts.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Diorite + Cobblestone,"[[None, None, None], ['Diorite', 'Cobblestone', None], [None, None, None]]"
+
+Usage
+    Andesite is currently used only for decoration. It has the same blast resistance as stone, meaning it can be used as a substitute for stone when building.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Andesite Slab,Andesite,"[[None, None, None], [None, None, None], ['', '', '']]",
+    Andesite Stairs,Andesite,"[['', None, None], ['', '', None], ['', '', '']]",
+    Andesite Wall,Andesite,"[[None, None, None], ['', '', ''], ['', '', '']]",
+    Polished Andesite,Andesite,"[[None, None, None], ['', '', None], ['', '', None]]",
+    Stonecutter,Iron Ingot + Andesite,"[[None, None, None], [None, 'Iron Ingot', None], ['', '', '']]",Can use stone and its three other variants interchangeably.‌ [ Bedrock Edition only ]
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Andesite Slab,Andesite,2
+    Andesite Stairs,Andesite,
+    Andesite Wall,Andesite,
+    Polished Andesite,Andesite,
+    Polished Andesite Slab,Andesite,2
+    Polished Andesite Stairs,Andesite,
+
+  Trading
+    Journeyman-level stone mason villagers have a 2⁄7 chance to buy 16 andesite for an emerald.
+
+  Note Blocks
+    Andesite can be placed under note blocks to produce "bass drum" sounds.
+

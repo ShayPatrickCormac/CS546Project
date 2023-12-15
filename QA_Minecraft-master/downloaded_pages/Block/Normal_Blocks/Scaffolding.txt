@@ -1,0 +1,27 @@
+Overview
+    Scaffolding is a climbable semi-solid block that can be stood on without falling as well as be placed and broken easily.
+
+Obtaining
+  Breaking
+    Scaffolding is broken instantly, and no tools are required. Scaffolding requires support and drops as an item if it loses this support. In Bedrock Edition, scaffolding takes a small amount of time to break. An axe is the fastest method of obtaining it.
+
+    Block,Scaffolding
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Upcoming Java Edition
+    Scaffolding,Trial Chambers,Corridor chest,2–10,"19.6% { ""item"": ""Scaffolding"", ""stacksize"": ""2–10"", ""chance"": 0.19614132283617636, ""structure"": ""Trial Chambers"", ""container"": ""Corridor chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Bamboo + String,"[['Bamboo', 'String', 'Bamboo'], ['Bamboo', None, 'Bamboo'], ['Bamboo', None, 'Bamboo']]"
+
+Usage
+    When the bottom block of scaffolding is destroyed, all scaffolding blocks above it break, similar to chorus plants and bamboo; this makes it easier for players to make temporary structures. The placement of scaffolding is different from any other blocks in the game. In Java Edition, when holding scaffolding, the hitbox of scaffolding in the world is a full block. In Bedrock Edition, the hitbox of scaffolding in the world is not a full block even when holding a scaffolding, so the player can hit/interact with other blocks through the scaffolding. But when being hit, the scaffolding's interaction box is a full block. The placing scaffolding may fall as a falling block if not adequately supported. Scaffolding can be placed up to 6 blocks out from the base of support (i.e. scaffolding block on a solid block) that is targeted; any further scaffolding placed falls to the ground unless able to be supported by a different scaffolding block. Only one additional block can be placed after 6 blocks, even if more would be able to be placed. Scaffolding has different collision detection. The player can climb up or down by jumping or sneaking respectively. in Java Edition, floating scaffoldings has solid bottom. A scaffolding block can be moved by pistons, allowing them to be broken easily. Scaffolding can be waterlogged. In Bedrock Edition, scaffolding cannot be placed inside lava; if scaffolding is placed next to lava or fire, the scaffolding is destroyed. If it falls into lava or fire, it is destroyed immediately. In Java Edition, scaffolding is not ignited by lava, and can be placed inside. It will be destroyed by fire. Mobs don't spawn on scaffolding. In Bedrock Edition mobs can spawn inside of scaffolding if the block below the scaffolding is spawnable. In Java Edition very small mobs such as chickens can spawn in the empty space inside of a scaffolding block if the block below is spawnable. Scaffolding resets the fall distance of players falling into it only while sneaking, and can be used to prevent fall damage. While in scaffolding, the speed of all mobs and players is decreased.
+
+  Fuel
+    Scaffolding can be used as a fuel in furnaces, smelting 0.25 items per block.
+

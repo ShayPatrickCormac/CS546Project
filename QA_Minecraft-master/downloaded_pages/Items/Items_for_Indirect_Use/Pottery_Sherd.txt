@@ -1,0 +1,136 @@
+Overview
+    A pottery sherd[note 1] is an item used to craft decorated pots with ornamental designs. There are twenty variants of pottery sherds. They can be obtained only by brushing suspicious blocks, with the variants of sherd obtainable being dependent on the structure.
+
+Obtaining
+  Breaking
+    When a decorated pot is broken with a pickaxe, axe, shovel, hoe or sword that is not enchanted with Silk Touch, it drops all of the pottery sherds and bricks used to craft it.
+
+  Suspicious block loot
+    Pottery sherds can be found as suspicious block loot in trail ruins, ocean ruins, desert pyramids and desert wells, and can be extracted from these blocks using a brush. 
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Angler Pottery Sherd,Warm Ocean ruins,Warm ruins suspicious sand,1,"6.7% { ""item"": ""Angler Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Archer Pottery Sherd,Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Archer Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Arms Up Pottery Sherd,Desert well,Suspicious sand,1,"25% { ""item"": ""Arms Up Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.25, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    Blade Pottery Sherd,Cold Ocean ruins,Cold ruins suspicious gravel,1,"6.7% { ""item"": ""Blade Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Brewer Pottery Sherd,Desert well,Suspicious sand,1,"25% { ""item"": ""Brewer Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.25, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    Burn Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Burn Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Danger Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Danger Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Explorer Pottery Sherd,Cold Ocean ruins,Cold ruins suspicious gravel,1,"6.7% { ""item"": ""Explorer Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Friend Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Friend Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Heart Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Heart Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Heartbreak Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Heartbreak Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Howl Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Howl Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Miner Pottery Sherd,Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Miner Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Mourner Pottery Sherd,Cold Ocean ruins,Cold ruins suspicious gravel,1,"6.7% { ""item"": ""Mourner Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Plenty Pottery Sherd,Cold Ocean ruins,Cold ruins suspicious gravel,1,"6.7% { ""item"": ""Plenty Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Prize Pottery Sherd,Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Prize Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Sheaf Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Sheaf Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Shelter Pottery Sherd,Warm Ocean ruins,Warm ruins suspicious sand,1,"6.7% { ""item"": ""Shelter Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Skull Pottery Sherd,Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Skull Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Snort Pottery Sherd,Warm Ocean ruins,Warm ruins suspicious sand,1,"6.7% { ""item"": ""Snort Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Bedrock Edition
+    Angler Pottery Sherd,Warm Ocean ruins,Warm ruins suspicious sand,1,"6.7% { ""item"": ""Angler Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Archer Pottery Sherd,Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Archer Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Arms Up Pottery Sherd,Desert well,Suspicious sand,1,"25% { ""item"": ""Arms Up Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.25, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    Blade Pottery Sherd,Cold Ocean ruins,Cold ruins suspicious gravel,1,"6.7% { ""item"": ""Blade Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Brewer Pottery Sherd,Desert well,Suspicious sand,1,"25% { ""item"": ""Brewer Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.25, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    Burn Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Burn Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Danger Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Danger Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Explorer Pottery Sherd,Cold Ocean ruins,Cold ruins suspicious gravel,1,"6.7% { ""item"": ""Explorer Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Friend Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Friend Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Heart Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Heart Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Heartbreak Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Heartbreak Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Howl Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Howl Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Miner Pottery Sherd,Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Miner Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Mourner Pottery Sherd,Cold Ocean ruins,Cold ruins suspicious gravel,1,"6.7% { ""item"": ""Mourner Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Plenty Pottery Sherd,Cold Ocean ruins,Cold ruins suspicious gravel,1,"6.7% { ""item"": ""Plenty Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Prize Pottery Sherd,Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Prize Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Sheaf Pottery Sherd,Trail ruins,Suspicious gravel,1,"8.3% { ""item"": ""Sheaf Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.08333333333333337, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Shelter Pottery Sherd,Warm Ocean ruins,Warm ruins suspicious sand,1,"6.7% { ""item"": ""Shelter Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Skull Pottery Sherd,Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Skull Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Snort Pottery Sherd,Warm Ocean ruins,Warm ruins suspicious sand,1,"6.7% { ""item"": ""Snort Pottery Sherd"", ""stacksize"": 1, ""chance"": 0.06666666666666665, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+
+Usage
+  Crafting ingredient
+    Ingredients,Crafting recipe
+    Any Pottery Sherd or Brick,"[[None, 'Angler Pottery Sherd', None], ['Angler Pottery Sherd', None, 'Angler Pottery Sherd'], [None, 'Angler Pottery Sherd', None]]"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Angler Pottery Sherd,angler_pottery_sherd,Item,item.minecraft.angler_pottery_sherd
+    Archer Pottery Sherd,archer_pottery_sherd,Item,item.minecraft.archer_pottery_sherd
+    Arms Up Pottery Sherd,arms_up_pottery_sherd,Item,item.minecraft.arms_up_pottery_sherd
+    Blade Pottery Sherd,blade_pottery_sherd,Item,item.minecraft.blade_pottery_sherd
+    Brewer Pottery Sherd,brewer_pottery_sherd,Item,item.minecraft.brewer_pottery_sherd
+    Burn Pottery Sherd,burn_pottery_sherd,Item,item.minecraft.burn_pottery_sherd
+    Danger Pottery Sherd,danger_pottery_sherd,Item,item.minecraft.danger_pottery_sherd
+    Explorer Pottery Sherd,explorer_pottery_sherd,Item,item.minecraft.explorer_pottery_sherd
+    Friend Pottery Sherd,friend_pottery_sherd,Item,item.minecraft.friend_pottery_sherd
+    Heart Pottery Sherd,heart_pottery_sherd,Item,item.minecraft.heart_pottery_sherd
+    Heartbreak Pottery Sherd,heartbreak_pottery_sherd,Item,item.minecraft.heartbreak_pottery_sherd
+    Howl Pottery Sherd,howl_pottery_sherd,Item,item.minecraft.howl_pottery_sherd
+    Miner Pottery Sherd,miner_pottery_sherd,Item,item.minecraft.miner_pottery_sherd
+    Mourner Pottery Sherd,mourner_pottery_sherd,Item,item.minecraft.mourner_pottery_sherd
+    Plenty Pottery Sherd,plenty_pottery_sherd,Item,item.minecraft.plenty_pottery_sherd
+    Prize Pottery Sherd,prize_pottery_sherd,Item,item.minecraft.prize_pottery_sherd
+    Sheaf Pottery Sherd,sheaf_pottery_sherd,Item,item.minecraft.sheaf_pottery_sherd
+    Shelter Pottery Sherd,shelter_pottery_sherd,Item,item.minecraft.shelter_pottery_sherd
+    Skull Pottery Sherd,skull_pottery_sherd,Item,item.minecraft.skull_pottery_sherd
+    Snort Pottery Sherd,snort_pottery_sherd,Item,item.minecraft.snort_pottery_sherd
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Angler Pottery Sherd,angler_pottery_sherd,664,Item,item.angler_pottery_sherd.name
+    Archer Pottery Sherd,archer_pottery_sherd,665,Item,item.archer_pottery_sherd.name
+    Arms Up Pottery Sherd,arms_up_pottery_sherd,666,Item,item.arms_up_pottery_sherd.name
+    Blade Pottery Sherd,blade_pottery_sherd,667,Item,item.blade_pottery_sherd.name
+    Brewer Pottery Sherd,brewer_pottery_sherd,668,Item,item.brewer_pottery_sherd.name
+    Burn Pottery Sherd,burn_pottery_sherd,669,Item,item.burn_pottery_sherd.name
+    Danger Pottery Sherd,danger_pottery_sherd,670,Item,item.danger_pottery_sherd.name
+    Explorer Pottery Sherd,explorer_pottery_sherd,671,Item,item.explorer_pottery_sherd.name
+    Friend Pottery Sherd,friend_pottery_sherd,672,Item,item.friend_pottery_sherd.name
+    Heart Pottery Sherd,heart_pottery_sherd,673,Item,item.heart_pottery_sherd.name
+    Heartbreak Pottery Sherd,heartbreak_pottery_sherd,674,Item,item.heartbreak_pottery_sherd.name
+    Howl Pottery Sherd,howl_pottery_sherd,675,Item,item.howl_pottery_sherd.name
+    Miner Pottery Sherd,miner_pottery_sherd,676,Item,item.miner_pottery_sherd.name
+    Mourner Pottery Sherd,mourner_pottery_sherd,677,Item,item.mourner_pottery_sherd.name
+    Plenty Pottery Sherd,plenty_pottery_sherd,678,Item,item.plenty_pottery_sherd.name
+    Prize Pottery Sherd,prize_pottery_sherd,679,Item,item.prize_pottery_sherd.name
+    Sheaf Pottery Sherd,sheaf_pottery_sherd,680,Item,item.sheaf_pottery_sherd.name
+    Shelter Pottery Sherd,shelter_pottery_sherd,681,Item,item.shelter_pottery_sherd.name
+    Skull Pottery Sherd,skull_pottery_sherd,682,Item,item.skull_pottery_sherd.name
+    Snort Pottery Sherd,snort_pottery_sherd,683,Item,item.snort_pottery_sherd.name
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    careful restoration,careful restoration,"Careful restoration { ""anchor"": """", ""title"": ""Careful restoration"", ""icon"": """", ""title"": ""Careful restoration"", ""description"": ""Make a Decorated Pot out of 4 Pottery Sherds
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""10G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Pottery Disguise"" headwear
+"" }",Make a Decorated Pot out of 4 Pottery Sherds,—,10G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Respecting the Remnants,Brush a Suspicious block to obtain a Pottery Sherd,Adventure,—,"adventure/salvage_sherd {""anchor"": """", ""title"": ""Respecting the Remnants"", ""icon"": ""Brush
+"", ""icon-style"": ""plain"", ""title"": ""Respecting the Remnants"", ""description"": ""Brush a [[Suspicious block]] to obtain a [[Pottery Sherd]]
+"", ""parent"": ""Adventure
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""adventure/salvage_sherd
+"", ""rewards"": ""—
+"" }"
+    ,Careful Restoration,Make a Decorated Pot out of 4 Pottery Sherds,Respecting the Remnants,—,"adventure/craft_decorated_pot_using_only_sherds {""anchor"": """", ""title"": ""Careful Restoration"", ""icon"": ""Decorated Pot
+"", ""icon-style"": ""plain"", ""title"": ""Careful Restoration"", ""description"": ""Make a [[Decorated Pot]] out of 4 [[Pottery Sherd]]s
+"", ""parent"": ""Respecting the Remnants
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""adventure/craft_decorated_pot_using_only_sherds
+"", ""rewards"": ""—
+"" }"
+

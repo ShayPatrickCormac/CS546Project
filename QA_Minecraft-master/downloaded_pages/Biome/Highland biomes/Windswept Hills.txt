@@ -1,0 +1,73 @@
+Overview
+    Windswept hills are very uncommon biomes that mainly generate in hilly terrain. There are three variants in the biome family.‌
+
+Description
+    Windswept hills generate in areas with high erosion, high PV and high continentalness, which means that the terrain is usually flat, but sometimes hilly and shattered. The cliffs of the windswept hills generally and peaks at roughly Y-level 140. Above Y=120±8, rainfall changes to snowfall, and the hills becomes snow-capped, along with water freezing into ice. Despite windswept hill biomes are highland biomes, deep dark doesn't generate under windswept hills biomes. The grass and leaves are an aqua color. These are the only biomes, besides mountain biomes, where emerald ore is found. Like mountains, infested blocks with silverfish can be generated underground below the sea level. Oak trees and spruce trees occasionally generate here, with a bit of grass, poppies‌[Java Edition  only] and dandelions on the ground. Llamas can spawn in these biomes. Survival in windswept hills can be challenging to beginners, due to the heights often risking heavy fall damage and higher elevations bringing snow and ice, but can be fairly easy once the player has acclimated to the area and found or made a flat-enough space for shelter. Llamas can also serve as useful pack animals when tamed. Water must be protected by light or a roof to prevent it from freezing when above the snowfall line, however, and the player must be aware of their surroundings to avoid falling off steep cliffs, especially when fighting hostile mobs. Care should also be taken when mining in windswept hills, due to infested stone occasionally generating; the player might get swarmed with silverfish if they're not prepared. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 515,4
+    Skeleton,100 ⁄ 515,4
+    Slime [note 1],100 ⁄ 515,4
+    Spider,100 ⁄ 515,4
+    Zombie,95 ⁄ 515,4
+    Enderman,10 ⁄ 515,1–4
+    Witch,5 ⁄ 515,1
+    Zombie Villager,5 ⁄ 515,1
+    Ambient category
+    Bat,1,8
+    Creature category
+    Sheep,12 ⁄ 45,4
+    Chicken,10 ⁄ 45,4
+    Pig,10 ⁄ 45,4
+    Cow,8 ⁄ 45,4
+    Llama,5 ⁄ 45,4–6
+    Underground water creature category
+    Glow Squid,1,4–6
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Creeper,100 ⁄ 495,1
+    Slime [note 1],100 ⁄ 495,1
+    Spider,100 ⁄ 495,1
+    Zombie,95 ⁄ 495,2–4
+    Skeleton,80 ⁄ 495,1–2
+    Enderman,10 ⁄ 495,1–2
+    Witch,5 ⁄ 495,1
+    Zombie Villager,5 ⁄ 495,2–4
+    Creature category
+    Sheep,12 ⁄ 55,2–3
+    Chicken,10 ⁄ 55,2–4
+    Glow Squid,10 ⁄ 55,2–4
+    Pig,10 ⁄ 55,1–3
+    Cow,8 ⁄ 55,2–3
+    Llama,5 ⁄ 55,4–6
+    Ambient category
+    Bat,1,2
+
+Variants
+  Windswept Hills
+    The windswept hills biome is the regular variant, which has sporadical oak and spruce trees. This biome features the stony and grassy terrain surface.
+
+  Windswept Forest
+    The windswept forest variant lacks stony terrain surface. The tall grass and trees generate more often, forming sparse forests. While the increased wood supply can be useful, the risk of fatal fall damage still exists, especially if this variant generates on the edge of a tall hill. This variant generates in areas with high humidity, which means it is usually surrounded by forested biomes like taigas and birch forests.
+
+  Windswept Gravelly Hills
+    The windswept gravelly hills variant has sporadical oak and spruce trees. This biome replaces the top few layers of stone, grass block and dirt with gravel across its landscape. Due to the gravel replacing most of the grass, trees generate far less often, making this variant relatively barren. Players should be careful when surfacing from underground in this biome, as the top layers of gravel can pose a suffocation hazard. This variant generates in lower humidity values, mainly next to plains and snowy plains.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Windswept Hills,windswept_hills,biome.minecraft.windswept_hills
+    Windswept Forest,windswept_forest,biome.minecraft.windswept_forest
+    Windswept Gravelly Hills,windswept_gravelly_hills,biome.minecraft.windswept_gravelly_hills
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID
+    [No displayed name],extreme_hills,3
+    [No displayed name],extreme_hills_plus_trees,34
+    [No displayed name],extreme_hills_mutated,131
+

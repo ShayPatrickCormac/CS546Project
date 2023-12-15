@@ -1,0 +1,22 @@
+Overview
+    A decorated pot is an ornamental block crafted from pottery sherds or bricks.
+
+Obtaining
+  Breaking
+    Decorated pots can be broken with any tool and are mined instantly. A decorated pot drops the four pottery sherds or bricks used to craft it when mined with a pickaxe, axe, shovel, hoe or sword not enchanted with Silk Touch. It drops itself when mined with anything else, including tools listed above enchanted with Silk Touch. A decorated pot drops itself if pushed by a piston. It also always drops itself when destroyed by an explosion, similar to other precious blocks such as beacons and shulker boxes.[1] ‌In Java Edition 1.20.3 and Bedrock Edition 1.20.50‌[upcoming], decorated pots can stack to 64. They can be broken by projectiles, causing them to shatter into sherds or bricks; however, they cannot be broken by shulker bullets[2], ender pearls[3] or llama spit[4]. Stored items are dropped when the decorated pot is mined, regardless of whether the pot is broken into sherds or drops itself.[5][6]
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Any Pottery Sherd or Brick,"[[None, 'Angler Pottery Sherd', None], ['Angler Pottery Sherd', None, 'Angler Pottery Sherd'], [None, 'Angler Pottery Sherd', None]]",It is possible to use any combination of bricks and pottery sherds .
+
+    The decorated pot's side textures correspond to the item used in the crafting. If a pottery sherd is used, that side bears the texture of that pottery sherd, if a brick is used, that side bears the default texture.
+
+  Natural generation
+    Decorated pots naturally generate in trial chambers.‌[upcoming]
+
+Usage
+    Decorated pots can be used for decoration. Due to the top part of the decorated pot having no collision, other blocks can be placed on top of them, including other decorated pots and regular flower pots, which are required to place a flower in the decorated pot. ‌In Java Edition 1.20.3 and Bedrock Edition 1.20.50‌[upcoming], player interactions with a decorated pot cause it to play a wobble animation, triggering a vibration frequency of 11.
+
+  Storage
+    A decorated pot can store up to a stack of a single type of item. Unlike other containers, decorated pots have no GUI; items are inserted by interacting with the pot or by using droppers or hoppers. The only ways to retrieve stored items is by breaking the pot or by using hoppers and minecarts with hopper. A redstone comparator can be used to measure the number of stored items.
+

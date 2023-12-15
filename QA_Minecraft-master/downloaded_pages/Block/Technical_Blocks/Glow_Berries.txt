@@ -1,0 +1,41 @@
+Overview
+    Glow berries are a food item obtained from cave vines and can be used to plant them. Cave vines are a climbable, bonemealable plant that hangs off ceilings and grows glow berries. Cave vines with glow berries produce light and drop glow berries when broken or harvested. Cave vines with no glow berries do not drop anything.
+
+Obtaining
+  Natural generation
+    Cave vines can be found in lush caves, hanging from cave ceilings.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Glow Berries,Mineshaft,Chest,3–6,"38.7% { ""item"": ""Glow Berries"", ""stacksize"": ""3–6"", ""chance"": 0.38688472290717413, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1–15,"23.2% { ""item"": ""Glow Berries"", ""stacksize"": ""1–15"", ""chance"": 0.23238142813184637, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Upcoming Java Edition
+    Glow Berries,Trial Chambers,Trial spawner,2–10,"11.5% { ""item"": ""Glow Berries"", ""stacksize"": ""2–10"", ""chance"": 0.11538461538461542, ""structure"": ""Trial Chambers"", ""container"": ""Trial spawner"" }"
+    Supply chest,2–10,"37.3% { ""item"": ""Glow Berries"", ""stacksize"": ""2–10"", ""chance"": 0.37281466804405383, ""structure"": ""Trial Chambers"", ""container"": ""Supply chest"" }"
+    Bedrock Edition
+    Glow Berries,Mineshaft,Chest,3–6,"38.7% { ""item"": ""Glow Berries"", ""stacksize"": ""3–6"", ""chance"": 0.38688472290717413, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1–15,"23.2% { ""item"": ""Glow Berries"", ""stacksize"": ""1–15"", ""chance"": 0.23238142813184637, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+
+  Post-generation
+    Glow berries can be collected from a cave vine by using or breaking the vine. This yields one glow berry when the vine is bearing them and nothing when it is not.  A cave vine also breaks if water runs over its location or if a piston extends or pushes a block into its location. In Bedrock Edition, using a tool with Silk Touch on cave vines always yields a glow berry, even if the vine appears empty. Fortune has no effect on the number of glow berries dropped.
+
+Usage
+  Placement
+    Glow berries can be placed on and grown from the bottom of most blocks. They have no specific lighting requirements. When placed, they can be of any length.
+
+  Growth
+    Placing glow berries on the bottom of a block creates a cave vine that grows downward one block at a time as long as air is beneath it and its maximum height (2 to 26 blocks) has not been reached. Each newly-grown cave vine block has a 1 in 9 chance of bearing glow berries.  Only this tip can ever naturally grow them.‌[Java Edition  only][more information needed] Using bone meal on a cave vine produces glow berries if the vine was not bearing any. In Java Edition, cave vines stop growing if shears are used on the tip. In Bedrock Edition, if placing glow berries in the Nether, cave vines are able to grow and produces glow berries.
+
+  Food
+    To eat glow berries, press and hold use while it is selected in the hotbar. Eating one restores 2 () hunger and 0.4 hunger saturation points, like sweet berries.
+
+  Light
+    When bearing glow berries, cave vines give off a light level of 14.
+
+  Composting
+    Placing glow berries into a composter by using them on it has a 30% chance of raising the compost level by 1.
+
+  Breeding
+    Glow berries can be fed to foxes to breed them. Foxes are similar to cats when being fed as a wild animal; a sudden movement by the player may cause the fox to flee even if the player holds glow berries. The resulting baby fox trusts the player and does not flee. Glow berries can be used on baby foxes to reduce the time until they grow by 10%.
+

@@ -1,0 +1,59 @@
+Overview
+    Cut copper is a metal block that oxidize over time, gaining a verdigris appearance over four stages.
+
+Obtaining
+  Breaking
+    Blocks of copper can be mined only with a stone pickaxe or better. If a block of copper is mined without the use of a pickaxe, it drops nothing.
+
+    Block,Cut Copper
+    Hardness,3
+    Tool,stone pickaxe
+    Breaking time (sec) [A]
+    Default,15
+    Wooden,7.5
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,1.25
+
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Unwaxed Cut Copper,Matching Unwaxed Block of Copper,"[[None, None, None], ['Block of Copper', 'Block of Copper', None], ['Block of Copper', 'Block of Copper', None]]"
+    Waxed Cut Copper,Matching Waxed Block of Copper,"[[None, None, None], ['Waxed Block of Copper', 'Waxed Block of Copper', None], ['Waxed Block of Copper', 'Waxed Block of Copper', None]]"
+    Waxed Cut Copper,Matching Unwaxed Cut Copper + Honeycomb,"[[None, None, None], ['', 'Honeycomb', None], [None, None, None]]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Unwaxed Cut Copper,Matching Unwaxed Block of Copper,4 4 4 4
+    Waxed Cut Copper,Matching Waxed Block of Copper,4 4 4 4
+
+  Waxing
+    Cut copper can be turned into the respective waxed copper blocks by using a honeycomb item on them. Waxed cut copper does not oxidize and are identical to the non-waxed version.
+
+  Scraping
+    Using an axe on  waxed cut copper turns it into the respective non-waxed copper block. In addition, using an axe on exposed, weathered, or oxidized cut copper reverts it one stage to regular, exposed, or weathered cut copper respectively.
+
+  Lightning strike
+    Non-waxed cut copper is completely deoxidized when struck by lightning, and other non-waxed cut copper nearby is deoxidized randomly.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Unwaxed Cut Copper Slab,Matching Unwaxed Cut Copper,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Unwaxed Cut Copper Stairs,Matching Unwaxed Cut Copper,"[['', None, None], ['', '', None], ['', '', '']]"
+    Waxed Cut Copper Slab,Matching Waxed Cut Copper,"[[None, None, None], [None, None, None], ['Waxed Cut Copper', 'Waxed Cut Copper', 'Waxed Cut Copper']]"
+    Waxed Cut Copper Stairs,Matching Waxed Cut Copper,"[['Waxed Cut Copper', None, None], ['Waxed Cut Copper', 'Waxed Cut Copper', None], ['Waxed Cut Copper', 'Waxed Cut Copper', 'Waxed Cut Copper']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe,Description
+    Unwaxed Cut Copper Slab,Matching Unwaxed Cut Copper,2 2 2 2,
+    Unwaxed Cut Copper Stairs,Matching Unwaxed Cut Copper,,
+    Unwaxed Chiseled Copper,Matching Unwaxed Block of Copper,4 4 4 4,‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Waxed Cut Copper Slab,Matching Waxed Cut Copper,2 2 2 2,
+    Waxed Cut Copper Stairs,Matching Waxed Cut Copper,,
+    Waxed Chiseled Copper,Matching Waxed Block of Copper,4 4 4 4,‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+
+  Oxidation
+    Non-waxed cut copper has four stages of oxidation (including the initial normal state). Lightning bolts and axes can remove the oxidation on cut copper. As the block begins to oxidize (exposed), it gets discolored and green spots begin to appear. As the oxidation continues (weathered), the block is a green color with brown spots. In the last stage (oxidized), the block is teal with several green spots.
+

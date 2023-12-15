@@ -1,0 +1,42 @@
+Overview
+    A wooden trapdoor is a variant of the trapdoor that can be opened and closed by the player without redstone.
+
+Obtaining
+  Breaking
+    Wooden trapdoors can be mined with any tool, but an axe is the fastest. Trapdoors remain in place if their attachment block is moved, removed, or destroyed.
+
+    Block,Wooden Trapdoor
+    Hardness,3
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,4.5
+    Wooden,2.25
+    Stone,1.15
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,0.4
+
+  Natural generation
+    Most types of trapdoors can be found in shipwrecks. Specifically:
+
+  Crafting
+    Ingredients,Crafting recipe
+    Matching Planks,"[[None, None, None], ['Oak Planks', 'Oak Planks', 'Oak Planks'], ['Oak Planks', 'Oak Planks', 'Oak Planks']]"
+
+Usage
+  Properties
+    Wooden trapdoors can be opened and closed by players or redstone pulse. Iron trapdoors can be opened only by redstone pulse. Lava can create fire in air blocks next to wooden trapdoors as if they were flammable, but the trapdoors do not burn (and cannot be burned by other methods either).
+
+  Barrier
+    To open or close a wooden trapdoor, use the Use Item/Place Block control.
+
+  Redstone component
+    Wooden trapdoors can be controlled with redstone power. An activated wooden trapdoor can still be closed by a player, and does not re-open until it receives a new activation signal (if a trapdoor has been closed "by hand", it still needs to be deactivated and then reactivated to open by redstone).
+
+  Fuel
+    Overworld wooden trapdoors can be used as a fuel in furnaces, smelting 1.5 items per block.
+
+  Note blocks
+    Wooden trapdoors can be placed under note blocks to produce "bass" sounds.
+

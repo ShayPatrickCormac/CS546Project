@@ -1,0 +1,48 @@
+Overview
+    A compass is an item used to point to the world spawn or to a lodestone.
+
+Obtaining
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Compass,Ancient City,Chest,1,"16.1% { ""item"": ""Compass"", ""stacksize"": 1, ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Shipwreck,Map chest,1,"7.7% { ""item"": ""Compass"", ""stacksize"": 1, ""chance"": 0.07688803032512026, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+    Stronghold,Library chest,1,"10.9% { ""item"": ""Compass"", ""stacksize"": 1, ""chance"": 0.10885842114094657, ""structure"": ""Stronghold"", ""container"": ""Library chest"" }"
+    Village,Cartographer's chest,1,"26.3% { ""item"": ""Compass"", ""stacksize"": 1, ""chance"": 0.26288199999999995, ""structure"": ""Village"", ""container"": ""Cartographer's chest"" }"
+    Upcoming Java Edition
+    Compass,Trial Chambers,Intersection barrel,1,"5.9% { ""item"": ""Compass"", ""stacksize"": 1, ""chance"": 0.05939097123670134, ""structure"": ""Trial Chambers"", ""container"": ""Intersection barrel"" }"
+    Bedrock Edition
+    Compass,Ancient City,Chest,1,"16.1% { ""item"": ""Compass"", ""stacksize"": 1, ""chance"": 0.16110641166159667, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Shipwreck,Map chest,1,"7.7% { ""item"": ""Compass"", ""stacksize"": 1, ""chance"": 0.07688803032512026, ""structure"": ""Shipwreck"", ""container"": ""Map chest"" }"
+    Stronghold,Library chest,1,"10.5% { ""item"": ""Compass"", ""stacksize"": 1, ""chance"": 0.10505089050634986, ""structure"": ""Stronghold"", ""container"": ""Library chest"" }"
+    Village,Cartographer's chest,1,"26.3% { ""item"": ""Compass"", ""stacksize"": 1, ""chance"": 0.26288199999999995, ""structure"": ""Village"", ""container"": ""Cartographer's chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Iron Ingot + Redstone Dust,"[[None, 'Iron Ingot', None], ['Iron Ingot', 'Redstone Dust', 'Iron Ingot'], [None, 'Iron Ingot', None]]"
+
+  Trading
+    In Java Edition, expert-level librarian villagers have a 50% chance to sell a single compass for 4 emeralds. In Bedrock Edition, expert-level librarian villagers have a 1⁄3 chance to sell a single compass for 4 emeralds.
+
+Usage
+    Normally, the compass' needle points toward the world spawn point. The compass points to spawn when viewed in any way, including as a dropped item, in a player's hand, in an inventory or the crafting table, or in an item frame. The direction the needle points to is relative to the player who is viewing it. In the Nether or the End, the compass' needle spins and points in random directions. The compass can be used on a lodestone, after which it is named lodestone compass by default and points to that lodestone as long as the compass is in the same dimension as the lodestone, but if the compass is taken to a different dimension, it spins randomly, as a normal compass would in the Nether or the End. If the lodestone is destroyed, it also spins randomly, even if the lodestone is replaced afterward.  However, if a lodestone compass is placed in storage, the lodestone can be broken and replaced without the compass losing the attunement, as long as the compass remains in storage while the lodestone is missing. A lodestone compass appears enchanted, similar to the enchanted golden apple. Using /setworldspawn to change the world spawn also changes where the compass points.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Empty Map,Paper + Compass,"[['Paper', 'Paper', 'Paper'], ['Paper', '', 'Paper'], ['Paper', 'Paper', 'Paper']]","This variation is called an ""empty locator map"" in Bedrock Edition , or an ""empty map"" in Java Edition . When the player first creates a map, it is blank. It needs to be activated by holding it and pressing use item . after which it records terrain and location markers as the player travels within (or close to) the area it maps."
+    Map (with marker),Map or Empty Map + Compass,"[[None, None, None], ['Map', '', None], [None, None, None]]","Bedrock Edition only. Maps crafted from only paper do not show the location marker; to add it, a compass must be added to the map."
+    Recovery Compass,Echo Shard + Compass,"[['Echo Shard', 'Echo Shard', 'Echo Shard'], ['Echo Shard', '', 'Echo Shard'], ['Echo Shard', 'Echo Shard', 'Echo Shard']]",
+
+  Anvil usage
+    Name,Ingredients,Anvil usage,Description
+    Locator Map,Map + Compass,Repair & Name Map,"Bedrock Edition only. Maps crafted with only paper do not show the location marker; to add it, a compass must be added to the map."
+
+  Trading
+    A single compass can be sold to a journeyman-level cartographer villager for 1 emerald.‌[Java Edition  only] A single compass can be sold to an expert-level cartographer villager for 1 emerald as their sixth trade.‌[Bedrock Edition  only] A compass is also part of the cost of explorer maps:
+
+  Enchantments
+    A compass can receive the following enchantments:
+
+    Name,Max Level,Method
+    Curse of Vanishing,I,
+

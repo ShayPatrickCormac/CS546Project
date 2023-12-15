@@ -1,0 +1,29 @@
+Overview
+    Cracked nether bricks are a decorative variants of nether bricks, obtained by smelting.
+
+Obtaining
+  Breaking
+    Cracked nether bricks can be mined using any pickaxe. If mined without a pickaxe, they drop nothing.
+
+    Block,Cracked Nether Bricks
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Cracked Nether Bricks,Nether Bricks + Any fuel,0.1
+
+Usage
+    Cracked nether bricks are non-flammable and immune to ghast fireballs, making them a suitable shelter material for the Nether.
+
+  Note Blocks
+    Cracked nether bricks can be placed under note blocks to produce "bass drum" sounds.
+

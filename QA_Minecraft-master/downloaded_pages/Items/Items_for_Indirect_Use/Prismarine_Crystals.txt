@@ -1,0 +1,34 @@
+Overview
+    Prismarine crystals are items obtained by defeating guardians or elder guardians. They are used along with prismarine shards to craft sea lanterns.
+
+Obtaining
+  Mining
+    Prismarine crystals are dropped by sea lanterns when not using a Silk Touch tool. They drop 2–3 crystals each time, which can be increased to a maximum of 5 using the Fortune enchantment.
+
+  Mob loot
+    Guardians and elder guardians have a 40% chance and 1⁄3 chance, respectively, of dropping prismarine crystals upon death. The maximum drop count is increased by one per level of Looting.
+
+  Chest Loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Prismarine Crystals,Buried treasure,Chest,1–5,"59.9% { ""item"": ""Prismarine Crystals"", ""stacksize"": ""1–5"", ""chance"": 0.5987654320987654, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Prismarine Crystals,Buried treasure,Chest,1–5,"18.9% { ""item"": ""Prismarine Crystals"", ""stacksize"": ""1–5"", ""chance"": 0.18885870814101746, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Sea Lantern,Prismarine Shard + Prismarine Crystals,"[['Prismarine Shard', '', 'Prismarine Shard'], ['', '', ''], ['Prismarine Shard', '', 'Prismarine Shard']]"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Prismarine Crystals,prismarine_crystals,Item,item.minecraft.prismarine_crystals
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Prismarine Crystals,prismarine_crystals,549,Item,item.prismarine_crystals.name
+

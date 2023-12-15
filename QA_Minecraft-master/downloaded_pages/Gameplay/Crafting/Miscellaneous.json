@@ -1,0 +1,863 @@
+[
+    {
+        "names": [
+            "Book"
+        ],
+        "ingredients": [
+            "Paper",
+            "Leather"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Paper",
+                "Paper",
+                null
+            ],
+            [
+                "Paper",
+                "Leather",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Slimeball"
+        ],
+        "ingredients": [
+            "Slime Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Slime Block",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Empty Map"
+        ],
+        "ingredients": [
+            "Paper",
+            "Compass"
+        ],
+        "sample pattern": [
+            [
+                "Paper",
+                "Paper",
+                "Paper"
+            ],
+            [
+                "Paper",
+                "Compass",
+                "Paper"
+            ],
+            [
+                "Paper",
+                "Paper",
+                "Paper"
+            ]
+        ],
+        "description": "This variation is called an \"empty locator map\" inBedrock Edition, or an \"empty map\" inJava Edition.When the player first creates a map, it is blank. It needs to be activated by holding it and pressinguse item. after which it records terrain and location markers as the player travels within (or close to) the area it maps."
+    },
+    {
+        "names": [
+            "Empty Map"
+        ],
+        "ingredients": [
+            "Paper"
+        ],
+        "sample pattern": [
+            [
+                "Paper",
+                "Paper",
+                "Paper"
+            ],
+            [
+                "Paper",
+                "Paper",
+                "Paper"
+            ],
+            [
+                "Paper",
+                "Paper",
+                "Paper"
+            ]
+        ],
+        "description": "‌[Bedrock Editiononly]This variation is called an \"empty map\". It does not show location markers. It is intended for cloning and zooming locator maps without having to consume an additionalcompass(thereby savingiron ingotsandredstone dust), but it can also beactivatedand later converted to a locator map by combining it with a compass on ananvil,crafting table, orcartography table."
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Map",
+            "Compass"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Map",
+                "Compass",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "Bedrock Editiononly.Maps crafted from only paper do not show the location marker; to add it, a compass must be added to the map."
+    },
+    {
+        "names": [
+            "Fire Charge"
+        ],
+        "ingredients": [
+            "Blaze Powder",
+            "Coal",
+            "Charcoal",
+            "Gunpowder"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blaze Powder",
+                "Coal",
+                null
+            ],
+            [
+                null,
+                "Gunpowder",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Book and Quill"
+        ],
+        "ingredients": [
+            "Book",
+            "Ink Sac",
+            "Feather"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Book",
+                "Ink Sac",
+                null
+            ],
+            [
+                null,
+                "Feather",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [],
+        "ingredients": [
+            "Book and Quill",
+            "Written Book"
+        ],
+        "sample pattern": [
+            [
+                "",
+                "",
+                ""
+            ],
+            [
+                "Book and Quill",
+                "Written Book",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ]
+        ],
+        "description": "The input written book is not consumed.The new copies are \"Copy of Original\" or \"Copy of Copy\", depending on whether the input written book is \"Original\" or \"Copy of Original\".Copies of copies cannot be copied.Copied books of the same generation (\"Original\", \"Copy of Original\", \"Copy of Copy\", or \"Tattered\") stack."
+    },
+    {
+        "names": [
+            "Firework Star"
+        ],
+        "ingredients": [
+            "Gunpowder",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Gunpowder",
+                "White Dye",
+                "Head"
+            ],
+            [
+                "Glowstone Dust",
+                "Diamond",
+                null
+            ]
+        ],
+        "description": "Up to eight dyes can be added.One head, gold nugget, feather, or fire charge can be added.Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    },
+    {
+        "names": [
+            "Firework Star"
+        ],
+        "ingredients": [
+            "Firework Star",
+            "Dye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Firework Star",
+                "White Dye",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "Adds a \"fade to color\" effect to the firework star, overwriting any existing fades.Up to eight dyes can be added."
+    },
+    {
+        "names": [
+            "White Firework Star",
+            "Blue Firework Star",
+            "Brown Firework Star",
+            "Black Firework Star"
+        ],
+        "ingredients": [
+            "Gunpowder",
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac",
+            "Head",
+            "Gold Nugget",
+            "Feather",
+            "Fire Charge",
+            "Glowstone Dust",
+            "Diamond"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Gunpowder",
+                "Bone Meal",
+                "Head"
+            ],
+            [
+                "Glowstone Dust",
+                "Diamond",
+                null
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]Up to eight dyes can be added.One head, gold nugget, feather, or fire charge can be added.Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    },
+    {
+        "names": [
+            "Eye of Ender"
+        ],
+        "ingredients": [
+            "Blaze Powder",
+            "Ender Pearl"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blaze Powder",
+                "Ender Pearl",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Firework Rocket"
+        ],
+        "ingredients": [
+            "Paper",
+            "Gunpowder"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Paper",
+                "",
+                null
+            ],
+            [
+                "",
+                "Gunpowder",
+                null
+            ]
+        ],
+        "description": "When crafted this way (without a firework star), the rocket does not have explosion effects. The value of gunpowder affects theflight duration."
+    },
+    {
+        "names": [
+            "Firework Rocket"
+        ],
+        "ingredients": [
+            "Firework Star",
+            "Paper",
+            "Gunpowder"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Firework Star",
+                "Paper",
+                ""
+            ],
+            [
+                "",
+                "Gunpowder",
+                null
+            ]
+        ],
+        "description": "Adding more gunpowder increases the duration of the rocket. Up to three gunpowder can be used. Up to five firework stars can also be used with three gunpowder. Up to seven firework stars can be used by using firework stars instead of additional gunpowder. All firework stars explode almost simultaneously when the rocket detonates."
+    },
+    {
+        "names": [
+            "Beacon"
+        ],
+        "ingredients": [
+            "Glass",
+            "Nether Star",
+            "Obsidian"
+        ],
+        "sample pattern": [
+            [
+                "Glass",
+                "Glass",
+                "Glass"
+            ],
+            [
+                "Glass",
+                "Nether Star",
+                "Glass"
+            ],
+            [
+                "Obsidian",
+                "Obsidian",
+                "Obsidian"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Paper"
+        ],
+        "ingredients": [
+            "Sugar Cane"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Sugar Cane",
+                "Sugar Cane",
+                "Sugar Cane"
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Leather Horse Armor"
+        ],
+        "ingredients": [
+            "Leather"
+        ],
+        "sample pattern": [
+            [
+                "Leather",
+                null,
+                "Leather"
+            ],
+            [
+                "Leather",
+                "Leather",
+                "Leather"
+            ],
+            [
+                "Leather",
+                null,
+                "Leather"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Explorer Map"
+        ],
+        "ingredients": [
+            "Empty Map",
+            "Ocean Explorer Map",
+            "Woodland Explorer Map",
+            "Buried Treasure Map"
+        ],
+        "sample pattern": [
+            [
+                "",
+                "",
+                ""
+            ],
+            [
+                "Ocean Explorer Map",
+                "Empty Map",
+                ""
+            ],
+            [
+                "",
+                "",
+                ""
+            ]
+        ],
+        "description": "The output has the same map center as the input map, and the samemonument,woodland mansionorburied treasuremarker. Cloned maps are stackable."
+    },
+    {
+        "names": [
+            "White Glow Stick",
+            "Blue Glow Stick",
+            "Brown Glow Stick"
+        ],
+        "ingredients": [
+            "Polyethylene",
+            "Hydrogen Peroxide",
+            "Dye",
+            "Luminol"
+        ],
+        "sample pattern": [
+            [
+                "Polyethylene",
+                "Hydrogen Peroxide",
+                "Polyethylene"
+            ],
+            [
+                "Polyethylene",
+                "Bone Meal",
+                "Polyethylene"
+            ],
+            [
+                "Polyethylene",
+                "Luminol",
+                "Polyethylene"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Sparkler"
+        ],
+        "ingredients": [
+            "Chloride",
+            "Magnesium",
+            "Stick"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Calcium Chloride",
+                null
+            ],
+            [
+                null,
+                "Magnesium",
+                null
+            ],
+            [
+                null,
+                "Stick",
+                null
+            ]
+        ],
+        "description": "Calcium Chloride: OrangeCerium Chloride: BlueMercuric Chloride: RedPotassium Chloride: PurpleTungsten Chloride: Green‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Banner Pattern Creeper"
+        ],
+        "ingredients": [
+            "Paper",
+            "Creeper Head"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Paper",
+                "Creeper Head",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Banner Pattern Flower"
+        ],
+        "ingredients": [
+            "Paper",
+            "Oxeye Daisy"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Paper",
+                "Oxeye Daisy",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Banner Pattern Skull"
+        ],
+        "ingredients": [
+            "Paper",
+            "Wither Skeleton Skull"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Paper",
+                "Wither Skeleton Skull",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Banner Pattern Thing"
+        ],
+        "ingredients": [
+            "Paper",
+            "Enchanted Golden Apple"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Paper",
+                "Enchanted Golden Apple",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Banner Pattern Bordure Indented"
+        ],
+        "ingredients": [
+            "Paper",
+            "Vines"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Paper",
+                "Vines",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock Editiononly]"
+    },
+    {
+        "names": [
+            "Banner Pattern Field Masoned"
+        ],
+        "ingredients": [
+            "Paper",
+            "Bricks"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Paper",
+                "Bricks",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "‌[Bedrock Editiononly]"
+    },
+    {
+        "names": [
+            "Balloon"
+        ],
+        "ingredients": [
+            "Latex",
+            "Dye",
+            "Helium",
+            "Lead"
+        ],
+        "sample pattern": [
+            [
+                "Latex",
+                "White Dye",
+                "Latex"
+            ],
+            [
+                "Latex",
+                "Helium",
+                "Latex"
+            ],
+            [
+                "Latex",
+                "Lead",
+                "Latex"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "White Balloon",
+            "Blue Balloon",
+            "Brown Balloon",
+            "Black Balloon"
+        ],
+        "ingredients": [
+            "Latex",
+            "Bone Meal",
+            "Lapis Lazuli",
+            "Cocoa Beans",
+            "Ink Sac",
+            "Helium",
+            "Lead"
+        ],
+        "sample pattern": [
+            [
+                "Latex",
+                "Bone Meal",
+                "Latex"
+            ],
+            [
+                "Latex",
+                "Helium",
+                "Latex"
+            ],
+            [
+                "Latex",
+                "Lead",
+                "Latex"
+            ]
+        ],
+        "description": "‌[Bedrock EditionandMinecraft Educationonly]"
+    },
+    {
+        "names": [
+            "Composter"
+        ],
+        "ingredients": [
+            "Wooden Slab"
+        ],
+        "sample pattern": [
+            [
+                "Oak Slab",
+                null,
+                "Oak Slab"
+            ],
+            [
+                "Oak Slab",
+                null,
+                "Oak Slab"
+            ],
+            [
+                "Oak Slab",
+                "Oak Slab",
+                "Oak Slab"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Copper Ingot"
+        ],
+        "ingredients": [
+            "Block of Copper",
+            "Waxed Block of Copper"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Block of Copper",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Music Disc 5"
+        ],
+        "ingredients": [
+            "Disc Fragment 5"
+        ],
+        "sample pattern": [
+            [
+                "Disc Fragment",
+                "Disc Fragment",
+                "Disc Fragment"
+            ],
+            [
+                "Disc Fragment",
+                "Disc Fragment",
+                "Disc Fragment"
+            ],
+            [
+                "Disc Fragment",
+                "Disc Fragment",
+                "Disc Fragment"
+            ]
+        ],
+        "description": ""
+    }
+]

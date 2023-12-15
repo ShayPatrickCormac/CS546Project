@@ -1,0 +1,44 @@
+Overview
+    Polished blackstone is the stone-like polished variation of blackstone.
+
+Obtaining
+  Breaking
+    Block,Polished Blackstone
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+    Polished blackstone has a slightly higher hardness (thus takes slightly longer to break) than its chiseled variant.[1]
+
+  Natural generation
+    Polished blackstone can generate as part of bastion remnants and ruined portals in the Nether.
+
+  Crafting
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Polished Blackstone,Blackstone,"[[None, None, None], ['Blackstone', 'Blackstone', None], ['Blackstone', 'Blackstone', None]]"
+    Polished Blackstone Button,Polished Blackstone,"[[None, None, None], [None, '', None], [None, None, None]]"
+    Polished Blackstone Pressure Plate,Polished Blackstone,"[[None, None, None], ['', '', None], [None, None, None]]"
+    Polished Blackstone Bricks,Polished Blackstone,"[[None, None, None], ['', '', None], ['', '', None]]"
+    Polished Blackstone Slab,Polished Blackstone,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Polished Blackstone Stairs,Polished Blackstone,"[['', None, None], ['', '', None], ['', '', '']]"
+    Polished Blackstone Wall,Polished Blackstone,"[[None, None, None], ['', '', ''], ['', '', '']]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Blackstone Bricks or Chiseled Polished Blackstone,Polished Blackstone,
+    Polished Blackstone Slab or Polished Blackstone Brick Slab,Polished Blackstone,2 2
+    Polished Blackstone Stairs or Polished Blackstone Brick Stairs,Polished Blackstone,
+    Polished Blackstone Wall or Polished Blackstone Brick Wall,Polished Blackstone,
+
+  Note Blocks
+    Polished blackstone can be placed under note blocks to produce "bass drum" sound.
+

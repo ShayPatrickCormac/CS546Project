@@ -1,0 +1,22 @@
+Overview
+    A soul sand valley is a dry biome located in the Nether. It is formed of large caverns with nether fossils and different blocks, mainly including soul sand and soul soil.
+
+Description
+    The soul sand valley is mostly composed of soul sand and soul soil, with gravel found on its coastlines. Soul fire is scattered throughout the valley and nether fossils poke out of the terrain. It lacks a diverse set of plants, with the only native vegetation being crimson roots and mushrooms, although fungi, nether sprouts, crimson roots, warped roots, and huge fungi may spawn where the valley borders a crimson forest or warped forest. Its fog is cyan and the air particles are gray as the sounds of winds and the voices of ghosts fill the air. Giant columns of basalt called basalt pillars can be found stretching from the floor to the ceiling. Caverns, fortresses and even bastions can also be found in the soul sand valley. Glowstone blobs can be found in this biome, although they are significantly rarer than in other Nether biomes,[1] since the ceiling of this biome is made of soul sand or soul soil below which glowstone blobs cannot generate; they can still occasionally generate in caves and canyons in this biome,[2] because the ceiling is made of netherrack. The following mobs are naturally spawned here：
+
+    Mob,Spawn weight,Group size,Charge [note 1],Budget [note 1]
+    Monster category
+    Skeleton,20 ⁄ 71,5,0.7,0.15
+    Ghast [note 2],50 ⁄ 71,4,0.7,0.15
+    Enderman,1 ⁄ 71,4,0.7,0.15
+    Creature category
+    Strider,1,1–2,0.7,0.15
+
+    Mob,Spawn weight,Group size
+    Monster category
+    Skeleton,80 ⁄ 126,1–2
+    Ghast,40 ⁄ 126,1
+    Enderman,6 ⁄ 126,1
+    Creature category
+    Strider,1,2–4
+

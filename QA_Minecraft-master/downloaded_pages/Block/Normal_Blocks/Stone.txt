@@ -1,0 +1,68 @@
+Overview
+    Stone is a block found underground in the Overworld or on the surface of mountains.
+
+Obtaining
+  Breaking
+    Stone can be mined using a pickaxe, in which case it drops cobblestone. When mined without a pickaxe, it drops nothing. If a stone is mined with a Silk Touch enchanted pickaxe, it drops itself.
+
+    Block,Stone
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Stone makes up the majority of the solid blocks generated in the Overworld above y=0. From y=8 downwards, stone gradually transitions into deepslate, until it is completely replaced by deepslate at and below y=0. When chunks generate, stone can be found under 1-5 layers of grass blocks, dirt, gravel, clay, coarse dirt, podzol, mycelium, sand, sandstone, red sand, red sandstone or terracotta, depending on the biome. When the world is generating new chunks, some stone is replaced with ore features of other blocks. They may also be revealed on the side of small hills. Stone also generates in igloo basements, some Overworld ruined portals, and in trail ruins. Stone also makes up most of the blocks on the void start platform, in Superflat worlds created with the Void biome preset.‌[Java Edition  only]
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Stone,Village,Mason's chest,1,"37.7% { ""item"": ""Stone"", ""stacksize"": 1, ""chance"": 0.3771328842719901, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+    Bedrock Edition
+    Stone,Village,Mason's chest,1,"37.7% { ""item"": ""Stone"", ""stacksize"": 1, ""chance"": 0.3771328842719901, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+
+  Smelting
+    Stone can be smelted from cobblestone.
+
+    Ingredients,Smelting recipe
+    Cobblestone + Any fuel,0.1
+
+  Post-generation
+    Stone can also be made by lava flowing on top of water blocks (both flowing and source). The water is replaced by stone.
+
+Usage
+  Silverfish
+    Silverfish can enter and hide in stone, creating an infested block.
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Smooth Stone,Stone + Any fuel,0.1
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Redstone Comparator,Redstone Torch + Nether Quartz + Stone,"[[None, 'Redstone Torch', None], ['Redstone Torch', 'Nether Quartz', 'Redstone Torch'], ['', '', '']]",
+    Redstone Repeater,Redstone Torch + Redstone Dust + Stone,"[[None, None, None], ['Redstone Torch', 'Redstone Dust', 'Redstone Torch'], ['', '', '']]",
+    Stone Button,Stone,"[[None, None, None], [None, '', None], [None, None, None]]",
+    Stone Pressure Plate,Stone,"[[None, None, None], ['', '', None], [None, None, None]]",
+    Stone Bricks,Stone,"[[None, None, None], ['', '', None], ['', '', None]]",
+    Stone Slab,Stone,"[[None, None, None], [None, None, None], ['', '', '']]",
+    Stone Stairs,Stone,"[['', None, None], ['', '', None], ['', '', '']]",
+    Stonecutter,Iron Ingot + Stone,"[[None, None, None], [None, 'Iron Ingot', None], ['', '', '']]","Can use stone only, no variants.‌ [ Java Edition only ]"
+    Stonecutter,Iron Ingot + Stone,"[[None, None, None], [None, 'Iron Ingot', None], ['', '', '']]",Can use stone and its three other variants interchangeably.‌ [ Bedrock Edition only ]
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Stone,2 2
+
+  Trading
+    Apprentice-level stone mason villagers offer to buy 20 stone for an emerald.
+
+  Note Blocks
+    Stone can be placed under note blocks to produce "bass drum" sounds.
+

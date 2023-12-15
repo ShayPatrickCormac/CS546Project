@@ -1,0 +1,122 @@
+Overview
+    Boots are a type of armor that covers the feet of the player. There are six types of boots: leather boots, chainmail boots, iron boots, diamond boots, gold boots, and netherite boots.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Leather or Gold Ingot or Iron Ingot or Diamond,"[[None, None, None], ['Leather', None, 'Leather'], ['Leather', None, 'Leather']]",
+    Damaged Matching Boots,"[[None, None, None], ['Leather Boots', 'Leather Boots', None], [None, None, None]]","The durability of the two boots is added together, plus an extra 5% durability."
+
+  Upgrading
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Boots + Netherite Ingot,Upgrade Gear
+
+  Repairing
+    Ingredients,Grinding recipe,Description
+    2x Damaged Leather Boots or 2x Damaged Chainmail Boots or 2x Damaged Iron Boots or 2x Damaged Golden Boots or 2x Damaged Diamond Boots or 2x Damaged Netherite Boots,,"The durability of the two boots are added together, plus an extra 5% durability."
+
+    Boots can be repaired in an anvil by adding units of the armor material's repair material, with each repair material restoring 25% of the boots' maximum durability, rounded down. Chainmail boots may also be repaired in this way using iron ingots. They can also be combined with other boots. When doing this, the item's enchantments are not lost, and can even be raised. Boots may also be repaired by crafting them together with another pair of leggings of the same material, although enchantments are lost.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Leather Boots,Village,Tanner's chest,1,"31.8% { ""item"": ""Leather Boots"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Enchanted Leather Boots [A],Shipwreck,Supply chest,1,"20.8% { ""item"": ""Enchanted Leather Boots"", ""stacksize"": 1, ""chance"": 0.20778331426627006, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Iron Boots,Stronghold,Altar chest,1,"12% { ""item"": ""Iron Boots"", ""stacksize"": 1, ""chance"": 0.12006249999999996, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Boots"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Boots [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Boots"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Golden Boots,Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Golden Boots"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Enchanted Golden Boots [A],Bastion remnant,Bridge chest,1,"11.2% { ""item"": ""Enchanted Golden Boots"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Boots"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Enchanted Golden Boots with Soul Speed [C],Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Enchanted Golden Boots with Soul Speed"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Diamond Boots,Bastion remnant,Treasure chest,1,"15.8% { ""item"": ""Diamond Boots"", ""stacksize"": 1, ""chance"": 0.15757887517146774, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Damaged Enchanted Diamond Boots [A] [D],Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Damaged Enchanted Diamond Boots"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Enchanted Diamond Boots [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Boots"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Leather Boots,Village,Tanner's chest,1,"31.8% { ""item"": ""Leather Boots"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Enchanted Leather Boots [A],Shipwreck,Supply chest,1,"20.8% { ""item"": ""Enchanted Leather Boots"", ""stacksize"": 1, ""chance"": 0.20778331426627006, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Chainmail Boots,Buried treasure,Chest,1,"57.2% { ""item"": ""Chainmail Boots"", ""stacksize"": 1, ""chance"": 0.5722759899564946, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Iron Boots,Stronghold,Altar chest,1,"11.6% { ""item"": ""Iron Boots"", ""stacksize"": 1, ""chance"": 0.11648616558453506, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Boots"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Boots [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Boots"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Golden Boots,Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Golden Boots"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Enchanted Golden Boots [A],Bastion remnant,Bridge chest,1,"11.2% { ""item"": ""Enchanted Golden Boots"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Boots"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Enchanted Golden Boots with Soul Speed [C],Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Enchanted Golden Boots with Soul Speed"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Diamond Boots,Bastion remnant,Treasure chest,1,"15.8% { ""item"": ""Diamond Boots"", ""stacksize"": 1, ""chance"": 0.15757887517146774, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Damaged Enchanted Diamond Boots [A] [D],Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Damaged Enchanted Diamond Boots"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Enchanted Diamond Boots [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Boots"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+
+  Mob loot
+    If a zombie, husk, stray, piglin, or skeleton is wearing armor, there is a 8.5% chance (9.5% with Looting I, 10.5% with Looting II and 11.5% with Looting III) for the mob to drop boots upon death. The boots are usually badly damaged, and may be enchanted. In Bedrock Edition, vindicators and pillagers that spawn in raids have a chance to drop iron boots, which are usually badly damaged and have a 50% chance to be enchanted.
+
+  Trading
+    In Java Edition, novice-level armorer villagers have 40% chance to sell iron boots for 4 emeralds. Apprentice-level armorers have a 50% chance to sell chainmail boots for an emerald. Expert-level armorers always sell enchanted[note 1] diamond boots for 11–27 emeralds. Apprentice-level leatherworker villagers have 2⁄3 chance to sell leather boots for 4 emeralds. Armorer villagers may give the players with the Hero of the Village effect chainmail boots.‌[Java Edition  only] In Bedrock Edition, novice-level armorer villagers have a 25% chance to sell iron boots for 4 emeralds. Apprentice-level armorers have a 1⁄3 chance to sell chainmail boots for an emerald. Expert-level armorers have a 50% chance to sell enchanted[note 1] diamond boots for 8 emeralds. Apprentice-level leatherworker villagers have a 50% chance to sell leather boots for 4 emeralds.
+
+  Bartering
+    Piglins may barter iron boots with Soul Speed when given a gold ingot.
+
+  Fishing
+    Leather boots can be caught as a "junk" item when fishing.
+
+Usage
+    Boots can be placed in the fourth armor slot of a player's inventory for activation.
+
+  Defense points
+    Defense points are each signified by half of a chestplate in the armor bar above the health bar. Each defense point reduces any damage dealt to the player that is absorbed by armor by 4%, increasing additively with the number of defense points. Different materials and combinations of armor provide different levels of defense. The following table shows the amount of defense points added by boots.
+
+    Material,Defense points
+    Leather,1 ( )
+    Golden
+    Chainmail
+    Iron,2 ( )
+    Diamond,3 ( )
+    Netherite
+
+  Knockback resistance
+    Netherite boots provide 10% knockback resistance.
+
+  Durability
+    The following table shows the amount of damage each piece of armor can absorb before being destroyed. Any "hit" from a damage source that can be blocked by armor removes one point of durability from each piece of armor worn for every 4 of incoming damage (rounded down, but never below 1). Damage taken that armor doesn't protect (such as falling or drowning) does not damage the armor, even if it is enchanted to protect against that type of damage. The following chart displays how many hits boots can endure. Netherite armor is not damaged by lava or fire when worn.
+
+    Material,Durability
+    Leather,65
+    Golden,91
+    Chainmail/Iron,195
+    Diamond,429
+    Netherite,481
+
+  Enchantments
+    Boots can receive the following enchantments:
+
+    Enchantment,Max Level,Notes
+    Fire Protection,IV,[note 1]
+    Projectile Protection,IV,[note 1]
+    Blast Protection,IV,[note 1]
+    Protection,IV,[note 1]
+    Feather Falling,IV,
+    Unbreaking,III,
+    Thorns,III,[note 2]
+    Depth Strider,III,[note 3]
+    Soul Speed,III,[note 2]
+    Frost Walker,II,[note 3] [note 4]
+    Mending,I,[note 4]
+    Curse of Binding,I,[note 4]
+    Curse of Vanishing,I,[note 4]
+
+  Armor trimming
+    It is possible to upgrade armor with trims. This requires a smithing template, a pair of boots, and an ingot or crystal (iron ingot, copper ingot, gold ingot, netherite ingot, emerald, redstone dust, lapis lazuli, amethyst shard, nether quartz, or diamond). These trims have no effect on the gameplay or strength of the armor.
+
+    Ingredients,Smithing recipe
+    Any Armor Trim + Any Boots + Any Ingot/Crystal,Upgrade Gear
+
+  Smelting usage
+    Name,Ingredients,Smelting recipe
+    Iron Nugget or Gold Nugget,Iron Boots or Chainmail Boots or Golden Boots + Any fuel,0.1
+
+  Piglins
+    Piglins are attracted to golden boots and pick them up, examining them for 6 to 8 seconds. Other boots do not attract piglins but can be worn by them. They prefer stronger boots over weaker boots, with one major exception: They always prefer golden boots over all other boots, throwing out stronger boots to equip them. Enchanted boots are preferred over unenchanted boots.
+
+  Powder snow
+    Leather boots can be used to safely cross powder snow without sinking in it. The block behaves similar to scaffolding, allowing the player to sink in by pressing crouch and move up by pressing jump. The boots also prevent the wearer from taking freezing damage.
+

@@ -1,0 +1,83 @@
+Overview
+    A diamond pickaxe has a mining level of 3, being stronger than an iron pickaxe but weaker than a netherite pickaxe. It is crafted using three diamonds and two sticks, giving 1 diamond pickaxe as a result. The fourth tier of pickaxe is known for being the first tier able to mine obsidian, a key ingredient in making a nether portal to access the Nether.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Diamond + Stick,"[['Diamond', 'Diamond', 'Diamond'], [None, 'Stick', None], [None, 'Stick', None]]",
+    Damaged Diamond Pickaxes,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two pickaxes is added together, plus an extra 5% durability."
+
+  Repairing
+    Ingredients,Grinding recipe
+    Damaged Diamond Pickaxes,
+
+    Diamond pickaxes can be repaired in an anvil by adding diamonds, with each diamond restoring 25% of the pickaxe's maximum durability, rounded down.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Enchanted Diamond Pickaxe [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Pickaxe"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Enchanted Diamond Pickaxe [C],Bastion remnant,Generic chest,1,"6.7% { ""item"": ""Enchanted Diamond Pickaxe"", ""stacksize"": 1, ""chance"": 0.0674157303370787, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Enchanted Diamond Pickaxe [C] [D],Bastion remnant,Hoglin stable chest,1,"13.6% { ""item"": ""Enchanted Diamond Pickaxe"", ""stacksize"": 1, ""chance"": 0.13636363636363635, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Upcoming Java Edition
+    Damaged Diamond Pickaxe [A],Trial Chambers,Intersection chest,1,"11.2% { ""item"": ""Damaged Diamond Pickaxe"", ""stacksize"": 1, ""chance"": 0.11183763693762816, ""structure"": ""Trial Chambers"", ""container"": ""Intersection chest"" }"
+    Enchanted Diamond Pickaxe [C] [E],Trial Chambers,Intersection barrel,1,"5.9% { ""item"": ""Enchanted Diamond Pickaxe"", ""stacksize"": 1, ""chance"": 0.05939097123670134, ""structure"": ""Trial Chambers"", ""container"": ""Intersection barrel"" }"
+    Bedrock Edition
+    Enchanted Diamond Pickaxe [B],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Pickaxe"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Enchanted Diamond Pickaxe [C],Bastion remnant,Generic chest,1,"6.7% { ""item"": ""Enchanted Diamond Pickaxe"", ""stacksize"": 1, ""chance"": 0.0674157303370787, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Enchanted Diamond Pickaxe [C] [D],Bastion remnant,Hoglin stable chest,1,"13.6% { ""item"": ""Enchanted Diamond Pickaxe"", ""stacksize"": 1, ""chance"": 0.13636363636363635, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+
+  Trading
+    In Bedrock Edition, master-level toolsmith villagers always sell enchanted diamond pickaxes for 13 emeralds. In Java Edition, master-level toolsmith villagers always sell an enchanted diamond pickaxe for 18–35 emeralds. The enchantments are the same as the ones obtained from an enchantment table at levels 5–19.
+
+Usage
+  Mining
+    A diamond pickaxe is used to break stone and metal-based materials faster. Breaking a block with a diamond pickaxe consumes one use (one durability point). No durability is consumed for blocks that have a hardness value of 0, such as torches and flowers. A diamond pickaxe or better is necessary for mining obsidian (including crying obsidian), respawn anchors, ancient debris and blocks of netherite.
+
+  Weapon
+    All pickaxes have an attack speed modifier of -2.8, meaning they take about 0.83 seconds to recover. Diamond pickaxes do 5 damage per attack, or 6 damage per second. All pickaxes attack instantly, with diamond pickaxes doing 6 damage per attack.
+
+  Enchantments
+    A diamond pickaxe can receive the following enchantments:
+
+    Name,Description,Max Level,Method,Weight
+    Efficiency,Increases the mining speed.,V,,10
+    Fortune [note 1],Increases the amount of drops when mining.,III,,2
+    Silk Touch [note 1],Causes blocks to drop themselves when mined.,I,,1
+    Unbreaking,Grants a chance to negate durability consumption.,III,,5
+    Mending,Repairs the pickaxe when obtaining experience .,I,,2
+    Curse of Vanishing,"The pickaxe vanishes on death, not dropping as an item.",I,,1
+
+  Upgrading
+    Like other diamond tools, a diamond pickaxe can be upgraded to a netherite pickaxe, increasing its durability and slightly increasing its mining speed, as well as granting resistance to fire and lava when dropped as an item. The upgraded pickaxe will keep its enchantments, name and other item data.
+
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Pickaxe + Netherite Ingot,Upgrade Gear
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Diamond Pickaxe,diamond_pickaxe,Item,item.minecraft.diamond_pickaxe
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Diamond Pickaxe,diamond_pickaxe,318,Item,item.diamond_pickaxe.name
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    time to mine,time to mine,"Time to Mine! { ""anchor"": """", ""title"": ""Time to Mine!"", ""icon"": """", ""title"": ""Time to Mine!"", ""description"": ""Use planks and sticks to make a pickaxe.
+ "", ""requirements"": ""Pick up any type of [[pickaxe]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""10G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Miner Headband"" headwear
+"" }",Use planks and sticks to make a pickaxe.,Pick up any type of pickaxe from a crafting table output.,10G,Bronze
+    moar tools,moar tools,"MOAR Tools { ""anchor"": """", ""title"": ""MOAR Tools"", ""icon"": """", ""title"": ""MOAR Tools"", ""description"": ""Construct one type of each tool.
+ "", ""requirements"": ""Construct one [[pickaxe]], one [[shovel]], one [[axe]], and one [[hoe]] with the same material.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Construct one type of each tool.,"Construct one pickaxe , one shovel , one axe , and one hoe with the same material.",15G,Bronze
+

@@ -1,0 +1,37 @@
+Overview
+    The block of bamboo is a log-like block made of bamboo.
+
+Obtaining
+  Breaking
+    They can be broken by hand, but using an axe speeds up the process.
+
+    Block,Block of Bamboo
+    Hardness,2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,3
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Bamboo,"[['Bamboo', 'Bamboo', 'Bamboo'], ['Bamboo', 'Bamboo', 'Bamboo'], ['Bamboo', 'Bamboo', 'Bamboo']]",Cannot be crafted back into 9 bamboo.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Bamboo Planks,Block of Bamboo,"[[None, None, None], [None, '', None], [None, None, None]]"
+
+  Stripping
+    Using an axe on a block of bamboo turns it into a block of stripped bamboo.
+
+  Fuel
+    Blocks of bamboo can be used as a fuel in furnaces, smelting 1.5 items per block. Unlike logs, blocks of bamboo cannot be smelted into charcoal.[1]
+
+  Note blocks
+    Block of bamboo can be placed under note blocks to produce "bass" sounds.
+

@@ -1,0 +1,53 @@
+Overview
+    Beetroot seeds are items that can be used to plant beetroot crops. Beetroot crops are planted in farmland and used to grow beetroot and beetroot seeds.
+
+Obtaining
+  Breaking
+    Harvesting fully-grown beetroot yields from 1 to 4 seeds per crop harvested (2 5⁄7 seeds per crop harvested on average). The Fortune enchantment can be used to improve the drop rate.
+
+    Block,Beetroots
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+
+  Natural generation
+    Village farm plots have a chance of being beetroots. The exact chance depends on the style of the village:
+
+    Village style,Chance
+    Desert,20%
+    Plains,5%
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Beetroot Seeds,Monster Room,Chest,2–4,"18.5% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,2–4,"27.3% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    End city,Chest,1–10,"21.2% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""1–10"", ""chance"": 0.21244814670441758, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Beetroot Seeds"", ""stacksize"": 1, ""chance"": 0.022222222222222254, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Village,Snowy house chest,1–5,"66.3% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""1–5"", ""chance"": 0.662802357880901, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Woodland mansion,Chest,2–4,"18.5% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Beetroot Seeds,Monster Room,Chest,2–4,"18.5% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,2–4,"27.3% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.27314935357988357, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bonus chest,Chest,1–2,"33.3% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""1–2"", ""chance"": 0.33333333333333337, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    End city,Chest,1–10,"21.2% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""1–10"", ""chance"": 0.21244814670441758, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Trail ruins,Suspicious gravel,1,"2.2% { ""item"": ""Beetroot Seeds"", ""stacksize"": 1, ""chance"": 0.021739130434782594, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Village,Snowy house chest,1–5,"66.3% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""1–5"", ""chance"": 0.662802357880901, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Woodland mansion,Chest,2–4,"18.5% { ""item"": ""Beetroot Seeds"", ""stacksize"": ""2–4"", ""chance"": 0.1846297600000001, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+  Trading
+    Beetroot seeds are sold by wandering traders for one emerald.
+
+Usage
+  Farming
+    Beetroot seeds can be placed on farmland. After being placed, it goes through four stages of growth. When fully grown it can be broken to produce beetroot seeds and beetroots. While beetroot crops have only four growth stages compared to eight for wheat, carrots, and potatoes, each growth tick has a 1⁄3 chance of not advancing the growth stage and therefore beetroot grows slightly faster than other crops. Crops grow faster if the farmland they are planted in is hydrated. One application of bonemeal has a 75% chance of advancing growth by one stage. This is less effective than for other crops: an average of 5 1⁄3 are needed to fully grow beetroot compared to 2 2⁄7 for other crops.
+
+  Breeding
+    Like other seeds, beetroot seeds can be used to breed chickens, lead chickens around, and make baby chickens grow up faster by 10% of the remaining time.
+
+  Taming
+    Like other seeds, beetroot seeds can be used to tame parrots.
+
+  Composting
+    Placing beetroot seeds into a composter has a 30% chance of raising the compost level by 1.
+

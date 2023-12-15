@@ -1,0 +1,112 @@
+Overview
+    Silk Touch is a tool enchantment that causes certain blocks to drop themselves as items instead of their usual drops when mined.
+
+Obtainable blocks
+    The table below lists blocks that do not normally drop themselves as items:
+
+    Block,Normal drops,Obtainable with Silk Touch?,Notes
+    Amethyst Bud,Nothing,Yes (only with pickaxe),The bud keeps its growth stage.
+    Amethyst Cluster,"4 Amethyst Shard with pickaxe, otherwise 2 Amethyst Shard",Yes (only with pickaxe),
+    Bee Nest,Nothing,Yes,When mined with a Silk Touch tool the nest can still contain 1-3 bees .
+    Beehive (occupied),Beehive (empty),Yes,When mined with a Silk Touch tool the nest can still contain 1-3 bees .
+    Beetroots,1 Beetroot Seeds if not fully grown 1 Beetroot and 0–3 Beetroot Seeds if fully grown,No,Beetroot crop cannot be obtained as an item.
+    Blue ice [a],Nothing,Yes,
+    Bookshelf,3 Book,Yes,
+    Budding Amethyst,Nothing,No,
+    Cake [a],Nothing,No,
+    Campfire,2 Charcoal,Yes,
+    Carrots,1-5 Carrot,No,Carrot crop cannot be obtained as an item.
+    Chiseled Bookshelf,Nothing,Yes,
+    Clay,4 Clay Ball,Yes,"Clay can also be obtained by crafting with the clay balls the block drops, or killing an enderman holding the block."
+    Coal Ore [a],1 Coal,Yes (only with pickaxe),
+    Cocoa,1-3 Cocoa Beans,No,Cocoa pod cannot be obtained as an item.
+    Copper Ore,2-5 Raw Copper,Yes (only with stone pickaxe or better),
+    Coral Blocks [a],Dead Coral Blocks,Yes (only with pickaxe),
+    Coral [a] Coral Fans [a],Nothing,Yes,
+    Decorated Pot,"4 pottery sherd (s)/ brick (s) when broken with a tool on main hand, else it drops itself.",Yes,
+    Deepslate,Cobbled Deepslate,Yes (only with pickaxe),Can also be smelted from cobbled deepslate.
+    Diamond Ore [a],1 Diamond,Yes (only with iron pickaxe or better),
+    Double Slab,2 Slab,No,All slabs except wooden drop nothing when mined without a pickaxe.
+    Emerald Ore [a],1 Emerald,Yes (only with iron pickaxe or better),
+    Ender Chest [a],8 Obsidian,Yes (only with pickaxe),
+    Farmland,Dirt,No,
+    Fire [a],Nothing,No,Fire cannot be obtained as an item.
+    Frosted Ice [a],Nothing (becomes a water source),No (no water source forms),Frosted Ice cannot be obtained as an item.
+    Gilded Blackstone [a],90% chance for Gilded Blackstone and 10% chance for 2-5 Gold Nugget s,Yes (only with pickaxe),
+    Glass Pane [a] Glass [a],Nothing,Yes,
+    Glowstone,2-4 Glowstone Dust,Yes,Can also be crafted with 4 glowstone dust .
+    Gold Ore,1 Raw Gold,Yes (only with iron pickaxe or better),
+    Grass Block,Dirt,Yes,Can also be obtained by killing an enderman holding the block.
+    Dirt Path,Dirt,Yes‌ [ BE only ],
+    No‌ [ JE only ]
+    Gravel,90% chance for Gravel and 10% chance for Flint,Yes,The block always drops itself if it falls into an occupied block space.
+    Ice [a],Nothing (Becomes a water source),Yes,
+    Infested Block (Monster Egg),Spawns 1 Silverfish,Partial,"When mined with a Silk Touch tool, it drops the original version of the block, not the infested block , and no silverfish spawn."
+    Inverted Daylight Detector,Daylight Detector,No,
+    Iron Ore,1 Raw Iron,Yes (only with stone pickaxe or better),
+    Lapis Lazuli Ore [a],4-8 Lapis Lazuli,Yes (only with stone pickaxe or better),
+    Leaves,0-1 Saplings 0-2 Stick s 0-1 Apple from oak and dark oak leaves,Yes,Leaf blocks can also be obtained by mining them with shears .
+    Melon,3-7 Melon Slice,Yes,"Can also be crafted with 9 melon slices, or killing an enderman holding the block."
+    Melon Stem,0-4 Melon Seeds,No,Melon stem cannot be obtained as an item.
+    Monster Spawner [a],Nothing,No,The monster spawner drops experience if mined with a pickaxe .
+    Mushroom Blocks,0-2 Mushrooms,Yes,
+    Mycelium,Dirt,Yes,Can also be obtained by killing an enderman holding the block.
+    Nether Gold Ore [a],2-6 Gold Nugget,Yes (only with pickaxe),
+    Nether Quartz Ore [a],1 Nether Quartz,Yes (only with pickaxe),
+    Nylium [a],Netherrack,Yes (only with pickaxe),Can also be obtained by killing an enderman holding the block.
+    Nether Wart,1-4 Nether Wart,No,Nether wart crop cannot be obtained as an item.
+    Packed Ice [a],Nothing,Yes,
+    Podzol,Dirt,Yes,"Can also be obtained by killing an enderman holding the block, or buying it from a wandering trader ."
+    Potatoes,"2-5 Potato , and 2% chance for a Poisonous Potato",No,Potato crop cannot be obtained as an item.
+    Powder Snow,Nothing,No,Can be collected with a bucket .
+    Pumpkin Stem,0-4 Pumpkin Seeds,No,Pumpkin stem cannot be obtained as an item.
+    Redstone Ore [a],4-5 Redstone Dust,Yes (only with iron pickaxe or better),
+    Reinforced Deepslate [a],Nothing,No,
+    Sculk Sculk Catalyst Sculk Sensor Calibrated Sculk Sensor Sculk Shrieker Sculk Vein [a],Nothing,Yes,Every sculk family block except sculk vein drops experience when mined without Silk Touch.
+    Sea Lantern,2-3 Prismarine Crystals,Yes,
+    Snow [a] ‌ [ JE only ],1 Snowball (per layer),Yes (only with shovel),"At 8 layers, drops a snow block instead. [1] Can also be crafted with 3 snow blocks."
+    Snow Block [a],4 Snowball,Yes (only with shovel),Can also be crafted with 4 snowballs.
+    Soul Campfire,Soul Soil,Yes,
+    Stone [a],Cobblestone,Yes (only with pickaxe),Can also be smelted from cobblestone.
+    Suspicious Gravel Suspicious Sand,Nothing,No,Can be obtained by making the block fall for more than 30 seconds. [2]
+    Top Snow [a] ‌ [ BE only ],1 Snowball for 1-3 layers 2 Snowball for 4-5 layers 3 Snowball for 6-7 layers,No [3],"At 8 layers, drops a snow block instead. Can also be crafted with 3 snow blocks."
+    Turtle Egg [a],Nothing,Yes,
+    Twisting Vines,33% chance for Twisting Vines,Yes,Also drops 100% of the time if broken with Fortune III or shears .
+    Weeping Vines,33% chance for Weeping Vines,Yes,Also drops 100% of the time if broken with Fortune III or shears .
+    Wheat,1 Seeds if not fully grown 1 Wheat and 0-3 Seeds if fully grown,No,Wheat crop cannot be obtained as an item.
+
+Incompatibilities
+    Silk Touch is incompatible with Fortune. If commands are used to apply both Silk Touch and Fortune to an item, the Silk Touch enchantment takes precedence over the Fortune enchantment for blocks affected by both enchantments. Silk touch is also technically incompatible with the Looting and Luck of the Sea enchantments.‌[JE  only][4] If commands are used to apply both Silk Touch and Looting or Luck of the Sea to an item, both enchantments function normally. Silk Touch cannot be applied to swords or fishing rods in normal gameplay.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Silk Touch,silk_touch,enchantment.minecraft.silk_touch
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Silk Touch,silk_touch,16,enchantment.untouching
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    total beelocation,total beelocation,"Total Beelocation { ""anchor"": """", ""title"": ""Total Beelocation"", ""icon"": """", ""title"": ""Total Beelocation"", ""description"": ""Move and place a [[Bee Nest]], with 3 bees inside, using [[Silk Touch]].
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Beekeeper Hat"" headwear
+"" }","Move and place a Bee Nest , with 3 bees inside, using Silk Touch .",—,30G,Silver
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Total Beelocation,"Move a Bee Nest , with 3 Bees inside, using Silk Touch",Husbandry,—,"husbandry/silk_touch_nest {""anchor"": """", ""title"": ""Total Beelocation"", ""icon"": ""Bee Nest
+"", ""icon-style"": ""plain"", ""title"": ""Total Beelocation"", ""description"": ""Move a [[Bee Nest]], with 3 [[Bee]]s inside, using [[Silk Touch]]
+"", ""parent"": ""Husbandry
+"", ""requirements"": ""—
+"", ""resourcelocation"": ""husbandry/silk_touch_nest
+"", ""rewards"": ""—
+"" }"
+

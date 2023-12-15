@@ -1,0 +1,99 @@
+Overview
+    Lapis lazuli is a mineral required to enchant items in an enchanting table.
+
+Obtaining
+  Mining
+    When mined with a stone pickaxe or better, lapis lazuli ore drops 4–9 lapis lazuli. With the Fortune III enchantment, a single block has a chance of dropping up to 36 items.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Lapis Lazuli,Mineshaft,Chest,4–9,"14.5% { ""item"": ""Lapis Lazuli"", ""stacksize"": ""4–9"", ""chance"": 0.14460337616164032, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–10,"61.5% { ""item"": ""Lapis Lazuli"", ""stacksize"": ""1–10"", ""chance"": 0.615478515625, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Village,Temple chest,1–4,"25.4% { ""item"": ""Lapis Lazuli"", ""stacksize"": ""1–4"", ""chance"": 0.25406025971014023, ""structure"": ""Village"", ""container"": ""Temple chest"" }"
+    Upcoming Java Edition
+    Lapis Lazuli,Trial Chambers,Corridor pot,1–4,"18.1% { ""item"": ""Lapis Lazuli"", ""stacksize"": ""1–4"", ""chance"": 0.1814882032667876, ""structure"": ""Trial Chambers"", ""container"": ""Corridor pot"" }"
+    Bedrock Edition
+    Lapis Lazuli,Mineshaft,Chest,4–9,"14.5% { ""item"": ""Lapis Lazuli"", ""stacksize"": ""4–9"", ""chance"": 0.14460337616164032, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–10,"61.5% { ""item"": ""Lapis Lazuli"", ""stacksize"": ""1–10"", ""chance"": 0.615478515625, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Village,Temple chest,1–4,"25.4% { ""item"": ""Lapis Lazuli"", ""stacksize"": ""1–4"", ""chance"": 0.25406025971014023, ""structure"": ""Village"", ""container"": ""Temple chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Block of Lapis Lazuli,"[[None, None, None], [None, 'Block of Lapis Lazuli', None], [None, None, None]]"
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Lapis Lazuli,Lapis Lazuli Ore or Deepslate Lapis Lazuli Ore + Any fuel,0.2
+
+  Trading
+    Apprentice-level cleric villagers sell one lapis lazuli for an emerald as part of their trades. In Bedrock Edition, wandering traders may sell 3 lapis lazuli for an emerald.
+
+  Villager gifts
+    In Java Edition, cleric villagers give players lapis lazuli if they have the Hero of the Village effect.
+
+Usage
+  Enchanting
+    1–3 pieces of lapis lazuli are required to use an enchanting table to enchant an item. More specifically, the enchanting table UI shows 3 options (see Enchanting mechanics for details): the first, second, and third options cost 1, 2, and 3 lapis lazuli, respectively.
+
+  Crafting ingredient
+    Lapis lazuli can be used to make blocks of lapis lazuli and blue dye. In Bedrock Edition, it can also be used directly as a substitute for blue dye.
+
+    Name,Ingredients,Crafting recipe,Description
+    Block of Lapis Lazuli,Lapis Lazuli,"[['', '', ''], ['', '', ''], ['', '', '']]",
+    Blue Balloon,Latex + Lapis Lazuli + Helium + Lead,"[['Latex', '', 'Latex'], ['Latex', 'Helium', 'Latex'], ['Latex', 'Lead', 'Latex']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Blue Bed,Any Bed + Lapis Lazuli,"[[None, None, None], ['White Bed', '', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Blue Carpet,White Carpet + Lapis Lazuli,"[['White Carpet', 'White Carpet', 'White Carpet'], ['White Carpet', '', 'White Carpet'], ['White Carpet', 'White Carpet', 'White Carpet']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Blue Concrete Powder,Lapis Lazuli + Sand + Gravel,"[['', 'Sand', 'Sand'], ['Sand', 'Sand', 'Gravel'], ['Gravel', 'Gravel', 'Gravel']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Blue Dye,Lapis Lazuli,"[[None, None, None], [None, '', None], [None, None, None]]",
+    Blue Firework Star,Blue Firework Star + Lapis Lazuli,"[[None, None, None], ['Firework Star', '', None], [None, None, None]]","‌ [ Bedrock Edition and Minecraft Education only ] Adds a ""fade to color"" effect to the firework star, overwriting any existing fades. Up to eight dyes can be added."
+    Blue Firework Star,Gunpowder + Lapis Lazuli + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', '', 'Head'], ['Glowstone Dust', 'Diamond', None]]","‌ [ Bedrock Edition and Minecraft Education only ] Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Blue Glow Stick,Polyethylene + Hydrogen Peroxide + Lapis Lazuli + Luminol,"[['Polyethylene', 'Hydrogen Peroxide', 'Polyethylene'], ['Polyethylene', '', 'Polyethylene'], ['Polyethylene', 'Luminol', 'Polyethylene']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Blue Shulker Box,Any Shulker Box + Lapis Lazuli,"[[None, None, None], ['White Shulker Box', '', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Blue Stained Glass,Glass + Lapis Lazuli,"[['Glass', 'Glass', 'Glass'], ['Glass', '', 'Glass'], ['Glass', 'Glass', 'Glass']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Blue Stained Glass Pane,Glass Pane + Lapis Lazuli,"[['Glass Pane', 'Glass Pane', 'Glass Pane'], ['Glass Pane', '', 'Glass Pane'], ['Glass Pane', 'Glass Pane', 'Glass Pane']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Blue Terracotta,Terracotta + Lapis Lazuli,"[['Terracotta', 'Terracotta', 'Terracotta'], ['Terracotta', '', 'Terracotta'], ['Terracotta', 'Terracotta', 'Terracotta']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Blue Wool,Any Wool + Lapis Lazuli,"[[None, None, None], ['White Wool', '', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Cyan Dye,Lapis Lazuli + Green Dye,"[[None, None, None], ['', 'Green Dye', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Light Blue Dye,Lapis Lazuli + Bone Meal or White Dye,"[[None, None, None], ['', 'Bone Meal', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Magenta Dye,Lapis Lazuli + Red Dye + Bone Meal or White Dye,"[[None, None, None], ['', 'Red Dye', None], ['Red Dye', 'Bone Meal', None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Magenta Dye,Lapis Lazuli + Red Dye + Pink Dye,"[[None, None, None], ['', 'Red Dye', None], [None, 'Pink Dye', None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Purple Dye,Lapis Lazuli + Red Dye,"[[None, None, None], ['', 'Red Dye', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+
+    In Bedrock Edition, lapis lazuli can be also used in banner patterns:
+
+    Name,Ingredients,Crafting recipe
+    Blue Banner pattern,Lapis Lazuli + Banner,"[['', '', ''], ['', 'Banner', ''], ['', '', '']]"
+    Blue Banner image,Lapis Lazuli + Banner + Vines or Bricks or Creeper Head or Wither Skeleton Skull or Oxeye Daisy or Enchanted Golden Apple,"[[None, None, None], ['Vines', '', None], [None, 'Banner', None]]"
+
+  Loom ingredient
+  Dye
+    In Bedrock Edition and Minecraft Education, lapis lazuli can be:
+
+  Smithing ingredient
+    Ingredients,Smithing recipe,Description
+    Any Armor Trim + Any Armor Piece + Lapis Lazuli,Upgrade Gear,"All armor types can be used in this recipe, a netherite chestplate is shown as an example."
+
+    Trim color palette The following color palette is shown on the designs on trimmed armor:
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Lapis Lazuli,lapis_lazuli,Item,item.minecraft.lapis_lazuli
+
+    Bedrock Edition:
+
+    Name,Identifier,Alias ID,Numeric ID,Form,Translation key
+    Lapis Lazuli,lapis_lazuli,dye / 4,414,Item,item.dye.blue.name
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Enchanter,Enchant an item at an Enchanting Table,Diamonds!,"Insert an item in an enchanting table , then apply an enchantment.","story/enchant_item {""anchor"": """", ""title"": ""Enchanter"", ""icon"": ""Enchanted Book.gif
+"", ""icon-style"": ""plain"", ""title"": ""Enchanter"", ""description"": ""Enchant an item at an Enchanting Table
+"", ""parent"": ""Diamonds!
+"", ""requirements"": ""Insert an item in an [[enchanting table]], then apply an enchantment.
+"", ""resourcelocation"": ""story/enchant_item
+"", ""rewards"": """" }"
+

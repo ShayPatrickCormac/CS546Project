@@ -1,0 +1,90 @@
+Overview
+    Stairs are blocks that allow mobs and players to change elevation without jumping.
+
+Obtaining
+  Breaking
+    Wood stairs drop themselves as items when broken with any tool, or with no tool, but an axe is fastest. Non-wood stairs drop themselves as items only if broken with a pickaxe. Compared to slabs, the hardness values (and thus, breaking time) of stairs better reflect the blocks they are made from.[1]
+
+    Block,Cobbled Deepslate Polished Deepslate Deepslate Brick Deepslate Tile,Cut Copper,End Stone Brick,Brick (Mossy) Cobblestone (Red) Nether Brick Polished Blackstone Smooth Quartz Smooth (Red) Sandstone,Blackstone (Polished) Andesite (Polished) Diorite (Polished) Granite Polished Blackstone Brick Prismarine (and variants) Purpur Stone (Mossy) Stone Brick,Quartz (Red) Sandstone,Mud Brick,Wooden
+    Hardness,3.5,3,3,2,1.5,0.8,1.5,2
+    Tool,wooden pickaxe,stone pickaxe,wooden pickaxe,wooden pickaxe,wooden pickaxe,wooden pickaxe,wooden pickaxe,Axe
+    Breaking time (sec) [A]
+    Default,17.5,15,15,10,7.5,4,7.5,3
+    Wooden,2.65,7.5,2.25,1.5,1.15,0.6,1.15,1.5
+    Stone,1.35,1.15,1.15,0.75,0.6,0.3,0.6,0.75
+    Iron,0.9,0.75,0.75,0.5,0.4,0.2,0.4,0.5
+    Diamond,0.7,0.6,0.6,0.4,0.3,0.15,0.3,0.4
+    Netherite,0.6,0.5,0.5,0.35,0.25,0.15,0.25,0.35
+    Golden,0.45,1.25,0.4,0.25,0.2,0.1,0.2,0.25
+
+  Natural generation
+    Ruined portals Ocean ruins Villages
+
+  Crafting
+    Wood stairs must be crafted entirely from one type and color of wood, and they retain the style of that wood's type and color.
+
+    Name,Ingredients,Crafting recipe,Description
+    Wood Stairs,Matching Planks,"[['Oak Planks', None, None], ['Oak Planks', 'Oak Planks', None], ['Oak Planks', 'Oak Planks', 'Oak Planks']]",
+    Bamboo Mosaic Stairs,Bamboo Mosaic,"[['Bamboo Mosaic', None, None], ['Bamboo Mosaic', 'Bamboo Mosaic', None], ['Bamboo Mosaic', 'Bamboo Mosaic', 'Bamboo Mosaic']]",
+    Stone Stairs,Stone,"[['Stone', None, None], ['Stone', 'Stone', None], ['Stone', 'Stone', 'Stone']]",
+    Cobblestone Stairs or Mossy Cobblestone Stairs,Cobblestone or Mossy Cobblestone,"[['Cobblestone', None, None], ['Cobblestone', 'Cobblestone', None], ['Cobblestone', 'Cobblestone', 'Cobblestone']]",
+    Stone Brick Stairs or Mossy Stone Brick Stairs,Stone Bricks or Mossy Stone Bricks,"[['Stone Bricks', None, None], ['Stone Bricks', 'Stone Bricks', None], ['Stone Bricks', 'Stone Bricks', 'Stone Bricks']]",
+    Granite Stairs or Polished Granite Stairs,Granite or Polished Granite,"[['Granite', None, None], ['Granite', 'Granite', None], ['Granite', 'Granite', 'Granite']]",
+    Diorite Stairs or Polished Diorite Stairs,Diorite or Polished Diorite,"[['Diorite', None, None], ['Diorite', 'Diorite', None], ['Diorite', 'Diorite', 'Diorite']]",
+    Andesite Stairs or Polished Andesite Stairs,Andesite or Polished Andesite,"[['Andesite', None, None], ['Andesite', 'Andesite', None], ['Andesite', 'Andesite', 'Andesite']]",
+    Cobbled Deepslate Stairs or Polished Deepslate Stairs or Deepslate Brick Stairs or Deepslate Tile Stairs,Cobbled Deepslate or Polished Deepslate or Deepslate Bricks or Deepslate Tiles,"[['Cobbled Deepslate', None, None], ['Cobbled Deepslate', 'Cobbled Deepslate', None], ['Cobbled Deepslate', 'Cobbled Deepslate', 'Cobbled Deepslate']]",
+    Tuff Stairs or Polished Tuff Stairs or Tuff Brick Stairs,Tuff or Polished Tuff or Tuff Bricks,"[['Tuff', None, None], ['Tuff', 'Tuff', None], ['Tuff', 'Tuff', 'Tuff']]",‌ [ upcoming: JE 1.21 & BE 1.21.0 ]
+    Brick Stairs,Bricks,"[['Bricks', None, None], ['Bricks', 'Bricks', None], ['Bricks', 'Bricks', 'Bricks']]",
+    Mud Brick Stairs,Mud Bricks,"[['Mud Bricks', None, None], ['Mud Bricks', 'Mud Bricks', None], ['Mud Bricks', 'Mud Bricks', 'Mud Bricks']]",
+    Sandstone Stairs or Smooth Sandstone Stairs,Sandstone or Smooth Sandstone,"[['Sandstone', None, None], ['Sandstone', 'Sandstone', None], ['Sandstone', 'Sandstone', 'Sandstone']]",
+    Red Sandstone Stairs or Smooth Red Sandstone Stairs,Red Sandstone or Smooth Red Sandstone,"[['Red Sandstone', None, None], ['Red Sandstone', 'Red Sandstone', None], ['Red Sandstone', 'Red Sandstone', 'Red Sandstone']]",
+    Prismarine Stairs or Prismarine Brick Stairs or Dark Prismarine Stairs,Prismarine or Prismarine Bricks or Dark Prismarine,"[['Prismarine', None, None], ['Prismarine', 'Prismarine', None], ['Prismarine', 'Prismarine', 'Prismarine']]",
+    Nether Brick Stairs or Red Nether Brick Stairs,Nether Bricks or Red Nether Bricks,"[['Nether Bricks', None, None], ['Nether Bricks', 'Nether Bricks', None], ['Nether Bricks', 'Nether Bricks', 'Nether Bricks']]",
+    Blackstone Stairs or Polished Blackstone Stairs or Polished Blackstone Brick Stairs,Blackstone or Polished Blackstone or Polished Blackstone Bricks,"[['Blackstone', None, None], ['Blackstone', 'Blackstone', None], ['Blackstone', 'Blackstone', 'Blackstone']]",
+    End Stone Brick Stairs,End Stone Bricks,"[['End Stone Bricks', None, None], ['End Stone Bricks', 'End Stone Bricks', None], ['End Stone Bricks', 'End Stone Bricks', 'End Stone Bricks']]",
+    Purpur Stairs,Any Purpur Block,"[['Purpur Block', None, None], ['Purpur Block', 'Purpur Block', None], ['Purpur Block', 'Purpur Block', 'Purpur Block']]",
+    Quartz Stairs,Any Quartz Block,"[['Block of Quartz', None, None], ['Block of Quartz', 'Block of Quartz', None], ['Block of Quartz', 'Block of Quartz', 'Block of Quartz']]",
+    Smooth Quartz Stairs,Smooth Quartz Block,"[['Smooth Quartz Block', None, None], ['Smooth Quartz Block', 'Smooth Quartz Block', None], ['Smooth Quartz Block', 'Smooth Quartz Block', 'Smooth Quartz Block']]",
+    Unwaxed Cut Copper Stairs,Matching Unwaxed Cut Copper,"[['Cut Copper', None, None], ['Cut Copper', 'Cut Copper', None], ['Cut Copper', 'Cut Copper', 'Cut Copper']]",
+    Waxed Cut Copper Stairs,Matching Waxed Cut Copper,"[['Waxed Cut Copper', None, None], ['Waxed Cut Copper', 'Waxed Cut Copper', None], ['Waxed Cut Copper', 'Waxed Cut Copper', 'Waxed Cut Copper']]",
+    Waxed Cut Copper Stairs,Matching Unwaxed Cut Copper Stairs + Honeycomb,"[[None, None, None], ['Cut Copper Stairs', 'Honeycomb', None], [None, None, None]]",
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Stone Stairs,Stone,
+    Cobblestone Stairs or Mossy Cobblestone Stairs,Cobblestone or Mossy Cobblestone,
+    Stone Brick Stairs or Mossy Stone Brick Stairs,Stone or Stone Bricks or Mossy Stone Bricks,
+    Granite Stairs or Polished Granite Stairs,Granite or Polished Granite,
+    Diorite Stairs or Polished Diorite Stairs,Diorite or Polished Diorite,
+    Andesite Stairs or Polished Andesite Stairs,Andesite or Polished Andesite,
+    Cobbled Deepslate Stairs or Polished Deepslate Stairs or Deepslate Brick Stairs or Deepslate Tile Stairs,Cobbled Deepslate or Polished Deepslate or Deepslate Bricks or Deepslate Tiles,
+    Tuff Stairs or Polished Tuff Stairs or Tuff Brick Stairs,Tuff or Polished Tuff or Tuff Bricks,
+    Brick Stairs,Bricks,
+    Mud Brick Stairs,Mud Bricks,
+    Sandstone Stairs or Smooth Sandstone Stairs,Sandstone or Smooth Sandstone,
+    Red Sandstone Stairs or Smooth Red Sandstone Stairs,Red Sandstone or Smooth Red Sandstone,
+    Prismarine Stairs or Prismarine Brick Stairs or Dark Prismarine Stairs,Prismarine or Prismarine Bricks or Dark Prismarine,
+    Nether Brick Stairs or Red Nether Brick Stairs,Nether Bricks or Red Nether Bricks,
+    Blackstone Stairs or Polished Blackstone Stairs or Polished Blackstone Brick Stairs,Blackstone or Polished Blackstone or Polished Blackstone Bricks,
+    End Stone Brick Stairs,End Stone or End Stone Bricks,
+    Purpur Stairs,Purpur Block,
+    Quartz Stairs or Smooth Quartz Stairs,Block of Quartz or Smooth Quartz,
+    Cut Copper Stairs,Matching Block of Copper,4 4 4 4 4 4 4 4
+    Cut Copper Stairs,Matching Cut Copper,
+
+Usage
+  Placement
+    To place stairs, use a stairs item while pointing at a surface facing the space the stairs should occupy. When placed, a stair orients itself with the half-block side closest to the player. Stairs can be placed either right side up or upside-down: Stairs change their shape to join with adjacent stairs (of any material): Right side up stairs do not join with upside-down stairs and vice versa.
+
+  Walking
+    Walking up stairs is faster than jumping up the same distance. Walking up a stairway doesn't cost any exhaustion from the player's hunger bar, compared to 0.2 exhaustion per jump. Therefore, walking up stairs doesn't make the player hungry at all.
+
+  Behavior
+    Generally, the solid faces of stairs are handled as solid blocks. Due to this, transparent blocks that need to placed on an opaque surface can be placed on these faces.
+
+  Fuel
+    Overworld wooden stairs can be used as fuel in furnaces, smelting 1.5 items per block.
+
+  Note blocks
+    Wooden stairs can be placed under note blocks to produce "bass" sounds. Stone stairs can be placed under note blocks to produce "bass drum" sounds.
+

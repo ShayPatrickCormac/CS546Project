@@ -1,0 +1,137 @@
+Overview
+    A log or stem is a naturally occurring block found in trees or huge fungi, primarily used as a building block, and to create planks, a versatile crafting ingredient. It comes in ten types: oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry blossom, crimson and warped. A stripped log or stripped stem is a variant obtained by using an axe on a log or a stem respectively. Once stripped, it cannot be reversed.
+
+Obtaining
+  Breaking
+    Logs and stems can be broken by hand, but using an axe speeds up the process. Logs and stems drop themselves when broken with any tool.
+
+    Block,Log Stripped Log Stem Stripped Stem
+    Hardness,2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,3
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Logs generate naturally as part of trees. Especially, a jungle log generate for each jungle bush. Stems generate naturally as part of huge fungi. Oak Spruce Acacia Dark oak Mixed
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Oak Log,Bonus chest,Chest,1–3,"26.2% { ""item"": ""Oak Log"", ""stacksize"": ""1–3"", ""chance"": 0.26209753761906973, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Oak Log,Bonus chest,Chest,1–3,"25% { ""item"": ""Oak Log"", ""stacksize"": ""1–3"", ""chance"": 0.25, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Birch Log,Bonus chest,Chest,1–3,"26.2% { ""item"": ""Birch Log"", ""stacksize"": ""1–3"", ""chance"": 0.26209753761906973, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Birch Log,Bonus chest,Chest,1–3,"25% { ""item"": ""Birch Log"", ""stacksize"": ""1–3"", ""chance"": 0.25, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Spruce Log,Bonus chest,Chest,1–3,"26.2% { ""item"": ""Spruce Log"", ""stacksize"": ""1–3"", ""chance"": 0.26209753761906973, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Village,Taiga house chest,1–5,"65.6% { ""item"": ""Spruce Log"", ""stacksize"": ""1–5"", ""chance"": 0.6556091848091459, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Bedrock Edition
+    Spruce Log,Bonus chest,Chest,1–3,"25% { ""item"": ""Spruce Log"", ""stacksize"": ""1–3"", ""chance"": 0.25, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Village,Taiga house chest,1–5,"69.3% { ""item"": ""Spruce Log"", ""stacksize"": ""1–5"", ""chance"": 0.6929135530018191, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Jungle Log,Bonus chest,Chest,1–3,"26.2% { ""item"": ""Jungle Log"", ""stacksize"": ""1–3"", ""chance"": 0.26209753761906973, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Jungle Log,Bonus chest,Chest,1–3,"25% { ""item"": ""Jungle Log"", ""stacksize"": ""1–3"", ""chance"": 0.25, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Acacia Log,Bonus chest,Chest,1–3,"26.2% { ""item"": ""Acacia Log"", ""stacksize"": ""1–3"", ""chance"": 0.26209753761906973, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Acacia Log,Bonus chest,Chest,1–3,"50% { ""item"": ""Acacia Log"", ""stacksize"": ""1–3"", ""chance"": 0.5, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Dark Oak Log,Bonus chest,Chest,1–3,"26.2% { ""item"": ""Dark Oak Log"", ""stacksize"": ""1–3"", ""chance"": 0.26209753761906973, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Pillager Outpost,Chest,2–3,"100% { ""item"": ""Dark Oak Log"", ""stacksize"": ""2–3"", ""chance"": 1, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Dark Oak Log,Bonus chest,Chest,1–3,"50% { ""item"": ""Dark Oak Log"", ""stacksize"": ""1–3"", ""chance"": 0.5, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Pillager Outpost,Chest,2–3,"100% { ""item"": ""Dark Oak Log"", ""stacksize"": ""2–3"", ""chance"": 1, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Mangrove Log,Bonus chest,Chest,1–3,"26.2% { ""item"": ""Mangrove Log"", ""stacksize"": ""1–3"", ""chance"": 0.26209753761906973, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+
+  Post-generation
+    Trees can also be grown using saplings or azalea and huge fungi can also be grown using small fungi. Using an axe on a log or stem turns it into a stripped log or a stripped stem, which act the same as regular logs.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Campfire,Stick + Coal + Any Log or Stem or Any Stripped Log or Stem,"[[None, 'Stick', None], ['Stick', 'Coal', 'Stick'], ['Oak Log', 'Oak Log', 'Oak Log']]"
+    Campfire,Stick + Charcoal + Any Log or Stem or Any Stripped Log or Stem,"[[None, 'Stick', None], ['Stick', 'Charcoal', 'Stick'], ['Oak Log', 'Oak Log', 'Oak Log']]"
+    Nether Planks,Matching Stem or Matching Stripped Stem,"[[None, None, None], [None, 'Crimson Stem', None], [None, None, None]]"
+    Oak Hanging Sign or Spruce Hanging Sign or Birch Hanging Sign or Jungle Hanging Sign or Acacia Hanging Sign or Dark Oak Hanging Sign or Mangrove Hanging Sign or Cherry Hanging Sign or Crimson Hanging Sign or Warped Hanging Sign,Chain + Matching Stripped Log or Matching Stripped Stem,"[['Chain', None, 'Chain'], ['Stripped Oak Log', 'Stripped Oak Log', 'Stripped Oak Log'], ['Stripped Oak Log', 'Stripped Oak Log', 'Stripped Oak Log']]"
+    Oak Planks or Spruce Planks or Birch Planks or Jungle Planks or Acacia Planks or Dark Oak Planks or Mangrove Planks or Cherry Planks,Matching Log or Matching Stripped Log,"[[None, None, None], [None, 'Oak Log', None], [None, None, None]]"
+    Smoker,Any Log or Stem or Any Stripped Log or Stem + Furnace,"[[None, 'Oak Log', None], ['Oak Log', 'Furnace', 'Oak Log'], [None, 'Oak Log', None]]"
+    Soul Campfire,Stick + Soul Soil + Any Log or Stem or Any Stripped Log or Stem,"[[None, 'Stick', None], ['Stick', 'Soul Soil', 'Stick'], ['Oak Log', 'Oak Log', 'Oak Log']]"
+    Soul Campfire,Stick + Soul Sand + Any Log or Stem or Any Stripped Log or Stem,"[[None, 'Stick', None], ['Stick', 'Soul Sand', 'Stick'], ['Oak Log', 'Oak Log', 'Oak Log']]"
+    Stripped Wood or Stripped Hyphae,Matching Stripped Log or Matching Stripped Stem,"[['Stripped Oak Log', 'Stripped Oak Log', None], ['Stripped Oak Log', 'Stripped Oak Log', None], [None, None, None]]"
+    Wood or Hyphae,Matching Log or Matching Stem,"[['Oak Log', 'Oak Log', None], ['Oak Log', 'Oak Log', None], [None, None, None]]"
+
+    The following table presents the amount of logs or stems needed to produce an even multiple of a given item with no waste left over, and the quantity produced:
+
+    Product,Number of logs or stems needed so that there are no redundant planks/sticks/... after crafting,Product amount after crafting,Ratio between the product amount and the number of logs or stems needed
+    Wood,4,3,75%
+    Hyphae,4,3,75%
+    Stripped Log,1 [note 1],1,100%
+    Stripped Stem,1 [note 1],1,100%
+    Stripped Wood,4 [note 1],3,75%
+    Stripped Hyphae,4 [note 1],3,75%
+    Chiseled Bookshelf,15,8,53.33%
+    Boat (JE),5,4,80%
+    Boat (BE),7,4,57.14%
+    Boat with Chest (JE),13,4,30.76%
+    Boat with Chest (BE),15,4,26.66%
+    Bowl,3,16,533.33%
+    Button,1,4,400%
+    Campfire,"27 crafted, 8 cooked [note 2]",8,22.86%
+    Charcoal,"0 crafted, 1 cooked [note 2] [note 3]",1,100%
+    Chest,2,1,50%
+    Barrel,21,12,57.14%
+    Crafting Table,1,1,100%
+    Composter,21,24,114.28%
+    Door,3,6,200%
+    Fence,5,12,240%
+    Fence Gate,1,1,100%
+    Ladder,7,24,342.86%
+    Sign,13,24,184.62%
+    Stick,1,8,800%
+    Torch,"1 crafted, 8 cooked [note 2]",32,355.56%
+    Planks,1 [note 4],4,400%
+    Wooden Axe,2 [note 5],2,100%
+    Wooden Hoe,3,4,133.33%
+    Wooden Pickaxe,2 [note 5],2,100%
+    Wooden Pressure Plate,1,2,200%
+    Wooden Shovel,1,2,200%
+    Wooden Slab,3,24,800%
+    Wooden Stairs,3,8,266.67%
+    Wooden Sword,5,8,160%
+    Wooden Trapdoor,3,4,133.33%
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Charcoal,Any Log or Any Stripped Log + Any fuel,0.15
+
+  Fuel
+    Logs, but not stems, can be used as a fuel in furnaces, smelting 1.5 items per block.
+
+  Cocoa beans
+    Cocoa beans can be placed on the side of both jungle logs and stripped jungle logs to grow a new cocoa pod.
+
+  Note blocks
+    Logs and stems can be placed under note blocks to produce "bass" sounds.
+

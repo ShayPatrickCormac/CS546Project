@@ -1,0 +1,56 @@
+Overview
+    Lapis lazuli ore is the ore block from which lapis lazuli is obtained. Deepslate lapis lazuli ore is a variant of lapis lazuli ore that generates in deepslate layers.
+
+Obtaining
+  Breaking
+    Lapis lazuli ore can be mined with a stone pickaxe or higher. To obtain the block itself, the player must use Silk Touch; otherwise, the block drops 4–9 lapis lazuli. When mined with a Fortune enchanted pickaxe, there is a chance for the drops to be multiplied by between 2 and the level plus 1, up to a maximum of 2 to 4 at level III (for a maximum of 36 lapis lazuli dropped). This means at Fortune III there is a chance to get a minimum of 4 lapis lazuli or 36 lapis lazuli. See the chart "The drops per fortune level are as follows:" below.
+
+    Block,Lapis Lazuli Ore,Deepslate Lapis Lazuli Ore
+    Hardness,3,4.5
+    Tool,stone pickaxe,stone pickaxe
+    Breaking time (sec) [A]
+    Default,15,22.5
+    Wooden,7.5,11.25
+    Stone,1.15,1.7
+    Iron,0.75,1.15
+    Diamond,0.6,0.85
+    Netherite,0.5,0.75
+    Golden,1.25,1.9
+
+    The drops per fortune level are as follows:
+
+    Drops/Fortune level,0,1,2,3
+    4,1 ⁄ 6,1 ⁄ 9,1 ⁄ 12,1 ⁄ 15
+    5,1 ⁄ 6,1 ⁄ 9,1 ⁄ 12,1 ⁄ 15
+    6,1 ⁄ 6,1 ⁄ 9,1 ⁄ 12,1 ⁄ 15
+    7,1 ⁄ 6,1 ⁄ 9,1 ⁄ 12,1 ⁄ 15
+    8,1 ⁄ 6,1 ⁄ 6,1 ⁄ 8,1 ⁄ 10
+    9,1 ⁄ 6,1 ⁄ 9,1 ⁄ 12,1 ⁄ 15
+    10,0,1 ⁄ 18,1 ⁄ 24,1 ⁄ 30
+    12,0,1 ⁄ 18,1 ⁄ 12,1 ⁄ 15
+    14,0,1 ⁄ 18,1 ⁄ 24,1 ⁄ 30
+    15,0,0,1 ⁄ 24,1 ⁄ 30
+    16,0,1 ⁄ 18,1 ⁄ 24,1 ⁄ 15
+    18,0,1 ⁄ 18,1 ⁄ 12,1 ⁄ 15
+    20,0,0,0,1 ⁄ 30
+    21,0,0,1 ⁄ 24,1 ⁄ 30
+    24,0,0,1 ⁄ 24,1 ⁄ 15
+    27,0,0,1 ⁄ 24,1 ⁄ 30
+    28,0,0,0,1 ⁄ 30
+    32,0,0,0,1 ⁄ 30
+    36,0,0,0,1 ⁄ 30
+    Average,6 1 ⁄ 2,8 2 ⁄ 3,11 3 ⁄ 8,14 3 ⁄ 10
+
+    Lapis ore also drops 2–5 when broken without Fortune.
+
+  Natural generation
+    Lapis lazuli ore generates in the Overworld in the form of ore features. It generates in two batches per chunk: Lapis lazuli ore can replace stone, andesite, diorite, granite, polished andesite‌‌[BE  only], polished diorite‌‌[BE  only], polished granite‌‌[BE  only], tuff‌[JE  only], and deepslate. Any lapis lazuli ore that replaces tuff or deepslate becomes deepslate variant.
+
+Usage
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Lapis Lazuli,Lapis Lazuli Ore or Deepslate Lapis Lazuli Ore + Any fuel,0.2
+
+  Note Blocks
+    Lapis lazuli ore can be placed under note blocks to produce "bass drum" sounds.
+

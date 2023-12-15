@@ -1,0 +1,16 @@
+Overview
+    This is a simple startup-script for the upstart mechanism used by ubuntu-servers. It won't give you a console, which isn't considered a problem since there's an in game console anyway. It also doesn't update Minecraft. Note: It's working fine in Ubuntu 14. Further note: This configuration syntax is for the "upstart" process management system. Since 15.04, Ubuntu has moved to systemd, so you may need to explore other, systemd based options on newer Ubuntu installs. An example is below.
+
+Prerequisites
+    Set up a user and group for minecraft so that it doesn't run as root Hand your server-installation over to your new user, for example, in /srv/minecraft-server Create and edit the start/stop script creating a new file under /etc/init/minecraft-server (NOT /etc/init.d but /etc/init (without the .d) ) make sure that you save the file as minecraft-server.conf and pasting the following into it. Don't forget to change the directory after "chdir" to your installation. Above Explained (Note, this script isn't usable.): Following step does not work since depcrication of upstart in ubuntu 16+ Now, install the start/stop to the default runlevels by running If you get an error saying the file does not exist, try moving the minecraft-server file to /etc/init.d/
+Also, if after running sudo start minecraft-server says that they is no job for it, try running "sudo /etc/init.d/minecraft-server start"
+
+Usage
+    To start the server to stop the server
+
+Troubles?
+    You can check the server log by using: If that doesn't help, just contact me: User:Cel1ne
+
+With systemd
+    In this example, the player has created a user, as shown by Cel1ne. After : inside : To enable the service : To start the service: View the status ("q" to go out of the view): If you would like to interact with the server from your keyboard, you may use an alternative service configuration like this: If you have changed the service file, you should issue the command to update the system.
+

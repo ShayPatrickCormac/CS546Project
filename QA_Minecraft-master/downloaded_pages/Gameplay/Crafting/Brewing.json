@@ -1,0 +1,189 @@
+[
+    {
+        "names": [
+            "Blaze Powder"
+        ],
+        "ingredients": [
+            "Blaze Rod"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Blaze Rod",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Magma Cream"
+        ],
+        "ingredients": [
+            "Blaze Powder",
+            "Slimeball"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Blaze Powder",
+                "Slimeball",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Fermented Spider Eye"
+        ],
+        "ingredients": [
+            "Brown Mushroom",
+            "Sugar",
+            "Spider Eye"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Brown Mushroom",
+                "Sugar",
+                null
+            ],
+            [
+                null,
+                "Spider Eye",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Glistering Melon Slice"
+        ],
+        "ingredients": [
+            "Gold Nugget",
+            "Melon Slice"
+        ],
+        "sample pattern": [
+            [
+                "Gold Nugget",
+                "Gold Nugget",
+                "Gold Nugget"
+            ],
+            [
+                "Gold Nugget",
+                "Melon Slice",
+                "Gold Nugget"
+            ],
+            [
+                "Gold Nugget",
+                "Gold Nugget",
+                "Gold Nugget"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Glass Bottle"
+        ],
+        "ingredients": [
+            "Glass"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Glass",
+                null,
+                "Glass"
+            ],
+            [
+                null,
+                "Glass",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Brewing Stand"
+        ],
+        "ingredients": [
+            "Blaze Rod",
+            "stone-tier block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Blaze Rod",
+                null
+            ],
+            [
+                "Cobblestone",
+                "Cobblestone",
+                "Cobblestone"
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": "Can use cobblestone and its other variants interchangeably."
+    },
+    {
+        "names": [
+            "Cauldron"
+        ],
+        "ingredients": [
+            "Iron Ingot"
+        ],
+        "sample pattern": [
+            [
+                "Iron Ingot",
+                null,
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                null,
+                "Iron Ingot"
+            ],
+            [
+                "Iron Ingot",
+                "Iron Ingot",
+                "Iron Ingot"
+            ]
+        ],
+        "description": ""
+    }
+]

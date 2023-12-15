@@ -1,0 +1,151 @@
+Overview
+    Emeralds are rare minerals that are used primarily as the currency for trading with villagers and wandering traders. Naturally-occurring emeralds are rarer than diamonds.
+
+Obtaining
+  Mining
+    Emerald ore drops one emerald when mined using an iron or better pickaxe. If the pickaxe is enchanted with Fortune, it may drop an extra emerald per level of Fortune, up to a maximum of 4 emeralds with Fortune III. If the ore is mined using a pickaxe enchanted with Silk Touch, it drops itself in ore form instead of an emerald.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Block of Emerald,"[[None, None, None], [None, 'Block of Emerald', None], [None, None, None]]"
+
+  Smelting
+    Ingredients,Smelting recipe
+    Emerald Ore or Deepslate Emerald Ore + Any fuel,1
+
+  Trading
+    Emeralds can be obtained by trading with villagers, since they are the currency that villagers use for trading. Villagers either buy or sell specific goods for emeralds.
+
+  Mob loot
+    Vindicators and evokers drop 0–1 emeralds upon death. Looting increases the maximum emerald drop by one per level, for a maximum of 4 emeralds with Looting III. Foxes that are holding emeralds also have a chance of 100% to drop the emerald they are holding upon death. Alternatively, the player can drop a food item to entice the fox to drop the emerald without killing it. In Bedrock Edition, vindicators and pillagers spawned from raids can drop 0–1 emeralds. Depending on difficulty, vindicators and pillagers spawned from raids also have a chance of dropping additional emeralds. There is a 65% chance of dropping on easy and normal, and an 80% chance of dropping on hard. If this additional drop condition is met, different emerald counts can drop with different chances. There is a 10⁄39 chance to drop an additional 0–1 emeralds, a 5⁄39 chance to drop an additional 2–3, and a 2⁄39 chance to drop an additional 4–5. In Bedrock Edition, with Looting III, it is possible for a vindicator in a raid to drop up to 16 emeralds upon death (vindicator drops + raid drops + an additional drop).
+
+  Chest loot
+    Emeralds can generate in chests in some village houses or other generated structures.
+
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Emerald,Buried treasure,Chest,4–8,"59.9% { ""item"": ""Emerald"", ""stacksize"": ""4–8"", ""chance"": 0.5987654320987654, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Chest,1–3,"18% { ""item"": ""Emerald"", ""stacksize"": ""1–3"", ""chance"": 0.18047585032339075, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Desert well,Suspicious sand,1,"12.5% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    End city,Chest,2–6,"9% { ""item"": ""Emerald"", ""stacksize"": ""2–6"", ""chance"": 0.0903321239024858, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Igloo,Chest,1,"7.6% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.07641250360396157, ""structure"": ""Igloo"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1–3,"8.7% { ""item"": ""Emerald"", ""stacksize"": ""1–3"", ""chance"": 0.08737445137874711, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Warm Ocean ruins,Warm ruins suspicious sand,1,"13.3% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Shipwreck,Treasure chest,1–5,"73.7% { ""item"": ""Emerald"", ""stacksize"": ""1–5"", ""chance"": 0.7372032702331961, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Trail ruins,Suspicious gravel,1,"4.4% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.0444444444444444, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Underwater ruins,Big ruins chest,1,"14.9% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.14938846197131306, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Small ruins chest,1,"16.4% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.16405667897165044, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Village,Shepherd's chest,1,"12.3% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.12311565744709374, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Desert house chest,1–3,"14.3% { ""item"": ""Emerald"", ""stacksize"": ""1–3"", ""chance"": 0.14254173828500694, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+    Butcher's chest,1,"10.2% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.10217553744347596, ""structure"": ""Village"", ""container"": ""Butcher's chest"" }"
+    Armorer's chest,1,"31.8% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Armorer's chest"" }"
+    Fisherman's chest,1,"24.2% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.2418426461183103, ""structure"": ""Village"", ""container"": ""Fisherman's chest"" }"
+    Tanner's chest,1–4,"17.3% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.17258930206298828, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+    Plains house chest,1–4,"22.8% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.22790559614142292, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Taiga house chest,1–4,"18.6% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.18575629348123335, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Temple chest,1–4,"25.4% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.25406025971014023, ""structure"": ""Village"", ""container"": ""Temple chest"" }"
+    Fletcher's chest,1,"12.3% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.12311565744709374, ""structure"": ""Village"", ""container"": ""Fletcher's chest"" }"
+    Snowy house chest,1–4,"9.9% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.0989873657501581, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Savanna house chest,1–4,"21.5% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.21463353884117242, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Mason's chest,1,"20.8% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.20842461344544605, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+    Upcoming Java Edition
+    Emerald,Trial Chambers,Reward chest,2–6,"13.9% { ""item"": ""Emerald"", ""stacksize"": ""2–6"", ""chance"": 0.1385304282494364, ""structure"": ""Trial Chambers"", ""container"": ""Reward chest"" }"
+    Corridor pot,1–8,"18.1% { ""item"": ""Emerald"", ""stacksize"": ""1–8"", ""chance"": 0.1814882032667876, ""structure"": ""Trial Chambers"", ""container"": ""Corridor pot"" }"
+    Trial spawner,1–6,"11.5% { ""item"": ""Emerald"", ""stacksize"": ""1–6"", ""chance"": 0.11538461538461542, ""structure"": ""Trial Chambers"", ""container"": ""Trial spawner"" }"
+    Bedrock Edition
+    Emerald,Desert temple,Suspicious sand,1,"12.5% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert temple"", ""container"": ""Suspicious sand"" }"
+    Chest,1–3,"18% { ""item"": ""Emerald"", ""stacksize"": ""1–3"", ""chance"": 0.18047585032339075, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Desert well,Suspicious sand,1,"12.5% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.125, ""structure"": ""Desert well"", ""container"": ""Suspicious sand"" }"
+    End city,Chest,2–6,"9% { ""item"": ""Emerald"", ""stacksize"": ""2–6"", ""chance"": 0.0903321239024858, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Igloo,Chest,1,"7.6% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.07641250360396157, ""structure"": ""Igloo"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,1–3,"8.7% { ""item"": ""Emerald"", ""stacksize"": ""1–3"", ""chance"": 0.08718413975417527, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Cold Ocean ruins,Cold ruins suspicious gravel,1,"13.3% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Cold Ocean ruins"", ""container"": ""Cold ruins suspicious gravel"" }"
+    Warm ruins suspicious sand,1,"13.3% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.1333333333333333, ""structure"": ""Warm Ocean ruins"", ""container"": ""Warm ruins suspicious sand"" }"
+    Shipwreck,Treasure chest,1–5,"73.7% { ""item"": ""Emerald"", ""stacksize"": ""1–5"", ""chance"": 0.7372032702331961, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Stronghold,Altar chest,1–3,"7.1% { ""item"": ""Emerald"", ""stacksize"": ""1–3"", ""chance"": 0.07099659856993723, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Trail ruins,Suspicious gravel,1,"4.3% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.04347826086956519, ""structure"": ""Trail ruins"", ""container"": ""Suspicious gravel"" }"
+    Underwater ruins,Big ruins chest,1,"14.9% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.14938846197131306, ""structure"": ""Underwater ruins"", ""container"": ""Big ruins chest"" }"
+    Small ruins chest,1,"16.4% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.16405667897165044, ""structure"": ""Underwater ruins"", ""container"": ""Small ruins chest"" }"
+    Village,Plains house chest,1–4,"22.8% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.22790559614142292, ""structure"": ""Village"", ""container"": ""Plains house chest"" }"
+    Snowy house chest,1–4,"9.9% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.0989873657501581, ""structure"": ""Village"", ""container"": ""Snowy house chest"" }"
+    Temple chest,1–4,"25.4% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.25406025971014023, ""structure"": ""Village"", ""container"": ""Temple chest"" }"
+    Savanna house chest,1–4,"21.5% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.21463353884117242, ""structure"": ""Village"", ""container"": ""Savanna house chest"" }"
+    Taiga house chest,1–4,"20.3% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.20281509304744794, ""structure"": ""Village"", ""container"": ""Taiga house chest"" }"
+    Mason's chest,1,"20.8% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.20842461344544605, ""structure"": ""Village"", ""container"": ""Mason's chest"" }"
+    Armorer's chest,1,"31.8% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.31807250976562496, ""structure"": ""Village"", ""container"": ""Armorer's chest"" }"
+    Desert house chest,1–3,"14.3% { ""item"": ""Emerald"", ""stacksize"": ""1–3"", ""chance"": 0.14254173828500694, ""structure"": ""Village"", ""container"": ""Desert house chest"" }"
+    Shepherd's chest,1,"12.3% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.12311565744709374, ""structure"": ""Village"", ""container"": ""Shepherd's chest"" }"
+    Fletcher's chest,1,"12.3% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.12311565744709374, ""structure"": ""Village"", ""container"": ""Fletcher's chest"" }"
+    Butcher's chest,1,"10.2% { ""item"": ""Emerald"", ""stacksize"": 1, ""chance"": 0.10217553744347596, ""structure"": ""Village"", ""container"": ""Butcher's chest"" }"
+    Tanner's chest,1–4,"17.3% { ""item"": ""Emerald"", ""stacksize"": ""1–4"", ""chance"": 0.17258930206298828, ""structure"": ""Village"", ""container"": ""Tanner's chest"" }"
+
+Usage
+  Trading
+    Emeralds are primarily used as currency for trading with villagers and wandering traders. Trading is typically a faster way to obtain emeralds than by mining, as an emerald ore is rarer than a diamond ore.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Block of Emerald,Emerald,"[['', '', ''], ['', '', ''], ['', '', '']]"
+
+  Beacons
+    Emeralds can be used to select powers from a beacon. The player must select one of the available powers and then insert an emerald into the item slot. An emerald can be substituted for an iron ingot, a gold ingot, a diamond or a netherite ingot in a beacon.
+
+  Smithing ingredient
+    Ingredients,Smithing recipe,Description
+    Any Armor Trim + Any Armor Piece + Emerald,Upgrade Gear,"All armor types can be used in this recipe, a netherite chestplate is shown as an example."
+
+    Trim color palette The following color palette is shown on the designs on trimmed armor:
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    the haggler,the haggler,"The Haggler { ""anchor"": """", ""title"": ""The Haggler"", ""icon"": """", ""title"": ""The Haggler"", ""description"": ""Acquire or spend 30 Emeralds by trading with villagers or with [[wandering trader]]. [''[[Wikipedia:Sic|sic]]'']
+ "", ""requirements"": ""
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Emerald Suit Coat"" outerwear
+"" }",Acquire or spend 30 Emeralds by trading with villagers or with wandering trader . [ sic ],—,30G,Silver
+    buy low sell high,buy low sell high,"Buy Low, Sell High { ""anchor"": """", ""title"": ""Buy Low, Sell High"", ""icon"": ""buy-low-sell-high"", ""title"": ""Buy Low, Sell High"", ""description"": ""Trade for the best possible price.
+ "", ""requirements"": ""Buy something for 1 emerald, or when the [[Hero of the Village]] effect is applied.
+ "", ""gamerscore"": ""50G
+ "", ""trophytype"": ""Gold
+ "", ""rewards"": """"Gold Club Jacket"" outerwear
+"" }",Trade for the best possible price.,"Buy something for 1 emerald, or when the Hero of the Village effect is applied.",50G,Gold
+    master trader,master trader,"Master Trader { ""anchor"": """", ""title"": ""Master Trader"", ""icon"": """", ""title"": ""Master Trader"", ""description"": ""Trade for 1,000 emeralds.
+ "", ""requirements"": ""Obtain 1,000 emeralds from trading with villagers.
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Emerald Headwrap"" headwear
+"" }","Trade for 1,000 emeralds.","Obtain 1,000 emeralds from trading with villagers.",30G,Silver
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,What a Deal!,Successfully trade with a Villager,Adventure,"Take an item from a villager or wandering trader 's trading output slot, and put it in your inventory.","adventure/trade {""anchor"": """", ""title"": ""What a Deal!"", ""icon"": ""Emerald
+"", ""icon-style"": ""plain"", ""title"": ""What a Deal!"", ""description"": ""Successfully trade with a Villager
+"", ""parent"": ""Adventure
+"", ""requirements"": ""Take an item from a [[villager]] or [[wandering trader]]'s [[trading]] output slot, and put it in your inventory.
+"", ""resourcelocation"": ""adventure/trade
+"", ""rewards"": ""—
+"" }"
+    ,Star Trader,Trade with a Villager at the build height limit,What a Deal!,Stand on any block that is higher than 318 and trade with a villager or wandering trader .,"adventure/trade_at_world_height {""anchor"": """", ""title"": ""Star Trader"", ""icon"": ""Emerald
+"", ""icon-style"": ""plain"", ""title"": ""Star Trader"", ""description"": ""Trade with a Villager at the build height limit
+"", ""parent"": ""What a Deal!
+"", ""requirements"": ""Stand on any block that is higher than 318 and trade with a [[villager]] or [[wandering trader]].
+"", ""resourcelocation"": ""adventure/trade_at_world_height
+"", ""rewards"": ""—
+"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Item tags,Translation key
+    Emerald,emerald,Item,beacon_payment_items,item.minecraft.emerald
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Emerald,emerald,512,Item,item.emerald.name
+

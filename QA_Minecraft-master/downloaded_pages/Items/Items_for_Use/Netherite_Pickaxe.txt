@@ -1,0 +1,65 @@
+Overview
+    A netherite pickaxe has a mining level of 4 and has the highest durability of any pickaxe. It is crafted by using a netherite upgrade, diamond pickaxe, and netherite ingot together on a smithing table, giving one netherite pickaxe.
+
+Obtaining
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Damaged Netherite Pickaxes,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two pickaxes is added together, plus an extra 5% durability."
+
+  Upgrading
+    Like other diamond tools, a diamond pickaxe can be upgraded to a netherite pickaxe, increasing its durability and slightly increasing its mining speed, as well as granting resistance to fire and lava when dropped as an item. The upgraded pickaxe will keep its enchantments, name and other item data.
+
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Pickaxe + Netherite Ingot,Upgrade Gear
+
+  Repairing
+    Ingredients,Grinding recipe
+    Damaged Netherite Pickaxes,
+
+    Netherite pickaxes can be repaired in an anvil by adding netherite ingots, with each ingot restoring 25% of the pickaxe's maximum durability, rounded down.
+
+Usage
+  Mining
+    A netherite pickaxe is used to break stone and metal-based materials faster. Breaking a block with a netherite pickaxe consumes one use (one durability point). No durability is consumed for blocks that have a hardness value of 0, such as torches and flowers.
+
+  Weapon
+    All pickaxes have an attack speed modifier of -2.8, meaning they take about 0.83 seconds to recover. Netherite pickaxes do 6 damage per attack, or 7.2 damage per second. All pickaxes attack instantly, with netherite pickaxes doing 7 damage per attack.
+
+  Enchantments
+    A netherite pickaxe can receive the following enchantments:
+
+    Name,Description,Max Level,Method,Weight
+    Efficiency,Increases the mining speed.,V,,10
+    Fortune [note 1],Increases the amount of drops when mining.,III,,2
+    Silk Touch [note 1],Causes blocks to drop themselves when mined.,I,,1
+    Unbreaking,Grants a chance to negate durability consumption.,III,,5
+    Mending,Repairs the pickaxe when obtaining experience .,I,,2
+    Curse of Vanishing,"The pickaxe vanishes on death, not dropping as an item.",I,,1
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Netherite Pickaxe,netherite_pickaxe,Item,item.minecraft.netherite_pickaxe
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Netherite Pickaxe,netherite_pickaxe,606,Item,item.netherite_pickaxe.name
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    time to mine,time to mine,"Time to Mine! { ""anchor"": """", ""title"": ""Time to Mine!"", ""icon"": """", ""title"": ""Time to Mine!"", ""description"": ""Use planks and sticks to make a pickaxe.
+ "", ""requirements"": ""Pick up any type of [[pickaxe]] from a [[crafting table]] output.
+ "", ""gamerscore"": ""10G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Miner Headband"" headwear
+"" }",Use planks and sticks to make a pickaxe.,Pick up any type of pickaxe from a crafting table output.,10G,Bronze
+    moar tools,moar tools,"MOAR Tools { ""anchor"": """", ""title"": ""MOAR Tools"", ""icon"": """", ""title"": ""MOAR Tools"", ""description"": ""Construct one type of each tool.
+ "", ""requirements"": ""Construct one [[pickaxe]], one [[shovel]], one [[axe]], and one [[hoe]] with the same material.
+ "", ""gamerscore"": ""15G
+ "", ""trophytype"": ""Bronze
+"", ""rewards"": """" }",Construct one type of each tool.,"Construct one pickaxe , one shovel , one axe , and one hoe with the same material.",15G,Bronze
+

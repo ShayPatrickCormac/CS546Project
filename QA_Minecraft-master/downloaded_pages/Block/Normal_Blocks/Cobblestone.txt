@@ -1,0 +1,69 @@
+Overview
+    Cobblestone is a common block, obtained from mining stone. It is mainly used for crafting or as a building block.
+
+Obtaining
+  Breaking
+    Cobblestone can be mined using a pickaxe, in which case it drops itself. If mined without a pickaxe, it drops nothing. Its hardness is greater than stone so it requires more time to break, especially with anything other than a pickaxe.
+
+    Block,Cobblestone
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+    Cobblestone is dropped by stone when mined without Silk Touch, and also by infested cobblestone when mined with Silk Touch.
+
+  Natural generation
+    Cobblestone occurs naturally in monster rooms, jungle pyramids, pillager outposts, ocean ruins, strongholds, plains, taiga and snowy plains villages, woodland mansions, and trail ruins. In Java Edition, a single block of cobblestone always generates at the coordinates of (8, -61, 8) at the center of the void start platform, in Superflat worlds created with the Void biome preset.
+
+  Post-generation
+    When water and flowing lava come into contact, the flowing lava is replaced by cobblestone. However, if the lava flows on top of the water from above, stone is created instead. Non-flowing lava (a lava source block) turns into obsidian upon contact with water, thus the requirement of flowing lava.
+
+Usage
+    Cobblestone can be used as basic building block, as it has relatively high blast resistance and is extremely common.
+
+  Silverfish
+    Silverfish can enter and hide in cobblestone, creating an infested block.
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Stone,Cobblestone + Any fuel,0.1
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Andesite,Diorite + Cobblestone,"[[None, None, None], ['Diorite', '', None], [None, None, None]]",
+    Brewing Stand,Blaze Rod + Cobblestone,"[[None, 'Blaze Rod', None], ['', '', ''], [None, None, None]]",Can use cobblestone and its other variants interchangeably.
+    Coast Armor Trim Smithing Template,Diamond + Coast Armor Trim + Cobblestone,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', '', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]",
+    Cobblestone Slab,Cobblestone,"[[None, None, None], [None, None, None], ['', '', '']]",
+    Cobblestone Stairs,Cobblestone,"[['', None, None], ['', '', None], ['', '', '']]",
+    Cobblestone Wall,Cobblestone,"[[None, None, None], ['', '', ''], ['', '', '']]",
+    Diorite,Cobblestone + Nether Quartz,"[[None, None, None], ['', 'Nether Quartz', None], ['Nether Quartz', '', None]]",
+    Dispenser,Cobblestone + Bow + Redstone Dust,"[['', '', ''], ['', 'Bow', ''], ['', 'Redstone Dust', '']]",The bow can be of any durability . Enchantments on the bow do not affect the resulting dispenser.
+    Dropper,Cobblestone + Redstone Dust,"[['', '', ''], ['', None, ''], ['', 'Redstone Dust', '']]",
+    Furnace,Cobblestone,"[['', '', ''], ['', None, ''], ['', '', '']]",Can use cobblestone and its other variants interchangeably.
+    Lever,Stick + Cobblestone,"[[None, None, None], [None, 'Stick', None], [None, '', None]]",
+    Mossy Cobblestone,Cobblestone + Vines,"[[None, None, None], ['', 'Vines', None], [None, None, None]]",
+    Mossy Cobblestone,Cobblestone + Moss Block,"[[None, None, None], ['', 'Moss Block', None], [None, None, None]]",
+    Observer,Cobblestone + Redstone Dust + Nether Quartz,"[['', '', ''], ['Redstone Dust', 'Redstone Dust', 'Nether Quartz'], ['', '', '']]",
+    Piston,Any Planks + Cobblestone + Iron Ingot + Redstone Dust,"[['Oak Planks', 'Oak Planks', 'Oak Planks'], ['', 'Iron Ingot', ''], ['', 'Redstone Dust', '']]",
+    Sentry Armor Trim Smithing Template,Diamond + Sentry Armor Trim + Cobblestone,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', '', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]",
+    Stone Axe,Cobblestone + Stick,"[['', '', None], ['', 'Stick', None], [None, 'Stick', None]]",Can use cobblestone and its other variants interchangeably.
+    Stone Hoe,Cobblestone + Stick,"[['', '', None], [None, 'Stick', None], [None, 'Stick', None]]",Can use cobblestone and its other variants interchangeably.
+    Stone Pickaxe,Cobblestone + Stick,"[['', '', ''], [None, 'Stick', None], [None, 'Stick', None]]",Can use cobblestone and its other variants interchangeably.
+    Stone Shovel,Cobblestone + Stick,"[[None, '', None], [None, 'Stick', None], [None, 'Stick', None]]",Can use any variant of cobblestone
+    Stone Sword,Cobblestone + Stick,"[[None, '', None], [None, '', None], [None, 'Stick', None]]",Can use cobblestone and its other variants interchangeably.
+    Vex Armor Trim Smithing Template,Diamond + Vex Armor Trim + Cobblestone,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', '', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]",
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Cobblestone,2
+
+  Repairing
+    Cobblestone is one of the repair items for the stone tier and thus can be used to repair the following items in an anvil:
+

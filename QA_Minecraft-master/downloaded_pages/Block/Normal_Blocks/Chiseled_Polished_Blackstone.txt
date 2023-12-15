@@ -1,0 +1,25 @@
+Overview
+    Chiseled polished blackstone is the chiseled variation of polished blackstone.
+
+Obtaining
+  Breaking
+    Block,Chiseled Polished Blackstone
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Crafting
+    Ingredients,Crafting recipe
+    Polished Blackstone Slab,"[[None, None, None], [None, 'Polished Blackstone Slab', None], [None, 'Polished Blackstone Slab', None]]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Polished Blackstone,
+

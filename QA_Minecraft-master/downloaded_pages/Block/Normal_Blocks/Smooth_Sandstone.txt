@@ -1,0 +1,41 @@
+Overview
+    Smooth sandstone is a variant of sandstone, obtained by smelting.
+
+Obtaining
+  Breaking
+    Smooth sandstone can be mined with any pickaxe. If mined without a pickaxe, the block drops nothing.
+
+    Block,Smooth Sandstone
+    Hardness,2
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,10
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Smooth sandstone generates in desert villages.
+
+  Smelting
+    Ingredients,Smelting recipe
+    Sandstone + Any fuel,0.1
+
+Usage
+    Unlike sand, smooth sandstone is never affected by gravity.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Smooth Sandstone Slab,Smooth Sandstone,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Smooth Sandstone Stairs,Smooth Sandstone,"[['', None, None], ['', '', None], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Smooth Sandstone,2
+
+  Note blocks
+    Smooth sandstone can be placed under note blocks to produce "bass drum" sounds.
+

@@ -1,0 +1,33 @@
+Overview
+    A block of amethyst is a block found in geodes or crafted from amethyst shards. It copies and 'repeats' vibrations recieved by adjacent sculk sensors.
+
+Obtaining
+  Breaking
+    A block of amethyst can be obtained by mining it with any pickaxe. When mined using any other tool, it drops nothing.
+
+    Block,Block of Amethyst
+    Hardness,1.5
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,7.5
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Blocks of amethyst generate naturally on the inner wall of amethyst geodes, with calcite and smooth basalt making up next two outer layers.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Amethyst Shard,"[[None, None, None], ['Amethyst Shard', 'Amethyst Shard', None], ['Amethyst Shard', 'Amethyst Shard', None]]"
+
+Usage
+  Sound
+    Uniquely among other blocks a block of amethyst makes a quiet overlay sound when generally interacted with as well as its block breaking sound when hit with a projectile.
+
+  Vibration resonance
+    When a block of amethyst is placed adjacent to a sculk sensor or a calibrated sculk sensor, if that sculk sensor receives a vibration, the block of amethyst re-emits its frequency as a separate vibration at its location. This vibration can then be detected by another sculk sensor, allowing a chain of sculk sensors and amethyst blocks to be created, transmitting a signal wirelessly.
+

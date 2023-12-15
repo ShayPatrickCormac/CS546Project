@@ -1,0 +1,53 @@
+Overview
+    A carrot is a food item obtained from carrot crops that can be used to plant them, eaten or used as a crafting ingredient. Carrot crops are planted in farmland and used to grow carrots.
+
+Obtaining
+  Breaking
+    Fully grown carrot crops drop 2 to 5 carrots (3 5⁄7 per crop harvested on average). Yield can be increased using a tool enchanted with Fortune, with Fortune III harvesting an average of 5 3⁄7 carrots. The yield is calculated by a binomial distribution: 2 drops are fixed, then a drop is attempted three times with a success rate of 57.14286% to yield the extra 0–3 drops. Each level of Fortune enchantment increases the number of attempts by one.
+
+    Block,Carrots
+    Hardness,0
+    Breaking time (secs)
+    Default,0.05
+
+  Natural generation
+    Village farm plots have a chance of having carrots. The exact chance depends on the style of the village:
+
+    Village style,Chance
+    Plains,30%
+    Snowy,10%
+
+  Mob loot
+    Zombies, husks, and zombie villagers have a 2.5% (1⁄40) chance of dropping either an iron ingot, carrot, or potato when killed by a player or tamed wolf. This is increased by 1% (1⁄100) per level of looting. This gives carrots the following chances of dropping:
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Carrot,Pillager Outpost,Chest,3–5,"57.5% { ""item"": ""Carrot"", ""stacksize"": ""3–5"", ""chance"": 0.5750050885406066, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Supply chest,4–8,"42.1% { ""item"": ""Carrot"", ""stacksize"": ""4–8"", ""chance"": 0.42061090139687074, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+    Bedrock Edition
+    Carrot,Bonus chest,Chest,1–2,"50% { ""item"": ""Carrot"", ""stacksize"": ""1–2"", ""chance"": 0.5, ""structure"": ""Bonus chest"", ""container"": ""Chest"" }"
+    Pillager Outpost,Chest,3–5,"57.5% { ""item"": ""Carrot"", ""stacksize"": ""3–5"", ""chance"": 0.5750050885406066, ""structure"": ""Pillager Outpost"", ""container"": ""Chest"" }"
+    Shipwreck,Supply chest,4–8,"42.1% { ""item"": ""Carrot"", ""stacksize"": ""4–8"", ""chance"": 0.42061090139687074, ""structure"": ""Shipwreck"", ""container"": ""Supply chest"" }"
+
+Usage
+    To eat a carrot, press and hold use while the carrot is selected in the hotbar. Eating a carrot restores 3 () hunger and 3.6 hunger saturation.
+
+  Farming
+    Carrots can be farmed and harvested on farmland. Planted carrots take 8 stages to grow, and go through 4 visually distinct stages. Planted carrots require a light level of 9 or greater to continue growing. If the light level is 7 or below, the crops instantly un-plant themselves ("pop off"). It is not possible to plant carrots if the light level is too low. Crops grow faster if the farmland they are planted in is hydrated. Using bone meal on crops also increases the speed of growth by randomly increasing their growth stage by 2 to 5. Crops break if pushed by a piston or if their supporting farmland breaks or turns to dirt (i.e. by being trampled), dropping their usual drops. If /gamerule mobGriefing is true, rabbits will find mature carrot crops‌[Java Edition  only] / carrot crops with growth stage greater than 1‌[Bedrock Edition  only]. This reduces the growth stages by one, removing the crop completely when the growth stage reaches 0.
+
+  Breeding
+    Carrots can also be used to breed and attract pigs and rabbits. Villagers can pick up carrot items to become willing, which allow them to breed. Villagers require 12 carrots to become willing.
+
+  Trading
+    Novice-level Farmer villagers have a 25% (1⁄4)‌[Bedrock Edition  only] or 40% (2⁄5)‌[Java Edition  only] chance to buy 22 carrots for an emerald.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Carrot on a Stick,Fishing Rod or Damaged Fishing Rod + Carrot,"[[None, None, None], [None, 'Fishing Rod', None], [None, None, '']]",The fishing rod must be diagonally above the carrot to craft the carrot on a stick.
+    Golden Carrot,Gold Nugget + Carrot,"[['Gold Nugget', 'Gold Nugget', 'Gold Nugget'], ['Gold Nugget', '', 'Gold Nugget'], ['Gold Nugget', 'Gold Nugget', 'Gold Nugget']]",
+    Rabbit Stew,Cooked Rabbit + Carrot + Baked Potato + Any Mushroom + Bowl,"[[None, 'Cooked Rabbit', None], ['', 'Baked Potato', 'Red Mushroom'], [None, 'Bowl', None]]",
+
+  Composting
+    Placing a carrot into a composter has a 65% chance of raising the compost level by 1.
+

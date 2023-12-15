@@ -1,0 +1,48 @@
+Overview
+    Sandstone is a solid, gravity-defying block related to sand that comes in two color variants, the other being red sandstone. Regular sandstone is commonly found in deserts and beaches. Sandstone also feature three decorative variants: chiseled sandstone, cut sandstone and the harder-to-break smooth sandstone.
+
+Obtaining
+  Breaking
+    Sandstone can be mined with any pickaxe. If mined without a pickaxe, the block drops nothing.
+
+    Block,Sandstone
+    Hardness,0.8
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,4
+    Wooden,0.6
+    Stone,0.3
+    Iron,0.2
+    Diamond,0.15
+    Netherite,0.15
+    Golden,0.1
+
+  Natural generation
+    Regular sandstone generates in deserts and beaches, compressed underneath several blocks of sand. Regular sandstone generates at noise cave entrances in desert and beach biomes. Many structures that generate in deserts are made of sandstone. Desert wells are made of normal sandstone, desert villages, desert pyramids and warm underwater ruins are made greatly of sandstone. All the aforementioned structures use sandstone blocks, slabs, stairs, and walls.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Sand,"[[None, None, None], ['Sand', 'Sand', None], ['Sand', 'Sand', None]]"
+
+Usage
+    Unlike sand, sandstone is never affected by gravity.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Cut Sandstone,Sandstone,"[[None, None, None], ['', '', None], ['', '', None]]"
+    Dune Armor Trim Smithing Template,Diamond + Dune Armor Trim + Sandstone,"[['Diamond', 'Smithing Template', 'Diamond'], ['Diamond', '', 'Diamond'], ['Diamond', 'Diamond', 'Diamond']]"
+    Sandstone Slab,Sandstone,"[[None, None, None], [None, None, None], ['', '', '']]"
+    Sandstone Stairs,Sandstone,"[['', None, None], ['', '', None], ['', '', '']]"
+    Sandstone Wall,Sandstone,"[[None, None, None], ['', '', ''], ['', '', '']]"
+
+  Stonecutting
+    Ingredients,Cutting recipe
+    Sandstone,2 2
+
+  Smelting
+    Ingredients,Smelting recipe
+    Sandstone + Any fuel,0.1
+
+  Note blocks
+    Sandstone can be placed under note blocks to produce "bass drum" sounds.
+

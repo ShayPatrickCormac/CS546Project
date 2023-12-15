@@ -1,0 +1,162 @@
+Overview
+    A gold ingot is a metal ingot used to craft various items, and also used as currency for bartering with piglins.
+
+Obtaining
+    Gold ingots are mainly obtained by smelting raw gold, gold ore and nether gold ore, or just mining nether gold ore, dropping gold nuggets. Gold generates more frequently in badlands biomes.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Block of Gold,"[[None, None, None], [None, 'Block of Gold', None], [None, None, None]]"
+    Gold Nugget,"[['Gold Nugget', 'Gold Nugget', 'Gold Nugget'], ['Gold Nugget', 'Gold Nugget', 'Gold Nugget'], ['Gold Nugget', 'Gold Nugget', 'Gold Nugget']]"
+
+  Smelting
+    Name,Ingredients,Smelting recipe
+    Gold Ingot,Gold Ore or Nether Gold Ore or Deepslate Gold Ore + Any fuel,1
+    Gold Ingot,Raw Gold + Any fuel,1
+
+  Mob loot
+    Zombified piglins have a 2.5% (1⁄40) chance of dropping a gold ingot if killed by a player or tamed wolf. The chance is increased by 1% per level of Looting, for a maximum of 5.5% with Looting III.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Gold Ingot,Monster Room,Chest,1–4,"9.6% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.09607936000000006, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,1–3,"14.5% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.14460337616164032, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bastion remnant,Generic chest,1–6,"19% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–6"", ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bridge chest,4–9,"11.2% { ""item"": ""Gold Ingot"", ""stacksize"": ""4–9"", ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Treasure chest,3–9,"33.7% { ""item"": ""Gold Ingot"", ""stacksize"": ""3–9"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Buried treasure,Chest,1–4,"88% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.8796575978945327, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Desert temple,Chest,2–7,"18% { ""item"": ""Gold Ingot"", ""stacksize"": ""2–7"", ""chance"": 0.18047585032339075, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,2–7,"52.3% { ""item"": ""Gold Ingot"", ""stacksize"": ""2–7"", ""chance"": 0.5225189744667328, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,2–7,"51% { ""item"": ""Gold Ingot"", ""stacksize"": ""2–7"", ""chance"": 0.5097535152939056, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1–3,"49% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.48956430083116764, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Ruined portal,Chest,2–8,"7.3% { ""item"": ""Gold Ingot"", ""stacksize"": ""2–8"", ""chance"": 0.0729006411312747, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–5,"26.5% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.26471339368998625, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Stronghold,Altar chest,1–3,"12% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.12006249999999996, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Storeroom chest,1–3,"18.6% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.18599883286357333, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Village,Toolsmith's chest,1–3,"9.9% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.0989873657501581, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Temple chest,1–4,"25.4% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.25406025971014023, ""structure"": ""Village"", ""container"": ""Temple chest"" }"
+    Weaponsmith's chest,1–3,"25.6% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Woodland mansion,Chest,1–4,"9.6% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.09607936000000006, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Upcoming Java Edition
+    Gold Ingot,Trial Chambers,Corridor pot,1–6,"3.6% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–6"", ""chance"": 0.0362976406533575, ""structure"": ""Trial Chambers"", ""container"": ""Corridor pot"" }"
+    Bedrock Edition
+    Gold Ingot,Monster Room,Chest,1–4,"9.6% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.09607936000000006, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Mineshaft,Chest,1–3,"14.5% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.14460337616164032, ""structure"": ""Mineshaft"", ""container"": ""Chest"" }"
+    Bastion remnant,Generic chest,1–6,"19% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–6"", ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bridge chest,4–9,"11.2% { ""item"": ""Gold Ingot"", ""stacksize"": ""4–9"", ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Treasure chest,3–9,"33.7% { ""item"": ""Gold Ingot"", ""stacksize"": ""3–9"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Buried treasure,Chest,1–5,"34.3% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.3433494144021395, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Desert temple,Chest,2–7,"18% { ""item"": ""Gold Ingot"", ""stacksize"": ""2–7"", ""chance"": 0.18047585032339075, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    End city,Chest,2–7,"52.3% { ""item"": ""Gold Ingot"", ""stacksize"": ""2–7"", ""chance"": 0.5225189744667328, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,2–7,"50.9% { ""item"": ""Gold Ingot"", ""stacksize"": ""2–7"", ""chance"": 0.5089233125982084, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Nether fortress,Chest,1–3,"49% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.48956430083116764, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Ruined portal,Chest,2–8,"7.3% { ""item"": ""Gold Ingot"", ""stacksize"": ""2–8"", ""chance"": 0.0729006411312747, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Shipwreck,Treasure chest,1–5,"26.5% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–5"", ""chance"": 0.26471339368998625, ""structure"": ""Shipwreck"", ""container"": ""Treasure chest"" }"
+    Stronghold,Altar chest,1–3,"11.6% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.11648616558453506, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Storeroom chest,1–3,"15.2% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.15176544111650658, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+    Village,Toolsmith's chest,1–3,"9.9% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.0989873657501581, ""structure"": ""Village"", ""container"": ""Toolsmith's chest"" }"
+    Temple chest,1–4,"25.4% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.25406025971014023, ""structure"": ""Village"", ""container"": ""Temple chest"" }"
+    Weaponsmith's chest,1–3,"25.6% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–3"", ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Woodland mansion,Chest,1–4,"9.6% { ""item"": ""Gold Ingot"", ""stacksize"": ""1–4"", ""chance"": 0.09607936000000006, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+Usage
+  Crafting ingredient
+    As a material for weapons, tools, and armor, gold is not a straight upgrade from iron (except in the case of horse armor). Gold has a higher mining speed and enchantability than any other material, but attack power and durability is less.
+
+    Name,Ingredients,Crafting recipe
+    Block of Gold,Gold Ingot,"[['', '', ''], ['', '', ''], ['', '', '']]"
+    Clock,Gold Ingot + Redstone Dust,"[[None, '', None], ['', 'Redstone Dust', ''], [None, '', None]]"
+    Gold Nugget,Gold Ingot,"[[None, None, None], [None, '', None], [None, None, None]]"
+    Golden Apple,Gold Ingot + Apple,"[['', '', ''], ['', 'Apple', ''], ['', '', '']]"
+    Golden Axe,Gold Ingot + Stick,"[['', '', None], ['', 'Stick', None], [None, 'Stick', None]]"
+    Golden Boots,Gold Ingot,"[[None, None, None], ['', None, ''], ['', None, '']]"
+    Golden Chestplate,Gold Ingot,"[['', None, ''], ['', '', ''], ['', '', '']]"
+    Golden Helmet,Gold Ingot,"[[None, None, None], ['', '', ''], ['', None, '']]"
+    Golden Hoe,Gold Ingot + Stick,"[['', '', None], [None, 'Stick', None], [None, 'Stick', None]]"
+    Golden Leggings,Gold Ingot,"[['', '', ''], ['', None, ''], ['', None, '']]"
+    Golden Pickaxe,Gold Ingot + Stick,"[['', '', ''], [None, 'Stick', None], [None, 'Stick', None]]"
+    Golden Shovel,Gold Ingot + Stick,"[[None, '', None], [None, 'Stick', None], [None, 'Stick', None]]"
+    Golden Sword,Gold Ingot + Stick,"[[None, '', None], [None, '', None], [None, 'Stick', None]]"
+    Light Weighted Pressure Plate,Gold Ingot,"[[None, None, None], ['', '', None], [None, None, None]]"
+    Netherite Ingot,Netherite Scrap + Gold Ingot,"[['Netherite Scrap', 'Netherite Scrap', 'Netherite Scrap'], ['Netherite Scrap', '', ''], ['', '', None]]"
+    Powered Rail,Gold Ingot + Stick + Redstone Dust,"[['', None, ''], ['', 'Stick', ''], ['', 'Redstone Dust', '']]"
+
+  Trading
+    Apprentice-level cleric villagers buy 3 gold ingots for an emerald as part of their trade.
+
+  Repairing
+    Golden helmets, chestplates, leggings, boots, swords, pickaxes, axes, hoes and shovels can be repaired with gold ingots in an anvil.
+
+  Bartering
+    Piglins throw the player item(s) if the player throws or uses a gold ingot on them.
+
+  Beacons
+    Gold ingots can be used to select powers from a beacon. The player must select one of the available powers, and then insert an ingot in the item slot. A gold ingot can be substituted for an iron ingot or netherite ingot, an emerald, or a diamond.
+
+  Smithing ingredient
+    Ingredients,Smithing recipe,Description
+    Any Armor Trim + Any Armor Piece + Gold Ingot,Upgrade Gear,"All armor types can be used in this recipe, a netherite chestplate is shown as an example."
+
+    Trim color palette The following color palettes are shown on the designs on trimmed armor:
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    oooh shiny,oooh shiny,"Oooh, shiny! { ""anchor"": """", ""title"": ""Oooh, shiny!"", ""icon"": ""oooh-shiny"", ""title"": ""Oooh, shiny!"", ""description"": ""Distract a [[Piglin]] using [[gold]]
+ "", ""requirements"": "" Give a piglin a gold item while it is aggressive toward the player.
+ "", ""gamerscore"": ""30G
+ "", ""trophytype"": ""Silver
+ "", ""rewards"": """"Golden Watch"" glove
+"" }",Distract a Piglin using gold,Give a piglin a gold item while it is aggressive toward the player.,30G,Silver
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Oh Shiny,Distract Piglins with gold,Nether,"While aggravated, give a piglin one of these 25 gold-related items in the #piglin_loved item tag: Bell Block of Gold Block of Raw Gold Clock Enchanted Golden Apple Gilded Blackstone Glistering Melon Slice Gold Ingot Gold Ore Golden Apple Golden Axe Golden Boots Golden Carrot Golden Chestplate Golden Helmet Golden Hoe Golden Horse Armor Golden Leggings Golden Pickaxe Golden Shovel Golden Sword Light Weighted Pressure Plate Nether Gold Ore Deepslate Gold Ore Raw Gold Other gold-related items do not distract the piglin and do not trigger this advancement.","nether/distract_piglin {""anchor"": """", ""title"": ""Oh Shiny"", ""icon"": ""Gold Ingot
+"", ""icon-style"": ""plain"", ""title"": ""Oh Shiny"", ""description"": ""Distract Piglins with gold
+"", ""parent"": ""Nether
+"", ""requirements"": ""While aggravated, give a [[piglin]] ''one'' of these 25 gold-related items in the <code>[[Tag#items piglin_loved|#piglin_loved]]</code> item tag:
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite bell.png|16x16px|link=Bell|alt=ItemSprite bell.png: Sprite image for bell in Minecraft linking to Bell|class=pixel-image|]]</span>[[Bell|<span class=""sprite-text"">Bell</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite block-of-gold.png|16x16px|link=Block of Gold|alt=BlockSprite block-of-gold.png: Sprite image for block-of-gold in Minecraft linking to Block of Gold|class=pixel-image|]]</span>[[Block of Gold|<span class=""sprite-text"">Block of Gold</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite block-of-raw-gold.png|16x16px|link=Block of Raw Gold|alt=BlockSprite block-of-raw-gold.png: Sprite image for block-of-raw-gold in Minecraft linking to Block of Raw Gold|class=pixel-image|]]</span>[[Block of Raw Gold|<span class=""sprite-text"">Block of Raw Gold</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite clock.png|16x16px|link=Clock|alt=ItemSprite clock.png: Sprite image for clock in Minecraft linking to Clock|class=pixel-image|]]</span>[[Clock|<span class=""sprite-text"">Clock</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite enchanted-golden-apple.png|16x16px|link=Enchanted Golden Apple|alt=ItemSprite enchanted-golden-apple.png: Sprite image for enchanted-golden-apple in Minecraft linking to Enchanted Golden Apple|class=pixel-image|]]</span>[[Enchanted Golden Apple|<span class=""sprite-text"">Enchanted Golden Apple</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite gilded-blackstone.png|16x16px|link=Gilded Blackstone|alt=BlockSprite gilded-blackstone.png: Sprite image for gilded-blackstone in Minecraft linking to Gilded Blackstone|class=pixel-image|]]</span>[[Gilded Blackstone|<span class=""sprite-text"">Gilded Blackstone</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite glistering-melon-slice.png|16x16px|link=Glistering Melon Slice|alt=ItemSprite glistering-melon-slice.png: Sprite image for glistering-melon-slice in Minecraft linking to Glistering Melon Slice|class=pixel-image|]]</span>[[Glistering Melon Slice|<span class=""sprite-text"">Glistering Melon Slice</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite gold-ingot.png|16x16px|link=Gold Ingot|alt=ItemSprite gold-ingot.png: Sprite image for gold-ingot in Minecraft linking to Gold Ingot|class=pixel-image|]]</span>[[Gold Ingot|<span class=""sprite-text"">Gold Ingot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite gold-ore.png|16x16px|link=Gold Ore|alt=BlockSprite gold-ore.png: Sprite image for gold-ore in Minecraft linking to Gold Ore|class=pixel-image|]]</span>[[Gold Ore|<span class=""sprite-text"">Gold Ore</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-apple.png|16x16px|link=Golden Apple|alt=ItemSprite golden-apple.png: Sprite image for golden-apple in Minecraft linking to Golden Apple|class=pixel-image|]]</span>[[Golden Apple|<span class=""sprite-text"">Golden Apple</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-axe.png|16x16px|link=Golden Axe|alt=ItemSprite golden-axe.png: Sprite image for golden-axe in Minecraft linking to Golden Axe|class=pixel-image|]]</span>[[Golden Axe|<span class=""sprite-text"">Golden Axe</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-boots.png|16x16px|link=Golden Boots|alt=ItemSprite golden-boots.png: Sprite image for golden-boots in Minecraft linking to Golden Boots|class=pixel-image|]]</span>[[Golden Boots|<span class=""sprite-text"">Golden Boots</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-carrot.png|16x16px|link=Golden Carrot|alt=ItemSprite golden-carrot.png: Sprite image for golden-carrot in Minecraft linking to Golden Carrot|class=pixel-image|]]</span>[[Golden Carrot|<span class=""sprite-text"">Golden Carrot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-chestplate.png|16x16px|link=Golden Chestplate|alt=ItemSprite golden-chestplate.png: Sprite image for golden-chestplate in Minecraft linking to Golden Chestplate|class=pixel-image|]]</span>[[Golden Chestplate|<span class=""sprite-text"">Golden Chestplate</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-helmet.png|16x16px|link=Golden Helmet|alt=ItemSprite golden-helmet.png: Sprite image for golden-helmet in Minecraft linking to Golden Helmet|class=pixel-image|]]</span>[[Golden Helmet|<span class=""sprite-text"">Golden Helmet</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-hoe.png|16x16px|link=Golden Hoe|alt=ItemSprite golden-hoe.png: Sprite image for golden-hoe in Minecraft linking to Golden Hoe|class=pixel-image|]]</span>[[Golden Hoe|<span class=""sprite-text"">Golden Hoe</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-horse-armor.png|16x16px|link=Golden Horse Armor|alt=ItemSprite golden-horse-armor.png: Sprite image for golden-horse-armor in Minecraft linking to Golden Horse Armor|class=pixel-image|]]</span>[[Golden Horse Armor|<span class=""sprite-text"">Golden Horse Armor</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-leggings.png|16x16px|link=Golden Leggings|alt=ItemSprite golden-leggings.png: Sprite image for golden-leggings in Minecraft linking to Golden Leggings|class=pixel-image|]]</span>[[Golden Leggings|<span class=""sprite-text"">Golden Leggings</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-pickaxe.png|16x16px|link=Golden Pickaxe|alt=ItemSprite golden-pickaxe.png: Sprite image for golden-pickaxe in Minecraft linking to Golden Pickaxe|class=pixel-image|]]</span>[[Golden Pickaxe|<span class=""sprite-text"">Golden Pickaxe</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-shovel.png|16x16px|link=Golden Shovel|alt=ItemSprite golden-shovel.png: Sprite image for golden-shovel in Minecraft linking to Golden Shovel|class=pixel-image|]]</span>[[Golden Shovel|<span class=""sprite-text"">Golden Shovel</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite golden-sword.png|16x16px|link=Golden Sword|alt=ItemSprite golden-sword.png: Sprite image for golden-sword in Minecraft linking to Golden Sword|class=pixel-image|]]</span>[[Golden Sword|<span class=""sprite-text"">Golden Sword</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite light-weighted-pressure-plate.png|16x16px|link=Light Weighted Pressure Plate|alt=BlockSprite light-weighted-pressure-plate.png: Sprite image for light-weighted-pressure-plate in Minecraft linking to Light Weighted Pressure Plate|class=pixel-image|]]</span>[[Light Weighted Pressure Plate|<span class=""sprite-text"">Light Weighted Pressure Plate</span>]]</span> 
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite nether-gold-ore.png|16x16px|link=Nether Gold Ore|alt=BlockSprite nether-gold-ore.png: Sprite image for nether-gold-ore in Minecraft linking to Nether Gold Ore|class=pixel-image|]]</span>[[Nether Gold Ore|<span class=""sprite-text"">Nether Gold Ore</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:BlockSprite deepslate-gold-ore.png|16x16px|link=Deepslate Gold Ore|alt=BlockSprite deepslate-gold-ore.png: Sprite image for deepslate-gold-ore in Minecraft linking to Deepslate Gold Ore|class=pixel-image|]]</span>[[Deepslate Gold Ore|<span class=""sprite-text"">Deepslate Gold Ore</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:ItemSprite raw-gold.png|16x16px|link=Raw Gold|alt=ItemSprite raw-gold.png: Sprite image for raw-gold in Minecraft linking to Raw Gold|class=pixel-image|]]</span>[[Raw Gold|<span class=""sprite-text"">Raw Gold</span>]]</span>
+</div>
+Other gold-related items do not distract the piglin and do not trigger this advancement.
+"", ""resourcelocation"": ""nether/distract_piglin
+"", ""rewards"": ""—
+"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Item tags,Translation key
+    Gold Ingot,gold_ingot,Item,beacon_payment_items piglin_loved,item.minecraft.gold_ingot
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Gold Ingot,gold_ingot,306,Item,item.gold_ingot.name
+

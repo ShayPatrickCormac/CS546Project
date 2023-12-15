@@ -1,0 +1,53 @@
+Overview
+    An ink sac is an item dropped by a squid upon death used to create black dye, dark prismarine‌[BE  only], and books and quills.
+
+Obtaining
+  Mob loot
+    A squid drops one to three ink sacs upon death. The maximum amount is increased by 1 per level of Looting, for a maximum of 1 to 6 with Looting III.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Bedrock Edition
+    Ink Sac,Stronghold,Storeroom chest,1–3,"40% { ""item"": ""Ink Sac"", ""stacksize"": ""1–3"", ""chance"": 0.40018245990447665, ""structure"": ""Stronghold"", ""container"": ""Storeroom chest"" }"
+
+  Fishing
+    Ink sacs can be obtained as a "junk" item from fishing. The Luck of the Sea enchantment decreases the chance.
+
+  Trading
+    Wandering traders sometimes sell 3 ink sacs for an emerald in Bedrock Edition. Apprentice level librarians also buy 5 ink sacs for one emerald.
+
+Usage
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe,Description
+    Black Balloon,Latex + Ink Sac + Helium + Lead,"[['Latex', '', 'Latex'], ['Latex', 'Helium', 'Latex'], ['Latex', 'Lead', 'Latex']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Black Bed,Any Bed + Ink Sac,"[[None, None, None], ['White Bed', '', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Black Carpet,White Carpet + Ink Sac,"[['White Carpet', 'White Carpet', 'White Carpet'], ['White Carpet', '', 'White Carpet'], ['White Carpet', 'White Carpet', 'White Carpet']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Black Concrete Powder,Ink Sac + Sand + Gravel,"[['', 'Sand', 'Sand'], ['Sand', 'Sand', 'Gravel'], ['Gravel', 'Gravel', 'Gravel']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Black Dye,Ink Sac,"[[None, None, None], [None, '', None], [None, None, None]]",
+    Black Firework Star,Black Firework Star + Ink Sac,"[[None, None, None], ['Firework Star', '', None], [None, None, None]]","‌ [ Bedrock Edition and Minecraft Education only ] Adds a ""fade to color"" effect to the firework star, overwriting any existing fades. Up to eight dyes can be added."
+    Black Firework Star,Gunpowder + Ink Sac + Head or Gold Nugget or Feather or Fire Charge + Glowstone Dust + Diamond,"[[None, None, None], ['Gunpowder', '', 'Head'], ['Glowstone Dust', 'Diamond', None]]","‌ [ Bedrock Edition and Minecraft Education only ] Up to eight dyes can be added. One head, gold nugget, feather, or fire charge can be added. Both the diamond and the glowstone dust can be added with any of the other ingredients."
+    Black Shulker Box,Any Shulker Box + Ink Sac,"[[None, None, None], ['White Shulker Box', '', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Black Stained Glass,Glass + Ink Sac,"[['Glass', 'Glass', 'Glass'], ['Glass', '', 'Glass'], ['Glass', 'Glass', 'Glass']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Black Stained Glass Pane,Glass Pane + Ink Sac,"[['Glass Pane', 'Glass Pane', 'Glass Pane'], ['Glass Pane', '', 'Glass Pane'], ['Glass Pane', 'Glass Pane', 'Glass Pane']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Black Terracotta,Terracotta + Ink Sac,"[['Terracotta', 'Terracotta', 'Terracotta'], ['Terracotta', '', 'Terracotta'], ['Terracotta', 'Terracotta', 'Terracotta']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Black Wool,Any Wool + Ink Sac,"[[None, None, None], ['White Wool', '', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Book and Quill,Book + Ink Sac + Feather,"[[None, None, None], ['Book', '', None], [None, 'Feather', None]]",
+    Dark Prismarine,Prismarine Shard + Ink Sac,"[['Prismarine Shard', 'Prismarine Shard', 'Prismarine Shard'], ['Prismarine Shard', '', 'Prismarine Shard'], ['Prismarine Shard', 'Prismarine Shard', 'Prismarine Shard']]",‌ [ Bedrock Edition and Minecraft Education only ]
+    Gray Dye,Ink Sac + Bone Meal or White Dye,"[[None, None, None], ['', 'Bone Meal', None], [None, None, None]]",‌ [ Bedrock Edition and Minecraft Education only ]
+
+    In Bedrock Edition, ink sacs can be also used in banner patterns:
+
+    Name,Ingredients,Crafting recipe
+    Black Banner pattern,Ink Sac + Banner,"[['', '', ''], ['', 'Banner', ''], ['', '', '']]"
+    Black Banner image,Ink Sac + Banner + Vines or Bricks or Creeper Head or Wither Skeleton Skull or Oxeye Daisy or Enchanted Golden Apple,"[[None, None, None], ['Vines', '', None], [None, 'Banner', None]]"
+
+  Loom ingredient
+  Dye
+    In Bedrock Edition and Minecraft Education, ink sac can be:
+
+  Trading
+    Journeyman-level librarian villagers have a 2⁄3 chance to buy five ink sacs for an emerald. They always offer the trade in Bedrock Edition.
+
+  Signs
+    Ink sacs can be applied to signs or hanging signs to revert glowing text back to default.
+

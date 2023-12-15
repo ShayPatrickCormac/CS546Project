@@ -1,0 +1,333 @@
+[
+    {
+        "names": [
+            "Mushroom Stew"
+        ],
+        "ingredients": [
+            "Red Mushroom",
+            "Brown Mushroom",
+            "Bowl"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Red Mushroom",
+                "Brown Mushroom",
+                null
+            ],
+            [
+                null,
+                "Bowl",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Bread"
+        ],
+        "ingredients": [
+            "Wheat"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Wheat",
+                "Wheat",
+                "Wheat"
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cookie"
+        ],
+        "ingredients": [
+            "Wheat",
+            "Cocoa Beans"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Wheat",
+                "Cocoa Beans",
+                "Wheat"
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Golden Apple"
+        ],
+        "ingredients": [
+            "Gold Ingot",
+            "Apple"
+        ],
+        "sample pattern": [
+            [
+                "Gold Ingot",
+                "Gold Ingot",
+                "Gold Ingot"
+            ],
+            [
+                "Gold Ingot",
+                "Apple",
+                "Gold Ingot"
+            ],
+            [
+                "Gold Ingot",
+                "Gold Ingot",
+                "Gold Ingot"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Pumpkin Pie"
+        ],
+        "ingredients": [
+            "Pumpkin",
+            "Sugar",
+            "Egg"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Pumpkin",
+                "Sugar",
+                null
+            ],
+            [
+                null,
+                "Egg",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Golden Carrot"
+        ],
+        "ingredients": [
+            "Gold Nugget",
+            "Carrot"
+        ],
+        "sample pattern": [
+            [
+                "Gold Nugget",
+                "Gold Nugget",
+                "Gold Nugget"
+            ],
+            [
+                "Gold Nugget",
+                "Carrot",
+                "Gold Nugget"
+            ],
+            [
+                "Gold Nugget",
+                "Gold Nugget",
+                "Gold Nugget"
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Beetroot Soup"
+        ],
+        "ingredients": [
+            "Beetroot",
+            "Bowl"
+        ],
+        "sample pattern": [
+            [
+                "Beetroot",
+                "Beetroot",
+                "Beetroot"
+            ],
+            [
+                "Beetroot",
+                "Beetroot",
+                "Beetroot"
+            ],
+            [
+                null,
+                "Bowl",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Rabbit Stew"
+        ],
+        "ingredients": [
+            "Cooked Rabbit",
+            "Carrot",
+            "Baked Potato",
+            "Mushroom",
+            "Bowl"
+        ],
+        "sample pattern": [
+            [
+                null,
+                "Cooked Rabbit",
+                null
+            ],
+            [
+                "Carrot",
+                "Baked Potato",
+                "Red Mushroom"
+            ],
+            [
+                null,
+                "Bowl",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Cake"
+        ],
+        "ingredients": [
+            "Milk Bucket",
+            "Sugar",
+            "Egg",
+            "Wheat"
+        ],
+        "sample pattern": [
+            [
+                "Milk Bucket",
+                "Milk Bucket",
+                "Milk Bucket"
+            ],
+            [
+                "Sugar",
+                "Egg",
+                "Sugar"
+            ],
+            [
+                "Wheat",
+                "Wheat",
+                "Wheat"
+            ]
+        ],
+        "description": "Emptybucketsremain in the crafting grid after crafting the cake."
+    },
+    {
+        "names": [
+            "Dried Kelp"
+        ],
+        "ingredients": [
+            "Dried Kelp Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                "Dried Kelp Block",
+                null
+            ],
+            [
+                null,
+                null,
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Suspicious Stew"
+        ],
+        "ingredients": [
+            "Red Mushroom",
+            "Brown Mushroom",
+            "Bowl",
+            "Flower"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Red Mushroom",
+                "Brown Mushroom",
+                null
+            ],
+            [
+                "Bowl",
+                "Oxeye Daisy",
+                null
+            ]
+        ],
+        "description": ""
+    },
+    {
+        "names": [
+            "Honey Bottle"
+        ],
+        "ingredients": [
+            "Glass Bottle",
+            "Honey Block"
+        ],
+        "sample pattern": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                "Glass Bottle",
+                "Glass Bottle",
+                "Honey Block"
+            ],
+            [
+                "Glass Bottle",
+                "Glass Bottle",
+                null
+            ]
+        ],
+        "description": ""
+    }
+]

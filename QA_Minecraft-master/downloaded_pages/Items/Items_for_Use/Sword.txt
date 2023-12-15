@@ -1,0 +1,124 @@
+Overview
+    A sword is a melee weapon that is mainly used to deal damage to entities or for breaking certain blocks faster than by hand. A sword is made from one of six materials, in order of increasing quality and expense: wood, gold, stone, iron, diamond and netherite.
+
+Obtaining
+    Wooden, stone, iron, golden, and diamond axes are crafted using 1 stick and 2 identical units of tool material.
+
+  Crafting
+    Ingredients,Crafting recipe,Description
+    Any Planks or Iron Ingot or Gold Ingot or Diamond + Stick,"[[None, 'Oak Planks', None], [None, 'Oak Planks', None], [None, 'Stick', None]]",
+    Any stone-tier block + Stick,"[[None, 'Cobblestone', None], [None, 'Cobblestone', None], [None, 'Stick', None]]",Can use cobblestone and its other variants interchangeably.
+    Damaged Matching Swords,"[[None, None, None], ['Wooden Sword', 'Wooden Sword', None], [None, None, None]]","The durability of the two swords is added together, plus an extra 5% of the tool type's total durability. Enchantments are removed unless combined on an anvil . Example: Two wooden swords, each with remaining durability of 20, combine into a wooden sword having 43 durability (20 + 20 + 5% of 60)."
+
+  Upgrading
+    Like other diamond items, a diamond sword can be upgraded to a netherite sword, increasing its durability and attack damage, as well as granting resistance to fire and lava when dropped as an item.
+
+    Ingredients,Smithing recipe
+    Netherite Upgrade + Diamond Sword + Netherite Ingot,Upgrade Gear
+
+  Repairing
+    Ingredients,Grinding recipe,Description
+    2x Damaged Wooden Sword or 2x Damaged Stone Sword or 2x Damaged Iron Sword or 2x Damaged Golden Sword or 2x Damaged Diamond Sword or 2x Damaged Netherite Sword,,"The durability of the two swords is added together, plus an extra 5% durability. Any enchantments, besides curses, would be removed."
+
+    A sword can be repaired in an anvil by adding units of the tiers' repair material, with each repair material restoring 25% of the sword's maximum durability, rounded down.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Iron Sword,Buried treasure,Chest,1,"25% { ""item"": ""Iron Sword"", ""stacksize"": 1, ""chance"": 0.25, ""structure"": ""Buried treasure"", ""container"": ""Chest"" }"
+    Stronghold,Altar chest,1,"12% { ""item"": ""Iron Sword"", ""stacksize"": 1, ""chance"": 0.12006249999999996, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Sword"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Sword [A],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Sword"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Damaged Enchanted Iron Sword [B] [C],Bastion remnant,Generic chest,1,"19% { ""item"": ""Damaged Enchanted Iron Sword"", ""stacksize"": 1, ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Golden Sword,Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Golden Sword"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bridge chest,1,"11.2% { ""item"": ""Golden Sword"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Nether fortress,Chest,1,"19% { ""item"": ""Golden Sword"", ""stacksize"": 1, ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Enchanted Golden Sword [B],Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Sword"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Diamond Sword,Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Diamond Sword"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Enchanted Diamond Sword [A],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Sword"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Damaged Enchanted Diamond Sword [B] [D],Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Damaged Enchanted Diamond Sword"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Bedrock Edition
+    Iron Sword,Stronghold,Altar chest,1,"11.6% { ""item"": ""Iron Sword"", ""stacksize"": 1, ""chance"": 0.11648616558453506, ""structure"": ""Stronghold"", ""container"": ""Altar chest"" }"
+    Village,Weaponsmith's chest,1,"25.6% { ""item"": ""Iron Sword"", ""stacksize"": 1, ""chance"": 0.2564122099176498, ""structure"": ""Village"", ""container"": ""Weaponsmith's chest"" }"
+    Enchanted Iron Sword [A],End city,Chest,1,"13.3% { ""item"": ""Enchanted Iron Sword"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Damaged Enchanted Iron Sword [B] [C],Bastion remnant,Generic chest,1,"19% { ""item"": ""Damaged Enchanted Iron Sword"", ""stacksize"": 1, ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Golden Sword,Bastion remnant,Generic chest,1,"9.8% { ""item"": ""Golden Sword"", ""stacksize"": 1, ""chance"": 0.09750000000000003, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Bridge chest,1,"11.2% { ""item"": ""Golden Sword"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Nether fortress,Chest,1,"19% { ""item"": ""Golden Sword"", ""stacksize"": 1, ""chance"": 0.1903699481480795, ""structure"": ""Nether fortress"", ""container"": ""Chest"" }"
+    Enchanted Golden Sword [B],Ruined portal,Chest,1,"20.5% { ""item"": ""Enchanted Golden Sword"", ""stacksize"": 1, ""chance"": 0.20469270240551518, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Diamond Sword,Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Diamond Sword"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Enchanted Diamond Sword [A],End city,Chest,1,"13.3% { ""item"": ""Enchanted Diamond Sword"", ""stacksize"": 1, ""chance"": 0.13275806146330638, ""structure"": ""End city"", ""container"": ""Chest"" }"
+    Damaged Enchanted Diamond Sword [B] [D],Bastion remnant,Treasure chest,1,"18.7% { ""item"": ""Damaged Enchanted Diamond Sword"", ""stacksize"": 1, ""chance"": 0.186962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+
+  Mob loot
+    Some mobs can spawn with a sword and have an 8.5% chance of dropping them upon death caused by player. This chance is increased by 1% per level of Looting, up to a maximum of 11.5% with Looting III. Zombies and husks can drop iron swords, zombified piglins and piglins can drop golden swords, and wither skeletons can drop stone swords. The dropped sword is usually badly damaged and may be enchanted. Stone swords dropped by wither skeletons are never enchanted. A vex wields an iron sword that normally has a 0% chance of dropping, because their main hand's HandDropChances is 0. However, this chance increases by 1 percentage point per level of Looting. It is never damaged‌[Java Edition  only] and may be enchanted. In Bedrock Edition, pillagers and vindicators that spawn from raids have a 4.1% chance (5.12% chance on hard mode) of dropping a damaged iron sword. This sword has a 50% chance of being enchanted.
+
+  Trading
+    In Bedrock Edition, an apprentice-level weaponsmith villagers sells enchanted iron swords for at least 7-21 emeralds, and a master-level weaponsmith sells enchanted diamond swords for at least 13-27 emeralds. In Java Edition, a novice-level weaponsmith villager has a 2⁄3 chance of selling an enchanted iron sword for at least 7-22 emeralds. A master-level weaponsmith offers to sell an enchanted diamond sword for at least 11–27 emeralds. The enchantments of the swords offered by villagers are the same as the ones obtained from an enchantment table at levels 5–19.
+
+Usage
+  Attacking
+    Pressing attack while holding a sword inflicts damage on both mobs and other players. Upon damaging a mob or player, the sword's durability decreases by 1. Attacking a boat or a minecart with a sword stone tier or higher instantly destroys it ‌[Java Edition  only], without decreasing the sword's durability. Otherwise, it requires 2 hits, with neither decreasing durability. If the attack recharge meter is 84.8% or above and the player is on the ground standing or moving slower than the sprinting speed in a straight line, the sword performs a sweeping attack indicated by a gale particle that reaches nearby enemies for 1 and knocks them back; the amount of knockback is 80% that of the basal knockback and does not benefit from the knockback enchantment. As result, the player can perform a sweep attack while they are sprinting diagonally but it is impossible to perform a sweep attack at the same time as a critical hit or while riding some entity. All enemies within an 1 by 0.25 by 1 block area of any part of the attacked mob and whose feet are 3 or less blocks away from player's feet are affected. The sweeping edge enchantment increases the damage dealt by 50% of the normal hit damage for level I, 67% for level II and 75% for level III.
+
+  Damage
+    Swords have an attack speed of 1.6 and take 0.625 seconds to recover.
+
+    Material,Wooden,Gold,Stone,Iron,Diamond,Netherite
+    Attack Damage,4,4,5,6,7,8
+    Attack Speed,1.6,1.6,1.6,1.6,1.6,1.6
+    Damage/Second (DPS),6.4,6.4,8,9.6,11.2,12.8
+    Durability,59,32,131,250,1561,2031
+    Lifetime damage inflicted [note 1],236 × 118,128 × 64,655 × 327.5,1500 × 750,10927 × 5463.5,16248 × 8124
+
+    In Bedrock Edition, swords have no attack cooldown or sweep attack, and deal the following damage:
+
+    Material,Wooden,Gold,Stone,Iron,Diamond,Netherite
+    Attack Damage,5,5,6,7,8,9
+    Durability,60,33,132,251,1562,2032
+    Lifetime damage inflicted [note 1],300 × 150,165 × 82.5,792 × 396,1757 × 878.5,12496 × 6248,18288 × 9144
+
+    The most amount of damage that a sword enchanted with Sharpness V can do is 11 in Java Edition and 15.25 in Bedrock Edition, without critical hits.
+
+  Sword breaking times
+    A sword can also be used to destroy certain blocks 50% quicker, sometimes much quicker than with fists. Using a sword to destroy any block that doesn't break instantly by hand decreases its durability by 2; this includes bamboo, despite that the sword is the fastest tool for breaking it.[1] If a sword is enchanted with Silk Touch, either using Creative or commands, cobwebs the sword destroys will drop the cobwebs themselves instead of the usual string. This is due to the sword being classified as the proper tool for cobwebs. The following table shows the time it takes to break blocks on which swords have any effect. Colors indicate what gets dropped:
+
+    Block,Fists,Sword,Proper/fastest tool
+    Bamboo,1.5 s,0.05 s (instant),sword,0.05 s (instant)
+    Cobweb,20 s,0.4 s,shears,0.4 s
+    Cocoa,0.3s,0.2s,wooden axe,0.025 – 0.15 s
+    Hay Bale,1s,0.8s‌ [ Bedrock Edition only ],wooden hoe,0.0625 – 0.375 s
+    Leaves,0.3 s,0.2 s,shears,0.02s
+    wooden hoe,0.025 – 0.15 s
+    Jack o'Lantern,1.5 s,1 s,wooden axe,0.125 – 0.75 s
+    Melon,1.5 s,1 s,wooden axe,0.125 – 0.75 s
+    Pumpkin,1.5s,1 s,wooden axe,0.125 – 0.75 s
+    Vines,0.3 s,0.2 s,wooden axe,0.025 – 0.15 s
+    shears,0.02 s
+
+    In Creative mode, swords are unable to break blocks. However, care must still be taken around minecarts, paintings, item frames,‌[Java Edition  only] and armor stands; these are entities, thus can be broken with swords in Creative.[2][3]
+
+  Enchantments
+    A sword can receive the following enchantments:
+
+    Name,Description,Max Level,Method,Weight
+    Sharpness [note 1],Increases the damage dealt.,V,,10
+    Smite [note 1],Increases the damage dealt to undead .,V,,5
+    Bane of Arthropods [note 1],Increases the damage dealt to arthropods .,V,,5
+    Looting,Increases the amount of drops when killing an entity with the sword.,III,,2
+    Knockback,Increases the knockback dealt.,II,,5
+    Fire Aspect,"Ignites any targets hit by the sword and lights unlit candles , campfires , and Block of TNT when used .",II,,2
+    Sweeping Edge ‌ [ JE only ],Increases the sweeping damage dealt.,III,,2
+    Unbreaking,Grants a chance to negate durability consumption.,III,,5
+    Mending,Repairs the sword when obtaining experience .,I,,2
+    Curse of Vanishing,"The sword vanishes on death, not dropping as an item.",I,,1
+
+  Fuel
+    Wooden swords can be used as fuel in furnaces, smelting 1 item per sword.
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Iron Nugget or Gold Nugget,Iron Sword or Golden Sword + Any fuel,0.1
+
+  Piglins
+    Piglins are attracted to golden swords, run toward any golden swords on the ground and inspect it for 6 to 8 seconds before putting it in their inventory slot.
+

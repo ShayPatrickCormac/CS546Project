@@ -1,0 +1,46 @@
+Overview
+    Thorns is an armor enchantment that causes attackers to be damaged when they deal damage to the wearer. Guardians and elder guardians have a Thorns-like effect which inflicts damage when their spikes are out. However, this only affects melee damage, whereas the enchantment applies to all direct attacks, including ranged.
+
+Usage
+    While wearing any piece of armor with the Thorns enchantment, the wearer has a Level × 15% chance of inflicting 1–4 damage on anyone who attacks them, regardless of whether they were hit by a melee attack, arrow, or other projectile. If the entity dies as a result of this damage, the death message, <player> was killed trying to hurt <entity> is displayed. The entity also gets knocked back when being attacked by the enchantment.‌[JE  only][1] Multiple worn armor items with the Thorns enchantment do stack. Each piece confers an independent chance to deal damage to the attacker as described above. The total amount of damage that can be dealt this way is capped at 4. Probabilities of inflicting maximum damage and average damage dealt depending on the number of items with Thorns III worn are as follows:
+
+    Items with Thorns III,Probability of max. damage 4,Average damage dealt
+    1,11.25%,1.125 × 0.5625
+    2,28.83%,1.997 × 0.9985
+    3,46.33%,2.637 × 1.3185
+    4,61.18%,3.09 × 1.545
+
+    Thorns applies a durability penalty to the armor. It reduces durability by an additional 2 points when inflicting damage. If multiple armor pieces are enchanted with Thorns, the durability penalty is applied to one piece chosen at random, regardless of what level of Thorns that piece has. If the item is also enchanted with Unbreaking, the damage penalty has a chance of being ignored. If a projectile is launched toward an opponent equipped with Thorns, using a shield damages the shield instead of the player when the projectile hits the opponent. Using commands, the enchantment level can be increased. The maximum possible chance of dealing damage is 100% (at level 7). If the level of Thorns exceeds 10, then it deals Level - 10 damage. In Java Edition although horse armor cannot be enchanted in Survival, the Thorns enchantment can be applied to horse armor in Creative and it works. Armor enchanted with Thorns also damages the enemy if the player is holding it in one of their hands.[2]
+
+Obtaining
+    In addition to normal enchanting, Thorns I and II can be obtained naturally from drops, fishing, trading with a villager or as loot from generated structures. Thorns III cannot be directly obtained using an enchanting table, but it can be obtained by using an anvil to combine two Thorns II enchantments,  by trading with villagers, but now you can get a rare trade of a Thorns III enchantment from trading or you could get it by finding an item enchanted with it from the loot chest as below. The enchanted book with Thorns III can be found within the following structures: Underground structures Underwater structures Aboveground structures Miscellaneous structures Pieces of armor enchanted with Thorns III can be found within the following structures: Underwater structures Small structures The Nether The End
+
+Unaffected mobs
+    Evoker fangs,[3] llamas,[4] goats[5] and wardens with sonic boom attacks are not affected by this enchantment.[6]
+
+Sounds
+    Java Edition:
+
+    Sounds
+    Sound,Subtitles,Source,Description,Resource location,Translation key,Volume,Pitch,Attenuation distance
+    ,Thorns prick,Players,When a player [ more information needed ] is damaged by something with Thorns,enchant .thorns .hit,subtitles .enchant .thorns .hit,1.0 [sound 1],0.8-1.2,"16 { ""pitch"": ""0.8-1.2"", ""subtitle"": ""Thorns prick"", ""source"": ""Players"", ""id"": ""enchant.thorns.hit"", ""distance"": ""16"", ""desc"": ""When a player<wbr><sup class=\""noprint nowrap Inline-Template \"" title=\""\"">&#91;<i>[https://minecraft.wiki/w/Talk:Thorns <span title=\""is it other entities too?\"" style=\""border-bottom: 1px dotted\"">more information needed</span>]</i>&#93;</sup>[[Category:Information needed]] is damaged by something with Thorns"", ""sounds"": [ ""Thorns1.ogg"", ""Thorns2.ogg"", ""Thorns3.ogg"", ""Thorns4.ogg"" ], ""volume"": ""1.0 '\""`UNIQ--ref-0000009A-QINU`\""'"", ""java"": ""1"", ""translationkey"": ""subtitles.enchant.thorns.hit"" }"
+
+    Bedrock Edition:
+
+    Sounds
+    Sound,Source,Description,Resource location,Volume,Pitch
+    ,Players,When an entity is damaged by something with Thorns ‌ [ upcoming: BE 1.20.30 ] [sound 1],damage .thorns,0.5,"1.0 { ""sounds"": [ ""Thorns1.ogg"", ""Thorns2.ogg"", ""Thorns3.ogg"", ""Thorns4.ogg"" ], ""source"": ""Players"", ""volume"": ""0.5"", ""id"": ""damage.thorns"", ""pitch"": ""1.0"", ""bedrock"": ""1"", ""desc"": ""When an entity is damaged by something with Thorns<wbr>&zwnj;<sup class=\""noprint nowrap Inline-Template \"" title=\""\"">&#91;<i><span title=\""This statement applies only to upcoming versions of Minecraft.\"">upcoming:</span> [[Bedrock Edition 1.20.30|BE 1.20.30]]</i>&#93;</sup>[[Category:Upcoming]][[Category:Bedrock Edition upcoming tag]]<wbr>'\""`UNIQ--ref-0000009C-QINU`\""'"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Thorns,thorns,enchantment.minecraft.thorns
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Thorns,thorns,5,enchantment.thorns
+
+Video

@@ -1,0 +1,109 @@
+Overview
+    The sculk sensor is a block in the sculk family. It detects vibrations caused by actions and events in a radius around it and emits a redstone signal, and, if it was triggered by a player, also activates nearby sculk shriekers. Players can sneak to avoid making vibrations and wool can be used to occlude and block them.
+
+Obtaining
+  Breaking
+    Sculk sensors can be mined with any tool enchanted with Silk Touch, but hoes are the quickest. If mined with a non-Silk Touch tool, they drop 5 experience instead.
+
+    Block,Sculk Sensor
+    Hardness,1.5
+    Tool,Hoe
+    Breaking time (sec) [A]
+    Default,2.25
+    Wooden,1.15
+    Stone,0.6
+    Iron,0.4
+    Diamond,0.3
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Sculk sensors generate within the deep dark biome and ancient cities.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Sculk Sensor,Ancient City,Chest,1–3,"23.2% { ""item"": ""Sculk Sensor"", ""stacksize"": ""1–3"", ""chance"": 0.23238142813184637, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Sculk Sensor,Ancient City,Chest,1–3,"23.2% { ""item"": ""Sculk Sensor"", ""stacksize"": ""1–3"", ""chance"": 0.23238142813184637, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+
+  Post-generation
+    A sculk catalyst has a 9% chance of generating a sculk sensor on top of a sculk block.
+
+Usage
+  Crafting ingredient
+    Sculk sensors can be used to craft calibrated sculk sensors.
+
+    Name,Ingredients,Crafting recipe
+    Calibrated Sculk Sensor,Amethyst Shard + Sculk Sensor,"[[None, 'Amethyst Shard', None], ['Amethyst Shard', '', 'Amethyst Shard'], [None, None, None]]"
+
+  Light
+    A sculk sensor has a light level of 1. When active, it changes to a lighter block state without a change to the light level.
+
+  Vibration detection
+    Sculk sensors detect vibrations in an 8 block spherical radius around it. Vibrations are caused by various events, such as a player and mobs walking, placing or breaking blocks, gliding with elytra, items falling on the ground, a piston extending or a wet wolf shaking itself off. While sneaking, a player is not detected. Walking, falling, dropping items, or shooting a projectile all trigger the sensor. When a vibration is made within the range of a sculk sensor, a signal travels from the vibration source to the sensor at a speed of one block per game tick (20 blocks per second). When the signal arrives, the sensor is activated for 40 game ticks (2 seconds). The sensor cannot detect any other vibrations while activated or while a signal is traveling to it. Sculk sensors have a cooldown period of 1 game tick (0.05 seconds) after being placed or after deactivating. During this short cooldown period, they cannot detect vibrations. This prevents them from activating when a contraption it is powering is being unpowered. Sculk sensors don't detect vibrations from other sculk sources or the warden. Wool and carpets have a special interaction with sculk sensors. If a wool block is placed between a sensor and a vibration source, the sensor is not able to detect the placed wool nor vibrations behind it. Specifically, if the ray joining the cube centers of the sensor block and the vibration source passes through any wool blocks, the noise is muffled. If the ray passes diagonally through the edge between two blocks, either one or the other block may muffle it but not both. Sculk sensors are not able to detect footsteps or dropped items on wool blocks or carpet, and they are also unable to detect dropped items of wool and carpets. Sculk sensors pass on the vibrations made by players to sculk shriekers within 8 blocks of the sensor. For example, an item dropped by a player triggers the shrieker, but an item dropped by a dispenser or from a broken block does not; a player flying around with elytra triggers the shrieker, but a bat flying around does not. Alarms can be blocked by wool placed in between the sensor and shrieker, similar to how wool can block vibrations from reaching the sensor itself.
+
+  Redstone emission
+    Sculk sensors emit a redstone signal when they are activated. The strength of the redstone signal is inversely proportional to the distance the vibration signal traveled – the closer the vibration is to the sculk sensor, the stronger the redstone signal is, so it reaches the maximum redstone signal strength when the vibration is directly on top of the sensor. Each vibration in the game falls under a certain amplitude value. This value can be measured with a comparator. With the right contraption, the player could detect if a certain action has occurred or is occurring nearby.
+
+    Output,Vibration type,Game event,Description
+    1,Step,minecraft:step,Player or entity steps
+    Swim,minecraft:swim,"Player or entity swims, boat paddles"
+    Flap,minecraft:flap,Entity flaps (bat)
+    Resonate 1,minecraft:resonate_1,
+    2,Projectile Land,minecraft:projectile_land,Projectile lands (snowball)
+    Hit Ground,minecraft:hit_ground,Player or entity hits ground post-jump or fall
+    Splash,minecraft:splash,Player or entity splashes. Entity entering water or bubble column
+    Resonate 2,minecraft:resonate_2,
+    3,Item Interact Finish,minecraft:item_interact_finish,"Item Interaction (Shield, Spyglass, Bone Meal)"
+    Projectile Shoot,minecraft:projectile_shoot,"Projectile Shoots (arrow, firework, etc.)"
+    Instrument Play,minecraft:instrument_play,Goat Horn Plays
+    Resonate 3,minecraft:resonate_3,
+    4,Entity Action,minecraft:entity_action,"Entity Roars (Ravager), Entity Shakes (wolf after swimming)"
+    Elytra Glide,minecraft:elytra_glide,Player glides
+    Resonate 4,minecraft:resonate_4,
+    5,Entity Dismount,minecraft:entity_dismount,Player Dismount
+    Equip,minecraft:equip,Armor equip in armor slot or stand
+    Resonate 5,minecraft:resonate_5,
+    6,Entity Mount,minecraft:entity_mount,Player Mount (horse)
+    Entity Interact,minecraft:entity_interact,Player interaction with entity (breeding)
+    Shear,minecraft:shear,Shears a sheep
+    Resonate 6,minecraft:resonate_6,
+    7,Entity Damage,minecraft:entity_damage,Damage or death to entities (except armor stand)
+    Resonate 7,minecraft:resonate_7,
+    8,Drink,minecraft:drink,Player or entity drinks
+    Eat,minecraft:eat,Player or entity eats
+    Resonate 8,minecraft:resonate_8,
+    9,Container Close,minecraft:container_close,"Close container (Chest, shulkerbox, hopper)"
+    Block Close,minecraft:block_close,Door Close (trapdoor and fencegate)
+    Block Deactivate,minecraft:block_deactivate,Lever or button deactivation
+    Block Detach,minecraft:block_detach,Tripwire detachment
+    Resonate 9,minecraft:resonate_9,
+    10,Container Open,minecraft:container_open,Open Container
+    Block Open,minecraft:block_open,Open Door
+    Block Activate,minecraft:block_activate,Activate Blocks
+    Block Attach,minecraft:block_attach,Attachment of Tripwire hook
+    Prime Fuse,minecraft:prime_fuse,TNT or creeper activation
+    Note Block Play,minecraft:note_block_play,Note Block Sounds
+    Resonate 10,minecraft:resonate_10,
+    11,Block Change,minecraft:block_change,"Block Change (Chiseled Bookshelf, Lectern)"
+    Resonate 11,minecraft:resonate_11,
+    12,Block Destroy,minecraft:block_destroy,Block Destruction
+    Fluid Pickup,minecraft:fluid_pickup,"Gathered Fluid (Water, honey bottle, powdered snow)"
+    Resonate 12,minecraft:resonate_12,
+    13,Block Place,minecraft:block_place,Block Placement
+    Fluid Place,minecraft:fluid_place,Fluid Placement
+    Resonate 13,minecraft:resonate_13,
+    14,Entity Place,minecraft:entity_place,"Entity Placement via Spawn-egg, Mob Spawner, or Evoker magic"
+    Lightning Strike,minecraft:lightning_strike,Lightning Strike
+    Teleport,minecraft:teleport,"Endermen, Chorus Fruit, Shulker, or Enderpearl Teleportation"
+    Resonate 14,minecraft:resonate_14,
+    15,Entity Die,minecraft:entity_die,"Armor Stand Dies, Firework Finishes"
+    Explode,minecraft:explode,"TNT, End Crystal, Bed/Respawn Anchor, Creeper Explosion"
+    Resonate 15,minecraft:resonate_15,
+
+    When a sculk sensor detects a vibration, any adjacent block of amethyst will reemit a vibration on the same frequency that the sculk sensor detected. The following occurrences, despite presumably causing physical motion, do not produce vibrations and therefore cannot be detected: The following cases have been confirmed to be intentional:
+
+  Piston interactivity
+    Sculk sensors are immovable. Pistons cannot push them, and sticky pistons cannot push or pull them. Slime blocks and honey blocks do not stick to sculk sensors and have no effect whether the slime block or honey block is being pushed or pulled.
+

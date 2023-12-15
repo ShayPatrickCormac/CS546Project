@@ -1,0 +1,13 @@
+Overview
+    Between is a joke biome introduced in Java Edition 20w14∞. It generates in the "fleet" dimension.
+
+Description
+    The biome consists of a somewhat mountainous terrain made out of stone and a large fleet of end ships in a grid pattern generating both in the sky and the underground. No mobs spawn here.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Between,between,biome.minecraft.between
+

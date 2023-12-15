@@ -1,0 +1,35 @@
+Overview
+    An armor stand is an inanimate entity that can wear armor. It can also hold items and be posed (but these are not possible in Survival in Java Edition).
+
+Obtaining
+  Breaking
+    An armor stand can be broken by quickly attacking it twice, dropping itself and any armor placed onto it.
+
+  Natural generation
+    Two armor stands are found in each taiga village outdoor armory, one equipped with an iron helmet, the other with an iron chestplate.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Stick + Smooth Stone Slab,"[['Stick', 'Stick', 'Stick'], [None, 'Stick', None], ['Stick', 'Smooth Stone Slab', 'Stick']]"
+
+Usage
+    Players can use armor stands to hold armor, mob heads, carved pumpkins, and elytra. Commands can be used to give them other items. The stand does not have a GUI, so players interact with it directly. Armor stands are also able to be placed in different orientations, similar to banners or signs. Armor stands are entities, allowing them to be pushed by pistons, moved by flowing water, pulled with fishing rods, pushed by players (with knockback), and bounced by slime blocks. Using armor on the stand places the armor if done on a bare spot. Conversely, clicking on armor with a bare hand removes the armor and places it in the highlighted hotbar slot. It is not possible to take or place items from the armor stand's hands unless playing on Bedrock Edition. Armor, mob heads, or carved pumpkins can be automatically placed on armor stands with a dispenser. Armor stands can be customized further to have arms, pose, disobey gravity, dual wield and other things by summoning them using /summon with NBT tags. In maps heavily using command blocks, armor stands can be used to keep scoreboard objectives that are 'global' to the map, run commands, etc. In Bedrock Edition, the pose of the armor stand can be changed by interacting with the armor stand (or pressing the Pose button on mobile devices) while sneaking, or by using a redstone signal. There are 13 possible poses. Armor stands can also hold items by interacting with the armor stand (or pressing the Equip button on mobile devices) while holding an item that cannot be worn. Below are the poses:
+
+    No.,Namespace ID,Redstone power,Image
+    0,animation.armor_stand.default_pose,0,
+    1,animation.armor_stand.no_pose,1,
+    2,animation.armor_stand.solemn_pose,2,
+    3,animation.armor_stand.athena_pose,3,
+    4,animation.armor_stand.brandish_pose,4,
+    5,animation.armor_stand.honor_pose,5,
+    6,animation.armor_stand.entertain_pose,6,
+    7,animation.armor_stand.salute_pose,7,
+    8,animation.armor_stand.hero_pose,"8, 13 or more",
+    9,animation.armor_stand.riposte_pose,9,
+    10,animation.armor_stand.zombie_pose,10,
+    11,animation.armor_stand.cancan_a_pose,11,
+    12,animation.armor_stand.cancan_b_pose,12,
+
+Behavior
+    Because armor stands are entities, they obey gravity, allowing them to fall and rest on non-full blocks such as enchanting tables, snow layers and slabs. Any armor on the stand drops when the stand is broken. Armor stands can display enchanted and all forms of dyed armor. The effects of most enchanted armor have no effect when on an armor stand, with three exceptions: Armor stands are not damaged by cacti but can be broken by arrows. An armor stand destroyed by an explosion or a firework does not drop as an item. Armor stands in water and lava at the same time are not consumed by the lava. In Bedrock Edition, armor stands can be affected by status effects. They can be 'killed' by Harming and Decay splash/lingering potions, lava, fire, and campfires, and they play the player death sound and fall to their side and disappear, yielding no armor stand item. If an armor stand is equipped with an item or armor, that item or armor is considered as "naturally-spawned equipment" with an 8.5% chance of dropping when the armor stand "dies" from the Instant Damage or the Wither status effect. If the dropped item is any form of weapon, tool or armor, it drops in a badly damaged state because the game considers it as "naturally-spawned equipment".[1] The stand wobbles slightly when being hit by the player. In Java Edition, it is possible to create an armor stand with arms using the /summon command. It is also possible to change an armor stand without arms into a stand with arms by using the /data command. The commands are as follows:
+

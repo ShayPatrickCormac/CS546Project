@@ -1,0 +1,14 @@
+Overview
+Mechanics
+    You can get wool by shearing sheep, killing sheep, or crafting it out of string. Shearing sheep is often advantageous as it means that they can regrow their wool by eating grass. They will eat grass soon after it grows, Observers can be used to detect grass being eaten and activate dispensers, which can shear sheep if their hitbox is in the block in front of the dispenser. The wool will fall off and will usually go into a hopper for collection. Sheep will also regrow wool regularly. The chance of eating grass is 1⁄1000 per game tick, so a sheep is 63% likely to regrow new wool after 50 seconds, and over 90% likely to regrow new wool after 2 minutes.[1]
+
+Automatic sheep shearing design
+    There are many designs that can be stacked to make large wool farms. The sheep can also be dyed to produce different wool colors.
+
+  How to build an automatic wool farm
+  An Infinite Automatic Wool Farm
+    This machine provides you with infinite wool and does not take many resources at all. After building the machine, all you have to do is replace the shears if they break, which does not happen very often. Construction
+
+Videos
+    Flowfall Riverboy - Minecraft Sheep Farm 1.14 - 1.16.2+ Beef And Cheese - Simeplist Minecraft Sheep Farm 1.14+ RAHsite - Automatic Industrial Wool Farm - Minecraft Bedrock & Java 1.16+ RAHsite - Automatic Wool Farm & Flower Farm - Minecraft Bedrock 1.16+
+

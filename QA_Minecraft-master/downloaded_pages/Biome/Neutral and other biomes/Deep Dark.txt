@@ -1,0 +1,6 @@
+Overview
+    The deep dark is a cave biome that generates deep underground in the Overworld under mountainous areas.
+
+Description
+    The deep dark is an Overworld biome that generates deep underground beneath areas with a low erosion value, especially under jagged peaks, stony peaks, frozen peaks, snowy slopes, groves, cherry groves, meadows and savanna plateaus but also, a little bit less, under badlands, including eroded badlands as an eroded exception, and never generates underneath oceans, rivers or swamps. The biome is dimly lit; there is almost no glow lichen, with the only natural light sources being sculk catalysts and lava. This biome is often covered in large patches of sculk blocks surrounded by sculk veins, which include sculk-related blocks such as sculk shriekers, sculk sensors and sculk catalysts. No mobs spawn in this biome (however monster rooms can still spawn mobs[1]), but if a player triggers a sculk shrieker a certain amount of times, the warden may appear, giving the player the Darkness effect. This is the only biome where ancient cities can generate. Other structures that can be found in the deep dark include monster rooms, strongholds, and amethyst geodes. Mineshafts never generate centered in a deep dark biome, although they may extend into one.
+

@@ -1,0 +1,35 @@
+Overview
+    The wooden stairs are the wooden variant of stairs, crafted from the respective planks.
+
+Obtaining
+  Breaking
+    Wooden stairs can be broken with anything, but axes are fastest.
+
+    Block,Wooden Stairs
+    Hardness,2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,3
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Oak stairs generate as part of: Spruce stairs generate as part of: Birch stairs generate as part of: Jungle and dark oak stairs generate as part of shipwrecks. Acacia stairs generate as part of:
+
+  Crafting
+    Ingredients,Crafting recipe
+    Matching Planks,"[['Oak Planks', None, None], ['Oak Planks', 'Oak Planks', None], ['Oak Planks', 'Oak Planks', 'Oak Planks']]"
+
+Usage
+    Wooden stairs are types of stairs, meaning they have the following common placement mechanics:
+
+  Fuel
+    Overworld wooden stairs can be used as fuel in furnaces, smelting 1.5 items per block.
+
+  Note blocks
+    Wooden stairs can be placed under note blocks to produce "bass" sounds.
+

@@ -1,0 +1,64 @@
+Overview
+    Netherite ingots are items obtained from crafting netherite scraps and gold ingots together, as well as loot from bastion remnant loot chests. Unlike other items, they are immune to fire and lava but are still destroyed by cactus. They are primarily used to upgrade diamond gear and craft lodestones.
+
+Obtaining
+    Netherite ingots are obtained by crafting four netherite scraps and four gold ingots. It is a shapeless recipe, therefore the placement of the netherite scraps and gold ingots does not matter when crafting it.
+
+  Crafting
+    Ingredients,Crafting recipe
+    Netherite Scrap + Gold Ingot,"[['Netherite Scrap', 'Netherite Scrap', 'Netherite Scrap'], ['Netherite Scrap', 'Gold Ingot', 'Gold Ingot'], ['Gold Ingot', 'Gold Ingot', None]]"
+    Block of Netherite,"[[None, None, None], [None, 'Block of Netherite', None], [None, None, None]]"
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Netherite Ingot,Bastion remnant,Treasure chest,1,"42.1% { ""item"": ""Netherite Ingot"", ""stacksize"": 1, ""chance"": 0.4212962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Bedrock Edition
+    Netherite Ingot,Bastion remnant,Treasure chest,1,"42.1% { ""item"": ""Netherite Ingot"", ""stacksize"": 1, ""chance"": 0.4212962962962963, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+
+Usage
+    Netherite ingots are crafting materials used to make netherite tools, weapons, and armor.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Block of Netherite,Netherite Ingot,"[['', '', ''], ['', '', ''], ['', '', '']]"
+    Lodestone,Chiseled Stone Bricks + Netherite Ingot,"[['Chiseled Stone Bricks', 'Chiseled Stone Bricks', 'Chiseled Stone Bricks'], ['Chiseled Stone Bricks', '', 'Chiseled Stone Bricks'], ['Chiseled Stone Bricks', 'Chiseled Stone Bricks', 'Chiseled Stone Bricks']]"
+
+  Smithing ingredient
+    Netherite ingots can be used on a smithing table to upgrade diamond items to netherite items, as well as trim any armor piece. Data such as durability, enchantments, and custom names are preserved. A full set of netherite tools and armor costs 9 netherite ingots or 36 ancient debris.
+
+    Ingredients,Smithing recipe,Description
+    Netherite Upgrade + Any diamond gear + Netherite Ingot,Upgrade Gear,
+    Any Armor Trim + Any Armor Piece + Netherite Ingot,Upgrade Gear,"All armor types can be used in this recipe, a diamond chestplate is shown as an example."
+
+    Trim color palette
+The following color palettes are shown on the designs on trimmed armor:
+
+  Repairing
+    Netherite ingots are the repair items for the netherite tier and armor material, and thus can be used to repair the following items in an anvil:
+
+  Beacons
+    A netherite ingot could be used to select powers from a beacon instead of using an emerald, gold ingot, iron ingot, or a diamond. The player must select one of the available powers, and then insert an ingot in the item slot. The gold option is more efficient than the netherite option because it consumes 3 fewer gold and no netherite scrap.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Item tags,Translation key
+    Netherite Ingot,netherite_ingot,Item,beacon_payment_items,item.minecraft.netherite_ingot
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Netherite Ingot,netherite_ingot,603,Item,item.netherite_ingot.name
+
+  Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Serious Dedication,"Use a Netherite Ingot to upgrade a Hoe , and then reevaluate your life choices",A Seedy Place,Have a netherite hoe in your inventory.,"husbandry/obtain_netherite_hoe {""anchor"": """", ""title"": ""Serious Dedication"", ""icon"": ""Netherite Hoe
+"", ""icon-style"": ""fancy"", ""title"": ""Serious Dedication"", ""description"": ""Use a [[Netherite Ingot]] to upgrade a [[Hoe]], and then reevaluate your life choices
+"", ""parent"": ""A Seedy Place
+"", ""requirements"": ""Have a netherite hoe in your inventory.
+"", ""resourcelocation"": ""husbandry/obtain_netherite_hoe
+"", ""rewards"": ""<span class=""animated""><span class=""pixel-image animated-active xp-148"" style=""background-position:left center;background-size:16px 16px;padding-left:19px;background-repeat:no-repeat""></span></span>100 [[experience]]
+"" }"
+

@@ -1,0 +1,45 @@
+Overview
+    A wooden shovel is the lowest tier of shovel the player can obtain. It can be used to hasten the process of breaking dirt, sand, gravel and other soil blocks, as well as to convert dirt blocks into dirt paths.
+
+Obtaining
+  Crafting
+    Wooden shovels are crafted with three wooden planks and two sticks.
+
+    Ingredients,Crafting recipe,Description
+    Any Planks + Stick,"[[None, 'Oak Planks', None], [None, 'Stick', None], [None, 'Stick', None]]",The planks do not need to match.
+    Damaged Matching Wooden Shovel,"[[None, None, None], ['', '', None], [None, None, None]]","The durability of the two shovels is added together, plus an extra 5% durability."
+
+  Repairing
+    Ingredients,Grinding recipe,Description
+    2× Damaged Wooden Shovel,,"The durability of the two shovels is added together, plus an extra 5% of max durability."
+
+  Chest loot
+    On ancient_city/city_center/city_center_2, they generate a furnace with a wooden shovel inside of it.
+
+Usage
+  Digging
+    A wooden shovel can be used to break some materials faster. When breaking a block, it uses 1 durability. For blocks that break instantly, it uses 0 durability. A wooden axe has 59 durability.
+
+  Dirt paths
+    A wooden shovel can be used to create a dirt path by using (not digging) the wooden shovel on any one of the following blocks, losing one durability point:
+
+  Campfire
+    A wooden shovel can be used to extinguish a campfire.
+
+  Weapon
+    Wooden shovels take 2 damage when used as a weapon. Wooden shovels have an attack speed modifier of -3, meaning they take 1 second to recover. Wooden shovels deal 2.5 × 1.25 damage. In Bedrock Edition, wooden shovels always attack instantly and do 2 damage:
+
+  Enchantments
+    A wooden shovel can receive the following enchantments:
+
+    Name,Max Level,Method
+    Fortune [note 1],III,
+    Silk Touch [note 1],I,
+    Efficiency,V,
+    Unbreaking,III,
+    Mending,I,
+    Curse of Vanishing,I,
+
+  Fuel
+    Wooden shovels can be used as a fuel in furnaces, smelting 1 item per shovel.
+

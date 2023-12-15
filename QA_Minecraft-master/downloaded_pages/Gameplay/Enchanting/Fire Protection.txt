@@ -1,0 +1,21 @@
+Overview
+    Fire Protection is an armor enchantment that reduces damage taken from sources of fire.
+
+Usage
+    Fire Protection reduces all sources of fire damage the user takes, including, but not limited to: fire, lava, magma blocks, lit campfires, being set on fire, and from mobs that deal fire damage.  This enchantment is capable of reducing any fire damage that would normally be ignored by armor. Damage caused by close contact from Blazes and Magma Cubes is considered to be melee damage and therefore cannot be reduced by Fire Protection.  However, this enchantment protects the user from damage caused by a blaze's fireballs. The formula for fire damage reduction (8 × level)%, up to a maximum 32% reduction with Fire Protection IV.  The reduction stacks with multiple pieces of armor enchanted with Fire Protection. Fire Protection has the side effect of reducing burn time when set on fire by (15 × level)%.  In Bedrock Edition, this effect stacks on multiple armor pieces, meaning if the player has at least 7 levels of Fire Protection on their armor, then the burn time is reduced by over 100%, which immediately extinguishes the player and therefore makes the player unable to catch fire.  In Java Edition, however, if multiple pieces have the enchantment, only the highest level's burn time reduction is used, meaning only a maximum reduction of 60% can be achieved with Fire Protection IV. Damage reduction from Protection, Fire Protection, Feather Falling, Blast Protection, and Projectile Protection stacks up to an upper limit cap of 80%.  Any further damage that would have been reduced is instead ignored.  This cap can be reached with a total of 10 combined levels of Fire Protection, or by combining 12 levels of Protection with 4 levels of Fire Protection.
+
+Incompatibilities
+    Protection, Fire Protection, Blast Protection, and Projectile Protection are mutually exclusive. Attempting to combine these enchantments with an anvil deletes the enchantment in the upgrade slot and replace it with the enchantment in the sacrifice slot. However, if commands are used to force two or more of these enchantments on the same item, the effects stack.
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Fire Protection,fire_protection,enchantment.minecraft.fire_protection
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Fire Protection,fire_protection,1,enchantment.protect.fire
+

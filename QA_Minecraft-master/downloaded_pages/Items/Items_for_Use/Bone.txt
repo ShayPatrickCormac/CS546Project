@@ -1,0 +1,85 @@
+Overview
+    A bone is an item primarily obtained from skeletons and similar mobs. It can be crafted into bone meal or used to tame wild wolves.
+
+Obtaining
+  Mob loot
+    Skeletons, wither skeletons, skeleton horses, and strays may drop 0–2 bones upon death. The maximum drop is increased by 1 per level of Looting, for a maximum of 0-5 bones with Looting III. In Bedrock Edition, salmon, cod, pufferfish, and tropical fish have 25% chance to drop 1-2 bones upon death. The maximum drop is increased by 1 to 2 per level of Looting, for a maximum of 2-8 bones with Looting III.
+Salmon (small and medium size) have 25% chance to drop 1 bone upon death, The maximum drop is increased by 1 to 2 per level of Looting, for a maximum of 2-7 bones with Looting III. The chance of dropping bones increases by 1% per looting level, so with Looting III there is up to a 28% chance of bones dropping.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Bone,Monster Room,Chest,1–8,"57.8% { ""item"": ""Bone"", ""stacksize"": ""1–8"", ""chance"": 0.578125, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1–15,"35.9% { ""item"": ""Bone"", ""stacksize"": ""1–15"", ""chance"": 0.3585407680864854, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1–8,"59% { ""item"": ""Bone"", ""stacksize"": ""1–8"", ""chance"": 0.5904, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Chest,4–6,"28.7% { ""item"": ""Bone"", ""stacksize"": ""4–6"", ""chance"": 0.2866099895922952, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,4–6,"61.9% { ""item"": ""Bone"", ""stacksize"": ""4–6"", ""chance"": 0.6193113816713056, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Woodland mansion,Chest,1–8,"57.8% { ""item"": ""Bone"", ""stacksize"": ""1–8"", ""chance"": 0.578125, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Bone,Monster Room,Chest,1–8,"57.8% { ""item"": ""Bone"", ""stacksize"": ""1–8"", ""chance"": 0.578125, ""structure"": ""Monster Room"", ""container"": ""Chest"" }"
+    Ancient City,Chest,1–15,"35.9% { ""item"": ""Bone"", ""stacksize"": ""1–15"", ""chance"": 0.3585407680864854, ""structure"": ""Ancient City"", ""container"": ""Chest"" }"
+    Desert temple,Chest,1–8,"59% { ""item"": ""Bone"", ""stacksize"": ""1–8"", ""chance"": 0.5904, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Chest,4–6,"28.7% { ""item"": ""Bone"", ""stacksize"": ""4–6"", ""chance"": 0.2866099895922952, ""structure"": ""Desert temple"", ""container"": ""Chest"" }"
+    Jungle temple,Chest,4–6,"61.8% { ""item"": ""Bone"", ""stacksize"": ""4–6"", ""chance"": 0.6184222041597154, ""structure"": ""Jungle temple"", ""container"": ""Chest"" }"
+    Woodland mansion,Chest,1–8,"57.8% { ""item"": ""Bone"", ""stacksize"": ""1–8"", ""chance"": 0.578125, ""structure"": ""Woodland mansion"", ""container"": ""Chest"" }"
+
+  Fishing
+    Bones can also be obtained by fishing as part of the junk category. The best chance of catching a bone is achieved without the Luck of the Sea enchantment, yielding a 1.1% chance.
+
+Usage
+  Helmet
+    While a bone cannot be equipped in the head slot in Survival mode, equipping it using commands causes it to appear in the player's mouth.
+
+  Taming
+    Using a bone on a wild wolf has a 1⁄3 chance of taming it. Bones cannot tame a hostile wolf or a wolf that has already been tamed. However, bones can be used to attract the attention of the tamed ones.
+
+  Crafting ingredient
+    A bone can be crafted into 3 bone meal.
+
+    Name,Ingredients,Crafting recipe
+    Bone Meal,Bone,"[[None, None, None], [None, '', None], [None, None, None]]"
+
+Achievements
+    Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other
+    leader of the pack,leader of the pack,"Leader of the Pack { ""anchor"": """", ""title"": ""Leader of the Pack"", ""icon"": """", ""title"": ""Leader of the Pack"", ""description"": ""Befriend five [[wolves]].
+ "", ""requirements"": ""This does not have to be in a single game, so multiple games or reloading old saves does count toward this achievement.
+ "", ""gamerscore"": ""20G
+ "", ""trophytype"": ""Bronze
+ "", ""rewards"": """"Wolf Mask"" headwear
+"" }",Befriend five wolves .,"This does not have to be in a single game, so multiple games or reloading old saves does count toward this achievement.",20G,Bronze
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Best Friends Forever,Tame an animal,Husbandry,Tame one of these 8 tameable mobs : Cat Donkey Horse Llama Mule Parrot Trader Llama Wolf,"husbandry/tame_an_animal {""anchor"": """", ""title"": ""Best Friends Forever"", ""icon"": ""Lead
+"", ""icon-style"": ""plain"", ""title"": ""Best Friends Forever"", ""description"": ""Tame an animal
+"", ""parent"": ""Husbandry
+"", ""requirements"": ""Tame ''one'' of these 8 tameable [[mob]]s:
+
+<div class=""hlist "" style=""margin-left: 1.6em; "">
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite cat.png|16x16px|link=Cat|alt=EntitySprite cat.png: Sprite image for cat in Minecraft linking to Cat|class=pixel-image|]]</span>[[Cat|<span class=""sprite-text"">Cat</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite donkey.png|16x16px|link=Donkey|alt=EntitySprite donkey.png: Sprite image for donkey in Minecraft linking to Donkey|class=pixel-image|]]</span>[[Donkey|<span class=""sprite-text"">Donkey</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite horse.png|16x16px|link=Horse|alt=EntitySprite horse.png: Sprite image for horse in Minecraft linking to Horse|class=pixel-image|]]</span>[[Horse|<span class=""sprite-text"">Horse</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite llama.png|16x16px|link=Llama|alt=EntitySprite llama.png: Sprite image for llama in Minecraft linking to Llama|class=pixel-image|]]</span>[[Llama|<span class=""sprite-text"">Llama</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite mule.png|16x16px|link=Mule|alt=EntitySprite mule.png: Sprite image for mule in Minecraft linking to Mule|class=pixel-image|]]</span>[[Mule|<span class=""sprite-text"">Mule</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite parrot.png|16x16px|link=Parrot|alt=EntitySprite parrot.png: Sprite image for parrot in Minecraft linking to Parrot|class=pixel-image|]]</span>[[Parrot|<span class=""sprite-text"">Parrot</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite trader-llama.png|16x16px|link=Trader Llama|alt=EntitySprite trader-llama.png: Sprite image for trader-llama in Minecraft linking to Trader Llama|class=pixel-image|]]</span>[[Trader Llama|<span class=""sprite-text"">Trader Llama</span>]]</span>
+* <span class=""nowrap""><span class=""sprite-file"" style="""">[[File:EntitySprite wolf.png|16x16px|link=Wolf|alt=EntitySprite wolf.png: Sprite image for wolf in Minecraft linking to Wolf|class=pixel-image|]]</span>[[Wolf|<span class=""sprite-text"">Wolf</span>]]</span>
+</div>
+
+"", ""resourcelocation"": ""husbandry/tame_an_animal
+"", ""rewards"": ""—
+"" }"
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Form,Translation key
+    Bone,bone,Item,item.minecraft.bone
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Form,Translation key
+    Bone,bone,415,Item,item.bone.name
+

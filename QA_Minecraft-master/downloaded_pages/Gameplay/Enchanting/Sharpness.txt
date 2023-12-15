@@ -1,0 +1,51 @@
+Overview
+    Sharpness is an enchantment applied to a sword or axe that increases melee damage.
+
+Usage
+    In Java Edition, Sharpness adds [0.5 * (level - 1)] + 1.0 extra damage. In Bedrock Edition, each level of Sharpness adds 1.25 extra damage. Only golden weapons can receive Sharpness V directly through the enchanting table. For all other weapon tiers (wooden, stone, iron, diamond, and netherite), an anvil is required to apply Sharpness V to them, though iron and diamond swords with the enchantment can generate in end city and bastion remnant chests.
+
+  Damage per hit
+    These tables detail how much damage is done per attack based on the level of enchantment used, assuming the target is not wearing armor and the attack is fully charged.‌[Java Edition  only]
+
+    Edition,I,II,III,IV,V
+    In Java Edition,1,1.5 × 0.75,2,2.5 × 1.25,3
+    In Bedrock Edition,1.25 × 0.625,2.5 × 1.25,3.75 × 1.875,5,6.25 × 3.125
+
+    Swords
+    Weapon,Base damage,Sharpness I,Sharpness II,Sharpness III,Sharpness IV,Sharpness V
+    wooden sword; golden sword,4 (6),5 (7),5.5 (7.5),6 (8),6.5 (8.5),7 (9)
+    stone sword,5 (7.5),6 (8.5),6.5 (9),7 (9.5),7.5 (10),8 (10.5)
+    iron sword,6 (9),7 (10),7.5 (10.5),8 (11),8.5 (11.5),9 (12)
+    diamond sword,7 (10.5),8 (11.5),8.5 (12),9 (12.5),9.5 (13),10 (13.5)
+    netherite sword,8 (12),9 (13),9.5 (13.5),10 (14),10.5 (14.5),11 (15)
+    Axes
+    wooden axe; golden axe,7 (10.5),8 (11.5),8.5 (12),9 (12.5),9.5 (13),10 (13.5)
+    stone axe,9 (13.5),10 (14.5),10.5 (15),11 (15.5),11.5 (16),12 (16.5)
+    iron axe
+    diamond axe
+    netherite axe,10 (15),11 (16),11.5 (16.5),12 (17),12.5 (17.5),13 (18)
+
+    Swords and Axes
+    Weapon,Base damage,Sharpness I,Sharpness II,Sharpness III,Sharpness IV,Sharpness V
+    wooden axe; golden axe,4 (6),5.25 (7.875),6.5 (9.75),7.75 (11.625),9 (13.5),10.25 (15.375)
+    wooden sword; golden sword; stone axe,5 (7.5),6.25 (9.375),7.5 (11.25),8.75 (13.125),10 (15),11.25 (16.875)
+    stone sword; iron axe,6 (9),7.25 (10.875),8.5 (12.75),9.75 (14.625),11 (16.5),12.25 (18.375)
+    iron sword; diamond axe,7 (10.5),8.25 (12.375),9.5 (14.25),10.75 (16.125),12 (18),13.25 (19.875)
+    diamond sword; netherite axe,8 (12),9.25 (13.875),10.5 (15.75),11.75 (17.625),13 (19.5),14.25 (21.375)
+    netherite sword,9 (13.5),10.25 (15.375),11.5 (17.25),12.75 (19.125),14 (21),15.25 (22.875)
+
+Incompatibilities
+    Sharpness, Smite, Cleaving,‌[upcoming: JE Combat Tests] and Bane of Arthropods are mutually exclusive. However, if commands are used to have two or more of these enchantments on the same item, their effects stack.‌[Java Edition  only]
+
+Data values
+  ID
+    Java Edition:
+
+    Name,Identifier,Translation key
+    Sharpness,sharpness,enchantment.minecraft.sharpness
+
+    Bedrock Edition:
+
+    Name,Identifier,Numeric ID,Translation key
+    Sharpness,sharpness,9,enchantment.damage.all
+

@@ -1,0 +1,12 @@
+Overview
+    A bucket of axolotl is an axolotl inside of a water bucket, obtained by using a water bucket on an axolotl.
+
+Obtaining
+    A bucket of axolotl can be obtained by using a water bucket on an axolotl. Once a water bucket is used, the axolotl is picked up along with the water source block.
+
+Usage
+    Pressing use with a bucket of axolotl places a water source block, and spawns the axolotl back into the world, leaving an empty bucket in the player's inventory. Placing a bucket of axolotl in the Nether causes the same particles to appear that generate when a normal water bucket is placed in the Nether, and the axolotl is spawned alone. Axolotls caught in buckets then released do not despawn, unlike mobs that spawn naturally in their aquatic environments. If a bucket of axolotl is inside a dispenser, the dispenser spawns the axolotl and water block in front of it upon activation, leaving an empty bucket inside. Dispensers cannot pick up axolotls with water buckets (the bucket is emptied). If a bucket of axolotl is named a certain name through an anvil, the axolotl inside displays that name as if it were named with a name tag.‌[Java Edition  only] Alternatively, if a named axolotl is captured with a bucket of water, the resulting bucket of axolotl shares a name with the captured cod.‌[Java Edition  only] If a named axolotl is captured in Bedrock Edition, the item is called "Bucket of <Name>".
+
+  Axolotl variants
+    In Bedrock Edition, if an axolotl is picked up with a bucket, the bucket appears in the player's inventory as "Bucket of <Baby/Adult> <Color> Axolotl" based on the age and color of the axolotl. These varieties are: When the player spawns in an axolotl with a bucket of axolotl from the creative inventory, it is always a leucistic adult. Buckets containing other variants will always spawn that variant when used in creative mode. The bucket of axolotl does not change textures in the inventory to reflect the captured axolotl's color, it always appears leucistic.
+

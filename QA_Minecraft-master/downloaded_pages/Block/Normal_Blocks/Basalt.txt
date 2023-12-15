@@ -1,0 +1,43 @@
+Overview
+    Basalt is an igneous rock found in the Nether.
+
+Obtaining
+  Breaking
+    Basalt drops as an item if mined by any pickaxe. If mined by any other tool, it drops nothing.
+
+    Block,Basalt
+    Hardness,1.25
+    Tool,wooden pickaxe
+    Breaking time (sec) [A]
+    Default,6.25
+    Wooden,0.95
+    Stone,0.5
+    Iron,0.35
+    Diamond,0.25
+    Netherite,0.25
+    Golden,0.2
+
+  Natural generation
+    Basalt generates naturally as basalt pillars, which are found in the soul sand valley biome. They also generate in the basalt deltas biome as regular terrain and as part of basalt columns. In Java Edition, they also generate in blobs, which attempt to replace netherrack 75 times per chunk in blobs of radius 3—7, from levels 0 to 127, in basalt deltas biome. Basalt can be found naturally as part of bastion remnants
+
+  Post-generation
+    Basalt can also be made by lava flowing into a space that is on top of soul soil and adjacent to blue ice. The flowing lava is then replaced with basalt.
+
+Usage
+    Basalt's only current use is as building material. Like logs and quartz pillars, basalt points perpendicular to whatever block face they are placed on.
+
+  Crafting
+    Name,Ingredients,Crafting recipe
+    Polished Basalt,Basalt,"[[None, None, None], ['', '', None], ['', '', None]]"
+
+  Stonecutting
+    Name,Ingredients,Cutting recipe
+    Polished Basalt,Basalt,
+
+  Smelting ingredient
+    Name,Ingredients,Smelting recipe
+    Smooth Basalt,Basalt + Any fuel,0.1
+
+  Note blocks
+    Basalt can be placed under note blocks to produce "bass drum" sound.
+

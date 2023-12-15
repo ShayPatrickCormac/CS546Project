@@ -1,0 +1,38 @@
+Overview
+    A wooden fence is the wooden variant of fences, crafted using planks and sticks.
+
+Obtaining
+  Breaking
+    Wooden fences are broken most quickly with an axe, but drop when broken with any tool.
+
+    Block,Wooden Fences
+    Hardness,2
+    Tool,Axe
+    Breaking time (sec) [A]
+    Default,3
+    Wooden,1.5
+    Stone,0.75
+    Iron,0.5
+    Diamond,0.4
+    Netherite,0.35
+    Golden,0.25
+
+  Natural generation
+    Oak Oak fences generate as part of: Spruce Spruce fences generate as part of: Birch Birch fences generate as part of: Jungle Jungle fences generate as part of: Acacia Acacia fences generate as part of: Dark oak Dark oak fences generate as part of:
+
+  Crafting
+    Ingredients,Crafting recipe
+    Matching Planks + Stick,"[[None, None, None], ['Oak Planks', 'Stick', 'Oak Planks'], ['Oak Planks', 'Stick', 'Oak Planks']]"
+
+Usage
+    Wooden fences have the same usages as nether brick fences to form barriers and attach mobs with a lead.
+
+  Barrier
+    Wooden fences connect to other wooden fences, but do not connect to Nether brick fences. However, Nether brick fences connect to wooden fence gates.[1]
+
+  Fuel
+    Overworld wooden fences can be used as fuel in furnaces, smelting 1.5 items per block.
+
+  Note Blocks
+    Wooden fences can be placed under note blocks to produce "bass" sound.
+

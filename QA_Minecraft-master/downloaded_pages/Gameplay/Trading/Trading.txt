@@ -1,0 +1,899 @@
+Overview
+    The trading system is a gameplay mechanic that allows players to trade principally emeralds for items, and vice versa, with villagers and wandering traders.
+
+Mechanics
+    Pressing use on an adult villager with a profession, or on a wandering trader, opens a menu, allowing a player to trade with the villager or wandering trader. This action pauses any pathfinding the entity was doing. If the entity takes damage while trading, the trading menu closes. All transactions involve emeralds. Villagers buy or sell goods for emeralds, and wandering traders sell items for emeralds but do not buy items. Trading is the only legitimate method of acquiring the globe banner pattern, woodland explorer maps, and ocean explorer maps in Survival mode. It is also the only renewable way to obtain bells, diamond gear[note 1], lapis lazuli‌[BE  only], bottles o' enchanting, glass, sand, red sand, coral blocks, and small dripleaves. Villagers have five career levels that can be increased by trading with them. Each villager starts at the "novice" level. A villager's level can be seen in the trading menu. The badge they wear can also be identified: stone for a novice, iron for an apprentice, gold for a journeyman, emerald for an expert, and diamond for a master. Trading until the villager's trading bar gets full unlocks the next level of trades. When a player trades with a villager, both the villager and the player gain experience. All villager trades reward the player with 3–6 experience, plus an additional 5 experience if the villager levels up due to the trade. Trading with a wandering trader also rewards the player with some experience, although the trader does not have experience levels to gain. A villager levels up when its experience bar becomes full and gains up to two new trades, along with keeping their old ones. Additionally, a villager receives a Regeneration effect, and becomes surrounded by purple and green particles for ten seconds.
+
+    Level,Badge,Name,Total Villager experience required
+    1,,Novice,Available from start
+    2,,Apprentice,10
+    3,,Journeyman,70
+    4,,Expert,150
+    5,,Master,250
+    
+
+    A villager's profession dictates the trading pool used to determine its trades. For example, villagers wearing straw hats are farmers, so their trades are based on the Farmer trade pool. Each profession unlocks a pre-defined and finite set of offers. Different professions are assigned to each villager based on their job-site block. This profession is indicated by their appearance and in the trading interface. Novice villagers who have not traded can lose their profession and change back into unemployed villagers if their claimed job site block is removed. Removing and then replacing a job site block can alter the trades offered, and a villager with no experience resets its trades every so often. Once a player trades with a villager, the villager keeps its profession forever and subsequently locks in the offered trades. Villagers run out of stock after a certain number of trades, the exact number is different for each item and referenced in the tables below. When villagers work at their job site blocks, they activate their offers again, up to twice per day. When an offer is disabled, a red "X" appears in the trading interface, and the villager displays the same particle effect as an offer being created. Villagers distinguish between data values, so damaged tools cannot be traded in place of fully repaired tools.‌[Bedrock Edition  only] NBT data, however, is ignored, so the content of a written book does not matter. However, written books can no longer be sold to villagers, and no villagers currently buy any tools that have durability.
+
+  Economics
+    In Java Edition, villagers can have a maximum of 10 trades. Each level unlocks a maximum of two new trades. If a level can pull from more than two trades, the two offered trades are chosen randomly from the set. In Bedrock Edition, villagers have 7–10 trade slots. Some slots with multiple possible trades display only one trade; for example, farmer villagers have 4 potential trades in their first trade slot, so each trade has a 1⁄4 chance to be chosen. Each trade can be used a maximum number of times, after which the trade becomes disabled. Once trades are disabled, villagers must work at their corresponding job site block to resupply their trades. The price of an item rises and falls depending on three factors. Items with a high price multiplier (0.2) are affected by these changes more than items with a low multiplier (0.05). All price fluctuations affect only the first item involved in trade; for example, for an initial trade of 32 sticks for 1 emerald, the price might be driven down to 1 stick or up to 64 sticks for 1 emerald, but never for 2 emeralds. Additionally, no quantity can go lower than 1 or higher than the stack size. The first factor is demand. An item that was sold out gets a price increase for all players when resupplied. If a player does not trade for a higher-priced item, the price is reduced the next time the villager resupplies. Demand is tracked per item, not per villager, so a villager can offer a higher-priced trade for a single item while other items are cheaper. Trades that have a price multiplier of 0 are not affected by demand. The second way to affect prices is the Hero of the Village effect, which temporarily reduces prices for the affected player depending on the level of the effect. Finally, players get personal discounts or fines based on their reputation with that particular villager. A positive reputation is gained by curing zombie villagers (the villager that was cured gives a permanent discount much larger than the temporary discount in nearby villagers). To cure a zombie villager, a player must splash it with a splash potion or an arrow of Weakness and then feed it a golden apple. The permanent discount is capped at one cure, while the temporary discount is capped at 8 cures. In Java Edition, players can also gain negative reputation by hitting or killing villagers, and positive reputation by trading.
+
+Non-trading villagers
+    If the player attempts to trade with a non-trading villager in Java Edition, they grunt and shake their head.
+
+  Nitwit
+    Nitwits are green-coated villagers. They cannot gain a profession.
+
+  Unemployed villager
+    Villagers without a job overlay cannot trade. They only wear their biome outfits. An unemployed villager gains a profession by claiming an unclaimed job site block. For example, an unclaimed cartography table converts an unemployed villager into a cartographer when the villager claims it, and both the villager and the table emit green particles. An inaccessible (or destroyed) job site block causes the connected villager to lose its profession, but that does not affect the player's popularity in the village.
+
+Java Edition offers
+    The villager pictured on the right is from the plains biome. To see villager professions dressed for other biomes, see Villagers § Professions. Starting from Novice, at each level two more trades become available, unless there is only one trade within that level. If there are more than two possible trades, two are randomly selected.
+
+  Armorer
+    Job site block: Blast Furnace
+
+    Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Coal,15,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,7,0.2,Iron Leggings,1,12 trades,1
+    Novice,Emerald,4,0.2,Iron Boots,1,12 trades,1
+    Novice,Emerald,5,0.2,Iron Helmet,1,12 trades,1
+    Novice,Emerald,9,0.2,Iron Chestplate,1,12 trades,1
+    Apprentice,Iron Ingot,4,0.05,Emerald,1,12 trades,10
+    Apprentice,Emerald,36,0.2,Bell,1,12 trades,5
+    Apprentice,Emerald,1,0.2,Chainmail Boots,1,12 trades,5
+    Apprentice,Emerald,3,0.2,Chainmail Leggings,1,12 trades,5
+    Journeyman,Lava Bucket,1,0.05,Emerald,1,12 trades,20
+    Journeyman,Diamond,1,0.05,Emerald,1,12 trades,20
+    Journeyman,Emerald,1,0.2,Chainmail Helmet,1,12 trades,10
+    Journeyman,Emerald,4,0.2,Chainmail Chestplate,1,12 trades,10
+    Journeyman,Emerald,5,0.2,Shield,1,12 trades,10
+    Expert,Emerald,19–33,0.2,Enchanted[note 2] Diamond Leggings,1,3 trades,15
+    Expert,Emerald,13–27,0.2,Enchanted[note 2] Diamond Boots,1,3 trades,15
+    Master,Emerald,13–27,0.2,Enchanted[note 2] Diamond Helmet,1,3 trades,30[note 3]
+    Master,Emerald,21–35,0.2,Enchanted[note 2] Diamond Chestplate,1,3 trades,30[note 3]
+    
+
+  Butcher
+    Job site block: Smoker
+
+    Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Raw Chicken,14,0.05,Emerald,1,16 trades,2
+    Novice,Raw Porkchop,7,0.05,Emerald,1,16 trades,2
+    Novice,Raw Rabbit,4,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,1,0.05,Rabbit Stew,1,12 trades,1
+    Apprentice,Coal,15,0.05,Emerald,1,16 trades,2
+    Apprentice,Emerald,1,0.05,Cooked Porkchop,5,16 trades,5
+    Apprentice,Emerald,1,0.05,Cooked Chicken,8,16 trades,5
+    Journeyman,Raw Mutton,7,0.05,Emerald,1,16 trades,20
+    Journeyman,Raw Beef,10,0.05,Emerald,1,16 trades,20
+    Expert,Dried Kelp Block,10,0.05,Emerald,1,12 trades,30
+    Master,Sweet Berries,10,0.05,Emerald,1,12 trades,30[note 3]
+    
+
+  Cartographer
+    Job site block: Cartography Table
+
+    Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Paper,24,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,7,0.05,Empty Map,1,12 trades,1
+    Apprentice,Glass Pane,11,0.05,Emerald,1,16 trades,10
+    Apprentice,Emerald Compass,13 1,0.2,Ocean Explorer Map[note 4],1,12 trades,5
+    Journeyman,Compass,1,0.05,Emerald,1,12 trades,20
+    Journeyman,Emerald Compass,14 1,0.2,Woodland Explorer Map[note 4],1,12 trades,10
+    Expert,Emerald,7,0.05,Item Frame,1,12 trades,15
+    Expert,Emerald,3,0.05,Any color blank Banner[note 5],1,12 trades,15
+    Master,Emerald,8,0.05,Globe Banner Pattern,1,12 trades,30[note 3]
+    
+
+    Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Paper,24,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,7,0.05,Empty Map,1,12 trades,1
+    Apprentice,Glass Pane,11,0.05,Emerald,1,16 trades,10
+    Apprentice,Emerald Compass,8 1,0.2,Biome dependent Map[note 6][note 4],1,12 trades,5
+    Journeyman,Compass,1,0.05,Emerald,1,12 trades,20
+    Journeyman,Emerald Compass,13 1,0.2,Ocean Explorer Map[note 4],1,12 trades,10
+    Expert,Emerald,7,0.05,Item Frame,1,12 trades,15
+    Expert,Emerald,3,0.05,Any color blank Banner[note 5],1,12 trades,15
+    Master,Emerald,8,0.05,Globe Banner Pattern,1,12 trades,30[note 3]
+    Master,Emerald Compass,14 1,0.2,Woodland Explorer Map[note 4],1,1 trade,30[note 3]
+    
+
+    Biomes and corresponding maps,Biomes and corresponding maps,Biomes and corresponding maps,Biomes and corresponding maps,Biomes and corresponding maps,Biomes and corresponding maps,Biomes and corresponding maps,Biomes and corresponding maps
+    Appearance,Desert,Plains,Savanna,Snowy,Taiga,Jungle,Swamp
+    Group 1,Savanna Village Map,Taiga Village Map,Plains Village Map,Plains Village Map,Snowy Village Map,Savanna Village Map,Snowy Village Map
+    Group 2,Plains Village Map,Savanna Village Map,Desert Village Map,Taiga Village Map,Plains Village Map,Desert Village Map,Taiga Village Map
+    Group 3,Jungle Explorer Map,–,Jungle Explorer Map,Swamp Explorer Map,Swamp Explorer Map,Swamp Explorer Map,Swamp Explorer Map
+    
+
+  Cleric
+    Job site block: Brewing Stand
+
+    Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Rotten Flesh,32,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,1,0.05,Redstone Dust,2,12 trades,1
+    Apprentice,Gold Ingot,3,0.05,Emerald,1,12 trades,10
+    Apprentice,Emerald,1,0.05,Lapis Lazuli,1,12 trades,5
+    Journeyman,Rabbit's Foot,2,0.05,Emerald,1,12 trades,20
+    Journeyman,Emerald,4,0.05,Glowstone,1,12 trades,10
+    Expert,Scute,4,0.05,Emerald,1,12 trades,30
+    Expert,Glass Bottle,9,0.05,Emerald,1,12 trades,30
+    Expert,Emerald,5,0.05,Ender Pearl,1,12 trades,15
+    Master,Nether Wart,22,0.05,Emerald,1,12 trades,30[note 3]
+    Master,Emerald,3,0.05,Bottle o' Enchanting,1,12 trades,30[note 3]
+    
+
+  Farmer
+    Job site block: Composter
+
+    Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Wheat,20,0.05,Emerald,1,16 trades,2
+    Novice,Potato,26,0.05,Emerald,1,16 trades,2
+    Novice,Carrot,22,0.05,Emerald,1,16 trades,2
+    Novice,Beetroot,15,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,1,0.05,Bread,6,16 trades,1
+    Apprentice,Pumpkin,6,0.05,Emerald,1,12 trades,10
+    Apprentice,Emerald,1,0.05,Pumpkin Pie,4,12 trades,5
+    Apprentice,Emerald,1,0.05,Apple,4,16 trades,5
+    Journeyman,Emerald,3,0.05,Cookie,18,12 trades,10
+    Journeyman,Melon,4,0.05,Emerald,1,12 trades,20
+    Expert,Emerald,1,0.05,Cake,1,12 trades,15
+    Expert,Emerald,1,0.05,Suspicious Stew 5 seconds of Night Vision,1,12 trades,15
+    Expert,Emerald,1,0.05,Suspicious Stew 8 seconds of Jump Boost,1,12 trades,15
+    Expert,Emerald,1,0.05,Suspicious Stew 7 seconds of Weakness,1,12 trades,15
+    Expert,Emerald,1,0.05,Suspicious Stew 6 seconds of Blindness,1,12 trades,15
+    Expert,Emerald,1,0.05,Suspicious Stew 14 seconds of Poison,1,12 trades,15
+    Expert,Emerald,1,0.05,Suspicious Stew 0.35 seconds of Saturation,1,12 trades,15
+    Master,Emerald,3,0.05,Golden Carrot,3,12 trades,30[note 3]
+    Master,Emerald,4,0.05,Glistering Melon Slice,3,12 trades,30[note 3]
+    
+
+  Fisherman
+    Job site block: Barrel
+
+    Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,String,20,0.05,Emerald,1,16 trades,2
+    Novice,Coal,10,0.05,Emerald,1,16 trades,2
+    Novice,Emerald Raw Cod,1  6,0.05,Cooked Cod,6,16 trades,1
+    Novice,Emerald,3,0.05,Bucket of Cod,1,16 trades,1
+    Apprentice,Raw Cod,15,0.05,Emerald,1,16 trades,10
+    Apprentice,Emerald Raw Salmon,1  6,0.05,Cooked Salmon,6,16 trades,5
+    Apprentice,Emerald,2,0.05,Campfire,1,12 trades,5
+    Journeyman,Raw Salmon,13,0.05,Emerald,1,16 trades,20
+    Journeyman,Emerald,8–22,0.2,Enchanted[note 2] Fishing Rod,1,3 trades,10
+    Expert,Tropical Fish,6,0.05,Emerald,1,12 trades,30
+    Master,Pufferfish,4,0.05,Emerald,1,12 trades,30[note 3]
+    Master,One of 5 Boat[note 7],1,0.05,Emerald,1,12 trades,30[note 3]
+    
+
+  Fletcher
+    Job site block: Fletching Table
+
+    Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Stick,32,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,1,0.05,Arrow,16,12 trades,1
+    Novice,Emerald Gravel,1  10,0.05,Flint,10,12 trades,1
+    Apprentice,Flint,26,0.05,Emerald,1,12 trades,10
+    Apprentice,Emerald,2,0.05,Bow,1,12 trades,5
+    Journeyman,String,14,0.05,Emerald,1,16 trades,20
+    Journeyman,Emerald,3,0.05,Crossbow,1,12 trades,10
+    Expert,Feather,24,0.05,Emerald,1,16 trades,30
+    Expert,Emerald,7–21,0.05,Enchanted[note 2] Bow,1,3 trades,15
+    Master,Tripwire Hook,8,0.05,Emerald,1,12 trades,30[note 3]
+    Master,Emerald,8–22,0.05,Enchanted[note 2] Crossbow,1,3 trades,15[note 3]
+    Master,Emerald Arrow,2 5,0.05,Tipped Arrow[note 8],5,12 trades,30[note 3]
+    
+
+  Leatherworker
+    Job site block: Cauldron
+
+    Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Leather,6,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,3,0.2,Leather Pants [note 9],1,12 trades,1
+    Novice,Emerald,7,0.2,Leather Tunic [note 9],1,12 trades,1
+    Apprentice,Flint,26,0.05,Emerald,1,12 trades,10
+    Apprentice,Emerald,5,0.2,Leather Cap [note 9],1,12 trades,5
+    Apprentice,Emerald,4,0.2,Leather Boots [note 9],1,12 trades,5
+    Journeyman,Rabbit Hide,9,0.05,Emerald,1,12 trades,20
+    Journeyman,Emerald,7,0.2,Leather Tunic [note 9],1,12 trades,1[1]
+    Expert,Scute,4,0.05,Emerald,1,12 trades,30
+    Expert,Emerald,6,0.2,Leather Horse Armor [note 9],1,12 trades,15
+    Master,Emerald,6,0.2,Saddle,1,12 trades,30[note 3]
+    Master,Emerald,5,0.2,Leather Cap [note 9],1,12 trades,30[note 3]
+    
+
+  Librarian
+    Job site block: Lectern
+
+    Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Paper,24,0.05,Emerald,1,16 trades,2
+    Novice,Emerald Book,5–64  1,0.2,Enchanted Book [note 10],1,12 trades,1
+    Novice,Emerald,9,0.05,Bookshelf,1,12 trades,1
+    Apprentice,Book,4,0.05,Emerald,1,12 trades,10
+    Apprentice,Emerald Book,5–64 1,0.2,Enchanted Book [note 10],1,12 trades,5
+    Apprentice,Emerald,1,0.05,Lantern,1,12 trades,5
+    Journeyman,Ink Sac,5,0.05,Emerald,1,12 trades,20
+    Journeyman,Emerald Book,5–64 1,0.2,Enchanted Book [note 10],1,12 trades,10
+    Journeyman,Emerald,1,0.05,Glass,4,12 trades,10
+    Expert,Book and Quill,2[note 11][2],0.05,Emerald,1,12 trades,30
+    Expert,Emerald Book,5–64 1,0.2,Enchanted Book [note 10],1,12 trades,15
+    Expert,Emerald,5,0.05,Clock,1,12 trades,15
+    Expert,Emerald,4,0.05,Compass,1,12 trades,15
+    Master,Emerald,20,0.05,Name Tag,1,12 trades,30[note 3]
+    
+
+    Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Paper,24,0.05,Emerald,1,16 trades,2
+    Novice,Emerald Book,5–64  1,0.2,Biome dependent common Enchanted Book [note 12],1,12 trades,1
+    Novice,Emerald,9,0.05,Bookshelf,1,12 trades,1
+    Apprentice,Book,4,0.05,Emerald,1,12 trades,10
+    Apprentice,Emerald Book,5–64 1,0.2,Biome dependent common Enchanted Book [note 12],1,12 trades,5
+    Apprentice,Emerald,1,0.05,Lantern,1,12 trades,5
+    Journeyman,Ink Sac,5,0.05,Emerald,1,12 trades,20
+    Journeyman,Emerald Book,5–64 1,0.2,Biome dependent common Enchanted Book [note 12],1,12 trades,10
+    Journeyman,Emerald,1,0.05,Glass,4,12 trades,10
+    Expert,Book and Quill,2[note 11][2],0.05,Emerald,1,12 trades,30
+    Expert,Emerald,5,0.05,Clock,1,12 trades,15
+    Expert,Emerald,4,0.05,Compass,1,12 trades,15
+    Master,Emerald Book,5–45 1,0.2,Biome dependent special Enchanted Book [note 13],1,12 trades,30[note 3]
+    Master,Emerald,20,0.05,Name Tag,1,12 trades,30[note 3]
+    
+
+    Biomes and corresponding enchantments,Biomes and corresponding enchantments,Biomes and corresponding enchantments,Biomes and corresponding enchantments,Biomes and corresponding enchantments,Biomes and corresponding enchantments,Biomes and corresponding enchantments,Biomes and corresponding enchantments
+    Appearance,Desert,Plains,Savanna,Snowy,Taiga,Jungle,Swamp
+    Special,Efficiency III,Protection III,Sharpness III,Silk Touch,Fortune II,Unbreaking II,Mending
+    Common,Fire Protection Thorns Infinity,Punch Smite Bane of Arthropods,Knockback Curse of Binding Sweeping Edge,Aqua Affinity Looting Frost Walker,Blast Protection Fire Aspect Flame,Feather Falling Projectile Protection Power,Depth Strider Respiration Curse of Vanishing
+    
+
+  Mason
+    Job site block: Stonecutter
+
+    Mason Economic Trade,Mason Economic Trade,Mason Economic Trade,Mason Economic Trade,Mason Economic Trade,Mason Economic Trade,Mason Economic Trade,Mason Economic Trade,Mason Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to the villager,Unnamed: 8_level_1
+    Novice,Clay Ball,10,0.05,Emerald,1,16 trades,2,
+    Novice,Emerald,1,0.05,Brick,10,16 trades,1,
+    Apprentice,Stone,20,0.05,Emerald,1,16 trades,10,
+    Apprentice,Emerald,1,0.05,Chiseled Stone Bricks,4,16 trades,5,
+    Journeyman,Granite,16,0.05,Emerald,1,16 trades,20,
+    Journeyman,Andesite,16,0.05,Emerald,1,16 trades,20,
+    Journeyman,Diorite,16,0.05,Emerald,1,16 trades,20,
+    Journeyman,Emerald,1,0.05,Dripstone Block,4,16 trades,10,
+    Journeyman,Emerald,1,0.05,Polished Andesite,4,16 trades,10,
+    Journeyman,Emerald,1,0.05,Polished Diorite,4,16 trades,10,
+    Journeyman,Emerald,1,0.05,Polished Granite,4,16 trades,10,
+    Expert,Nether Quartz,12,0.05,Emerald,1,12 trades,30,
+    Expert,Emerald,1,0.05,Any color Colored Terracotta[note 5],1,12 trades,15,
+    Expert,Emerald,1,0.05,Any color Glazed Terracotta[note 5],1,12 trades,15,
+    Master,Emerald,1,0.05,Quartz Pillar,1,12 trades,30[note 3],
+    Master,Emerald,1,0.05,Block of Quartz,1,12 trades,30[note 3],
+    
+
+  Shepherd
+    Job site block: Loom
+
+    Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,White Wool,18,0.05,Emerald,1,16 trades,2
+    Novice,Brown Wool,18,0.05,Emerald,1,16 trades,2
+    Novice,Black Wool,18,0.05,Emerald,1,16 trades,2
+    Novice,Gray Wool,18,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,2,0.05,Shears,1,12 trades,1
+    Apprentice,White Dye,12,0.05,Emerald,1,16 trades,10
+    Apprentice,Gray Dye,12,0.05,Emerald,1,16 trades,10
+    Apprentice,Black Dye,12,0.05,Emerald,1,16 trades,10
+    Apprentice,Light Blue Dye,12,0.05,Emerald,1,16 trades,10
+    Apprentice,Lime Dye,12,0.05,Emerald,1,16 trades,10
+    Apprentice,Emerald,1,0.05,Any color Wool[note 5],1,16 trades,5
+    Apprentice,Emerald,1,0.05,Any color Carpet[note 5],4,16 trades,5
+    Journeyman,Yellow Dye,12,0.05,Emerald,1,16 trades,20
+    Journeyman,Light Gray Dye,12,0.05,Emerald,1,16 trades,20
+    Journeyman,Orange Dye,12,0.05,Emerald,1,16 trades,20
+    Journeyman,Red Dye,12,0.05,Emerald,1,16 trades,20
+    Journeyman,Pink Dye,12,0.05,Emerald,1,16 trades,20
+    Journeyman,Emerald,3,0.05,Any color Bed[note 5],1,12 trades,10
+    Expert,Brown Dye,12,0.05,Emerald,1,16 trades,30
+    Expert,Purple Dye,12,0.05,Emerald,1,16 trades,30
+    Expert,Blue Dye,12,0.05,Emerald,1,16 trades,30
+    Expert,Green Dye,12,0.05,Emerald,1,16 trades,30
+    Expert,Magenta Dye,12,0.05,Emerald,1,16 trades,30
+    Expert,Cyan Dye,12,0.05,Emerald,1,16 trades,30
+    Expert,Emerald,3,0.05,Any color blank Banner[note 5],1,12 trades,15
+    Master,Emerald,2,0.05,Painting,3,12 trades,30[note 3]
+    
+
+  Toolsmith
+    Job site block: Smithing Table
+
+    Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Coal,15,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,1,0.2,Stone Axe,1,12 trades,1
+    Novice,Emerald,1,0.2,Stone Shovel,1,12 trades,1
+    Novice,Emerald,1,0.2,Stone Pickaxe,1,12 trades,1
+    Novice,Emerald,1,0.2,Stone Hoe,1,12 trades,1
+    Apprentice,Iron Ingot,4,0.05,Emerald,1,12 trades,10
+    Apprentice,Emerald,36,0.2,Bell,1,12 trades,5
+    Journeyman,Flint,30,0.05,Emerald,1,12 trades,20
+    Journeyman,Emerald,6–20,0.2,Enchanted[note 2] Iron Axe,1,3 trades,10
+    Journeyman,Emerald,7–21,0.2,Enchanted[note 2] Iron Shovel,1,3 trades,10
+    Journeyman,Emerald,8–22,0.2,Enchanted[note 2] Iron Pickaxe,1,3 trades,10
+    Journeyman,Emerald,4,0.2,Diamond Hoe,1,3 trades,10
+    Expert,Diamond,1,0.05,Emerald,1,12 trades,30
+    Expert,Emerald,17–31,0.2,Enchanted[note 2] Diamond Axe,1,3 trades,15
+    Expert,Emerald,10–24,0.2,Enchanted[note 2] Diamond Shovel,1,3 trades,15
+    Master,Emerald,18–32,0.2,Enchanted[note 2] Diamond Pickaxe,1,3 trades,30[note 3]
+    
+
+  Weaponsmith
+    Job site block: Grindstone
+
+    Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade
+    Level,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,Coal,15,0.05,Emerald,1,16 trades,2
+    Novice,Emerald,3,0.2,Iron Axe,1,12 trades,1
+    Novice,Emerald,7–21,0.05,Enchanted[note 2] Iron Sword,1,3 trades,1
+    Apprentice,Iron Ingot,4,0.05,Emerald,1,12 trades,10
+    Apprentice,Emerald,36,0.2,Bell,1,12 trades,5
+    Journeyman,Flint,24,0.05,Emerald,1,12 trades,20
+    Expert,Diamond,1,0.05,Emerald,1,12 trades,30
+    Expert,Emerald,17–31,0.2,Enchanted[note 2] Diamond Axe,1,3 trades,15
+    Master,Emerald,13–27,0.2,Enchanted[note 2] Diamond Sword,1,3 trades,30[note 3]
+    
+
+Bedrock Edition offers
+  Armorer
+    Job site block: Blast Furnace
+
+    Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade,Armorer Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP given to villager
+    Novice,1,Coal,15,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,5,0.2,Iron Helmet,1,12 trades,1
+    Novice,2,Emerald,9,0.2,Iron Chestplate,1,12 trades,1
+    Novice,2,Emerald,7,0.2,Iron Leggings,1,12 trades,1
+    Novice,2,Emerald,4,0.2,Iron Boots,1,12 trades,1
+    Apprentice,3,Iron Ingot,4,0.05,Emerald,1,12 trades,10
+    Apprentice,4,Emerald,36,0.2,Bell,1,12 trades,5
+    Apprentice,4,Emerald,3,0.2,Chainmail Leggings,1,12 trades,5
+    Apprentice,4,Emerald,1,0.2,Chainmail Boots,1,12 trades,5
+    Journeyman,5,Lava Bucket,1,0.05,Emerald,1,12 trades,20
+    Journeyman,6,Diamond,1,0.05,Emerald,1,12 trades,30
+    Journeyman,7,Emerald,1,0.2,Chainmail Helmet,1,12 trades,10
+    Journeyman,7,Emerald,4,0.2,Chainmail Chestplate,1,12 trades,10
+    Journeyman,7,Emerald,5,0.2,Shield,1,12 trades,10
+    Expert,8,Emerald,19-33,0.2,Enchanted[note 2] Diamond Leggings,1,3 trades,15
+    Expert,8,Emerald,13-27,0.2,Enchanted[note 2] Diamond Boots,1,3 trades,15
+    Master,9,Emerald,13-27,0.2,Enchanted[note 2] Diamond Helmet,1,3 trades,30[note 3]
+    Master,9,Emerald,21-35,0.2,Enchanted[note 2] Diamond Chestplate,1,3 trades,30[note 3]
+    
+
+  Butcher
+    Job site block: Smoker
+
+    Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade,Butcher Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Raw Chicken,14,0.05,Emerald,1,16 trades,2
+    Novice,1,Raw Rabbit,4,0.05,Emerald,1,16 trades,2
+    Novice,1,Raw Porkchop,7,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,1,0.05,Rabbit Stew,1,12 trades,1
+    Apprentice,3,Coal,15,0.05,Emerald,1,16 trades,10
+    Apprentice,4,Emerald,1,0.05,Cooked Chicken,8,16 trades,5
+    Apprentice,4,Emerald,1,0.05,Cooked Porkchop,5,16 trades,5
+    Journeyman,5,Raw Beef,10,0.05,Emerald,1,16 trades,20
+    Journeyman,5,Raw Mutton,7,0.05,Emerald,1,16 trades,20
+    Expert,6,Dried Kelp Block,10,0.05,Emerald,1,12 trades,30
+    Master,7,Sweet Berries,10,0.05,Emerald,1,12 trades,30[note 3]
+    
+
+  Cartographer
+    Job site block: Cartography Table
+
+    Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade,Cartographer Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Paper,24,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,7,0.05,Empty Map,1,12 trades,1
+    Apprentice,3,Glass Pane,11,0.05,Emerald,1,16 trades,10
+    Apprentice,4,Emerald Compass,13 1,0.2,Ocean Explorer Map[note 14],1,12 trades,5
+    Journeyman,5,Compass,1,0.05,Emerald,1,12 trades,20
+    Journeyman,6,Emerald Compass,14 1,0.2,Woodland Explorer Map[note 14],1,12 trades,10
+    Expert,7,Emerald,7,0.05,Item Frame,1,12 trades,15
+    Expert,8,Emerald,3,0.05,one of 16 blank Banner,1,12 trades,15
+    Master,9,Emerald,8,0.05,Globe Banner Pattern,1,12 trades,30[note 3]
+    
+
+  Cleric
+    Job site block: Brewing Stand
+
+    Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade,Cleric Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Rotten Flesh,32,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,1,0.05,Redstone Dust,2,12 trades,1
+    Apprentice,3,Gold Ingot,3,0.05,Emerald,1,12 trades,10
+    Apprentice,4,Emerald,1,0.05,Lapis Lazuli,1,12 trades,5
+    Journeyman,5,Rabbit's Foot,2,0.05,Emerald,1,12 trades,20
+    Journeyman,6,Emerald,4,0.05,Glowstone,1,12 trades,10
+    Expert,7,Scute,4,0.05,Emerald,1,12 trades,30
+    Expert,7,Glass Bottle,9,0.05,Emerald,1,12 trades,30
+    Expert,8,Emerald,5,0.05,Ender Pearl,1,12 trades,15
+    Master,9,Nether Wart,22,0.05,Emerald,1,12 trades,30[note 3]
+    Master,10,Emerald,3,0.05,Bottle o' Enchanting,1,12 trades,30[note 3]
+    
+
+  Farmer
+    Job site block: Composter
+
+    Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade,Farmer Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Wheat,20,0.05,Emerald,1,16 trades,2
+    Novice,1,Potato,26,0.05,Emerald,1,16 trades,2
+    Novice,1,Carrot,22,0.05,Emerald,1,16 trades,2
+    Novice,1,Beetroot,15,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,1,0.05,Bread,6,16 trades,1
+    Apprentice,3,Pumpkin,6,0.05,Emerald,1,12 trades,10
+    Apprentice,4,Emerald,1,0.05,Pumpkin Pie,4,12 trades,5
+    Apprentice,4,Emerald,1,0.05,Apple,4,16 trades,5
+    Journeyman,5,Melon,4,0.05,Emerald,1,12 trades,20
+    Journeyman,6,Emerald,3,0.05,Cookie,18,12 trades,10
+    Expert,7,Emerald,1,0.05,Suspicious Stew[note 15],1,12 trades,15
+    Expert,8,Emerald,1,0.05,Cake,1,12 trades,15
+    Master,9,Emerald,3,0.05,Golden Carrot,3,12 trades,30[note 3]
+    Master,9,Emerald,4,0.05,Glistering Melon,3,12 trades,30[note 3]
+    
+
+  Fisherman
+    Job site block: Barrel
+
+    Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade,Fisherman Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1.0,String,20,0.05,Emerald,1.0,16 trades,2
+    Novice,1.0,Coal,10,0.05,Emerald,1.0,16 trades,2
+    Novice,2.0,Emerald,3,0.05,Bucket of Cod,1.0,16 trades,1
+    Novice,2.0,Emerald Raw Cod,1 6,0.05 0,Cooked Cod,6.0,16 trades,1
+    Apprentice,3.0,Raw Cod,15,0.05,Emerald,1.0,16 trades,10
+    Apprentice,4.0,Emerald,2,0.05,Campfire,1.0,12 trades,5
+    Apprentice,4.0,Emerald Raw Salmon,1 6,0.05 0,Cooked Salmon,6.0,16 trades,5
+    Journeyman,5.0,Raw Salmon,13,0.05,Emerald,1.0,16 trades,20
+    Journeyman,6.0,Emerald,8-22,0.2,Enchanted[note 2] Fishing Rod,1.0,3 trades,10
+    Expert,7.0,Tropical Fish,6,0.05,Emerald,1.0,12 trades,30
+    Master,8.0,Pufferfish,4,0.05,Emerald,1.0,12 trades,30[note 3]
+    Master,9.0,One of 5 Boats[note 7],1,0.05,Emerald,1.0,12 trades,30[note 3]
+    Master,,,,,,,,
+    
+
+  Fletcher
+    Job site block: Fletching Table
+
+    Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade,Fletcher Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Stick,32,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,1,0.05,Arrow,16,12 trades,1
+    Novice,2,Emerald Gravel,1 10,0.05,Flint,10,12 trades,1
+    Apprentice,3,Flint,26,0.05,Emerald,1,12 trades,10
+    Apprentice,4,Emerald,2,0.05,Bow,1,12 trades,5
+    Journeyman,5,String,14,0.05,Emerald,1,16 trades,20
+    Journeyman,6,Emerald,3,0.05,Crossbow,1,12 trades,10
+    Expert,7,Feather,24,0.05,Emerald,1,16 trades,30
+    Expert,8,Emerald,7-21,0.05,Enchanted[note 2] Bow,1,3 trades,15
+    Master,9,Tripwire Hook,8,0.05,Emerald,1,12 trades,30[note 3]
+    Master,10,Emerald,8-22,0.05,Enchanted[note 2] Crossbow,1,3 trades,15[note 3]
+    Master,10,Emerald Arrow,2 5,0.05,1 of 15 Tipped Arrow[note 16],5,12 trades,30[note 3]
+    
+
+  Leatherworker
+    Job site block: Cauldron
+
+    Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade,Leatherworker Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Leather,6,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,3,0.2,Leather Pants[note 9],1,12 trades,1
+    Novice,2,Emerald,7,0.2,Leather Tunic[note 9],1,12 trades,1
+    Apprentice,3,Flint,26,0.05,Emerald,1,12 trades,10
+    Apprentice,4,Emerald,5,0.2,Leather Cap[note 9],1,12 trades,5
+    Apprentice,4,Emerald,4,0.2,Leather Boots[note 9],1,12 trades,5
+    Journeyman,5,Rabbit Hide,9,0.05,Emerald,1,12 trades,20
+    Journeyman,6,Emerald,7,0.2,Leather Tunic[note 9],1,12 trades,10
+    Expert,7,Scute,4,0.05,Emerald,1,12 trades,30
+    Expert,8,Emerald,6,0.2,Leather Horse Armor[note 9],1,12 trades,15
+    Master,9,Emerald,5,0.2,Leather Cap[note 9],1,12 trades,30[note 3]
+    Master,9,Emerald,6,0.2,Saddle,1,12 trades,30[note 3]
+    
+
+  Librarian
+    Job site block: Lectern
+
+    Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade,Librarian Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Paper,24,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,9,0.05,Bookshelf,1,12 trades,1
+    Novice,2,Emerald Book,5–64 1,0.2,Enchanted Book[note 10],1,12 trades,1
+    Apprentice,3,Book,4,0.05,Emerald,1,12 trades,10
+    Apprentice,4,Emerald,1,0.05,Lantern,1,12 trades,5
+    Apprentice,4,Emerald Book,5–64 1,0.2,Enchanted Book[note 10],1,12 trades,5
+    Journeyman,5,Ink Sac,5,0.05,Emerald,1,12 trades,20
+    Journeyman,6,Emerald,1,0.05,Glass,4,12 trades,10
+    Journeyman,6,Emerald Book,5–64 1,0.2,Enchanted Book[note 10],1,12 trades,10
+    Expert,7,Book and Quill,2[note 17],0.05,Emerald,1,12 trades,30
+    Expert,8,Emerald,4,0.05,Compass,1,12 trades,15
+    Expert,8,Emerald,5,0.05,Clock,1,12 trades,15
+    Expert,8,Emerald Book,5–64 1,0.2,Enchanted Book[note 10],1,12 trades,15
+    Master,9,Emerald,20,0.05,Name Tag,1,12 trades,30[note 3]
+    
+
+  Shepherd
+    Job site block: Loom
+
+    Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade,Shepherd Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,One of 4 Wool,18,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,2,0.05,Shears,1,12 trades,1
+    Apprentice,3,One of 5 dye,12,0.05,Emerald,1,16 trades,10
+    Apprentice,4,Emerald,1,0.05,One of 16 Wool,1,16 trades,5
+    Apprentice,4,Emerald,1,0.05,One of 16 Carpet,4,16 trades,5
+    Journeyman,5,One of 5 dye,12,0.05,Emerald,1,16 trades,20
+    Journeyman,6,Emerald,3,0.05,One of 16 Bed,1,12 trades,10
+    Expert,7,One of 6 Dye,12,0.05,Emerald,1,16 trades,30
+    Expert,8,Emerald,3,0.05,One of 16 blank Banner,1,12 trades,15
+    Master,9,Emerald,2,0.05,Painting,3,12 trades,30[note 3]
+    
+
+  Stone Mason
+    Job site block: Stonecutter
+
+    Stone Mason Economic Trade,Stone Mason Economic Trade,Stone Mason Economic Trade,Stone Mason Economic Trade,Stone Mason Economic Trade,Stone Mason Economic Trade,Stone Mason Economic Trade,Stone Mason Economic Trade,Stone Mason Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Clay,10,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,1,0.05,Brick,10,16 trades,1
+    Apprentice,3,Stone,20,0.05,Emerald,1,16 trades,10
+    Apprentice,4,Emerald,1,0.05,Chiseled Stone Bricks,4,16 trades,5
+    Journeyman,5,One of 3 stone variants,16,0.05,Emerald,1,16 trades,20
+    Journeyman,6,Emerald,1,0.05,One of 3 polished stone variants or Dripstone Block,4,16 trades,10
+    Expert,7,Nether Quartz,12,0.05,Emerald,1,12 trades,30
+    Expert,8,Emerald,1,0.05,1 of 16 Colored Terracotta or Glazed Terracotta,1,12 trades,15
+    Master,9,Emerald,1,0.05,Block of Quartz or Quartz Pillar,1,12 trades,30[note 3]
+    
+
+  Toolsmith
+    Job site block: Smithing Table
+
+    Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade,Toolsmith Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Coal,15,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,1,0.2,Stone Axe,1,12 trades,1
+    Novice,2,Emerald,1,0.2,Stone Pickaxe,1,12 trades,1
+    Novice,2,Emerald,1,0.2,Stone Shovel,1,12 trades,1
+    Novice,2,Emerald,1,0.2,Stone Hoe,1,12 trades,1
+    Apprentice,3,Iron Ingot,4,0.05,Emerald,1,12 trades,10
+    Apprentice,4,Emerald,36,0.2,Bell,1,12 trades,5
+    Journeyman,5,Flint,30,0.05,Emerald,1,12 trades,20
+    Journeyman,6,Emerald,6-20,0.2,Enchanted[note 2] Iron Axe,1,3 trades,10
+    Journeyman,6,Emerald,7-21,0.2,Enchanted[note 2] Iron Pickaxe,1,3 trades,10
+    Journeyman,6,Emerald,8-22,0.2,Enchanted[note 2] Iron Shovel,1,3 trades,10
+    Journeyman,6,Emerald,4,0.2,Diamond Hoe,1,3 trades,10
+    Expert,7,Diamond,1,0.05,Emerald,1,12 trades,30
+    Expert,8,Emerald,17-31,0.2,Enchanted[note 2] Diamond Axe,1,3 trades,15
+    Expert,8,Emerald,10-24,0.2,Enchanted[note 2] Diamond Shovel,1,3 trades,15
+    Master,9,Emerald,18-32,0.2,Enchanted[note 2] Diamond Pickaxe,1,3 trades,30[note 3]
+    
+
+  Weaponsmith
+    Job site block: Grindstone
+
+    Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade,Weaponsmith Economic Trade
+    Level,Trade slot,Item wanted,Default quantity,Price multiplier,Item given,Quantity,Trades until disabled,XP to villager
+    Novice,1,Coal,15,0.05,Emerald,1,16 trades,2
+    Novice,2,Emerald,3,0.2,Iron Axe,1,12 trades,1
+    Novice,3,Emerald,7-21,0.2,Enchanted[note 2] Iron Sword,1,3 trades,5
+    Apprentice,4,Iron Ingot,4,0.05,Emerald,1,12 trades,10
+    Apprentice,5,Emerald,36,0.2,Bell,1,12 trades,10
+    Journeyman,6,Flint,24,0.05,Emerald,1,12 trades,20
+    Expert,7,Diamond,1,0.05,Emerald,1,12 trades,30
+    Expert,8,Emerald,17-31,0.2,Enchanted[note 2] Diamond Axe,1,3 trades,15
+    Master,9,Emerald,13-27,0.2,Enchanted[note 2] Diamond Sword,1,3 trades,30[note 3]
+    
+
+Wandering trader sales
+     Unlike other villagers, the wandering trader does not buy items in exchange for emeralds – it only sells items, using emeralds as a currency. Therefore, the following tables' leftmost column is how many emeralds the player needs to give to receive the items listed in the middle column of the table.
+
+  Java Edition sales
+    The wandering trader offers six trades in total: five random ordinary trades and one special trade. The five random trades are chosen from the list below.
+
+    Price,Item,Trades until disabled
+    1,Allium,12
+    1,Azure Bluet,12
+    1,Blue Orchid,8
+    1,Cornflower,12
+    1,Dandelion,12
+    1,Lily of the Valley,7
+    1,Orange Tulip,12
+    1,Oxeye Daisy,12
+    1,Pink Tulip,12
+    1,Poppy,12
+    1,Red Tulip,12
+    1,White Tulip,12
+    1,Fern,12
+    1,Brown Mushroom,12
+    1,Red Mushroom,12
+    1,Beetroot Seeds,12
+    1,Melon Seeds,12
+    1,Pumpkin Seeds,12
+    1,Wheat Seeds,12
+    1,Pumpkin,4
+    1,Sugar Cane,8
+    1,Vines,12
+    1,Lily Pad (×2),5
+    1,Moss Block (×2),5
+    1,Pointed Dripstone (×2),5
+    1,Rooted Dirt (×2),5
+    1,Small Dripleaf (×2),5
+    1,Any color Dye (×3)[note 5],12
+    1,Red Sand (×4),6
+    1,Sand (×8),8
+    2,Glowstone,5
+    2,Sea Pickle,5
+    3,Cactus,8
+    3,Brain Coral Block,8
+    3,Bubble Coral Block,8
+    3,Fire Coral Block,8
+    3,Horn Coral Block,8
+    3,Tube Coral Block,8
+    3,Kelp,12
+    4,Slimeball,5
+    5,Acacia Sapling,8
+    5,Birch Sapling,8
+    5,Dark Oak Sapling,8
+    5,Jungle Sapling,8
+    5,Oak Sapling,8
+    5,Spruce Sapling,8
+    5,Mangrove Propagule,8
+    5,Cherry Sapling,8
+    5,Nautilus Shell,5
+    
+
+    The one random special trade is chosen from the list below. It is always the wandering trader's final trade offer.
+
+    Price,Items,Trades until disabled
+    1,Gunpowder,8
+    3,Podzol (×3),6
+    3,Packed Ice,6
+    5,Bucket of Pufferfish,4
+    5,Bucket of Tropical Fish,4
+    6,Blue Ice,6
+    
+
+    The wandering trader offers nine trades in total: two random trades from purchasing table, two random trades from special selling table, and five random trades from ordinary trades table.
+
+    Purchasing Table,Purchasing Table,Purchasing Table,Purchasing Table
+    Item wanted,Quantity,Price,Trades until disabled
+    Water Bottle,1,1,1
+    Water Bucket,1,2,1
+    Milk Bucket,1,2,1
+    Fermented Spider Eye,1,3,1
+    Baked Potato,4,1,1
+    Hay Bale,1,1,1
+    
+
+    Selling Table (special),Selling Table (special),Selling Table (special),Selling Table (special)
+    Price,Item,Count,Trades until disabled
+    1,Packed Ice,1,6
+    1,Gunpowder,4,2
+    1,Log[3],8,4
+    3,Podzol,3,6
+    5,Potion of Invisibility Duration: 8:00,1,1
+    6,Blue Ice,1,6
+    6-20,Enchanted[note 2] Iron Pickaxe,1,1
+    
+
+    Selling Table (ordinary),Selling Table (ordinary),Selling Table (ordinary),Selling Table (ordinary)
+    Price,Item,Count,Trades until disabled
+    1,Fern,1,12
+    1,Sugar Cane,1,8
+    1,Pumpkin,1,4
+    1,Dandelion Poppy Allium Azure Bluet Red Tulip Orange Tulip White Tulip Pink Tulip Oxeye Daisy Cornflower,1,12
+    1,Blue Orchid,1,8
+    1,Lily of the Valley,1,7
+    1,Wheat Seeds Beetroot Seeds Pumpkin Seeds Melon Seeds,1,12
+    1,One of 16 Dye,3,12
+    1,Vines,3,4
+    1,Brown Mushroom Red Mushroom,3,4
+    1,Lily Pad,5,2
+    1,Small Dripleaf,2,5
+    1,Sand,8,8
+    1,Red Sand,4,6
+    1,Pointed Dripstone,2,5
+    1,Rooted Dirt,2,5
+    1,Moss Block,2,5
+    2,Sea Pickle,1,5
+    2,Glowstone,1,5
+    3,Tropical Fish Bucket Pufferfish Bucket,1,4
+    3,Kelp,1,12
+    3,Cactus,1,8
+    3,Brain Coral Block Bubble Coral Block Fire Coral Block Horn Coral Block Tube Coral Block,1,8
+    4,Slimeball,1,5
+    5,One of 8 Saplings,1,8
+    5,Nautilus Shell,1,5
+    
+
+  Bedrock Edition sales
+    In Bedrock Edition, wandering traders offers 6 random trades. Their trades are unaffected by demand. Five of the random trades are shown in the table below:
+
+    Price,Regular Offer,Single Offer[note 18],Single Offer[note 18],Trades until disabled
+    Price,Regular Offer,Grouped Items,Weight,Trades until disabled
+    1 Emerald,Fern Vines Dandelion Poppy Blue Orchid Allium Azure Bluet Red Tulip Orange Tulip Pink Tulip White Tulip Oxeye Daisy Cornflower Wheat Seeds[note 19] Beetroot Seeds[note 19] Pumpkin Seeds[note 19] Melon Seeds[note 19],Wheat Seeds[note 19] Beetroot Seeds[note 19] Pumpkin Seeds[note 19] Melon Seeds[note 19],4,12
+    1 Emerald,Fern Vines Dandelion Poppy Blue Orchid Allium Azure Bluet Red Tulip Orange Tulip Pink Tulip White Tulip Oxeye Daisy Cornflower Wheat Seeds[note 19] Beetroot Seeds[note 19] Pumpkin Seeds[note 19] Melon Seeds[note 19],Red Dye (×3) Yellow Dye (×3) Orange Dye (×3) Lime Dye (×3) Green Dye (×3) Cyan Dye (×3) Light Blue Dye (×3) Purple Dye (×3) Magenta Dye (×3) Pink Dye (×3) Gray Dye (×3) Light Gray Dye (×3) Blue Dye (x3) Brown Dye (x3) White Dye (x3) Black Dye (x3),16,12
+    1 Emerald,Fern Vines Dandelion Poppy Blue Orchid Allium Azure Bluet Red Tulip Orange Tulip Pink Tulip White Tulip Oxeye Daisy Cornflower Wheat Seeds[note 19] Beetroot Seeds[note 19] Pumpkin Seeds[note 19] Melon Seeds[note 19],Brown Mushroom Red Mushroom,2,12
+    1 Emerald,Sugar Cane Sand (×8),–,–,8
+    1 Emerald,Lily of the Valley,–,–,7
+    1 Emerald,Red Sand (×4),–,–,6
+    1 Emerald,Lily Pad (×2) Pointed Dripstone (x2) Moss Block (x2) Rooted Dirt (x2) Small Dripleaf (x2),–,–,5
+    1 Emerald,Pumpkin,–,–,4
+    2 Emerald,Sea Pickle,–,–,5
+    2 Emerald,Glowstone,–,–,5
+    3 Emerald,Kelp,–,–,12
+    3 Emerald,Cactus,Brain Coral Block Bubble Coral Block Fire Coral Block Horn Coral Block Tube Coral Block,5,8
+    4 Emerald,Slimeball,–,–,5
+    5 Emerald,–,Saplings,7,8
+    5 Emerald,Nautilus Shell,–,–,5
+    
+
+    The other random trade is shown below (these items are chosen for each wandering trader and always offered but only one of them):
+
+    Price,Items,Trades until disabled
+    1 Emerald,Gunpowder,8
+    3 Emerald,Podzol (×3) Packed Ice,6
+    5 Emerald,Bucket of Pufferfish Bucket of Tropical Fish,4
+    6 Emerald,Blue Ice,6
+    
+
+Notes
+    
+
+Achievements
+    Icon,Icon,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    PS4,Other,Achievement,In-game description,Actual requirements (if different),Gamerscore earned,Trophy type (PS4)
+    ,,"The Haggler{ ""anchor"": """", ""title"": ""The Haggler"", ""icon"": """", ""title"": ""The Haggler"", ""description"": ""Acquire or spend 30 Emeralds by trading with villagers or with [[wandering trader]]. [''[[Wikipedia:Sic|sic]]'']  "", ""requirements"": ""  "", ""gamerscore"": ""30G  "", ""trophytype"": ""Silver  "", ""rewards"": """"Emerald Suit Coat"" outerwear "" }",Acquire or spend 30 Emeralds by trading with villagers or with wandering trader. [sic],—,30G,Silver
+    ,,"Treasure Hunter{ ""anchor"": """", ""title"": ""Treasure Hunter"", ""icon"": """", ""title"": ""Treasure Hunter"", ""description"": ""Acquire a map from a cartographer villager, then enter the revealed structure  "", ""requirements"": ""Visit the structure indicated while the purchased map is in your main hand (hotbar).  "", ""gamerscore"": ""40G  "", ""trophytype"": ""Silver  "", ""rewards"": """"Archaeologist's Hat"" headwear "" }","Acquire a map from a cartographer villager, then enter the revealed structure",Visit the structure indicated while the purchased map is in your main hand (hotbar).,40G,Silver
+    ,,"Buy Low, Sell High{ ""anchor"": """", ""title"": ""Buy Low, Sell High"", ""icon"": ""buy-low-sell-high"", ""title"": ""Buy Low, Sell High"", ""description"": ""Trade for the best possible price.  "", ""requirements"": ""Buy something for 1 emerald, or when the [[Hero of the Village]] effect is applied.  "", ""gamerscore"": ""50G  "", ""trophytype"": ""Gold  "", ""rewards"": """"Gold Club Jacket"" outerwear "" }",Trade for the best possible price.,"Buy something for 1 emerald, or when the Hero of the Village effect is applied.",50G,Gold
+    ,,"Master Trader{ ""anchor"": """", ""title"": ""Master Trader"", ""icon"": """", ""title"": ""Master Trader"", ""description"": ""Trade for 1,000 emeralds.  "", ""requirements"": ""Obtain 1,000 emeralds from trading with villagers.  "", ""gamerscore"": ""30G  "", ""trophytype"": ""Silver  "", ""rewards"": """"Emerald Headwrap"" headwear "" }","Trade for 1,000 emeralds.","Obtain 1,000 emeralds from trading with villagers.",30G,Silver
+    File:AchievementSprite star-trader.png,,"Star trader{ ""anchor"": """", ""title"": ""Star trader"", ""icon"": """", ""title"": ""Star trader"", ""description"": ""Trade with a villager at the build height limit.  "", ""requirements"": ""Trade with a villager at y320.  "", ""gamerscore"": ""20G  "", ""trophytype"": ""Silver "", ""rewards"": """" }",Trade with a villager at the build height limit.,Trade with a villager at y320.,20G,Silver
+    
+
+Advancements
+    Icon,Advancement,In-game description,Parent,Actual requirements (if different),Resource location
+    ,Getting an Upgrade,Construct a better Pickaxe,Stone Age,Have a stone pickaxe in your inventory.,"story/upgrade_tools {""anchor"": """", ""title"": ""Getting an Upgrade"", ""icon"": ""Stone Pickaxe "", ""icon-style"": ""plain"", ""title"": ""Getting an Upgrade"", ""description"": ""Construct a better Pickaxe "", ""parent"": ""Stone Age "", ""requirements"": ""Have a [[pickaxe|stone pickaxe]] in your inventory. "", ""resourcelocation"": ""story/upgrade_tools "", ""rewards"": """" }"
+    ,Suit Up,Protect yourself with a piece of iron armor,Acquire Hardware,Have any type of iron armor in your inventory.,"story/obtain_armor {""anchor"": """", ""title"": ""Suit Up"", ""icon"": ""Iron Chestplate "", ""icon-style"": ""plain"", ""title"": ""Suit Up"", ""description"": ""Protect yourself with a piece of iron armor "", ""parent"": ""Acquire Hardware "", ""requirements"": ""Have any type of iron [[armor]] in your inventory. "", ""resourcelocation"": ""story/obtain_armor "", ""rewards"": """" }"
+    ,Isn't It Iron Pick,Upgrade your Pickaxe,Acquire Hardware,Have an iron pickaxe in your inventory.,"story/iron_tools {""anchor"": """", ""title"": ""Isn't It Iron Pick"", ""icon"": ""Iron Pickaxe "", ""icon-style"": ""plain"", ""title"": ""Isn't It Iron Pick"", ""description"": ""Upgrade your Pickaxe "", ""parent"": ""Acquire Hardware "", ""requirements"": ""Have an [[pickaxe|iron pickaxe]] in your inventory. "", ""resourcelocation"": ""story/iron_tools "", ""rewards"": """" }"
+    ,Cover Me with Diamonds,Diamond armor saves lives,Diamonds!,Have any type of diamond armor in your inventory.,"story/shiny_gear {""anchor"": """", ""title"": ""Cover Me with Diamonds"", ""icon"": ""Diamond Chestplate "", ""icon-style"": ""plain"", ""title"": ""Cover Me with Diamonds"", ""description"": ""Diamond armor saves lives "", ""parent"": ""Diamonds! "", ""requirements"": ""Have any type of diamond [[armor]] in your inventory. "", ""resourcelocation"": ""story/shiny_gear "", ""rewards"": """" }"
+    ,What a Deal!,Successfully trade with a Villager,Adventure,"Take an item from a villager or wandering trader's trading output slot, and put it in your inventory.","adventure/trade {""anchor"": """", ""title"": ""What a Deal!"", ""icon"": ""Emerald "", ""icon-style"": ""plain"", ""title"": ""What a Deal!"", ""description"": ""Successfully trade with a Villager "", ""parent"": ""Adventure "", ""requirements"": ""Take an item from a [[villager]] or [[wandering trader]]'s [[trading]] output slot, and put it in your inventory. "", ""resourcelocation"": ""adventure/trade "", ""rewards"": ""— "" }"
+    ,Star Trader,Trade with a Villager at the build height limit,What a Deal!,Stand on any block that is higher than 318 and trade with a villager or wandering trader.,"adventure/trade_at_world_height {""anchor"": """", ""title"": ""Star Trader"", ""icon"": ""Emerald "", ""icon-style"": ""plain"", ""title"": ""Star Trader"", ""description"": ""Trade with a Villager at the build height limit "", ""parent"": ""What a Deal! "", ""requirements"": ""Stand on any block that is higher than 318 and trade with a [[villager]] or [[wandering trader]]. "", ""resourcelocation"": ""adventure/trade_at_world_height "", ""rewards"": ""— "" }"
+    
+
+Video
+History
+    Java Edition Beta,Java Edition Beta.1,Java Edition Beta.2,Java Edition Beta.3,Java Edition Beta.4,Java Edition Beta.5
+    "August 31, 2010","August 31, 2010","August 31, 2010","August 31, 2010","August 31, 2010","The first time Notch hinted at plans for a possible future trading system was in an interview during MinecraftCon. The implementation of villages themselves and their inhabitants wasn't even confirmed at this point, but Notch still had a couple of ideas: ""If you treat the villagers well, they become friendly to you and might start throwing things at you as gifts. If you treat them badly though by attacking and killing them they hate you and might chase you."" Notch also mentioned a meter of how much ""villagers like you."" {""type"": ""java Beta"", ""version"": ""August 31, 2010"", ""content"": ""The first time (link to Markus Persson article, displayed as Notch) hinted at plans for a possible future trading system was in an interview during (link to MINECON 2010 article, displayed as MinecraftCon). The implementation of (link to village article, displayed as villages) themselves and their inhabitants wasn't even confirmed at this point, but Notch still had a couple of ideas: \""If you treat the villagers well, they become friendly to you and might start throwing things at you as gifts. If you treat them badly though by attacking and killing them they hate you and might chase you.\""<br>Notch also mentioned a meter of how much \""villagers like you.\""""}"
+    Java Edition,Java Edition,Java Edition,Java Edition,Java Edition,Java Edition
+    "May 21, 2012","May 21, 2012","May 21, 2012","May 21, 2012","May 21, 2012","Jeb released a screenshot of himself testing the Trading System. The image showed buying and selling areas. {""type"": ""java"", ""version"": ""May 21, 2012"", ""content"": ""(link to Jens Bergensten article, displayed as Jeb) released a screenshot of himself testing the Trading System. The image showed buying and selling areas.""}"
+    "May 21, 2012","May 21, 2012","May 21, 2012","May 21, 2012","May 21, 2012","An ore block can be seen in the background later revealed in snapshot 12w21a to be ruby ore, it was changed to emerald ore before 12w21a because Dinnerbone is colorblind [4] {""type"": ""java"", ""version"": ""May 21, 2012"", ""content"": ""An ore block can be seen in the background later revealed in snapshot 12w21a to be (link to History_of_textures/Unused_textures#Ruby article, displayed as ruby) ore, it was changed to (link to emerald ore article, displayed as emerald ore) before 12w21a because (link to Nathan Adams article, displayed as Dinnerbone) is colorblind""}"
+    1.3.1,1.3.1,12w21a,12w21a,12w21a,"Added villager trading. {""type"": ""java"", ""version"": ""1.3.1"", ""snap"": ""12w21a"", ""content"": ""Added villager trading.""}"
+    1.3.1,1.3.1,12w22a,12w22a,12w22a,"Eyes of Ender are now sold by priests instead of bought, and rotten flesh is no longer bought. {""type"": ""java"", ""version"": ""1.3.1"", ""snap"": ""12w22a"", ""content"": ""(link to Eyes of Ender article, displayed as Eyes of Ender) are now sold by priests instead of bought, and (link to rotten flesh article, displayed as rotten flesh) is no longer bought.""}"
+    1.3.1,1.3.1,12w22a,12w22a,12w22a,"The trading UI has been changed where an extra input space has been added where tools can be placed for buying enchantments and/or repair. {""type"": ""java"", ""version"": ""1.3.1"", ""snap"": ""12w22a"", ""content"": ""The trading UI has been changed where an extra input space has been added where tools can be placed for buying enchantments and/or repair.""}"
+    1.3.1,1.3.1,12w23a,12w23a,12w23a,"Before this snapshot, the librarian defaulted to written books instead of gold ingots, since the written books had a potential offer of 1.3. {""type"": ""java"", ""version"": ""1.3.1"", ""snap"": ""12w23a"", ""content"": ""Before this snapshot, the librarian defaulted to (link to written books article, displayed as written books) instead of (link to gold ingots article, displayed as gold ingots), since the written books had a potential offer of 1.3.""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"The librarian's paper offer was adjusted to 24–35 paper per emerald from 19-29 paper {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""The librarian's paper offer was adjusted to 24–35 (link to paper article, displayed as paper) per emerald from 19-29 paper""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"The farmer's arrow offer was fixed to sell 9-12 arrows from only 5 before. The original 1 emerald for 5 arrows trade was a result of a bug in the code where the minimum and maximum values of the arrow trade were swapped. {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""The farmer's arrow offer was fixed to sell 9-12 (link to arrow article, displayed as arrows) from only 5 before. The original 1 emerald for 5 arrows trade was a result of a bug in the code where the minimum and maximum values of the arrow trade were swapped.""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"The librarian's buy book offer was adjusted to 11-12 books from 12-14 {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""The librarian's buy book offer was adjusted to 11-12 (link to book article, displayed as books) from 12-14""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"The farmer's gravel to flint trade now produces 4-5 flint from 2-3 {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""The farmer's gravel to flint trade now produces 4-5 (link to flint article, displayed as flint) from 2-3""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"The offer probability mechanic was changed: as more offers exist for a villager, the probability of all offers rise. When an offer's probability goes beyond a certain limit, its probability goes down. The net effect is that rarer offers become more common when a villager has many offers, and common offers become rarer. {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""The offer probability mechanic was changed: as more offers exist for a villager, the probability of all offers rise. When an offer's probability goes beyond a certain limit, its probability goes down. The net effect is that rarer offers become more common when a villager has many offers, and common offers become rarer.""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"The offer removal mechanic has been replaced with an offer disabling mechanic. {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""The offer removal mechanic has been replaced with an offer disabling mechanic.""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"All offers begin with 7 uses, allowing the offer to be traded up to seven times. {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""All offers begin with 7 uses, allowing the offer to be traded up to seven times.""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"After this, even if the player has not left the trading menu, the offer is disabled. {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""After this, even if the player has not left the trading menu, the offer is disabled.""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"If a player trades the last offer on the list and closes the menu, waiting for particles to appear around the villager, all disabled offers are renewed with 2–12 additional uses added to them. {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""If a player trades the last offer on the list and closes the menu, waiting for particles to appear around the villager, all disabled offers are renewed with 2–12 additional uses added to them.""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"It is possible for the final offer slot to be disabled, at which point no new offers can be generated and no existing offers can be renewed. {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""It is possible for the final offer slot to be disabled, at which point no new offers can be generated and no existing offers can be renewed.""}"
+    1.4.2,1.4.2,12w32a,12w32a,12w32a,"Trading with the last offer slot available increases the player's popularity with the village by one point. Popularity applies to the village as a whole; other players are not affected. {""type"": ""java"", ""version"": ""1.4.2"", ""snap"": ""12w32a"", ""content"": ""Trading with the last offer slot available increases the player's popularity with the village by one point. Popularity applies to the village as a whole; other players are not affected.""}"
+    1.4.6,1.4.6,12w49a,12w49a,12w49a,"Enchanted books were added, and villagers could offer them. {""type"": ""java"", ""version"": ""1.4.6"", ""snap"": ""12w49a"", ""content"": ""(link to Enchanted books article, displayed as Enchanted books) were added, and villagers could offer them.""}"
+    1.5,1.5,13w04a,13w04a,13w04a,"A villager spawned from a renamed spawn egg shows its name in the trading interface in place of ""Villager"". {""type"": ""java"", ""version"": ""1.5"", ""snap"": ""13w04a"", ""content"": ""A villager spawned from a renamed (link to spawn egg article, displayed as spawn egg) shows its name in the trading interface in place of \""Villager\"".""}"
+    1.8,1.8,14w02a,14w02a,14w02a,"Villager trading has been revamped. See here for offers before 1.8. {""type"": ""java"", ""version"": ""1.8"", ""snap"": ""14w02a"", ""content"": ""Villager trading has been revamped. See (link to /Before Java Edition 1.8 article, displayed as here) for offers before 1.8.""}"
+    1.8,1.8,14w02a,14w02a,14w02a,"Trading now gives the player experience. {""type"": ""java"", ""version"": ""1.8"", ""snap"": ""14w02a"", ""content"": ""Trading now gives the player (link to experience article, displayed as experience).""}"
+    1.8,1.8,14w03a,14w03a,14w03a,"Villager clerics no longer buy ender pearls, as they did in 14w02a. {""type"": ""java"", ""version"": ""1.8"", ""snap"": ""14w03a"", ""content"": ""Villager clerics no longer buy (link to ender pearls article, displayed as ender pearls), as they did in 14w02a.""}"
+    1.8,1.8,14w31a,14w31a,14w31a,"Clerics now sell bottles o' enchanting, prices range from 3 to 11 emeralds each. {""type"": ""java"", ""version"": ""1.8"", ""snap"": ""14w31a"", ""content"": ""Clerics now sell (link to bottles o' enchanting article, displayed as bottles o' enchanting), prices range from 3 to 11 emeralds each.""}"
+    1.9,1.9,15w41a,15w41a,15w41a,"Clerics no longer sell eyes of ender. {""type"": ""java"", ""version"": ""1.9"", ""snap"": ""15w41a"", ""content"": ""Clerics no longer sell (link to eyes of ender article, displayed as eyes of ender).""}"
+    1.9,1.9,15w41a,15w41a,15w41a,"Clerics now sell ender pearls. Prices range from 4 to 7 emeralds each. {""type"": ""java"", ""version"": ""1.9"", ""snap"": ""15w41a"", ""content"": ""Clerics now sell (link to ender pearls article, displayed as ender pearls). Prices range from 4 to 7 emeralds each.""}"
+    1.9,1.9,15w43a,15w43a,15w43a,"Librarians charge double for books with ""treasure"" enchantments. {""type"": ""java"", ""version"": ""1.9"", ""snap"": ""15w43a"", ""content"": ""Librarians charge double for (link to Enchanted Book article, displayed as books with \""treasure\"" enchantments).""}"
+    1.11,1.11,16w33a,16w33a,16w33a,"Farmers now sell 5 to 7 apples and 6 to 10 cookies for an emerald instead of just 5 and 6 respectively. {""type"": ""java"", ""version"": ""1.11"", ""snap"": ""16w33a"", ""content"": ""Farmers now sell 5 to 7 (link to apple article, displayed as apples) and 6 to 10 (link to cookie article, displayed as cookies) for an (link to emerald article, displayed as emerald) instead of just 5 and 6 respectively.""}"
+    1.11,1.11,16w39a,16w39a,16w39a,"Added new trades through the Cartographer career. {""type"": ""java"", ""version"": ""1.11"", ""snap"": ""16w39a"", ""content"": ""Added new trades through the Cartographer career.""}"
+    1.14,1.14,19w05a,19w05a,19w05a,"Added wandering traders, which can trade with the player. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w05a"", ""content"": ""Added (link to wandering trader article, displayed as wandering traders), which can trade with the player.""}"
+    1.14,1.14,19w11a,19w11a,19w11a,"Revamped the trading system, adding many new trades for each villager profession. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w11a"", ""content"": ""Revamped the trading system, adding many new trades for each villager profession.""}"
+    1.14,1.14,19w11a,19w11a,19w11a,"Villager profession now depends on their job site block, rather than randomly assigned at birth. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w11a"", ""content"": ""Villager profession now depends on their job site block, rather than randomly assigned at birth.""}"
+    1.14,1.14,19w11a,19w11a,19w11a,"Villager trading prices now depend on the player's popularity in the village. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w11a"", ""content"": ""Villager trading prices now depend on the player's popularity in the village.""}"
+    1.14,1.14,19w11a,19w11a,19w11a,"Villagers now resupply their trades up to two times a day, if they get to work at a job site block. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w11a"", ""content"": ""Villagers now resupply their trades up to two times a day, if they get to work at a (link to Villager#Job site blocks article, displayed as job site block).""}"
+    1.14,1.14,19w11a,19w11a,19w11a,"Added the mason profession, which uses a stonecutter as a job site block. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w11a"", ""content"": ""Added the mason profession, which uses a (link to stonecutter article, displayed as stonecutter) as a job site block.""}"
+    1.14,1.14,19w11a,19w11a,19w11a,"The trading UI has been updated. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w11a"", ""content"": ""The trading UI has been updated.""}"
+    1.14,1.14,19w11a,19w11a,19w11a,"The villager now gains experience as it trades with the player, and the experience is visible in a bar on top of the trading UI. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w11a"", ""content"": ""The villager now gains experience as it trades with the player, and the experience is visible in a bar on top of the trading UI.""}"
+    1.14,1.14,19w13b,19w13b,19w13b,"All available trades are now listed in a sidebar on the left of the trading interface. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w13b"", ""content"": ""All available trades are now listed in a sidebar on the left of the trading interface.""}"
+    1.14,1.14,19w13b,19w13b,19w13b,"When the player has the required materials, clicking on an available trade puts the items into the slots automatically. {""type"": ""java"", ""version"": ""1.14"", ""snap"": ""19w13b"", ""content"": ""When the player has the required materials, clicking on an available trade puts the items into the slots automatically.""}"
+    1.15,1.15,19w45a,19w45a,19w45a,"Librarians now sell one bookshelf for nine emeralds, instead of three bookshelves for six emeralds. {""type"": ""java"", ""version"": ""1.15"", ""snap"": ""19w45a"", ""content"": ""Librarians now sell one (link to bookshelf article, displayed as bookshelf) for nine emeralds, instead of three bookshelves for six emeralds.""}"
+    1.17,1.17,21w05a,21w05a,21w05a,"Wandering traders now can sell small dripleaf. {""type"": ""java"", ""version"": ""1.17"", ""snap"": ""21w05a"", ""content"": ""Wandering traders now can sell (link to small dripleaf article, displayed as small dripleaf).""}"
+    1.17,1.17,21w13a,21w13a,21w13a,"Wandering traders now can sell pointed dripstone, rooted dirt and moss block. {""type"": ""java"", ""version"": ""1.17"", ""snap"": ""21w13a"", ""content"": ""Wandering traders now can sell (link to pointed dripstone article, displayed as pointed dripstone), (link to rooted dirt article, displayed as rooted dirt) and (link to moss block article, displayed as moss block).""}"
+    1.17,1.17,21w13a,21w13a,21w13a,"Mason villagers now sell dripstone blocks. {""type"": ""java"", ""version"": ""1.17"", ""snap"": ""21w13a"", ""content"": ""Mason villagers now sell (link to dripstone blocks article, displayed as dripstone blocks).""}"
+    1.19,1.19,22w15a,22w15a,22w15a,"Wandering traders can now sell mangrove propagules. {""type"": ""java"", ""version"": ""1.19"", ""snap"": ""22w15a"", ""content"": ""Wandering traders can now sell (link to mangrove propagule article, displayed as mangrove propagules).""}"
+    1.20 (Experimental),1.20 (Experimental),23w07a,23w07a,23w07a,"Wandering traders can now sell cherry saplings. {""type"": ""java"", ""version"": ""1.20<br>(Experimental)"", ""snap"": ""23w07a"", ""content"": ""Wandering traders can now sell (link to cherry sapling article, displayed as cherry saplings).""}"
+    1.20.2,1.20.2,23w31a,23w31a,23w31a,"A villager now only gives a big discount the first time it is cured from a zombie villager. There are no longer multiple stacked discounts if a villager is zombified and cured multiple times.[5] {""type"": ""java"", ""version"": ""1.20.2"", ""snap"": ""23w31a"", ""content"": ""A villager now only gives a big discount the first time it is cured from a zombie villager. There are no longer multiple stacked discounts if a villager is zombified and cured multiple times.""}"
+    1.20.2,1.20.2,23w31a,23w31a,23w31a,"Existing villagers with multiple curing discounts keep their lowered prices when updated to this snapshot. {""type"": ""java"", ""version"": ""1.20.2"", ""snap"": ""23w31a"", ""content"": ""Existing villagers with multiple curing discounts keep their lowered prices when updated to this snapshot.""}"
+    1.20.2,1.20.2,1.20.2 Pre-release 1,1.20.2 Pre-release 1,1.20.2 Pre-release 1,"When villagers unlock new trades, the order of those trades in the UI is now always random instead of sometimes being deterministic. {""type"": ""java"", ""version"": ""1.20.2"", ""snap"": ""1.20.2 Pre-release 1"", ""content"": ""When villagers unlock new trades, the order of those trades in the UI is now always random instead of sometimes being deterministic.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),23w31a,23w31a,23w31a,"Librarians from different biomes now sell different enchanted books. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""23w31a"", ""content"": ""Librarians from different biomes now sell different enchanted books.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),23w31a,23w31a,23w31a,"Each village biome has one special enchantment that is only available from master-level librarians, and players must visit all seven village biomes to get all the enchanted books available from trading. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""23w31a"", ""content"": ""Each village biome has one special enchantment that is only available from master-level librarians, and players must visit all seven village biomes to get all the enchanted books available from trading.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),23w31a,23w31a,23w31a,"Some enchanted book trades are exclusive to jungle and swamp villagers, which do not spawn natually, unless villagers are brought to and bred in jungle and swamp biomes. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""23w31a"", ""content"": ""Some enchanted book trades are exclusive to jungle and swamp villagers, which do not spawn natually, unless villagers are brought to and bred in jungle and swamp biomes.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),23w31a,23w31a,23w31a,"Enchantments for tridents, crossbows and fishing rods are no longer obtainable from trading, and must be acquired by other means. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""23w31a"", ""content"": ""Enchantments for (link to trident article, displayed as tridents), (link to crossbow article, displayed as crossbows) and (link to fishing rod article, displayed as fishing rods) are no longer obtainable from trading, and must be acquired by other means.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),23w31a,23w31a,23w31a,"Wandering traders now sell more items, and buy certain items from the player. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""23w31a"", ""content"": ""Wandering traders now sell more items, and buy certain items from the player.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),23w31a,23w31a,23w31a,"Some of the existing trades from wandering traders have reduced prices. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""23w31a"", ""content"": ""Some of the existing trades from wandering traders have reduced prices.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),1.20.2 Pre-release 1,1.20.2 Pre-release 1,1.20.2 Pre-release 1,"Added seven new maps which cartographers can sell. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""1.20.2 Pre-release 1"", ""content"": ""Added seven new maps which cartographers can sell.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),1.20.2 Pre-release 1,1.20.2 Pre-release 1,1.20.2 Pre-release 1,"Buying diamond armor from armorers now also requires a small amount of diamonds. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""1.20.2 Pre-release 1"", ""content"": ""Buying diamond armor from armorers now also requires a small amount of diamonds.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),1.20.2 Pre-release 1,1.20.2 Pre-release 1,1.20.2 Pre-release 1,"Most master-level armorers buy iron blocks and pay 4 emeralds for them. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""1.20.2 Pre-release 1"", ""content"": ""Most master-level armorers buy iron blocks and pay 4 emeralds for them.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),1.20.2 Pre-release 1,1.20.2 Pre-release 1,1.20.2 Pre-release 1,"Chainmail armor is exclusively sold by jungle and swamp armorers. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""1.20.2 Pre-release 1"", ""content"": ""Chainmail armor is exclusively sold by jungle and swamp armorers.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),1.20.2 Pre-release 1,1.20.2 Pre-release 1,1.20.2 Pre-release 1,"The savanna armorer sells cursed diamond armor at reduced prices. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""1.20.2 Pre-release 1"", ""content"": ""The savanna armorer sells cursed diamond armor at reduced prices.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),1.20.2 Pre-release 1,1.20.2 Pre-release 1,1.20.2 Pre-release 1,"The taiga armorer can swap one piece of diamond armor for another. {""type"": ""java"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""1.20.2 Pre-release 1"", ""content"": ""The taiga armorer can swap one piece of diamond armor for another.""}"
+    Pocket Edition,Pocket Edition,Pocket Edition,Pocket Edition,Pocket Edition,Pocket Edition
+    1.0.4,1.0.4,alpha 1.0.4.0,alpha 1.0.4.0,alpha 1.0.4.0,"Added villager trading. {""type"": ""pocket"", ""version"": ""1.0.4"", ""snap"": ""alpha 1.0.4.0"", ""content"": ""Added villager trading.""}"
+    1.1.0,1.1.0,alpha 1.1.0.3,alpha 1.1.0.3,alpha 1.1.0.3,"Added new trades through the Cartographer career. {""type"": ""pocket"", ""version"": ""1.1.0"", ""snap"": ""alpha 1.1.0.3"", ""content"": ""Added new trades through the Cartographer career.""}"
+    Bedrock Edition,Bedrock Edition,Bedrock Edition,Bedrock Edition,Bedrock Edition,Bedrock Edition
+    1.2.13,1.2.13,beta 1.2.13.5,beta 1.2.13.5,beta 1.2.13.5,"Added Curse of Binding and Curse of Vanishing enchantments, which at this time can be obtained only via trading with librarians. {""type"": ""bedrock"", ""version"": ""1.2.13"", ""snap"": ""beta 1.2.13.5"", ""content"": ""Added (link to Curse of Binding article, displayed as Curse of Binding) and (link to Curse of Vanishing article, displayed as Curse of Vanishing) enchantments, which at this time can be obtained only via trading with librarians.""}"
+    1.4.0,1.4.0,beta 1.2.20.2,beta 1.2.20.2,beta 1.2.20.2,"Removed the curse enchantments in enchanted books from librarian trading. {""type"": ""bedrock"", ""version"": ""1.4.0"", ""snap"": ""beta 1.2.20.2"", ""content"": ""Removed the curse enchantments in (link to enchanted books article, displayed as enchanted books) from librarian trading.""}"
+    1.10.0,1.10.0,beta 1.10.0.3,beta 1.10.0.3,beta 1.10.0.3,"Added new trades through the stone mason villager profession and wandering trader. {""type"": ""bedrock"", ""version"": ""1.10.0"", ""snap"": ""beta 1.10.0.3"", ""content"": ""Added new trades through the stone mason villager profession and (link to wandering trader article, displayed as wandering trader).""}"
+    1.11.0,1.11.0,beta 1.11.0.1,beta 1.11.0.1,beta 1.11.0.1,"Added economic trades, where players can unlock multiple tiers at once by leveling up villagers. {""type"": ""bedrock"", ""version"": ""1.11.0"", ""snap"": ""beta 1.11.0.1"", ""content"": ""Added economic trades, where players can unlock multiple tiers at once by leveling up villagers.""}"
+    1.11.0,1.11.0,beta 1.11.0.1,beta 1.11.0.1,beta 1.11.0.1,"Villagers now have a demand in which their emerald cost can change higher or lower than usual. {""type"": ""bedrock"", ""version"": ""1.11.0"", ""snap"": ""beta 1.11.0.1"", ""content"": ""Villagers now have a demand in which their emerald cost can change higher or lower than usual.""}"
+    1.11.0,1.11.0,beta 1.11.0.4,beta 1.11.0.4,beta 1.11.0.4,"Changed trading for villagers. {""type"": ""bedrock"", ""version"": ""1.11.0"", ""snap"": ""beta 1.11.0.4"", ""content"": ""Changed trading for villagers.""}"
+    1.11.0,1.11.0,beta 1.11.0.4,beta 1.11.0.4,beta 1.11.0.4,"Villager no longer instantly resupply their trades when disabled, as now they need to work at a job site block to resupply themselves. {""type"": ""bedrock"", ""version"": ""1.11.0"", ""snap"": ""beta 1.11.0.4"", ""content"": ""Villager no longer instantly resupply their trades when disabled, as now they need to work at a (link to Villager#Job site blocks article, displayed as job site) block to resupply themselves.""}"
+    1.11.0,1.11.0,beta 1.11.0.4,beta 1.11.0.4,beta 1.11.0.4,"Hero of the Village now gives a trading price discount, except for one emerald trades (as it already costs one emerald). {""type"": ""bedrock"", ""version"": ""1.11.0"", ""snap"": ""beta 1.11.0.4"", ""content"": ""(link to Hero of the Village article, displayed as Hero of the Village) now gives a trading price discount, except for one emerald trades (as it already costs one emerald).""}"
+    1.11.0,1.11.0,beta 1.11.0.7,beta 1.11.0.7,beta 1.11.0.7,"Pressing use on a trade now auto-trades items. {""type"": ""bedrock"", ""version"": ""1.11.0"", ""snap"": ""beta 1.11.0.7"", ""content"": ""Pressing <span class=\""explain \"" title=\""Defaults to right click on mouse or left trigger on gamepad.\"">use</span> on a trade now auto-trades items.""}"
+    1.11.0,1.11.0,beta 1.11.0.7,beta 1.11.0.7,beta 1.11.0.7,"Reverted cake trade from farmer villagers, increased max amount of some trade until disabled for master level stone mason and wandering trader. {""type"": ""bedrock"", ""version"": ""1.11.0"", ""snap"": ""beta 1.11.0.7"", ""content"": ""Reverted cake trade from farmer villagers, increased max amount of some trade until disabled for master level stone mason and wandering trader.""}"
+    1.12.0,1.12.0,beta 1.12.0.3,beta 1.12.0.3,beta 1.12.0.3,"Changed some trades for both villager and wandering trader. {""type"": ""bedrock"", ""version"": ""1.12.0"", ""snap"": ""beta 1.12.0.3"", ""content"": ""Changed some trades for both villager and wandering trader.""}"
+    1.12.0,1.12.0,beta 1.12.0.4,beta 1.12.0.4,beta 1.12.0.4,"Removed regular sand from the wandering trader trades and adjusted the cost of a diamond hoe on the toolsmith. {""type"": ""bedrock"", ""version"": ""1.12.0"", ""snap"": ""beta 1.12.0.4"", ""content"": ""Removed regular sand from the wandering trader trades and adjusted the cost of a (link to diamond hoe article, displayed as diamond hoe) on the toolsmith.""}"
+    1.13.0,1.13.0,beta 1.13.0.1,beta 1.13.0.1,beta 1.13.0.1,"Cartographer villager now buy 11 glass panes, rather than 10. {""type"": ""bedrock"", ""version"": ""1.13.0"", ""snap"": ""beta 1.13.0.1"", ""content"": ""Cartographer villager now buy 11 (link to glass panes article, displayed as glass panes), rather than 10.""}"
+    1.13.0,1.13.0,beta 1.13.0.15,beta 1.13.0.15,beta 1.13.0.15,"Farmer villagers now sell suspicious stew. {""type"": ""bedrock"", ""version"": ""1.13.0"", ""snap"": ""beta 1.13.0.15"", ""content"": ""Farmer villagers now sell (link to suspicious stew article, displayed as suspicious stew).""}"
+    1.16.0,1.16.0,beta 1.16.0.57,beta 1.16.0.57,beta 1.16.0.57,"Villager trade values have been changed to closely match Java Edition. {""type"": ""bedrock"", ""version"": ""1.16.0"", ""snap"": ""beta 1.16.0.57"", ""content"": ""Villager trade values have been changed to closely match ''Java Edition''.""}"
+    1.16.0,1.16.0,?,?,?,"Enchanted items now cost in a range. {""type"": ""bedrock"", ""version"": ""1.16.0"", ""snap"": ""?"", ""content"": ""Enchanted items now cost in a range.""}"
+    1.17.0,1.17.0,beta 1.16.230.54,beta 1.16.230.54,beta 1.16.230.54,"Wandering traders can sell small dripleaf, pointed dripstone, rooted dirt, and moss blocks. {""type"": ""bedrock"", ""version"": ""1.17.0"", ""snap"": ""beta 1.16.230.54"", ""content"": ""Wandering traders can sell (link to small dripleaf article, displayed as small dripleaf), (link to pointed dripstone article, displayed as pointed dripstone), (link to rooted dirt article, displayed as rooted dirt), and (link to moss block article, displayed as moss blocks).""}"
+    1.17.0,1.17.0,beta 1.16.230.54,beta 1.16.230.54,beta 1.16.230.54,"Stone masons can now sell dripstone blocks. {""type"": ""bedrock"", ""version"": ""1.17.0"", ""snap"": ""beta 1.16.230.54"", ""content"": ""Stone masons can now sell (link to dripstone block article, displayed as dripstone blocks).""}"
+    1.18.10,1.18.10,beta 1.18.10.26,beta 1.18.10.26,beta 1.18.10.26,"Butcher, cartographer, librarian, and wandering trader trades have been changed to match Java Edition. {""type"": ""bedrock"", ""version"": ""1.18.10"", ""snap"": ""beta 1.18.10.26"", ""content"": ""Butcher, cartographer, librarian, and wandering trader trades have been changed to match ''Java Edition''.""}"
+    1.18.30,1.18.30,beta 1.18.20.21,beta 1.18.20.21,beta 1.18.20.21,"Armorer, cleric, fisherman, shepherd, toolsmith, and weaponsmith villager trades have been changed to match Java Edition. {""type"": ""bedrock"", ""version"": ""1.18.30"", ""snap"": ""beta 1.18.20.21"", ""content"": ""Armorer, cleric, fisherman, shepherd, toolsmith, and weaponsmith villager trades have been changed to match ''Java Edition''.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),beta 1.20.30.20,beta 1.20.30.20,beta 1.20.30.20,"Librarians from different biomes now sell different enchanted books. {""type"": ""bedrock"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""beta 1.20.30.20"", ""content"": ""Librarians from different biomes now sell different enchanted books.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),beta 1.20.30.20,beta 1.20.30.20,beta 1.20.30.20,"Librarians now sell, as their only master-level trade, enchanted books with a special enchantment that depends on the biome they spawned in (as shown by their garments). This is the only way to obtain these enchantments via trading. {""type"": ""bedrock"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""beta 1.20.30.20"", ""content"": ""Librarians now sell, as their only master-level trade, enchanted books with a special enchantment that depends on the biome they spawned in (as shown by their garments). This is the only way to obtain these enchantments via trading.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),beta 1.20.30.20,beta 1.20.30.20,beta 1.20.30.20,"Since jungle and swamp villagers do not spawn naturally, the only way to obtain the special enchanted books from these librarians is to bring in villagers from outside, get them to mate, and arrange for their babies to become librarians. {""type"": ""bedrock"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""beta 1.20.30.20"", ""content"": ""Since jungle and swamp villagers do not spawn naturally, the only way to obtain the special enchanted books from these librarians is to bring in villagers from outside, get them to mate, and arrange for their babies to become librarians.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),beta 1.20.30.20,beta 1.20.30.20,beta 1.20.30.20,"Enchantments for tridents, crossbows and fishing rods are no longer obtainable from trading, and must be acquired by other means. {""type"": ""bedrock"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""beta 1.20.30.20"", ""content"": ""Enchantments for (link to trident article, displayed as tridents), (link to crossbow article, displayed as crossbows) and (link to fishing rod article, displayed as fishing rods) are no longer obtainable from trading, and must be acquired by other means.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),beta 1.20.30.20,beta 1.20.30.20,beta 1.20.30.20,"Wandering traders now sell more items, and buy certain items from the player. {""type"": ""bedrock"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""beta 1.20.30.20"", ""content"": ""Wandering traders now sell more items, and buy certain items from the player.""}"
+    Villager Trade Rebalance (Experimental),Villager Trade Rebalance (Experimental),beta 1.20.30.20,beta 1.20.30.20,beta 1.20.30.20,"Some of the existing trades from wandering traders have reduced prices. {""type"": ""bedrock"", ""version"": ""Villager Trade Rebalance<br>(Experimental)"", ""snap"": ""beta 1.20.30.20"", ""content"": ""Some of the existing trades from wandering traders have reduced prices.""}"
+    Legacy Console Edition,Legacy Console Edition,Legacy Console Edition,Legacy Console Edition,Legacy Console Edition,Legacy Console Edition
+    TU14,CU1,1.04,Patch 1,1.0.1,"Added villager trading. {""type"": ""console"", ""xbox"": ""TU14"", ""xbone"": ""CU1"", ""ps"": ""1.04"", ""wiiu"": ""Patch 1"", ""switch"": ""1.0.1"", ""content"": ""Added villager trading.""}"
+    TU20,CU8,1.13,Patch 1,1.0.1,"Librarian villagers now may offer name tags for sale. {""type"": ""console"", ""xbox"": ""TU20"", ""xbone"": ""CU8"", ""ps"": ""1.13"", ""wiiu"": """", ""switch"": """", ""content"": ""Librarian villagers now may offer (link to name tag article, displayed as name tags) for sale.""}"
+    TU31,CU19,1.22,Patch 3,1.0.1,"Changed villager trades to offers as of Java Edition 1.8. {""type"": ""console"", ""xbox"": ""TU31"", ""xbone"": ""CU19"", ""ps"": ""1.22"", ""wiiu"": ""Patch 3"", ""switch"": """", ""content"": ""Changed villager trades to offers as of (link to Java Edition 1.8 article, displayed as Java Edition 1.8).""}"
+    PlayStation 4 Edition,PlayStation 4 Edition,PlayStation 4 Edition,PlayStation 4 Edition,PlayStation 4 Edition,PlayStation 4 Edition
+    1.91,1.91,1.91,1.91,1.91,"The trading interface shows the new career level for villagers and which trades are locked. {""type"": ""ps4"", ""version"": ""1.91"", ""content"": ""The trading interface shows the new career level for villagers and which trades are locked.""}"
+    1.91,1.91,1.91,1.91,1.91,"Villager trading prices now depend on the player's popularity in the village. {""type"": ""ps4"", ""version"": ""1.91"", ""content"": ""Villager trading prices now depend on the player's popularity in the village.""}"
+    1.91,1.91,1.91,1.91,1.91,"Villagers now resupply their trades up to two times a day, if they get to work at a job site block. {""type"": ""ps4"", ""version"": ""1.91"", ""content"": ""Villagers now resupply their trades up to two times a day, if they get to work at a (link to Villager#Job site blocks article, displayed as job site) block.""}"
+    
+
+Issues
+    Issues relating to "Trading", "Trades", or "Trade" are maintained on the bug tracker. Report issues there.
+
+Trivia
+Gallery
+  Renders
+  Screenshots
+  Development images
+References
+    Gameplay,Gameplay.1
+    Mechanics,Advancements Achievements Armor materials Archaeology Attribute Chest loot  Difficulty Effect Emotes Explosion Game rules Heads-up display Inventory Creative inventory Language Materials Multiplayer Narrator Oxidation Rarity Redstone circuits Renewable resources Non-renewable Scoreboard Snowlogging South-east rule Spawn Tiers Tutorial hints Waterlogging Survival Bartering Breaking Instant mining Breeding Brewing Crafting 2×2 grid Recipe book Durability Enchanting Experience Fishing Health Healing Hunger Item repair Patrol Raid Smelting Smithing Taming Trading Zombie siege Combat Blocking Damage Attack cooldown Critical hit Drops Dual wield Monster infighting Movement Crawling Flying Gliding Jumping Lying Riding Sitting Sneaking Sprinting Swimming Walking Rendering Fog Screen effects Third-person view Tint
+    Survival,Bartering Breaking Instant mining Breeding Brewing Crafting 2×2 grid Recipe book Durability Enchanting Experience Fishing Health Healing Hunger Item repair Patrol Raid Smelting Smithing Taming Trading Zombie siege
+    Combat,Blocking Damage Attack cooldown Critical hit Drops Dual wield Monster infighting
+    Movement,Crawling Flying Gliding Jumping Lying Riding Sitting Sneaking Sprinting Swimming Walking
+    Rendering,Fog Screen effects Third-person view Tint
+    
+

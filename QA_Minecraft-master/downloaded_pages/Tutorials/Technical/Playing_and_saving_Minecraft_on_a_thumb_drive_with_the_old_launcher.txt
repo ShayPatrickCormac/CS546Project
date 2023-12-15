@@ -1,0 +1,42 @@
+Overview
+    This guide aims to make Minecraft on a portable USB drive with the 1.6 or lower version launcher. If you have the 2.0 launcher or above, please see this guide.
+
+Introduction
+    You will need about 8 GB minimum of space in the directory/portable drive. A <8 GB drive/directory can be used, but this is not advised because you will quickly run out of space after saving a couple of worlds. You may need more space if there are mods, larger worlds or texture packs installed.
+
+Instructions for Windows
+    WARNING: If anything in the following guides is not done correctly, Minecraft may crash or fail to start All folder and file names in the Windows guide are case sensitive. This section will guide you on copying your game data (worlds, saves data, resource packs, server list, etc.) onto the portable drive. If you do not want to copy your game data, you may skip this section. The .minecraft folder contains all of your current game data. Press ⊞ Windows + R
+Type %appdata% and press ↵ Enter., Type %appdata% and press ↵ Enter., Locate your .minecraft folder and copy it, Copy the .minecraft folder and paste it into the Data folder Now that all the data files are in the directory, a batch file will need to be created. 3. Now click File > Save As... 4. Navigate into your Minecraft Portable folder (not Data). 5. Name this file "StartMinecraft.bat" Note: Make sure to include the quotation marks ("") and choose "All Files" for the "Save As Type" field, or else Notepad will try to correct it to StartMinecraft.bat.txt and it will open as a text file rather than an executable script. If you are getting an error stating that the system cannot find Minecraft.exe/.jar, use this script if you are using Minecraft.exe. Use this script if you are using Minecraft.jar. To install resource packs or mods onto the portable drive, use the .minecraft folder of that portable drive., If you would like to have multiple .minecraft ("Data") folders in order to quickly switch to an older version of Minecraft or play with mods, make multiple "Data" folders, with different names ("1.6.4", "Modded", and so forth) and a batch file for each one. You may have to make a second "Drive" folder if you want to use 1.5.2 or before, as that uses an older launcher.
+
+Instructions for Linux
+    Assume that the portable drive is at /dev/sdb1 and that Minecraft is installed at ~/games/.minecraft. Note: You may need to use a different directory name depending on your distribution and set-up. Run the following in a terminal: Note: The following commands require may require superuser privileges. Make sure you are running these as root or are using sudo., Note: Text following the # symbol are comments, and can be omitted for that line., Note: 'cd ~/.minecraft/' is the same as 'cd /home/user/.minecraft/' After that, to launch Minecraft, enter the following in the terminal with superuser privileges. Run the Minecraft launcher to start playing. Or use this script:
+
+Instructions for OS X
+    Locate your Minecraft files. Press Command+Shift+G while in finder and then paste ~/Library/application support/minecraft into the dialog.
+Copy that minecraft folder in your application support folder.
+Insert in your portable drive and make 2 folders in it, named Data and Launcher.
+Paste your minecraft folder into the "data" folder in the portable drive.
+Drag your launcher into the "launcher" folder
+Remove your portable drive, Locate your Minecraft files. Press Command+Shift+G while in finder and then paste ~/Library/application support/minecraft into the dialog., Copy that minecraft folder in your application support folder., Insert in your portable drive and make 2 folders in it, named Data and Launcher., Paste your minecraft folder into the "data" folder in the portable drive., Drag your launcher into the "launcher" folder, Remove your portable drive Once you are done setting up, you can test if your Minecraft can start on another Mac. Insert your portable drive into another Mac to test
+Open the launcher folder and move the Minecraft launcher into your Applications folder.
+Double click the launcher to run it. Then after Minecraft loads, exit it.
+Again, go to Users/USERNAME/Library/Application Support
+In "Application Support", delete the minecraft folder.
+Move the minecraft folder in your data folder on your portable drive to the desktop.
+Then drag it from your desktop into application support.
+Run Minecraft again., Insert your portable drive into another Mac to test, Open the launcher folder and move the Minecraft launcher into your Applications folder., Double click the launcher to run it. Then after Minecraft loads, exit it., Again, go to Users/USERNAME/Library/Application Support, In "Application Support", delete the minecraft folder., Move the minecraft folder in your data folder on your portable drive to the desktop., Then drag it from your desktop into application support., Run Minecraft again. Or use this script:
+
+Alternative Methods
+    WARNING: The following methods will only work in Windows.
+
+  Cryshal's Method
+    Doesn't work, minecraft still runs from the appdata folder, Minecraft Profile Manager is useless, and java will not run from the flash drive. Instructions First, create a folder named, say, "Flash MC".  Then, go on over to get jPortable which lets you run Java right on your flash drive, without it being installed on the computer. You will want to install that onto your flash drive in a directory like \Flash MC\jPortable. Then, go to Minecraft Profile Manager's thread, and download it., Put it into your Portable MC folder.  Follow the instructions. (Put minecraft.exe into the same folder that it is in), You should now be able to launch MPM, make a profile and download all the needed Minecraft files to play.
+
+  HiWiki's Method
+    Instructions But if you use a Jar, put this instead: And if you use a Jar/Exe with a different name such as Minecraft-launcher put this Then you are all done! Additional notes You will need Java for this, but if you also want java in your Flash/Thumb/USB drive, see the section titled Add Portable Java below., Any data you have in your .minecraft in appdata will also be in your Flash/Thumb/USB drive You will need an extra 500MB in your Drive for this to work! Now you have done the above, time to add portable Java! How to open jPortable First, find the folder PortableApps in your Flash/Thumb/USB drive, Then double click start, Then press jPortable Launcher, A window will open, then find the jar (Don't worry if it shows jar can be opened only change it to all files then find your exe), Then after that press open then your minecraft will open Issues and how to fix them The minecraft directory is not there, if that happens then press edit profile then find and locate your data folder in file explorer then right click it then press properties
+Also in the edit profile window tick the Game directory box
+Now a window should open, so you will Select the text by dragging in the Location Line then paste it in the Game directory box then include this \.minecraft or paste it in the Game directory box, Also in the edit profile window tick the Game directory box, Now a window should open, so you will Select the text by dragging in the Location Line then paste it in the Game directory box then include this \.minecraft or paste it in the Game directory box Credits This part was made by HiWiki. If there are any issues in this guide, please PM that user. The original source can be found in this thread. Changing the launcher file to use an autorun script If you are using an autorun.inf instead of using or change the file to this: Save the file as "Autorun.inf" (do NOT save it as Autorun.inf.txt)
+
+Video Tutorial
+    A video tutorial showing the step-by-step procedure on how to make Minecraft portable and run it from a USB thumb drive without Java installed
+

@@ -1,0 +1,57 @@
+Overview
+    A block of gold is a precious metal block equivalent to nine gold ingots.
+
+Obtaining
+  Breaking
+    Blocks of gold can only be mined with an iron pickaxe or better.
+
+    Block,Block of Gold
+    Hardness,3
+    Tool,iron pickaxe
+    Breaking time (sec) [A]
+    Default,15
+    Wooden,7.5
+    Stone,3.75
+    Iron,0.75
+    Diamond,0.6
+    Netherite,0.5
+    Golden,1.25
+
+  Natural generation
+    Ocean monuments have a central room containing 8 blocks of gold encased in dark prismarine. Blocks of gold generate as part of ruined portals and bastion remnants in varying quantities.
+
+  Chest loot
+    Item,Structure,Container,Quantity,Chance
+    Java Edition
+    Block of Gold,Bastion remnant,Treasure chest,2–5,"33.7% { ""item"": ""Block of Gold"", ""stacksize"": ""2–5"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Bridge chest,1,"11.2% { ""item"": ""Block of Gold"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Generic chest,1,"19% { ""item"": ""Block of Gold"", ""stacksize"": 1, ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Hoglin stable chest,2–4,"18.2% { ""item"": ""Block of Gold"", ""stacksize"": ""2–4"", ""chance"": 0.18181818181818177, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Ruined portal,Chest,1–2,"1.5% { ""item"": ""Block of Gold"", ""stacksize"": ""1–2"", ""chance"": 0.014974764874937763, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+    Bedrock Edition
+    Block of Gold,Bastion remnant,Treasure chest,2–5,"33.7% { ""item"": ""Block of Gold"", ""stacksize"": ""2–5"", ""chance"": 0.33668648071940255, ""structure"": ""Bastion remnant"", ""container"": ""Treasure chest"" }"
+    Bridge chest,1,"11.2% { ""item"": ""Block of Gold"", ""stacksize"": 1, ""chance"": 0.11242603550295849, ""structure"": ""Bastion remnant"", ""container"": ""Bridge chest"" }"
+    Generic chest,1,"19% { ""item"": ""Block of Gold"", ""stacksize"": 1, ""chance"": 0.18999999999999995, ""structure"": ""Bastion remnant"", ""container"": ""Generic chest"" }"
+    Hoglin stable chest,2–4,"18.2% { ""item"": ""Block of Gold"", ""stacksize"": ""2–4"", ""chance"": 0.18181818181818177, ""structure"": ""Bastion remnant"", ""container"": ""Hoglin stable chest"" }"
+    Ruined portal,Chest,1–2,"1.5% { ""item"": ""Block of Gold"", ""stacksize"": ""1–2"", ""chance"": 0.014974764874937763, ""structure"": ""Ruined portal"", ""container"": ""Chest"" }"
+
+  Crafting
+    Ingredients,Crafting recipe
+    Gold Ingot,"[['Gold Ingot', 'Gold Ingot', 'Gold Ingot'], ['Gold Ingot', 'Gold Ingot', 'Gold Ingot'], ['Gold Ingot', 'Gold Ingot', 'Gold Ingot']]"
+
+Usage
+    Blocks of gold are a compact way to store gold ingots.
+
+  Beacons
+    Blocks of gold can be used to "power" a beacon. The beacon can be powered by a 3×3 square of gold blocks underneath it, and can optionally also include a 5×5, 7×7 and 9×9 layer in the shape of a pyramid under the original layer to increase the effects from the beacon. The layers do not have to be entirely gold blocks, as they may also contain blocks of iron, blocks of emerald, blocks of netherite, and blocks of diamond.
+
+  Note blocks
+    Blocks of gold can be placed under note blocks to produce bell sounds.
+
+  Piglins
+    Piglins become distracted upon the player dropping a block of gold as an item, and become enraged if the player breaks a block of gold near them.
+
+  Crafting ingredient
+    Name,Ingredients,Crafting recipe
+    Gold Ingot,Block of Gold,"[[None, None, None], [None, '', None], [None, None, None]]"
+
